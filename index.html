@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
 <style>
-/* A court-side scorebook: chapters run top to bottom; each chapter's screens sit in a swipeable strip of phones. */
+/* A single review page: every current iOS capture is visible in its chapter grid. */
 :root {
   --bg: #f4f6f1; --surface: #ffffff; --ink: #121a24; --muted: #5b6573; --line: #dde3d6;
   --volt: #5e7a00; --volt-soft: #eef4d6; --phone: #0b1118;
@@ -45,8 +45,7 @@ nav.chapters a { flex: none; text-decoration: none; color: var(--muted); font-fa
 nav.chapters a:hover, nav.chapters a.on { color: var(--ink); background: var(--volt-soft); }
 section.chapter { padding-block: 48px 8px; display: grid; gap: 14px; scroll-margin-top: 60px; min-width: 0; }
 .chapter .who { color: var(--muted); }
-.strip { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(220px, 250px); gap: 18px; overflow-x: auto;
-  scroll-snap-type: x mandatory; padding-block: 8px 18px; min-width: 0; }
+.strip { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 24px 18px; padding-block: 8px 18px; min-width: 0; }
 .shot { scroll-snap-align: start; display: grid; gap: 8px; align-content: start; min-width: 0; }
 .shot button.img { border: 0; padding: 0; background: var(--phone); border-radius: 26px; overflow: hidden; cursor: zoom-in;
   box-shadow: 0 0 0 1px var(--line); aspect-ratio: 1320 / 2868; }
@@ -66,7 +65,7 @@ dialog img { display: block; max-height: 82vh; max-width: 92vw; border-radius: 1
 dialog .cap { color: #e8edf2; font-size: 0.95rem; padding-top: 10px; max-width: 60ch; }
 dialog .bar { display: flex; gap: 8px; justify-content: space-between; align-items: center; padding-top: 8px; }
 dialog .bar button { background: #1b2633; color: #e8edf2; border: 1px solid #2c3a4a; border-radius: 999px; padding: 8px 16px; font-family: var(--body); cursor: pointer; min-height: 40px; }
-@media (max-width: 520px) { .wrap { padding-inline: 16px; } .strip { grid-auto-columns: 72%; } .shot.wide { grid-column: span 1; } .shot.wide button.img img { height: 380px; } }
+@media (max-width: 520px) { .wrap { padding-inline: 16px; } .strip { grid-template-columns: minmax(0, 1fr); } .shot.wide { grid-column: span 1; } .shot.wide button.img img { height: 380px; } }
 @media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
 </style>
 </head>
@@ -76,11 +75,11 @@ dialog .bar button { background: #1b2633; color: #e8edf2; border: 1px solid #2c3
     <span class="eyebrow">Circuit Pickleball · Circuit League · October 2026</span>
     <h1>Circuit League walkthrough</h1>
     <p class="lede">The Circuit League is a free, always-open league in the Circuit Pickleball app. Players pick their times and courts, Circuit proposes matches against players at their level, and eligible played results contribute to League boards and DUPR submissions.</p>
-    <p class="lede">The October 19 update follows fictional Avery through the changed iPhone and Android screens, plus the web handoff and private operator console. The earlier Blake/Jordan tour is retained below with dated labels. Tap any screen to see it full size.</p>
+    <p class="lede">Fresh iOS screenshots show all seven polish changes first, followed by the wider League flow. Every screen is laid out on this page; tap one to inspect it full size. <a href="before-ios-polish.html">Previous walkthrough</a>.</p>
     <div class="facts">
-      <span><b>28</b> current captures · October 19</span><span>46 earlier tour screens retained</span>
-      <span><b>iOS + Android</b> · dark theme · Default app text</span>
-      <span>Web page at desktop and phone widths</span>
+      <span><b>48</b> fresh iOS screenshots · October 19</span><span>Seven polish changes</span>
+      <span><b>iOS</b> · dark theme · Default app text</span>
+      <span>Local review · not published</span>
       <span>Fictional players and test data</span>
     </div>
   </header>
@@ -95,16 +94,16 @@ dialog .bar button { background: #1b2633; color: #e8edf2; border: 1px solid #2c3
       <div>
         <h3>How it was captured</h3>
         <ul>
-          <li>October 19 captures use current local code and an isolated fictional database. Implementation is local; this update is not deployed.</li>
+          <li>These screenshots use the polished local iOS app and an isolated fictional database. This update is not deployed.</li>
           <li>Every player, score and message is made up.</li>
-          <li>The October 15 tour retains its original fictional week and captions; those images are historical evidence.</li>
+          <li>The previous walkthrough is preserved separately, including its older iOS, Android and web evidence.</li>
         </ul>
       </div>
       <div>
         <h3>Things to know</h3>
         <ul>
           <li>A profile photo is optional. Players without one show their initials.</li>
-          <li>Older test photos may show grey circles. Fresh captures use fictional players and initials.</li>
+          <li>Screens show fictional players and initials. No personal contact information is included.</li>
           <li>Contact details are never shown to other players. They talk through match chat.</li>
         </ul>
       </div>
@@ -112,7 +111,7 @@ dialog .bar button { background: #1b2633; color: #e8edf2; border: 1px solid #2c3
         <h3>Not shown here</h3>
         <ul>
           <li>Light theme, enlarged text, screen-reader gestures and an exhaustive route/overlay/state matrix. Enlarged text was excluded by the owner.</li>
-          <li>Physical camera/location, real push/email/DUPR delivery, store resumption and the operator browser map provider. Its fallback was checked without a browser key.</li>
+          <li>Android, physical camera/location, provider delivery, store resumption, published standings, valid stats and ready recaps were not rechecked in this iOS polish pass.</li>
         </ul>
       </div>
     </div>
@@ -126,277 +125,318 @@ dialog .bar button { background: #1b2633; color: #e8edf2; border: 1px solid #2c3
 </dialog>
 
 <script>
-const EARLIER_CHAPTERS = [
-  { id: 'first', title: 'First visit', who: 'Blake, a new player in Austin, opens the League tab for the first time.', shots: [
-    ['intro-1', 'The pitch', 'The league that\'s always open, with an example Match found card. Join the League is always one tap away.'],
-    ['intro-2', 'Your times, your call', 'Pick your times and courts. Saying no to a match costs nothing.'],
-    ['intro-3', 'The leaderboard', 'Every confirmed result moves the boards for the places you play and goes to DUPR. A recap arrives every week.'],
-  ]},
-  { id: 'setup', title: 'Setup', who: 'Six steps. Things already on the profile carry over.', shots: [
-    ['setup-before', 'Before you join', 'DUPR and gender are checked and the profile photo is optional. There is no home city to enter. The five-minute estimate shows on this step only.'],
-    ['setup-how', 'How you play', 'Singles, rotating doubles or a fixed team, each with its category, plus a plain note on who can play which category.'],
-    ['setup-venues', 'Venues come first', 'Your area comes from the courts you pick. Three suggested courts near you with "Use these", or choose from the map.'],
-    ['setup-venue-card', 'One venue', 'Tapping a pin sets that court to Preferred, OK or No. "3 of 25 venues saved" shows how many are chosen.'],
-    ['setup-outside-area', 'Outside an opened area', 'Where the League isn\'t open yet: "It opens area by area as players join", with Invite friends and Suggest a venue. Continue stays off until a venue is saved.'],
-    ['setup-times', 'Your times', 'Popular times from other singles players, or add your own by day. Times are in the League\'s zone, Central (CT).'],
-    ['setup-time-sheet', 'Pick hours', 'One button per hour. The sheet sums it up: "Available: 6–8 PM".'],
-    ['setup-times-saved', 'Times saved', 'Sunday 6–8 PM, with Edit times and a way to remove it.'],
-    ['setup-prefs', 'Match preferences', 'Games and points per format, a wider level range after a long wait, auto-accept and weekly matchmaking.'],
-    ['setup-terms', 'Release and terms', 'The full League release in place, then two boxes to check before Join the League turns on.'],
-  ]},
-  { id: 'joined', title: 'In the League', who: 'Blake joins and lands on Home.', shots: [
-    ['joined', 'You\'re in', 'What to expect from matching, a prompt to turn on notifications, and Start matchmaking.'],
-    ['home-searching', 'Home · searching', '"Circuit is looking for your first match." The singles search shows "Looking since today", with this week\'s times and Skip this week.'],
-    ['home-lower', 'Home · lower', 'This week in the season, the leaderboard, saved venues and invites.'],
-  ]},
-  { id: 'needs', title: 'Needs you', who: 'Jordan has played all week. Home leads with what they owe.', shots: [
-    ['home-needs-you', 'Home · Needs you', 'Each task with its deadline and opponent, listed once. Players without a photo show initials.'],
-  ]},
-  { id: 'found', title: 'Match found', who: 'Matchmaking puts Jordan with three others for Sunday 11:30 AM.', shots: [
-    ['found-players', 'The offer', 'Each player\'s League matches and whether they have answered, then Accept, Choose another time or Not this time.'],
-    ['found-accepted', 'Accepted', '"You accepted. Waiting for Ben H., Luis O. and Alex K."'],
-    ['found-confirmed', 'Everyone in', 'The screen updates live to "Match confirmed" with Open confirmed match.'],
-    ['confirmed-doubles', 'Confirmed doubles', 'Venue, time, the first game\'s pairing, the four players, and calendar, directions and match chat.'],
-    ['confirmed-singles', 'Confirmed singles', 'Tomorrow 10:00 AM vs Sam P. The singles search paused for this match.'],
-  ]},
-  { id: 'score', title: 'Reporting a score', who: 'Friday\'s match against Maya is over and Jordan owes the score.', shots: [
-    ['score-due', 'Score due', 'A status tag, the reporting deadline, and Report score as the main action.'],
-    ['score-report', 'Report score', 'Three games, each marked "Finished game".'],
-    ['score-typing', 'Typing', 'Focusing a box scrolls it clear of the Send button.'],
-    ['score-ready', 'Ready to send', 'Where and when, and how the other side reviews it.'],
-    ['score-sent', 'Score sent', 'Each game colored by who won it, and when the score counts if Maya does nothing.'],
-    ['score-waiting', 'Waiting on Maya', 'The sent score with directions, match chat and Play again. No no-show option once a score exists.'],
-  ]},
-  { id: 'review', title: 'Review, dispute, final', who: 'Opponents report two scores. Jordan disputes one and confirms the other.', shots: [
-    ['review-score', 'Review score', 'Owen\'s report, when it counts automatically, and Score is right as the main button.'],
-    ['review-lower', 'Review · lower', 'Who books the court, the court fee, directions and match chat.'],
-    ['review-wrong', 'Something\'s wrong', 'A note to the other side. Sending it stops the automatic count.'],
-    ['review-disputed', 'Disputed', 'The note, the deadline to agree, and Propose a correction.'],
-    ['final-win', 'Final · win', '"You won 2–1" with badges such as Clutch and Comeback win.'],
-    ['final-loss', 'Final · loss', '"You lost 1–2", the week\'s match count, and DUPR status for each game.'],
-    ['final-lower', 'Final · lower', 'Directions, match chat, Play again and Problem with this result?'],
-  ]},
-  { id: 'progress', title: 'Progress', who: 'After the week closes.', shots: [
-    ['home-boards', 'Home · your boards', 'Jordan is ranked on the Austin, Austin area and TX boards, each from the venues where matches were played. No city was ever chosen.'],
-    ['leaderboard', 'Leaderboard', 'Austin singles, men\'s. Rank, record, Provisional label, and Jordan\'s row highlighted.'],
-    ['leaderboard-places', 'Leaderboard · places', 'The Place picker lists boards from where you have played: city, area, state, Everywhere and each venue.'],
-    ['stats', 'League stats', 'Record, badges, Provisional progress, rank history and every match.'],
-    ['recap', 'Weekly recap', 'Week totals, then every match with its games.'],
-    ['recap-lower', 'Recap · boards', 'Rank on each board played, from Austin to everywhere, the Founding Member badge and Start matchmaking.'],
-  ]},
-  { id: 'around', title: 'Chat and settings', who: '', shots: [
-    ['chat', 'Match chat', 'The thread for Sunday\'s doubles match.'],
-    ['settings', 'League settings', 'Each notification type, plus Automatic check-in.'],
-  ]},
-  { id: 'web', title: 'Web page', who: 'circuitpickleball.com/league, for people who don\'t have the app yet.', shots: [
-    ['web-desktop', 'Desktop', 'A QR code to get the app, three promises, how it works, League vs ladder, and questions.', 'wide'],
-    ['web-phone', 'Phone', 'Store buttons instead of a QR code.'],
-    ['web-phone-scrolled', 'Phone · scrolled', 'The three promises below the phone mockup.'],
-  ]},
-];
-
-const CURRENT_CHAPTERS = [
+const CHAPTERS = [
+  {
+    "id": "polish",
+    "title": "The seven polish changes",
+    "who": "Fresh iOS screens after the seven approved improvements.",
+    "shots": [
+      [
+        "polish-ios-07-venue-detail.png",
+        "Venue details",
+        "Aligned format choices, Directions beside the address, and quieter secondary links."
+      ],
+      [
+        "polish-ios-12-scan.png",
+        "Scan format choices",
+        "All three choices share the same height when Rotating doubles wraps."
+      ],
+      [
+        "polish-ios-19-scan-waiting.png",
+        "Scan · waiting",
+        "Compact player rows retain each confirmation status and contextual Remove action."
+      ],
+      [
+        "polish-ios-28-chat-keyboard.png",
+        "Chat · keyboard",
+        "A wrapping draft and Send stay above the keyboard."
+      ],
+      [
+        "polish-ios-18-code.png",
+        "My QR",
+        "The identity and code come before the privacy and confirmation guidance."
+      ],
+      [
+        "polish-ios-10-team.png",
+        "Team details",
+        "The category sits above one partner identity."
+      ],
+      [
+        "polish-ios-21-invite-receipt.png",
+        "Team accepted",
+        "The receipt explicitly labels Matchmaking: Off."
+      ]
+    ]
+  },
+  {
+    "id": "first",
+    "title": "First visit",
+    "who": "Three introduction cards, freshly captured on iOS.",
+    "shots": [
+      [
+        "polish-ios-40-intro-match.png",
+        "Introduction · matches",
+        "The pitch and a clearly labeled example."
+      ],
+      [
+        "polish-ios-41-intro-week.png",
+        "Introduction · your week",
+        "The example week and stable Join/Next footer."
+      ],
+      [
+        "polish-ios-42-intro-rank.png",
+        "Introduction · boards",
+        "The rank example and final introduction card."
+      ]
+    ]
+  },
+  {
+    "id": "setup",
+    "title": "Join the League",
+    "who": "A fictional eligible profile; legal acceptance and final enrollment were not performed.",
+    "shots": [
+      [
+        "polish-ios-33-not-joined.png",
+        "Continue setup",
+        "A fictional returning visitor has one setup step left."
+      ],
+      [
+        "polish-ios-39-entry.png",
+        "Before you join",
+        "The synthetic profile checklist and single Continue action."
+      ],
+      [
+        "polish-ios-38-how-you-play.png",
+        "How you play",
+        "Formats, categories and the acknowledgment remain together."
+      ],
+      [
+        "polish-ios-37-setup-venues.png",
+        "Venues during setup",
+        "A visitor can defer venue choices and keep matchmaking off."
+      ],
+      [
+        "polish-ios-36-options.png",
+        "Matching options",
+        "Existing commitment and automatic-matching guidance is preserved."
+      ],
+      [
+        "polish-ios-34-terms.png",
+        "Release and terms",
+        "The release remains readable with an explicit Join action."
+      ],
+      [
+        "polish-ios-35-terms-end.png",
+        "Release · scroll end",
+        "Both acceptance checkboxes and the terms link remain reachable. Neither was accepted."
+      ]
+    ]
+  },
   {
     "id": "preferences",
     "title": "Your play settings",
-    "who": "iOS · October 19",
+    "who": "Home, preferences and the time picker.",
     "shots": [
       [
-        "current-ios-settings",
-        "Play first",
-        "Times, venues and weekly matching lead settings."
+        "polish-ios-01-home.png",
+        "Home",
+        "Needs you brings the offer and score tasks to the top."
       ],
       [
-        "current-ios-notifications",
+        "polish-ios-02-menu.png",
+        "League menu",
+        "My QR, settings and rules remain together."
+      ],
+      [
+        "polish-ios-03-settings.png",
+        "Play settings",
+        "Times, venues and weekly matchmaking lead."
+      ],
+      [
+        "polish-ios-46-settings-bottom.png",
+        "Settings · lower",
+        "Privacy, safety and help remain reachable above the tab bar."
+      ],
+      [
+        "polish-ios-04-notifications.png",
         "Notifications",
         "Optional switches and required notices keep their own screen."
       ],
       [
-        "current-ios-times",
-        "Your own week",
-        "Saved times and Add time come before guidance."
+        "polish-ios-51-times-loaded.png",
+        "Your times",
+        "The saved week appears before current matching guidance."
       ],
       [
-        "current-ios-settings-bottom",
-        "Settings · lower",
-        "Safety and League help remain reachable above the tab bar."
+        "polish-ios-45-time-editor.png",
+        "Choose hours",
+        "The existing time grid and current availability."
+      ],
+      [
+        "polish-ios-06-venues.png",
+        "Saved venues",
+        "The current favorite and backup organization."
       ]
     ]
   },
   {
     "id": "venues",
-    "title": "Saved venues and discovery",
-    "who": "iOS and Android · October 19",
+    "title": "Find courts and share a flyer",
+    "who": "A loaded native map and the existing flyer sheet.",
     "shots": [
       [
-        "current-ios-venues-saved",
-        "Saved and ranked",
-        "Saved shows favorites, backups, city/state and reviewed access."
+        "polish-ios-32-venues-map.png",
+        "Find venues",
+        "The loaded Austin map and selected venue."
       ],
       [
-        "current-ios-venues-find",
-        "Find courts",
-        "Search Austin with the existing map/list choices."
-      ],
-      [
-        "current-android-venues-saved",
-        "Saved · Android",
-        "The same Saved/Find organization on Android."
+        "polish-ios-24-flyer-sheet.png",
+        "Flyer actions",
+        "The quieter venue link still opens Print and Share or save PDF."
       ]
     ]
   },
   {
-    "id": "decisions",
-    "title": "Offers and score decisions",
-    "who": "iOS · October 19",
+    "id": "teams",
+    "title": "Offers and teams",
+    "who": "The offer, invitation and team flow.",
     "shots": [
       [
-        "current-ios-offer",
-        "A single shared plan",
-        "Avery and Sam share one court and one start time."
+        "polish-ios-08-offer.png",
+        "Match found",
+        "The shared court, time, answer deadline and acceptance action."
       ],
       [
-        "current-ios-offer-no-alternative",
+        "polish-ios-09-alternatives.png",
         "No other shared option",
-        "Keep current plan returns to the offer. Not this time opens the existing decline flow."
+        "Keep the current plan or open the decline flow."
       ],
       [
-        "current-ios-score-dispute",
-        "Dispute or report",
-        "Send dispute needs a reason. Report suspected fake result is separate."
+        "polish-ios-20-invite.png",
+        "Team invitation",
+        "The named invitation states that accepting does not start matchmaking."
+      ],
+      [
+        "polish-ios-11-team-new.png",
+        "New team · limit reached",
+        "The existing three-team limit explains how to make room before adding a team."
+      ],
+      [
+        "polish-ios-22-invited-team.png",
+        "Your new team",
+        "Weekend Pair shows Ravi once, then its times and settings."
       ]
     ]
   },
   {
     "id": "scan",
     "title": "Scan to play",
-    "who": "iOS and Android · October 19 · physical camera not verified",
+    "who": "Ready status plus a four-player roster and its scroll end. Physical camera scanning was not tested.",
     "shots": [
       [
-        "current-ios-scan-create",
-        "Create a plan",
-        "Choose a court and format before creating the plan."
+        "polish-ios-25-scan-ready.png",
+        "Scan · ready",
+        "The other player has confirmed; Start match remains the primary action."
       ],
       [
-        "current-ios-scan-host",
-        "The host’s next step",
-        "1 of 2 players: scan one more. The host confirms by starting."
+        "polish-ios-31-scan-four-players.png",
+        "Scan · four players",
+        "Four compact rows preserve rotation slots and separate confirmation status."
       ],
       [
-        "current-ios-scan-resume",
-        "Continue the existing plan",
-        "The open plan replaces the creation form and shows its count and expiry."
-      ],
-      [
-        "current-android-scan-resume",
-        "Continue · Android",
-        "The same existing-plan destination on Android."
+        "polish-ios-47-scan-four-bottom.png",
+        "Scan · scroll end",
+        "The four-player screen scrolls to the Start and Cancel controls above the tab bar."
       ]
     ]
   },
   {
-    "id": "teams-now",
-    "title": "Partner invitations and teams",
-    "who": "iOS · October 19 · fictional Avery",
+    "id": "chat",
+    "title": "Match chat",
+    "who": "Empty, player controls, conversation and reply states.",
     "shots": [
       [
-        "current-ios-team-invite",
-        "A named invitation",
-        "The invitation names the team and says accepting does not start matchmaking."
+        "polish-ios-26-chat-empty.png",
+        "Chat · empty",
+        "Players sits with the match context; Message and Send share a row."
       ],
       [
-        "current-ios-team-accepted",
-        "Acceptance receipt",
-        "The returned team has a name, current search status and Open team."
+        "polish-ios-27-chat-players.png",
+        "Chat · players",
+        "The moved Players action still opens the existing player controls."
       ],
       [
-        "current-ios-team",
-        "Team match settings",
-        "The subtitle names wider level range and automatic acceptance."
+        "polish-ios-43-chat-populated.png",
+        "Chat · conversation",
+        "A fictional incoming message with the compact composer below."
+      ],
+      [
+        "polish-ios-44-chat-reply.png",
+        "Chat · reply",
+        "Reply context, Cancel reply, draft and Send remain above the keyboard."
       ]
     ]
   },
   {
-    "id": "web-now",
-    "title": "The League on the web",
-    "who": "October 19 · local browser",
+    "id": "score",
+    "title": "Scores and progress",
+    "who": "Score review and entry, followed by the current preparing states. Published boards and ready recaps are not shown.",
     "shots": [
       [
-        "current-web-league-390",
-        "Phone landing",
-        "The persistent action is Join League."
+        "polish-ios-48-match-score-due.png",
+        "Score due",
+        "The reporting deadline and Report score action."
       ],
       [
-        "current-web-join-handoff-390",
-        "Join League destination",
-        "The actual link reaches Open League. Store installation/resumption was not tested."
+        "polish-ios-49-score-form.png",
+        "Report score",
+        "Opposing player rows keep each score attached to its player."
       ],
       [
-        "current-web-league-1280",
-        "Desktop landing",
-        "The desktop acquisition page remains available.",
-        "wide"
+        "polish-ios-50-score-metadata.png",
+        "Played date and venue",
+        "The score form retains played-date and venue controls at its scroll end."
+      ],
+      [
+        "polish-ios-13-score-review.png",
+        "Review a score",
+        "Each player keeps their own row and game scores."
+      ],
+      [
+        "polish-ios-14-dispute.png",
+        "Dispute a score",
+        "The reason, deadline consequence and safety-report alternative remain."
+      ],
+      [
+        "polish-ios-29-boards.png",
+        "Leaderboard · preparing",
+        "This local fixture has no published standings yet."
+      ],
+      [
+        "polish-ios-30-recap.png",
+        "Recap · preparing",
+        "The current local recap is not ready; this is not a populated recap preview."
       ]
     ]
   },
   {
-    "id": "operator",
-    "title": "Review and list a court",
-    "who": "October 19 · private console · checked at 360×800, 390×844 and 1280×900",
+    "id": "safety",
+    "title": "Safety records",
+    "who": "Empty account records; no safety action was submitted.",
     "shots": [
       [
-        "current-web-queue-1280",
-        "Distinguishable cases",
-        "Riverside Courts suggestions have separate case references and current selection.",
-        "wide"
+        "polish-ios-16-blocks.png",
+        "Blocked players",
+        "The empty list explains where blocking is available."
       ],
       [
-        "current-web-create-venue-1280",
-        "Reviewed listing facts",
-        "Area timezone, searchable correction and the existing atomic create/list/resolve decision.",
-        "wide"
-      ],
-      [
-        "current-web-map-fallback-390",
-        "Court-location recovery",
-        "No browser map key was configured. Retry and verified coordinates remain available."
-      ],
-      [
-        "current-web-timezone-390",
-        "Search time zones",
-        "Search a supported city or zone; Chicago is shown."
-      ]
-    ]
-  },
-  {
-    "id": "android-now",
-    "title": "Android checks",
-    "who": "October 19 · Default app text · normal OS font scale · dark theme",
-    "shots": [
-      [
-        "current-android-settings",
-        "Play first · Android",
-        "The settings order matches iOS."
-      ],
-      [
-        "current-android-notifications",
-        "Notifications · Android",
-        "The optional switches and required notices remain."
-      ],
-      [
-        "current-android-times",
-        "Your times · Android",
-        "The saved week appears before guidance."
-      ],
-      [
-        "current-android-team",
-        "A formed team · Android",
-        "Northside Pair is a separate fictional team checking the same subtitle."
+        "polish-ios-17-conduct.png",
+        "Conduct record",
+        "The current account has no conduct reports."
       ]
     ]
   }
 ];
-const CHAPTERS = [...CURRENT_CHAPTERS, ...EARLIER_CHAPTERS.map(c => ({...c, title: "Earlier · "+c.title, who: "Retained October 15 tour; this is not fresh verification of current code. "+c.who, historical: true}))];
 const all = [];
 const nav = document.getElementById('nav');
 const host = document.getElementById('chapters');
@@ -405,16 +445,16 @@ for (const c of CHAPTERS) {
   nav.insertAdjacentHTML('beforeend', `<a href="#${c.id}">${c.title}</a>`);
   const sec = document.createElement('section');
   sec.className = 'chapter'; sec.id = c.id;
-  sec.innerHTML = `<span class="eyebrow">${c.historical ? "October 15 · retained · " : "October 19 · local · "}${c.shots.length} ${c.shots.length === 1 ? 'screen' : 'screens'}</span><h2>${c.title}</h2>${c.who ? `<p class="who">${c.who}</p>` : ''}<div class="strip"></div>`;
+  sec.innerHTML = `<span class="eyebrow">October 19 · local · ${c.shots.length} ${c.shots.length === 1 ? 'screen' : 'screens'}</span><h2>${c.title}</h2>${c.who ? `<p class="who">${c.who}</p>` : ''}<div class="strip"></div>`;
   const strip = sec.querySelector('.strip');
   for (const [file, t, d, wide] of c.shots) {
     const n = String(++count).padStart(2, '0');
-    const src = `img/${file}.jpg`;
+    const src = `img/${file}`;
     const idx = all.push({ n, t, d, src }) - 1;
     const el = document.createElement('article');
     el.className = 'shot' + (wide ? ' wide' : '');
     el.innerHTML = `<button class="img" type="button" aria-label="Open screen ${n}, ${t}"><img loading="lazy" src="${src}" alt="${t}: ${d}"></button>
-      <span class="num">${n} · ${c.historical ? "Earlier tour" : "October 19"}</span><h3>${t}</h3><p>${d}</p>`;
+      <span class="num">${n} · October 19</span><h3>${t}</h3><p>${d}</p>`;
     el.querySelector('button.img').addEventListener('click', () => openLb(idx));
     strip.appendChild(el);
   }

@@ -1,0 +1,205 @@
+{
+  "date": "2026-10-19",
+  "source_base_commit": "f3ee62650",
+  "limits": "Local only. Sampled changed surfaces; earlier tour separately dated. No enlarged-text, physical-camera or provider-delivery claim.",
+  "captures": [
+    {
+      "file": "img/current-ios-settings.jpg",
+      "source": "ios/settings.png",
+      "captured": "2026-10-19",
+      "sha256_source": "ebaa3fc9b873fb77e56581b2200c3fe07fb6aec9d291b6c20d077bc4cab30275",
+      "caption": "Times, venues and weekly matching lead settings."
+    },
+    {
+      "file": "img/current-ios-notifications.jpg",
+      "source": "ios/notifications.png",
+      "captured": "2026-10-19",
+      "sha256_source": "a4a23d0a1c2d4527231a73e62f562a797b9a234bac0fd001fd0be267f094ad89",
+      "caption": "Optional switches and required notices keep their own screen."
+    },
+    {
+      "file": "img/current-ios-times.jpg",
+      "source": "ios/times.png",
+      "captured": "2026-10-19",
+      "sha256_source": "47a9c49e35bf2b2cef82a0ea5d7e254beb242d91a8579332a128652ac49e2c33",
+      "caption": "Saved times and Add time come before guidance."
+    },
+    {
+      "file": "img/current-ios-settings-bottom.jpg",
+      "source": "ios/settings-bottom.png",
+      "captured": "2026-10-19",
+      "sha256_source": "f6c6514b030682557163968a1d124d75def5fccd5b467bc4314e951e49e4c2eb",
+      "caption": "Safety and League help remain reachable above the tab bar."
+    },
+    {
+      "file": "img/current-ios-venues-saved.jpg",
+      "source": "ios/venues-saved.png",
+      "captured": "2026-10-19",
+      "sha256_source": "d3a7e48620922a157e4369d07d3c238097cd228dded877bbb905d00ec755e76f",
+      "caption": "Saved shows favorites, backups, city/state and reviewed access."
+    },
+    {
+      "file": "img/current-ios-venues-find.jpg",
+      "source": "ios/venues-find.png",
+      "captured": "2026-10-19",
+      "sha256_source": "6ae5a0464b400f571782698a8d6d59bdf649901b2e3dd0d6d8c2fef9fc52345d",
+      "caption": "Search Austin with the existing map/list choices."
+    },
+    {
+      "file": "img/current-android-venues-saved.jpg",
+      "source": "android/venues-saved.png",
+      "captured": "2026-10-19",
+      "sha256_source": "4283c0a490bf827ebd740f76732757dc845455ceb4301eceabcc7f734227e246",
+      "caption": "The same Saved/Find organization on Android."
+    },
+    {
+      "file": "img/current-ios-offer.jpg",
+      "source": "ios/offer.png",
+      "captured": "2026-10-19",
+      "sha256_source": "84f4febcea2b21730fec95c709c920f5c176516c019d6f82a121c2e4b7ef5f20",
+      "caption": "Avery and Sam share one court and one start time."
+    },
+    {
+      "file": "img/current-ios-offer-no-alternative.jpg",
+      "source": "ios/offer-no-alternative.png",
+      "captured": "2026-10-19",
+      "sha256_source": "88e8bfaf7e4ad2c17024f36f5dfd6d35ed8fc7a6b4457e973adeb78d32426a56",
+      "caption": "Keep current plan returns to the offer. Not this time opens the existing decline flow."
+    },
+    {
+      "file": "img/current-ios-score-dispute.jpg",
+      "source": "ios/score-dispute.png",
+      "captured": "2026-10-19",
+      "sha256_source": "00dcd4a41aa7780ea3956e371986aee43762de70f3ac3d73af9c2bee5d728428",
+      "caption": "Send dispute needs a reason. Report suspected fake result is separate."
+    },
+    {
+      "file": "img/current-ios-scan-create.jpg",
+      "source": "ios/scan-create.png",
+      "captured": "2026-10-19",
+      "sha256_source": "921fdad3c08006f920085943f26e20ae9c1c2509d673f479d0d07d78a95443df",
+      "caption": "Choose a court and format before creating the plan."
+    },
+    {
+      "file": "img/current-ios-scan-host.jpg",
+      "source": "ios/scan-host.png",
+      "captured": "2026-10-19",
+      "sha256_source": "4abc324e2958d06167973e4e84f5ec2cb89d760eae2cbacec782f9d1ff0a6f5b",
+      "caption": "1 of 2 players: scan one more. The host confirms by starting."
+    },
+    {
+      "file": "img/current-ios-scan-resume.jpg",
+      "source": "ios/scan-resume.png",
+      "captured": "2026-10-19",
+      "sha256_source": "88cd312bbded6778acf4b0b0f95820534a9c4413d4d5eece78d2561a35e92084",
+      "caption": "The open plan replaces the creation form and shows its count and expiry."
+    },
+    {
+      "file": "img/current-android-scan-resume.jpg",
+      "source": "android/scan-resume.png",
+      "captured": "2026-10-19",
+      "sha256_source": "c069e7afbb1e66f210164b191120f3cbb1ecc64db86dc648be1e53808762ebf8",
+      "caption": "The same existing-plan destination on Android."
+    },
+    {
+      "file": "img/current-ios-team-invite.jpg",
+      "source": "ios/team-invite.png",
+      "captured": "2026-10-19",
+      "sha256_source": "42be929b3d2ddef805115c893c68def229b59ae2bdd760e9b1cc49af46928b3a",
+      "caption": "The invitation names the team and says accepting does not start matchmaking."
+    },
+    {
+      "file": "img/current-ios-team-accepted.jpg",
+      "source": "ios/team-accepted.png",
+      "captured": "2026-10-19",
+      "sha256_source": "c3d3119e65ed4828b38e1e6a11b9a6df78897832a27f93d390a0f5937b7f9ce1",
+      "caption": "The returned team has a name, current search status and Open team."
+    },
+    {
+      "file": "img/current-ios-team.jpg",
+      "source": "ios/team.png",
+      "captured": "2026-10-19",
+      "sha256_source": "3d140d14f306dcebda9b77e3ba006f568fe5e54caaff709f9c12cec6834b1833",
+      "caption": "The subtitle names wider level range and automatic acceptance."
+    },
+    {
+      "file": "img/current-web-league-390.jpg",
+      "source": "web/league-390.png",
+      "captured": "2026-10-19",
+      "sha256_source": "3f396632eac72c8d6875e0ebaca0119507e1532a98f5aba7fedff617c1a631ec",
+      "caption": "The persistent action is Join League."
+    },
+    {
+      "file": "img/current-web-join-handoff-390.jpg",
+      "source": "web/join-handoff-390.png",
+      "captured": "2026-10-19",
+      "sha256_source": "01f5f5da0dcf8816e244aa36f1e03c6a8d77c80585fc5c440e35be71d358d7e1",
+      "caption": "The actual link reaches Open League. Store installation/resumption was not tested."
+    },
+    {
+      "file": "img/current-web-league-1280.jpg",
+      "source": "web/league-1280.png",
+      "captured": "2026-10-19",
+      "sha256_source": "5a69c10ffac1d0c76cc5682579c6b58790654b8f6c4d1d37340a7fa5e5931bbc",
+      "caption": "The desktop acquisition page remains available."
+    },
+    {
+      "file": "img/current-web-queue-1280.jpg",
+      "source": "web/queue-1280.png",
+      "captured": "2026-10-19",
+      "sha256_source": "7d674ea0b6892f6c784dc7c0bfdefc84dacb11b80d44f46ba7dc416c3b225400",
+      "caption": "Riverside Courts suggestions have separate case references and current selection."
+    },
+    {
+      "file": "img/current-web-create-venue-1280.jpg",
+      "source": "web/create-venue-1280.png",
+      "captured": "2026-10-19",
+      "sha256_source": "c13a8db297434e49a578804b439daad6bed519e6d0ead7468a58243a9dccf747",
+      "caption": "Area timezone, searchable correction and the existing atomic create/list/resolve decision."
+    },
+    {
+      "file": "img/current-web-map-fallback-390.jpg",
+      "source": "web/map-fallback-390.png",
+      "captured": "2026-10-19",
+      "sha256_source": "21706600e3baf4ab9c871b6be44df022a4c6f138f349d89c5b07b26a700b5d4b",
+      "caption": "No browser map key was configured. Retry and verified coordinates remain available."
+    },
+    {
+      "file": "img/current-web-timezone-390.jpg",
+      "source": "web/timezone-390.png",
+      "captured": "2026-10-19",
+      "sha256_source": "98e0f373d03e43dc629809ce4220f5c9ca8f5b8c9309b6f9fc25dc17e8f8a17b",
+      "caption": "Search a supported city or zone; Chicago is shown."
+    },
+    {
+      "file": "img/current-android-settings.jpg",
+      "source": "android/settings.png",
+      "captured": "2026-10-19",
+      "sha256_source": "0faaa846a44510e29e79068fb833350eae3b86267882c19690c89ee196288d0e",
+      "caption": "The settings order matches iOS."
+    },
+    {
+      "file": "img/current-android-notifications.jpg",
+      "source": "android/notifications.png",
+      "captured": "2026-10-19",
+      "sha256_source": "8016b9991394219d9b31fe94a4573fb5ec53ffa6e47293a41b267f66f1be527e",
+      "caption": "The optional switches and required notices remain."
+    },
+    {
+      "file": "img/current-android-times.jpg",
+      "source": "android/times.png",
+      "captured": "2026-10-19",
+      "sha256_source": "c088d7d015c8cabf7b3ef7a0066bce183e144ed0b80d53349467e8df0ce5aa1d",
+      "caption": "The saved week appears before guidance."
+    },
+    {
+      "file": "img/current-android-team.jpg",
+      "source": "android/team.png",
+      "captured": "2026-10-19",
+      "sha256_source": "2cf24b2cb1c5f365d3d2859df8464274647dd26e18fe84c6f344aef6b8b2cabf",
+      "caption": "Northside Pair is a separate fictional team checking the same subtitle."
+    }
+  ],
+  "source_commit": "7f19d2fae34618411b853a69d6b89108bfc15438",
+  "source_note": "Captured with the final runtime code; subsequent fixture and documentation changes do not alter these screens."
+}
