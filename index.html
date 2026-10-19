@@ -50,7 +50,7 @@ section.chapter { padding-block: 48px 8px; display: grid; gap: 14px; scroll-marg
 .shot { scroll-snap-align: start; display: grid; gap: 8px; align-content: start; min-width: 0; }
 .shot button.img { border: 0; padding: 0; background: var(--phone); border-radius: 26px; overflow: hidden; cursor: zoom-in;
   box-shadow: 0 0 0 1px var(--line); aspect-ratio: 1320 / 2868; }
-.shot button.img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.shot button.img img { width: 100%; height: 100%; object-fit: contain; display: block; }
 .shot.wide { grid-column: span 2; }
 .shot.wide button.img { border-radius: 10px; aspect-ratio: auto; max-height: 520px; }
 .shot.wide button.img img { object-fit: cover; object-position: top; height: 520px; }
@@ -75,11 +75,11 @@ dialog .bar button { background: #1b2633; color: #e8edf2; border: 1px solid #2c3
   <header class="top">
     <span class="eyebrow">Circuit Pickleball · Circuit League · October 2026</span>
     <h1>Circuit League walkthrough</h1>
-    <p class="lede">The Circuit League is a free, always-open league in the Circuit Pickleball app. Players pick their times and courts, Circuit proposes matches against players at their level, and every confirmed result moves a city leaderboard and goes to DUPR.</p>
-    <p class="lede">This tour follows two fictional players through the iPhone app. Blake is brand new and joins from scratch. Jordan has a week of matches behind them. Tap any screen to see it full size.</p>
+    <p class="lede">The Circuit League is a free, always-open league in the Circuit Pickleball app. Players pick their times and courts, Circuit proposes matches against players at their level, and eligible played results contribute to League boards and DUPR submissions.</p>
+    <p class="lede">The October 19 update follows fictional Avery through the changed iPhone and Android screens, plus the web handoff and private operator console. The earlier Blake/Jordan tour is retained below with dated labels. Tap any screen to see it full size.</p>
     <div class="facts">
-      <span><b>46</b> screens</span>
-      <span><b>iPhone</b> · dark theme · default text size</span>
+      <span><b>28</b> current captures · October 19</span><span>46 earlier tour screens retained</span>
+      <span><b>iOS + Android</b> · dark theme · Default app text</span>
       <span>Web page at desktop and phone widths</span>
       <span>Fictional players and test data</span>
     </div>
@@ -95,24 +95,24 @@ dialog .bar button { background: #1b2633; color: #e8edf2; border: 1px solid #2c3
       <div>
         <h3>How it was captured</h3>
         <ul>
-          <li>Screens come from the current app build on an iPhone simulator, against a private test database.</li>
+          <li>October 19 captures use current local code and an isolated fictional database. Implementation is local; this update is not deployed.</li>
           <li>Every player, score and message is made up.</li>
-          <li>The leaderboard week was moved back in time so it had enough results to rank players.</li>
+          <li>The October 15 tour retains its original fictional week and captions; those images are historical evidence.</li>
         </ul>
       </div>
       <div>
         <h3>Things to know</h3>
         <ul>
           <li>A profile photo is optional. Players without one show their initials.</li>
-          <li>On some screens the test photos failed to load and show as grey circles. In the current app those show the player's initials instead.</li>
+          <li>Older test photos may show grey circles. Fresh captures use fictional players and initials.</li>
           <li>Contact details are never shown to other players. They talk through match chat.</li>
         </ul>
       </div>
       <div>
         <h3>Not shown here</h3>
         <ul>
-          <li>Android, light theme and larger text sizes.</li>
-          <li>The location permission prompt and the on-screen keyboard.</li>
+          <li>Light theme, enlarged text, screen-reader gestures and an exhaustive route/overlay/state matrix. Enlarged text was excluded by the owner.</li>
+          <li>Physical camera/location, real push/email/DUPR delivery, store resumption and the operator browser map provider. Its fallback was checked without a browser key.</li>
         </ul>
       </div>
     </div>
@@ -126,7 +126,7 @@ dialog .bar button { background: #1b2633; color: #e8edf2; border: 1px solid #2c3
 </dialog>
 
 <script>
-const CHAPTERS = [
+const EARLIER_CHAPTERS = [
   { id: 'first', title: 'First visit', who: 'Blake, a new player in Austin, opens the League tab for the first time.', shots: [
     ['intro-1', 'The pitch', 'The league that\'s always open, with an example Match found card. Join the League is always one tap away.'],
     ['intro-2', 'Your times, your call', 'Pick your times and courts. Saying no to a match costs nothing.'],
@@ -195,6 +195,208 @@ const CHAPTERS = [
   ]},
 ];
 
+const CURRENT_CHAPTERS = [
+  {
+    "id": "preferences",
+    "title": "Your play settings",
+    "who": "iOS · October 19",
+    "shots": [
+      [
+        "current-ios-settings",
+        "Play first",
+        "Times, venues and weekly matching lead settings."
+      ],
+      [
+        "current-ios-notifications",
+        "Notifications",
+        "Optional switches and required notices keep their own screen."
+      ],
+      [
+        "current-ios-times",
+        "Your own week",
+        "Saved times and Add time come before guidance."
+      ],
+      [
+        "current-ios-settings-bottom",
+        "Settings · lower",
+        "Safety and League help remain reachable above the tab bar."
+      ]
+    ]
+  },
+  {
+    "id": "venues",
+    "title": "Saved venues and discovery",
+    "who": "iOS and Android · October 19",
+    "shots": [
+      [
+        "current-ios-venues-saved",
+        "Saved and ranked",
+        "Saved shows favorites, backups, city/state and reviewed access."
+      ],
+      [
+        "current-ios-venues-find",
+        "Find courts",
+        "Search Austin with the existing map/list choices."
+      ],
+      [
+        "current-android-venues-saved",
+        "Saved · Android",
+        "The same Saved/Find organization on Android."
+      ]
+    ]
+  },
+  {
+    "id": "decisions",
+    "title": "Offers and score decisions",
+    "who": "iOS · October 19",
+    "shots": [
+      [
+        "current-ios-offer",
+        "A single shared plan",
+        "Avery and Sam share one court and one start time."
+      ],
+      [
+        "current-ios-offer-no-alternative",
+        "No other shared option",
+        "Keep current plan returns to the offer. Not this time opens the existing decline flow."
+      ],
+      [
+        "current-ios-score-dispute",
+        "Dispute or report",
+        "Send dispute needs a reason. Report suspected fake result is separate."
+      ]
+    ]
+  },
+  {
+    "id": "scan",
+    "title": "Scan to play",
+    "who": "iOS and Android · October 19 · physical camera not verified",
+    "shots": [
+      [
+        "current-ios-scan-create",
+        "Create a plan",
+        "Choose a court and format before creating the plan."
+      ],
+      [
+        "current-ios-scan-host",
+        "The host’s next step",
+        "1 of 2 players: scan one more. The host confirms by starting."
+      ],
+      [
+        "current-ios-scan-resume",
+        "Continue the existing plan",
+        "The open plan replaces the creation form and shows its count and expiry."
+      ],
+      [
+        "current-android-scan-resume",
+        "Continue · Android",
+        "The same existing-plan destination on Android."
+      ]
+    ]
+  },
+  {
+    "id": "teams-now",
+    "title": "Partner invitations and teams",
+    "who": "iOS · October 19 · fictional Avery",
+    "shots": [
+      [
+        "current-ios-team-invite",
+        "A named invitation",
+        "The invitation names the team and says accepting does not start matchmaking."
+      ],
+      [
+        "current-ios-team-accepted",
+        "Acceptance receipt",
+        "The returned team has a name, current search status and Open team."
+      ],
+      [
+        "current-ios-team",
+        "Team match settings",
+        "The subtitle names wider level range and automatic acceptance."
+      ]
+    ]
+  },
+  {
+    "id": "web-now",
+    "title": "The League on the web",
+    "who": "October 19 · local browser",
+    "shots": [
+      [
+        "current-web-league-390",
+        "Phone landing",
+        "The persistent action is Join League."
+      ],
+      [
+        "current-web-join-handoff-390",
+        "Join League destination",
+        "The actual link reaches Open League. Store installation/resumption was not tested."
+      ],
+      [
+        "current-web-league-1280",
+        "Desktop landing",
+        "The desktop acquisition page remains available.",
+        "wide"
+      ]
+    ]
+  },
+  {
+    "id": "operator",
+    "title": "Review and list a court",
+    "who": "October 19 · private console · checked at 360×800, 390×844 and 1280×900",
+    "shots": [
+      [
+        "current-web-queue-1280",
+        "Distinguishable cases",
+        "Riverside Courts suggestions have separate case references and current selection.",
+        "wide"
+      ],
+      [
+        "current-web-create-venue-1280",
+        "Reviewed listing facts",
+        "Area timezone, searchable correction and the existing atomic create/list/resolve decision.",
+        "wide"
+      ],
+      [
+        "current-web-map-fallback-390",
+        "Court-location recovery",
+        "No browser map key was configured. Retry and verified coordinates remain available."
+      ],
+      [
+        "current-web-timezone-390",
+        "Search time zones",
+        "Search a supported city or zone; Chicago is shown."
+      ]
+    ]
+  },
+  {
+    "id": "android-now",
+    "title": "Android checks",
+    "who": "October 19 · Default app text · normal OS font scale · dark theme",
+    "shots": [
+      [
+        "current-android-settings",
+        "Play first · Android",
+        "The settings order matches iOS."
+      ],
+      [
+        "current-android-notifications",
+        "Notifications · Android",
+        "The optional switches and required notices remain."
+      ],
+      [
+        "current-android-times",
+        "Your times · Android",
+        "The saved week appears before guidance."
+      ],
+      [
+        "current-android-team",
+        "A formed team · Android",
+        "Northside Pair is a separate fictional team checking the same subtitle."
+      ]
+    ]
+  }
+];
+const CHAPTERS = [...CURRENT_CHAPTERS, ...EARLIER_CHAPTERS.map(c => ({...c, title: "Earlier · "+c.title, who: "Retained October 15 tour; this is not fresh verification of current code. "+c.who, historical: true}))];
 const all = [];
 const nav = document.getElementById('nav');
 const host = document.getElementById('chapters');
@@ -203,7 +405,7 @@ for (const c of CHAPTERS) {
   nav.insertAdjacentHTML('beforeend', `<a href="#${c.id}">${c.title}</a>`);
   const sec = document.createElement('section');
   sec.className = 'chapter'; sec.id = c.id;
-  sec.innerHTML = `<span class="eyebrow">${c.shots.length} ${c.shots.length === 1 ? 'screen' : 'screens'}</span><h2>${c.title}</h2>${c.who ? `<p class="who">${c.who}</p>` : ''}<div class="strip"></div>`;
+  sec.innerHTML = `<span class="eyebrow">${c.historical ? "October 15 · retained · " : "October 19 · local · "}${c.shots.length} ${c.shots.length === 1 ? 'screen' : 'screens'}</span><h2>${c.title}</h2>${c.who ? `<p class="who">${c.who}</p>` : ''}<div class="strip"></div>`;
   const strip = sec.querySelector('.strip');
   for (const [file, t, d, wide] of c.shots) {
     const n = String(++count).padStart(2, '0');
@@ -212,7 +414,7 @@ for (const c of CHAPTERS) {
     const el = document.createElement('article');
     el.className = 'shot' + (wide ? ' wide' : '');
     el.innerHTML = `<button class="img" type="button" aria-label="Open screen ${n}, ${t}"><img loading="lazy" src="${src}" alt="${t}: ${d}"></button>
-      <span class="num">${n}</span><h3>${t}</h3><p>${d}</p>`;
+      <span class="num">${n} · ${c.historical ? "Earlier tour" : "October 19"}</span><h3>${t}</h3><p>${d}</p>`;
     el.querySelector('button.img').addEventListener('click', () => openLb(idx));
     strip.appendChild(el);
   }
