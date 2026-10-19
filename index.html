@@ -78,7 +78,7 @@ dialog .bar button { background: #1b2633; color: #e8edf2; border: 1px solid #2c3
     <p class="lede">The Circuit League is a free, always-open league in the Circuit Pickleball app. Players pick their times and courts, Circuit proposes matches against players at their level, and every confirmed result moves a city leaderboard and goes to DUPR.</p>
     <p class="lede">This tour follows two fictional players through the iPhone app. Blake is brand new and joins from scratch. Jordan has a week of matches behind them. Tap any screen to see it full size.</p>
     <div class="facts">
-      <span><b>43</b> screens</span>
+      <span><b>46</b> screens</span>
       <span><b>iPhone</b> · dark theme · default text size</span>
       <span>Web page at desktop and phone widths</span>
       <span>Fictional players and test data</span>
@@ -130,13 +130,14 @@ const CHAPTERS = [
   { id: 'first', title: 'First visit', who: 'Blake, a new player in Austin, opens the League tab for the first time.', shots: [
     ['intro-1', 'The pitch', 'The league that\'s always open, with an example Match found card. Join the League is always one tap away.'],
     ['intro-2', 'Your times, your call', 'Pick your times and courts. Saying no to a match costs nothing.'],
-    ['intro-3', 'The leaderboard', 'Every confirmed result moves your city rank and goes to DUPR. A recap arrives every week.'],
+    ['intro-3', 'The leaderboard', 'Every confirmed result moves the boards for the places you play and goes to DUPR. A recap arrives every week.'],
   ]},
   { id: 'setup', title: 'Setup', who: 'Six steps. Things already on the profile carry over.', shots: [
-    ['setup-before', 'Before you join', 'DUPR and gender are checked. The profile photo is optional. Home city starts with "Use my current location". The five-minute estimate shows on this step only.'],
+    ['setup-before', 'Before you join', 'DUPR and gender are checked and the profile photo is optional. There is no home city to enter. The five-minute estimate shows on this step only.'],
     ['setup-how', 'How you play', 'Singles, rotating doubles or a fixed team, each with its category, plus a plain note on who can play which category.'],
-    ['setup-venues', 'Venues on a map', 'Three suggested courts near you with "Use these", or pick from the map.'],
-    ['setup-venue-card', 'One venue', 'Tapping a pin sets that court to Preferred, OK or No.'],
+    ['setup-venues', 'Venues come first', 'Your area comes from the courts you pick. Three suggested courts near you with "Use these", or choose from the map.'],
+    ['setup-venue-card', 'One venue', 'Tapping a pin sets that court to Preferred, OK or No. "3 of 25 venues saved" shows how many are chosen.'],
+    ['setup-outside-area', 'Outside an opened area', 'Where the League isn\'t open yet: "It opens area by area as players join", with Invite friends and Suggest a venue. Continue stays off until a venue is saved.'],
     ['setup-times', 'Your times', 'Popular times from other singles players, or add your own by day. Times are in the League\'s zone, Central (CT).'],
     ['setup-time-sheet', 'Pick hours', 'One button per hour. The sheet sums it up: "Available: 6–8 PM".'],
     ['setup-times-saved', 'Times saved', 'Sunday 6–8 PM, with Edit times and a way to remove it.'],
@@ -176,10 +177,12 @@ const CHAPTERS = [
     ['final-lower', 'Final · lower', 'Directions, match chat, Play again and Problem with this result?'],
   ]},
   { id: 'progress', title: 'Progress', who: 'After the week closes.', shots: [
+    ['home-boards', 'Home · your boards', 'Jordan is ranked on the Austin, Austin area and TX boards, each from the venues where matches were played. No city was ever chosen.'],
     ['leaderboard', 'Leaderboard', 'Austin singles, men\'s. Rank, record, Provisional label, and Jordan\'s row highlighted.'],
+    ['leaderboard-places', 'Leaderboard · places', 'The Place picker lists boards from where you have played: city, area, state, Everywhere and each venue.'],
     ['stats', 'League stats', 'Record, badges, Provisional progress, rank history and every match.'],
     ['recap', 'Weekly recap', 'Week totals, then every match with its games.'],
-    ['recap-lower', 'Recap · boards', 'Rank on each board, from Austin to everywhere, the Founding Member badge and Start matchmaking.'],
+    ['recap-lower', 'Recap · boards', 'Rank on each board played, from Austin to everywhere, the Founding Member badge and Start matchmaking.'],
   ]},
   { id: 'around', title: 'Chat and settings', who: '', shots: [
     ['chat', 'Match chat', 'The thread for Sunday\'s doubles match.'],
