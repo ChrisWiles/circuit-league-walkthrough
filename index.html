@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Circuit League Walkthrough</title>
-<meta name="description" content="Circuit League mobile action redesign: native iOS and Android screens, matched before and after comparisons, larger text and light appearance.">
+<meta name="description" content="Circuit League: alphabetical player names, clearer introductions and navigation, automatic check-in, and populated leaderboards and safety records. Native iOS Dark, Default text.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
 <style>
@@ -74,15 +74,9 @@ dialog .bar button { background: #1b2633; color: #e8edf2; border: 1px solid #2c3
 <div class="wrap">
   <header class="top">
     <span class="eyebrow">Circuit Pickleball · Circuit League · October 2026</span>
-    <h1>Circuit League walkthrough</h1>
-    <p class="lede">The Circuit League is a free, always-open league in the Circuit Pickleball app. Players pick their times and courts, Circuit proposes matches against players at their level, and eligible played results contribute to League boards and DUPR submissions.</p>
-    <p class="lede">Explore the updated mobile actions, starting with matched before and after screens. Then check iOS, Android, larger text and light appearance. Tap any screen to inspect it full size. <a href="before-action-design.html">Previous full League walkthrough</a>.</p>
-    <div class="facts">
-      <span><b>40</b> native screenshots · captured October 20</span>
-      <span><b>iOS + Android</b> · light and dark</span>
-      <span>Default / Large / Larger + system font checks</span>
-      <span>Fictional players and test data</span>
-    </div>
+    <h1>League, with real examples</h1>
+    <p class="lede">Review alphabetical player names, clearer introductions and navigation, automatic check-in, and populated standings and safety records. Every screen is a fresh native iOS capture in Dark mode at Default text size. <a href="before-player-names.html">Previous action-design tour</a> · <a href="before-action-design.html">Earlier full walkthrough</a>.</p>
+    <div class="facts"><span><b>32</b> native screenshots · October 20</span><span><b>iOS</b> · Dark</span><span>Default app text size</span><span>Fictional players and confirmed test results</span></div>
   </header>
 
   <nav class="chapters" id="nav" aria-label="Chapters"></nav>
@@ -92,21 +86,9 @@ dialog .bar button { background: #1b2633; color: #e8edf2; border: 1px solid #2c3
     <span class="eyebrow">About this tour</span>
     <h2>What you are looking at</h2>
     <div class="cols">
-      <div><h3>How it was captured</h3><ul>
-        <li>Original native iOS and Android development screenshots, captured October 20 with fictional players, messages and scores.</li>
-        <li>The venue and saved-venue comparisons use the same iOS device, fixture, theme and app text size before and after the action changes.</li>
-        <li>Screenshot pixels are unchanged. <a href="current-evidence.md">Evidence and limits</a> · <a href="current-captures.json">Capture provenance</a>.</li>
-      </ul></div>
-      <div><h3>What changed</h3><ul>
-        <li>Navigation uses flat identity rows and chevrons. Editing and recovery commands use outlined buttons.</li>
-        <li>Dismissal and disclosure controls are quiet. Reporting remains labeled and visible.</li>
-        <li>Document links, including Read the League terms, retain their link treatment.</li>
-      </ul></div>
-      <div><h3>Scope and limits</h3><ul>
-        <li>This page samples the changed screens. Detailed enrollment, consent, conduct, dispute, correction and network-error states were source/test reviewed but were not all freshly captured.</li>
-        <li>Screen-reader gestures, physical maps/printing, real delivery and a store preview build were not tested in this pass.</li>
-        <li>Publishing this gallery does not release the app or database. <a href="before-action-design.html">The earlier full walkthrough</a> remains dated historical evidence.</li>
-      </ul></div>
+      <div><h3>Native captures</h3><ul><li>Original iOS development screenshots with unchanged pixels.</li><li>Dark theme and Default app text are verified in the native preferences.</li><li><a href="current-evidence.md">Verification and limits</a> · <a href="current-captures.json">Capture provenance</a>.</li></ul></div>
+      <div><h3>Populated examples</h3><ul><li>Three published pools, individual and pair records, and a weekly recap.</li><li>Blocked players, challenges, resolved reports and active/lifted restrictions.</li><li>All people, matches and conduct scenarios are fictional local fixtures.</li></ul></div>
+      <div><h3>Scope</h3><ul><li>This is targeted iOS Dark/Default evidence, not an exhaustive app audit.</li><li>Android, enlarged text, light theme, physical location, provider delivery and store artifacts were not visually verified in this pass.</li><li>Publishing this gallery does not deploy the app or database. Earlier tours remain archived.</li></ul></div>
     </div>
   </section>
 </div>
@@ -120,318 +102,239 @@ dialog .bar button { background: #1b2633; color: #e8edf2; border: 1px solid #2c3
 <script>
 const CHAPTERS = [
   {
-    "id": "venue-comparison",
-    "title": "Venue: before and after",
-    "platform": "iOS · matched comparison",
-    "who": "Same fictional venue, device, Default text size and dark theme. Commands and destinations now have distinct shapes.",
+    "id": "first-visit",
+    "title": "First visit",
+    "platform": "iOS · Dark · Default",
+    "who": "Examples sit below the hero gradient. Join stays in the same footer position.",
     "shots": [
       [
-        "actions-before-venue-before.png",
-        "Before: green links",
-        "Directions, Edit your times, the leaderboard and flyer all used the same underlined treatment."
+        "names-oct20/24-intro-matches.png",
+        "A League match",
+        "The example leaves the headline gradient visible."
       ],
       [
-        "actions-ios-01-venue-after.png",
-        "After: actions have a clear place",
-        "Directions and Edit your times are outlined commands. The leaderboard is a navigation row; League flyer opens a sheet."
+        "names-oct20/25-intro-week.png",
+        "Your week",
+        "The week example stays below the introduction."
+      ],
+      [
+        "names-oct20/26-intro-boards.png",
+        "Your city ranking",
+        "Swipe and Next move between the three cards."
       ]
     ]
   },
   {
-    "id": "times",
-    "title": "Your times",
-    "platform": "iOS",
-    "who": "Recurring editing commands are visible beside the day they affect.",
+    "id": "navigation",
+    "title": "League navigation",
+    "platform": "iOS · Dark · Default",
+    "who": "Icons and chevrons identify destinations.",
     "shots": [
       [
-        "actions-ios-02-times-after.png",
-        "Day editing actions",
-        "Compact outlined buttons keep each editing action beside its day."
+        "names-oct20/01-league-menu.png",
+        "League menu",
+        "My QR code, League settings and League rules each have an icon and arrow."
+      ],
+      [
+        "names-oct20/03-league-settings.png",
+        "Previously undecided",
+        "Automatic check-in starts selected; Continue confirms the disclosed choice."
       ]
     ]
   },
   {
-    "id": "saved-comparison",
-    "title": "Saved venues: before and after",
-    "platform": "iOS · matched comparison",
-    "who": "Opening a venue and changing its match preference are separate tap targets.",
+    "id": "player-names",
+    "title": "Player names, always alphabetical",
+    "platform": "iOS · Dark · Default",
+    "who": "Fixed partnerships use privacy-approved player names. Standings and game sides keep their original order.",
     "shots": [
       [
-        "actions-before-saved-venues-before.png",
-        "Before: saved venue controls",
-        "A green Change link provided the entry to editing."
+        "names-oct20/12-new-team.png",
+        "Invite a partner",
+        "Choose a category and partner or share a link. There is no team-name field."
       ],
       [
-        "actions-ios-06-saved-venues-after.png",
-        "After: venue identity row",
-        "The venue name and chevron open details. A quiet Change command reveals preference controls."
+        "names-oct20/13-pair-settings.png",
+        "Avery B. & Sam P.",
+        "The pair label is alphabetical, with matching controls and no rename action."
+      ],
+      [
+        "names-oct20/14-pair-result.png",
+        "A completed team match",
+        "Winner first, alphabetical names within each side, with each score kept beside its side."
+      ],
+      [
+        "names-oct20/34-planned-lineup.png",
+        "Planned rotating games",
+        "Alphabetical names within each planned side; the current player has a You annotation."
       ]
     ]
   },
   {
-    "id": "ios-venue",
-    "title": "Venue destinations and utilities",
-    "platform": "iOS",
-    "who": "Flat rows keep navigation and occasional utilities easy to find.",
+    "id": "check-in",
+    "title": "Automatic check-in",
+    "platform": "iOS · Dark · Default",
+    "who": "The default selection needs confirmation and foreground location permission. Existing Off choices stay off.",
     "shots": [
       [
-        "actions-ios-07-saved-venue-edit.png",
-        "Edit a saved venue",
-        "Favorite, Backup and Don't use remain explicit selection controls; Done closes the editor."
+        "names-oct20/27-setup-check-in.png",
+        "New-player choice",
+        "Check-in starts selected with the disclosure visible and one Continue action."
       ],
       [
-        "actions-ios-04-flyer-sheet.png",
-        "League flyer actions",
-        "The utility row opens the existing Print and Share or save PDF choices. No print or share was submitted."
+        "names-oct20/28-setup-finished.png",
+        "Membership is ready",
+        "The separate finish screen follows the saved check-in choice. Choosing venues later leaves matchmaking off."
       ],
       [
-        "actions-ios-05-venue-leaderboard.png",
-        "Venue leaderboard",
-        "The venue row reaches the scoped leaderboard. Rankings here are fictional test data."
+        "names-oct20/22-location-permission.png",
+        "iOS foreground permission",
+        "Continue requests the real iOS location permission when needed."
+      ],
+      [
+        "names-oct20/23-check-in-enabled.png",
+        "Confirmed and enabled",
+        "The preference becomes effective after permission and the server save succeed."
       ]
     ]
   },
   {
-    "id": "popular-times",
-    "title": "Populated popular times",
-    "platform": "iOS",
-    "who": "Five fictional saved time windows make the disclosure and edit actions visible.",
+    "id": "standings",
+    "title": "Populated leaderboards",
+    "platform": "iOS · Dark · Default",
+    "who": "Fictional confirmed results pass through the rating and weekly snapshot pipeline: 20 Singles, 20 Doubles and 10 Teams competitors.",
     "shots": [
       [
-        "actions-ios-22-popular-times.png",
-        "Show the time grid",
-        "A neutral disclosure with a downward indicator expands the grid. Edit your times remains an outlined command."
+        "names-oct20/09-singles-board.png",
+        "Singles",
+        "Published individual standings with Avery marked You."
       ],
       [
-        "actions-ios-23-time-grid-expanded.png",
-        "Hide the time grid",
-        "The expanded state uses an upward indicator. The larger grid continues below the initial viewport."
+        "names-oct20/10-doubles-board.png",
+        "Doubles",
+        "Rotating doubles ranks individual players; the own row remains accessible."
+      ],
+      [
+        "names-oct20/11-teams-board.png",
+        "Teams",
+        "Fixed pairs retain ranking order while their two names are alphabetical."
+      ],
+      [
+        "names-oct20/29-board-filters.png",
+        "Leaderboard filters",
+        "The existing category and season controls remain available."
+      ],
+      [
+        "names-oct20/30-board-scroll-end.png",
+        "Lower standings",
+        "Lower-ranked rows and the physical list end remain clear of the tab bar."
       ]
     ]
   },
   {
-    "id": "android-venues",
-    "title": "Venues and times on Android",
-    "platform": "Android",
-    "who": "The same shared components preserve the action hierarchy on Android.",
+    "id": "records",
+    "title": "Player and pair records",
+    "platform": "iOS · Dark · Default",
+    "who": "Records, scores and ranks come from the server.",
     "shots": [
       [
-        "actions-android-01-venue-after.png",
-        "Venue actions",
-        "Outlined commands, a leaderboard navigation row and the quiet flyer utility."
+        "names-oct20/15-individual-stats.png",
+        "Individual record",
+        "Singles results and rank history for the current player."
       ],
       [
-        "actions-android-02-times-after.png",
-        "Day editing controls",
-        "Add time and Edit times remain paired with the corresponding day."
+        "names-oct20/16-pair-stats.png",
+        "Fixed-pair record",
+        "The pair label and each opposing pair use alphabetical names."
       ],
       [
-        "actions-android-06-saved-venues-after.png",
-        "Saved venue row",
-        "Venue identity opens details; Change is a separate command."
-      ],
-      [
-        "actions-android-07-saved-venue-edit.png",
-        "Preference editing",
-        "The expanded editor preserves explicit selection and a neutral Done control."
-      ],
-      [
-        "actions-android-04-flyer-sheet.png",
-        "Android flyer actions",
-        "The quiet venue utility opens the existing Print and Share or save PDF sheet."
-      ],
-      [
-        "actions-android-37-venue-list.png",
-        "Find venue list",
-        "Tap the venue identity to open details, or use Favorite, Backup and Don't use below it. The list identity tap was verified."
+        "names-oct20/17-weekly-recap.png",
+        "A populated recap",
+        "Confirmed games, progress and board destinations for a fictional week."
       ]
     ]
   },
   {
-    "id": "offers",
-    "title": "Offer decisions",
-    "platform": "Android",
-    "who": "Accept keeps priority. Choosing another time and declining remain visible secondary actions. No response was submitted.",
+    "id": "blocked-players",
+    "title": "Blocked players",
+    "platform": "iOS · Dark · Default",
+    "who": "Three fictional players include a deliberately long visible name. Blocking stays private.",
     "shots": [
       [
-        "actions-android-24-offer-actions.png",
-        "Accept or choose another time",
-        "Choose another time is outlined; Not this time is a quiet dismissal."
+        "names-oct20/04-blocked-players.png",
+        "Populated blocked list",
+        "Alphabetical player rows, a wrapped long name, and separate Unblock actions."
       ],
       [
-        "actions-android-25-other-times-sheet.png",
-        "Other-time sheet",
-        "This fictional offer has no other shared option. Keep current plan and Not this time remain available."
-      ],
-      [
-        "actions-android-26-decline-sheet.png",
-        "Decline choices",
-        "The existing decline sheet still distinguishes this offer from avoiding the same player for seven days."
+        "names-oct20/32-unblocked-empty.png",
+        "After unblocking",
+        "Server-confirmed unblocking returns the list to its empty state."
       ]
     ]
   },
   {
-    "id": "ios-sheets",
-    "title": "Offer sheets on iOS",
-    "platform": "iOS",
-    "who": "Both secondary offer commands open their existing native sheets.",
+    "id": "conduct",
+    "title": "Conduct records",
+    "platform": "iOS · Dark · Default",
+    "who": "Fictional reports demonstrate open, challenged and resolved cases. An accusation is not presented as a finding.",
     "shots": [
       [
-        "actions-ios-25-other-times-sheet.png",
-        "Other-time sheet",
-        "The sheet preserves the current plan when no alternative shared time is available."
+        "names-oct20/05-conduct-active.png",
+        "Active matchmaking pause",
+        "The account consequence, related-report destinations and support recovery are visible."
       ],
       [
-        "actions-ios-26-decline-sheet.png",
-        "Decline sheet",
-        "The existing decline choices remain explicit. The walkthrough did not submit a decline."
+        "names-oct20/20-conduct-history.png",
+        "Multiple reports",
+        "Different dates and outcomes remain separate entries."
+      ],
+      [
+        "names-oct20/06-conduct-open.png",
+        "Report awaiting response",
+        "The undecided report includes its challenge deadline."
+      ],
+      [
+        "names-oct20/18-conduct-challenge.png",
+        "Challenge a report",
+        "The explanation form and Send challenge action."
+      ],
+      [
+        "names-oct20/19-challenge-saved.png",
+        "Challenge under review",
+        "The actual saved challenge is visible on the case."
+      ],
+      [
+        "names-oct20/07-conduct-substantiated.png",
+        "Finding confirmed",
+        "The confirmed outcome and decision explanation."
+      ],
+      [
+        "names-oct20/08-conduct-dismissed.png",
+        "Report dismissed",
+        "The dismissed outcome and explanation."
+      ],
+      [
+        "names-oct20/21-conduct-lifted.png",
+        "Restriction lifted",
+        "The operator-lifted pause remains in account history with its current consequence."
       ]
     ]
   },
   {
-    "id": "results-chat",
-    "title": "Result and chat actions",
-    "platform": "Android",
-    "who": "Reporting remains discoverable; routine chat controls are quieter.",
+    "id": "appearance",
+    "title": "Verified appearance",
+    "platform": "iOS · Dark · Default",
+    "who": "A dedicated iPhone 17 Pro simulator running iOS 26.4. This pass is scoped to Dark and Default.",
     "shots": [
       [
-        "actions-android-12-result-after.png",
-        "Completed result",
-        "Match chat is outlined and Problem with this result? is a flat row with a flag. Scores and names are fictional."
-      ],
-      [
-        "actions-android-14-chat-after.png",
-        "Match chat",
-        "Players is a neutral contextual command in the header."
-      ],
-      [
-        "actions-android-15-chat-players.png",
-        "Chat player actions",
-        "Players still opens the existing mute and block sheet. Neither action was submitted."
-      ]
-    ]
-  },
-  {
-    "id": "ios-chat",
-    "title": "Chat controls on iOS",
-    "platform": "iOS",
-    "who": "A quiet Players command retains the existing player sheet.",
-    "shots": [
-      [
-        "actions-ios-14-chat-after.png",
-        "Chat header",
-        "The Players command remains visible beside the match context."
-      ],
-      [
-        "actions-ios-15-chat-players.png",
-        "Player sheet",
-        "The sheet preserves the existing mute and block controls."
-      ]
-    ]
-  },
-  {
-    "id": "ios-text",
-    "title": "Larger app text on iOS",
-    "platform": "iOS",
-    "who": "The app's own Large and Larger preferences preserve full action labels and scrolling.",
-    "shots": [
-      [
-        "actions-ios-16-venue-large-top.png",
-        "Large: venue top",
-        "Directions moves below the address when the app text preference needs more space."
-      ],
-      [
-        "actions-ios-18-venue-larger-top.png",
-        "Larger: venue top",
-        "The venue title wraps and Directions remains readable."
-      ],
-      [
-        "actions-ios-19-venue-larger-bottom.png",
-        "Larger: venue bottom",
-        "Scrolling reaches Edit your times, Venue leaderboard and League flyer above the tab bar."
-      ]
-    ]
-  },
-  {
-    "id": "android-text",
-    "title": "Larger app text on Android",
-    "platform": "Android",
-    "who": "The Android pass also covers Large and Larger app text.",
-    "shots": [
-      [
-        "actions-android-16-venue-large-top.png",
-        "Large: venue top",
-        "Directions occupies its own row below the address."
-      ],
-      [
-        "actions-android-18-venue-larger-top.png",
-        "Larger: venue top",
-        "The venue heading wraps while preference labels remain readable."
-      ],
-      [
-        "actions-android-19-venue-larger-bottom.png",
-        "Larger: venue bottom",
-        "The footer actions are reachable with space above the native tab bar."
-      ]
-    ]
-  },
-  {
-    "id": "light",
-    "title": "Light appearance",
-    "platform": "iOS and Android",
-    "who": "Light appearance uses the same commands and destinations.",
-    "shots": [
-      [
-        "actions-ios-20-venue-light.png",
-        "iOS: venue in light appearance",
-        "Outlined venue commands and flat navigation rows retain their hierarchy."
-      ],
-      [
-        "actions-ios-21-times-light.png",
-        "iOS: times in light appearance",
-        "Day editing controls remain distinct from saved time windows."
-      ],
-      [
-        "actions-android-20-venue-light.png",
-        "Android: venue in light appearance",
-        "Selection green remains reserved for the selected venue choices."
-      ],
-      [
-        "actions-android-21-times-light.png",
-        "Android: times in light appearance",
-        "This later fictional state has a pending offer, so Open League provides the recovery destination."
-      ]
-    ]
-  },
-  {
-    "id": "system-text",
-    "title": "System font scaling",
-    "platform": "iOS and Android",
-    "who": "Default app text with larger OS text settings. These are selected screen checks, not an exhaustive accessibility audit.",
-    "shots": [
-      [
-        "actions-ios-27-offer-system-text.png",
-        "iOS: larger system text",
-        "The offer keeps its outlined alternative and neutral decline command readable."
-      ],
-      [
-        "actions-android-27-offer-system-text.png",
-        "Android: system font scale 1.3",
-        "Offer actions fit at the enlarged OS font setting."
-      ],
-      [
-        "actions-android-28-venue-system-text-top.png",
-        "Android: scaled venue top",
-        "Directions moves below the address."
-      ],
-      [
-        "actions-android-29-venue-system-text-bottom.png",
-        "Android: scaled venue bottom",
-        "Scrolling reaches the venue edit and utility actions."
+        "names-oct20/02-dark-default-preferences.png",
+        "Dark and Default",
+        "The native appearance controls show the selected theme and app text size."
       ]
     ]
   }
 ];
+
 const all = [];
 const nav = document.getElementById('nav');
 const host = document.getElementById('chapters');

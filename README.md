@@ -2,8 +2,8 @@
 
 [Open the published walkthrough](https://chriswiles.github.io/circuit-league-walkthrough/).
 
-A screen-by-screen tour of Circuit League with fictional players and data. The October 20 action-design update presents **40 native screenshots in 14 chapters**: matched venue comparisons, iOS and Android commands, offer sheets, results, chat, larger text and light appearance. Click any screenshot for its full-size viewer.
+The October 20 update contains **32 fresh native iOS screenshots in nine chapters**, verified in **Dark mode at Default text size**. It shows alphabetical player names, clearer introductions and menu destinations, automatic check-in, populated Singles/Doubles/Teams boards, player/pair records, blocked players and conduct outcomes.
 
-The implementation captures show local native changes based on app commit `7f783bb38`. See [evidence and limits](current-evidence.md) and [capture provenance](current-captures.json). The [previous full League walkthrough](before-action-design.html) preserves the wider player journey as dated historical evidence.
+All players and records are fictional local examples. App implementation is committed locally as `bce444d82`, following policy commit `784f6829a`. See [evidence and limits](current-evidence.md) and [capture provenance](current-captures.json). The [previous action-design tour](before-player-names.html) and [earlier full League walkthrough](before-action-design.html) remain dated archives.
 
-GitHub Pages publishes the repository's main branch. Publishing this walkthrough does not deploy the Circuit app or database. To preview locally, run `python3 -m http.server 8093 --bind 127.0.0.1` here and open [the local preview](http://127.0.0.1:8093/).
+GitHub Pages publishes this repository's main branch. Publishing the gallery does not deploy the Circuit app or database. Preview locally with `python3 -m http.server 8093 --bind 127.0.0.1` and open [the local preview](http://127.0.0.1:8093/).
