@@ -1,8 +1,8 @@
 # Current League walkthrough evidence
 
-The single current tour follows the League player journey across 69 native iOS screens. All screens are on one page, with an optional enlarged viewer. There is no historical comparison or chapter-link navigation. Retired tour URLs redirect to the current root.
+The single current tour follows the League player journey across 70 native iOS screens. All screens are on one page, with an optional enlarged viewer. There is no historical comparison or chapter-link navigation. Retired tour URLs redirect to the current root.
 
-App source: `c46df53418baf96a333e3626bfd9a58c9483857e` (local commit). The manifest distinguishes 34 current refreshed captures from 35 retained unchanged screens with original provenance. This update adds eight original simulator captures: three boards, filters, list end, individual and pair records, and match history. Seven replace earlier current screens and one adds match history. Images are original native pixels.
+App source: `5883567457b016b86685dfdc7afb90cc2faa04c5` (local commit). The manifest distinguishes 35 current refreshed captures from 35 retained unchanged screens with original provenance. This update adds nine original simulator captures: three boards, filters, list end, individual and pair records, match history and an expanded match series. Eight replace earlier current screens and one adds the expanded series. Images are original native pixels.
 
 ## Recent PD
 
@@ -24,3 +24,9 @@ Text-only leaderboard rows retain full-width own highlights with side padding an
 Fictional local people, games and moderation records only. This illustrated tour is not an exhaustive audit of every loading/error/permission/lifecycle state. Android, enlarged text, light theme, physical geolocation, camera/provider delivery and store artifacts are not visually verified in this requested Dark/Default pass. Retained captures are identified rather than claimed as new.
 
 The app and server migration are committed locally. Production database deployment, app push, OTA and store release are separate from publishing this gallery. The new client requires the server migration first. All task-owned databases, Metro and simulator were stopped; retained development data and other sessions' services were preserved.
+
+## PD colors and series verification
+
+Positive displayed PD is green, negative PD uses the canonical coral/red result color, and zero or no sample is neutral. Signed percentages remain the non-color signal. The existing whole-match calculation remains separate from rolling recent form. Tapping the actual Luis result was verified in native iOS Dark/Default: its three games total 27 scored and 31 conceded, so the expanded and collapsed row both show red PD −6.9%. Positive neighboring rows are green. All nine current PNGs were visually inspected.
+
+This follow-up passes nine shared PD tests, 35 native tests, full workspace/Edge typecheck and all 30 lint tasks. A dedicated expanded-series test keeps +2.3% for the selected three-game match while recent form independently shows +10%. No new API/schema/server changes. Review and simplify completed with no unresolved in-scope finding; owned runtime stopped before committing. Previous database baseline evidence remains applicable to the unchanged server migration.
