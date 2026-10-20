@@ -1,9 +1,9 @@
 # Circuit League walkthrough
 
-A screen-by-screen tour of Circuit League. All players and data are fictional.
+[Open the published walkthrough](https://chriswiles.github.io/circuit-league-walkthrough/#partnerships).
 
-The latest October 19 local update presents **48 fresh iOS screenshots in ten chapters**, with the seven completed polish improvements first. Every current screen appears in a responsive grid on one page; click a screenshot for the full-size viewer. The [previous walkthrough](before-ios-polish.html) preserves the earlier iOS, Android and web evidence separately.
+A screen-by-screen tour of Circuit League with fictional players and data. The October 20 update presents **49 iOS screenshots in eleven chapters**: the uncapped partnership flow first, followed by seven polish improvements and the wider player flow. Click any screenshot for its full-size viewer. The previous team-limit screenshot is removed from the current tour.
 
-See [current evidence and limits](current-evidence.md) and [capture provenance](current-captures.json). These captures show app commit `0b97fffa6`.
+The two partnership captures show app commit `8e24ab144`; the other 47 retain their inspected October 19 source at `0b97fffa6`. See [evidence and limits](current-evidence.md) and [capture provenance](current-captures.json). The [previous walkthrough](before-ios-polish.html) remains available as historical evidence.
 
-Run `python3 -m http.server 8093 --bind 127.0.0.1` here, then open [the local review page](http://127.0.0.1:8093/#polish). This update has not been pushed or deployed. The [published walkthrough](https://chriswiles.github.io/circuit-league-walkthrough/) remains unchanged.
+GitHub Pages publishes the repository's main branch. Publishing this walkthrough does not deploy the Circuit app or database. To preview locally, run `python3 -m http.server 8093 --bind 127.0.0.1` here and open [the local preview](http://127.0.0.1:8093/#partnerships).

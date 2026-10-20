@@ -1,16 +1,34 @@
 {
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "source_base_commit": "7f19d2fae",
-  "source_commit": "0b97fffa6b119cda5ebe6a955112f24125a4fa63",
-  "scope": "Fresh iOS screenshots after CLV-01 through CLV-07; Default app text, normal OS scale, dark theme. No Android recheck.",
+  "scope": "49 iOS captures: 47 retained from the October 19 polish pass and two showing uncapped partnerships. The obsolete team-limit screen is removed. Default app text, normal OS scale, dark theme; no Android recheck.",
   "captures": [
+    {
+      "file": "img/uncapped-ios-01-add-team-after-five.png",
+      "source": ".ux-review/league-partnership-cap-removal-2026-10-19/flows/retry/2026-10-19_222254/uncapped-ios-retry/takeScreenshot/01-add-team-after-five.png",
+      "captured": "2026-10-19",
+      "source_commit": "8e24ab144",
+      "sha256_source": "cd0fb3875875d39025b6d8c27955e414420ad395bb3b720eee05b37f33585885",
+      "title": "Five partnerships",
+      "caption": "All five partnerships remain active; Add a team stays available."
+    },
+    {
+      "file": "img/uncapped-ios-02-new-team-after-five.png",
+      "source": ".ux-review/league-partnership-cap-removal-2026-10-19/flows/retry/2026-10-19_222254/uncapped-ios-retry/takeScreenshot/02-new-team-after-five.png",
+      "captured": "2026-10-19",
+      "source_commit": "8e24ab144",
+      "sha256_source": "164c0d950cd4d275fc7038e18bf4f1b809423349e85c0c76b4eed0be7442aa65",
+      "title": "Add another partner",
+      "caption": "The new-team form opens with five existing partnerships. No retirement is required."
+    },
     {
       "file": "img/polish-ios-07-venue-detail.png",
       "source": ".ux-review/circuit-league-persona-design-review-2026-10-19/revalidation/ios-polish-implementation/screens/07-venue-detail.png",
       "captured": "2026-10-19",
       "sha256_source": "f2f96f8203c7e61e453221d70ebb609d46e2b662768b2da8a5a68426b1952592",
       "title": "Venue details",
-      "caption": "Aligned format choices, Directions beside the address, and quieter secondary links."
+      "caption": "Aligned format choices, Directions beside the address, and quieter secondary links.",
+      "source_commit": "0b97fffa6b119cda5ebe6a955112f24125a4fa63"
     },
     {
       "file": "img/polish-ios-12-scan.png",
@@ -18,7 +36,8 @@
       "captured": "2026-10-19",
       "sha256_source": "40ce01415857073d7097ec50f1c080305780a4b7f07dd78b6b5752254c84a12e",
       "title": "Scan format choices",
-      "caption": "All three choices share the same height when Rotating doubles wraps."
+      "caption": "All three choices share the same height when Rotating doubles wraps.",
+      "source_commit": "0b97fffa6b119cda5ebe6a955112f24125a4fa63"
     },
     {
       "file": "img/polish-ios-19-scan-waiting.png",
@@ -26,7 +45,8 @@
       "captured": "2026-10-19",
       "sha256_source": "7123727357ddc02571ebfcc0dc9d6f3863924c198aa76ef45796114eaa9963f3",
       "title": "Scan \u00b7 waiting",
-      "caption": "Compact player rows retain each confirmation status and contextual Remove action."
+      "caption": "Compact player rows retain each confirmation status and contextual Remove action.",
+      "source_commit": "0b97fffa6b119cda5ebe6a955112f24125a4fa63"
     },
     {
       "file": "img/polish-ios-28-chat-keyboard.png",
@@ -34,7 +54,8 @@
       "captured": "2026-10-19",
       "sha256_source": "7860a993c844904bac962fc14a8a7f386334708eb01f92baab495ab0c4c08cf7",
       "title": "Chat \u00b7 keyboard",
-      "caption": "A wrapping draft and Send stay above the keyboard."
+      "caption": "A wrapping draft and Send stay above the keyboard.",
+      "source_commit": "0b97fffa6b119cda5ebe6a955112f24125a4fa63"
     },
     {
       "file": "img/polish-ios-18-code.png",
@@ -42,7 +63,8 @@
       "captured": "2026-10-19",
       "sha256_source": "f19f3fb0f6fd8f94f628d8a83a7699831b2ac434511bb07422679617bd980d3d",
       "title": "My QR",
-      "caption": "The identity and code come before the privacy and confirmation guidance."
+      "caption": "The identity and code come before the privacy and confirmation guidance.",
+      "source_commit": "0b97fffa6b119cda5ebe6a955112f24125a4fa63"
     },
     {
       "file": "img/polish-ios-10-team.png",
@@ -50,7 +72,8 @@
       "captured": "2026-10-19",
       "sha256_source": "07b9b56bd07847435cfd841cfd51692029724ad290772d10684e7a367517c7d2",
       "title": "Team details",
-      "caption": "The category sits above one partner identity."
+      "caption": "The category sits above one partner identity.",
+      "source_commit": "0b97fffa6b119cda5ebe6a955112f24125a4fa63"
     },
     {
       "file": "img/polish-ios-21-invite-receipt.png",
@@ -58,7 +81,8 @@
       "captured": "2026-10-19",
       "sha256_source": "9dc8b65c7e58ee133d5a869024727a8a67b5f6443b1a1055745f489cb527cdcd",
       "title": "Team accepted",
-      "caption": "The receipt explicitly labels Matchmaking: Off."
+      "caption": "The receipt explicitly labels Matchmaking: Off.",
+      "source_commit": "0b97fffa6b119cda5ebe6a955112f24125a4fa63"
     },
     {
       "file": "img/polish-ios-40-intro-match.png",
@@ -66,7 +90,8 @@
       "captured": "2026-10-19",
       "sha256_source": "fb740b95346dc23025c45e4f5e35171333c45c1c027ff2bc0cd206c7853f8996",
       "title": "Introduction \u00b7 matches",
-      "caption": "The pitch and a clearly labeled example."
+      "caption": "The pitch and a clearly labeled example.",
+      "source_commit": "0b97fffa6b119cda5ebe6a955112f24125a4fa63"
     },
     {
       "file": "img/polish-ios-41-intro-week.png",
@@ -74,7 +99,8 @@
       "captured": "2026-10-19",
       "sha256_source": "bc324952465d31dc5b264f63a46c4872360b2d3c805741f42898c3e39a4a6235",
       "title": "Introduction \u00b7 your week",
-      "caption": "The example week and stable Join/Next footer."
+      "caption": "The example week and stable Join/Next footer.",
+      "source_commit": "0b97fffa6b119cda5ebe6a955112f24125a4fa63"
     },
     {
       "file": "img/polish-ios-42-intro-rank.png",
@@ -82,7 +108,8 @@
       "captured": "2026-10-19",
       "sha256_source": "ae3e457d5ef89d22bfababde6f294d7136de1921917ff5874ee860ab813bd9b8",
       "title": "Introduction \u00b7 boards",
-      "caption": "The rank example and final introduction card."
+      "caption": "The rank example and final introduction card.",
+      "source_commit": "0b97fffa6b119cda5ebe6a955112f24125a4fa63"
     },
     {
       "file": "img/polish-ios-33-not-joined.png",
@@ -90,7 +117,8 @@
       "captured": "2026-10-19",
       "sha256_source": "5362af21d74796e9b41be6d5e79fbe307d99819004f76c9fa39bffef39982b7f",
       "title": "Continue setup",
-      "caption": "A fictional returning visitor has one setup step left."
+      "caption": "A fictional returning visitor has one setup step left.",
+      "source_commit": "0b97fffa6b119cda5ebe6a955112f24125a4fa63"
     },
     {
       "file": "img/polish-ios-39-entry.png",
@@ -98,7 +126,8 @@
       "captured": "2026-10-19",
       "sha256_source": "912c44d621ab7148b565566034b0deac6d0643fbd3cfe62f150bcb541813199a",
       "title": "Before you join",
-      "caption": "The synthetic profile checklist and single Continue action."
+      "caption": "The synthetic profile checklist and single Continue action.",
+      "source_commit": "0b97fffa6b119cda5ebe6a955112f24125a4fa63"
     },
     {
       "file": "img/polish-ios-38-how-you-play.png",
@@ -106,7 +135,8 @@
       "captured": "2026-10-19",
       "sha256_source": "d8fb75d147dd9e1c2de3adceadb995cdb87dc4f3dd92a205fae15a954cda9217",
       "title": "How you play",
-      "caption": "Formats, categories and the acknowledgment remain together."
+      "caption": "Formats, categories and the acknowledgment remain together.",
+      "source_commit": "0b97fffa6b119cda5ebe6a955112f24125a4fa63"
     },
     {
       "file": "img/polish-ios-37-setup-venues.png",
@@ -114,7 +144,8 @@
       "captured": "2026-10-19",
       "sha256_source": "50d46900968a22a7fd68de50e195c2f1fa7b22db4f0dde549d658e9eaa085d9d",
       "title": "Venues during setup",
-      "caption": "A visitor can defer venue choices and keep matchmaking off."
+      "caption": "A visitor can defer venue choices and keep matchmaking off.",
+      "source_commit": "0b97fffa6b119cda5ebe6a955112f24125a4fa63"
     },
     {
       "file": "img/polish-ios-36-options.png",
@@ -122,7 +153,8 @@
       "captured": "2026-10-19",
       "sha256_source": "adea5f30774f577c014b0c2806cb8891b9e3f3c77824dcd888db31b21d2f42a4",
       "title": "Matching options",
-      "caption": "Existing commitment and automatic-matching guidance is preserved."
+      "caption": "Existing commitment and automatic-matching guidance is preserved.",
+      "source_commit": "0b97fffa6b119cda5ebe6a955112f24125a4fa63"
     },
     {
       "file": "img/polish-ios-34-terms.png",
@@ -130,7 +162,8 @@
       "captured": "2026-10-19",
       "sha256_source": "72907edf4c0ebec32314de9ab4953dff93d25b1dbc6fa401e9f903a184c729c5",
       "title": "Release and terms",
-      "caption": "The release remains readable with an explicit Join action."
+      "caption": "The release remains readable with an explicit Join action.",
+      "source_commit": "0b97fffa6b119cda5ebe6a955112f24125a4fa63"
     },
     {
       "file": "img/polish-ios-35-terms-end.png",
@@ -138,7 +171,8 @@
       "captured": "2026-10-19",
       "sha256_source": "dd1f90667ebffa0611a3df1b9055201ee3f2cee2bcd5454089b4ba9b91242d4f",
       "title": "Release \u00b7 scroll end",
-      "caption": "Both acceptance checkboxes and the terms link remain reachable. Neither was accepted."
+      "caption": "Both acceptance checkboxes and the terms link remain reachable. Neither was accepted.",
+      "source_commit": "0b97fffa6b119cda5ebe6a955112f24125a4fa63"
     },
     {
       "file": "img/polish-ios-01-home.png",
@@ -146,7 +180,8 @@
       "captured": "2026-10-19",
       "sha256_source": "85c1da0ee10d55a3cfff97526804fce8ff48cdcc1f40ddfc338fb2030b52b02a",
       "title": "Home",
-      "caption": "Needs you brings the offer and score tasks to the top."
+      "caption": "Needs you brings the offer and score tasks to the top.",
+      "source_commit": "0b97fffa6b119cda5ebe6a955112f24125a4fa63"
     },
     {
       "file": "img/polish-ios-02-menu.png",
@@ -154,7 +189,8 @@
       "captured": "2026-10-19",
       "sha256_source": "3276b6f8ee513bb91acc34db1adf8889993720868bc487f5e255ca56cbcca252",
       "title": "League menu",
-      "caption": "My QR, settings and rules remain together."
+      "caption": "My QR, settings and rules remain together.",
+      "source_commit": "0b97fffa6b119cda5ebe6a955112f24125a4fa63"
     },
     {
       "file": "img/polish-ios-03-settings.png",
@@ -162,7 +198,8 @@
       "captured": "2026-10-19",
       "sha256_source": "89cdf669055c53416d26ba3bab888a741758ba3854384265fa88f268c22b6c2a",
       "title": "Play settings",
-      "caption": "Times, venues and weekly matchmaking lead."
+      "caption": "Times, venues and weekly matchmaking lead.",
+      "source_commit": "0b97fffa6b119cda5ebe6a955112f24125a4fa63"
     },
     {
       "file": "img/polish-ios-46-settings-bottom.png",
@@ -170,7 +207,8 @@
       "captured": "2026-10-19",
       "sha256_source": "9f79d357f285d9b6aa4c7afc07004b93e3d6c59548844e33a0d6a40c2d1873db",
       "title": "Settings \u00b7 lower",
-      "caption": "Privacy, safety and help remain reachable above the tab bar."
+      "caption": "Privacy, safety and help remain reachable above the tab bar.",
+      "source_commit": "0b97fffa6b119cda5ebe6a955112f24125a4fa63"
     },
     {
       "file": "img/polish-ios-04-notifications.png",
@@ -178,7 +216,8 @@
       "captured": "2026-10-19",
       "sha256_source": "a0aa567c67032b1da09869c0033e2beb58a0ace31d9625995951fd675caa4046",
       "title": "Notifications",
-      "caption": "Optional switches and required notices keep their own screen."
+      "caption": "Optional switches and required notices keep their own screen.",
+      "source_commit": "0b97fffa6b119cda5ebe6a955112f24125a4fa63"
     },
     {
       "file": "img/polish-ios-51-times-loaded.png",
@@ -186,7 +225,8 @@
       "captured": "2026-10-19",
       "sha256_source": "671eeaf886657fe38b5b41464b7a560287a089fe988984cf42a05a70a1cc52ca",
       "title": "Your times",
-      "caption": "The saved week appears before current matching guidance."
+      "caption": "The saved week appears before current matching guidance.",
+      "source_commit": "0b97fffa6b119cda5ebe6a955112f24125a4fa63"
     },
     {
       "file": "img/polish-ios-45-time-editor.png",
@@ -194,7 +234,8 @@
       "captured": "2026-10-19",
       "sha256_source": "289ced7fa14484c5513a898f396eb27d28dae785834a64496f49c8920a23e5ee",
       "title": "Choose hours",
-      "caption": "The existing time grid and current availability."
+      "caption": "The existing time grid and current availability.",
+      "source_commit": "0b97fffa6b119cda5ebe6a955112f24125a4fa63"
     },
     {
       "file": "img/polish-ios-06-venues.png",
@@ -202,7 +243,8 @@
       "captured": "2026-10-19",
       "sha256_source": "fc121155cb890d1e55d305a8135f282b830512071bb104d934e8e3675148dcb3",
       "title": "Saved venues",
-      "caption": "The current favorite and backup organization."
+      "caption": "The current favorite and backup organization.",
+      "source_commit": "0b97fffa6b119cda5ebe6a955112f24125a4fa63"
     },
     {
       "file": "img/polish-ios-32-venues-map.png",
@@ -210,7 +252,8 @@
       "captured": "2026-10-19",
       "sha256_source": "a944d5e1504ed410ac47ca0f8998f77768b107f40804cc1f0e88d9354726e175",
       "title": "Find venues",
-      "caption": "The loaded Austin map and selected venue."
+      "caption": "The loaded Austin map and selected venue.",
+      "source_commit": "0b97fffa6b119cda5ebe6a955112f24125a4fa63"
     },
     {
       "file": "img/polish-ios-24-flyer-sheet.png",
@@ -218,7 +261,8 @@
       "captured": "2026-10-19",
       "sha256_source": "cde9c1b02d3bd4dbab5c174342de8166de29eb47c44a93ad92de1accd4843730",
       "title": "Flyer actions",
-      "caption": "The quieter venue link still opens Print and Share or save PDF."
+      "caption": "The quieter venue link still opens Print and Share or save PDF.",
+      "source_commit": "0b97fffa6b119cda5ebe6a955112f24125a4fa63"
     },
     {
       "file": "img/polish-ios-08-offer.png",
@@ -226,7 +270,8 @@
       "captured": "2026-10-19",
       "sha256_source": "b0efbfa182cc37bb36895528b0cf89dc5940a5cbd9f57ad32c34eb4a91610c50",
       "title": "Match found",
-      "caption": "The shared court, time, answer deadline and acceptance action."
+      "caption": "The shared court, time, answer deadline and acceptance action.",
+      "source_commit": "0b97fffa6b119cda5ebe6a955112f24125a4fa63"
     },
     {
       "file": "img/polish-ios-09-alternatives.png",
@@ -234,7 +279,8 @@
       "captured": "2026-10-19",
       "sha256_source": "6d02e8040a8d096108e4466fead2e16d3891be128a54827cba1595c066a8dca3",
       "title": "No other shared option",
-      "caption": "Keep the current plan or open the decline flow."
+      "caption": "Keep the current plan or open the decline flow.",
+      "source_commit": "0b97fffa6b119cda5ebe6a955112f24125a4fa63"
     },
     {
       "file": "img/polish-ios-20-invite.png",
@@ -242,15 +288,8 @@
       "captured": "2026-10-19",
       "sha256_source": "9e2e878df4f499649e0ea5f8c2b686651f49b0b671ab6824ebc51b24d4fa4b18",
       "title": "Team invitation",
-      "caption": "The named invitation states that accepting does not start matchmaking."
-    },
-    {
-      "file": "img/polish-ios-11-team-new.png",
-      "source": ".ux-review/circuit-league-persona-design-review-2026-10-19/revalidation/ios-polish-implementation/screens/11-team-new.png",
-      "captured": "2026-10-19",
-      "sha256_source": "2aeca39725dab37a1e575761a3779b6962314ba3e9e92b3421609e5e4b5e361f",
-      "title": "New team \u00b7 limit reached",
-      "caption": "The existing three-team limit explains how to make room before adding a team."
+      "caption": "The named invitation states that accepting does not start matchmaking.",
+      "source_commit": "0b97fffa6b119cda5ebe6a955112f24125a4fa63"
     },
     {
       "file": "img/polish-ios-22-invited-team.png",
@@ -258,7 +297,8 @@
       "captured": "2026-10-19",
       "sha256_source": "1636fa2f117ac2b1e6ae595d2cd22add09cd09fb27f0143b2536de54c9147a38",
       "title": "Your new team",
-      "caption": "Weekend Pair shows Ravi once, then its times and settings."
+      "caption": "Weekend Pair shows Ravi once, then its times and settings.",
+      "source_commit": "0b97fffa6b119cda5ebe6a955112f24125a4fa63"
     },
     {
       "file": "img/polish-ios-25-scan-ready.png",
@@ -266,7 +306,8 @@
       "captured": "2026-10-19",
       "sha256_source": "4dca34de0713fb9c97c513ff16110f0d59cfd3099e209f6ea05da850b77c781a",
       "title": "Scan \u00b7 ready",
-      "caption": "The other player has confirmed; Start match remains the primary action."
+      "caption": "The other player has confirmed; Start match remains the primary action.",
+      "source_commit": "0b97fffa6b119cda5ebe6a955112f24125a4fa63"
     },
     {
       "file": "img/polish-ios-31-scan-four-players.png",
@@ -274,7 +315,8 @@
       "captured": "2026-10-19",
       "sha256_source": "6aa952c6df6d99afec8bca951dedb80a52a84aef6487ae1513b448e658a422a7",
       "title": "Scan \u00b7 four players",
-      "caption": "Four compact rows preserve rotation slots and separate confirmation status."
+      "caption": "Four compact rows preserve rotation slots and separate confirmation status.",
+      "source_commit": "0b97fffa6b119cda5ebe6a955112f24125a4fa63"
     },
     {
       "file": "img/polish-ios-47-scan-four-bottom.png",
@@ -282,7 +324,8 @@
       "captured": "2026-10-19",
       "sha256_source": "728deb48ce6f0d778c86ed0dce6cb968642ee11ab1e8a96482b2b4a783d31bf4",
       "title": "Scan \u00b7 scroll end",
-      "caption": "The four-player screen scrolls to the Start and Cancel controls above the tab bar."
+      "caption": "The four-player screen scrolls to the Start and Cancel controls above the tab bar.",
+      "source_commit": "0b97fffa6b119cda5ebe6a955112f24125a4fa63"
     },
     {
       "file": "img/polish-ios-26-chat-empty.png",
@@ -290,7 +333,8 @@
       "captured": "2026-10-19",
       "sha256_source": "0b34e901358352e06472fdf88477cb6cd3a37d0c17ee6cee0c6c219fbc4ed3c1",
       "title": "Chat \u00b7 empty",
-      "caption": "Players sits with the match context; Message and Send share a row."
+      "caption": "Players sits with the match context; Message and Send share a row.",
+      "source_commit": "0b97fffa6b119cda5ebe6a955112f24125a4fa63"
     },
     {
       "file": "img/polish-ios-27-chat-players.png",
@@ -298,7 +342,8 @@
       "captured": "2026-10-19",
       "sha256_source": "4bc1050069bc68f1e86ff9af4de166ebb96da133647415acf30cd9bef58f7d58",
       "title": "Chat \u00b7 players",
-      "caption": "The moved Players action still opens the existing player controls."
+      "caption": "The moved Players action still opens the existing player controls.",
+      "source_commit": "0b97fffa6b119cda5ebe6a955112f24125a4fa63"
     },
     {
       "file": "img/polish-ios-43-chat-populated.png",
@@ -306,7 +351,8 @@
       "captured": "2026-10-19",
       "sha256_source": "432fd74bf238cec2677206038e6647d882d8438fb5e7f22fe8ceebb492964ddd",
       "title": "Chat \u00b7 conversation",
-      "caption": "A fictional incoming message with the compact composer below."
+      "caption": "A fictional incoming message with the compact composer below.",
+      "source_commit": "0b97fffa6b119cda5ebe6a955112f24125a4fa63"
     },
     {
       "file": "img/polish-ios-44-chat-reply.png",
@@ -314,7 +360,8 @@
       "captured": "2026-10-19",
       "sha256_source": "0d8f6653c43ba12273d5805e6cd2556e029672a82cac8de1fa494dda69ad8248",
       "title": "Chat \u00b7 reply",
-      "caption": "Reply context, Cancel reply, draft and Send remain above the keyboard."
+      "caption": "Reply context, Cancel reply, draft and Send remain above the keyboard.",
+      "source_commit": "0b97fffa6b119cda5ebe6a955112f24125a4fa63"
     },
     {
       "file": "img/polish-ios-48-match-score-due.png",
@@ -322,7 +369,8 @@
       "captured": "2026-10-19",
       "sha256_source": "ef0165eefd073b2e46a2f93db49319003cf2b0db39b68c96ca67a2ef92b10e23",
       "title": "Score due",
-      "caption": "The reporting deadline and Report score action."
+      "caption": "The reporting deadline and Report score action.",
+      "source_commit": "0b97fffa6b119cda5ebe6a955112f24125a4fa63"
     },
     {
       "file": "img/polish-ios-49-score-form.png",
@@ -330,7 +378,8 @@
       "captured": "2026-10-19",
       "sha256_source": "93720ee422f704a1054ff08d28c7a645be4af24f9e6da84d32fff6c2722e712a",
       "title": "Report score",
-      "caption": "Opposing player rows keep each score attached to its player."
+      "caption": "Opposing player rows keep each score attached to its player.",
+      "source_commit": "0b97fffa6b119cda5ebe6a955112f24125a4fa63"
     },
     {
       "file": "img/polish-ios-50-score-metadata.png",
@@ -338,7 +387,8 @@
       "captured": "2026-10-19",
       "sha256_source": "c79f0c437575dd8b1c0ee41ecc3ef67f4e3a4dba2a7360391d601f5d889b89a8",
       "title": "Played date and venue",
-      "caption": "The score form retains played-date and venue controls at its scroll end."
+      "caption": "The score form retains played-date and venue controls at its scroll end.",
+      "source_commit": "0b97fffa6b119cda5ebe6a955112f24125a4fa63"
     },
     {
       "file": "img/polish-ios-13-score-review.png",
@@ -346,7 +396,8 @@
       "captured": "2026-10-19",
       "sha256_source": "94d1349d9dfbc643a98c097d91747c1e3533c955c17fd210a544d90b1062baee",
       "title": "Review a score",
-      "caption": "Each player keeps their own row and game scores."
+      "caption": "Each player keeps their own row and game scores.",
+      "source_commit": "0b97fffa6b119cda5ebe6a955112f24125a4fa63"
     },
     {
       "file": "img/polish-ios-14-dispute.png",
@@ -354,7 +405,8 @@
       "captured": "2026-10-19",
       "sha256_source": "be268970956bf2d998472fdcf72acce7f10c8515f4964c29338ed6c71976c538",
       "title": "Dispute a score",
-      "caption": "The reason, deadline consequence and safety-report alternative remain."
+      "caption": "The reason, deadline consequence and safety-report alternative remain.",
+      "source_commit": "0b97fffa6b119cda5ebe6a955112f24125a4fa63"
     },
     {
       "file": "img/polish-ios-29-boards.png",
@@ -362,7 +414,8 @@
       "captured": "2026-10-19",
       "sha256_source": "aa6af10d1b3bee1290e39caf1cfc7d57de4b12a47a6a34097ee7b3b12b053e1a",
       "title": "Leaderboard \u00b7 preparing",
-      "caption": "This local fixture has no published standings yet."
+      "caption": "This local fixture has no published standings yet.",
+      "source_commit": "0b97fffa6b119cda5ebe6a955112f24125a4fa63"
     },
     {
       "file": "img/polish-ios-30-recap.png",
@@ -370,7 +423,8 @@
       "captured": "2026-10-19",
       "sha256_source": "e7471060c0b6fbc607eda3debfd3114232be1becb2b66a3e13ca6cab1d44898c",
       "title": "Recap \u00b7 preparing",
-      "caption": "The current local recap is not ready; this is not a populated recap preview."
+      "caption": "The current local recap is not ready; this is not a populated recap preview.",
+      "source_commit": "0b97fffa6b119cda5ebe6a955112f24125a4fa63"
     },
     {
       "file": "img/polish-ios-16-blocks.png",
@@ -378,7 +432,8 @@
       "captured": "2026-10-19",
       "sha256_source": "8312981f9cffbac54a8963e4d5114a7cac3a018251fe8d403429bb2fadcabd3b",
       "title": "Blocked players",
-      "caption": "The empty list explains where blocking is available."
+      "caption": "The empty list explains where blocking is available.",
+      "source_commit": "0b97fffa6b119cda5ebe6a955112f24125a4fa63"
     },
     {
       "file": "img/polish-ios-17-conduct.png",
@@ -386,7 +441,12 @@
       "captured": "2026-10-19",
       "sha256_source": "0fd99c5dca1ab4b02e4f86d6540f19d53fce10e66d79c7260f34904e63649a08",
       "title": "Conduct record",
-      "caption": "The current account has no conduct reports."
+      "caption": "The current account has no conduct reports.",
+      "source_commit": "0b97fffa6b119cda5ebe6a955112f24125a4fa63"
     }
+  ],
+  "source_commits": [
+    "0b97fffa6b119cda5ebe6a955112f24125a4fa63",
+    "8e24ab144"
   ]
 }

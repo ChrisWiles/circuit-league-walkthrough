@@ -45,7 +45,7 @@ nav.chapters a { flex: none; text-decoration: none; color: var(--muted); font-fa
 nav.chapters a:hover, nav.chapters a.on { color: var(--ink); background: var(--volt-soft); }
 section.chapter { padding-block: 48px 8px; display: grid; gap: 14px; scroll-margin-top: 60px; min-width: 0; }
 .chapter .who { color: var(--muted); }
-.strip { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 24px 18px; padding-block: 8px 18px; min-width: 0; }
+.strip { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 24px 18px; padding-block: 8px 18px; min-width: 0; }
 .shot { scroll-snap-align: start; display: grid; gap: 8px; align-content: start; min-width: 0; }
 .shot button.img { border: 0; padding: 0; background: var(--phone); border-radius: 26px; overflow: hidden; cursor: zoom-in;
   box-shadow: 0 0 0 1px var(--line); aspect-ratio: 1320 / 2868; }
@@ -75,11 +75,11 @@ dialog .bar button { background: #1b2633; color: #e8edf2; border: 1px solid #2c3
     <span class="eyebrow">Circuit Pickleball · Circuit League · October 2026</span>
     <h1>Circuit League walkthrough</h1>
     <p class="lede">The Circuit League is a free, always-open league in the Circuit Pickleball app. Players pick their times and courts, Circuit proposes matches against players at their level, and eligible played results contribute to League boards and DUPR submissions.</p>
-    <p class="lede">Fresh iOS screenshots show all seven polish changes first, followed by the wider League flow. Every screen is laid out on this page; tap one to inspect it full size. <a href="before-ios-polish.html">Previous walkthrough</a>.</p>
+    <p class="lede">See the uncapped partnership flow first, then all seven polish changes and the wider League flow. Every screen is laid out on this page; tap one to inspect it full size. <a href="before-ios-polish.html">Previous walkthrough</a>.</p>
     <div class="facts">
-      <span><b>48</b> fresh iOS screenshots · October 19</span><span>Seven polish changes</span>
+      <span><b>49</b> iOS screenshots · captured October 19</span><span>Seven polish changes</span>
       <span><b>iOS</b> · dark theme · Default app text</span>
-      <span>Local review · not published</span>
+      <span>Walkthrough updated October 20</span>
       <span>Fictional players and test data</span>
     </div>
   </header>
@@ -94,7 +94,7 @@ dialog .bar button { background: #1b2633; color: #e8edf2; border: 1px solid #2c3
       <div>
         <h3>How it was captured</h3>
         <ul>
-          <li>These screenshots use the polished local iOS app and an isolated fictional database. This update is not deployed.</li>
+          <li>These screenshots use iOS development builds and an isolated fictional database. Publishing this walkthrough does not release the app changes.</li>
           <li>Every player, score and message is made up.</li>
           <li>The previous walkthrough is preserved separately, including its older iOS, Android and web evidence.</li>
         </ul>
@@ -126,6 +126,23 @@ dialog .bar button { background: #1b2633; color: #e8edf2; border: 1px solid #2c3
 
 <script>
 const CHAPTERS = [
+  {
+    "id": "partnerships",
+    "title": "Partnerships without a cap",
+    "who": "Keep your regular partners and add another without retiring an existing partnership. Self-matching and scheduling safeguards remain in place.",
+    "shots": [
+      [
+        "uncapped-ios-01-add-team-after-five.png",
+        "Five partnerships",
+        "All five partnerships remain active; Add a team stays available."
+      ],
+      [
+        "uncapped-ios-02-new-team-after-five.png",
+        "Add another partner",
+        "The new-team form opens with five existing partnerships. No retirement is required."
+      ]
+    ]
+  },
   {
     "id": "polish",
     "title": "The seven polish changes",
@@ -317,11 +334,6 @@ const CHAPTERS = [
         "The named invitation states that accepting does not start matchmaking."
       ],
       [
-        "polish-ios-11-team-new.png",
-        "New team · limit reached",
-        "The existing three-team limit explains how to make room before adding a team."
-      ],
-      [
         "polish-ios-22-invited-team.png",
         "Your new team",
         "Weekend Pair shows Ravi once, then its times and settings."
@@ -445,7 +457,7 @@ for (const c of CHAPTERS) {
   nav.insertAdjacentHTML('beforeend', `<a href="#${c.id}">${c.title}</a>`);
   const sec = document.createElement('section');
   sec.className = 'chapter'; sec.id = c.id;
-  sec.innerHTML = `<span class="eyebrow">October 19 · local · ${c.shots.length} ${c.shots.length === 1 ? 'screen' : 'screens'}</span><h2>${c.title}</h2>${c.who ? `<p class="who">${c.who}</p>` : ''}<div class="strip"></div>`;
+  sec.innerHTML = `<span class="eyebrow">iOS · October 19 · ${c.shots.length} ${c.shots.length === 1 ? 'screen' : 'screens'}</span><h2>${c.title}</h2>${c.who ? `<p class="who">${c.who}</p>` : ''}<div class="strip"></div>`;
   const strip = sec.querySelector('.strip');
   for (const [file, t, d, wide] of c.shots) {
     const n = String(++count).padStart(2, '0');
