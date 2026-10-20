@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Circuit League Walkthrough</title>
-<meta name="description" content="Circuit League: alphabetical player names, clearer introductions and navigation, automatic check-in, and populated leaderboards and safety records. Native iOS Dark, Default text.">
+<meta name="description" content="Explore Circuit League from joining and finding courts to matches, scores, leaderboards and safety records. One current iOS walkthrough.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
 <style>
@@ -38,11 +38,6 @@ header.top { padding-block: 48px 28px; display: grid; gap: 16px; border-bottom: 
 header.top .lede { font-size: 1.1rem; color: var(--muted); }
 .facts { display: flex; flex-wrap: wrap; gap: 8px 24px; font-size: 0.92rem; color: var(--muted); }
 .facts b { color: var(--ink); font-weight: 600; }
-nav.chapters { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); border-bottom: 1px solid var(--line);
-  display: flex; gap: 4px; overflow-x: auto; padding-block: 10px; scrollbar-width: none; }
-nav.chapters a { flex: none; text-decoration: none; color: var(--muted); font-family: var(--display); font-weight: 600; font-size: 1rem;
-  text-transform: uppercase; letter-spacing: 0.04em; padding: 6px 12px; border-radius: 999px; }
-nav.chapters a:hover, nav.chapters a.on { color: var(--ink); background: var(--volt-soft); }
 section.chapter { padding-block: 48px 8px; display: grid; gap: 14px; scroll-margin-top: 60px; min-width: 0; }
 .chapter .who { color: var(--muted); }
 .strip { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 24px 18px; padding-block: 8px 18px; min-width: 0; }
@@ -50,15 +45,9 @@ section.chapter { padding-block: 48px 8px; display: grid; gap: 14px; scroll-marg
 .shot button.img { border: 0; padding: 0; background: var(--phone); border-radius: 26px; overflow: hidden; cursor: zoom-in;
   box-shadow: 0 0 0 1px var(--line); aspect-ratio: 1320 / 2868; }
 .shot button.img img { width: 100%; height: 100%; object-fit: contain; display: block; }
-.shot.wide { grid-column: span 2; }
-.shot.wide button.img { border-radius: 10px; aspect-ratio: auto; max-height: 520px; }
-.shot.wide button.img img { object-fit: cover; object-position: top; height: 520px; }
 .shot .num { font-family: var(--mono); font-size: 0.72rem; color: var(--muted); }
 .shot p { font-size: 0.93rem; color: var(--muted); }
 section.notes { padding-block: 48px 0; display: grid; gap: 16px; }
-.cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; }
-.cols > div { display: grid; gap: 8px; align-content: start; min-width: 0; }
-.cols ul { margin: 0; padding-left: 18px; color: var(--muted); display: grid; gap: 4px; }
 dialog { border: 0; padding: 0; background: transparent; max-width: 96vw; max-height: 96vh; }
 dialog::backdrop { background: rgba(5, 8, 12, 0.86); }
 dialog[open] { display: grid; grid-template-rows: minmax(0, 1fr) auto auto; width: min(calc(100% - 24px), 600px); height: min(96dvh, 1100px); overflow: hidden; }
@@ -66,7 +55,7 @@ dialog img { display: block; width: 100%; height: 100%; min-height: 0; object-fi
 dialog .cap { color: #e8edf2; font-size: 0.95rem; padding-top: 10px; max-width: 60ch; }
 dialog .bar { display: flex; gap: 8px; justify-content: space-between; align-items: center; padding-top: 8px; }
 dialog .bar button { background: #1b2633; color: #e8edf2; border: 1px solid #2c3a4a; border-radius: 999px; padding: 8px 16px; font-family: var(--body); cursor: pointer; min-height: 44px; }
-@media (max-width: 520px) { .wrap { padding-inline: 16px; } .strip { grid-template-columns: minmax(0, 1fr); } .shot.wide { grid-column: span 1; } .shot.wide button.img img { height: 380px; } }
+@media (max-width: 520px) { .wrap { padding-inline: 16px; } .strip { grid-template-columns: minmax(0, 1fr); } }
 @media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
 </style>
 </head>
@@ -74,22 +63,16 @@ dialog .bar button { background: #1b2633; color: #e8edf2; border: 1px solid #2c3
 <div class="wrap">
   <header class="top">
     <span class="eyebrow">Circuit Pickleball · Circuit League · October 2026</span>
-    <h1>League, with real examples</h1>
-    <p class="lede">Review alphabetical player names, clearer introductions and navigation, automatic check-in, and populated standings and safety records. Every screen is a fresh native iOS capture in Dark mode at Default text size. <a href="before-player-names.html">Previous action-design tour</a> · <a href="before-action-design.html">Earlier full walkthrough</a>.</p>
-    <div class="facts"><span><b>32</b> native screenshots · October 20</span><span><b>iOS</b> · Dark</span><span>Default app text size</span><span>Fictional players and confirmed test results</span></div>
+    <h1>Circuit League walkthrough</h1>
+    <p class="lede">Explore Circuit League, from joining and finding courts to matches, scores and weekly progress. Tap a screen to enlarge it.</p>
+    <div class="facts"><span><b>68</b> screens</span><span><b>iOS</b> · Dark</span><span>Default app text size</span><span>Fictional players and matches</span></div>
   </header>
 
-  <nav class="chapters" id="nav" aria-label="Chapters"></nav>
   <div id="chapters"></div>
 
   <section class="notes" id="notes">
-    <span class="eyebrow">About this tour</span>
-    <h2>What you are looking at</h2>
-    <div class="cols">
-      <div><h3>Native captures</h3><ul><li>Original iOS development screenshots with unchanged pixels.</li><li>Dark theme and Default app text are verified in the native preferences.</li><li><a href="current-evidence.md">Verification and limits</a> · <a href="current-captures.json">Capture provenance</a>.</li></ul></div>
-      <div><h3>Populated examples</h3><ul><li>Three published pools, individual and pair records, and a weekly recap.</li><li>Blocked players, challenges, resolved reports and active/lifted restrictions.</li><li>All people, matches and conduct scenarios are fictional local fixtures.</li></ul></div>
-      <div><h3>Scope</h3><ul><li>This is targeted iOS Dark/Default evidence, not an exhaustive app audit.</li><li>Android, enlarged text, light theme, physical location, provider delivery and store artifacts were not visually verified in this pass.</li><li>Publishing this gallery does not deploy the app or database. Earlier tours remain archived.</li></ul></div>
-    </div>
+    <h2>About this tour</h2>
+    <p class="who">These native iOS screens use fictional players, matches and safety records. Some examples show alternative states, such as a pending report and its eventual outcome.</p>
   </section>
 </div>
 
@@ -103,262 +86,487 @@ dialog .bar button { background: #1b2633; color: #e8edf2; border: 1px solid #2c3
 const CHAPTERS = [
   {
     "id": "first-visit",
-    "title": "First visit",
+    "title": "Discover the League",
+    "who": "Play at your times and courts, then build your League record.",
     "platform": "iOS · Dark · Default",
-    "who": "Examples sit below the hero gradient. Join stays in the same footer position.",
     "shots": [
       [
         "names-oct20/24-intro-matches.png",
         "A League match",
-        "The example leaves the headline gradient visible."
+        "Find opponents near you at a suitable time."
       ],
       [
         "names-oct20/25-intro-week.png",
         "Your week",
-        "The week example stays below the introduction."
+        "Pick your available days and skip a week whenever you need."
       ],
       [
         "names-oct20/26-intro-boards.png",
         "Your city ranking",
-        "Swipe and Next move between the three cards."
+        "Confirmed results count toward your League standing."
       ]
     ]
   },
   {
-    "id": "navigation",
-    "title": "League navigation",
+    "id": "setup",
+    "title": "Join the League",
+    "who": "Complete your player checks, playing preferences and separate legal acceptances.",
     "platform": "iOS · Dark · Default",
-    "who": "Icons and chevrons identify destinations.",
     "shots": [
+      [
+        "polish-ios-39-entry.png",
+        "Before you join",
+        "Review your player profile and required entry checks."
+      ],
+      [
+        "polish-ios-38-how-you-play.png",
+        "How you play",
+        "Choose your formats and categories."
+      ],
+      [
+        "current-oct20/current-setup-venues.png",
+        "Choose courts",
+        "Save suitable venues or choose them later."
+      ],
+      [
+        "polish-ios-36-options.png",
+        "Matching options",
+        "Review commitments and automatic matchmaking."
+      ],
+      [
+        "polish-ios-34-terms.png",
+        "Release and terms",
+        "Read the League release before joining."
+      ],
+      [
+        "polish-ios-35-terms-end.png",
+        "Separate acceptances",
+        "The release and League terms each have their own acceptance."
+      ],
+      [
+        "names-oct20/27-setup-check-in.png",
+        "Automatic check-in",
+        "Review the location disclosure and confirm your check-in choice."
+      ],
+      [
+        "names-oct20/22-location-permission.png",
+        "Location permission",
+        "iOS asks for foreground location access when needed."
+      ],
+      [
+        "names-oct20/28-setup-finished.png",
+        "Ready to play",
+        "Membership is ready. Choose venues and start a search when you want a match."
+      ]
+    ]
+  },
+  {
+    "id": "home",
+    "title": "Your League",
+    "who": "Offers, score tasks and confirmed matches are available from League.",
+    "platform": "iOS · Dark · Default",
+    "shots": [
+      [
+        "current-oct20/current-home.png",
+        "League home",
+        "Needs you brings pending offers and score tasks together."
+      ],
       [
         "names-oct20/01-league-menu.png",
         "League menu",
-        "My QR code, League settings and League rules each have an icon and arrow."
-      ],
-      [
-        "names-oct20/03-league-settings.png",
-        "Previously undecided",
-        "Automatic check-in starts selected; Continue confirms the disclosed choice."
+        "Open your QR code, League settings or League rules."
       ]
     ]
   },
   {
-    "id": "player-names",
-    "title": "Player names, always alphabetical",
+    "id": "settings",
+    "title": "Play settings",
+    "who": "Choose when, where and how you want to play.",
     "platform": "iOS · Dark · Default",
-    "who": "Fixed partnerships use privacy-approved player names. Standings and game sides keep their original order.",
+    "shots": [
+      [
+        "current-oct20/current-settings.png",
+        "League settings",
+        "Manage times, venues and automatic matchmaking."
+      ],
+      [
+        "polish-ios-04-notifications.png",
+        "Notifications",
+        "Choose optional alerts and review required match and safety notices."
+      ],
+      [
+        "current-oct20/current-times.png",
+        "Your times",
+        "Save your available hours for this week and next week."
+      ],
+      [
+        "current-oct20/current-time-editor.png",
+        "Choose hours",
+        "Select time windows from the grid."
+      ],
+      [
+        "names-oct20/23-check-in-enabled.png",
+        "Automatic check-in enabled",
+        "The saved check-in choice uses foreground permission near match time."
+      ]
+    ]
+  },
+  {
+    "id": "venues",
+    "title": "Venues",
+    "who": "Save suitable courts and review their access requirements.",
+    "platform": "iOS · Dark · Default",
+    "shots": [
+      [
+        "current-oct20/current-venues.png",
+        "Saved venues",
+        "Keep favorite and backup courts in your venue choices."
+      ],
+      [
+        "current-oct20/current-venue.png",
+        "Venue details",
+        "Review access, directions, formats and popular times."
+      ],
+      [
+        "actions-ios-07-saved-venue-edit.png",
+        "Venue preference",
+        "Choose Favorite, Backup or Don’t use for a saved court."
+      ],
+      [
+        "current-oct20/current-find-map.png",
+        "Find courts",
+        "Browse venues near Austin on the map."
+      ],
+      [
+        "actions-ios-22-popular-times.png",
+        "Popular times",
+        "Expand the available time grid for the venue."
+      ],
+      [
+        "actions-ios-23-time-grid-expanded.png",
+        "Time grid",
+        "Review popular windows before editing your own availability."
+      ],
+      [
+        "actions-ios-04-flyer-sheet.png",
+        "League flyer",
+        "Print a flyer or share or save its PDF."
+      ]
+    ]
+  },
+  {
+    "id": "partnerships",
+    "title": "Play with a partner",
+    "who": "Fixed partnerships use both players’ public names in alphabetical order.",
+    "platform": "iOS · Dark · Default",
     "shots": [
       [
         "names-oct20/12-new-team.png",
         "Invite a partner",
-        "Choose a category and partner or share a link. There is no team-name field."
+        "Choose a category and partner, or share an invitation link."
+      ],
+      [
+        "current-oct20/current-team.png",
+        "Your partnership",
+        "Review your partner, matching times and search controls."
       ],
       [
         "names-oct20/13-pair-settings.png",
-        "Avery B. & Sam P.",
-        "The pair label is alphabetical, with matching controls and no rename action."
-      ],
-      [
-        "names-oct20/14-pair-result.png",
-        "A completed team match",
-        "Winner first, alphabetical names within each side, with each score kept beside its side."
-      ],
-      [
-        "names-oct20/34-planned-lineup.png",
-        "Planned rotating games",
-        "Alphabetical names within each planned side; the current player has a You annotation."
+        "Partnership settings",
+        "Manage the partnership’s matching preferences."
       ]
     ]
   },
   {
-    "id": "check-in",
-    "title": "Automatic check-in",
+    "id": "offers",
+    "title": "Answer a match offer",
+    "who": "Review the court, time and answer deadline before accepting.",
     "platform": "iOS · Dark · Default",
-    "who": "The default selection needs confirmation and foreground location permission. Existing Off choices stay off.",
     "shots": [
       [
-        "names-oct20/27-setup-check-in.png",
-        "New-player choice",
-        "Check-in starts selected with the disclosure visible and one Continue action."
+        "current-oct20/current-offer.png",
+        "Match offer",
+        "The offer shows its current availability and agreed plan."
       ],
       [
-        "names-oct20/28-setup-finished.png",
-        "Membership is ready",
-        "The separate finish screen follows the saved check-in choice. Choosing venues later leaves matchmaking off."
+        "actions-ios-25-other-times-sheet.png",
+        "Other times",
+        "When there is no other shared option, keep the current plan or decline."
       ],
       [
-        "names-oct20/22-location-permission.png",
-        "iOS foreground permission",
-        "Continue requests the real iOS location permission when needed."
+        "actions-ios-26-decline-sheet.png",
+        "Decline choices",
+        "Decline this offer or avoid matching with the same player for seven days."
+      ]
+    ]
+  },
+  {
+    "id": "scan",
+    "title": "Scan to play",
+    "who": "Players together in person can use personal League codes to set up a match.",
+    "platform": "iOS · Dark · Default",
+    "shots": [
+      [
+        "current-oct20/current-code.png",
+        "My QR code",
+        "Show your personal League code to another player."
       ],
       [
-        "names-oct20/23-check-in-enabled.png",
-        "Confirmed and enabled",
-        "The preference becomes effective after permission and the server save succeed."
+        "current-oct20/current-scan.png",
+        "Choose a format",
+        "Start a Singles, rotating doubles or fixed-team session."
+      ],
+      [
+        "current-oct20/current-scan-waiting.png",
+        "Waiting for confirmation",
+        "Each player row shows whether that player has confirmed."
+      ],
+      [
+        "current-oct20/current-scan-ready.png",
+        "Ready to start",
+        "Start match becomes available after the required confirmations."
+      ],
+      [
+        "current-oct20/current-scan-four.png",
+        "Four-player session",
+        "Rotation slots and confirmation status stay attached to each player."
+      ],
+      [
+        "current-oct20/current-scan-bottom.png",
+        "Session actions",
+        "Scroll to Start match and Cancel."
+      ]
+    ]
+  },
+  {
+    "id": "matches",
+    "title": "Matches and chat",
+    "who": "Review the planned games and coordinate with the players in your match.",
+    "platform": "iOS · Dark · Default",
+    "shots": [
+      [
+        "names-oct20/34-planned-lineup.png",
+        "Planned rotating games",
+        "Each planned side lists its players alphabetically."
+      ],
+      [
+        "current-oct20/current-chat.png",
+        "Match chat",
+        "Read the conversation and send a message to your match."
+      ],
+      [
+        "current-oct20/current-chat-players.png",
+        "Chat player controls",
+        "Mute or block a player from the match."
+      ],
+      [
+        "current-oct20/current-chat-keyboard.png",
+        "Write a message",
+        "The draft and Send control remain above the keyboard."
+      ],
+      [
+        "current-oct20/current-chat-reply.png",
+        "Reply to a message",
+        "Keep the original message in context while composing a reply."
+      ]
+    ]
+  },
+  {
+    "id": "scores",
+    "title": "Report and review scores",
+    "who": "Enter only games that were played. The opposing side reviews the report.",
+    "platform": "iOS · Dark · Default",
+    "shots": [
+      [
+        "current-oct20/current-score-due.png",
+        "Score due",
+        "Open the match’s score report before the displayed deadline."
+      ],
+      [
+        "current-oct20/current-score-form.png",
+        "Report score",
+        "Enter each score beside the player or side it belongs to."
+      ],
+      [
+        "current-oct20/current-score-metadata.png",
+        "Played date and venue",
+        "Choose the actual played date and venue."
+      ],
+      [
+        "current-oct20/current-score-review.png",
+        "Review a score",
+        "Review each player’s reported game scores."
+      ],
+      [
+        "current-oct20/current-dispute.png",
+        "Dispute a score",
+        "Explain what is wrong within the displayed deadline."
+      ],
+      [
+        "names-oct20/14-pair-result.png",
+        "Completed team result",
+        "The winning side appears first with its own scores."
       ]
     ]
   },
   {
     "id": "standings",
-    "title": "Populated leaderboards",
+    "title": "Leaderboards",
+    "who": "Season standings include Singles, individual rotating Doubles and fixed Teams.",
     "platform": "iOS · Dark · Default",
-    "who": "Fictional confirmed results pass through the rating and weekly snapshot pipeline: 20 Singles, 20 Doubles and 10 Teams competitors.",
     "shots": [
       [
-        "names-oct20/09-singles-board.png",
+        "current-oct20/current-singles.png",
         "Singles",
-        "Published individual standings with Avery marked You."
+        "Rank, match record and movement for individual players."
       ],
       [
-        "names-oct20/10-doubles-board.png",
+        "current-oct20/current-doubles.png",
         "Doubles",
-        "Rotating doubles ranks individual players; the own row remains accessible."
+        "Rotating doubles ranks individual players; your own record stays accessible."
       ],
       [
-        "names-oct20/11-teams-board.png",
+        "current-oct20/current-teams.png",
         "Teams",
-        "Fixed pairs retain ranking order while their two names are alphabetical."
+        "Each partner has a separate line in alphabetical order."
       ],
       [
-        "names-oct20/29-board-filters.png",
+        "current-oct20/current-board-filters.png",
         "Leaderboard filters",
-        "The existing category and season controls remain available."
+        "Choose a season and category."
       ],
       [
-        "names-oct20/30-board-scroll-end.png",
+        "current-oct20/current-board-bottom.png",
         "Lower standings",
-        "Lower-ranked rows and the physical list end remain clear of the tab bar."
+        "Scroll to the final ranked players and your own record."
       ]
     ]
   },
   {
     "id": "records",
-    "title": "Player and pair records",
+    "title": "Player records and weekly progress",
+    "who": "Tap a leaderboard row for the player or pair’s details.",
     "platform": "iOS · Dark · Default",
-    "who": "Records, scores and ranks come from the server.",
     "shots": [
       [
         "names-oct20/15-individual-stats.png",
         "Individual record",
-        "Singles results and rank history for the current player."
+        "Review match results and rank history."
       ],
       [
-        "names-oct20/16-pair-stats.png",
-        "Fixed-pair record",
-        "The pair label and each opposing pair use alphabetical names."
+        "current-oct20/current-pair-stats.png",
+        "Pair record",
+        "Review the pair’s match history and provisional status."
       ],
       [
         "names-oct20/17-weekly-recap.png",
-        "A populated recap",
-        "Confirmed games, progress and board destinations for a fictional week."
+        "Weekly recap",
+        "See confirmed games, progress and leaderboard destinations."
       ]
     ]
   },
   {
     "id": "blocked-players",
     "title": "Blocked players",
+    "who": "Blocking is private and prevents future League matching together.",
     "platform": "iOS · Dark · Default",
-    "who": "Three fictional players include a deliberately long visible name. Blocking stays private.",
     "shots": [
       [
         "names-oct20/04-blocked-players.png",
-        "Populated blocked list",
-        "Alphabetical player rows, a wrapped long name, and separate Unblock actions."
+        "Blocked list",
+        "Each player has a separate Unblock action."
       ],
       [
         "names-oct20/32-unblocked-empty.png",
         "After unblocking",
-        "Server-confirmed unblocking returns the list to its empty state."
+        "The empty list explains where blocking is available."
       ]
     ]
   },
   {
     "id": "conduct",
     "title": "Conduct records",
+    "who": "Review reports, respond within their deadlines and see decided outcomes.",
     "platform": "iOS · Dark · Default",
-    "who": "Fictional reports demonstrate open, challenged and resolved cases. An accusation is not presented as a finding.",
     "shots": [
       [
         "names-oct20/05-conduct-active.png",
-        "Active matchmaking pause",
-        "The account consequence, related-report destinations and support recovery are visible."
+        "Matchmaking pause",
+        "An active restriction explains its consequence and support recovery."
       ],
       [
         "names-oct20/20-conduct-history.png",
-        "Multiple reports",
-        "Different dates and outcomes remain separate entries."
+        "Report history",
+        "Reports retain separate dates, statuses and outcomes."
       ],
       [
         "names-oct20/06-conduct-open.png",
-        "Report awaiting response",
-        "The undecided report includes its challenge deadline."
+        "Awaiting response",
+        "An undecided report includes its challenge deadline."
       ],
       [
         "names-oct20/18-conduct-challenge.png",
         "Challenge a report",
-        "The explanation form and Send challenge action."
+        "Explain your response and send the challenge."
       ],
       [
         "names-oct20/19-challenge-saved.png",
-        "Challenge under review",
-        "The actual saved challenge is visible on the case."
+        "Under review",
+        "The saved challenge appears on its report."
       ],
       [
         "names-oct20/07-conduct-substantiated.png",
         "Finding confirmed",
-        "The confirmed outcome and decision explanation."
+        "Read the confirmed outcome and decision explanation."
       ],
       [
         "names-oct20/08-conduct-dismissed.png",
         "Report dismissed",
-        "The dismissed outcome and explanation."
+        "Read the dismissal and its explanation."
       ],
       [
         "names-oct20/21-conduct-lifted.png",
         "Restriction lifted",
-        "The operator-lifted pause remains in account history with its current consequence."
+        "A lifted pause remains visible in account history."
       ]
     ]
   },
   {
     "id": "appearance",
-    "title": "Verified appearance",
+    "title": "Appearance",
+    "who": "The native app is shown in Dark mode at Default app text size.",
     "platform": "iOS · Dark · Default",
-    "who": "A dedicated iPhone 17 Pro simulator running iOS 26.4. This pass is scoped to Dark and Default.",
     "shots": [
       [
-        "names-oct20/02-dark-default-preferences.png",
+        "current-oct20/current-appearance.png",
         "Dark and Default",
-        "The native appearance controls show the selected theme and app text size."
+        "The selected native appearance preferences."
       ]
     ]
   }
 ];
 
 const all = [];
-const nav = document.getElementById('nav');
 const host = document.getElementById('chapters');
 let count = 0;
 for (const c of CHAPTERS) {
-  nav.insertAdjacentHTML('beforeend', `<a href="#${c.id}">${c.title}</a>`);
   const sec = document.createElement('section');
   sec.className = 'chapter'; sec.id = c.id;
-  sec.innerHTML = `<span class="eyebrow">${c.platform} · October 20 · ${c.shots.length} ${c.shots.length === 1 ? 'screen' : 'screens'}</span><h2>${c.title}</h2>${c.who ? `<p class="who">${c.who}</p>` : ''}<div class="strip"></div>`;
+  sec.innerHTML = `<span class="eyebrow">${c.platform} · ${c.shots.length} ${c.shots.length === 1 ? 'screen' : 'screens'}</span><h2>${c.title}</h2>${c.who ? `<p class="who">${c.who}</p>` : ''}<div class="strip"></div>`;
   const strip = sec.querySelector('.strip');
-  for (const [file, t, d, wide] of c.shots) {
+  for (const [file, t, d] of c.shots) {
     const n = String(++count).padStart(2, '0');
     const src = `img/${file}`;
     const idx = all.push({ n, t, d, src }) - 1;
     const el = document.createElement('article');
-    el.className = 'shot' + (wide ? ' wide' : '');
+    el.className = 'shot';
     el.innerHTML = `<button class="img" type="button" aria-label="Open screen ${n}, ${t}"><img loading="lazy" src="${src}" alt="${t}: ${d}"></button>
-      <span class="num">${n} · October 20</span><h3>${t}</h3><p>${d}</p>`;
+      <span class="num">${n}</span><h3>${t}</h3><p>${d}</p>`;
     el.querySelector('button.img').addEventListener('click', () => openLb(idx));
     strip.appendChild(el);
   }
   host.appendChild(sec);
 }
-nav.insertAdjacentHTML('beforeend', '<a href="#notes">About</a>');
 
 const lb = document.getElementById('lb'); let cur = 0;
 function openLb(i) { cur = i; const s = all[i]; const img = document.getElementById('lbimg'); img.src = s.src; img.alt = s.t;
@@ -370,9 +578,6 @@ document.getElementById('close').onclick = () => lb.close();
 lb.addEventListener('click', (e) => { if (e.target === lb) lb.close(); });
 document.addEventListener('keydown', (e) => { if (!lb.open) return; if (e.key === 'ArrowRight') step(1); if (e.key === 'ArrowLeft') step(-1); });
 
-const links = [...nav.querySelectorAll('a')];
-const io = new IntersectionObserver((es) => es.forEach((e) => { if (e.isIntersecting) links.forEach((a) => a.classList.toggle('on', a.getAttribute('href') === '#' + e.target.id)); }), { rootMargin: '-40% 0px -55% 0px' });
-document.querySelectorAll('section[id]').forEach((s) => io.observe(s));
 </script>
 </body>
 </html>
