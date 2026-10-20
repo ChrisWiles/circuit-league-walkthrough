@@ -1,5 +1,5 @@
 {
-  "appCommit": "b53a1788df6767818b1af2b9b568e9c1682670fd",
+  "appCommit": "257888a12979c00e1e876085ea07a116a0080674",
   "capturedOn": "2026-10-20",
   "appearance": {
     "platform": "iOS",
@@ -18,7 +18,10 @@
     "supabase/schemas/30_functions/80-league-score-work.sql": "dc735c64e4268eec8dd6418016e242f59b45d8a293231ddf3c005b48db7cfb80",
     "supabase/schemas/30_functions/71-league-notices.sql": "11d04847d85aacafbf499eccc94ae426e9090939ff2aaf94dc9bcdd20a059719",
     "packages/shared/src/league/notices.ts": "2ad7d4971747fdf8dd9702a9f16fb4714ff906da54efcabc1434559dd024c5da",
-    "supabase/functions/process-outbox/handlers/league-notices.ts": "60a11926bb3c9d88f418811c0abc6f8d9f39384bcc0e736539aa162118b524b1"
+    "supabase/functions/process-outbox/handlers/league-notices.ts": "60a11926bb3c9d88f418811c0abc6f8d9f39384bcc0e736539aa162118b524b1",
+    "apps/mobile/src/components/league/matches/LeagueMatchStage.tsx": "f640e1deaf65230a4182ceb88513e60f6f057e3bc0072fb60b66f5e0d0e2d919",
+    "apps/mobile/src/components/league/scoring/LeagueScoreReportScreen.tsx": "e355ee4c944a1627ec066968cf7eccb46f8d99a4d71fcc710ffe81716311b869",
+    "apps/web/src/features/help/content/pages.ts": "07052bd413d179d853fb795f9812f8eb93ea3e940007adf9f8405f472bd591cc"
   },
   "captures": [
     {
@@ -728,39 +731,39 @@
       "evidence": "current native capture"
     },
     {
-      "file": "img/current-oct20/current-score-due.png",
+      "file": "img/current-oct20/confirmation-48-score-due.png",
       "title": "Score due",
-      "description": "Open the match\u2019s score report before the displayed deadline.",
-      "sha256": "715a8a63373839dfb5c84e4a3e1e4f4b86e76288b838fd18a2e1b90dfe49ef2c",
+      "description": "Report before the displayed deadline. The opposing side has 48 hours after you send the score to review it.",
+      "sha256": "c56bac2e986452575b2366cef00e8f461451524fd22eb82a3a0be5d6d1b26586",
       "width": 1206,
       "height": 2622,
-      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/current-score-due.png",
+      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/confirmation-copy-output/confirmation-copy/takeScreenshot/confirmation-48-score-due.png",
       "capturedOn": "2026-10-20",
-      "sourceRevision": "9ee7e0ed6e8a055a61244d0d5fee26d9fd1cff5e",
+      "sourceRevision": "257888a12979c00e1e876085ea07a116a0080674",
       "evidence": "current native capture"
     },
     {
-      "file": "img/current-oct20/current-score-form.png",
+      "file": "img/current-oct20/confirmation-48-score-form.png",
       "title": "Report score",
-      "description": "Enter each score beside the player or side it belongs to.",
-      "sha256": "b7ba93e10fa9c619c8d7889db8b3dc9dfea38e1194626c87830eb2c5ca7a4d09",
+      "description": "Enter each played game beside the player or side it belongs to.",
+      "sha256": "d36ab443802940f22a128869fd90845f1fa53b19cb8005640dc75074d01e8965",
       "width": 1206,
       "height": 2622,
-      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/current-score-form.png",
+      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/confirmation-copy-output/confirmation-copy/takeScreenshot/confirmation-48-score-form.png",
       "capturedOn": "2026-10-20",
-      "sourceRevision": "9ee7e0ed6e8a055a61244d0d5fee26d9fd1cff5e",
+      "sourceRevision": "257888a12979c00e1e876085ea07a116a0080674",
       "evidence": "current native capture"
     },
     {
-      "file": "img/current-oct20/current-score-metadata.png",
+      "file": "img/current-oct20/confirmation-48-score-metadata.png",
       "title": "Played date and venue",
-      "description": "Choose the actual played date and venue.",
-      "sha256": "2f3c2b0eab9ed28bdde4dfbf3ff30cad20b2bdf470411214011692365455f293",
+      "description": "Choose the actual played date and venue. Unanswered scores count 48 hours after sending.",
+      "sha256": "1939bbc8789a9efd4e315f6b754ee48336b8b836a352458927412c17908b2f97",
       "width": 1206,
       "height": 2622,
-      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/current-score-metadata.png",
+      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/confirmation-copy-output/confirmation-copy/takeScreenshot/confirmation-48-score-metadata.png",
       "capturedOn": "2026-10-20",
-      "sourceRevision": "9ee7e0ed6e8a055a61244d0d5fee26d9fd1cff5e",
+      "sourceRevision": "257888a12979c00e1e876085ea07a116a0080674",
       "evidence": "current native capture"
     },
     {
@@ -1136,15 +1139,15 @@
       "evidence": "retained current screen; original provenance preserved"
     },
     {
-      "file": "img/current-oct20/current-appearance.png",
+      "file": "img/current-oct20/confirmation-default-settings.png",
       "title": "Dark and Default",
-      "description": "The selected native appearance preferences.",
-      "sha256": "0e4a981c0761ddafc1a2decf3ccf0050ca23310d4ad954e739e0511b885e0fab",
+      "description": "The selected native Dark appearance and Default app text size.",
+      "sha256": "9261dc06a1882904dcd5798bfcd690a6c32f38a1c0f6bc2933aae86971054578",
       "width": 1206,
       "height": 2622,
-      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/current-appearance.png",
+      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/confirmation-copy-output/confirmation-copy/takeScreenshot/confirmation-default-settings.png",
       "capturedOn": "2026-10-20",
-      "sourceRevision": "9ee7e0ed6e8a055a61244d0d5fee26d9fd1cff5e",
+      "sourceRevision": "257888a12979c00e1e876085ea07a116a0080674",
       "evidence": "current native capture"
     }
   ]
