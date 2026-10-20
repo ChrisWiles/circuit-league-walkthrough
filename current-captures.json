@@ -1,5 +1,5 @@
 {
-  "appCommit": "c83d26e00048ff5225dd72fb59c037855ef50e07",
+  "appCommit": "211db73b87d0fa1fe0c58776fbf78e0293c0be27",
   "capturedOn": "2026-10-20",
   "appearance": {
     "platform": "iOS",
@@ -10,7 +10,7 @@
     "systemContentSize": "large (iOS default)"
   },
   "sourceFiles": {
-    "apps/mobile/src/components/league/boards/LeagueBoardsScreen.tsx": "8a9bcd0e922ba5a8e59b5d5f4329aa68727ee4e7db5b4336e0f23984e8f3e373"
+    "apps/mobile/src/components/league/boards/LeagueBoardsScreen.tsx": "a36f84fb9719c066abd94cca0bed27fcb2cffb237951004aea31d41d31186729"
   },
   "captures": [
     {
@@ -836,15 +836,15 @@
       "evidence": "current native capture"
     },
     {
-      "file": "img/current-oct20/current-board-filters-padded.png",
+      "file": "img/current-oct20/current-board-filters-single-season.png",
       "title": "Leaderboard filters",
-      "description": "Choose a season and category.",
-      "sha256": "b4f7e1c0902fa46c0712ba6cf81423efb3374fc551241b911ee58a68335157aa",
+      "description": "Choose a category. Season choices appear when more than one season is available.",
+      "sha256": "7f791fd8505c801352d0cfb08c86d39e985619f8c8c7d1c5b1fcb42e937d403f",
       "width": 1206,
       "height": 2622,
-      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/current-board-filters.png",
+      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/current-board-filters-single-season.png",
       "capturedOn": "2026-10-20",
-      "sourceRevision": "c83d26e00048ff5225dd72fb59c037855ef50e07",
+      "sourceRevision": "211db73b87d0fa1fe0c58776fbf78e0293c0be27",
       "evidence": "current native capture"
     },
     {

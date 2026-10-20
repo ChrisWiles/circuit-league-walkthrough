@@ -2,7 +2,7 @@
 
 The single tour follows the League player journey across 68 native iOS screens: introduction, setup, play settings, venues, partnerships, offers, scan, chat, score reporting/review, populated standings, records, blocked players and conduct. All screens appear on one page; the image viewer supports Previous, Next, Close and keyboard navigation. There is no sticky chapter navigation, version comparison or link to an older tour. Retired tour URLs redirect to the current root.
 
-App commit: `c83d26e00048ff5225dd72fb59c037855ef50e07` (local). The tour contains 32 refreshed captures and 36 retained current screens with their original provenance.
+App commit: `211db73b87d0fa1fe0c58776fbf78e0293c0be27` (local). The tour contains 32 refreshed captures and 36 retained current screens with their original provenance.
 
 ## Leaderboard change
 
@@ -31,3 +31,7 @@ Capture provenance in current-captures.json distinguishes refreshed images from 
 ## Limits
 
 This is a complete illustrated player tour, not an exhaustive visual audit of every loading, error, refusal, permission or lifecycle state. Android, enlarged app/system text, light theme, physical geolocation, provider delivery and store artifacts were not visually verified in this explicitly requested iOS Dark/Default pass. Unchanged retained screenshots are identified in the manifest rather than claimed as newly captured. App changes are committed locally; publishing the gallery does not push or deploy the app, backend, OTA update or store release.
+
+## Single-season filter correction
+
+The native season picker is hidden when the catalog offers only one season. Category changes preserve that season. Multiple-season selection and historical snapshot behavior retain their existing tests. The new original iOS Dark/Default filter capture was inspected; all 17 board tests passed, full typecheck passed, and the sole lint test-style finding was corrected with full-root oxlint passing afterward. Other 29 lint tasks passed. No web board-picker equivalent, API/schema, telemetry or communication changes.
