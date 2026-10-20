@@ -1,5 +1,5 @@
 {
-  "appCommit": "5883567457b016b86685dfdc7afb90cc2faa04c5",
+  "appCommit": "b53a1788df6767818b1af2b9b568e9c1682670fd",
   "capturedOn": "2026-10-20",
   "appearance": {
     "platform": "iOS",
@@ -13,7 +13,12 @@
     "apps/mobile/src/components/league/boards/LeagueBoardsScreen.tsx": "47c9d45af3ecd8ba88c9c7840cde26c5ccbd8ffd3c4ba3438bc37437ed21cd6a",
     "apps/mobile/src/components/league/boards/LeagueStatsScreen.tsx": "48797dbfb94fb1f84ab9d58fbb3a298931434c226d44f10e6c0afbccbf6593d2",
     "packages/shared/src/league/point-differential.ts": "26f6e04f705945315c450fe31089b141d6f6274e62be6a8592e8548345c29a01",
-    "supabase/schemas/30_functions/89-league-snapshots.sql": "59e615128e6cf02fe3fdd105fae187416b286cdce82c89e24151b2db4afc76f9"
+    "supabase/schemas/30_functions/89-league-snapshots.sql": "59e615128e6cf02fe3fdd105fae187416b286cdce82c89e24151b2db4afc76f9",
+    "supabase/schemas/30_functions/78-league-score-commands.sql": "42833761391068f74a68ba01ebfcf3bca5eff859eff59807ff39c1f67f947a8d",
+    "supabase/schemas/30_functions/80-league-score-work.sql": "dc735c64e4268eec8dd6418016e242f59b45d8a293231ddf3c005b48db7cfb80",
+    "supabase/schemas/30_functions/71-league-notices.sql": "11d04847d85aacafbf499eccc94ae426e9090939ff2aaf94dc9bcdd20a059719",
+    "packages/shared/src/league/notices.ts": "2ad7d4971747fdf8dd9702a9f16fb4714ff906da54efcabc1434559dd024c5da",
+    "supabase/functions/process-outbox/handlers/league-notices.ts": "60a11926bb3c9d88f418811c0abc6f8d9f39384bcc0e736539aa162118b524b1"
   },
   "captures": [
     {
@@ -239,15 +244,15 @@
       "evidence": "retained current screen; original provenance preserved"
     },
     {
-      "file": "img/current-oct20/current-home.png",
+      "file": "img/current-oct20/confirmation-48-home.png",
       "title": "League home",
-      "description": "Needs you brings pending offers and score tasks together.",
-      "sha256": "e846f9d7020d4bf1e74a1888577a22bb954de92c0ff505c8f4e12933dec90c0b",
+      "description": "Needs you keeps the current report and review tasks together.",
+      "sha256": "face549bbca0932163135061365baabf286953321a27eb3e40877a87a84dcde8",
       "width": 1206,
       "height": 2622,
-      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/current-home.png",
+      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/confirmation-48-home.png",
       "capturedOn": "2026-10-20",
-      "sourceRevision": "9ee7e0ed6e8a055a61244d0d5fee26d9fd1cff5e",
+      "sourceRevision": "b53a1788df6767818b1af2b9b568e9c1682670fd",
       "evidence": "current native capture"
     },
     {
@@ -759,27 +764,27 @@
       "evidence": "current native capture"
     },
     {
-      "file": "img/current-oct20/current-score-review.png",
+      "file": "img/current-oct20/confirmation-48-review.png",
       "title": "Review a score",
-      "description": "Review each player\u2019s reported game scores.",
-      "sha256": "7e24ae020e30cbc15bf1544f7c945dbf795903527b2f8926925a75c3f1aa8b78",
+      "description": "Review within 48 hours of reporting. Push arrives on report, push and enabled email after 24 hours, and a final push six hours before the deadline.",
+      "sha256": "85c1a665c233cb1747239b5204b74586ffd78a8edb44fb3267d88d886115b778",
       "width": 1206,
       "height": 2622,
-      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/current-score-review.png",
+      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/confirmation-48-review.png",
       "capturedOn": "2026-10-20",
-      "sourceRevision": "9ee7e0ed6e8a055a61244d0d5fee26d9fd1cff5e",
+      "sourceRevision": "b53a1788df6767818b1af2b9b568e9c1682670fd",
       "evidence": "current native capture"
     },
     {
-      "file": "img/current-oct20/current-dispute.png",
+      "file": "img/current-oct20/confirmation-48-dispute.png",
       "title": "Dispute a score",
-      "description": "Explain what is wrong within the displayed deadline.",
-      "sha256": "4a559e8256c1b8626647b96f1daa067d5cce2cdc4486688a9a1f7bc3bd6e16da",
+      "description": "A dispute stops automatic confirmation and DUPR submission for the disputed games. Players then have 24 hours to agree a correction.",
+      "sha256": "073815cd106542e415ce2740ff8d88a3e75a71561e5cd058d70a7ef846e848d7",
       "width": 1206,
       "height": 2622,
-      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/current-dispute.png",
+      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/confirmation-48-dispute.png",
       "capturedOn": "2026-10-20",
-      "sourceRevision": "9ee7e0ed6e8a055a61244d0d5fee26d9fd1cff5e",
+      "sourceRevision": "b53a1788df6767818b1af2b9b568e9c1682670fd",
       "evidence": "current native capture"
     },
     {
