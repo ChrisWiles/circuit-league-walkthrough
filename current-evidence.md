@@ -2,11 +2,13 @@
 
 The single tour follows the League player journey across 68 native iOS screens: introduction, setup, play settings, venues, partnerships, offers, scan, chat, score reporting/review, populated standings, records, blocked players and conduct. All screens appear on one page; the image viewer supports Previous, Next, Close and keyboard navigation. There is no sticky chapter navigation, version comparison or link to an older tour. Retired tour URLs redirect to the current root.
 
-App commit: `9ee7e0ed6e8a055a61244d0d5fee26d9fd1cff5e` (local). The tour contains 32 refreshed captures and 36 retained current screens with their original provenance.
+App commit: `c83d26e00048ff5225dd72fb59c037855ef50e07` (local). The tour contains 32 refreshed captures and 36 retained current screens with their original provenance.
 
 ## Leaderboard change
 
 Singles and Doubles show individual names without profile photos, initials or provisional badges. Teams show each partner on a separate alphabetical line. The pinned own record uses the same identity treatment. Rank, record, movement, qualification guidance and the current-player highlight remain. Tapping a Teams row was verified to open its pair record, where Provisional remains visible. Ranking and eligibility rules, APIs and database schemas are unchanged.
+
+The latest correction extends own-player highlights across the full list width with 16-point horizontal content padding. You is vertically centered beside the entire record, including pairs and the pinned own record. Five original iOS Dark/Default captures were refreshed for this correction; other capture revisions remain identified in the manifest.
 
 ## Native verification
 
@@ -21,7 +23,7 @@ Capture provenance in current-captures.json distinguishes refreshed images from 
 - Board and stats component suites: 2 passed, 33 tests passed.
 - Shared needs-you roster suite: 45 tests passed.
 - Full npm run lint:typecheck: passed, including all workspace and Edge checks.
-- Full npm run lint: 29 tasks passed; oxlint initially reported four test-rule errors. Narrow explanations preserve sequential screen interactions and ES2020 compatibility; full-root oxlint then passed with no warnings or errors.
+- Full npm run lint: all 30 tasks passed for the highlight correction.
 - Changed-file formatting and git diff --check: passed.
 - Required code review and simplify: completed against the final app content; no unresolved in-scope findings.
 - Gallery: matched page and opened-viewer checks at 360×800, 390×844 and 1280×900, with current assets and retired-tour redirects checked before publication.

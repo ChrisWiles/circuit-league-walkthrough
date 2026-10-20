@@ -1,5 +1,5 @@
 {
-  "appCommit": "9ee7e0ed6e8a055a61244d0d5fee26d9fd1cff5e",
+  "appCommit": "c83d26e00048ff5225dd72fb59c037855ef50e07",
   "capturedOn": "2026-10-20",
   "appearance": {
     "platform": "iOS",
@@ -10,7 +10,7 @@
     "systemContentSize": "large (iOS default)"
   },
   "sourceFiles": {
-    "apps/mobile/src/components/league/boards/LeagueBoardsScreen.tsx": "c1895266eed35e2958ea81860d1255f8c8c497c74e2d5f85d95c4eb1492405a3"
+    "apps/mobile/src/components/league/boards/LeagueBoardsScreen.tsx": "8a9bcd0e922ba5a8e59b5d5f4329aa68727ee4e7db5b4336e0f23984e8f3e373"
   },
   "captures": [
     {
@@ -800,63 +800,63 @@
       "evidence": "retained current screen; original provenance preserved"
     },
     {
-      "file": "img/current-oct20/current-singles.png",
+      "file": "img/current-oct20/current-singles-padded.png",
       "title": "Singles",
       "description": "Rank, match record and movement for individual players.",
-      "sha256": "9ed83bc68675cfe6a91c1966cf6ccd6a4e8576553e465358c03282c27171f318",
+      "sha256": "93e23211edf348130298e443db6a6495a37b3a1ebbcacd9e9182f4d8a6bba6a6",
       "width": 1206,
       "height": 2622,
       "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/current-singles.png",
       "capturedOn": "2026-10-20",
-      "sourceRevision": "9ee7e0ed6e8a055a61244d0d5fee26d9fd1cff5e",
+      "sourceRevision": "c83d26e00048ff5225dd72fb59c037855ef50e07",
       "evidence": "current native capture"
     },
     {
-      "file": "img/current-oct20/current-doubles.png",
+      "file": "img/current-oct20/current-doubles-padded.png",
       "title": "Doubles",
       "description": "Rotating doubles ranks individual players; your own record stays accessible.",
-      "sha256": "ef683aaed620d03158d2654552b3102944e4ce6847a0fed836538653470a8751",
+      "sha256": "ccc17451bf178c105038eef35d1de64273935d53b26d55feaa4d93bd7882f528",
       "width": 1206,
       "height": 2622,
       "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/current-doubles.png",
       "capturedOn": "2026-10-20",
-      "sourceRevision": "9ee7e0ed6e8a055a61244d0d5fee26d9fd1cff5e",
+      "sourceRevision": "c83d26e00048ff5225dd72fb59c037855ef50e07",
       "evidence": "current native capture"
     },
     {
-      "file": "img/current-oct20/current-teams.png",
+      "file": "img/current-oct20/current-teams-padded.png",
       "title": "Teams",
       "description": "Each partner has a separate line in alphabetical order.",
-      "sha256": "aa611c92bf305e53062516ff2055cc65720dfddd8d4ed20a5c482e8019edee0d",
+      "sha256": "4543b3a15ff8cdc7377b8f5921791e8f0ac28d462c3a3aabcfa12264af788565",
       "width": 1206,
       "height": 2622,
       "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/current-teams.png",
       "capturedOn": "2026-10-20",
-      "sourceRevision": "9ee7e0ed6e8a055a61244d0d5fee26d9fd1cff5e",
+      "sourceRevision": "c83d26e00048ff5225dd72fb59c037855ef50e07",
       "evidence": "current native capture"
     },
     {
-      "file": "img/current-oct20/current-board-filters.png",
+      "file": "img/current-oct20/current-board-filters-padded.png",
       "title": "Leaderboard filters",
       "description": "Choose a season and category.",
-      "sha256": "3c3aefc709264207e223fd2d9c40a698c979b12988a70872fa2f83da87d6d4ec",
+      "sha256": "b4f7e1c0902fa46c0712ba6cf81423efb3374fc551241b911ee58a68335157aa",
       "width": 1206,
       "height": 2622,
       "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/current-board-filters.png",
       "capturedOn": "2026-10-20",
-      "sourceRevision": "9ee7e0ed6e8a055a61244d0d5fee26d9fd1cff5e",
+      "sourceRevision": "c83d26e00048ff5225dd72fb59c037855ef50e07",
       "evidence": "current native capture"
     },
     {
-      "file": "img/current-oct20/current-board-bottom.png",
+      "file": "img/current-oct20/current-board-bottom-padded.png",
       "title": "Lower standings",
       "description": "Scroll to the final ranked players and your own record.",
-      "sha256": "e8d9f7adbf4817f0e6c8fe98ec6423e6906660c377fb314e6768873267145df3",
+      "sha256": "c81306a09f763a09e158458c67dad8e8078d1569a3c2edecd886e547afdba244",
       "width": 1206,
       "height": 2622,
       "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/current-board-bottom.png",
       "capturedOn": "2026-10-20",
-      "sourceRevision": "9ee7e0ed6e8a055a61244d0d5fee26d9fd1cff5e",
+      "sourceRevision": "c83d26e00048ff5225dd72fb59c037855ef50e07",
       "evidence": "current native capture"
     },
     {
