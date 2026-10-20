@@ -4,11 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Circuit League Walkthrough</title>
-<meta name="description" content="A screen-by-screen tour of the Circuit League on the Circuit Pickleball mobile app, from the first visit to the weekly recap.">
+<meta name="description" content="Circuit League mobile action redesign: native iOS and Android screens, matched before and after comparisons, larger text and light appearance.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
 <style>
-/* A single review page: every current iOS capture is visible in its chapter grid. */
+/* A single review page: every current native capture is visible in its chapter grid. */
 :root {
   --bg: #f4f6f1; --surface: #ffffff; --ink: #121a24; --muted: #5b6573; --line: #dde3d6;
   --volt: #5e7a00; --volt-soft: #eef4d6; --phone: #0b1118;
@@ -61,10 +61,11 @@ section.notes { padding-block: 48px 0; display: grid; gap: 16px; }
 .cols ul { margin: 0; padding-left: 18px; color: var(--muted); display: grid; gap: 4px; }
 dialog { border: 0; padding: 0; background: transparent; max-width: 96vw; max-height: 96vh; }
 dialog::backdrop { background: rgba(5, 8, 12, 0.86); }
-dialog img { display: block; max-height: 82vh; max-width: 92vw; border-radius: 18px; }
+dialog[open] { display: grid; grid-template-rows: minmax(0, 1fr) auto auto; width: min(calc(100% - 24px), 600px); height: min(96dvh, 1100px); overflow: hidden; }
+dialog img { display: block; width: 100%; height: 100%; min-height: 0; object-fit: contain; border-radius: 18px; }
 dialog .cap { color: #e8edf2; font-size: 0.95rem; padding-top: 10px; max-width: 60ch; }
 dialog .bar { display: flex; gap: 8px; justify-content: space-between; align-items: center; padding-top: 8px; }
-dialog .bar button { background: #1b2633; color: #e8edf2; border: 1px solid #2c3a4a; border-radius: 999px; padding: 8px 16px; font-family: var(--body); cursor: pointer; min-height: 40px; }
+dialog .bar button { background: #1b2633; color: #e8edf2; border: 1px solid #2c3a4a; border-radius: 999px; padding: 8px 16px; font-family: var(--body); cursor: pointer; min-height: 44px; }
 @media (max-width: 520px) { .wrap { padding-inline: 16px; } .strip { grid-template-columns: minmax(0, 1fr); } .shot.wide { grid-column: span 1; } .shot.wide button.img img { height: 380px; } }
 @media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
 </style>
@@ -75,11 +76,11 @@ dialog .bar button { background: #1b2633; color: #e8edf2; border: 1px solid #2c3
     <span class="eyebrow">Circuit Pickleball · Circuit League · October 2026</span>
     <h1>Circuit League walkthrough</h1>
     <p class="lede">The Circuit League is a free, always-open league in the Circuit Pickleball app. Players pick their times and courts, Circuit proposes matches against players at their level, and eligible played results contribute to League boards and DUPR submissions.</p>
-    <p class="lede">See the uncapped partnership flow first, then all seven polish changes and the wider League flow. Every screen is laid out on this page; tap one to inspect it full size. <a href="before-ios-polish.html">Previous walkthrough</a>.</p>
+    <p class="lede">Explore the updated mobile actions, starting with matched before and after screens. Then check iOS, Android, larger text and light appearance. Tap any screen to inspect it full size. <a href="before-action-design.html">Previous full League walkthrough</a>.</p>
     <div class="facts">
-      <span><b>49</b> iOS screenshots · captured October 19</span><span>Seven polish changes</span>
-      <span><b>iOS</b> · dark theme · Default app text</span>
-      <span>Walkthrough updated October 20</span>
+      <span><b>40</b> native screenshots · captured October 20</span>
+      <span><b>iOS + Android</b> · light and dark</span>
+      <span>Default / Large / Larger + system font checks</span>
       <span>Fictional players and test data</span>
     </div>
   </header>
@@ -91,29 +92,21 @@ dialog .bar button { background: #1b2633; color: #e8edf2; border: 1px solid #2c3
     <span class="eyebrow">About this tour</span>
     <h2>What you are looking at</h2>
     <div class="cols">
-      <div>
-        <h3>How it was captured</h3>
-        <ul>
-          <li>These screenshots use iOS development builds and an isolated fictional database. Publishing this walkthrough does not release the app changes.</li>
-          <li>Every player, score and message is made up.</li>
-          <li>The previous walkthrough is preserved separately, including its older iOS, Android and web evidence.</li>
-        </ul>
-      </div>
-      <div>
-        <h3>Things to know</h3>
-        <ul>
-          <li>A profile photo is optional. Players without one show their initials.</li>
-          <li>Screens show fictional players and initials. No personal contact information is included.</li>
-          <li>Contact details are never shown to other players. They talk through match chat.</li>
-        </ul>
-      </div>
-      <div>
-        <h3>Not shown here</h3>
-        <ul>
-          <li>Light theme, enlarged text, screen-reader gestures and an exhaustive route/overlay/state matrix. Enlarged text was excluded by the owner.</li>
-          <li>Android, physical camera/location, provider delivery, store resumption, published standings, valid stats and ready recaps were not rechecked in this iOS polish pass.</li>
-        </ul>
-      </div>
+      <div><h3>How it was captured</h3><ul>
+        <li>Original native iOS and Android development screenshots, captured October 20 with fictional players, messages and scores.</li>
+        <li>The venue and saved-venue comparisons use the same iOS device, fixture, theme and app text size before and after the action changes.</li>
+        <li>Screenshot pixels are unchanged. <a href="current-evidence.md">Evidence and limits</a> · <a href="current-captures.json">Capture provenance</a>.</li>
+      </ul></div>
+      <div><h3>What changed</h3><ul>
+        <li>Navigation uses flat identity rows and chevrons. Editing and recovery commands use outlined buttons.</li>
+        <li>Dismissal and disclosure controls are quiet. Reporting remains labeled and visible.</li>
+        <li>Document links, including Read the League terms, retain their link treatment.</li>
+      </ul></div>
+      <div><h3>Scope and limits</h3><ul>
+        <li>This page samples the changed screens. Detailed enrollment, consent, conduct, dispute, correction and network-error states were source/test reviewed but were not all freshly captured.</li>
+        <li>Screen-reader gestures, physical maps/printing, real delivery and a store preview build were not tested in this pass.</li>
+        <li>Publishing this gallery does not release the app or database. <a href="before-action-design.html">The earlier full walkthrough</a> remains dated historical evidence.</li>
+      </ul></div>
     </div>
   </section>
 </div>
@@ -127,324 +120,314 @@ dialog .bar button { background: #1b2633; color: #e8edf2; border: 1px solid #2c3
 <script>
 const CHAPTERS = [
   {
-    "id": "partnerships",
-    "title": "Partnerships without a cap",
-    "who": "Keep your regular partners and add another without retiring an existing partnership. Self-matching and scheduling safeguards remain in place.",
+    "id": "venue-comparison",
+    "title": "Venue: before and after",
+    "platform": "iOS · matched comparison",
+    "who": "Same fictional venue, device, Default text size and dark theme. Commands and destinations now have distinct shapes.",
     "shots": [
       [
-        "uncapped-ios-01-add-team-after-five.png",
-        "Five partnerships",
-        "All five partnerships remain active; Add a team stays available."
+        "actions-before-venue-before.png",
+        "Before: green links",
+        "Directions, Edit your times, the leaderboard and flyer all used the same underlined treatment."
       ],
       [
-        "uncapped-ios-02-new-team-after-five.png",
-        "Add another partner",
-        "The new-team form opens with five existing partnerships. No retirement is required."
+        "actions-ios-01-venue-after.png",
+        "After: actions have a clear place",
+        "Directions and Edit your times are outlined commands. The leaderboard is a navigation row; League flyer opens a sheet."
       ]
     ]
   },
   {
-    "id": "polish",
-    "title": "The seven polish changes",
-    "who": "Fresh iOS screens after the seven approved improvements.",
+    "id": "times",
+    "title": "Your times",
+    "platform": "iOS",
+    "who": "Recurring editing commands are visible beside the day they affect.",
     "shots": [
       [
-        "polish-ios-07-venue-detail.png",
-        "Venue details",
-        "Aligned format choices, Directions beside the address, and quieter secondary links."
-      ],
-      [
-        "polish-ios-12-scan.png",
-        "Scan format choices",
-        "All three choices share the same height when Rotating doubles wraps."
-      ],
-      [
-        "polish-ios-19-scan-waiting.png",
-        "Scan · waiting",
-        "Compact player rows retain each confirmation status and contextual Remove action."
-      ],
-      [
-        "polish-ios-28-chat-keyboard.png",
-        "Chat · keyboard",
-        "A wrapping draft and Send stay above the keyboard."
-      ],
-      [
-        "polish-ios-18-code.png",
-        "My QR",
-        "The identity and code come before the privacy and confirmation guidance."
-      ],
-      [
-        "polish-ios-10-team.png",
-        "Team details",
-        "The category sits above one partner identity."
-      ],
-      [
-        "polish-ios-21-invite-receipt.png",
-        "Team accepted",
-        "The receipt explicitly labels Matchmaking: Off."
+        "actions-ios-02-times-after.png",
+        "Day editing actions",
+        "Compact outlined buttons keep each editing action beside its day."
       ]
     ]
   },
   {
-    "id": "first",
-    "title": "First visit",
-    "who": "Three introduction cards, freshly captured on iOS.",
+    "id": "saved-comparison",
+    "title": "Saved venues: before and after",
+    "platform": "iOS · matched comparison",
+    "who": "Opening a venue and changing its match preference are separate tap targets.",
     "shots": [
       [
-        "polish-ios-40-intro-match.png",
-        "Introduction · matches",
-        "The pitch and a clearly labeled example."
+        "actions-before-saved-venues-before.png",
+        "Before: saved venue controls",
+        "A green Change link provided the entry to editing."
       ],
       [
-        "polish-ios-41-intro-week.png",
-        "Introduction · your week",
-        "The example week and stable Join/Next footer."
-      ],
-      [
-        "polish-ios-42-intro-rank.png",
-        "Introduction · boards",
-        "The rank example and final introduction card."
+        "actions-ios-06-saved-venues-after.png",
+        "After: venue identity row",
+        "The venue name and chevron open details. A quiet Change command reveals preference controls."
       ]
     ]
   },
   {
-    "id": "setup",
-    "title": "Join the League",
-    "who": "A fictional eligible profile; legal acceptance and final enrollment were not performed.",
+    "id": "ios-venue",
+    "title": "Venue destinations and utilities",
+    "platform": "iOS",
+    "who": "Flat rows keep navigation and occasional utilities easy to find.",
     "shots": [
       [
-        "polish-ios-33-not-joined.png",
-        "Continue setup",
-        "A fictional returning visitor has one setup step left."
+        "actions-ios-07-saved-venue-edit.png",
+        "Edit a saved venue",
+        "Favorite, Backup and Don't use remain explicit selection controls; Done closes the editor."
       ],
       [
-        "polish-ios-39-entry.png",
-        "Before you join",
-        "The synthetic profile checklist and single Continue action."
+        "actions-ios-04-flyer-sheet.png",
+        "League flyer actions",
+        "The utility row opens the existing Print and Share or save PDF choices. No print or share was submitted."
       ],
       [
-        "polish-ios-38-how-you-play.png",
-        "How you play",
-        "Formats, categories and the acknowledgment remain together."
-      ],
-      [
-        "polish-ios-37-setup-venues.png",
-        "Venues during setup",
-        "A visitor can defer venue choices and keep matchmaking off."
-      ],
-      [
-        "polish-ios-36-options.png",
-        "Matching options",
-        "Existing commitment and automatic-matching guidance is preserved."
-      ],
-      [
-        "polish-ios-34-terms.png",
-        "Release and terms",
-        "The release remains readable with an explicit Join action."
-      ],
-      [
-        "polish-ios-35-terms-end.png",
-        "Release · scroll end",
-        "Both acceptance checkboxes and the terms link remain reachable. Neither was accepted."
+        "actions-ios-05-venue-leaderboard.png",
+        "Venue leaderboard",
+        "The venue row reaches the scoped leaderboard. Rankings here are fictional test data."
       ]
     ]
   },
   {
-    "id": "preferences",
-    "title": "Your play settings",
-    "who": "Home, preferences and the time picker.",
+    "id": "popular-times",
+    "title": "Populated popular times",
+    "platform": "iOS",
+    "who": "Five fictional saved time windows make the disclosure and edit actions visible.",
     "shots": [
       [
-        "polish-ios-01-home.png",
-        "Home",
-        "Needs you brings the offer and score tasks to the top."
+        "actions-ios-22-popular-times.png",
+        "Show the time grid",
+        "A neutral disclosure with a downward indicator expands the grid. Edit your times remains an outlined command."
       ],
       [
-        "polish-ios-02-menu.png",
-        "League menu",
-        "My QR, settings and rules remain together."
-      ],
-      [
-        "polish-ios-03-settings.png",
-        "Play settings",
-        "Times, venues and weekly matchmaking lead."
-      ],
-      [
-        "polish-ios-46-settings-bottom.png",
-        "Settings · lower",
-        "Privacy, safety and help remain reachable above the tab bar."
-      ],
-      [
-        "polish-ios-04-notifications.png",
-        "Notifications",
-        "Optional switches and required notices keep their own screen."
-      ],
-      [
-        "polish-ios-51-times-loaded.png",
-        "Your times",
-        "The saved week appears before current matching guidance."
-      ],
-      [
-        "polish-ios-45-time-editor.png",
-        "Choose hours",
-        "The existing time grid and current availability."
-      ],
-      [
-        "polish-ios-06-venues.png",
-        "Saved venues",
-        "The current favorite and backup organization."
+        "actions-ios-23-time-grid-expanded.png",
+        "Hide the time grid",
+        "The expanded state uses an upward indicator. The larger grid continues below the initial viewport."
       ]
     ]
   },
   {
-    "id": "venues",
-    "title": "Find courts and share a flyer",
-    "who": "A loaded native map and the existing flyer sheet.",
+    "id": "android-venues",
+    "title": "Venues and times on Android",
+    "platform": "Android",
+    "who": "The same shared components preserve the action hierarchy on Android.",
     "shots": [
       [
-        "polish-ios-32-venues-map.png",
-        "Find venues",
-        "The loaded Austin map and selected venue."
+        "actions-android-01-venue-after.png",
+        "Venue actions",
+        "Outlined commands, a leaderboard navigation row and the quiet flyer utility."
       ],
       [
-        "polish-ios-24-flyer-sheet.png",
-        "Flyer actions",
-        "The quieter venue link still opens Print and Share or save PDF."
+        "actions-android-02-times-after.png",
+        "Day editing controls",
+        "Add time and Edit times remain paired with the corresponding day."
+      ],
+      [
+        "actions-android-06-saved-venues-after.png",
+        "Saved venue row",
+        "Venue identity opens details; Change is a separate command."
+      ],
+      [
+        "actions-android-07-saved-venue-edit.png",
+        "Preference editing",
+        "The expanded editor preserves explicit selection and a neutral Done control."
+      ],
+      [
+        "actions-android-04-flyer-sheet.png",
+        "Android flyer actions",
+        "The quiet venue utility opens the existing Print and Share or save PDF sheet."
+      ],
+      [
+        "actions-android-37-venue-list.png",
+        "Find venue list",
+        "Tap the venue identity to open details, or use Favorite, Backup and Don't use below it. The list identity tap was verified."
       ]
     ]
   },
   {
-    "id": "teams",
-    "title": "Offers and teams",
-    "who": "The offer, invitation and team flow.",
+    "id": "offers",
+    "title": "Offer decisions",
+    "platform": "Android",
+    "who": "Accept keeps priority. Choosing another time and declining remain visible secondary actions. No response was submitted.",
     "shots": [
       [
-        "polish-ios-08-offer.png",
-        "Match found",
-        "The shared court, time, answer deadline and acceptance action."
+        "actions-android-24-offer-actions.png",
+        "Accept or choose another time",
+        "Choose another time is outlined; Not this time is a quiet dismissal."
       ],
       [
-        "polish-ios-09-alternatives.png",
-        "No other shared option",
-        "Keep the current plan or open the decline flow."
+        "actions-android-25-other-times-sheet.png",
+        "Other-time sheet",
+        "This fictional offer has no other shared option. Keep current plan and Not this time remain available."
       ],
       [
-        "polish-ios-20-invite.png",
-        "Team invitation",
-        "The named invitation states that accepting does not start matchmaking."
-      ],
-      [
-        "polish-ios-22-invited-team.png",
-        "Your new team",
-        "Weekend Pair shows Ravi once, then its times and settings."
+        "actions-android-26-decline-sheet.png",
+        "Decline choices",
+        "The existing decline sheet still distinguishes this offer from avoiding the same player for seven days."
       ]
     ]
   },
   {
-    "id": "scan",
-    "title": "Scan to play",
-    "who": "Ready status plus a four-player roster and its scroll end. Physical camera scanning was not tested.",
+    "id": "ios-sheets",
+    "title": "Offer sheets on iOS",
+    "platform": "iOS",
+    "who": "Both secondary offer commands open their existing native sheets.",
     "shots": [
       [
-        "polish-ios-25-scan-ready.png",
-        "Scan · ready",
-        "The other player has confirmed; Start match remains the primary action."
+        "actions-ios-25-other-times-sheet.png",
+        "Other-time sheet",
+        "The sheet preserves the current plan when no alternative shared time is available."
       ],
       [
-        "polish-ios-31-scan-four-players.png",
-        "Scan · four players",
-        "Four compact rows preserve rotation slots and separate confirmation status."
-      ],
-      [
-        "polish-ios-47-scan-four-bottom.png",
-        "Scan · scroll end",
-        "The four-player screen scrolls to the Start and Cancel controls above the tab bar."
+        "actions-ios-26-decline-sheet.png",
+        "Decline sheet",
+        "The existing decline choices remain explicit. The walkthrough did not submit a decline."
       ]
     ]
   },
   {
-    "id": "chat",
-    "title": "Match chat",
-    "who": "Empty, player controls, conversation and reply states.",
+    "id": "results-chat",
+    "title": "Result and chat actions",
+    "platform": "Android",
+    "who": "Reporting remains discoverable; routine chat controls are quieter.",
     "shots": [
       [
-        "polish-ios-26-chat-empty.png",
-        "Chat · empty",
-        "Players sits with the match context; Message and Send share a row."
+        "actions-android-12-result-after.png",
+        "Completed result",
+        "Match chat is outlined and Problem with this result? is a flat row with a flag. Scores and names are fictional."
       ],
       [
-        "polish-ios-27-chat-players.png",
-        "Chat · players",
-        "The moved Players action still opens the existing player controls."
+        "actions-android-14-chat-after.png",
+        "Match chat",
+        "Players is a neutral contextual command in the header."
       ],
       [
-        "polish-ios-43-chat-populated.png",
-        "Chat · conversation",
-        "A fictional incoming message with the compact composer below."
-      ],
-      [
-        "polish-ios-44-chat-reply.png",
-        "Chat · reply",
-        "Reply context, Cancel reply, draft and Send remain above the keyboard."
+        "actions-android-15-chat-players.png",
+        "Chat player actions",
+        "Players still opens the existing mute and block sheet. Neither action was submitted."
       ]
     ]
   },
   {
-    "id": "score",
-    "title": "Scores and progress",
-    "who": "Score review and entry, followed by the current preparing states. Published boards and ready recaps are not shown.",
+    "id": "ios-chat",
+    "title": "Chat controls on iOS",
+    "platform": "iOS",
+    "who": "A quiet Players command retains the existing player sheet.",
     "shots": [
       [
-        "polish-ios-48-match-score-due.png",
-        "Score due",
-        "The reporting deadline and Report score action."
+        "actions-ios-14-chat-after.png",
+        "Chat header",
+        "The Players command remains visible beside the match context."
       ],
       [
-        "polish-ios-49-score-form.png",
-        "Report score",
-        "Opposing player rows keep each score attached to its player."
-      ],
-      [
-        "polish-ios-50-score-metadata.png",
-        "Played date and venue",
-        "The score form retains played-date and venue controls at its scroll end."
-      ],
-      [
-        "polish-ios-13-score-review.png",
-        "Review a score",
-        "Each player keeps their own row and game scores."
-      ],
-      [
-        "polish-ios-14-dispute.png",
-        "Dispute a score",
-        "The reason, deadline consequence and safety-report alternative remain."
-      ],
-      [
-        "polish-ios-29-boards.png",
-        "Leaderboard · preparing",
-        "This local fixture has no published standings yet."
-      ],
-      [
-        "polish-ios-30-recap.png",
-        "Recap · preparing",
-        "The current local recap is not ready; this is not a populated recap preview."
+        "actions-ios-15-chat-players.png",
+        "Player sheet",
+        "The sheet preserves the existing mute and block controls."
       ]
     ]
   },
   {
-    "id": "safety",
-    "title": "Safety records",
-    "who": "Empty account records; no safety action was submitted.",
+    "id": "ios-text",
+    "title": "Larger app text on iOS",
+    "platform": "iOS",
+    "who": "The app's own Large and Larger preferences preserve full action labels and scrolling.",
     "shots": [
       [
-        "polish-ios-16-blocks.png",
-        "Blocked players",
-        "The empty list explains where blocking is available."
+        "actions-ios-16-venue-large-top.png",
+        "Large: venue top",
+        "Directions moves below the address when the app text preference needs more space."
       ],
       [
-        "polish-ios-17-conduct.png",
-        "Conduct record",
-        "The current account has no conduct reports."
+        "actions-ios-18-venue-larger-top.png",
+        "Larger: venue top",
+        "The venue title wraps and Directions remains readable."
+      ],
+      [
+        "actions-ios-19-venue-larger-bottom.png",
+        "Larger: venue bottom",
+        "Scrolling reaches Edit your times, Venue leaderboard and League flyer above the tab bar."
+      ]
+    ]
+  },
+  {
+    "id": "android-text",
+    "title": "Larger app text on Android",
+    "platform": "Android",
+    "who": "The Android pass also covers Large and Larger app text.",
+    "shots": [
+      [
+        "actions-android-16-venue-large-top.png",
+        "Large: venue top",
+        "Directions occupies its own row below the address."
+      ],
+      [
+        "actions-android-18-venue-larger-top.png",
+        "Larger: venue top",
+        "The venue heading wraps while preference labels remain readable."
+      ],
+      [
+        "actions-android-19-venue-larger-bottom.png",
+        "Larger: venue bottom",
+        "The footer actions are reachable with space above the native tab bar."
+      ]
+    ]
+  },
+  {
+    "id": "light",
+    "title": "Light appearance",
+    "platform": "iOS and Android",
+    "who": "Light appearance uses the same commands and destinations.",
+    "shots": [
+      [
+        "actions-ios-20-venue-light.png",
+        "iOS: venue in light appearance",
+        "Outlined venue commands and flat navigation rows retain their hierarchy."
+      ],
+      [
+        "actions-ios-21-times-light.png",
+        "iOS: times in light appearance",
+        "Day editing controls remain distinct from saved time windows."
+      ],
+      [
+        "actions-android-20-venue-light.png",
+        "Android: venue in light appearance",
+        "Selection green remains reserved for the selected venue choices."
+      ],
+      [
+        "actions-android-21-times-light.png",
+        "Android: times in light appearance",
+        "This later fictional state has a pending offer, so Open League provides the recovery destination."
+      ]
+    ]
+  },
+  {
+    "id": "system-text",
+    "title": "System font scaling",
+    "platform": "iOS and Android",
+    "who": "Default app text with larger OS text settings. These are selected screen checks, not an exhaustive accessibility audit.",
+    "shots": [
+      [
+        "actions-ios-27-offer-system-text.png",
+        "iOS: larger system text",
+        "The offer keeps its outlined alternative and neutral decline command readable."
+      ],
+      [
+        "actions-android-27-offer-system-text.png",
+        "Android: system font scale 1.3",
+        "Offer actions fit at the enlarged OS font setting."
+      ],
+      [
+        "actions-android-28-venue-system-text-top.png",
+        "Android: scaled venue top",
+        "Directions moves below the address."
+      ],
+      [
+        "actions-android-29-venue-system-text-bottom.png",
+        "Android: scaled venue bottom",
+        "Scrolling reaches the venue edit and utility actions."
       ]
     ]
   }
@@ -457,7 +440,7 @@ for (const c of CHAPTERS) {
   nav.insertAdjacentHTML('beforeend', `<a href="#${c.id}">${c.title}</a>`);
   const sec = document.createElement('section');
   sec.className = 'chapter'; sec.id = c.id;
-  sec.innerHTML = `<span class="eyebrow">iOS · October 19 · ${c.shots.length} ${c.shots.length === 1 ? 'screen' : 'screens'}</span><h2>${c.title}</h2>${c.who ? `<p class="who">${c.who}</p>` : ''}<div class="strip"></div>`;
+  sec.innerHTML = `<span class="eyebrow">${c.platform} · October 20 · ${c.shots.length} ${c.shots.length === 1 ? 'screen' : 'screens'}</span><h2>${c.title}</h2>${c.who ? `<p class="who">${c.who}</p>` : ''}<div class="strip"></div>`;
   const strip = sec.querySelector('.strip');
   for (const [file, t, d, wide] of c.shots) {
     const n = String(++count).padStart(2, '0');
@@ -466,7 +449,7 @@ for (const c of CHAPTERS) {
     const el = document.createElement('article');
     el.className = 'shot' + (wide ? ' wide' : '');
     el.innerHTML = `<button class="img" type="button" aria-label="Open screen ${n}, ${t}"><img loading="lazy" src="${src}" alt="${t}: ${d}"></button>
-      <span class="num">${n} · October 19</span><h3>${t}</h3><p>${d}</p>`;
+      <span class="num">${n} · October 20</span><h3>${t}</h3><p>${d}</p>`;
     el.querySelector('button.img').addEventListener('click', () => openLb(idx));
     strip.appendChild(el);
   }
