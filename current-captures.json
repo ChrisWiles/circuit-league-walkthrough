@@ -1,5 +1,5 @@
 {
-  "appCommit": "257888a12979c00e1e876085ea07a116a0080674",
+  "appCommit": "a51a03869daeaf437dd45fe0f568f457dbd15c52",
   "capturedOn": "2026-10-20",
   "appearance": {
     "platform": "iOS",
@@ -11,7 +11,7 @@
   },
   "sourceFiles": {
     "apps/mobile/src/components/league/boards/LeagueBoardsScreen.tsx": "47c9d45af3ecd8ba88c9c7840cde26c5ccbd8ffd3c4ba3438bc37437ed21cd6a",
-    "apps/mobile/src/components/league/boards/LeagueStatsScreen.tsx": "48797dbfb94fb1f84ab9d58fbb3a298931434c226d44f10e6c0afbccbf6593d2",
+    "apps/mobile/src/components/league/boards/LeagueStatsScreen.tsx": "42ae0bbe2e467f40c53b6b1c4d9b4d10232cb518896cb3088ffce612c0ead9ad",
     "packages/shared/src/league/point-differential.ts": "26f6e04f705945315c450fe31089b141d6f6274e62be6a8592e8548345c29a01",
     "supabase/schemas/30_functions/89-league-snapshots.sql": "59e615128e6cf02fe3fdd105fae187416b286cdce82c89e24151b2db4afc76f9",
     "supabase/schemas/30_functions/78-league-score-commands.sql": "42833761391068f74a68ba01ebfcf3bca5eff859eff59807ff39c1f67f947a8d",
@@ -21,7 +21,9 @@
     "supabase/functions/process-outbox/handlers/league-notices.ts": "60a11926bb3c9d88f418811c0abc6f8d9f39384bcc0e736539aa162118b524b1",
     "apps/mobile/src/components/league/matches/LeagueMatchStage.tsx": "f640e1deaf65230a4182ceb88513e60f6f057e3bc0072fb60b66f5e0d0e2d919",
     "apps/mobile/src/components/league/scoring/LeagueScoreReportScreen.tsx": "e355ee4c944a1627ec066968cf7eccb46f8d99a4d71fcc710ffe81716311b869",
-    "apps/web/src/features/help/content/pages.ts": "07052bd413d179d853fb795f9812f8eb93ea3e940007adf9f8405f472bd591cc"
+    "apps/web/src/features/help/content/pages.ts": "07052bd413d179d853fb795f9812f8eb93ea3e940007adf9f8405f472bd591cc",
+    "apps/mobile/src/components/league/recaps/LeagueRecapScreen.tsx": "ccb909ad8f7225e8a2828aaabda5cf3c305f7f57f3fa984fa1915869d9132083",
+    "apps/mobile/src/components/league/conduct/LeagueConductScreen.tsx": "09cb4b1f5c564d0b064debabb66b10a18015f042017c444bbb81c49b6fb96a5b"
   },
   "captures": [
     {
@@ -871,72 +873,76 @@
       "evidence": "current native capture"
     },
     {
-      "file": "img/current-oct20/pd-color-player-record.png",
+      "file": "img/current-oct20/polish-player-record.png",
       "title": "Individual record",
-      "description": "Recent PD, actual sample count and scored/conceded totals alongside the player\u2019s season record.",
-      "sha256": "d7f4fb3d9fdf6009afaa1b2c429b95757e942df09eb2e5f783b1921bc4ad63c9",
+      "description": "The season\u2019s total PD% and recent PD% with the actual game count.",
+      "sha256": "19dc7df7560a2adea946716c25836ecd2c587d0850e2df328c7260903f363326",
       "width": 1206,
       "height": 2622,
-      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/pd-color-player-record.png",
+      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/final-polish-output/final-polish-3/takeScreenshot/polish-player-record.png",
       "capturedOn": "2026-10-20",
-      "sourceRevision": "5883567457b016b86685dfdc7afb90cc2faa04c5",
+      "sourceRevision": "a51a03869daeaf437dd45fe0f568f457dbd15c52",
       "evidence": "current native capture"
     },
     {
-      "file": "img/current-oct20/pd-color-pair-record.png",
+      "file": "img/current-oct20/polish-pair-record.png",
       "title": "Pair record",
-      "description": "The pair\u2019s own recent sample, points and match history.",
-      "sha256": "a6586c99d6771eed34aa2854691945c9fec07026bf8fc435fbb1879b6b7687d7",
+      "description": "The pair\u2019s season PD%, recent sample and match history.",
+      "sha256": "eb4a559b7ec0879b47bc82dabd9364f8ae965435dc014631fc070a4ab646af8f",
       "width": 1206,
       "height": 2622,
-      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/pd-color-pair-record.png",
+      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/final-polish-output/final-polish-3/takeScreenshot/polish-pair-record.png",
       "capturedOn": "2026-10-20",
-      "sourceRevision": "5883567457b016b86685dfdc7afb90cc2faa04c5",
+      "sourceRevision": "a51a03869daeaf437dd45fe0f568f457dbd15c52",
       "evidence": "current native capture"
     },
     {
-      "file": "img/current-oct20/pd-color-match-history.png",
+      "file": "img/current-oct20/polish-match-history.png",
       "title": "Match history",
       "description": "Positive PD is green and negative PD is red; each entry uses only that match\u2019s games.",
-      "sha256": "f612e05cda37a6ff957fa124d24a39aeb62af1635094358ee14b65c3012f037d",
+      "sha256": "173fd84943512d7d1b0db56f639f387583314417f7e8b9365a97bb369641ab7a",
       "width": 1206,
       "height": 2622,
-      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/pd-color-match-history.png",
+      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/final-polish-output/final-polish-3/takeScreenshot/polish-match-history.png",
       "capturedOn": "2026-10-20",
-      "sourceRevision": "5883567457b016b86685dfdc7afb90cc2faa04c5",
+      "sourceRevision": "a51a03869daeaf437dd45fe0f568f457dbd15c52",
       "evidence": "current native capture"
     },
     {
-      "file": "img/current-oct20/pd-color-match-series.png",
+      "file": "img/current-oct20/polish-match-series.png",
       "title": "Match series",
-      "description": "The expanded three-game series keeps PD \u22126.9% from its own 27\u201331 points.",
-      "sha256": "ccf2faec6d2c00157be2c5a06d47075cfec390ad28a544b1e2214ba0cd289f6e",
+      "description": "The expanded three-game series retains its own PD \u22126.9%.",
+      "sha256": "626a9ac62a0aaa94c4b7808a7020902cd60f6871d62774791d3ec6b91cc5cf94",
       "width": 1206,
       "height": 2622,
-      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/pd-color-match-series.png",
+      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/final-polish-output/final-polish-3/takeScreenshot/polish-match-series.png",
       "capturedOn": "2026-10-20",
-      "sourceRevision": "5883567457b016b86685dfdc7afb90cc2faa04c5",
+      "sourceRevision": "a51a03869daeaf437dd45fe0f568f457dbd15c52",
       "evidence": "current native capture"
     },
     {
-      "file": "img/names-oct20/17-weekly-recap.png",
+      "file": "img/current-oct20/polish-weekly-recap.png",
       "title": "Weekly recap",
-      "description": "See confirmed games, progress and leaderboard destinations.",
-      "sha256": "2ec8a848c41411584103b1514d50b569d1bc66df77f1e57895fe71146d982fba",
+      "description": "See confirmed games, progress and grouped leaderboard destinations.",
+      "sha256": "356c4de5e8a791940fca840a58960ef295e878b7318259a87d856190e3f95769",
       "width": 1206,
       "height": 2622,
-      "origin": {
-        "file": "img/names-oct20/17-weekly-recap.png",
-        "title": "A populated recap",
-        "description": "Confirmed games, progress and board destinations for a fictional week.",
-        "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/17-weekly-recap.png",
-        "sha256": "2ec8a848c41411584103b1514d50b569d1bc66df77f1e57895fe71146d982fba",
-        "width": 1206,
-        "height": 2622,
-        "appCommit": "bce444d82d95dc0679438cb4703ab0debb88927e",
-        "capturedOn": "2026-10-20"
-      },
-      "evidence": "retained current screen; original provenance preserved"
+      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/final-polish-recap-output/final-polish-recap/takeScreenshot/polish-weekly-recap.png",
+      "capturedOn": "2026-10-20",
+      "sourceRevision": "a51a03869daeaf437dd45fe0f568f457dbd15c52",
+      "evidence": "current native capture"
+    },
+    {
+      "file": "img/current-oct20/polish-recap-ranks.png",
+      "title": "Recap leaderboards",
+      "description": "Locations on the left, bold ranks on the right; tap any row to open its leaderboard.",
+      "sha256": "f25730c7ea8bb286f5d9809c002f678fc551e17a15587e592f6ff07e7a8d0e10",
+      "width": 1206,
+      "height": 2622,
+      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/final-polish-output/final-polish-3/takeScreenshot/polish-recap-ranks.png",
+      "capturedOn": "2026-10-20",
+      "sourceRevision": "a51a03869daeaf437dd45fe0f568f457dbd15c52",
+      "evidence": "current native capture"
     },
     {
       "file": "img/names-oct20/04-blocked-players.png",
@@ -999,24 +1005,16 @@
       "evidence": "retained current screen; original provenance preserved"
     },
     {
-      "file": "img/names-oct20/20-conduct-history.png",
+      "file": "img/current-oct20/polish-report-history.png",
       "title": "Report history",
-      "description": "Reports retain separate dates, statuses and outcomes.",
-      "sha256": "5785f2e61010f13f450c11818c531612aa2964e194a69dba8a8874ddd19af8b8",
+      "description": "Tap a dated report row to read its status and details.",
+      "sha256": "dec26a3765af54b72ae48b96525924d935d3d00f86f0330dd751f98f4db0a9b7",
       "width": 1206,
       "height": 2622,
-      "origin": {
-        "file": "img/names-oct20/20-conduct-history.png",
-        "title": "Multiple reports",
-        "description": "Different dates and outcomes remain separate entries.",
-        "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/20-conduct-history.png",
-        "sha256": "5785f2e61010f13f450c11818c531612aa2964e194a69dba8a8874ddd19af8b8",
-        "width": 1206,
-        "height": 2622,
-        "appCommit": "bce444d82d95dc0679438cb4703ab0debb88927e",
-        "capturedOn": "2026-10-20"
-      },
-      "evidence": "retained current screen; original provenance preserved"
+      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/final-polish-output/final-polish-3/takeScreenshot/polish-report-history.png",
+      "capturedOn": "2026-10-20",
+      "sourceRevision": "a51a03869daeaf437dd45fe0f568f457dbd15c52",
+      "evidence": "current native capture"
     },
     {
       "file": "img/names-oct20/06-conduct-open.png",
@@ -1119,35 +1117,27 @@
       "evidence": "retained current screen; original provenance preserved"
     },
     {
-      "file": "img/names-oct20/21-conduct-lifted.png",
+      "file": "img/current-oct20/polish-conduct-active.png",
       "title": "Restriction lifted",
       "description": "A lifted pause remains visible in account history.",
-      "sha256": "da6d8f123aa8d49c443256b915580e8f95a94ec2dcd9e83f9040f4f47cf48530",
+      "sha256": "ae7aebd0b7f63239b5eb048475a3a40b34d7602d8b0f37b8012221925173480a",
       "width": 1206,
       "height": 2622,
-      "origin": {
-        "file": "img/names-oct20/21-conduct-lifted.png",
-        "title": "Restriction lifted",
-        "description": "The operator-lifted pause remains in account history with its current consequence.",
-        "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/21-conduct-lifted.png",
-        "sha256": "da6d8f123aa8d49c443256b915580e8f95a94ec2dcd9e83f9040f4f47cf48530",
-        "width": 1206,
-        "height": 2622,
-        "appCommit": "bce444d82d95dc0679438cb4703ab0debb88927e",
-        "capturedOn": "2026-10-20"
-      },
-      "evidence": "retained current screen; original provenance preserved"
+      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/final-polish-output/final-polish-3/takeScreenshot/polish-conduct-active.png",
+      "capturedOn": "2026-10-20",
+      "sourceRevision": "a51a03869daeaf437dd45fe0f568f457dbd15c52",
+      "evidence": "current native capture"
     },
     {
-      "file": "img/current-oct20/confirmation-default-settings.png",
+      "file": "img/current-oct20/polish-dark-default.png",
       "title": "Dark and Default",
-      "description": "The selected native Dark appearance and Default app text size.",
-      "sha256": "9261dc06a1882904dcd5798bfcd690a6c32f38a1c0f6bc2933aae86971054578",
+      "description": "Selected Dark appearance and Default app text size, with iOS default Dynamic Type.",
+      "sha256": "aa3e8a96b8aa63b4694057a1c190ace78f630b64a178030a27409cfc87b9b46a",
       "width": 1206,
       "height": 2622,
-      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/confirmation-copy-output/confirmation-copy/takeScreenshot/confirmation-default-settings.png",
+      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/final-polish-output/final-polish-3/takeScreenshot/polish-dark-default.png",
       "capturedOn": "2026-10-20",
-      "sourceRevision": "257888a12979c00e1e876085ea07a116a0080674",
+      "sourceRevision": "a51a03869daeaf437dd45fe0f568f457dbd15c52",
       "evidence": "current native capture"
     }
   ]
