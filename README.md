@@ -16,4 +16,6 @@ Recap leaderboards group locations by format with right-aligned ranks. Conduct r
 
 Leaderboard search now includes populated results, empty results and partner search, with current Singles/Doubles DUPR beside players. The shared weekly and seven-scene season recap story player is included using a clearly labeled fictional ladder fixture on iOS and mobile web.
 
-Leaderboard ratings are number-only beside names. Tapping a rating opens the player’s DUPR and reliability sheet, including independent values for fixed partners. The current tour has 85 views.
+Leaderboard ratings are number-only beside names. Tapping a rating opens the player’s DUPR and reliability sheet, including independent values for fixed partners. The current tour has 87 views.
+
+Player-record badges open explanations of their award requirements. The tour includes Founding Member and Season complete popovers.

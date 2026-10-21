@@ -11,7 +11,7 @@
   },
   "sourceFiles": {
     "apps/mobile/src/components/league/boards/LeagueBoardsScreen.tsx": "e84d86ca48ec71b0397ad5c79aab966eaeec6230a9a5d60e6d7ad99db00ea320",
-    "apps/mobile/src/components/league/boards/LeagueStatsScreen.tsx": "42ae0bbe2e467f40c53b6b1c4d9b4d10232cb518896cb3088ffce612c0ead9ad",
+    "apps/mobile/src/components/league/boards/LeagueStatsScreen.tsx": "dc61f82de6190ceb845ee8aab7de5bafdfa7a68c3f8895279af310b2d1ece6a0",
     "packages/shared/src/league/point-differential.ts": "26f6e04f705945315c450fe31089b141d6f6274e62be6a8592e8548345c29a01",
     "supabase/schemas/30_functions/89-league-snapshots.sql": "8c04cbe0c147bb056f05068826914937b5ada214721bb3d494a50f533863c8d3",
     "supabase/schemas/30_functions/78-league-score-commands.sql": "42833761391068f74a68ba01ebfcf3bca5eff859eff59807ff39c1f67f947a8d",
@@ -24,7 +24,9 @@
     "apps/web/src/features/help/content/pages.ts": "07052bd413d179d853fb795f9812f8eb93ea3e940007adf9f8405f472bd591cc",
     "apps/mobile/src/components/league/recaps/LeagueRecapScreen.tsx": "ccb909ad8f7225e8a2828aaabda5cf3c305f7f57f3fa984fa1915869d9132083",
     "apps/mobile/src/components/league/conduct/LeagueConductScreen.tsx": "09cb4b1f5c564d0b064debabb66b10a18015f042017c444bbb81c49b6fb96a5b",
-    "packages/shared/src/schemas/league-snapshot.ts": "7821f9a95170cef0a19d417c41f1b8cabc6fadbe46c881b8bcccca4047be3fdc"
+    "packages/shared/src/schemas/league-snapshot.ts": "7821f9a95170cef0a19d417c41f1b8cabc6fadbe46c881b8bcccca4047be3fdc",
+    "apps/mobile/src/components/league/boards/LeagueRecordBadge.tsx": "e80426f288fa2c0b9ac94200f892b679fcb4e679f6ee748795b6f2fd1daeb1cb",
+    "packages/shared/src/league/badges.ts": "b205b8d05438ee27da26dddf648f3819cd705dd6194a417bbfbc18a2382476bb"
   },
   "captures": [
     {
@@ -946,6 +948,30 @@
       "evidence": "current native capture"
     },
     {
+      "file": "img/current-oct20/badge-founding-member.png",
+      "title": "Founding Member badge",
+      "description": "Tap the badge to see the Austin launch-area Season 1 requirement.",
+      "sha256": "1ad3040baebf39ee3f4905271b71eeb09e49bda10c94d6ea70c8e1c1a89d5a4e",
+      "width": 1206,
+      "height": 2622,
+      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-badges-2026-10-20/final-output/2026-10-20_213401/verify/takeScreenshot/badge-founding-member.png",
+      "sourceRevision": "fb4dab223a5b932ccbebffbf570a541792214117",
+      "capturedOn": "2026-10-20",
+      "platform": "iOS · Dark · Default"
+    },
+    {
+      "file": "img/current-oct20/badge-season-complete.png",
+      "title": "Season complete badge",
+      "description": "Tap the badge to see the eight-match requirement for this season.",
+      "sha256": "4a0aab9bf28a3a8b9f461574f16124e46d9754d487481920fef5fb15f874228d",
+      "width": 1206,
+      "height": 2622,
+      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-badges-2026-10-20/final-output/2026-10-20_213401/verify/takeScreenshot/badge-season-complete.png",
+      "sourceRevision": "fb4dab223a5b932ccbebffbf570a541792214117",
+      "capturedOn": "2026-10-20",
+      "platform": "iOS · Dark · Default"
+    },
+    {
       "file": "img/current-oct20/polish-pair-record.png",
       "title": "Pair record",
       "description": "The pair’s season PD%, recent sample and match history.",
@@ -1315,6 +1341,7 @@
     "recapStories": "cd4719716",
     "latestReviewedAppHead": "f606153a5",
     "note": "Original feature-verification captures reused after visual inspection. Recap story examples use the shared player with ladder fixtures, not a populated native Circuit League season. Original source fingerprint is preserved in each added capture.",
-    "compactRatings": "772beb5dce08a56a435e57f445c1109b41ec55f8"
+    "compactRatings": "772beb5dce08a56a435e57f445c1109b41ec55f8",
+    "badgeExplanations": "fb4dab223a5b932ccbebffbf570a541792214117"
   }
 }
