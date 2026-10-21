@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Circuit League Walkthrough</title>
-<meta name="description" content="Explore Circuit League from joining and finding courts to matches, scores, leaderboards and safety records. One current walkthrough with iOS and mobile web recap examples.">
+<meta name="description" content="Explore Circuit League from joining and finding courts to matches, scores, leaderboards and safety records. One current walkthrough with populated iOS League examples.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
 <style>
@@ -65,7 +65,7 @@ dialog .bar button { background: #1b2633; color: #e8edf2; border: 1px solid #2c3
     <span class="eyebrow">Circuit Pickleball · Circuit League · October 2026</span>
     <h1>Circuit League walkthrough</h1>
     <p class="lede">Explore Circuit League, from joining and finding courts to matches, scores and weekly progress. Tap a screen to enlarge it.</p>
-    <div class="facts"><span><b>87</b> screens</span><span><b>iOS + mobile web</b> · Dark</span><span>Default app text size</span><span>Fictional players and matches</span></div>
+    <div class="facts"><span><b>93</b> screens</span><span><b>iOS</b> · Dark</span><span>Default app text size</span><span>Fictional players and matches</span></div>
   </header>
 
   <div id="chapters"></div>
@@ -218,7 +218,7 @@ const CHAPTERS = [
     "platform": "iOS · Dark · Default",
     "shots": [
       [
-        "current-oct20/current-venues.png",
+        "current-oct21/saved-venues.png",
         "Saved venues",
         "Keep favorite and backup courts in your venue choices."
       ],
@@ -368,6 +368,11 @@ const CHAPTERS = [
         "current-oct20/current-chat-reply.png",
         "Reply to a message",
         "Keep the original message in context while composing a reply."
+      ],
+      [
+        "current-oct21/chat-clear-menu.png",
+        "Open match chat",
+        "Opening chat dismisses the previous match menu."
       ]
     ]
   },
@@ -393,9 +398,14 @@ const CHAPTERS = [
         "Choose the actual played date and venue. Unanswered scores count 48 hours after sending."
       ],
       [
-        "current-oct20/confirmation-48-review.png",
+        "current-oct21/between-game-ending.png",
+        "Stop between games",
+        "After a completed score, record which side stopped before the next game without inventing another score."
+      ],
+      [
+        "current-oct21/review-stop.png",
         "Review a score",
-        "Review within 48 hours of reporting. Push arrives on report, push and enabled email after 24 hours, and a final push six hours before the deadline."
+        "The two actual games remain visible, along with who stopped before game three and the 48-hour review deadline."
       ],
       [
         "current-oct20/confirmation-48-dispute.png",
@@ -412,33 +422,33 @@ const CHAPTERS = [
   {
     "id": "standings",
     "title": "Leaderboards",
-    "who": "Season standings include Singles, individual rotating Doubles and fixed Teams.",
+    "who": "Season standings include Singles, individual Doubles and fixed Teams.",
     "platform": "iOS · Dark · Default",
     "shots": [
       [
-        "current-oct20/rating-singles.png",
+        "current-oct21/singles.png",
         "Singles",
-        "The selected-format rating sits beside each player’s name."
+        "Text-only standings with signed PD%, actual game counts and independently tappable ratings."
       ],
       [
-        "current-oct20/rating-doubles.png",
+        "current-oct21/doubles.png",
         "Doubles",
-        "Individual Doubles uses each player’s Doubles rating."
+        "Text-only standings with signed PD%, actual game counts and independently tappable ratings."
       ],
       [
-        "current-oct20/rating-teams.png",
+        "current-oct21/teams.png",
         "Teams",
-        "Alphabetical partners each keep their own number and separate rating action."
+        "Alphabetical partner names on separate lines, with one selectable own partnership pinned below."
       ],
       [
-        "current-oct20/rating-details.png",
+        "current-oct21/rating-date.png",
         "Rating details",
-        "Tap the number for that player’s DUPR rating and reliability."
+        "The tapped player’s DUPR, reliability and actual update date."
       ],
       [
-        "current-oct20/rating-partner-details.png",
+        "current-oct21/partner-rating-date.png",
         "Partner rating details",
-        "Sam’s rating opens Sam’s own reliability, independently of the other partner."
+        "Each partner’s number opens that player’s rating, reliability and update date."
       ],
       [
         "current-oct20/rating-search.png",
@@ -461,9 +471,14 @@ const CHAPTERS = [
         "Season choices appear here because this fixture has two seasons; a single season omits them."
       ],
       [
-        "current-oct20/rating-lower.png",
+        "current-oct21/own-team-pin.png",
         "Pinned own record",
-        "Your record stays available while browsing other ranks."
+        "One partnership remains pinned; an unplayed pair shows its qualification requirement and No PD yet."
+      ],
+      [
+        "current-oct21/own-team-selector.png",
+        "Choose your partnership",
+        "All six own partnerships remain available without stacking their records over the standings."
       ]
     ]
   },
@@ -474,9 +489,9 @@ const CHAPTERS = [
     "platform": "iOS · Dark · Default",
     "shots": [
       [
-        "current-oct20/polish-player-record.png",
+        "current-oct21/individual-record.png",
         "Individual record",
-        "The season’s total PD% and recent PD% with the actual game count."
+        "Season-total PD% stays separate from recent form over the last ten qualifying games."
       ],
       [
         "current-oct20/badge-founding-member.png",
@@ -489,14 +504,14 @@ const CHAPTERS = [
         "Tap the badge to see the eight-match requirement for this season."
       ],
       [
-        "current-oct20/polish-pair-record.png",
+        "current-oct21/pair-record.png",
         "Pair record",
-        "The pair’s season PD%, recent sample and match history."
+        "The partnership’s own season and nine-game recent sample."
       ],
       [
-        "current-oct20/polish-match-history.png",
+        "current-oct21/match-history.png",
         "Match history",
-        "Positive PD is green and negative PD is red; each entry uses only that match’s games."
+        "Every match keeps its own PD%, independently of recent form."
       ],
       [
         "current-oct20/polish-match-series.png",
@@ -504,67 +519,87 @@ const CHAPTERS = [
         "The expanded three-game series retains its own PD −6.9%."
       ],
       [
-        "current-oct20/polish-weekly-recap.png",
+        "current-oct21/weekly-summary.png",
         "Weekly recap",
-        "See confirmed games, progress and grouped leaderboard destinations."
+        "Frozen weekly PD and grouped metro, state and Everywhere destinations."
       ],
       [
-        "current-oct20/polish-recap-ranks.png",
+        "current-oct21/season-summary.png",
         "Recap leaderboards",
-        "Locations on the left, bold ranks on the right; tap any row to open its leaderboard."
+        "The season summary retains its published rankings, match results and PD%."
+      ],
+      [
+        "current-oct21/record-block-preview.png",
+        "Block from a player record",
+        "Review the effect on future matches and shared partnerships before confirming."
       ]
     ]
   },
   {
     "id": "recap-stories",
     "title": "Weekly and season recap stories",
-    "who": "The shared story player is illustrated with a fictional eight-week ladder season. Circuit League’s weekly summary and rank links appear above.",
-    "platform": "iOS Default and mobile web · Dark · Ladder fixture",
+    "who": "Published Circuit League weekly and season stories, populated from actual confirmed games in a fictional local league.",
+    "platform": "iOS · Dark · Default",
     "shots": [
       [
-        "current-oct20/season-native.png",
-        "Season recap on iOS",
-        "The shared seven-scene season player, illustrated with a completed ladder fixture."
+        "current-oct21/weekly-0.png",
+        "Your week in Circuit",
+        "The published week’s own results and standings."
       ],
       [
-        "current-oct20/weekly-story.png",
-        "Weekly rewind",
-        "A populated ladder week opens in the shared recap story player."
+        "current-oct21/weekly-1.png",
+        "Weekly record and PD",
+        "The published week’s own results and standings."
       ],
       [
-        "current-oct20/season-story-1.png",
-        "Season rewind",
-        "Start the completed season’s seven-scene story."
+        "current-oct21/weekly-2.png",
+        "Weekly standings",
+        "The published week’s own results and standings."
       ],
       [
-        "current-oct20/season-story-2.png",
-        "Season record",
-        "Games won and lost summarize the full season."
+        "current-oct21/weekly-3.png",
+        "Weekly highlights",
+        "The published week’s own results and standings."
       ],
       [
-        "current-oct20/season-story-3.png",
-        "Final position",
-        "See the starting rung and final season position."
+        "current-oct21/weekly-closing.png",
+        "Weekly wrap",
+        "The published week’s own results and standings."
       ],
       [
-        "current-oct20/season-story-4.png",
-        "Standout week",
-        "The season highlight includes its weekly record and climb."
+        "current-oct21/season-0.png",
+        "Your season recap",
+        "The completed season’s frozen record, standings and earned awards."
       ],
       [
-        "current-oct20/season-story-5.png",
-        "Notable result",
-        "A recorded qualifying result anchors the match highlight."
+        "current-oct21/season-1.png",
+        "Season record and PD",
+        "The completed season’s frozen record, standings and earned awards."
       ],
       [
-        "current-oct20/season-story-6.png",
-        "Season DUPR journey",
-        "Sealed provider snapshots show the rating journey; outside results can also affect DUPR."
+        "current-oct21/season-2.png",
+        "Final standings",
+        "The completed season’s frozen record, standings and earned awards."
       ],
       [
-        "current-oct20/season-story-7.png",
+        "current-oct21/season-3.png",
+        "Season complete",
+        "The completed season’s frozen record, standings and earned awards."
+      ],
+      [
+        "current-oct21/season-4.png",
+        "Season award",
+        "The completed season’s frozen record, standings and earned awards."
+      ],
+      [
+        "current-oct21/season-closing.png",
         "Season wrap",
-        "Finish the story, replay it or open its summary."
+        "The completed season’s frozen record, standings and earned awards."
+      ],
+      [
+        "current-oct21/recap-badge.png",
+        "Recap badge explanation",
+        "Tap an earned badge to read its saved award criteria."
       ]
     ]
   },
@@ -593,14 +628,14 @@ const CHAPTERS = [
     "platform": "iOS · Dark · Default",
     "shots": [
       [
-        "names-oct20/05-conduct-active.png",
+        "current-oct21/conduct-related.png",
         "Matchmaking pause",
-        "An active restriction explains its consequence and support recovery."
+        "The pause explains its consequence and links to each dated report."
       ],
       [
-        "current-oct20/polish-report-history.png",
+        "current-oct21/conduct-history.png",
         "Report history",
-        "Tap a dated report row to read its status and details."
+        "Tap the report row itself to read the dated outcome."
       ],
       [
         "names-oct20/06-conduct-open.png",
@@ -618,19 +653,14 @@ const CHAPTERS = [
         "The saved challenge appears on its report."
       ],
       [
-        "names-oct20/07-conduct-substantiated.png",
+        "current-oct21/conduct-detail.png",
         "Finding confirmed",
-        "Read the confirmed outcome and decision explanation."
+        "The report detail retains the decision, date, match and support recovery."
       ],
       [
         "names-oct20/08-conduct-dismissed.png",
         "Report dismissed",
         "Read the dismissal and its explanation."
-      ],
-      [
-        "current-oct20/polish-conduct-active.png",
-        "Restriction lifted",
-        "A lifted pause remains visible in account history."
       ]
     ]
   },
@@ -641,9 +671,9 @@ const CHAPTERS = [
     "platform": "iOS · Dark · Default",
     "shots": [
       [
-        "current-oct20/rating-preferences.png",
+        "current-oct21/appearance.png",
         "Dark and Default",
-        "Selected Dark appearance and Default app text size, with iOS default Dynamic Type."
+        "Dark appearance and Default app text size are selected; OS Dynamic Type is at its normal default."
       ]
     ]
   }
