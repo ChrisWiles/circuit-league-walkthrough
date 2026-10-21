@@ -1,8 +1,8 @@
 # Current League walkthrough evidence
 
-The single current tour follows the League player journey across 71 native iOS screens. All screens are on one page, with an optional enlarged viewer. There is no historical comparison or chapter-link navigation. Retired tour URLs redirect to the current root.
+The single current tour follows the League player journey across 83 iOS and mobile-web screens. All screens are on one page, with an optional enlarged viewer. There is no historical comparison or chapter-link navigation. Retired tour URLs redirect to the current root.
 
-App source: `a51a03869daeaf437dd45fe0f568f457dbd15c52` (local commit). The manifest preserves original provenance for unchanged screens. Nine original iOS Dark/Default captures refresh records, match history, weekly recap, report history, lifted restrictions and appearance preferences; the recap ranking detail is an added view. Images are original native pixels.
+Original record-polish source: `a51a03869daeaf437dd45fe0f568f457dbd15c52` (local commit). Search and recap-story additions have separate provenance below. The manifest preserves original provenance for unchanged screens. Nine original iOS Dark/Default captures refresh records, match history, weekly recap, report history, lifted restrictions and appearance preferences; the recap ranking detail is an added view. Images are original native pixels.
 
 ## Recent PD
 
@@ -51,3 +51,11 @@ App commit: `257888a12979c00e1e876085ea07a116a0080674` (following the server/rem
 App commit: `a51a03869daeaf437dd45fe0f568f457dbd15c52`. Season record headers replace point totals with the full season’s PD%; Recent form keeps PD% and Last X games without point totals or an explanation paragraph. The individual fixture visibly separates season PD +8.6% from recent PD +10% over ten games; the pair uses all nine available games. Recap leaderboard rows group locations by format, keep ranks aligned at the right and retain their frozen snapshot destinations. Conduct reports open directly from the entire dated/status row, without View report buttons.
 
 Current native verification: iPhone 17 Pro / iOS 26.4, Dark, Default app text and system content size large (iOS default). Original captures inspected; report-row navigation opens the correct challenged report, match expansion retains red −6.9% for that series, and the recap destination opens the selected city/format. Fifty-three focused native tests, full workspace/Edge typecheck and all 30 lint tasks pass; the final recap touch-target adjustment also passes its 16 tests and mobile typecheck. Review and simplify found no unresolved in-scope issue. No Android testing, app OTA, store release or production backend deployment was performed. The owned local runtime was stopped before committing.
+
+## Search and season story coverage
+
+The current one-page tour now contains 83 screens. Six original iOS Dark/Default leaderboard captures replace the three pre-search pool views and add search results, no matches and partner search. They come from the leaderboard-search verification at `ff4c8ea62` and show synced per-player DUPR, independent pair PD and preserved published ranks. Transitioning navigation and Refreshing-banner captures were inspected and excluded.
+
+Nine original recap-design captures add the shared weekly story opening, native Default season opening and all seven mobile-web season scenes: opening, record, final position, standout week, qualifying result, DUPR journey and closing/replay. These are explicitly labeled fictional ladder fixtures. The shared recap-player feature is committed in `cd4719716`; the originating design pass records working-tree source hashes with base HEAD `234041146` in its source-fingerprint.json. They are existing verification captures inspected for this gallery update, not a new device test. Later `8cb5f13da` changes identity erasure and per-game rotating result presentation; the chosen own-player season scenes do not demonstrate those states. Populated native Circuit League weekly/season stories remain an unpictured case; the existing Circuit League summary and ranking views remain included.
+
+Gallery-only update: no app code, backend, notification delivery or release changed. All referenced image hashes and gallery/manifest ordering were checked before publication.

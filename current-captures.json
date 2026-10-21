@@ -182,7 +182,7 @@
         "source": ".ux-review/circuit-league-persona-design-review-2026-10-19/revalidation/ios-polish-implementation/screens/35-terms-end.png",
         "captured": "2026-10-19",
         "sha256_source": "dd1f90667ebffa0611a3df1b9055201ee3f2cee2bcd5454089b4ba9b91242d4f",
-        "title": "Release \u00b7 scroll end",
+        "title": "Release · scroll end",
         "caption": "Both acceptance checkboxes and the terms link remain reachable. Neither was accepted.",
         "source_commit": "0b97fffa6b119cda5ebe6a955112f24125a4fa63"
       },
@@ -381,7 +381,7 @@
     {
       "file": "img/actions-ios-07-saved-venue-edit.png",
       "title": "Venue preference",
-      "description": "Choose Favorite, Backup or Don\u2019t use for a saved court.",
+      "description": "Choose Favorite, Backup or Don’t use for a saved court.",
       "sha256": "18e2405ef58eeba0821d4a1dcbf49837f5a47f60ea003205a83d2ff8726acd71",
       "width": 1206,
       "height": 2622,
@@ -517,7 +517,7 @@
     {
       "file": "img/names-oct20/13-pair-settings.png",
       "title": "Partnership settings",
-      "description": "Manage the partnership\u2019s matching preferences.",
+      "description": "Manage the partnership’s matching preferences.",
       "sha256": "eff80f35e49b7b175c22fd4deb19f312451de195e3791a716ede91c801efafd8",
       "width": 1206,
       "height": 2622,
@@ -699,7 +699,7 @@
     {
       "file": "img/current-oct20/current-chat-players.png",
       "title": "Chat player controls",
-      "description": "Mute or block a player from the match.",
+      "description": "Open player details or the available mute and block actions.",
       "sha256": "8d3af94c06f9a64eb6346d17561135fb6f18504ec540895d17b8d60b41780bd5",
       "width": 1206,
       "height": 2622,
@@ -813,40 +813,76 @@
       "evidence": "retained current screen; original provenance preserved"
     },
     {
-      "file": "img/current-oct20/pd-color-singles.png",
+      "file": "img/current-oct20/search-singles.png",
       "title": "Singles",
-      "description": "Rank, match record and recent PD with the actual number of games.",
-      "sha256": "52526787a14803cd5cdd2b2d669bf497e417a83de2e7a2e61028b4b81b4aaeaa",
+      "description": "Search players and compare Singles DUPR, rank and recent PD%.",
+      "sha256": "9b80b42a0d3b3b68efe6c2d7c129e8f00fcae06ccb9854bd9de944654627bf6b",
       "width": 1206,
       "height": 2622,
-      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/pd-color-singles.png",
+      "source": "/Users/wiles/.codex/worktrees/league-board-search/Pickleball-Tournaments/.ux-review/league-board-search-2026-10-20/search-ios-output/2026-10-20_180806/search-ios/takeScreenshot/singles-browse.png",
+      "sourceRevision": "ff4c8ea62",
       "capturedOn": "2026-10-20",
-      "sourceRevision": "5883567457b016b86685dfdc7afb90cc2faa04c5",
-      "evidence": "current native capture"
+      "platform": "iOS · Dark · Default"
     },
     {
-      "file": "img/current-oct20/pd-color-doubles.png",
+      "file": "img/current-oct20/search-doubles.png",
       "title": "Doubles",
-      "description": "Individual Doubles form and the pinned own record use up to ten games.",
-      "sha256": "6c7e644d8c5bcee48670abe7187a913dd4bbeec328faf12a556938c05afd4ab1",
+      "description": "Individual Doubles standings show the latest synced Doubles DUPR and recent PD%.",
+      "sha256": "f830ec1faae34f484e63c4bac2432de2720d5dc4ac7606fd0c26b9e404ba11d0",
       "width": 1206,
       "height": 2622,
-      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/pd-color-doubles.png",
+      "source": "/Users/wiles/.codex/worktrees/league-board-search/Pickleball-Tournaments/.ux-review/league-board-search-2026-10-20/pools-ios-output/2026-10-20_181149/pools-ios/takeScreenshot/doubles-after.png",
+      "sourceRevision": "ff4c8ea62",
       "capturedOn": "2026-10-20",
-      "sourceRevision": "5883567457b016b86685dfdc7afb90cc2faa04c5",
-      "evidence": "current native capture"
+      "platform": "iOS · Dark · Default"
     },
     {
-      "file": "img/current-oct20/pd-color-teams.png",
+      "file": "img/current-oct20/search-teams.png",
       "title": "Teams",
-      "description": "Alphabetical pair names and PD over this pair\u2019s last nine games.",
-      "sha256": "fc32cb34b7c3ef84cb945ba5bb6a481116a5ea40974107ecae9049507a152b3c",
+      "description": "Alphabetical partners each have their own Doubles DUPR; PD% belongs to the pair.",
+      "sha256": "34c6b857b0dd3ec1b486923bf88e9824ec312515e059e844a2b75b3dd247fa75",
       "width": 1206,
       "height": 2622,
-      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/pd-color-teams.png",
+      "source": "/Users/wiles/.codex/worktrees/league-board-search/Pickleball-Tournaments/.ux-review/league-board-search-2026-10-20/teams-proof-output/2026-10-20_181733/teams-proof/takeScreenshot/pair-distinct-dupr.png",
+      "sourceRevision": "ff4c8ea62",
       "capturedOn": "2026-10-20",
-      "sourceRevision": "5883567457b016b86685dfdc7afb90cc2faa04c5",
-      "evidence": "current native capture"
+      "platform": "iOS · Dark · Default"
+    },
+    {
+      "file": "img/current-oct20/search-results.png",
+      "title": "Player search",
+      "description": "Matching players keep their published rank; clearing search restores the full board.",
+      "sha256": "b091aabea5888f67d01c3cef60a642e515ade739b7f6fb26144c544573520bc5",
+      "width": 1206,
+      "height": 2622,
+      "source": "/Users/wiles/.codex/worktrees/league-board-search/Pickleball-Tournaments/.ux-review/league-board-search-2026-10-20/search-ios-output/2026-10-20_180806/search-ios/takeScreenshot/search-results.png",
+      "sourceRevision": "ff4c8ea62",
+      "capturedOn": "2026-10-20",
+      "platform": "iOS · Dark · Default"
+    },
+    {
+      "file": "img/current-oct20/search-empty.png",
+      "title": "No search matches",
+      "description": "Try another name, change the filters or clear the search.",
+      "sha256": "96704f8aec89b8a8046147200c7f3d19d5857cad0ed7a6073a986246a9d80e41",
+      "width": 1206,
+      "height": 2622,
+      "source": "/Users/wiles/.codex/worktrees/league-board-search/Pickleball-Tournaments/.ux-review/league-board-search-2026-10-20/search-ios-output/2026-10-20_180806/search-ios/takeScreenshot/search-no-match.png",
+      "sourceRevision": "ff4c8ea62",
+      "capturedOn": "2026-10-20",
+      "platform": "iOS · Dark · Default"
+    },
+    {
+      "file": "img/current-oct20/search-pairs.png",
+      "title": "Partner search",
+      "description": "A player-name search returns their fixed pairs, with each partner on a separate line.",
+      "sha256": "c358524af7564ae814a67ae93b13e807b270469d75e40111e441d8599245a2de",
+      "width": 1206,
+      "height": 2622,
+      "source": "/Users/wiles/.codex/worktrees/league-board-search/Pickleball-Tournaments/.ux-review/league-board-search-2026-10-20/pools-ios-output/2026-10-20_181256/pools-ios/takeScreenshot/teams-search.png",
+      "sourceRevision": "ff4c8ea62",
+      "capturedOn": "2026-10-20",
+      "platform": "iOS · Dark · Default"
     },
     {
       "file": "img/current-oct20/pd-color-board-filters.png",
@@ -875,7 +911,7 @@
     {
       "file": "img/current-oct20/polish-player-record.png",
       "title": "Individual record",
-      "description": "The season\u2019s total PD% and recent PD% with the actual game count.",
+      "description": "The season’s total PD% and recent PD% with the actual game count.",
       "sha256": "19dc7df7560a2adea946716c25836ecd2c587d0850e2df328c7260903f363326",
       "width": 1206,
       "height": 2622,
@@ -887,7 +923,7 @@
     {
       "file": "img/current-oct20/polish-pair-record.png",
       "title": "Pair record",
-      "description": "The pair\u2019s season PD%, recent sample and match history.",
+      "description": "The pair’s season PD%, recent sample and match history.",
       "sha256": "eb4a559b7ec0879b47bc82dabd9364f8ae965435dc014631fc070a4ab646af8f",
       "width": 1206,
       "height": 2622,
@@ -899,7 +935,7 @@
     {
       "file": "img/current-oct20/polish-match-history.png",
       "title": "Match history",
-      "description": "Positive PD is green and negative PD is red; each entry uses only that match\u2019s games.",
+      "description": "Positive PD is green and negative PD is red; each entry uses only that match’s games.",
       "sha256": "173fd84943512d7d1b0db56f639f387583314417f7e8b9365a97bb369641ab7a",
       "width": 1206,
       "height": 2622,
@@ -911,7 +947,7 @@
     {
       "file": "img/current-oct20/polish-match-series.png",
       "title": "Match series",
-      "description": "The expanded three-game series retains its own PD \u22126.9%.",
+      "description": "The expanded three-game series retains its own PD −6.9%.",
       "sha256": "626a9ac62a0aaa94c4b7808a7020902cd60f6871d62774791d3ec6b91cc5cf94",
       "width": 1206,
       "height": 2622,
@@ -943,6 +979,114 @@
       "capturedOn": "2026-10-20",
       "sourceRevision": "a51a03869daeaf437dd45fe0f568f457dbd15c52",
       "evidence": "current native capture"
+    },
+    {
+      "file": "img/current-oct20/season-native.png",
+      "title": "Season recap on iOS",
+      "description": "The shared seven-scene season player, illustrated with a completed ladder fixture.",
+      "sha256": "ddfc0eb4db3fe1105a772861e04c7d04cfb937f4cccbd6a9a78c6f7746baf8f9",
+      "width": 1206,
+      "height": 2622,
+      "source": "/Users/wiles/Documents/GitHub/Pickleball-Tournaments/.ux-review/recap-design-review-2026-10-20/native-season-default.png",
+      "sourceRevision": "cd4719716; recap-design-review source fingerprint 234041146 (working-tree capture)",
+      "capturedOn": "2026-10-20",
+      "platform": "iOS · Dark · Default"
+    },
+    {
+      "file": "img/current-oct20/weekly-story.png",
+      "title": "Weekly rewind",
+      "description": "A populated ladder week opens in the shared recap story player.",
+      "sha256": "9c95b8435ca3662377b5a7df68c5fc22f7b36ada5caf9661fbace0dcfb0d5d97",
+      "width": 65536,
+      "height": 4292542531,
+      "source": "/Users/wiles/Documents/GitHub/Pickleball-Tournaments/.ux-review/recap-design-review-2026-10-20/after-weekly-opening-390.png",
+      "sourceRevision": "cd4719716; recap-design-review source fingerprint 234041146 (working-tree capture)",
+      "capturedOn": "2026-10-20",
+      "platform": "Mobile web · Dark"
+    },
+    {
+      "file": "img/current-oct20/season-story-1.png",
+      "title": "Season rewind",
+      "description": "Start the completed season’s seven-scene story.",
+      "sha256": "5002fc03e72a28327a9184da687232c1eebf4172595e53bcd905edbf80a88fa7",
+      "width": 65536,
+      "height": 4292542531,
+      "source": "/Users/wiles/Documents/GitHub/Pickleball-Tournaments/.ux-review/recap-design-review-2026-10-20/after-season-opening-390.png",
+      "sourceRevision": "cd4719716; recap-design-review source fingerprint 234041146 (working-tree capture)",
+      "capturedOn": "2026-10-20",
+      "platform": "Mobile web · Dark"
+    },
+    {
+      "file": "img/current-oct20/season-story-2.png",
+      "title": "Season record",
+      "description": "Games won and lost summarize the full season.",
+      "sha256": "9859af80d8d0407674edea161808a6a6f44855cb285d565e9de2ea2abe6d918f",
+      "width": 65536,
+      "height": 4292542531,
+      "source": "/Users/wiles/Documents/GitHub/Pickleball-Tournaments/.ux-review/recap-design-review-2026-10-20/after-season-scene-2-390.png",
+      "sourceRevision": "cd4719716; recap-design-review source fingerprint 234041146 (working-tree capture)",
+      "capturedOn": "2026-10-20",
+      "platform": "Mobile web · Dark"
+    },
+    {
+      "file": "img/current-oct20/season-story-3.png",
+      "title": "Final position",
+      "description": "See the starting rung and final season position.",
+      "sha256": "8d150c44fec27285a35a49fe95281be8feb95648a034452da82424ee7f77e37c",
+      "width": 65536,
+      "height": 4292542531,
+      "source": "/Users/wiles/Documents/GitHub/Pickleball-Tournaments/.ux-review/recap-design-review-2026-10-20/after-season-scene-3-390.png",
+      "sourceRevision": "cd4719716; recap-design-review source fingerprint 234041146 (working-tree capture)",
+      "capturedOn": "2026-10-20",
+      "platform": "Mobile web · Dark"
+    },
+    {
+      "file": "img/current-oct20/season-story-4.png",
+      "title": "Standout week",
+      "description": "The season highlight includes its weekly record and climb.",
+      "sha256": "8c54db5e6cdcb8252253003dea27f9e5b176ee216c40f8b19e96f0c9f747b5b1",
+      "width": 65536,
+      "height": 4292542531,
+      "source": "/Users/wiles/Documents/GitHub/Pickleball-Tournaments/.ux-review/recap-design-review-2026-10-20/after-season-scene-4-390.png",
+      "sourceRevision": "cd4719716; recap-design-review source fingerprint 234041146 (working-tree capture)",
+      "capturedOn": "2026-10-20",
+      "platform": "Mobile web · Dark"
+    },
+    {
+      "file": "img/current-oct20/season-story-5.png",
+      "title": "Notable result",
+      "description": "A recorded qualifying result anchors the match highlight.",
+      "sha256": "679a0df22c3896fdb4601ce5fa8c4272315816b75ea908bceb9424108224777d",
+      "width": 65536,
+      "height": 4292542531,
+      "source": "/Users/wiles/Documents/GitHub/Pickleball-Tournaments/.ux-review/recap-design-review-2026-10-20/after-season-scene-5-390.png",
+      "sourceRevision": "cd4719716; recap-design-review source fingerprint 234041146 (working-tree capture)",
+      "capturedOn": "2026-10-20",
+      "platform": "Mobile web · Dark"
+    },
+    {
+      "file": "img/current-oct20/season-story-6.png",
+      "title": "Season DUPR journey",
+      "description": "Sealed provider snapshots show the rating journey; outside results can also affect DUPR.",
+      "sha256": "3ebc7ade3f5c3cfe52ab459d5f27a1e4c146e00a82ee12214a05e5a1c25d2dbd",
+      "width": 65536,
+      "height": 4292542531,
+      "source": "/Users/wiles/Documents/GitHub/Pickleball-Tournaments/.ux-review/recap-design-review-2026-10-20/after-season-scene-6-390.png",
+      "sourceRevision": "cd4719716; recap-design-review source fingerprint 234041146 (working-tree capture)",
+      "capturedOn": "2026-10-20",
+      "platform": "Mobile web · Dark"
+    },
+    {
+      "file": "img/current-oct20/season-story-7.png",
+      "title": "Season wrap",
+      "description": "Finish the story, replay it or open its summary.",
+      "sha256": "58b901fe60cb70b0edfe56570adc232853f358ab420e3f8b7cb85980ef190b98",
+      "width": 65536,
+      "height": 4292542531,
+      "source": "/Users/wiles/Documents/GitHub/Pickleball-Tournaments/.ux-review/recap-design-review-2026-10-20/after-season-closing-390.png",
+      "sourceRevision": "cd4719716; recap-design-review source fingerprint 234041146 (working-tree capture)",
+      "capturedOn": "2026-10-20",
+      "platform": "Mobile web · Dark"
     },
     {
       "file": "img/names-oct20/04-blocked-players.png",
@@ -1140,5 +1284,11 @@
       "sourceRevision": "a51a03869daeaf437dd45fe0f568f457dbd15c52",
       "evidence": "current native capture"
     }
-  ]
+  ],
+  "recentFeatureSources": {
+    "leaderboardSearch": "ff4c8ea62",
+    "recapStories": "cd4719716",
+    "latestReviewedAppHead": "f606153a5",
+    "note": "Original feature-verification captures reused after visual inspection. Recap story examples use the shared player with ladder fixtures, not a populated native Circuit League season. Original source fingerprint is preserved in each added capture."
+  }
 }

@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Circuit League Walkthrough</title>
-<meta name="description" content="Explore Circuit League from joining and finding courts to matches, scores, leaderboards and safety records. One current iOS walkthrough.">
+<meta name="description" content="Explore Circuit League from joining and finding courts to matches, scores, leaderboards and safety records. One current walkthrough with iOS and mobile web recap examples.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
 <style>
@@ -65,7 +65,7 @@ dialog .bar button { background: #1b2633; color: #e8edf2; border: 1px solid #2c3
     <span class="eyebrow">Circuit Pickleball · Circuit League · October 2026</span>
     <h1>Circuit League walkthrough</h1>
     <p class="lede">Explore Circuit League, from joining and finding courts to matches, scores and weekly progress. Tap a screen to enlarge it.</p>
-    <div class="facts"><span><b>71</b> screens</span><span><b>iOS</b> · Dark</span><span>Default app text size</span><span>Fictional players and matches</span></div>
+    <div class="facts"><span><b>83</b> screens</span><span><b>iOS + mobile web</b> · Dark</span><span>Default app text size</span><span>Fictional players and matches</span></div>
   </header>
 
   <div id="chapters"></div>
@@ -416,19 +416,34 @@ const CHAPTERS = [
     "platform": "iOS · Dark · Default",
     "shots": [
       [
-        "current-oct20/pd-color-singles.png",
+        "current-oct20/search-singles.png",
         "Singles",
-        "Rank, match record and recent PD with the actual number of games."
+        "Search players and compare Singles DUPR, rank and recent PD%."
       ],
       [
-        "current-oct20/pd-color-doubles.png",
+        "current-oct20/search-doubles.png",
         "Doubles",
-        "Individual Doubles form and the pinned own record use up to ten games."
+        "Individual Doubles standings show the latest synced Doubles DUPR and recent PD%."
       ],
       [
-        "current-oct20/pd-color-teams.png",
+        "current-oct20/search-teams.png",
         "Teams",
-        "Alphabetical pair names and PD over this pair’s last nine games."
+        "Alphabetical partners each have their own Doubles DUPR; PD% belongs to the pair."
+      ],
+      [
+        "current-oct20/search-results.png",
+        "Player search",
+        "Matching players keep their published rank; clearing search restores the full board."
+      ],
+      [
+        "current-oct20/search-empty.png",
+        "No search matches",
+        "Try another name, change the filters or clear the search."
+      ],
+      [
+        "current-oct20/search-pairs.png",
+        "Partner search",
+        "A player-name search returns their fixed pairs, with each partner on a separate line."
       ],
       [
         "current-oct20/pd-color-board-filters.png",
@@ -477,6 +492,59 @@ const CHAPTERS = [
         "current-oct20/polish-recap-ranks.png",
         "Recap leaderboards",
         "Locations on the left, bold ranks on the right; tap any row to open its leaderboard."
+      ]
+    ]
+  },
+  {
+    "id": "recap-stories",
+    "title": "Weekly and season recap stories",
+    "who": "The shared story player is illustrated with a fictional eight-week ladder season. Circuit League’s weekly summary and rank links appear above.",
+    "platform": "iOS Default and mobile web · Dark · Ladder fixture",
+    "shots": [
+      [
+        "current-oct20/season-native.png",
+        "Season recap on iOS",
+        "The shared seven-scene season player, illustrated with a completed ladder fixture."
+      ],
+      [
+        "current-oct20/weekly-story.png",
+        "Weekly rewind",
+        "A populated ladder week opens in the shared recap story player."
+      ],
+      [
+        "current-oct20/season-story-1.png",
+        "Season rewind",
+        "Start the completed season’s seven-scene story."
+      ],
+      [
+        "current-oct20/season-story-2.png",
+        "Season record",
+        "Games won and lost summarize the full season."
+      ],
+      [
+        "current-oct20/season-story-3.png",
+        "Final position",
+        "See the starting rung and final season position."
+      ],
+      [
+        "current-oct20/season-story-4.png",
+        "Standout week",
+        "The season highlight includes its weekly record and climb."
+      ],
+      [
+        "current-oct20/season-story-5.png",
+        "Notable result",
+        "A recorded qualifying result anchors the match highlight."
+      ],
+      [
+        "current-oct20/season-story-6.png",
+        "Season DUPR journey",
+        "Sealed provider snapshots show the rating journey; outside results can also affect DUPR."
+      ],
+      [
+        "current-oct20/season-story-7.png",
+        "Season wrap",
+        "Finish the story, replay it or open its summary."
       ]
     ]
   },
