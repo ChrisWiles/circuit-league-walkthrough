@@ -10,10 +10,10 @@
     "systemContentSize": "large (iOS default)"
   },
   "sourceFiles": {
-    "apps/mobile/src/components/league/boards/LeagueBoardsScreen.tsx": "47c9d45af3ecd8ba88c9c7840cde26c5ccbd8ffd3c4ba3438bc37437ed21cd6a",
+    "apps/mobile/src/components/league/boards/LeagueBoardsScreen.tsx": "e84d86ca48ec71b0397ad5c79aab966eaeec6230a9a5d60e6d7ad99db00ea320",
     "apps/mobile/src/components/league/boards/LeagueStatsScreen.tsx": "42ae0bbe2e467f40c53b6b1c4d9b4d10232cb518896cb3088ffce612c0ead9ad",
     "packages/shared/src/league/point-differential.ts": "26f6e04f705945315c450fe31089b141d6f6274e62be6a8592e8548345c29a01",
-    "supabase/schemas/30_functions/89-league-snapshots.sql": "59e615128e6cf02fe3fdd105fae187416b286cdce82c89e24151b2db4afc76f9",
+    "supabase/schemas/30_functions/89-league-snapshots.sql": "8c04cbe0c147bb056f05068826914937b5ada214721bb3d494a50f533863c8d3",
     "supabase/schemas/30_functions/78-league-score-commands.sql": "42833761391068f74a68ba01ebfcf3bca5eff859eff59807ff39c1f67f947a8d",
     "supabase/schemas/30_functions/80-league-score-work.sql": "dc735c64e4268eec8dd6418016e242f59b45d8a293231ddf3c005b48db7cfb80",
     "supabase/schemas/30_functions/71-league-notices.sql": "11d04847d85aacafbf499eccc94ae426e9090939ff2aaf94dc9bcdd20a059719",
@@ -23,7 +23,8 @@
     "apps/mobile/src/components/league/scoring/LeagueScoreReportScreen.tsx": "e355ee4c944a1627ec066968cf7eccb46f8d99a4d71fcc710ffe81716311b869",
     "apps/web/src/features/help/content/pages.ts": "07052bd413d179d853fb795f9812f8eb93ea3e940007adf9f8405f472bd591cc",
     "apps/mobile/src/components/league/recaps/LeagueRecapScreen.tsx": "ccb909ad8f7225e8a2828aaabda5cf3c305f7f57f3fa984fa1915869d9132083",
-    "apps/mobile/src/components/league/conduct/LeagueConductScreen.tsx": "09cb4b1f5c564d0b064debabb66b10a18015f042017c444bbb81c49b6fb96a5b"
+    "apps/mobile/src/components/league/conduct/LeagueConductScreen.tsx": "09cb4b1f5c564d0b064debabb66b10a18015f042017c444bbb81c49b6fb96a5b",
+    "packages/shared/src/schemas/league-snapshot.ts": "7821f9a95170cef0a19d417c41f1b8cabc6fadbe46c881b8bcccca4047be3fdc"
   },
   "captures": [
     {
@@ -813,100 +814,124 @@
       "evidence": "retained current screen; original provenance preserved"
     },
     {
-      "file": "img/current-oct20/search-singles.png",
+      "file": "img/current-oct20/rating-singles.png",
       "title": "Singles",
-      "description": "Search players and compare Singles DUPR, rank and recent PD%.",
-      "sha256": "9b80b42a0d3b3b68efe6c2d7c129e8f00fcae06ccb9854bd9de944654627bf6b",
+      "description": "The selected-format rating sits beside each player’s name.",
+      "sha256": "5bf69f750316c27ddf4c2a0c46b2968ed260cf9c6d1c167e317b6e0e446fb0f6",
       "width": 1206,
       "height": 2622,
-      "source": "/Users/wiles/.codex/worktrees/league-board-search/Pickleball-Tournaments/.ux-review/league-board-search-2026-10-20/search-ios-output/2026-10-20_180806/search-ios/takeScreenshot/singles-browse.png",
-      "sourceRevision": "ff4c8ea62",
+      "source": "/Users/wiles/.codex/worktrees/league-rating-details/Pickleball-Tournaments/.ux-review/league-rating-details-2026-10-20/native-output-final/2026-10-20_210051/native/takeScreenshot/rating-singles.png",
+      "sourceRevision": "772beb5dce08a56a435e57f445c1109b41ec55f8",
       "capturedOn": "2026-10-20",
       "platform": "iOS · Dark · Default"
     },
     {
-      "file": "img/current-oct20/search-doubles.png",
+      "file": "img/current-oct20/rating-doubles.png",
       "title": "Doubles",
-      "description": "Individual Doubles standings show the latest synced Doubles DUPR and recent PD%.",
-      "sha256": "f830ec1faae34f484e63c4bac2432de2720d5dc4ac7606fd0c26b9e404ba11d0",
+      "description": "Individual Doubles uses each player’s Doubles rating.",
+      "sha256": "8ee50f9f74e5ed8722976d9bebb41413ac96cfef7177c07938c68308bf97fbbf",
       "width": 1206,
       "height": 2622,
-      "source": "/Users/wiles/.codex/worktrees/league-board-search/Pickleball-Tournaments/.ux-review/league-board-search-2026-10-20/pools-ios-output/2026-10-20_181149/pools-ios/takeScreenshot/doubles-after.png",
-      "sourceRevision": "ff4c8ea62",
+      "source": "/Users/wiles/.codex/worktrees/league-rating-details/Pickleball-Tournaments/.ux-review/league-rating-details-2026-10-20/native-output-final/2026-10-20_210051/native/takeScreenshot/rating-doubles.png",
+      "sourceRevision": "772beb5dce08a56a435e57f445c1109b41ec55f8",
       "capturedOn": "2026-10-20",
       "platform": "iOS · Dark · Default"
     },
     {
-      "file": "img/current-oct20/search-teams.png",
+      "file": "img/current-oct20/rating-teams.png",
       "title": "Teams",
-      "description": "Alphabetical partners each have their own Doubles DUPR; PD% belongs to the pair.",
-      "sha256": "34c6b857b0dd3ec1b486923bf88e9824ec312515e059e844a2b75b3dd247fa75",
+      "description": "Alphabetical partners each keep their own number and separate rating action.",
+      "sha256": "10ca84838a67631f353c093a1ea66704c2928491426d2b553180cdc37ea5c696",
       "width": 1206,
       "height": 2622,
-      "source": "/Users/wiles/.codex/worktrees/league-board-search/Pickleball-Tournaments/.ux-review/league-board-search-2026-10-20/teams-proof-output/2026-10-20_181733/teams-proof/takeScreenshot/pair-distinct-dupr.png",
-      "sourceRevision": "ff4c8ea62",
+      "source": "/Users/wiles/.codex/worktrees/league-rating-details/Pickleball-Tournaments/.ux-review/league-rating-details-2026-10-20/native-output-final/2026-10-20_210051/native/takeScreenshot/rating-teams.png",
+      "sourceRevision": "772beb5dce08a56a435e57f445c1109b41ec55f8",
       "capturedOn": "2026-10-20",
       "platform": "iOS · Dark · Default"
     },
     {
-      "file": "img/current-oct20/search-results.png",
+      "file": "img/current-oct20/rating-details.png",
+      "title": "Rating details",
+      "description": "Tap the number for that player’s DUPR rating and reliability.",
+      "sha256": "792c5e021f6d5b04e7bfe97947ece8c27f5ac0ea2960134544b61d710f1f6bb8",
+      "width": 1206,
+      "height": 2622,
+      "source": "/Users/wiles/.codex/worktrees/league-rating-details/Pickleball-Tournaments/.ux-review/league-rating-details-2026-10-20/native-output-final/2026-10-20_210051/native/takeScreenshot/rating-details.png",
+      "sourceRevision": "772beb5dce08a56a435e57f445c1109b41ec55f8",
+      "capturedOn": "2026-10-20",
+      "platform": "iOS · Dark · Default"
+    },
+    {
+      "file": "img/current-oct20/rating-partner-details.png",
+      "title": "Partner rating details",
+      "description": "Sam’s rating opens Sam’s own reliability, independently of the other partner.",
+      "sha256": "de6ef23812f3304f5ac16e0b577a69d025b624a2bbc70f1b0a344b493e1f3f7a",
+      "width": 1206,
+      "height": 2622,
+      "source": "/Users/wiles/.codex/worktrees/league-rating-details/Pickleball-Tournaments/.ux-review/league-rating-details-2026-10-20/native-output-final/2026-10-20_210051/native/takeScreenshot/rating-partner-details.png",
+      "sourceRevision": "772beb5dce08a56a435e57f445c1109b41ec55f8",
+      "capturedOn": "2026-10-20",
+      "platform": "iOS · Dark · Default"
+    },
+    {
+      "file": "img/current-oct20/rating-search.png",
       "title": "Player search",
-      "description": "Matching players keep their published rank; clearing search restores the full board.",
-      "sha256": "b091aabea5888f67d01c3cef60a642e515ade739b7f6fb26144c544573520bc5",
+      "description": "Search finds later-page players while preserving their published ranks.",
+      "sha256": "5e81a6eb10d18f54dfc864d7f65f1ddfed45557b673c3643bdf69826c8e53030",
       "width": 1206,
       "height": 2622,
-      "source": "/Users/wiles/.codex/worktrees/league-board-search/Pickleball-Tournaments/.ux-review/league-board-search-2026-10-20/search-ios-output/2026-10-20_180806/search-ios/takeScreenshot/search-results.png",
-      "sourceRevision": "ff4c8ea62",
+      "source": "/Users/wiles/.codex/worktrees/league-rating-details/Pickleball-Tournaments/.ux-review/league-rating-details-2026-10-20/extra-output/2026-10-20_210236/extra/takeScreenshot/rating-search.png",
+      "sourceRevision": "772beb5dce08a56a435e57f445c1109b41ec55f8",
       "capturedOn": "2026-10-20",
       "platform": "iOS · Dark · Default"
     },
     {
-      "file": "img/current-oct20/search-empty.png",
+      "file": "img/current-oct20/rating-search-empty.png",
       "title": "No search matches",
       "description": "Try another name, change the filters or clear the search.",
-      "sha256": "96704f8aec89b8a8046147200c7f3d19d5857cad0ed7a6073a986246a9d80e41",
+      "sha256": "b309de3b57f12bc41044b54b110d04d751f6859c5f87d1cf04ddbb5e42f9fae5",
       "width": 1206,
       "height": 2622,
-      "source": "/Users/wiles/.codex/worktrees/league-board-search/Pickleball-Tournaments/.ux-review/league-board-search-2026-10-20/search-ios-output/2026-10-20_180806/search-ios/takeScreenshot/search-no-match.png",
-      "sourceRevision": "ff4c8ea62",
+      "source": "/Users/wiles/.codex/worktrees/league-rating-details/Pickleball-Tournaments/.ux-review/league-rating-details-2026-10-20/extra-output/2026-10-20_210236/extra/takeScreenshot/rating-search-empty.png",
+      "sourceRevision": "772beb5dce08a56a435e57f445c1109b41ec55f8",
       "capturedOn": "2026-10-20",
       "platform": "iOS · Dark · Default"
     },
     {
-      "file": "img/current-oct20/search-pairs.png",
+      "file": "img/current-oct20/rating-partner-search.png",
       "title": "Partner search",
       "description": "A player-name search returns their fixed pairs, with each partner on a separate line.",
-      "sha256": "c358524af7564ae814a67ae93b13e807b270469d75e40111e441d8599245a2de",
+      "sha256": "6b119a561b1adaff9976719ffa40b0720e60815f504ed884d3739b326f137a75",
       "width": 1206,
       "height": 2622,
-      "source": "/Users/wiles/.codex/worktrees/league-board-search/Pickleball-Tournaments/.ux-review/league-board-search-2026-10-20/pools-ios-output/2026-10-20_181256/pools-ios/takeScreenshot/teams-search.png",
-      "sourceRevision": "ff4c8ea62",
+      "source": "/Users/wiles/.codex/worktrees/league-rating-details/Pickleball-Tournaments/.ux-review/league-rating-details-2026-10-20/extra-output/2026-10-20_210236/extra/takeScreenshot/rating-partner-search.png",
+      "sourceRevision": "772beb5dce08a56a435e57f445c1109b41ec55f8",
       "capturedOn": "2026-10-20",
       "platform": "iOS · Dark · Default"
     },
     {
-      "file": "img/current-oct20/pd-color-board-filters.png",
+      "file": "img/current-oct20/rating-filters.png",
       "title": "Leaderboard filters",
-      "description": "Choose a category. Season choices appear when more than one season is available.",
-      "sha256": "44307bfb5808a6997925612d66122187a495b957c73102f8755470b2499d6bfc",
+      "description": "Season choices appear here because this fixture has two seasons; a single season omits them.",
+      "sha256": "8d15ec01f0a86a551896c6853f9c05278b8cd1a9059a07f9923f0a52c099ec90",
       "width": 1206,
       "height": 2622,
-      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/pd-color-board-filters.png",
+      "source": "/Users/wiles/.codex/worktrees/league-rating-details/Pickleball-Tournaments/.ux-review/league-rating-details-2026-10-20/extra-output/2026-10-20_210236/extra/takeScreenshot/rating-filters.png",
+      "sourceRevision": "772beb5dce08a56a435e57f445c1109b41ec55f8",
       "capturedOn": "2026-10-20",
-      "sourceRevision": "5883567457b016b86685dfdc7afb90cc2faa04c5",
-      "evidence": "current native capture"
+      "platform": "iOS · Dark · Default"
     },
     {
-      "file": "img/current-oct20/pd-color-board-bottom.png",
-      "title": "Lower standings",
-      "description": "The final ranked players and pinned own record remain reachable.",
-      "sha256": "713e46d26b29ce1097b7026a2479eccdbe9a95bfa4c4c9d1d3baf7399c892ea1",
+      "file": "img/current-oct20/rating-lower.png",
+      "title": "Pinned own record",
+      "description": "Your record stays available while browsing other ranks.",
+      "sha256": "de09a9f67b3488baa4d5b60428d0332c90a2a33794a30ba001b84e057e31d30a",
       "width": 1206,
       "height": 2622,
-      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/pd-color-board-bottom.png",
+      "source": "/Users/wiles/.codex/worktrees/league-rating-details/Pickleball-Tournaments/.ux-review/league-rating-details-2026-10-20/extra-output/2026-10-20_210236/extra/takeScreenshot/rating-lower.png",
+      "sourceRevision": "772beb5dce08a56a435e57f445c1109b41ec55f8",
       "capturedOn": "2026-10-20",
-      "sourceRevision": "5883567457b016b86685dfdc7afb90cc2faa04c5",
-      "evidence": "current native capture"
+      "platform": "iOS · Dark · Default"
     },
     {
       "file": "img/current-oct20/polish-player-record.png",
@@ -1273,22 +1298,23 @@
       "evidence": "current native capture"
     },
     {
-      "file": "img/current-oct20/polish-dark-default.png",
+      "file": "img/current-oct20/rating-preferences.png",
       "title": "Dark and Default",
       "description": "Selected Dark appearance and Default app text size, with iOS default Dynamic Type.",
-      "sha256": "aa3e8a96b8aa63b4694057a1c190ace78f630b64a178030a27409cfc87b9b46a",
+      "sha256": "f657b984d3ca4a826b50821b02e7a3c8cfd25afb0a911d207f69f290be6992d7",
       "width": 1206,
       "height": 2622,
-      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/final-polish-output/final-polish-3/takeScreenshot/polish-dark-default.png",
+      "source": "/Users/wiles/.codex/worktrees/league-rating-details/Pickleball-Tournaments/.ux-review/league-rating-details-2026-10-20/native-output-final/2026-10-20_210051/native/takeScreenshot/rating-preferences.png",
+      "sourceRevision": "772beb5dce08a56a435e57f445c1109b41ec55f8",
       "capturedOn": "2026-10-20",
-      "sourceRevision": "a51a03869daeaf437dd45fe0f568f457dbd15c52",
-      "evidence": "current native capture"
+      "platform": "iOS · Dark · Default"
     }
   ],
   "recentFeatureSources": {
     "leaderboardSearch": "ff4c8ea62",
     "recapStories": "cd4719716",
     "latestReviewedAppHead": "f606153a5",
-    "note": "Original feature-verification captures reused after visual inspection. Recap story examples use the shared player with ladder fixtures, not a populated native Circuit League season. Original source fingerprint is preserved in each added capture."
+    "note": "Original feature-verification captures reused after visual inspection. Recap story examples use the shared player with ladder fixtures, not a populated native Circuit League season. Original source fingerprint is preserved in each added capture.",
+    "compactRatings": "772beb5dce08a56a435e57f445c1109b41ec55f8"
   }
 }

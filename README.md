@@ -15,3 +15,5 @@ Score review now allows 48 hours after reporting, with push on report, push and 
 Recap leaderboards group locations by format with right-aligned ranks. Conduct report rows open the full report directly.
 
 Leaderboard search now includes populated results, empty results and partner search, with current Singles/Doubles DUPR beside players. The shared weekly and seven-scene season recap story player is included using a clearly labeled fictional ladder fixture on iOS and mobile web.
+
+Leaderboard ratings are number-only beside names. Tapping a rating opens the player’s DUPR and reliability sheet, including independent values for fixed partners. The current tour has 85 views.

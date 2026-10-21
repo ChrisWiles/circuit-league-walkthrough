@@ -65,14 +65,14 @@ dialog .bar button { background: #1b2633; color: #e8edf2; border: 1px solid #2c3
     <span class="eyebrow">Circuit Pickleball · Circuit League · October 2026</span>
     <h1>Circuit League walkthrough</h1>
     <p class="lede">Explore Circuit League, from joining and finding courts to matches, scores and weekly progress. Tap a screen to enlarge it.</p>
-    <div class="facts"><span><b>83</b> screens</span><span><b>iOS + mobile web</b> · Dark</span><span>Default app text size</span><span>Fictional players and matches</span></div>
+    <div class="facts"><span><b>85</b> screens</span><span><b>iOS + mobile web</b> · Dark</span><span>Default app text size</span><span>Fictional players and matches</span></div>
   </header>
 
   <div id="chapters"></div>
 
   <section class="notes" id="notes">
     <h2>About this tour</h2>
-    <p class="who">These native iOS screens use fictional players, matches and safety records. Some examples show alternative states, such as a pending report and its eventual outcome.</p>
+    <p class="who">These screenshots use fictional players, matches and safety records. Some examples show alternative states, such as a pending report and its eventual outcome.</p>
   </section>
 </div>
 
@@ -416,44 +416,54 @@ const CHAPTERS = [
     "platform": "iOS · Dark · Default",
     "shots": [
       [
-        "current-oct20/search-singles.png",
+        "current-oct20/rating-singles.png",
         "Singles",
-        "Search players and compare Singles DUPR, rank and recent PD%."
+        "The selected-format rating sits beside each player’s name."
       ],
       [
-        "current-oct20/search-doubles.png",
+        "current-oct20/rating-doubles.png",
         "Doubles",
-        "Individual Doubles standings show the latest synced Doubles DUPR and recent PD%."
+        "Individual Doubles uses each player’s Doubles rating."
       ],
       [
-        "current-oct20/search-teams.png",
+        "current-oct20/rating-teams.png",
         "Teams",
-        "Alphabetical partners each have their own Doubles DUPR; PD% belongs to the pair."
+        "Alphabetical partners each keep their own number and separate rating action."
       ],
       [
-        "current-oct20/search-results.png",
+        "current-oct20/rating-details.png",
+        "Rating details",
+        "Tap the number for that player’s DUPR rating and reliability."
+      ],
+      [
+        "current-oct20/rating-partner-details.png",
+        "Partner rating details",
+        "Sam’s rating opens Sam’s own reliability, independently of the other partner."
+      ],
+      [
+        "current-oct20/rating-search.png",
         "Player search",
-        "Matching players keep their published rank; clearing search restores the full board."
+        "Search finds later-page players while preserving their published ranks."
       ],
       [
-        "current-oct20/search-empty.png",
+        "current-oct20/rating-search-empty.png",
         "No search matches",
         "Try another name, change the filters or clear the search."
       ],
       [
-        "current-oct20/search-pairs.png",
+        "current-oct20/rating-partner-search.png",
         "Partner search",
         "A player-name search returns their fixed pairs, with each partner on a separate line."
       ],
       [
-        "current-oct20/pd-color-board-filters.png",
+        "current-oct20/rating-filters.png",
         "Leaderboard filters",
-        "Choose a category. Season choices appear when more than one season is available."
+        "Season choices appear here because this fixture has two seasons; a single season omits them."
       ],
       [
-        "current-oct20/pd-color-board-bottom.png",
-        "Lower standings",
-        "The final ranked players and pinned own record remain reachable."
+        "current-oct20/rating-lower.png",
+        "Pinned own record",
+        "Your record stays available while browsing other ranks."
       ]
     ]
   },
@@ -621,7 +631,7 @@ const CHAPTERS = [
     "platform": "iOS · Dark · Default",
     "shots": [
       [
-        "current-oct20/polish-dark-default.png",
+        "current-oct20/rating-preferences.png",
         "Dark and Default",
         "Selected Dark appearance and Default app text size, with iOS default Dynamic Type."
       ]
