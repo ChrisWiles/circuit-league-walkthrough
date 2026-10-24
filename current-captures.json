@@ -1,6 +1,6 @@
 {
   "appCommit": "ce075ef6a512eb90598925f53f08bb3aa5a4d2f1",
-  "capturedOn": "2026-10-21",
+  "capturedOn": "2026-10-23 (7 newest images from app commit ee7b865d1)",
   "appearance": {
     "platform": "iOS",
     "device": "iPhone 17 Pro",
@@ -185,7 +185,7 @@
         "source": ".ux-review/circuit-league-persona-design-review-2026-10-19/revalidation/ios-polish-implementation/screens/35-terms-end.png",
         "captured": "2026-10-19",
         "sha256_source": "dd1f90667ebffa0611a3df1b9055201ee3f2cee2bcd5454089b4ba9b91242d4f",
-        "title": "Release · scroll end",
+        "title": "Release \u00b7 scroll end",
         "caption": "Both acceptance checkboxes and the terms link remain reachable. Neither was accepted.",
         "source_commit": "0b97fffa6b119cda5ebe6a955112f24125a4fa63"
       },
@@ -389,7 +389,7 @@
     {
       "file": "img/actions-ios-07-saved-venue-edit.png",
       "title": "Venue preference",
-      "description": "Choose Favorite, Backup or Don’t use for a saved court.",
+      "description": "Choose Favorite, Backup or Don\u2019t use for a saved court.",
       "sha256": "18e2405ef58eeba0821d4a1dcbf49837f5a47f60ea003205a83d2ff8726acd71",
       "width": 1206,
       "height": 2622,
@@ -525,7 +525,7 @@
     {
       "file": "img/names-oct20/13-pair-settings.png",
       "title": "Partnership settings",
-      "description": "Manage the partnership’s matching preferences.",
+      "description": "Manage the partnership\u2019s matching preferences.",
       "sha256": "eff80f35e49b7b175c22fd4deb19f312451de195e3791a716ede91c801efafd8",
       "width": 1206,
       "height": 2622,
@@ -895,7 +895,7 @@
     {
       "file": "img/current-oct21/rating-date.png",
       "title": "Rating details",
-      "description": "The tapped player’s DUPR, reliability and actual update date.",
+      "description": "The tapped player\u2019s DUPR, reliability and actual update date.",
       "sha256": "5104057b3e163a552760fe62ce7a52bacec573a0c7eb066ed6c12cc7b6e6731f",
       "width": 1206,
       "height": 2622,
@@ -909,7 +909,7 @@
     {
       "file": "img/current-oct21/partner-rating-date.png",
       "title": "Partner rating details",
-      "description": "Each partner’s number opens that player’s rating, reliability and update date.",
+      "description": "Each partner\u2019s number opens that player\u2019s rating, reliability and update date.",
       "sha256": "716ad3c7b0906d5577c0e70483715fe755c85013c5eba7734e835c0c633d549b",
       "width": 1206,
       "height": 2622,
@@ -930,7 +930,7 @@
       "source": "/Users/wiles/.codex/worktrees/league-rating-details/Pickleball-Tournaments/.ux-review/league-rating-details-2026-10-20/extra-output/2026-10-20_210236/extra/takeScreenshot/rating-search.png",
       "sourceRevision": "772beb5dce08a56a435e57f445c1109b41ec55f8",
       "capturedOn": "2026-10-20",
-      "platform": "iOS · Dark · Default"
+      "platform": "iOS \u00b7 Dark \u00b7 Default"
     },
     {
       "file": "img/current-oct20/rating-search-empty.png",
@@ -942,7 +942,7 @@
       "source": "/Users/wiles/.codex/worktrees/league-rating-details/Pickleball-Tournaments/.ux-review/league-rating-details-2026-10-20/extra-output/2026-10-20_210236/extra/takeScreenshot/rating-search-empty.png",
       "sourceRevision": "772beb5dce08a56a435e57f445c1109b41ec55f8",
       "capturedOn": "2026-10-20",
-      "platform": "iOS · Dark · Default"
+      "platform": "iOS \u00b7 Dark \u00b7 Default"
     },
     {
       "file": "img/current-oct20/rating-partner-search.png",
@@ -954,7 +954,7 @@
       "source": "/Users/wiles/.codex/worktrees/league-rating-details/Pickleball-Tournaments/.ux-review/league-rating-details-2026-10-20/extra-output/2026-10-20_210236/extra/takeScreenshot/rating-partner-search.png",
       "sourceRevision": "772beb5dce08a56a435e57f445c1109b41ec55f8",
       "capturedOn": "2026-10-20",
-      "platform": "iOS · Dark · Default"
+      "platform": "iOS \u00b7 Dark \u00b7 Default"
     },
     {
       "file": "img/current-oct20/rating-filters.png",
@@ -966,7 +966,7 @@
       "source": "/Users/wiles/.codex/worktrees/league-rating-details/Pickleball-Tournaments/.ux-review/league-rating-details-2026-10-20/extra-output/2026-10-20_210236/extra/takeScreenshot/rating-filters.png",
       "sourceRevision": "772beb5dce08a56a435e57f445c1109b41ec55f8",
       "capturedOn": "2026-10-20",
-      "platform": "iOS · Dark · Default"
+      "platform": "iOS \u00b7 Dark \u00b7 Default"
     },
     {
       "file": "img/current-oct21/own-team-pin.png",
@@ -1020,7 +1020,7 @@
       "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-badges-2026-10-20/final-output/2026-10-20_213401/verify/takeScreenshot/badge-founding-member.png",
       "sourceRevision": "fb4dab223a5b932ccbebffbf570a541792214117",
       "capturedOn": "2026-10-20",
-      "platform": "iOS · Dark · Default"
+      "platform": "iOS \u00b7 Dark \u00b7 Default"
     },
     {
       "file": "img/current-oct20/badge-season-complete.png",
@@ -1032,12 +1032,12 @@
       "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-badges-2026-10-20/final-output/2026-10-20_213401/verify/takeScreenshot/badge-season-complete.png",
       "sourceRevision": "fb4dab223a5b932ccbebffbf570a541792214117",
       "capturedOn": "2026-10-20",
-      "platform": "iOS · Dark · Default"
+      "platform": "iOS \u00b7 Dark \u00b7 Default"
     },
     {
       "file": "img/current-oct21/pair-record.png",
       "title": "Pair record",
-      "description": "The partnership’s own season and nine-game recent sample.",
+      "description": "The partnership\u2019s own season and nine-game recent sample.",
       "sha256": "8fb01ed409c1fd66564911c8a126f593f9fd5d2787492db7ad32ae22fac80cfc",
       "width": 1206,
       "height": 2622,
@@ -1065,7 +1065,7 @@
     {
       "file": "img/current-oct20/polish-match-series.png",
       "title": "Match series",
-      "description": "The expanded three-game series retains its own PD −6.9%.",
+      "description": "The expanded three-game series retains its own PD \u22126.9%.",
       "sha256": "626a9ac62a0aaa94c4b7808a7020902cd60f6871d62774791d3ec6b91cc5cf94",
       "width": 1206,
       "height": 2622,
@@ -1119,7 +1119,7 @@
     {
       "file": "img/current-oct21/weekly-0.png",
       "title": "Your week in Circuit",
-      "description": "The published week’s own results and standings.",
+      "description": "The published week\u2019s own results and standings.",
       "sha256": "4478daeeb55be721626221b4fc0f48145b5e1a8000badbf96af75787c76fc456",
       "width": 1206,
       "height": 2622,
@@ -1133,7 +1133,7 @@
     {
       "file": "img/current-oct21/weekly-1.png",
       "title": "Weekly record and PD",
-      "description": "The published week’s own results and standings.",
+      "description": "The published week\u2019s own results and standings.",
       "sha256": "e8a9727b00b2d58c939ec7cf68fc2fc78de1dc14d6950e8bb84c4d9403d23e50",
       "width": 1206,
       "height": 2622,
@@ -1147,7 +1147,7 @@
     {
       "file": "img/current-oct21/weekly-2.png",
       "title": "Weekly standings",
-      "description": "The published week’s own results and standings.",
+      "description": "The published week\u2019s own results and standings.",
       "sha256": "3dfaf771e27fc475fba9b95e46654b159129e732f594862ec144033058ef8cb6",
       "width": 1206,
       "height": 2622,
@@ -1161,7 +1161,7 @@
     {
       "file": "img/current-oct21/weekly-3.png",
       "title": "Weekly highlights",
-      "description": "The published week’s own results and standings.",
+      "description": "The published week\u2019s own results and standings.",
       "sha256": "13f36f53ab44c7c80ef1e905efc9db8fcb5d115b3f465c21e0356576c1ddd233",
       "width": 1206,
       "height": 2622,
@@ -1175,7 +1175,7 @@
     {
       "file": "img/current-oct21/weekly-closing.png",
       "title": "Weekly wrap",
-      "description": "The published week’s own results and standings.",
+      "description": "The published week\u2019s own results and standings.",
       "sha256": "2501bbd0b8623b1492bc54dcc04496bbb82af214a21eea32a29cc3c4be4394d3",
       "width": 1206,
       "height": 2622,
@@ -1189,7 +1189,7 @@
     {
       "file": "img/current-oct21/season-0.png",
       "title": "Your season recap",
-      "description": "The completed season’s frozen record, standings and earned awards.",
+      "description": "The completed season\u2019s frozen record, standings and earned awards.",
       "sha256": "3007882c53de6c4262de3f7d647193537b6e9052f4d6e20e1b043dff3fd31307",
       "width": 1206,
       "height": 2622,
@@ -1203,7 +1203,7 @@
     {
       "file": "img/current-oct21/season-1.png",
       "title": "Season record and PD",
-      "description": "The completed season’s frozen record, standings and earned awards.",
+      "description": "The completed season\u2019s frozen record, standings and earned awards.",
       "sha256": "6c486813793290fbae65f7b1f6948318efa292c5e0364e7a75a9d044dcc99ddd",
       "width": 1206,
       "height": 2622,
@@ -1217,7 +1217,7 @@
     {
       "file": "img/current-oct21/season-2.png",
       "title": "Final standings",
-      "description": "The completed season’s frozen record, standings and earned awards.",
+      "description": "The completed season\u2019s frozen record, standings and earned awards.",
       "sha256": "919faf11baa02259837dcd702bf375a8e47946548405d6abdbf61ca5edc72abf",
       "width": 1206,
       "height": 2622,
@@ -1231,7 +1231,7 @@
     {
       "file": "img/current-oct21/season-3.png",
       "title": "Season complete",
-      "description": "The completed season’s frozen record, standings and earned awards.",
+      "description": "The completed season\u2019s frozen record, standings and earned awards.",
       "sha256": "d80324f75e7a19e7554d79cbe233bb9e4bbad858ce3bc9d2199fb92f61f67649",
       "width": 1206,
       "height": 2622,
@@ -1245,7 +1245,7 @@
     {
       "file": "img/current-oct21/season-4.png",
       "title": "Season award",
-      "description": "The completed season’s frozen record, standings and earned awards.",
+      "description": "The completed season\u2019s frozen record, standings and earned awards.",
       "sha256": "879417d60a52c099d96c1a561f71749e4f2fd736cb22a7b7202ed2b554d31279",
       "width": 1206,
       "height": 2622,
@@ -1259,7 +1259,7 @@
     {
       "file": "img/current-oct21/season-closing.png",
       "title": "Season wrap",
-      "description": "The completed season’s frozen record, standings and earned awards.",
+      "description": "The completed season\u2019s frozen record, standings and earned awards.",
       "sha256": "97f907883732d139ff2575282554b7105d015ce4ecdcd1a78a83e462b34c5807",
       "width": 1206,
       "height": 2622,
@@ -1459,6 +1459,104 @@
         "appCommit": "ce075ef6a512eb90598925f53f08bb3aa5a4d2f1"
       },
       "evidence": "Original iOS 26.4 pixels inspected in Dark appearance, app Default and normal OS text size; fictional owned local Circuit League data."
+    },
+    {
+      "file": "img/fixes-oct23/home-top.png",
+      "title": "League home",
+      "description": "Needs you leads, then your standing and times; Past and Upcoming sit under Your matches.",
+      "sha256": "aeac59f9a18cd03c133ee7ece635d1371c48f358a377858cb32e041c6032fd47",
+      "width": 1206,
+      "height": 2622,
+      "origin": {
+        "file": "img/fixes-oct23/home-top.png",
+        "capturedOn": "2026-10-23",
+        "appCommit": "ee7b865d1",
+        "note": "New iOS simulator capture, Dark, Default text, fictional local fixtures."
+      }
+    },
+    {
+      "file": "img/fixes-oct23/past-tab.png",
+      "title": "Past matches",
+      "description": "Each finished match stacks the winner first with every game score beside its own team.",
+      "sha256": "f2c8f9ddcc9ada68714a18e5039a6a17ddf4971046458d0135aee7cab8394692",
+      "width": 1206,
+      "height": 2622,
+      "origin": {
+        "file": "img/fixes-oct23/past-tab.png",
+        "capturedOn": "2026-10-23",
+        "appCommit": "ee7b865d1",
+        "note": "New iOS simulator capture, Dark, Default text, fictional local fixtures."
+      }
+    },
+    {
+      "file": "img/fixes-oct23/match-screen.png",
+      "title": "Match details",
+      "description": "Where, when and format appear once; the pinned action sits above everything else.",
+      "sha256": "0b1d4b521140939e7e454316d0d13dd35ba507dfcaa9ca0d8f99194283e8af48",
+      "width": 1206,
+      "height": 2622,
+      "origin": {
+        "file": "img/fixes-oct23/match-screen.png",
+        "capturedOn": "2026-10-23",
+        "appCommit": "ee7b865d1",
+        "note": "New iOS simulator capture, Dark, Default text, fictional local fixtures."
+      }
+    },
+    {
+      "file": "img/fixes-oct23/report-form.png",
+      "title": "Report a score",
+      "description": "Where and when come first, then each game; the action stays pinned to the screen edge.",
+      "sha256": "037d8dc1e94c6904b75e8dc0abfc360ed7415e1d603799695d6a55569f18ee4a",
+      "width": 1206,
+      "height": 2622,
+      "origin": {
+        "file": "img/fixes-oct23/report-form.png",
+        "capturedOn": "2026-10-23",
+        "appCommit": "ee7b865d1",
+        "note": "New iOS simulator capture, Dark, Default text, fictional local fixtures."
+      }
+    },
+    {
+      "file": "img/fixes-oct23/short-report-confirm.png",
+      "title": "Reporting fewer games",
+      "description": "Reporting 1 of 3 planned games asks for confirmation and names the games without a score.",
+      "sha256": "77c176494f22555dd3e5f59251dfe28f6f221f0050bb33f55922ed2b597a3986",
+      "width": 1206,
+      "height": 2622,
+      "origin": {
+        "file": "img/fixes-oct23/short-report-confirm.png",
+        "capturedOn": "2026-10-23",
+        "appCommit": "ee7b865d1",
+        "note": "New iOS simulator capture, Dark, Default text, fictional local fixtures."
+      }
+    },
+    {
+      "file": "img/fixes-oct23/boards-mens.png",
+      "title": "Near you and larger ranks",
+      "description": "Ranks are larger. Near you narrows an official area board without changing anyone\u2019s rank; with fewer than 5 nearby it explains why everyone shows.",
+      "sha256": "be2e0b4e96b3e8f96cbb4681498f905170d08be51c975167395eb4872b44506c",
+      "width": 1206,
+      "height": 2622,
+      "origin": {
+        "file": "img/fixes-oct23/boards-mens.png",
+        "capturedOn": "2026-10-23",
+        "appCommit": "ee7b865d1",
+        "note": "New iOS simulator capture, Dark, Default text, fictional local fixtures."
+      }
+    },
+    {
+      "file": "img/fixes-oct23/boards-casey.png",
+      "title": "Small boards",
+      "description": "A board under 5 players says how many are listed instead of showing a partial ranking, with your own record pinned below.",
+      "sha256": "29893fe70eb78ee210f1b0397f87215ca2d444a8af2bd0677538cc511abf3108",
+      "width": 1206,
+      "height": 2622,
+      "origin": {
+        "file": "img/fixes-oct23/boards-casey.png",
+        "capturedOn": "2026-10-23",
+        "appCommit": "ee7b865d1",
+        "note": "New iOS simulator capture, Dark, Default text, fictional local fixtures."
+      }
     }
   ],
   "recentFeatureSources": {
@@ -1473,5 +1571,9 @@
   "auditFixes": {
     "evidence": "apps/docs/docs/operations/circuit-league-audit-fixes-plan-2026-10-21.md",
     "refreshedImages": 33
+  },
+  "mobileUxFixes": {
+    "plan": "apps/docs/docs/operations/circuit-league-mobile-ux-fixes-plan-2026-10-23.md",
+    "newImages": 7
   }
 }

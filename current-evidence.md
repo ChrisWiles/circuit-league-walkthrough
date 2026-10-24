@@ -1,6 +1,6 @@
 # Current League walkthrough evidence
 
-Updated October 21, 2026. App source: local main `ce075ef6a512eb90598925f53f08bb3aa5a4d2f1`. The current single-page tour contains 93 views, including 33 refreshed original native images. Retained unchanged screens preserve their individual provenance in `current-captures.json`; they are not claimed as newly captured. No historical-design or chapter-link navigation is shown.
+Updated October 21, 2026. App source: local main `ce075ef6a512eb90598925f53f08bb3aa5a4d2f1`. The current single-page tour contains 100 views, including 40 refreshed original native images. Retained unchanged screens preserve their individual provenance in `current-captures.json`; they are not claimed as newly captured. No historical-design or chapter-link navigation is shown.
 
 ## Current native verification
 
@@ -36,3 +36,7 @@ Matched enlarged-leaderboard views were inspected at 360×800, 390×844 and 1280
 This is changed-feature verification, not exhaustive clearance of every reachable route, overlay, error, permission or lifecycle state in the ten-audit inventory. Physical location arrival, actual push/email/DUPR receipt, visual long-history pagination, Android, alternate app/system text sizes and light theme are not claimed as current device passes. Retained unchanged examples are identified rather than presented as fresh tests.
 
 The app commit is local only. The server migration must precede a client release. No app push, OTA, store release or persistent database/Edge deployment is included. The owner limited publication to this walkthrough: the authored Rules article still requires a separate Circuit website release. Task-owned native/backend services were stopped; other development stacks and unrelated local changes were preserved.
+
+## October 23 update
+
+Seven iOS simulator captures (Dark, Default text, fictional fixtures, local main `ee7b865d1`) were added at the head of the home, matches, scores and leaderboards chapters. Large and Larger text sizes were not captured.
