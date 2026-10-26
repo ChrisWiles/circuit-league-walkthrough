@@ -4,748 +4,359 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Circuit League Walkthrough</title>
-<meta name="description" content="Explore Circuit League from joining and finding courts to matches, scores, leaderboards and safety records. One current walkthrough with populated iOS League examples.">
+<meta name="description" content="Circuit League on iPhone, screen by screen: joining, match offers, chat, scores, leaderboards, recaps, teams, Scan to play, settings and safety.">
+<link rel="canonical" href="https://chriswiles.github.io/circuit-league-walkthrough/">
 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
 <style>
-/* A single review page: every current native capture is visible in its chapter grid. */
 :root {
-  --bg: #f4f6f1; --surface: #ffffff; --ink: #121a24; --muted: #5b6573; --line: #dde3d6;
-  --volt: #5e7a00; --volt-soft: #eef4d6; --phone: #0b1118;
+  --bg: #f4f6f1; --surface: #ffffff; --ink: #121a24; --muted: #566170; --line: #dde3d6;
+  --volt: #4f6a00; --volt-ink: #121a24; --volt-fill: #c7e14a; --volt-soft: #eef4d6; --phone: #0b1118;
   --display: "Barlow Condensed", "Arial Narrow", sans-serif;
   --body: "Barlow", "Helvetica Neue", Arial, sans-serif;
   --mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
+  --nav-h: 56px;
   color-scheme: light;
 }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
-  --bg: #0b1118; --surface: #121b26; --ink: #e8edf2; --muted: #93a0ae; --line: #223040;
-  --volt: #c7e14a; --volt-soft: #1f2a12; --phone: #000000; color-scheme: dark; } }
+  --bg: #0b1118; --surface: #121b26; --ink: #e8edf2; --muted: #98a5b3; --line: #223040;
+  --volt: #c7e14a; --volt-ink: #0b1118; --volt-fill: #c7e14a; --volt-soft: #1c2712; --phone: #000; color-scheme: dark; } }
 :root[data-theme="dark"] {
-  --bg: #0b1118; --surface: #121b26; --ink: #e8edf2; --muted: #93a0ae; --line: #223040;
-  --volt: #c7e14a; --volt-soft: #1f2a12; --phone: #000000; color-scheme: dark; }
+  --bg: #0b1118; --surface: #121b26; --ink: #e8edf2; --muted: #98a5b3; --line: #223040;
+  --volt: #c7e14a; --volt-ink: #0b1118; --volt-fill: #c7e14a; --volt-soft: #1c2712; --phone: #000; color-scheme: dark; }
 * { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
 body { background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 16px; line-height: 1.55; margin: 0; }
-.wrap { max-width: 1180px; margin: 0 auto; padding-inline: 20px; padding-block: 0 80px; }
+.wrap { max-width: 1180px; margin: 0 auto; padding-inline: 24px; }
 h1, h2, h3 { font-family: var(--display); font-weight: 700; letter-spacing: 0.01em; text-wrap: balance; margin: 0; }
-h1 { font-size: clamp(2.4rem, 6vw, 4rem); line-height: 1; text-transform: uppercase; }
-h2 { font-size: clamp(1.7rem, 3.6vw, 2.3rem); line-height: 1.05; text-transform: uppercase; }
-h3 { font-size: 1.1rem; line-height: 1.15; }
-p { margin: 0; max-width: 68ch; }
+h1 { font-size: clamp(2.5rem, 7vw, 4.4rem); line-height: 0.95; text-transform: uppercase; }
+h2 { font-size: clamp(1.8rem, 4vw, 2.5rem); line-height: 1; text-transform: uppercase; }
+h3 { font-family: var(--body); font-size: 1rem; font-weight: 600; line-height: 1.3; letter-spacing: 0; }
+p { margin: 0; max-width: 66ch; }
 a { color: var(--volt); }
-:focus-visible { outline: 2px solid var(--volt); outline-offset: 2px; }
+:focus-visible { outline: 2px solid var(--volt); outline-offset: 3px; }
 .eyebrow { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
-header.top { padding-block: 48px 28px; display: grid; gap: 16px; border-bottom: 1px solid var(--line); }
-header.top .lede { font-size: 1.1rem; color: var(--muted); }
-.facts { display: flex; flex-wrap: wrap; gap: 8px 24px; font-size: 0.92rem; color: var(--muted); }
+
+/* Header */
+header.top { padding-block: 56px 32px; display: grid; gap: 18px; }
+header.top .lede { font-size: 1.15rem; color: var(--muted); }
+.people { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px 32px; padding-top: 6px; }
+.person { display: grid; grid-template-columns: auto 1fr; gap: 2px 12px; align-items: center; }
+.person .av { grid-row: span 2; width: 40px; height: 40px; border-radius: 50%; display: grid; place-items: center;
+  background: var(--volt-soft); color: var(--volt); font-family: var(--mono); font-size: 0.8rem; }
+.person b { font-weight: 600; }
+.person span { color: var(--muted); font-size: 0.94rem; }
+.facts { display: flex; flex-wrap: wrap; gap: 6px 22px; font-size: 0.92rem; color: var(--muted); padding-top: 4px; }
 .facts b { color: var(--ink); font-weight: 600; }
-section.chapter { padding-block: 48px 8px; display: grid; gap: 14px; scroll-margin-top: 60px; min-width: 0; }
-.chapter .who { color: var(--muted); }
-.strip { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 24px 18px; padding-block: 8px 18px; min-width: 0; }
-.shot { scroll-snap-align: start; display: grid; gap: 8px; align-content: start; min-width: 0; }
-.shot button.img { border: 0; padding: 0; background: var(--phone); border-radius: 26px; overflow: hidden; cursor: zoom-in;
-  box-shadow: 0 0 0 1px var(--line); aspect-ratio: 1320 / 2868; }
-.shot button.img img { width: 100%; height: 100%; object-fit: contain; display: block; }
-.shot .num { font-family: var(--mono); font-size: 0.72rem; color: var(--muted); }
-.shot p { font-size: 0.93rem; color: var(--muted); }
-section.notes { padding-block: 48px 0; display: grid; gap: 16px; }
-dialog { border: 0; padding: 0; background: transparent; max-width: 96vw; max-height: 96vh; }
-dialog::backdrop { background: rgba(5, 8, 12, 0.86); }
-dialog[open] { display: grid; grid-template-rows: minmax(0, 1fr) auto auto; width: min(calc(100% - 24px), 600px); height: min(96dvh, 1100px); overflow: hidden; }
-dialog img { display: block; width: 100%; height: 100%; min-height: 0; object-fit: contain; border-radius: 18px; }
-dialog .cap { color: #e8edf2; font-size: 0.95rem; padding-top: 10px; max-width: 60ch; }
-dialog .bar { display: flex; gap: 8px; justify-content: space-between; align-items: center; padding-top: 8px; }
-dialog .bar button { background: #1b2633; color: #e8edf2; border: 1px solid #2c3a4a; border-radius: 999px; padding: 8px 16px; font-family: var(--body); cursor: pointer; min-height: 44px; }
-@media (max-width: 520px) { .wrap { padding-inline: 16px; } .strip { grid-template-columns: minmax(0, 1fr); } }
+
+/* Sticky chapter nav */
+nav.toc { position: sticky; top: 0; z-index: 5; background: color-mix(in srgb, var(--bg) 88%, transparent);
+  backdrop-filter: saturate(1.4) blur(12px); -webkit-backdrop-filter: saturate(1.4) blur(12px); border-block: 1px solid var(--line); }
+nav.toc ol { position: relative; list-style: none; margin: 0 auto; max-width: 1180px; padding: 10px 24px; display: flex; gap: 6px; overflow-x: auto;
+  scrollbar-width: none; scroll-padding-inline: 24px; }
+nav.toc ol::-webkit-scrollbar { display: none; }
+nav.toc a { display: inline-flex; align-items: center; gap: 6px; min-height: 36px; padding: 0 12px; border-radius: 999px; white-space: nowrap;
+  color: var(--muted); text-decoration: none; font-size: 0.92rem; font-weight: 500; }
+nav.toc a .n { font-family: var(--mono); font-size: 0.7rem; opacity: 0.8; }
+nav.toc a:hover { color: var(--ink); }
+nav.toc a[aria-current="true"] { background: var(--volt-fill); color: var(--volt-ink); }
+
+/* Chapters */
+section.chapter { padding-block: 56px 8px; display: grid; gap: 10px; scroll-margin-top: calc(var(--nav-h) + 8px); min-width: 0; }
+.chapter .head { display: grid; gap: 8px; padding-bottom: 6px; }
+.chapter .who { color: var(--muted); font-size: 1.05rem; }
+.chapter .tag { display: inline-flex; gap: 8px; align-items: center; }
+.chapter .tag .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--volt); }
+.strip { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 28px 20px; padding-block: 12px 20px; min-width: 0; }
+.shot { display: grid; gap: 6px; align-content: start; min-width: 0; }
+.shot button.img { border: 0; padding: 0; background: var(--phone); border-radius: 28px; overflow: hidden; cursor: zoom-in;
+  box-shadow: 0 0 0 1px var(--line), 0 10px 30px -18px rgba(0,0,0,0.45); aspect-ratio: 1206 / 2622; transition: transform 160ms ease, box-shadow 160ms ease; }
+.shot button.img:hover { transform: translateY(-2px); box-shadow: 0 0 0 1px var(--volt), 0 16px 36px -18px rgba(0,0,0,0.5); }
+.shot button.img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.shot .num { font-family: var(--mono); font-size: 0.72rem; color: var(--muted); padding-top: 6px; }
+.shot p { font-size: 0.94rem; color: var(--muted); }
+footer.notes { padding-block: 64px 96px; display: grid; gap: 14px; border-top: 1px solid var(--line); margin-top: 48px; }
+footer.notes p { color: var(--muted); }
+
+/* Viewer */
+dialog#lb { border: 0; padding: 0; margin: 0; width: 100vw; height: 100dvh; max-width: none; max-height: none; background: rgba(5, 8, 12, 0.94); color: #e8edf2; }
+dialog#lb::backdrop { background: rgba(5, 8, 12, 0.94); }
+dialog#lb[open] { display: grid; grid-template-rows: auto minmax(0, 1fr) auto; }
+.lb-top { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: max(10px, env(safe-area-inset-top)) 16px 8px; }
+.lb-top .count { font-family: var(--mono); font-size: 0.78rem; letter-spacing: 0.08em; color: #98a5b3; text-transform: uppercase; }
+/* The frame is absolutely sized to the middle row, so the screen always fits between the counter and the caption. */
+.lb-stage { position: relative; min-height: 0; touch-action: pan-y; }
+.lb-frame { position: absolute; inset: 0 72px; pointer-events: none; }
+.lb-frame img { position: absolute; inset: 0; margin: auto; height: 100%; width: auto; max-width: 100%; object-fit: contain; border-radius: 22px; background: #000; pointer-events: auto; }
+.lb-side { position: absolute; top: 50%; transform: translateY(-50%); z-index: 1; }
+.lb-side.prev { left: 16px; } .lb-side.next { right: 16px; }
+.lb-bottom { padding: 12px 16px max(14px, env(safe-area-inset-bottom)); display: grid; gap: 4px; justify-items: center; text-align: center; }
+.lb-bottom h3 { font-size: 1.05rem; }
+.lb-bottom p { color: #b7c2cd; font-size: 0.95rem; max-width: 60ch; }
+.lb-btn { background: #1b2633; color: #e8edf2; border: 1px solid #2c3a4a; border-radius: 999px; min-width: 44px; min-height: 44px; padding: 0 16px;
+  font-family: var(--body); font-size: 0.95rem; cursor: pointer; display: inline-grid; place-items: center; }
+.lb-btn:hover { border-color: #c7e14a; }
+.lb-btn svg { width: 20px; height: 20px; }
+.lb-nav-sm { display: none; gap: 10px; padding-top: 8px; }
+@media (max-width: 720px) {
+  .lb-side { display: none; }
+  .lb-nav-sm { display: flex; }
+  .lb-frame { inset: 0 16px; }
+  .lb-frame img { border-radius: 18px; }
+}
+@media (max-width: 520px) {
+  .wrap { padding-inline: 16px; }
+  nav.toc ol { padding-inline: 16px; scroll-padding-inline: 16px; }
+  header.top { padding-block: 40px 24px; }
+  .strip { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px 12px; }
+  .shot button.img { border-radius: 20px; }
+  .shot p { font-size: 0.88rem; }
+}
 @media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+@media (prefers-reduced-motion: reduce) { .shot button.img { transition: none; } }
 </style>
 </head>
 <body>
-<div class="wrap">
-  <header class="top">
-    <span class="eyebrow">Circuit Pickleball · Circuit League · October 2026</span>
-    <h1>Circuit League walkthrough</h1>
-    <p class="lede">Explore Circuit League, from joining and finding courts to matches, scores and weekly progress. Tap a screen to enlarge it.</p>
-    <div class="facts"><span><b>100</b> screens</span><span><b>iOS</b> · Dark</span><span>Default app text size</span><span>Fictional players and matches</span></div>
-  </header>
+<header class="wrap top">
+  <span class="eyebrow">Circuit Pickleball · Circuit League · iPhone</span>
+  <h1>Circuit League, screen by screen</h1>
+  <p class="lede">Follow two players through the League: one joins today, the other is seven weeks in. Tap any screen to step through it full size.</p>
+  <div class="people">
+    <div class="person"><span class="av">BT</span><b>Blake</b><span>New player. Joins, sets times and courts, starts matchmaking.</span></div>
+    <div class="person"><span class="av">CJ</span><b>Casey</b><span>Established player. Answers offers, reports scores, climbs the board.</span></div>
+  </div>
+  <div class="facts" id="facts"></div>
+</header>
 
-  <div id="chapters"></div>
+<nav class="toc" aria-label="Chapters"><ol id="toc"></ol></nav>
 
-  <section class="notes" id="notes">
-    <h2>About this tour</h2>
-    <p class="who">These screenshots use fictional players, matches and safety records. Some examples show alternative states, such as a pending report and its eventual outcome.</p>
-  </section>
-</div>
+<main class="wrap" id="chapters"></main>
+
+<footer class="wrap notes">
+  <h2>About this tour</h2>
+  <p>Captured October 26, 2026 on an iPhone 17 Pro simulator running iOS 26.4, in Dark appearance at the Default app text size. Every person, match, venue and safety record is fictional local test data.</p>
+  <p>Screens show the state the app was in at capture time, so some show a step in progress, such as a score waiting for the other side. <a href="current-evidence.md">Verification and known gaps</a> · <a href="current-captures.json">Capture list</a></p>
+</footer>
 
 <dialog id="lb" aria-label="Screen viewer">
-  <img id="lbimg" alt="">
-  <div class="cap" id="lbcap"></div>
-  <div class="bar"><button id="prev" type="button">Previous</button><button id="close" type="button">Close</button><button id="next" type="button">Next</button></div>
+  <div class="lb-top"><span class="count" id="lbcount"></span><button class="lb-btn" id="close" type="button" aria-label="Close viewer">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+  <div class="lb-stage" id="lbstage">
+    <button class="lb-btn lb-side prev" id="prev" type="button" aria-label="Previous screen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+    <div class="lb-frame"><img id="lbimg" alt="" width="1206" height="2622"></div>
+    <button class="lb-btn lb-side next" id="next" type="button" aria-label="Next screen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+  </div>
+  <div class="lb-bottom" aria-live="polite">
+    <h3 id="lbtitle"></h3><p id="lbcap"></p>
+    <div class="lb-nav-sm"><button class="lb-btn" id="prev2" type="button">Previous</button><button class="lb-btn" id="next2" type="button">Next</button></div>
+  </div>
 </dialog>
 
 <script>
 const CHAPTERS = [
-  {
-    "id": "first-visit",
-    "title": "Discover the League",
-    "who": "Play at your times and courts, then build your League record.",
-    "platform": "iOS · Dark · Default",
-    "shots": [
-      [
-        "names-oct20/24-intro-matches.png",
-        "A League match",
-        "Find opponents near you at a suitable time."
-      ],
-      [
-        "names-oct20/25-intro-week.png",
-        "Your week",
-        "Pick your available days and skip a week whenever you need."
-      ],
-      [
-        "names-oct20/26-intro-boards.png",
-        "Your city ranking",
-        "Confirmed results count toward your League standing."
-      ]
-    ]
-  },
-  {
-    "id": "setup",
-    "title": "Join the League",
-    "who": "Complete your player checks, playing preferences and separate legal acceptances.",
-    "platform": "iOS · Dark · Default",
-    "shots": [
-      [
-        "polish-ios-39-entry.png",
-        "Before you join",
-        "Review your player profile and required entry checks."
-      ],
-      [
-        "polish-ios-38-how-you-play.png",
-        "How you play",
-        "Choose your formats and categories."
-      ],
-      [
-        "current-oct20/current-setup-venues.png",
-        "Choose courts",
-        "Save suitable venues or choose them later."
-      ],
-      [
-        "polish-ios-36-options.png",
-        "Matching options",
-        "Review commitments and automatic matchmaking."
-      ],
-      [
-        "polish-ios-34-terms.png",
-        "Release and terms",
-        "Read the League release before joining."
-      ],
-      [
-        "polish-ios-35-terms-end.png",
-        "Separate acceptances",
-        "The release and League terms each have their own acceptance."
-      ],
-      [
-        "names-oct20/27-setup-check-in.png",
-        "Automatic check-in",
-        "Review the location disclosure and confirm your check-in choice."
-      ],
-      [
-        "names-oct20/22-location-permission.png",
-        "Location permission",
-        "iOS asks for foreground location access when needed."
-      ],
-      [
-        "names-oct20/28-setup-finished.png",
-        "Ready to play",
-        "Membership is ready. Choose venues and start a search when you want a match."
-      ]
-    ]
-  },
-  {
-    "id": "home",
-    "title": "Your League",
-    "who": "Offers, score tasks and confirmed matches are available from League.",
-    "platform": "iOS · Dark · Default",
-    "shots": [
-      [
-        "fixes-oct23/home-top.png",
-        "League home",
-        "Needs you leads, then your standing and times; Past and Upcoming sit under Your matches."
-      ],
-      [
-        "current-oct20/confirmation-48-home.png",
-        "League home",
-        "Needs you keeps the current report and review tasks together."
-      ],
-      [
-        "names-oct20/01-league-menu.png",
-        "League menu",
-        "Open your QR code, League settings or League rules."
-      ]
-    ]
-  },
-  {
-    "id": "settings",
-    "title": "Play settings",
-    "who": "Choose when, where and how you want to play.",
-    "platform": "iOS · Dark · Default",
-    "shots": [
-      [
-        "current-oct20/current-settings.png",
-        "League settings",
-        "Manage times, venues and automatic matchmaking."
-      ],
-      [
-        "polish-ios-04-notifications.png",
-        "Notifications",
-        "Choose optional alerts and review required match and safety notices."
-      ],
-      [
-        "current-oct20/current-times.png",
-        "Your times",
-        "Save your available hours for this week and next week."
-      ],
-      [
-        "current-oct20/current-time-editor.png",
-        "Choose hours",
-        "Select time windows from the grid."
-      ],
-      [
-        "names-oct20/23-check-in-enabled.png",
-        "Automatic check-in enabled",
-        "The saved check-in choice uses foreground permission near match time."
-      ]
-    ]
-  },
-  {
-    "id": "venues",
-    "title": "Venues",
-    "who": "Save suitable courts and review their access requirements.",
-    "platform": "iOS · Dark · Default",
-    "shots": [
-      [
-        "current-oct21/saved-venues.png",
-        "Saved venues",
-        "Keep favorite and backup courts in your venue choices."
-      ],
-      [
-        "current-oct20/current-venue.png",
-        "Venue details",
-        "Review access, directions, formats and popular times."
-      ],
-      [
-        "actions-ios-07-saved-venue-edit.png",
-        "Venue preference",
-        "Choose Favorite, Backup or Don’t use for a saved court."
-      ],
-      [
-        "current-oct20/current-find-map.png",
-        "Find courts",
-        "Browse venues near Austin on the map."
-      ],
-      [
-        "actions-ios-22-popular-times.png",
-        "Popular times",
-        "Expand the available time grid for the venue."
-      ],
-      [
-        "actions-ios-23-time-grid-expanded.png",
-        "Time grid",
-        "Review popular windows before editing your own availability."
-      ],
-      [
-        "actions-ios-04-flyer-sheet.png",
-        "League flyer",
-        "Print a flyer or share or save its PDF."
-      ]
-    ]
-  },
-  {
-    "id": "partnerships",
-    "title": "Play with a partner",
-    "who": "Fixed partnerships use both players’ public names in alphabetical order.",
-    "platform": "iOS · Dark · Default",
-    "shots": [
-      [
-        "names-oct20/12-new-team.png",
-        "Invite a partner",
-        "Choose a category and partner, or share an invitation link."
-      ],
-      [
-        "current-oct20/current-team.png",
-        "Your partnership",
-        "Review your partner, matching times and search controls."
-      ],
-      [
-        "names-oct20/13-pair-settings.png",
-        "Partnership settings",
-        "Manage the partnership’s matching preferences."
-      ]
-    ]
-  },
-  {
-    "id": "offers",
-    "title": "Answer a match offer",
-    "who": "Review the court, time and answer deadline before accepting.",
-    "platform": "iOS · Dark · Default",
-    "shots": [
-      [
-        "current-oct20/current-offer.png",
-        "Match offer",
-        "The offer shows its current availability and agreed plan."
-      ],
-      [
-        "actions-ios-25-other-times-sheet.png",
-        "Other times",
-        "When there is no other shared option, keep the current plan or decline."
-      ],
-      [
-        "actions-ios-26-decline-sheet.png",
-        "Decline choices",
-        "Decline this offer or avoid matching with the same player for seven days."
-      ]
-    ]
-  },
-  {
-    "id": "scan",
-    "title": "Scan to play",
-    "who": "Players together in person can use personal League codes to set up a match.",
-    "platform": "iOS · Dark · Default",
-    "shots": [
-      [
-        "current-oct20/current-code.png",
-        "My QR code",
-        "Show your personal League code to another player."
-      ],
-      [
-        "current-oct20/current-scan.png",
-        "Choose a format",
-        "Start a Singles, rotating doubles or fixed-team session."
-      ],
-      [
-        "current-oct20/current-scan-waiting.png",
-        "Waiting for confirmation",
-        "Each player row shows whether that player has confirmed."
-      ],
-      [
-        "current-oct20/current-scan-ready.png",
-        "Ready to start",
-        "Start match becomes available after the required confirmations."
-      ],
-      [
-        "current-oct20/current-scan-four.png",
-        "Four-player session",
-        "Rotation slots and confirmation status stay attached to each player."
-      ],
-      [
-        "current-oct20/current-scan-bottom.png",
-        "Session actions",
-        "Scroll to Start match and Cancel."
-      ]
-    ]
-  },
-  {
-    "id": "matches",
-    "title": "Matches and chat",
-    "who": "Review the planned games and coordinate with the players in your match.",
-    "platform": "iOS · Dark · Default",
-    "shots": [
-      [
-        "fixes-oct23/past-tab.png",
-        "Past matches",
-        "Each finished match stacks the winner first with every game score beside its own team."
-      ],
-      [
-        "fixes-oct23/match-screen.png",
-        "Match details",
-        "Where, when and format appear once; the pinned action sits above everything else."
-      ],
-      [
-        "names-oct20/34-planned-lineup.png",
-        "Planned rotating games",
-        "Each planned side lists its players alphabetically."
-      ],
-      [
-        "current-oct20/current-chat.png",
-        "Match chat",
-        "Read the conversation and send a message to your match."
-      ],
-      [
-        "current-oct20/current-chat-players.png",
-        "Chat player controls",
-        "Open player details or the available mute and block actions."
-      ],
-      [
-        "current-oct20/current-chat-keyboard.png",
-        "Write a message",
-        "The draft and Send control remain above the keyboard."
-      ],
-      [
-        "current-oct20/current-chat-reply.png",
-        "Reply to a message",
-        "Keep the original message in context while composing a reply."
-      ],
-      [
-        "current-oct21/chat-clear-menu.png",
-        "Open match chat",
-        "Opening chat dismisses the previous match menu."
-      ]
-    ]
-  },
-  {
-    "id": "scores",
-    "title": "Report and review scores",
-    "who": "Report only games that were played. The opposing side has 48 hours to review; confirming sooner submits eligible games sooner.",
-    "platform": "iOS · Dark · Default",
-    "shots": [
-      [
-        "fixes-oct23/report-form.png",
-        "Report a score",
-        "Where and when come first, then each game; the action stays pinned to the screen edge."
-      ],
-      [
-        "fixes-oct23/short-report-confirm.png",
-        "Reporting fewer games",
-        "Reporting 1 of 3 planned games asks for confirmation and names the games without a score."
-      ],
-      [
-        "current-oct20/confirmation-48-score-due.png",
-        "Score due",
-        "Report before the displayed deadline. The opposing side has 48 hours after you send the score to review it."
-      ],
-      [
-        "current-oct20/confirmation-48-score-form.png",
-        "Report score",
-        "Enter each played game beside the player or side it belongs to."
-      ],
-      [
-        "current-oct20/confirmation-48-score-metadata.png",
-        "Played date and venue",
-        "Choose the actual played date and venue. Unanswered scores count 48 hours after sending."
-      ],
-      [
-        "current-oct21/between-game-ending.png",
-        "Stop between games",
-        "After a completed score, record which side stopped before the next game without inventing another score."
-      ],
-      [
-        "current-oct21/review-stop.png",
-        "Review a score",
-        "The two actual games remain visible, along with who stopped before game three and the 48-hour review deadline."
-      ],
-      [
-        "current-oct20/confirmation-48-dispute.png",
-        "Dispute a score",
-        "A dispute stops automatic confirmation and DUPR submission for the disputed games. Players then have 24 hours to agree a correction."
-      ],
-      [
-        "names-oct20/14-pair-result.png",
-        "Completed team result",
-        "The winning side appears first with its own scores."
-      ]
-    ]
-  },
-  {
-    "id": "standings",
-    "title": "Leaderboards",
-    "who": "Season standings include Singles, individual Doubles and fixed Teams.",
-    "platform": "iOS · Dark · Default",
-    "shots": [
-      [
-        "fixes-oct23/boards-mens.png",
-        "Near you and larger ranks",
-        "Ranks are larger. Near you narrows an official area board without changing anyone’s rank; with fewer than 5 nearby it explains why everyone shows."
-      ],
-      [
-        "fixes-oct23/boards-casey.png",
-        "Small boards",
-        "A board under 5 players says how many are listed instead of showing a partial ranking, with your own record pinned below."
-      ],
-      [
-        "current-oct21/singles.png",
-        "Singles",
-        "Text-only standings with signed PD%, actual game counts and independently tappable ratings."
-      ],
-      [
-        "current-oct21/doubles.png",
-        "Doubles",
-        "Text-only standings with signed PD%, actual game counts and independently tappable ratings."
-      ],
-      [
-        "current-oct21/teams.png",
-        "Teams",
-        "Alphabetical partner names on separate lines, with one selectable own partnership pinned below."
-      ],
-      [
-        "current-oct21/rating-date.png",
-        "Rating details",
-        "The tapped player’s DUPR, reliability and actual update date."
-      ],
-      [
-        "current-oct21/partner-rating-date.png",
-        "Partner rating details",
-        "Each partner’s number opens that player’s rating, reliability and update date."
-      ],
-      [
-        "current-oct20/rating-search.png",
-        "Player search",
-        "Search finds later-page players while preserving their published ranks."
-      ],
-      [
-        "current-oct20/rating-search-empty.png",
-        "No search matches",
-        "Try another name, change the filters or clear the search."
-      ],
-      [
-        "current-oct20/rating-partner-search.png",
-        "Partner search",
-        "A player-name search returns their fixed pairs, with each partner on a separate line."
-      ],
-      [
-        "current-oct20/rating-filters.png",
-        "Leaderboard filters",
-        "Season choices appear here because this fixture has two seasons; a single season omits them."
-      ],
-      [
-        "current-oct21/own-team-pin.png",
-        "Pinned own record",
-        "One partnership remains pinned; an unplayed pair shows its qualification requirement and No PD yet."
-      ],
-      [
-        "current-oct21/own-team-selector.png",
-        "Choose your partnership",
-        "All six own partnerships remain available without stacking their records over the standings."
-      ]
-    ]
-  },
-  {
-    "id": "records",
-    "title": "Player records and weekly progress",
-    "who": "Tap a leaderboard row for the player or pair’s details.",
-    "platform": "iOS · Dark · Default",
-    "shots": [
-      [
-        "current-oct21/individual-record.png",
-        "Individual record",
-        "Season-total PD% stays separate from recent form over the last ten qualifying games."
-      ],
-      [
-        "current-oct20/badge-founding-member.png",
-        "Founding Member badge",
-        "Tap the badge to see the Austin launch-area Season 1 requirement."
-      ],
-      [
-        "current-oct20/badge-season-complete.png",
-        "Season complete badge",
-        "Tap the badge to see the eight-match requirement for this season."
-      ],
-      [
-        "current-oct21/pair-record.png",
-        "Pair record",
-        "The partnership’s own season and nine-game recent sample."
-      ],
-      [
-        "current-oct21/match-history.png",
-        "Match history",
-        "Every match keeps its own PD%, independently of recent form."
-      ],
-      [
-        "current-oct20/polish-match-series.png",
-        "Match series",
-        "The expanded three-game series retains its own PD −6.9%."
-      ],
-      [
-        "current-oct21/weekly-summary.png",
-        "Weekly recap",
-        "Frozen weekly PD and grouped metro, state and Everywhere destinations."
-      ],
-      [
-        "current-oct21/season-summary.png",
-        "Recap leaderboards",
-        "The season summary retains its published rankings, match results and PD%."
-      ],
-      [
-        "current-oct21/record-block-preview.png",
-        "Block from a player record",
-        "Review the effect on future matches and shared partnerships before confirming."
-      ]
-    ]
-  },
-  {
-    "id": "recap-stories",
-    "title": "Weekly and season recap stories",
-    "who": "Published Circuit League weekly and season stories, populated from actual confirmed games in a fictional local league.",
-    "platform": "iOS · Dark · Default",
-    "shots": [
-      [
-        "current-oct21/weekly-0.png",
-        "Your week in Circuit",
-        "The published week’s own results and standings."
-      ],
-      [
-        "current-oct21/weekly-1.png",
-        "Weekly record and PD",
-        "The published week’s own results and standings."
-      ],
-      [
-        "current-oct21/weekly-2.png",
-        "Weekly standings",
-        "The published week’s own results and standings."
-      ],
-      [
-        "current-oct21/weekly-3.png",
-        "Weekly highlights",
-        "The published week’s own results and standings."
-      ],
-      [
-        "current-oct21/weekly-closing.png",
-        "Weekly wrap",
-        "The published week’s own results and standings."
-      ],
-      [
-        "current-oct21/season-0.png",
-        "Your season recap",
-        "The completed season’s frozen record, standings and earned awards."
-      ],
-      [
-        "current-oct21/season-1.png",
-        "Season record and PD",
-        "The completed season’s frozen record, standings and earned awards."
-      ],
-      [
-        "current-oct21/season-2.png",
-        "Final standings",
-        "The completed season’s frozen record, standings and earned awards."
-      ],
-      [
-        "current-oct21/season-3.png",
-        "Season complete",
-        "The completed season’s frozen record, standings and earned awards."
-      ],
-      [
-        "current-oct21/season-4.png",
-        "Season award",
-        "The completed season’s frozen record, standings and earned awards."
-      ],
-      [
-        "current-oct21/season-closing.png",
-        "Season wrap",
-        "The completed season’s frozen record, standings and earned awards."
-      ],
-      [
-        "current-oct21/recap-badge.png",
-        "Recap badge explanation",
-        "Tap an earned badge to read its saved award criteria."
-      ]
-    ]
-  },
-  {
-    "id": "blocked-players",
-    "title": "Blocked players",
-    "who": "Blocking is private and prevents future League matching together.",
-    "platform": "iOS · Dark · Default",
-    "shots": [
-      [
-        "names-oct20/04-blocked-players.png",
-        "Blocked list",
-        "Each player has a separate Unblock action."
-      ],
-      [
-        "names-oct20/32-unblocked-empty.png",
-        "After unblocking",
-        "The empty list explains where blocking is available."
-      ]
-    ]
-  },
-  {
-    "id": "conduct",
-    "title": "Conduct records",
-    "who": "Review reports, respond within their deadlines and see decided outcomes.",
-    "platform": "iOS · Dark · Default",
-    "shots": [
-      [
-        "current-oct21/conduct-related.png",
-        "Matchmaking pause",
-        "The pause explains its consequence and links to each dated report."
-      ],
-      [
-        "current-oct21/conduct-history.png",
-        "Report history",
-        "Tap the report row itself to read the dated outcome."
-      ],
-      [
-        "names-oct20/06-conduct-open.png",
-        "Awaiting response",
-        "An undecided report includes its challenge deadline."
-      ],
-      [
-        "names-oct20/18-conduct-challenge.png",
-        "Challenge a report",
-        "Explain your response and send the challenge."
-      ],
-      [
-        "names-oct20/19-challenge-saved.png",
-        "Under review",
-        "The saved challenge appears on its report."
-      ],
-      [
-        "current-oct21/conduct-detail.png",
-        "Finding confirmed",
-        "The report detail retains the decision, date, match and support recovery."
-      ],
-      [
-        "names-oct20/08-conduct-dismissed.png",
-        "Report dismissed",
-        "Read the dismissal and its explanation."
-      ]
-    ]
-  },
-  {
-    "id": "appearance",
-    "title": "Appearance",
-    "who": "The native app is shown in Dark mode at Default app text size.",
-    "platform": "iOS · Dark · Default",
-    "shots": [
-      [
-        "current-oct21/appearance.png",
-        "Dark and Default",
-        "Dark appearance and Default app text size are selected; OS Dynamic Type is at its normal default."
-      ]
-    ]
-  }
+  { id: 'discover', title: 'Discover the League', who: 'What a player sees on the League tab before joining.', person: 'Blake', shots: [
+    ['01-intro-match', 'Always open', 'Circuit proposes matches near you, at your times, against players at your level. Joining is free, any day of the year.'],
+    ['02-intro-week', 'Play when it suits you', 'Pick your times and accept only the matches you want. Saying no costs nothing.'],
+    ['03-intro-board', 'Climb your area', 'Confirmed results count toward your standing, boards update weekly, and eligible games go to DUPR.'],
+    ['03b-landing', 'Before you join', 'The landing names what joining takes, a free DUPR account and about five minutes, and offers a quick sign-up for a friend’s match today.'],
+  ]},
+  { id: 'join', title: 'Join in four stages', who: 'Profile, how you play, preferences, then the release and terms.', person: 'Blake', shots: [
+    ['04-setup-entry', 'Profile check', 'DUPR is linked and gender is added, so Continue is on. A photo is optional; other players see initials until one is added.'],
+    ['05-setup-how', 'How you play', 'Blake picks Men’s singles and Men’s rotating doubles. A fixed Team is invited after setup. The category rules must be acknowledged first.'],
+    ['06-setup-venues', 'Choose venues', 'Each venue is a Favorite, a Backup or Don’t use. Suggestions near you stay unsaved until you choose.'],
+    ['06b-setup-venues-map', 'Venues on a map', 'The same choices on a map, with your location and nearby courts.'],
+    ['07-setup-times', 'Your times', 'Add the times you can play this week or next. Skipping this step is allowed, but matchmaking waits for times.'],
+    ['07b-setup-time-grid', 'Pick hours', 'Wednesday 6 to 9 PM. Times are in Central time, where the venues are.'],
+    ['07c-setup-times-saved', 'Times saved', 'Wednesday 6–9 PM is saved; Edit times or the × changes it.'],
+    ['08-setup-options', 'Matching options', 'Matches are three games to 11, win by 2. Optional: a wider level range after a long wait, and auto-accepting matches inside your times.'],
+    ['09-setup-terms', 'Release and terms', 'Join the League stays off until both boxes are checked, and the footer says so.'],
+    ['09b-setup-acceptances', 'Both accepted', 'The release and the League terms, including individual arbitration, are accepted separately. The full terms open from the link.'],
+    ['10-setup-next', 'You’re in', 'Matches depend on who else is free at your times and venues; some weeks there won’t be one. Start matchmaking turns the search on.'],
+    ['10b-setup-notifications-prompt', 'Notifications', 'Match offers need an answer within a few hours, so setup asks for notification permission.'],
+    ['10d-setup-check-in', 'Automatic check-in', 'Optional and on by default. Near match time, location checks you in and tells players already checked in. Your position stays on your phone.'],
+    ['11-blake-home', 'Blake’s League home', 'Searching for a first match in Singles and Rotating doubles, with this week’s times and Skip this week one tap away.'],
+  ]},
+  { id: 'home', title: 'Casey’s League home', who: 'Seven weeks in: what needs attention, upcoming matches and standing.', person: 'Casey', shots: [
+    ['12-home', 'Home', '#1 in the Austin area for Women’s singles. Wednesday’s match with Sofia is confirmed, and singles search stopped after it was booked.'],
+    ['12b-home-lower', 'This week', 'Season 1, week 7. Last week’s published standings put Casey #1 in the Austin area, Texas and everywhere, still Provisional.'],
+    ['12c-home-bottom', 'More League', 'The full leaderboard, last week’s recap, saved venues and invites.'],
+    ['13-league-menu', 'League menu', 'My QR code for Scan to play, League settings and the rules.'],
+  ]},
+  { id: 'offers', title: 'Match offers', who: 'Circuit proposes a time and place. Each player answers on their own phone.', person: 'Casey', shots: [
+    ['14-offer', 'Match found', 'Singles vs Sofia P., Wednesday 6 PM at Mueller Lake Park Courts. Answer within about three hours.'],
+    ['14b-offer-players', 'Who’s in it', 'Both players haven’t answered yet. Players see display names, photos and League match counts, never phone numbers or email.'],
+    ['15-offer-other-times', 'Choose another time', 'Propose a different slot. Sofia sees the choice and can accept it; Casey’s acceptance carries over.'],
+    ['16-offer-decline', 'Not this time', 'Declining has no penalty. A second option also pauses matches with Sofia for 7 days.'],
+    ['17-offer-accepted', 'Accepted', 'Casey has accepted; the match confirms when Sofia does.'],
+  ]},
+  { id: 'matches', title: 'Confirmed matches and chat', who: 'Everything about a booked match in one place.', person: 'Casey', shots: [
+    ['19-match-upcoming', 'Match details', 'Confirmed for Wednesday 6 PM. Casey can start another search or open match chat.'],
+    ['19b-match-menu', 'Match actions', 'Add to calendar, directions, venue details, report a problem with a player, rules, and Cancel match last.'],
+    ['20-chat', 'Match chat', 'Messages with Sofia about Wednesday. The tab bar steps aside so the composer stays clear.'],
+    ['20b-chat-players', 'Mute or block', 'From chat, Casey can mute or block Sofia.'],
+  ]},
+  { id: 'scores', title: 'Scores', who: 'One side reports, the other side reviews. Unanswered reports count after 48 hours.', person: 'Casey', shots: [
+    ['21-score-due', 'Score due', 'Today’s noon match vs Priya. Report by Wednesday noon, or report that someone didn’t come.'],
+    ['22-report-form', 'Report form', 'Played date and venue default to the plan; change them only if play moved. Each game is entered on its own.'],
+    ['22b-report-filled', 'Games entered', 'Each score sits beside its player, green for the game winner and coral for the loser.'],
+    ['23-report-short-confirm', 'Fewer games than planned', 'Reporting two of three planned games asks first: game 3 won’t have a score.'],
+    ['24-report-sent', 'Score sent', 'Casey won 11–6, 9–11, 11–7. Priya reviews it, or it counts automatically Wednesday at 4:27 PM.'],
+    ['25-review', 'Review a score', 'Jade reported this morning’s match. Score is right confirms it; Something’s wrong opens a dispute. Doing nothing confirms it Wednesday.'],
+    ['26-dispute', 'Dispute', 'Sending a dispute stops the automatic count. If the players don’t agree within 24 hours, the result is voided.'],
+    ['27-confirmed', 'Final', 'Casey won 2–1, the first match this week. All three games go to DUPR.'],
+    ['28-past', 'Past matches', 'Results by day, winner first, with pending reports marked.'],
+  ]},
+  { id: 'leaderboards', title: 'Leaderboards', who: 'Ranks come from League results, adjusted for who you played, and update after Sunday.', person: 'Casey', shots: [
+    ['29-board', 'Austin area, Women’s singles', 'Casey is #1 at 5–2. PD is point differential over recent games; DUPR appears beside each name.'],
+    ['29b-board-rating', 'DUPR rating', 'Casey’s singles DUPR 4.10, 80% reliable, synced Oct 23. It does not set League rank.'],
+    ['30-board-near-you', 'Near you', 'Narrows the board to players who play mostly within 20 miles of Casey’s favorite venue.'],
+    ['31-board-filters', 'Filters', 'Switch between Men’s and Women’s categories.'],
+    ['32-board-about', 'About this board', 'Which cities the area includes, how rank and Near you work, and when standings update.'],
+    ['33-board-search', 'Search', 'Searching keeps each player’s real rank.'],
+    ['34-board-doubles', 'Doubles everywhere', 'Not enough Women’s doubles players are listed yet; the board says how many it needs.'],
+    ['35-board-teams', 'Teams', 'Fixed teams get their own board once five are listed.'],
+  ]},
+  { id: 'stats', title: 'Player records', who: 'Season results, recent form, badges and rank history.', person: 'Casey', shots: [
+    ['36-stats', 'Casey’s record', '6–3 across 9 Women’s singles matches, season PD +4.3%. Rank history names every week, listed or not.'],
+    ['36b-stats-matches', 'Match history', 'Every match with its PD. Clutch marks a win that came down to a deciding game or a final game won by 2 points.'],
+    ['37-badge', 'Badge details', 'Tap a badge to see how it was earned.'],
+    ['38-other-stats', 'Another player', 'Maya’s record, reached from the leaderboard.'],
+  ]},
+  { id: 'recaps', title: 'Weekly recap', who: 'Each week ends with a recap card and a full summary.', person: 'Casey', shots: [
+    ['39-recap', 'Week of Oct 19', '7 games won, 5 lost, over 5 matches, week PD +2.6%, #1 in the Austin area, Texas and everywhere.'],
+    ['40-recap-summary', 'Summary', 'The same week in detail: new opponents, season completion, badges and each leaderboard.'],
+    ['40b-recap-summary-lower', 'Every match', 'All of the week’s scores, then notable results compared with the week before.'],
+    ['40c-recap-summary-end', 'What next', 'View standings, or start matchmaking for the new week.'],
+  ]},
+  { id: 'teams', title: 'Fixed teams', who: 'Doubles with the same partner every game.', person: 'Casey', shots: [
+    ['41-add-team', 'New team', 'Choose Women’s or Mixed doubles, then find a League player or share an invite link.'],
+    ['41b-add-team-search', 'Find a partner', 'Search League players by name.'],
+    ['41c-add-team-selected', 'Send the invite', 'Maya is selected. She accepts on her own phone.'],
+    ['43-team-settings', 'Team page', 'Casey and Maya’s Women’s doubles team: times, match settings, Out for now, and End this team last.'],
+  ]},
+  { id: 'scan', title: 'Scan to play', who: 'Already at the courts with someone? Set up a League match on the spot.', person: 'Casey', shots: [
+    ['44-scan', 'Plan the match', 'Pick the venue and format. Create match plan says what’s missing until it’s ready.'],
+    ['44b-scan-venue-picker', 'Venue', 'Nearby League venues.'],
+    ['44c-scan-waiting', 'Scan players', 'One of two players is in, so Scan a player is the next step. Start publishes the match once everyone has confirmed on their own phone.'],
+    ['45-my-code', 'My QR', 'The code a host scans. It doubles as an invite link, and can be reset in League settings.'],
+  ]},
+  { id: 'settings', title: 'Settings, times and venues', who: 'Everything that shapes matchmaking stays editable after setup.', person: 'Casey', shots: [
+    ['46-settings', 'League settings', 'Times, venues, automatic weekly matchmaking, pausing offers until Monday, notifications and check-in.'],
+    ['46b-settings-lower', 'Privacy and safety', 'Full-name display, resetting your code, blocked players and conduct record.'],
+    ['47-notification-settings', 'Notifications', 'Each League alert type has its own switch. Account and safety notices stay on.'],
+    ['48-times', 'Your times', 'This week and next. Wednesday 6–9 PM is saved.'],
+    ['48b-times-lower', 'Suggested times', 'Suggested times are shown by format. There are none yet for Singles.'],
+    ['49-venues', 'Saved venues', 'One ranked favorite and one backup, 2 of 25 venues saved.'],
+    ['50-venue-detail', 'Venue detail', 'Court details, directions, your choice for this venue, popular times when there is enough data, the venue leaderboard and a printable flyer.'],
+  ]},
+  { id: 'safety', title: 'Safety and conduct', who: 'Blocks, reports and a clear way to respond.', person: 'Casey', shots: [
+    ['51-blocked', 'Blocked players', 'No one is blocked. Blocking happens from a player page or match chat.'],
+    ['52-conduct', 'Conduct record', 'A no-show report about Casey is awaiting a response.'],
+    ['52b-conduct-case', 'The report', 'It hasn’t been decided. Casey can challenge it until Wednesday 4:23 PM; otherwise it becomes a confirmed finding.'],
+    ['52c-conduct-challenge', 'Challenge', 'Explain what happened, up to 500 characters.'],
+    ['52d-conduct-under-review', 'Under review', 'Casey’s explanation is sent and the report is under review.'],
+    ['53-home-conduct-task', 'Home reminder', 'While a report needs a response, it leads the League home.'],
+  ]},
+  { id: 'inbox', title: 'Notifications', who: 'League alerts land in the app inbox, newest first.', person: 'Casey', shots: [
+    ['54-inbox', 'Inbox', 'Team ready, chat messages, a confirmed match and weekly recaps, with unread items marked New.'],
+  ]},
 ];
 
 const all = [];
 const host = document.getElementById('chapters');
-let count = 0;
-for (const c of CHAPTERS) {
+const toc = document.getElementById('toc');
+CHAPTERS.forEach((c, ci) => {
   const sec = document.createElement('section');
-  sec.className = 'chapter'; sec.id = c.id;
-  sec.innerHTML = `<span class="eyebrow">${c.platform} · ${c.shots.length} ${c.shots.length === 1 ? 'screen' : 'screens'}</span><h2>${c.title}</h2>${c.who ? `<p class="who">${c.who}</p>` : ''}<div class="strip"></div>`;
+  sec.className = 'chapter'; sec.id = c.id; sec.setAttribute('aria-labelledby', `${c.id}-h`);
+  const screens = `${c.shots.length} ${c.shots.length === 1 ? 'screen' : 'screens'}`;
+  sec.innerHTML = `<div class="head"><span class="eyebrow tag"><span class="dot" aria-hidden="true"></span>${String(ci + 1).padStart(2, '0')} · ${c.person} · ${screens}</span>
+    <h2 id="${c.id}-h">${c.title}</h2><p class="who">${c.who}</p></div><div class="strip"></div>`;
   const strip = sec.querySelector('.strip');
   for (const [file, t, d] of c.shots) {
-    const n = String(++count).padStart(2, '0');
-    const src = `img/${file}`;
-    const idx = all.push({ n, t, d, src }) - 1;
+    const idx = all.length;
+    const n = String(idx + 1).padStart(2, '0');
+    const src = `img/oct26/${file}.webp`;
+    all.push({ n, t, d, src, chapter: c.title });
     const el = document.createElement('article');
-    el.className = 'shot';
-    el.innerHTML = `<button class="img" type="button" aria-label="Open screen ${n}, ${t}"><img loading="lazy" src="${src}" alt="${t}: ${d}"></button>
+    el.className = 'shot'; el.id = `s${n}`;
+    el.innerHTML = `<button class="img" type="button" aria-label="Open screen ${n}: ${t}"><img loading="${idx < 4 ? 'eager' : 'lazy'}" decoding="async" width="1206" height="2622" src="${src}" alt=""></button>
       <span class="num">${n}</span><h3>${t}</h3><p>${d}</p>`;
     el.querySelector('button.img').addEventListener('click', () => openLb(idx));
     strip.appendChild(el);
   }
   host.appendChild(sec);
+  const li = document.createElement('li');
+  li.innerHTML = `<a href="#${c.id}"><span class="n">${String(ci + 1).padStart(2, '0')}</span>${c.title}</a>`;
+  toc.appendChild(li);
+});
+document.getElementById('facts').innerHTML =
+  `<span><b>${all.length}</b> screens</span><span><b>${CHAPTERS.length}</b> chapters</span><span>iOS · Dark · Default text</span><span>Fictional players and matches</span>`;
+
+// Highlight the chapter in view and keep its chip visible.
+const links = [...toc.querySelectorAll('a')];
+const setCurrent = (id) => {
+  for (const a of links) {
+    const on = a.getAttribute('href') === `#${id}`;
+    // Scroll only the chip row; scrollIntoView would also move the page under the reader.
+    if (on && a.getAttribute('aria-current') !== 'true') toc.scrollTo({ left: a.offsetLeft - (toc.clientWidth - a.offsetWidth) / 2 });
+    a.setAttribute('aria-current', on ? 'true' : 'false');
+  }
+};
+const io = new IntersectionObserver((entries) => {
+  const seen = entries.filter((e) => e.isIntersecting).sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top);
+  if (seen[0]) setCurrent(seen[0].target.id);
+}, { rootMargin: '-30% 0px -60% 0px' });
+document.querySelectorAll('section.chapter').forEach((s) => io.observe(s));
+
+// Viewer
+const lb = document.getElementById('lb');
+const img = document.getElementById('lbimg');
+let cur = 0; let opener = null;
+function render(i) {
+  cur = (i + all.length) % all.length;
+  const s = all[cur];
+  img.src = s.src; img.alt = `${s.t}. ${s.d}`;
+  document.getElementById('lbcount').textContent = `${s.n} / ${all.length} · ${s.chapter}`;
+  document.getElementById('lbtitle').textContent = s.t;
+  document.getElementById('lbcap').textContent = s.d;
+  for (const k of [-1, 1]) { const p = new Image(); p.src = all[(cur + k + all.length) % all.length].src; }
+  history.replaceState(null, '', `#s${s.n}`);
 }
-
-const lb = document.getElementById('lb'); let cur = 0;
-function openLb(i) { cur = i; const s = all[i]; const img = document.getElementById('lbimg'); img.src = s.src; img.alt = s.t;
-  document.getElementById('lbcap').textContent = `${s.n} · ${s.t}. ${s.d}`; if (!lb.open) lb.showModal(); }
-const step = (k) => openLb((cur + k + all.length) % all.length);
-document.getElementById('prev').onclick = () => step(-1);
-document.getElementById('next').onclick = () => step(1);
-document.getElementById('close').onclick = () => lb.close();
-lb.addEventListener('click', (e) => { if (e.target === lb) lb.close(); });
-document.addEventListener('keydown', (e) => { if (!lb.open) return; if (e.key === 'ArrowRight') step(1); if (e.key === 'ArrowLeft') step(-1); });
-
+function openLb(i) { opener = document.activeElement; render(i); if (!lb.open) lb.showModal(); }
+function closeLb() { lb.close(); }
+lb.addEventListener('close', () => {
+  history.replaceState(null, '', location.pathname + location.search);
+  document.getElementById(`s${all[cur].n}`)?.scrollIntoView({ block: 'center' });
+  opener?.focus({ preventScroll: true });
+});
+const step = (k) => render(cur + k);
+for (const [id, k] of [['prev', -1], ['next', 1], ['prev2', -1], ['next2', 1]]) document.getElementById(id).onclick = () => step(k);
+document.getElementById('close').onclick = closeLb;
+lb.addEventListener('click', (e) => { if (e.target === lb || e.target.id === 'lbstage') closeLb(); });
+document.addEventListener('keydown', (e) => {
+  if (!lb.open) return;
+  if (e.key === 'ArrowRight') step(1);
+  if (e.key === 'ArrowLeft') step(-1);
+});
+let sx = null, sy = null;
+const stage = document.getElementById('lbstage');
+stage.addEventListener('touchstart', (e) => { sx = e.touches[0].clientX; sy = e.touches[0].clientY; }, { passive: true });
+stage.addEventListener('touchend', (e) => {
+  if (sx === null) return;
+  const dx = e.changedTouches[0].clientX - sx, dy = e.changedTouches[0].clientY - sy;
+  if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy)) step(dx < 0 ? 1 : -1);
+  sx = sy = null;
+});
+// A shared #sNN link opens that screen. A chapter link is applied again once the page and its
+// fonts exist, because the chapters are built here and the fonts reflow the text above them.
+const m = location.hash.match(/^#s(\d+)$/);
+if (m && all[+m[1] - 1]) openLb(+m[1] - 1);
+else if (location.hash.length > 1) {
+  const target = document.getElementById(location.hash.slice(1));
+  const land = () => requestAnimationFrame(() => scrollTo({ top: target.getBoundingClientRect().top + scrollY - document.querySelector('nav.toc').offsetHeight - 8, behavior: 'instant' }));
+  if (target) addEventListener('load', () => document.fonts.ready.then(land), { once: true });
+}
 </script>
 </body>
 </html>

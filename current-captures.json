@@ -1,1579 +1,718 @@
 {
-  "appCommit": "ce075ef6a512eb90598925f53f08bb3aa5a4d2f1",
-  "capturedOn": "2026-10-23 (7 newest images from app commit ee7b865d1)",
+  "capturedOn": "2026-10-26",
+  "appBase": "e4e2ed091 plus setup check-in step fix",
   "appearance": {
     "platform": "iOS",
-    "device": "iPhone 17 Pro",
+    "device": "iPhone 17 Pro simulator",
     "os": "26.4",
     "theme": "Dark",
     "textSize": "Default",
     "systemContentSize": "large (iOS default)"
   },
-  "sourceFiles": {
-    "apps/mobile/src/components/league/boards/LeagueBoardsScreen.tsx": "3f57d6e91cc656c2e629b8d409cd0b6c07dc8d8757b4a196f3705f196f32e357",
-    "apps/mobile/src/components/league/boards/LeagueStatsScreen.tsx": "056470a3a54a7675128f964f876ceb042fce56d74d9eb4678240e1b94b3f8a92",
-    "packages/shared/src/league/point-differential.ts": "26f6e04f705945315c450fe31089b141d6f6274e62be6a8592e8548345c29a01",
-    "supabase/schemas/30_functions/89-league-snapshots.sql": "24c28756e0685b2bb02e9716703543274eef6bf421cf4082148210d76f593b9d",
-    "supabase/schemas/30_functions/78-league-score-commands.sql": "42833761391068f74a68ba01ebfcf3bca5eff859eff59807ff39c1f67f947a8d",
-    "supabase/schemas/30_functions/80-league-score-work.sql": "dc735c64e4268eec8dd6418016e242f59b45d8a293231ddf3c005b48db7cfb80",
-    "supabase/schemas/30_functions/71-league-notices.sql": "1065eb722b63e6c2651033635b0562f73089b1735b590ede411c9c06f33982c1",
-    "packages/shared/src/league/notices.ts": "6ae8ed89fa753b14e8b53bb66881cb9dbfff73e90fde17de7bcf7e7c90bf1256",
-    "supabase/functions/process-outbox/handlers/league-notices.ts": "31ee1b585be11028f8edd8f491785c9b4b3500ce4ce9428f22a2c1634cc52e99",
-    "apps/mobile/src/components/league/matches/LeagueMatchStage.tsx": "d511b14a78a7ef645b8729250ee975b6649696bc9acdd73787d67a0458b020dc",
-    "apps/mobile/src/components/league/scoring/LeagueScoreReportScreen.tsx": "e355ee4c944a1627ec066968cf7eccb46f8d99a4d71fcc710ffe81716311b869",
-    "apps/web/src/features/help/content/pages.ts": "bac4151ced45e9b1e8ad340ec3b0111963161ddb12f91bd5542669a28df18ae0",
-    "apps/mobile/src/components/league/recaps/LeagueRecapScreen.tsx": "25b08b0eae6d057e9c7ab821a2c988721fc912254b7e8524794402f0ae98e3fb",
-    "apps/mobile/src/components/league/conduct/LeagueConductScreen.tsx": "c09cf43e9560b27a9f1090cb8757d61cb7199133e8c0c0d8ef9223f4be9a4f19",
-    "packages/shared/src/schemas/league-snapshot.ts": "310261a9d6db6ae555d161e98221043b18e89ba167ad10ab4611413e30214572",
-    "apps/mobile/src/components/league/boards/LeagueRecordBadge.tsx": "6f87bcd9dd8ed1f302cc4b17009a548fe782e55a6920f338ab03fc85b38134b0",
-    "packages/shared/src/league/badges.ts": "b205b8d05438ee27da26dddf648f3819cd705dd6194a417bbfbc18a2382476bb"
-  },
-  "captures": [
+  "data": "Fictional local fixtures",
+  "count": 78,
+  "screens": [
     {
-      "file": "img/names-oct20/24-intro-matches.png",
-      "title": "A League match",
-      "description": "Find opponents near you at a suitable time.",
-      "sha256": "1930a3e4b1d433c0a5bb636707d4b71731a84709e651f9ecf5acdf3ad2277ba8",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "file": "img/names-oct20/24-intro-matches.png",
-        "title": "A League match",
-        "description": "The example leaves the headline gradient visible.",
-        "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/24-intro-matches.png",
-        "sha256": "1930a3e4b1d433c0a5bb636707d4b71731a84709e651f9ecf5acdf3ad2277ba8",
-        "width": 1206,
-        "height": 2622,
-        "appCommit": "bce444d82d95dc0679438cb4703ab0debb88927e",
-        "capturedOn": "2026-10-20"
-      },
-      "evidence": "retained current screen; original provenance preserved"
+      "n": 1,
+      "chapter": "Discover the League",
+      "person": "Blake",
+      "title": "Always open",
+      "file": "img/oct26/01-intro-match.webp",
+      "source": "01-intro-match.png",
+      "sha256": "afe7a661411750fcd450d58a6709d3b16cb2f76bef08b5f86bc3b21af118adbe"
     },
     {
-      "file": "img/names-oct20/25-intro-week.png",
-      "title": "Your week",
-      "description": "Pick your available days and skip a week whenever you need.",
-      "sha256": "c8fa07af64a8abc1300998dc30e2fc2ea21b3844f3b6440600a4c19cffd4460b",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "file": "img/names-oct20/25-intro-week.png",
-        "title": "Your week",
-        "description": "The week example stays below the introduction.",
-        "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/25-intro-week.png",
-        "sha256": "c8fa07af64a8abc1300998dc30e2fc2ea21b3844f3b6440600a4c19cffd4460b",
-        "width": 1206,
-        "height": 2622,
-        "appCommit": "bce444d82d95dc0679438cb4703ab0debb88927e",
-        "capturedOn": "2026-10-20"
-      },
-      "evidence": "retained current screen; original provenance preserved"
+      "n": 2,
+      "chapter": "Discover the League",
+      "person": "Blake",
+      "title": "Play when it suits you",
+      "file": "img/oct26/02-intro-week.webp",
+      "source": "02-intro-week.png",
+      "sha256": "ef501cd8e3f488f07e9059d19df7b021e8a099f18634ac898e29b18f2913e8b5"
     },
     {
-      "file": "img/names-oct20/26-intro-boards.png",
-      "title": "Your city ranking",
-      "description": "Confirmed results count toward your League standing.",
-      "sha256": "ea6590e8d3d004cb6093c8b32f15308aa1af15d845da86528f790a7ed66d22f2",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "file": "img/names-oct20/26-intro-boards.png",
-        "title": "Your city ranking",
-        "description": "Swipe and Next move between the three cards.",
-        "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/26-intro-boards.png",
-        "sha256": "ea6590e8d3d004cb6093c8b32f15308aa1af15d845da86528f790a7ed66d22f2",
-        "width": 1206,
-        "height": 2622,
-        "appCommit": "bce444d82d95dc0679438cb4703ab0debb88927e",
-        "capturedOn": "2026-10-20"
-      },
-      "evidence": "retained current screen; original provenance preserved"
+      "n": 3,
+      "chapter": "Discover the League",
+      "person": "Blake",
+      "title": "Climb your area",
+      "file": "img/oct26/03-intro-board.webp",
+      "source": "03-intro-board.png",
+      "sha256": "48958c908242d50ac0c30a5873f258b225f31ffdc33bd3841ea497678820a968"
     },
     {
-      "file": "img/polish-ios-39-entry.png",
+      "n": 4,
+      "chapter": "Discover the League",
+      "person": "Blake",
       "title": "Before you join",
-      "description": "Review your player profile and required entry checks.",
-      "sha256": "912c44d621ab7148b565566034b0deac6d0643fbd3cfe62f150bcb541813199a",
-      "width": 1320,
-      "height": 2868,
-      "origin": {
-        "file": "img/polish-ios-39-entry.png",
-        "source": ".ux-review/circuit-league-persona-design-review-2026-10-19/revalidation/ios-polish-implementation/screens/39-entry.png",
-        "captured": "2026-10-19",
-        "sha256_source": "912c44d621ab7148b565566034b0deac6d0643fbd3cfe62f150bcb541813199a",
-        "title": "Before you join",
-        "caption": "The synthetic profile checklist and single Continue action.",
-        "source_commit": "0b97fffa6b119cda5ebe6a955112f24125a4fa63"
-      },
-      "evidence": "retained current screen; original provenance preserved"
+      "file": "img/oct26/03b-landing.webp",
+      "source": "03b-landing.png",
+      "sha256": "6eb81b2c38fe7acc5971024ea3cc00c14fbe800380a87ded779fbac7ca9a773f"
     },
     {
-      "file": "img/polish-ios-38-how-you-play.png",
+      "n": 5,
+      "chapter": "Join in four stages",
+      "person": "Blake",
+      "title": "Profile check",
+      "file": "img/oct26/04-setup-entry.webp",
+      "source": "04-setup-entry.png",
+      "sha256": "a84a7fbe5e770dbedce47fd6cae4f57397f91c670b08ccf29ecab1618a78bc6f"
+    },
+    {
+      "n": 6,
+      "chapter": "Join in four stages",
+      "person": "Blake",
       "title": "How you play",
-      "description": "Choose your formats and categories.",
-      "sha256": "d8fb75d147dd9e1c2de3adceadb995cdb87dc4f3dd92a205fae15a954cda9217",
-      "width": 1320,
-      "height": 2868,
-      "origin": {
-        "file": "img/polish-ios-38-how-you-play.png",
-        "source": ".ux-review/circuit-league-persona-design-review-2026-10-19/revalidation/ios-polish-implementation/screens/38-how-you-play.png",
-        "captured": "2026-10-19",
-        "sha256_source": "d8fb75d147dd9e1c2de3adceadb995cdb87dc4f3dd92a205fae15a954cda9217",
-        "title": "How you play",
-        "caption": "Formats, categories and the acknowledgment remain together.",
-        "source_commit": "0b97fffa6b119cda5ebe6a955112f24125a4fa63"
-      },
-      "evidence": "retained current screen; original provenance preserved"
+      "file": "img/oct26/05-setup-how.webp",
+      "source": "05-setup-how.png",
+      "sha256": "912f17a030f44d403439d3c459db4afddaea54c900a1a14db744a76ff87cf79e"
     },
     {
-      "file": "img/current-oct20/current-setup-venues.png",
-      "title": "Choose courts",
-      "description": "Save suitable venues or choose them later.",
-      "sha256": "f795ef6d2f4acb8c7f3839d7f8758ae25fd5b3c0ea654df912deff4e31aec775",
-      "width": 1206,
-      "height": 2622,
-      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/current-setup-venues.png",
-      "capturedOn": "2026-10-20",
-      "sourceRevision": "9ee7e0ed6e8a055a61244d0d5fee26d9fd1cff5e",
-      "evidence": "current native capture"
+      "n": 7,
+      "chapter": "Join in four stages",
+      "person": "Blake",
+      "title": "Choose venues",
+      "file": "img/oct26/06-setup-venues.webp",
+      "source": "06-setup-venues.png",
+      "sha256": "f33f098e76658af7e88c375cbc64249d0e637297eb482c32db6e651732d08642"
     },
     {
-      "file": "img/polish-ios-36-options.png",
-      "title": "Matching options",
-      "description": "Review commitments and automatic matchmaking.",
-      "sha256": "adea5f30774f577c014b0c2806cb8891b9e3f3c77824dcd888db31b21d2f42a4",
-      "width": 1320,
-      "height": 2868,
-      "origin": {
-        "file": "img/polish-ios-36-options.png",
-        "source": ".ux-review/circuit-league-persona-design-review-2026-10-19/revalidation/ios-polish-implementation/screens/36-options.png",
-        "captured": "2026-10-19",
-        "sha256_source": "adea5f30774f577c014b0c2806cb8891b9e3f3c77824dcd888db31b21d2f42a4",
-        "title": "Matching options",
-        "caption": "Existing commitment and automatic-matching guidance is preserved.",
-        "source_commit": "0b97fffa6b119cda5ebe6a955112f24125a4fa63"
-      },
-      "evidence": "retained current screen; original provenance preserved"
+      "n": 8,
+      "chapter": "Join in four stages",
+      "person": "Blake",
+      "title": "Venues on a map",
+      "file": "img/oct26/06b-setup-venues-map.webp",
+      "source": "06b-setup-venues-map.png",
+      "sha256": "d920869b198607d76a0eb40bc4f3fe227a50cb0b76fb3b45b56f193ace130b98"
     },
     {
-      "file": "img/polish-ios-34-terms.png",
-      "title": "Release and terms",
-      "description": "Read the League release before joining.",
-      "sha256": "72907edf4c0ebec32314de9ab4953dff93d25b1dbc6fa401e9f903a184c729c5",
-      "width": 1320,
-      "height": 2868,
-      "origin": {
-        "file": "img/polish-ios-34-terms.png",
-        "source": ".ux-review/circuit-league-persona-design-review-2026-10-19/revalidation/ios-polish-implementation/screens/34-terms.png",
-        "captured": "2026-10-19",
-        "sha256_source": "72907edf4c0ebec32314de9ab4953dff93d25b1dbc6fa401e9f903a184c729c5",
-        "title": "Release and terms",
-        "caption": "The release remains readable with an explicit Join action.",
-        "source_commit": "0b97fffa6b119cda5ebe6a955112f24125a4fa63"
-      },
-      "evidence": "retained current screen; original provenance preserved"
-    },
-    {
-      "file": "img/polish-ios-35-terms-end.png",
-      "title": "Separate acceptances",
-      "description": "The release and League terms each have their own acceptance.",
-      "sha256": "dd1f90667ebffa0611a3df1b9055201ee3f2cee2bcd5454089b4ba9b91242d4f",
-      "width": 1320,
-      "height": 2868,
-      "origin": {
-        "file": "img/polish-ios-35-terms-end.png",
-        "source": ".ux-review/circuit-league-persona-design-review-2026-10-19/revalidation/ios-polish-implementation/screens/35-terms-end.png",
-        "captured": "2026-10-19",
-        "sha256_source": "dd1f90667ebffa0611a3df1b9055201ee3f2cee2bcd5454089b4ba9b91242d4f",
-        "title": "Release \u00b7 scroll end",
-        "caption": "Both acceptance checkboxes and the terms link remain reachable. Neither was accepted.",
-        "source_commit": "0b97fffa6b119cda5ebe6a955112f24125a4fa63"
-      },
-      "evidence": "retained current screen; original provenance preserved"
-    },
-    {
-      "file": "img/names-oct20/27-setup-check-in.png",
-      "title": "Automatic check-in",
-      "description": "Review the location disclosure and confirm your check-in choice.",
-      "sha256": "1053dd3fa77daeec637cf56e521bc4ca0b148c6b166f119a168251961e0acb36",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "file": "img/names-oct20/27-setup-check-in.png",
-        "title": "New-player choice",
-        "description": "Check-in starts selected with the disclosure visible and one Continue action.",
-        "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/27-setup-check-in.png",
-        "sha256": "1053dd3fa77daeec637cf56e521bc4ca0b148c6b166f119a168251961e0acb36",
-        "width": 1206,
-        "height": 2622,
-        "appCommit": "bce444d82d95dc0679438cb4703ab0debb88927e",
-        "capturedOn": "2026-10-20"
-      },
-      "evidence": "retained current screen; original provenance preserved"
-    },
-    {
-      "file": "img/names-oct20/22-location-permission.png",
-      "title": "Location permission",
-      "description": "iOS asks for foreground location access when needed.",
-      "sha256": "ceff65017aed5c1a6f607067a899ca899e43df0b4ae8d2758cc7eec12b6435d7",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "file": "img/names-oct20/22-location-permission.png",
-        "title": "iOS foreground permission",
-        "description": "Continue requests the real iOS location permission when needed.",
-        "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/22-location-permission.png",
-        "sha256": "ceff65017aed5c1a6f607067a899ca899e43df0b4ae8d2758cc7eec12b6435d7",
-        "width": 1206,
-        "height": 2622,
-        "appCommit": "bce444d82d95dc0679438cb4703ab0debb88927e",
-        "capturedOn": "2026-10-20"
-      },
-      "evidence": "retained current screen; original provenance preserved"
-    },
-    {
-      "file": "img/names-oct20/28-setup-finished.png",
-      "title": "Ready to play",
-      "description": "Membership is ready. Choose venues and start a search when you want a match.",
-      "sha256": "e72a2748bd7b90aaa2b88e7bc6b5d533ba28931e638ad77d780797db4d5d8b10",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "file": "img/names-oct20/28-setup-finished.png",
-        "title": "Membership is ready",
-        "description": "The separate finish screen follows the saved check-in choice. Choosing venues later leaves matchmaking off.",
-        "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/28-setup-finished.png",
-        "sha256": "e72a2748bd7b90aaa2b88e7bc6b5d533ba28931e638ad77d780797db4d5d8b10",
-        "width": 1206,
-        "height": 2622,
-        "appCommit": "bce444d82d95dc0679438cb4703ab0debb88927e",
-        "capturedOn": "2026-10-20"
-      },
-      "evidence": "retained current screen; original provenance preserved"
-    },
-    {
-      "file": "img/current-oct20/confirmation-48-home.png",
-      "title": "League home",
-      "description": "Needs you keeps the current report and review tasks together.",
-      "sha256": "face549bbca0932163135061365baabf286953321a27eb3e40877a87a84dcde8",
-      "width": 1206,
-      "height": 2622,
-      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/confirmation-48-home.png",
-      "capturedOn": "2026-10-20",
-      "sourceRevision": "b53a1788df6767818b1af2b9b568e9c1682670fd",
-      "evidence": "current native capture"
-    },
-    {
-      "file": "img/names-oct20/01-league-menu.png",
-      "title": "League menu",
-      "description": "Open your QR code, League settings or League rules.",
-      "sha256": "810eb91336b59914047e0022839ac60dbacf0e181c24de3e9745e8742a26f349",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "file": "img/names-oct20/01-league-menu.png",
-        "title": "League menu",
-        "description": "My QR code, League settings and League rules each have an icon and arrow.",
-        "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/01-league-menu.png",
-        "sha256": "810eb91336b59914047e0022839ac60dbacf0e181c24de3e9745e8742a26f349",
-        "width": 1206,
-        "height": 2622,
-        "appCommit": "bce444d82d95dc0679438cb4703ab0debb88927e",
-        "capturedOn": "2026-10-20"
-      },
-      "evidence": "retained current screen; original provenance preserved"
-    },
-    {
-      "file": "img/current-oct20/current-settings.png",
-      "title": "League settings",
-      "description": "Manage times, venues and automatic matchmaking.",
-      "sha256": "20db83e9fe0e2364ae6b5eb237af94d7f40d9b0b859abb89095aa63f3cf8d794",
-      "width": 1206,
-      "height": 2622,
-      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/current-settings.png",
-      "capturedOn": "2026-10-20",
-      "sourceRevision": "9ee7e0ed6e8a055a61244d0d5fee26d9fd1cff5e",
-      "evidence": "current native capture"
-    },
-    {
-      "file": "img/polish-ios-04-notifications.png",
-      "title": "Notifications",
-      "description": "Choose optional alerts and review required match and safety notices.",
-      "sha256": "a0aa567c67032b1da09869c0033e2beb58a0ace31d9625995951fd675caa4046",
-      "width": 1320,
-      "height": 2868,
-      "origin": {
-        "file": "img/polish-ios-04-notifications.png",
-        "source": ".ux-review/circuit-league-persona-design-review-2026-10-19/revalidation/ios-polish-implementation/screens/04-notifications.png",
-        "captured": "2026-10-19",
-        "sha256_source": "a0aa567c67032b1da09869c0033e2beb58a0ace31d9625995951fd675caa4046",
-        "title": "Notifications",
-        "caption": "Optional switches and required notices keep their own screen.",
-        "source_commit": "0b97fffa6b119cda5ebe6a955112f24125a4fa63"
-      },
-      "evidence": "retained current screen; original provenance preserved"
-    },
-    {
-      "file": "img/current-oct20/current-times.png",
+      "n": 9,
+      "chapter": "Join in four stages",
+      "person": "Blake",
       "title": "Your times",
-      "description": "Save your available hours for this week and next week.",
-      "sha256": "59a7ba1805d9bf879b7c7892b570a53f3758a33e4f7ec786247ff366a1986c90",
-      "width": 1206,
-      "height": 2622,
-      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/current-times.png",
-      "capturedOn": "2026-10-20",
-      "sourceRevision": "9ee7e0ed6e8a055a61244d0d5fee26d9fd1cff5e",
-      "evidence": "current native capture"
-    },
-    {
-      "file": "img/current-oct20/current-time-editor.png",
-      "title": "Choose hours",
-      "description": "Select time windows from the grid.",
-      "sha256": "282de0bcb8f0b2d09ae46aecf713dd39e57acf6dd7369d44b10d2e0543f8c7f8",
-      "width": 1206,
-      "height": 2622,
-      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/current-time-editor.png",
-      "capturedOn": "2026-10-20",
-      "sourceRevision": "9ee7e0ed6e8a055a61244d0d5fee26d9fd1cff5e",
-      "evidence": "current native capture"
-    },
-    {
-      "file": "img/names-oct20/23-check-in-enabled.png",
-      "title": "Automatic check-in enabled",
-      "description": "The saved check-in choice uses foreground permission near match time.",
-      "sha256": "8f06719c4a8d5a16f28a498a767d276aae7506a4699de2679c5c558ba3d309f2",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "file": "img/names-oct20/23-check-in-enabled.png",
-        "title": "Confirmed and enabled",
-        "description": "The preference becomes effective after permission and the server save succeed.",
-        "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/23-check-in-enabled.png",
-        "sha256": "8f06719c4a8d5a16f28a498a767d276aae7506a4699de2679c5c558ba3d309f2",
-        "width": 1206,
-        "height": 2622,
-        "appCommit": "bce444d82d95dc0679438cb4703ab0debb88927e",
-        "capturedOn": "2026-10-20"
-      },
-      "evidence": "retained current screen; original provenance preserved"
-    },
-    {
-      "file": "img/current-oct21/saved-venues.png",
-      "title": "Saved venues",
-      "description": "Keep favorite and backup courts in your venue choices.",
-      "sha256": "ddb8b1faf4a6025f952f599904278564d9ce0eec09415ad0c82232d65b280fd0",
-      "width": 1206,
-      "height": 2622,
-      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/current-venues.png",
-      "capturedOn": "2026-10-20",
-      "sourceRevision": "9ee7e0ed6e8a055a61244d0d5fee26d9fd1cff5e",
-      "evidence": "Original native Dark/Default capture inspected; removing the second favorite hides ordering controls.",
-      "origin": {
-        "source": "/Users/wiles/Documents/GitHub/Pickleball-Tournaments/.ux-review/global-league-audit-fixes-2026-10-21/one-favorite-resume-run/2026-10-21_163505/one-favorite-resume/takeScreenshot/saved-venues-current.png",
-        "capturedOn": "2026-10-21",
-        "appCommit": "ce075ef6a512eb90598925f53f08bb3aa5a4d2f1"
-      }
-    },
-    {
-      "file": "img/current-oct20/current-venue.png",
-      "title": "Venue details",
-      "description": "Review access, directions, formats and popular times.",
-      "sha256": "4805cb2404f811011bb40bf23f8e7f3893c756851f1c6e69adf636171febf7fd",
-      "width": 1206,
-      "height": 2622,
-      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/current-venue.png",
-      "capturedOn": "2026-10-20",
-      "sourceRevision": "9ee7e0ed6e8a055a61244d0d5fee26d9fd1cff5e",
-      "evidence": "current native capture"
-    },
-    {
-      "file": "img/actions-ios-07-saved-venue-edit.png",
-      "title": "Venue preference",
-      "description": "Choose Favorite, Backup or Don\u2019t use for a saved court.",
-      "sha256": "18e2405ef58eeba0821d4a1dcbf49837f5a47f60ea003205a83d2ff8726acd71",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "file": "img/actions-ios-07-saved-venue-edit.png",
-        "title": "Edit a saved venue",
-        "description": "Favorite, Backup and Don't use remain explicit selection controls; Done closes the editor.",
-        "platform": "iOS",
-        "capturedOn": "2026-10-20",
-        "sha256": "18e2405ef58eeba0821d4a1dcbf49837f5a47f60ea003205a83d2ff8726acd71",
-        "width": 1206,
-        "height": 2622,
-        "sourceFile": ".ux-review/circuit-league-links-2026-10-20/ios-current-run/2026-10-20_111932/ios-current/takeScreenshot/07-saved-venue-edit.png",
-        "appBaseRevision": "7f783bb38e8e12e79fcf992fc7475962e1a63c3d",
-        "sourceState": "local implementation",
-        "implementationFingerprint": "5d7c79cfbc2de0a57a7be486dcb3adedb64b0618d0c59164400aea5eb22c1848"
-      },
-      "evidence": "retained current screen; original provenance preserved"
-    },
-    {
-      "file": "img/current-oct20/current-find-map.png",
-      "title": "Find courts",
-      "description": "Browse venues near Austin on the map.",
-      "sha256": "a79a68292d2783ad42b3305bdc37c93ae132a666140354d211da4ac921dead9b",
-      "width": 1206,
-      "height": 2622,
-      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/current-find-map.png",
-      "capturedOn": "2026-10-20",
-      "sourceRevision": "9ee7e0ed6e8a055a61244d0d5fee26d9fd1cff5e",
-      "evidence": "current native capture"
-    },
-    {
-      "file": "img/actions-ios-22-popular-times.png",
-      "title": "Popular times",
-      "description": "Expand the available time grid for the venue.",
-      "sha256": "f047f707ca10e865965602358c5131d9146d68d6ad0b600ed0c354d10c38eea0",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "file": "img/actions-ios-22-popular-times.png",
-        "title": "Show the time grid",
-        "description": "A neutral disclosure with a downward indicator expands the grid. Edit your times remains an outlined command.",
-        "platform": "iOS",
-        "capturedOn": "2026-10-20",
-        "sha256": "f047f707ca10e865965602358c5131d9146d68d6ad0b600ed0c354d10c38eea0",
-        "width": 1206,
-        "height": 2622,
-        "sourceFile": ".ux-review/circuit-league-links-2026-10-20/ios-populated-run/2026-10-20_112516/populated/takeScreenshot/22-popular-times.png",
-        "appBaseRevision": "7f783bb38e8e12e79fcf992fc7475962e1a63c3d",
-        "sourceState": "local implementation",
-        "implementationFingerprint": "5d7c79cfbc2de0a57a7be486dcb3adedb64b0618d0c59164400aea5eb22c1848"
-      },
-      "evidence": "retained current screen; original provenance preserved"
-    },
-    {
-      "file": "img/actions-ios-23-time-grid-expanded.png",
-      "title": "Time grid",
-      "description": "Review popular windows before editing your own availability.",
-      "sha256": "5049f42549ab7ad74b2abac1c8f53ea7db99ebc53467a86cfa0e2befb377705d",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "file": "img/actions-ios-23-time-grid-expanded.png",
-        "title": "Hide the time grid",
-        "description": "The expanded state uses an upward indicator. The larger grid continues below the initial viewport.",
-        "platform": "iOS",
-        "capturedOn": "2026-10-20",
-        "sha256": "5049f42549ab7ad74b2abac1c8f53ea7db99ebc53467a86cfa0e2befb377705d",
-        "width": 1206,
-        "height": 2622,
-        "sourceFile": ".ux-review/circuit-league-links-2026-10-20/ios-populated-run/2026-10-20_112516/populated/takeScreenshot/23-time-grid-expanded.png",
-        "appBaseRevision": "7f783bb38e8e12e79fcf992fc7475962e1a63c3d",
-        "sourceState": "local implementation",
-        "implementationFingerprint": "5d7c79cfbc2de0a57a7be486dcb3adedb64b0618d0c59164400aea5eb22c1848"
-      },
-      "evidence": "retained current screen; original provenance preserved"
-    },
-    {
-      "file": "img/actions-ios-04-flyer-sheet.png",
-      "title": "League flyer",
-      "description": "Print a flyer or share or save its PDF.",
-      "sha256": "84867e671cfbef1511422319f0a3fe19ba774cf2d3ef9b75bcc9962041f49b46",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "file": "img/actions-ios-04-flyer-sheet.png",
-        "title": "League flyer actions",
-        "description": "The utility row opens the existing Print and Share or save PDF choices. No print or share was submitted.",
-        "platform": "iOS",
-        "capturedOn": "2026-10-20",
-        "sha256": "84867e671cfbef1511422319f0a3fe19ba774cf2d3ef9b75bcc9962041f49b46",
-        "width": 1206,
-        "height": 2622,
-        "sourceFile": ".ux-review/circuit-league-links-2026-10-20/ios-current-run/2026-10-20_111932/ios-current/takeScreenshot/04-flyer-sheet.png",
-        "appBaseRevision": "7f783bb38e8e12e79fcf992fc7475962e1a63c3d",
-        "sourceState": "local implementation",
-        "implementationFingerprint": "5d7c79cfbc2de0a57a7be486dcb3adedb64b0618d0c59164400aea5eb22c1848"
-      },
-      "evidence": "retained current screen; original provenance preserved"
-    },
-    {
-      "file": "img/names-oct20/12-new-team.png",
-      "title": "Invite a partner",
-      "description": "Choose a category and partner, or share an invitation link.",
-      "sha256": "583a1d3197df567dd7e3d568a144e1cd82d1cac9ee321b3fc22391be3c91bd6e",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "file": "img/names-oct20/12-new-team.png",
-        "title": "Invite a partner",
-        "description": "Choose a category and partner or share a link. There is no team-name field.",
-        "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/12-new-team.png",
-        "sha256": "583a1d3197df567dd7e3d568a144e1cd82d1cac9ee321b3fc22391be3c91bd6e",
-        "width": 1206,
-        "height": 2622,
-        "appCommit": "bce444d82d95dc0679438cb4703ab0debb88927e",
-        "capturedOn": "2026-10-20"
-      },
-      "evidence": "retained current screen; original provenance preserved"
-    },
-    {
-      "file": "img/current-oct20/current-team.png",
-      "title": "Your partnership",
-      "description": "Review your partner, matching times and search controls.",
-      "sha256": "31a4205d39e5738104272ea485aa083fca9bea30aa14db24523369af7902b946",
-      "width": 1206,
-      "height": 2622,
-      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/current-team.png",
-      "capturedOn": "2026-10-20",
-      "sourceRevision": "9ee7e0ed6e8a055a61244d0d5fee26d9fd1cff5e",
-      "evidence": "current native capture"
-    },
-    {
-      "file": "img/names-oct20/13-pair-settings.png",
-      "title": "Partnership settings",
-      "description": "Manage the partnership\u2019s matching preferences.",
-      "sha256": "eff80f35e49b7b175c22fd4deb19f312451de195e3791a716ede91c801efafd8",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "file": "img/names-oct20/13-pair-settings.png",
-        "title": "Avery B. & Sam P.",
-        "description": "The pair label is alphabetical, with matching controls and no rename action.",
-        "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/13-pair-settings.png",
-        "sha256": "eff80f35e49b7b175c22fd4deb19f312451de195e3791a716ede91c801efafd8",
-        "width": 1206,
-        "height": 2622,
-        "appCommit": "bce444d82d95dc0679438cb4703ab0debb88927e",
-        "capturedOn": "2026-10-20"
-      },
-      "evidence": "retained current screen; original provenance preserved"
-    },
-    {
-      "file": "img/current-oct20/current-offer.png",
-      "title": "Match offer",
-      "description": "The offer shows its current availability and agreed plan.",
-      "sha256": "ec99bba7e3aea76cc7ce95ffbe90c13750836ed39492fe6c461ce587f58ebebd",
-      "width": 1206,
-      "height": 2622,
-      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/current-offer.png",
-      "capturedOn": "2026-10-20",
-      "sourceRevision": "9ee7e0ed6e8a055a61244d0d5fee26d9fd1cff5e",
-      "evidence": "current native capture"
-    },
-    {
-      "file": "img/actions-ios-25-other-times-sheet.png",
-      "title": "Other times",
-      "description": "When there is no other shared option, keep the current plan or decline.",
-      "sha256": "e8b63dc14bbdc8cbb22923b67cdbbe0fcabcc8a55978af3a111325b42ab319b7",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "file": "img/actions-ios-25-other-times-sheet.png",
-        "title": "Other-time sheet",
-        "description": "The sheet preserves the current plan when no alternative shared time is available.",
-        "platform": "iOS",
-        "capturedOn": "2026-10-20",
-        "sha256": "e8b63dc14bbdc8cbb22923b67cdbbe0fcabcc8a55978af3a111325b42ab319b7",
-        "width": 1206,
-        "height": 2622,
-        "sourceFile": ".ux-review/circuit-league-links-2026-10-20/ios-offer-run/2026-10-20_112626/offer-current/takeScreenshot/25-other-times-sheet.png",
-        "appBaseRevision": "7f783bb38e8e12e79fcf992fc7475962e1a63c3d",
-        "sourceState": "local implementation",
-        "implementationFingerprint": "5d7c79cfbc2de0a57a7be486dcb3adedb64b0618d0c59164400aea5eb22c1848"
-      },
-      "evidence": "retained current screen; original provenance preserved"
-    },
-    {
-      "file": "img/actions-ios-26-decline-sheet.png",
-      "title": "Decline choices",
-      "description": "Decline this offer or avoid matching with the same player for seven days.",
-      "sha256": "4f48619b98f0f1a97caaa177e934a9ac60b367632fd7bb7dd497e1ccbaa093bf",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "file": "img/actions-ios-26-decline-sheet.png",
-        "title": "Decline sheet",
-        "description": "The existing decline choices remain explicit. The walkthrough did not submit a decline.",
-        "platform": "iOS",
-        "capturedOn": "2026-10-20",
-        "sha256": "4f48619b98f0f1a97caaa177e934a9ac60b367632fd7bb7dd497e1ccbaa093bf",
-        "width": 1206,
-        "height": 2622,
-        "sourceFile": ".ux-review/circuit-league-links-2026-10-20/ios-offer-run/2026-10-20_112626/offer-current/takeScreenshot/26-decline-sheet.png",
-        "appBaseRevision": "7f783bb38e8e12e79fcf992fc7475962e1a63c3d",
-        "sourceState": "local implementation",
-        "implementationFingerprint": "5d7c79cfbc2de0a57a7be486dcb3adedb64b0618d0c59164400aea5eb22c1848"
-      },
-      "evidence": "retained current screen; original provenance preserved"
-    },
-    {
-      "file": "img/current-oct20/current-code.png",
-      "title": "My QR code",
-      "description": "Show your personal League code to another player.",
-      "sha256": "037663426333093bbb343531d38fcae4011ab6b214032b878d0217156d6467ba",
-      "width": 1206,
-      "height": 2622,
-      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/current-code.png",
-      "capturedOn": "2026-10-20",
-      "sourceRevision": "9ee7e0ed6e8a055a61244d0d5fee26d9fd1cff5e",
-      "evidence": "current native capture"
-    },
-    {
-      "file": "img/current-oct20/current-scan.png",
-      "title": "Choose a format",
-      "description": "Start a Singles, rotating doubles or fixed-team session.",
-      "sha256": "4be2abd035c0448e4ca94a473eb9713ba6917f5220a88f2bbba83877f174873e",
-      "width": 1206,
-      "height": 2622,
-      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/current-scan.png",
-      "capturedOn": "2026-10-20",
-      "sourceRevision": "9ee7e0ed6e8a055a61244d0d5fee26d9fd1cff5e",
-      "evidence": "current native capture"
-    },
-    {
-      "file": "img/current-oct20/current-scan-waiting.png",
-      "title": "Waiting for confirmation",
-      "description": "Each player row shows whether that player has confirmed.",
-      "sha256": "822da16068ad86e7d4f9b921766ed625bfaaa6f24dad869a26391dc56d9f5a4e",
-      "width": 1206,
-      "height": 2622,
-      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/current-scan-waiting.png",
-      "capturedOn": "2026-10-20",
-      "sourceRevision": "9ee7e0ed6e8a055a61244d0d5fee26d9fd1cff5e",
-      "evidence": "current native capture"
-    },
-    {
-      "file": "img/current-oct20/current-scan-ready.png",
-      "title": "Ready to start",
-      "description": "Start match becomes available after the required confirmations.",
-      "sha256": "5f1f4be6bcb944943c5ddfa1f84b4a205a8a2f9397ff5447a6e2a9623317f089",
-      "width": 1206,
-      "height": 2622,
-      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/current-scan-ready.png",
-      "capturedOn": "2026-10-20",
-      "sourceRevision": "9ee7e0ed6e8a055a61244d0d5fee26d9fd1cff5e",
-      "evidence": "current native capture"
-    },
-    {
-      "file": "img/current-oct20/current-scan-four.png",
-      "title": "Four-player session",
-      "description": "Rotation slots and confirmation status stay attached to each player.",
-      "sha256": "957f77acbeb9c77d150f7d0415cd4b4bb0de7f727d319b20192daa483739a920",
-      "width": 1206,
-      "height": 2622,
-      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/current-scan-four.png",
-      "capturedOn": "2026-10-20",
-      "sourceRevision": "9ee7e0ed6e8a055a61244d0d5fee26d9fd1cff5e",
-      "evidence": "current native capture"
-    },
-    {
-      "file": "img/current-oct20/current-scan-bottom.png",
-      "title": "Session actions",
-      "description": "Scroll to Start match and Cancel.",
-      "sha256": "7e0f99327a2911a42f73b4e3f3aabbe170a686816df7738b1b80d1aef5226344",
-      "width": 1206,
-      "height": 2622,
-      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/current-scan-bottom.png",
-      "capturedOn": "2026-10-20",
-      "sourceRevision": "9ee7e0ed6e8a055a61244d0d5fee26d9fd1cff5e",
-      "evidence": "current native capture"
-    },
-    {
-      "file": "img/names-oct20/34-planned-lineup.png",
-      "title": "Planned rotating games",
-      "description": "Each planned side lists its players alphabetically.",
-      "sha256": "a3b7599e0ab98b9321c7b9663db433e8da599e42d7d769e6fff7991624e23cfa",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "file": "img/names-oct20/34-planned-lineup.png",
-        "title": "Planned rotating games",
-        "description": "Alphabetical names within each planned side; the current player has a You annotation.",
-        "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/34-planned-lineup.png",
-        "sha256": "a3b7599e0ab98b9321c7b9663db433e8da599e42d7d769e6fff7991624e23cfa",
-        "width": 1206,
-        "height": 2622,
-        "appCommit": "bce444d82d95dc0679438cb4703ab0debb88927e",
-        "capturedOn": "2026-10-20"
-      },
-      "evidence": "retained current screen; original provenance preserved"
-    },
-    {
-      "file": "img/current-oct20/current-chat.png",
-      "title": "Match chat",
-      "description": "Read the conversation and send a message to your match.",
-      "sha256": "d234459c81cf3d4895d6ccf0cdd4b9e013ffaa961ecf7563e886506d359537a2",
-      "width": 1206,
-      "height": 2622,
-      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/current-chat.png",
-      "capturedOn": "2026-10-20",
-      "sourceRevision": "9ee7e0ed6e8a055a61244d0d5fee26d9fd1cff5e",
-      "evidence": "current native capture"
-    },
-    {
-      "file": "img/current-oct20/current-chat-players.png",
-      "title": "Chat player controls",
-      "description": "Open player details or the available mute and block actions.",
-      "sha256": "8d3af94c06f9a64eb6346d17561135fb6f18504ec540895d17b8d60b41780bd5",
-      "width": 1206,
-      "height": 2622,
-      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/current-chat-players.png",
-      "capturedOn": "2026-10-20",
-      "sourceRevision": "9ee7e0ed6e8a055a61244d0d5fee26d9fd1cff5e",
-      "evidence": "current native capture"
-    },
-    {
-      "file": "img/current-oct20/current-chat-keyboard.png",
-      "title": "Write a message",
-      "description": "The draft and Send control remain above the keyboard.",
-      "sha256": "36cbec60a9d68ee5c73c2a7d37a86e1689306b8bd4fa9cec3ee56bee4e5277dc",
-      "width": 1206,
-      "height": 2622,
-      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/current-chat-keyboard.png",
-      "capturedOn": "2026-10-20",
-      "sourceRevision": "9ee7e0ed6e8a055a61244d0d5fee26d9fd1cff5e",
-      "evidence": "current native capture"
-    },
-    {
-      "file": "img/current-oct20/current-chat-reply.png",
-      "title": "Reply to a message",
-      "description": "Keep the original message in context while composing a reply.",
-      "sha256": "991166e607fb7423f03f804c6e8a9ce0ebf5e24063b9238e0ed46696ce753b30",
-      "width": 1206,
-      "height": 2622,
-      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/current-chat-reply.png",
-      "capturedOn": "2026-10-20",
-      "sourceRevision": "9ee7e0ed6e8a055a61244d0d5fee26d9fd1cff5e",
-      "evidence": "current native capture"
-    },
-    {
-      "file": "img/current-oct21/chat-clear-menu.png",
-      "title": "Open match chat",
-      "description": "Opening chat dismisses the previous match menu.",
-      "sha256": "ed25934d8aacf654a9c469115a5ff231b569ba6c32ff8e9d3f4ae94ceefda9e9",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "source": "/Users/wiles/Documents/GitHub/Pickleball-Tournaments/.ux-review/global-league-audit-fixes-2026-10-21/final-records-run/2026-10-21_162449/final-records-check/takeScreenshot/chat-menu-dismissed.png",
-        "capturedOn": "2026-10-21",
-        "appCommit": "ce075ef6a512eb90598925f53f08bb3aa5a4d2f1"
-      },
-      "evidence": "Original iOS 26.4 pixels inspected in Dark appearance, app Default and normal OS text size; fictional owned local Circuit League data."
-    },
-    {
-      "file": "img/current-oct20/confirmation-48-score-due.png",
-      "title": "Score due",
-      "description": "Report before the displayed deadline. The opposing side has 48 hours after you send the score to review it.",
-      "sha256": "c56bac2e986452575b2366cef00e8f461451524fd22eb82a3a0be5d6d1b26586",
-      "width": 1206,
-      "height": 2622,
-      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/confirmation-copy-output/confirmation-copy/takeScreenshot/confirmation-48-score-due.png",
-      "capturedOn": "2026-10-20",
-      "sourceRevision": "257888a12979c00e1e876085ea07a116a0080674",
-      "evidence": "current native capture"
-    },
-    {
-      "file": "img/current-oct20/confirmation-48-score-form.png",
-      "title": "Report score",
-      "description": "Enter each played game beside the player or side it belongs to.",
-      "sha256": "d36ab443802940f22a128869fd90845f1fa53b19cb8005640dc75074d01e8965",
-      "width": 1206,
-      "height": 2622,
-      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/confirmation-copy-output/confirmation-copy/takeScreenshot/confirmation-48-score-form.png",
-      "capturedOn": "2026-10-20",
-      "sourceRevision": "257888a12979c00e1e876085ea07a116a0080674",
-      "evidence": "current native capture"
-    },
-    {
-      "file": "img/current-oct20/confirmation-48-score-metadata.png",
-      "title": "Played date and venue",
-      "description": "Choose the actual played date and venue. Unanswered scores count 48 hours after sending.",
-      "sha256": "1939bbc8789a9efd4e315f6b754ee48336b8b836a352458927412c17908b2f97",
-      "width": 1206,
-      "height": 2622,
-      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/confirmation-copy-output/confirmation-copy/takeScreenshot/confirmation-48-score-metadata.png",
-      "capturedOn": "2026-10-20",
-      "sourceRevision": "257888a12979c00e1e876085ea07a116a0080674",
-      "evidence": "current native capture"
-    },
-    {
-      "file": "img/current-oct21/between-game-ending.png",
-      "title": "Stop between games",
-      "description": "After a completed score, record which side stopped before the next game without inventing another score.",
-      "sha256": "38d3a36acb4951b50f5be28e043063c61c88ba7087f88f38f7c2e17cad6149fa",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "source": "/Users/wiles/Documents/GitHub/Pickleball-Tournaments/.ux-review/global-league-audit-fixes-2026-10-21/ending-resume-run2/2026-10-21_161352/editor-ending-resume/takeScreenshot/completed-game-ending-options.png",
-        "capturedOn": "2026-10-21",
-        "appCommit": "ce075ef6a512eb90598925f53f08bb3aa5a4d2f1"
-      },
-      "evidence": "Original iOS 26.4 pixels inspected in Dark appearance, app Default and normal OS text size; fictional owned local Circuit League data."
-    },
-    {
-      "file": "img/current-oct21/review-stop.png",
-      "title": "Review a score",
-      "description": "The two actual games remain visible, along with who stopped before game three and the 48-hour review deadline.",
-      "sha256": "4dc578085aa2925d26e1a16eaf3eca6b109dcc293cafaaa1a8a074ee48e1b598",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "source": "/Users/wiles/Documents/GitHub/Pickleball-Tournaments/.ux-review/global-league-audit-fixes-2026-10-21/conduct-score-run/2026-10-21_161100/conduct-score-check/takeScreenshot/review-between-games.png",
-        "capturedOn": "2026-10-21",
-        "appCommit": "ce075ef6a512eb90598925f53f08bb3aa5a4d2f1"
-      },
-      "evidence": "Original iOS 26.4 pixels inspected in Dark appearance, app Default and normal OS text size; fictional owned local Circuit League data."
-    },
-    {
-      "file": "img/current-oct20/confirmation-48-dispute.png",
-      "title": "Dispute a score",
-      "description": "A dispute stops automatic confirmation and DUPR submission for the disputed games. Players then have 24 hours to agree a correction.",
-      "sha256": "073815cd106542e415ce2740ff8d88a3e75a71561e5cd058d70a7ef846e848d7",
-      "width": 1206,
-      "height": 2622,
-      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/confirmation-48-dispute.png",
-      "capturedOn": "2026-10-20",
-      "sourceRevision": "b53a1788df6767818b1af2b9b568e9c1682670fd",
-      "evidence": "current native capture"
-    },
-    {
-      "file": "img/names-oct20/14-pair-result.png",
-      "title": "Completed team result",
-      "description": "The winning side appears first with its own scores.",
-      "sha256": "2fafd7f3b8975815eac821a6025af35dd56b1a9179318a91c0776dd542f24dbf",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "file": "img/names-oct20/14-pair-result.png",
-        "title": "A completed team match",
-        "description": "Winner first, alphabetical names within each side, with each score kept beside its side.",
-        "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/14-pair-result.png",
-        "sha256": "2fafd7f3b8975815eac821a6025af35dd56b1a9179318a91c0776dd542f24dbf",
-        "width": 1206,
-        "height": 2622,
-        "appCommit": "bce444d82d95dc0679438cb4703ab0debb88927e",
-        "capturedOn": "2026-10-20"
-      },
-      "evidence": "retained current screen; original provenance preserved"
-    },
-    {
-      "file": "img/current-oct21/singles.png",
-      "title": "Singles",
-      "description": "Text-only standings with signed PD%, actual game counts and independently tappable ratings.",
-      "sha256": "666ee0ee6badee4ed335aa3ee48d9de38e57bf83473f9804c4fde2bf573ea1b6",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "source": "/Users/wiles/Documents/GitHub/Pickleball-Tournaments/.ux-review/global-league-audit-fixes-2026-10-21/pools-run2/2026-10-21_162123/pools-check/takeScreenshot/singles-current.png",
-        "capturedOn": "2026-10-21",
-        "appCommit": "ce075ef6a512eb90598925f53f08bb3aa5a4d2f1"
-      },
-      "evidence": "Original iOS 26.4 pixels inspected in Dark appearance, app Default and normal OS text size; fictional owned local Circuit League data."
-    },
-    {
-      "file": "img/current-oct21/doubles.png",
-      "title": "Doubles",
-      "description": "Text-only standings with signed PD%, actual game counts and independently tappable ratings.",
-      "sha256": "9151d862fe8fb3cd881e15d7cc3de2f2e906041bd5c7eda05357b3edb4dfe0d3",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "source": "/Users/wiles/Documents/GitHub/Pickleball-Tournaments/.ux-review/global-league-audit-fixes-2026-10-21/pools-run2/2026-10-21_162123/pools-check/takeScreenshot/doubles-current.png",
-        "capturedOn": "2026-10-21",
-        "appCommit": "ce075ef6a512eb90598925f53f08bb3aa5a4d2f1"
-      },
-      "evidence": "Original iOS 26.4 pixels inspected in Dark appearance, app Default and normal OS text size; fictional owned local Circuit League data."
-    },
-    {
-      "file": "img/current-oct21/teams.png",
-      "title": "Teams",
-      "description": "Alphabetical partner names on separate lines, with one selectable own partnership pinned below.",
-      "sha256": "5b96615e07f9f36b41dee23c89fa4c76fddd5a433b9cf3805a34eab141efcf27",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "source": "/Users/wiles/Documents/GitHub/Pickleball-Tournaments/.ux-review/global-league-audit-fixes-2026-10-21/pools-run2/2026-10-21_162123/pools-check/takeScreenshot/teams-current.png",
-        "capturedOn": "2026-10-21",
-        "appCommit": "ce075ef6a512eb90598925f53f08bb3aa5a4d2f1"
-      },
-      "evidence": "Original iOS 26.4 pixels inspected in Dark appearance, app Default and normal OS text size; fictional owned local Circuit League data."
-    },
-    {
-      "file": "img/current-oct21/rating-date.png",
-      "title": "Rating details",
-      "description": "The tapped player\u2019s DUPR, reliability and actual update date.",
-      "sha256": "5104057b3e163a552760fe62ce7a52bacec573a0c7eb066ed6c12cc7b6e6731f",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "source": "/Users/wiles/Documents/GitHub/Pickleball-Tournaments/.ux-review/global-league-audit-fixes-2026-10-21/boards-resume-run/2026-10-21_161856/boards-resume/takeScreenshot/rating-updated.png",
-        "capturedOn": "2026-10-21",
-        "appCommit": "ce075ef6a512eb90598925f53f08bb3aa5a4d2f1"
-      },
-      "evidence": "Original iOS 26.4 pixels inspected in Dark appearance, app Default and normal OS text size; fictional owned local Circuit League data."
-    },
-    {
-      "file": "img/current-oct21/partner-rating-date.png",
-      "title": "Partner rating details",
-      "description": "Each partner\u2019s number opens that player\u2019s rating, reliability and update date.",
-      "sha256": "716ad3c7b0906d5577c0e70483715fe755c85013c5eba7734e835c0c633d549b",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "source": "/Users/wiles/Documents/GitHub/Pickleball-Tournaments/.ux-review/global-league-audit-fixes-2026-10-21/partner-rating-settled.png",
-        "capturedOn": "2026-10-21",
-        "appCommit": "ce075ef6a512eb90598925f53f08bb3aa5a4d2f1"
-      },
-      "evidence": "Original iOS 26.4 pixels inspected in Dark appearance, app Default and normal OS text size; fictional owned local Circuit League data."
-    },
-    {
-      "file": "img/current-oct20/rating-search.png",
-      "title": "Player search",
-      "description": "Search finds later-page players while preserving their published ranks.",
-      "sha256": "5e81a6eb10d18f54dfc864d7f65f1ddfed45557b673c3643bdf69826c8e53030",
-      "width": 1206,
-      "height": 2622,
-      "source": "/Users/wiles/.codex/worktrees/league-rating-details/Pickleball-Tournaments/.ux-review/league-rating-details-2026-10-20/extra-output/2026-10-20_210236/extra/takeScreenshot/rating-search.png",
-      "sourceRevision": "772beb5dce08a56a435e57f445c1109b41ec55f8",
-      "capturedOn": "2026-10-20",
-      "platform": "iOS \u00b7 Dark \u00b7 Default"
-    },
-    {
-      "file": "img/current-oct20/rating-search-empty.png",
-      "title": "No search matches",
-      "description": "Try another name, change the filters or clear the search.",
-      "sha256": "b309de3b57f12bc41044b54b110d04d751f6859c5f87d1cf04ddbb5e42f9fae5",
-      "width": 1206,
-      "height": 2622,
-      "source": "/Users/wiles/.codex/worktrees/league-rating-details/Pickleball-Tournaments/.ux-review/league-rating-details-2026-10-20/extra-output/2026-10-20_210236/extra/takeScreenshot/rating-search-empty.png",
-      "sourceRevision": "772beb5dce08a56a435e57f445c1109b41ec55f8",
-      "capturedOn": "2026-10-20",
-      "platform": "iOS \u00b7 Dark \u00b7 Default"
-    },
-    {
-      "file": "img/current-oct20/rating-partner-search.png",
-      "title": "Partner search",
-      "description": "A player-name search returns their fixed pairs, with each partner on a separate line.",
-      "sha256": "6b119a561b1adaff9976719ffa40b0720e60815f504ed884d3739b326f137a75",
-      "width": 1206,
-      "height": 2622,
-      "source": "/Users/wiles/.codex/worktrees/league-rating-details/Pickleball-Tournaments/.ux-review/league-rating-details-2026-10-20/extra-output/2026-10-20_210236/extra/takeScreenshot/rating-partner-search.png",
-      "sourceRevision": "772beb5dce08a56a435e57f445c1109b41ec55f8",
-      "capturedOn": "2026-10-20",
-      "platform": "iOS \u00b7 Dark \u00b7 Default"
-    },
-    {
-      "file": "img/current-oct20/rating-filters.png",
-      "title": "Leaderboard filters",
-      "description": "Season choices appear here because this fixture has two seasons; a single season omits them.",
-      "sha256": "8d15ec01f0a86a551896c6853f9c05278b8cd1a9059a07f9923f0a52c099ec90",
-      "width": 1206,
-      "height": 2622,
-      "source": "/Users/wiles/.codex/worktrees/league-rating-details/Pickleball-Tournaments/.ux-review/league-rating-details-2026-10-20/extra-output/2026-10-20_210236/extra/takeScreenshot/rating-filters.png",
-      "sourceRevision": "772beb5dce08a56a435e57f445c1109b41ec55f8",
-      "capturedOn": "2026-10-20",
-      "platform": "iOS \u00b7 Dark \u00b7 Default"
-    },
-    {
-      "file": "img/current-oct21/own-team-pin.png",
-      "title": "Pinned own record",
-      "description": "One partnership remains pinned; an unplayed pair shows its qualification requirement and No PD yet.",
-      "sha256": "0dbd729e07d8e32acec89ddb1fca1faf1aed30c0aa1b845c99378718f7dc7170",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "source": "/Users/wiles/Documents/GitHub/Pickleball-Tournaments/.ux-review/global-league-audit-fixes-2026-10-21/records-menu-run/2026-10-21_162248/records-menu-check/takeScreenshot/selected-own-team.png",
-        "capturedOn": "2026-10-21",
-        "appCommit": "ce075ef6a512eb90598925f53f08bb3aa5a4d2f1"
-      },
-      "evidence": "Original iOS 26.4 pixels inspected in Dark appearance, app Default and normal OS text size; fictional owned local Circuit League data."
-    },
-    {
-      "file": "img/current-oct21/own-team-selector.png",
-      "title": "Choose your partnership",
-      "description": "All six own partnerships remain available without stacking their records over the standings.",
-      "sha256": "7ff471bcd8700a6c4c5605e145b85311c952071c35935e5d554bc47a489de350",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "source": "/Users/wiles/Documents/GitHub/Pickleball-Tournaments/.ux-review/global-league-audit-fixes-2026-10-21/pools-run2/2026-10-21_162123/pools-check/takeScreenshot/own-team-selector.png",
-        "capturedOn": "2026-10-21",
-        "appCommit": "ce075ef6a512eb90598925f53f08bb3aa5a4d2f1"
-      },
-      "evidence": "Original iOS 26.4 pixels inspected in Dark appearance, app Default and normal OS text size; fictional owned local Circuit League data."
-    },
-    {
-      "file": "img/current-oct21/individual-record.png",
-      "title": "Individual record",
-      "description": "Season-total PD% stays separate from recent form over the last ten qualifying games.",
-      "sha256": "a6e503bfa66db77c94405c5347ef9689caa2a85678ceb1dd573d8c0d5bc6a95c",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "source": "/Users/wiles/Documents/GitHub/Pickleball-Tournaments/.ux-review/global-league-audit-fixes-2026-10-21/final-records-run/2026-10-21_162449/final-records-check/takeScreenshot/own-record.png",
-        "capturedOn": "2026-10-21",
-        "appCommit": "ce075ef6a512eb90598925f53f08bb3aa5a4d2f1"
-      },
-      "evidence": "Original iOS 26.4 pixels inspected in Dark appearance, app Default and normal OS text size; fictional owned local Circuit League data."
-    },
-    {
-      "file": "img/current-oct20/badge-founding-member.png",
-      "title": "Founding Member badge",
-      "description": "Tap the badge to see the Austin launch-area Season 1 requirement.",
-      "sha256": "1ad3040baebf39ee3f4905271b71eeb09e49bda10c94d6ea70c8e1c1a89d5a4e",
-      "width": 1206,
-      "height": 2622,
-      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-badges-2026-10-20/final-output/2026-10-20_213401/verify/takeScreenshot/badge-founding-member.png",
-      "sourceRevision": "fb4dab223a5b932ccbebffbf570a541792214117",
-      "capturedOn": "2026-10-20",
-      "platform": "iOS \u00b7 Dark \u00b7 Default"
-    },
-    {
-      "file": "img/current-oct20/badge-season-complete.png",
-      "title": "Season complete badge",
-      "description": "Tap the badge to see the eight-match requirement for this season.",
-      "sha256": "4a0aab9bf28a3a8b9f461574f16124e46d9754d487481920fef5fb15f874228d",
-      "width": 1206,
-      "height": 2622,
-      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-badges-2026-10-20/final-output/2026-10-20_213401/verify/takeScreenshot/badge-season-complete.png",
-      "sourceRevision": "fb4dab223a5b932ccbebffbf570a541792214117",
-      "capturedOn": "2026-10-20",
-      "platform": "iOS \u00b7 Dark \u00b7 Default"
-    },
-    {
-      "file": "img/current-oct21/pair-record.png",
-      "title": "Pair record",
-      "description": "The partnership\u2019s own season and nine-game recent sample.",
-      "sha256": "8fb01ed409c1fd66564911c8a126f593f9fd5d2787492db7ad32ae22fac80cfc",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "source": "/Users/wiles/Documents/GitHub/Pickleball-Tournaments/.ux-review/global-league-audit-fixes-2026-10-21/final-records-run/2026-10-21_162449/final-records-check/takeScreenshot/pair-record.png",
-        "capturedOn": "2026-10-21",
-        "appCommit": "ce075ef6a512eb90598925f53f08bb3aa5a4d2f1"
-      },
-      "evidence": "Original iOS 26.4 pixels inspected in Dark appearance, app Default and normal OS text size; fictional owned local Circuit League data."
-    },
-    {
-      "file": "img/current-oct21/match-history.png",
-      "title": "Match history",
-      "description": "Every match keeps its own PD%, independently of recent form.",
-      "sha256": "a6e503bfa66db77c94405c5347ef9689caa2a85678ceb1dd573d8c0d5bc6a95c",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "source": "/Users/wiles/Documents/GitHub/Pickleball-Tournaments/.ux-review/global-league-audit-fixes-2026-10-21/final-records-run/2026-10-21_162449/final-records-check/takeScreenshot/match-history.png",
-        "capturedOn": "2026-10-21",
-        "appCommit": "ce075ef6a512eb90598925f53f08bb3aa5a4d2f1"
-      },
-      "evidence": "Original iOS 26.4 pixels inspected in Dark appearance, app Default and normal OS text size; fictional owned local Circuit League data."
-    },
-    {
-      "file": "img/current-oct20/polish-match-series.png",
-      "title": "Match series",
-      "description": "The expanded three-game series retains its own PD \u22126.9%.",
-      "sha256": "626a9ac62a0aaa94c4b7808a7020902cd60f6871d62774791d3ec6b91cc5cf94",
-      "width": 1206,
-      "height": 2622,
-      "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/final-polish-output/final-polish-3/takeScreenshot/polish-match-series.png",
-      "capturedOn": "2026-10-20",
-      "sourceRevision": "a51a03869daeaf437dd45fe0f568f457dbd15c52",
-      "evidence": "current native capture"
-    },
-    {
-      "file": "img/current-oct21/weekly-summary.png",
-      "title": "Weekly recap",
-      "description": "Frozen weekly PD and grouped metro, state and Everywhere destinations.",
-      "sha256": "7f0a9718d66c6e9951743177fad41784cc46e179d79936fe4d2b1e682f7cd3dc",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "source": "/Users/wiles/Documents/GitHub/Pickleball-Tournaments/.ux-review/global-league-audit-fixes-2026-10-21/summary-run/2026-10-21_162351/summary-check/takeScreenshot/weekly-summary-current.png",
-        "capturedOn": "2026-10-21",
-        "appCommit": "ce075ef6a512eb90598925f53f08bb3aa5a4d2f1"
-      },
-      "evidence": "Original iOS 26.4 pixels inspected in Dark appearance, app Default and normal OS text size; fictional owned local Circuit League data."
-    },
-    {
-      "file": "img/current-oct21/season-summary.png",
-      "title": "Recap leaderboards",
-      "description": "The season summary retains its published rankings, match results and PD%.",
-      "sha256": "1c09ed2cffa7ab86c11481989e4facc42e816b1e0b6564e8a0ba950a8f83254d",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "source": "/Users/wiles/Documents/GitHub/Pickleball-Tournaments/.ux-review/global-league-audit-fixes-2026-10-21/recaps-run2/2026-10-21_160627/recaps-check/takeScreenshot/season-summary.png",
-        "capturedOn": "2026-10-21",
-        "appCommit": "ce075ef6a512eb90598925f53f08bb3aa5a4d2f1"
-      },
-      "evidence": "Original iOS 26.4 pixels inspected in Dark appearance, app Default and normal OS text size; fictional owned local Circuit League data."
-    },
-    {
-      "file": "img/current-oct21/record-block-preview.png",
-      "title": "Block from a player record",
-      "description": "Review the effect on future matches and shared partnerships before confirming.",
-      "sha256": "c3f89d5233a262528e7c6c34f961666b815fac019bde9de6558e73920f9a1a34",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "source": "/Users/wiles/Documents/GitHub/Pickleball-Tournaments/.ux-review/global-league-audit-fixes-2026-10-21/records-run2/2026-10-21_160047/records-venue-check/takeScreenshot/block-preview.png",
-        "capturedOn": "2026-10-21",
-        "appCommit": "ce075ef6a512eb90598925f53f08bb3aa5a4d2f1"
-      },
-      "evidence": "Original iOS 26.4 pixels inspected in Dark appearance, app Default and normal OS text size; fictional owned local Circuit League data."
-    },
-    {
-      "file": "img/current-oct21/weekly-0.png",
-      "title": "Your week in Circuit",
-      "description": "The published week\u2019s own results and standings.",
-      "sha256": "4478daeeb55be721626221b4fc0f48145b5e1a8000badbf96af75787c76fc456",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "source": "/Users/wiles/Documents/GitHub/Pickleball-Tournaments/.ux-review/global-league-audit-fixes-2026-10-21/recaps-run2/2026-10-21_160627/recaps-check/takeScreenshot/weekly-0.png",
-        "capturedOn": "2026-10-21",
-        "appCommit": "ce075ef6a512eb90598925f53f08bb3aa5a4d2f1"
-      },
-      "evidence": "Original iOS 26.4 pixels inspected in Dark appearance, app Default and normal OS text size; fictional owned local Circuit League data."
-    },
-    {
-      "file": "img/current-oct21/weekly-1.png",
-      "title": "Weekly record and PD",
-      "description": "The published week\u2019s own results and standings.",
-      "sha256": "e8a9727b00b2d58c939ec7cf68fc2fc78de1dc14d6950e8bb84c4d9403d23e50",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "source": "/Users/wiles/Documents/GitHub/Pickleball-Tournaments/.ux-review/global-league-audit-fixes-2026-10-21/recaps-run2/2026-10-21_160627/recaps-check/takeScreenshot/weekly-1.png",
-        "capturedOn": "2026-10-21",
-        "appCommit": "ce075ef6a512eb90598925f53f08bb3aa5a4d2f1"
-      },
-      "evidence": "Original iOS 26.4 pixels inspected in Dark appearance, app Default and normal OS text size; fictional owned local Circuit League data."
-    },
-    {
-      "file": "img/current-oct21/weekly-2.png",
-      "title": "Weekly standings",
-      "description": "The published week\u2019s own results and standings.",
-      "sha256": "3dfaf771e27fc475fba9b95e46654b159129e732f594862ec144033058ef8cb6",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "source": "/Users/wiles/Documents/GitHub/Pickleball-Tournaments/.ux-review/global-league-audit-fixes-2026-10-21/recaps-run2/2026-10-21_160627/recaps-check/takeScreenshot/weekly-2.png",
-        "capturedOn": "2026-10-21",
-        "appCommit": "ce075ef6a512eb90598925f53f08bb3aa5a4d2f1"
-      },
-      "evidence": "Original iOS 26.4 pixels inspected in Dark appearance, app Default and normal OS text size; fictional owned local Circuit League data."
-    },
-    {
-      "file": "img/current-oct21/weekly-3.png",
-      "title": "Weekly highlights",
-      "description": "The published week\u2019s own results and standings.",
-      "sha256": "13f36f53ab44c7c80ef1e905efc9db8fcb5d115b3f465c21e0356576c1ddd233",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "source": "/Users/wiles/Documents/GitHub/Pickleball-Tournaments/.ux-review/global-league-audit-fixes-2026-10-21/recaps-run2/2026-10-21_160627/recaps-check/takeScreenshot/weekly-3.png",
-        "capturedOn": "2026-10-21",
-        "appCommit": "ce075ef6a512eb90598925f53f08bb3aa5a4d2f1"
-      },
-      "evidence": "Original iOS 26.4 pixels inspected in Dark appearance, app Default and normal OS text size; fictional owned local Circuit League data."
-    },
-    {
-      "file": "img/current-oct21/weekly-closing.png",
-      "title": "Weekly wrap",
-      "description": "The published week\u2019s own results and standings.",
-      "sha256": "2501bbd0b8623b1492bc54dcc04496bbb82af214a21eea32a29cc3c4be4394d3",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "source": "/Users/wiles/Documents/GitHub/Pickleball-Tournaments/.ux-review/global-league-audit-fixes-2026-10-21/recaps-run2/2026-10-21_160627/recaps-check/takeScreenshot/weekly-closing.png",
-        "capturedOn": "2026-10-21",
-        "appCommit": "ce075ef6a512eb90598925f53f08bb3aa5a4d2f1"
-      },
-      "evidence": "Original iOS 26.4 pixels inspected in Dark appearance, app Default and normal OS text size; fictional owned local Circuit League data."
-    },
-    {
-      "file": "img/current-oct21/season-0.png",
-      "title": "Your season recap",
-      "description": "The completed season\u2019s frozen record, standings and earned awards.",
-      "sha256": "3007882c53de6c4262de3f7d647193537b6e9052f4d6e20e1b043dff3fd31307",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "source": "/Users/wiles/Documents/GitHub/Pickleball-Tournaments/.ux-review/global-league-audit-fixes-2026-10-21/recaps-run2/2026-10-21_160627/recaps-check/takeScreenshot/season-0.png",
-        "capturedOn": "2026-10-21",
-        "appCommit": "ce075ef6a512eb90598925f53f08bb3aa5a4d2f1"
-      },
-      "evidence": "Original iOS 26.4 pixels inspected in Dark appearance, app Default and normal OS text size; fictional owned local Circuit League data."
-    },
-    {
-      "file": "img/current-oct21/season-1.png",
-      "title": "Season record and PD",
-      "description": "The completed season\u2019s frozen record, standings and earned awards.",
-      "sha256": "6c486813793290fbae65f7b1f6948318efa292c5e0364e7a75a9d044dcc99ddd",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "source": "/Users/wiles/Documents/GitHub/Pickleball-Tournaments/.ux-review/global-league-audit-fixes-2026-10-21/recaps-run2/2026-10-21_160627/recaps-check/takeScreenshot/season-1.png",
-        "capturedOn": "2026-10-21",
-        "appCommit": "ce075ef6a512eb90598925f53f08bb3aa5a4d2f1"
-      },
-      "evidence": "Original iOS 26.4 pixels inspected in Dark appearance, app Default and normal OS text size; fictional owned local Circuit League data."
-    },
-    {
-      "file": "img/current-oct21/season-2.png",
-      "title": "Final standings",
-      "description": "The completed season\u2019s frozen record, standings and earned awards.",
-      "sha256": "919faf11baa02259837dcd702bf375a8e47946548405d6abdbf61ca5edc72abf",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "source": "/Users/wiles/Documents/GitHub/Pickleball-Tournaments/.ux-review/global-league-audit-fixes-2026-10-21/recaps-run2/2026-10-21_160627/recaps-check/takeScreenshot/season-2.png",
-        "capturedOn": "2026-10-21",
-        "appCommit": "ce075ef6a512eb90598925f53f08bb3aa5a4d2f1"
-      },
-      "evidence": "Original iOS 26.4 pixels inspected in Dark appearance, app Default and normal OS text size; fictional owned local Circuit League data."
-    },
-    {
-      "file": "img/current-oct21/season-3.png",
-      "title": "Season complete",
-      "description": "The completed season\u2019s frozen record, standings and earned awards.",
-      "sha256": "d80324f75e7a19e7554d79cbe233bb9e4bbad858ce3bc9d2199fb92f61f67649",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "source": "/Users/wiles/Documents/GitHub/Pickleball-Tournaments/.ux-review/global-league-audit-fixes-2026-10-21/recaps-run2/2026-10-21_160627/recaps-check/takeScreenshot/season-3.png",
-        "capturedOn": "2026-10-21",
-        "appCommit": "ce075ef6a512eb90598925f53f08bb3aa5a4d2f1"
-      },
-      "evidence": "Original iOS 26.4 pixels inspected in Dark appearance, app Default and normal OS text size; fictional owned local Circuit League data."
-    },
-    {
-      "file": "img/current-oct21/season-4.png",
-      "title": "Season award",
-      "description": "The completed season\u2019s frozen record, standings and earned awards.",
-      "sha256": "879417d60a52c099d96c1a561f71749e4f2fd736cb22a7b7202ed2b554d31279",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "source": "/Users/wiles/Documents/GitHub/Pickleball-Tournaments/.ux-review/global-league-audit-fixes-2026-10-21/recaps-run2/2026-10-21_160627/recaps-check/takeScreenshot/season-4.png",
-        "capturedOn": "2026-10-21",
-        "appCommit": "ce075ef6a512eb90598925f53f08bb3aa5a4d2f1"
-      },
-      "evidence": "Original iOS 26.4 pixels inspected in Dark appearance, app Default and normal OS text size; fictional owned local Circuit League data."
-    },
-    {
-      "file": "img/current-oct21/season-closing.png",
-      "title": "Season wrap",
-      "description": "The completed season\u2019s frozen record, standings and earned awards.",
-      "sha256": "97f907883732d139ff2575282554b7105d015ce4ecdcd1a78a83e462b34c5807",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "source": "/Users/wiles/Documents/GitHub/Pickleball-Tournaments/.ux-review/global-league-audit-fixes-2026-10-21/recaps-run2/2026-10-21_160627/recaps-check/takeScreenshot/season-closing.png",
-        "capturedOn": "2026-10-21",
-        "appCommit": "ce075ef6a512eb90598925f53f08bb3aa5a4d2f1"
-      },
-      "evidence": "Original iOS 26.4 pixels inspected in Dark appearance, app Default and normal OS text size; fictional owned local Circuit League data."
-    },
-    {
-      "file": "img/current-oct21/recap-badge.png",
-      "title": "Recap badge explanation",
-      "description": "Tap an earned badge to read its saved award criteria.",
-      "sha256": "98bf2cb36b95f3583a7331d93353427ed5022aa57931842000a5cd72f6e3b1da",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "source": "/Users/wiles/Documents/GitHub/Pickleball-Tournaments/.ux-review/global-league-audit-fixes-2026-10-21/badge-run/2026-10-21_160955/badge-check/takeScreenshot/recap-badge-explanation.png",
-        "capturedOn": "2026-10-21",
-        "appCommit": "ce075ef6a512eb90598925f53f08bb3aa5a4d2f1"
-      },
-      "evidence": "Original iOS 26.4 pixels inspected in Dark appearance, app Default and normal OS text size; fictional owned local Circuit League data."
-    },
-    {
-      "file": "img/names-oct20/04-blocked-players.png",
-      "title": "Blocked list",
-      "description": "Each player has a separate Unblock action.",
-      "sha256": "49ba33a776322e0d0c4403ed712ca68bab3ee604a428d2eb5908a3947b77083a",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "file": "img/names-oct20/04-blocked-players.png",
-        "title": "Populated blocked list",
-        "description": "Alphabetical player rows, a wrapped long name, and separate Unblock actions.",
-        "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/04-blocked-players.png",
-        "sha256": "49ba33a776322e0d0c4403ed712ca68bab3ee604a428d2eb5908a3947b77083a",
-        "width": 1206,
-        "height": 2622,
-        "appCommit": "bce444d82d95dc0679438cb4703ab0debb88927e",
-        "capturedOn": "2026-10-20"
-      },
-      "evidence": "retained current screen; original provenance preserved"
-    },
-    {
-      "file": "img/names-oct20/32-unblocked-empty.png",
-      "title": "After unblocking",
-      "description": "The empty list explains where blocking is available.",
-      "sha256": "29891d8e149fea16d056d048865f8c4301d01fc06099fe5f98f708a6558ac69e",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "file": "img/names-oct20/32-unblocked-empty.png",
-        "title": "After unblocking",
-        "description": "Server-confirmed unblocking returns the list to its empty state.",
-        "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/32-unblocked-empty.png",
-        "sha256": "29891d8e149fea16d056d048865f8c4301d01fc06099fe5f98f708a6558ac69e",
-        "width": 1206,
-        "height": 2622,
-        "appCommit": "bce444d82d95dc0679438cb4703ab0debb88927e",
-        "capturedOn": "2026-10-20"
-      },
-      "evidence": "retained current screen; original provenance preserved"
-    },
-    {
-      "file": "img/current-oct21/conduct-related.png",
-      "title": "Matchmaking pause",
-      "description": "The pause explains its consequence and links to each dated report.",
-      "sha256": "f95d8696f6906672be5ea98fbdf35c9a6d66c231b69b6ffee408452adb709fd6",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "source": "/Users/wiles/Documents/GitHub/Pickleball-Tournaments/.ux-review/global-league-audit-fixes-2026-10-21/conduct-score-run/2026-10-21_161100/conduct-score-check/takeScreenshot/conduct-related-reports.png",
-        "capturedOn": "2026-10-21",
-        "appCommit": "ce075ef6a512eb90598925f53f08bb3aa5a4d2f1"
-      },
-      "evidence": "Original iOS 26.4 pixels inspected in Dark appearance, app Default and normal OS text size; fictional owned local Circuit League data."
-    },
-    {
-      "file": "img/current-oct21/conduct-history.png",
-      "title": "Report history",
-      "description": "Tap the report row itself to read the dated outcome.",
-      "sha256": "42116120232a8c4cc8cd93452edb401d40c947ad17d9ce553ff4811eacd947f2",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "source": "/Users/wiles/Documents/GitHub/Pickleball-Tournaments/.ux-review/global-league-audit-fixes-2026-10-21/conduct-score-run/2026-10-21_161100/conduct-score-check/takeScreenshot/conduct-report-list.png",
-        "capturedOn": "2026-10-21",
-        "appCommit": "ce075ef6a512eb90598925f53f08bb3aa5a4d2f1"
-      },
-      "evidence": "Original iOS 26.4 pixels inspected in Dark appearance, app Default and normal OS text size; fictional owned local Circuit League data."
-    },
-    {
-      "file": "img/names-oct20/06-conduct-open.png",
-      "title": "Awaiting response",
-      "description": "An undecided report includes its challenge deadline.",
-      "sha256": "51e11fefbd2062846b2a7c4959d125c8a1e78a2a0fa990d54b566fdf8a3ce959",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "file": "img/names-oct20/06-conduct-open.png",
-        "title": "Report awaiting response",
-        "description": "The undecided report includes its challenge deadline.",
-        "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/06-conduct-open.png",
-        "sha256": "51e11fefbd2062846b2a7c4959d125c8a1e78a2a0fa990d54b566fdf8a3ce959",
-        "width": 1206,
-        "height": 2622,
-        "appCommit": "bce444d82d95dc0679438cb4703ab0debb88927e",
-        "capturedOn": "2026-10-20"
-      },
-      "evidence": "retained current screen; original provenance preserved"
-    },
-    {
-      "file": "img/names-oct20/18-conduct-challenge.png",
-      "title": "Challenge a report",
-      "description": "Explain your response and send the challenge.",
-      "sha256": "332db8f5f0f932f4ab2425305d47e439557aae88b504f461992ef47a82b7ef31",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "file": "img/names-oct20/18-conduct-challenge.png",
-        "title": "Challenge a report",
-        "description": "The explanation form and Send challenge action.",
-        "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/18-conduct-challenge.png",
-        "sha256": "332db8f5f0f932f4ab2425305d47e439557aae88b504f461992ef47a82b7ef31",
-        "width": 1206,
-        "height": 2622,
-        "appCommit": "bce444d82d95dc0679438cb4703ab0debb88927e",
-        "capturedOn": "2026-10-20"
-      },
-      "evidence": "retained current screen; original provenance preserved"
-    },
-    {
-      "file": "img/names-oct20/19-challenge-saved.png",
-      "title": "Under review",
-      "description": "The saved challenge appears on its report.",
-      "sha256": "a2de21d894f0d1cfbcca9ebfbb7f0eeebfc42f11838f2e1c456613d5da7a1317",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "file": "img/names-oct20/19-challenge-saved.png",
-        "title": "Challenge under review",
-        "description": "The actual saved challenge is visible on the case.",
-        "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/19-challenge-saved.png",
-        "sha256": "a2de21d894f0d1cfbcca9ebfbb7f0eeebfc42f11838f2e1c456613d5da7a1317",
-        "width": 1206,
-        "height": 2622,
-        "appCommit": "bce444d82d95dc0679438cb4703ab0debb88927e",
-        "capturedOn": "2026-10-20"
-      },
-      "evidence": "retained current screen; original provenance preserved"
-    },
-    {
-      "file": "img/current-oct21/conduct-detail.png",
-      "title": "Finding confirmed",
-      "description": "The report detail retains the decision, date, match and support recovery.",
-      "sha256": "fcb4eaa611a4af11bf9cecf5d25f65d73d1f6a2aac0a830201db005563d7191a",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "source": "/Users/wiles/Documents/GitHub/Pickleball-Tournaments/.ux-review/global-league-audit-fixes-2026-10-21/conduct-detail-settled.png",
-        "capturedOn": "2026-10-21",
-        "appCommit": "ce075ef6a512eb90598925f53f08bb3aa5a4d2f1"
-      },
-      "evidence": "Original iOS 26.4 pixels inspected in Dark appearance, app Default and normal OS text size; fictional owned local Circuit League data."
-    },
-    {
-      "file": "img/names-oct20/08-conduct-dismissed.png",
-      "title": "Report dismissed",
-      "description": "Read the dismissal and its explanation.",
-      "sha256": "dfadea04525d460d9431b42fc122ef3b6afb3ec2a7f4de4e57d797385a288235",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "file": "img/names-oct20/08-conduct-dismissed.png",
-        "title": "Report dismissed",
-        "description": "The dismissed outcome and explanation.",
-        "source": "/Users/wiles/.codex/worktrees/league-player-names/Pickleball-Tournaments/.ux-review/league-player-names-2026-10-20/screenshots/08-conduct-dismissed.png",
-        "sha256": "dfadea04525d460d9431b42fc122ef3b6afb3ec2a7f4de4e57d797385a288235",
-        "width": 1206,
-        "height": 2622,
-        "appCommit": "bce444d82d95dc0679438cb4703ab0debb88927e",
-        "capturedOn": "2026-10-20"
-      },
-      "evidence": "retained current screen; original provenance preserved"
-    },
-    {
-      "file": "img/current-oct21/appearance.png",
-      "title": "Dark and Default",
-      "description": "Dark appearance and Default app text size are selected; OS Dynamic Type is at its normal default.",
-      "sha256": "dd77f25610d6240795b4022ae4222c906c907779488fbd1f81303bec05e4f11a",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "source": "/Users/wiles/Documents/GitHub/Pickleball-Tournaments/.ux-review/global-league-audit-fixes-2026-10-21/records-run2/2026-10-21_160047/records-venue-check/takeScreenshot/appearance.png",
-        "capturedOn": "2026-10-21",
-        "appCommit": "ce075ef6a512eb90598925f53f08bb3aa5a4d2f1"
-      },
-      "evidence": "Original iOS 26.4 pixels inspected in Dark appearance, app Default and normal OS text size; fictional owned local Circuit League data."
-    },
-    {
-      "file": "img/fixes-oct23/home-top.png",
-      "title": "League home",
-      "description": "Needs you leads, then your standing and times; Past and Upcoming sit under Your matches.",
-      "sha256": "aeac59f9a18cd03c133ee7ece635d1371c48f358a377858cb32e041c6032fd47",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "file": "img/fixes-oct23/home-top.png",
-        "capturedOn": "2026-10-23",
-        "appCommit": "ee7b865d1",
-        "note": "New iOS simulator capture, Dark, Default text, fictional local fixtures."
-      }
-    },
-    {
-      "file": "img/fixes-oct23/past-tab.png",
-      "title": "Past matches",
-      "description": "Each finished match stacks the winner first with every game score beside its own team.",
-      "sha256": "f2c8f9ddcc9ada68714a18e5039a6a17ddf4971046458d0135aee7cab8394692",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "file": "img/fixes-oct23/past-tab.png",
-        "capturedOn": "2026-10-23",
-        "appCommit": "ee7b865d1",
-        "note": "New iOS simulator capture, Dark, Default text, fictional local fixtures."
-      }
-    },
-    {
-      "file": "img/fixes-oct23/match-screen.png",
+      "file": "img/oct26/07-setup-times.webp",
+      "source": "07-setup-times.png",
+      "sha256": "5b2b7c8a239b5cb3940ae1a166ba8ef1ef1d6e94a8f61090bc1a196c7902b6d7"
+    },
+    {
+      "n": 10,
+      "chapter": "Join in four stages",
+      "person": "Blake",
+      "title": "Pick hours",
+      "file": "img/oct26/07b-setup-time-grid.webp",
+      "source": "07b-setup-time-grid.png",
+      "sha256": "07e19adfb7ecaf69cfc16b8e639a4cbe66e71016b8c1eab2f7e32f2da8a890e5"
+    },
+    {
+      "n": 11,
+      "chapter": "Join in four stages",
+      "person": "Blake",
+      "title": "Times saved",
+      "file": "img/oct26/07c-setup-times-saved.webp",
+      "source": "07c-setup-times-saved.png",
+      "sha256": "d13ab60332aa8eadd6f7a7d4b2a1f2ba0a2c796771c192b70806e628ae383b78"
+    },
+    {
+      "n": 12,
+      "chapter": "Join in four stages",
+      "person": "Blake",
+      "title": "Matching options",
+      "file": "img/oct26/08-setup-options.webp",
+      "source": "08-setup-options.png",
+      "sha256": "44c6c159b0a5ccc36dde95e08d613f6896af1eb8e99d04e3b9b09137e8478aed"
+    },
+    {
+      "n": 13,
+      "chapter": "Join in four stages",
+      "person": "Blake",
+      "title": "Release and terms",
+      "file": "img/oct26/09-setup-terms.webp",
+      "source": "09-setup-terms.png",
+      "sha256": "32a99ca94624bec06c28368001cb1900a3a3d28476683b758e3e9330b04cd1a2"
+    },
+    {
+      "n": 14,
+      "chapter": "Join in four stages",
+      "person": "Blake",
+      "title": "Both accepted",
+      "file": "img/oct26/09b-setup-acceptances.webp",
+      "source": "09b-setup-acceptances.png",
+      "sha256": "364a7b418d12129bd203542b8a20e8d875260c0dced984c66524b9a042ca2f94"
+    },
+    {
+      "n": 15,
+      "chapter": "Join in four stages",
+      "person": "Blake",
+      "title": "You’re in",
+      "file": "img/oct26/10-setup-next.webp",
+      "source": "10-setup-next.png",
+      "sha256": "14fa6318f809638bb387458048b8aa12b52bf642dbcfbace3ec3b1efe29f12e9"
+    },
+    {
+      "n": 16,
+      "chapter": "Join in four stages",
+      "person": "Blake",
+      "title": "Notifications",
+      "file": "img/oct26/10b-setup-notifications-prompt.webp",
+      "source": "10b-setup-notifications-prompt.png",
+      "sha256": "75fd5a80ec925e240381abbbcf48fe30645bf6687bb9e96ae988d7ca0398d2a3"
+    },
+    {
+      "n": 17,
+      "chapter": "Join in four stages",
+      "person": "Blake",
+      "title": "Automatic check-in",
+      "file": "img/oct26/10d-setup-check-in.webp",
+      "source": "10d-setup-check-in.png",
+      "sha256": "3a2ca27a715dd89ad9e59e86576385b95e44cde28277f3600045d186eaa93853"
+    },
+    {
+      "n": 18,
+      "chapter": "Join in four stages",
+      "person": "Blake",
+      "title": "Blake’s League home",
+      "file": "img/oct26/11-blake-home.webp",
+      "source": "11-blake-home.png",
+      "sha256": "0b422bf9ed4f98dff0e5eb6ddab0c94feaca56a8e98d19d0bb44a1bcf128769a"
+    },
+    {
+      "n": 19,
+      "chapter": "Casey’s League home",
+      "person": "Casey",
+      "title": "Home",
+      "file": "img/oct26/12-home.webp",
+      "source": "12-home.png",
+      "sha256": "ed5b21f2c22b602f85159ac77ca575552bf84e0adbc3b8c038bfdd489394c264"
+    },
+    {
+      "n": 20,
+      "chapter": "Casey’s League home",
+      "person": "Casey",
+      "title": "This week",
+      "file": "img/oct26/12b-home-lower.webp",
+      "source": "12b-home-lower.png",
+      "sha256": "fe95c2f7aef7eae2b9d8238208a07e6dffe8173aa6b1295dc218d642be4a6c6e"
+    },
+    {
+      "n": 21,
+      "chapter": "Casey’s League home",
+      "person": "Casey",
+      "title": "More League",
+      "file": "img/oct26/12c-home-bottom.webp",
+      "source": "12c-home-bottom.png",
+      "sha256": "46b00b72978b3f5dd2f87519dc7547865278f1a227aeb204061b92076120b5cb"
+    },
+    {
+      "n": 22,
+      "chapter": "Casey’s League home",
+      "person": "Casey",
+      "title": "League menu",
+      "file": "img/oct26/13-league-menu.webp",
+      "source": "13-league-menu.png",
+      "sha256": "c23f4b7721cf054f30c814243df87c6c9d8ad0c4d013cd3ab5a7c0b2b345db34"
+    },
+    {
+      "n": 23,
+      "chapter": "Match offers",
+      "person": "Casey",
+      "title": "Match found",
+      "file": "img/oct26/14-offer.webp",
+      "source": "14-offer.png",
+      "sha256": "12e2a8027dddc0eb9f5863b8917ed86d8dee7940df9f745b0f6a8e4e351cb992"
+    },
+    {
+      "n": 24,
+      "chapter": "Match offers",
+      "person": "Casey",
+      "title": "Who’s in it",
+      "file": "img/oct26/14b-offer-players.webp",
+      "source": "14b-offer-players.png",
+      "sha256": "be5dce5dd539f1763277eb028378102797cc21ce97391544bdc52a6f6177a418"
+    },
+    {
+      "n": 25,
+      "chapter": "Match offers",
+      "person": "Casey",
+      "title": "Choose another time",
+      "file": "img/oct26/15-offer-other-times.webp",
+      "source": "15-offer-other-times.png",
+      "sha256": "18423d7478403b4fea9def0fcd3596f298632947676cd6f8a8095fdd8755c907"
+    },
+    {
+      "n": 26,
+      "chapter": "Match offers",
+      "person": "Casey",
+      "title": "Not this time",
+      "file": "img/oct26/16-offer-decline.webp",
+      "source": "16-offer-decline.png",
+      "sha256": "d25949ce808e726bec0091f3e59bb82590cb3c1b6748ac077da6b3dd2a3df572"
+    },
+    {
+      "n": 27,
+      "chapter": "Match offers",
+      "person": "Casey",
+      "title": "Accepted",
+      "file": "img/oct26/17-offer-accepted.webp",
+      "source": "17-offer-accepted.png",
+      "sha256": "f4f617e24688ec4551e99215efc2cd6304cbdb2bf7e818f562c75b5289a13f26"
+    },
+    {
+      "n": 28,
+      "chapter": "Confirmed matches and chat",
+      "person": "Casey",
       "title": "Match details",
-      "description": "Where, when and format appear once; the pinned action sits above everything else.",
-      "sha256": "0b1d4b521140939e7e454316d0d13dd35ba507dfcaa9ca0d8f99194283e8af48",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "file": "img/fixes-oct23/match-screen.png",
-        "capturedOn": "2026-10-23",
-        "appCommit": "ee7b865d1",
-        "note": "New iOS simulator capture, Dark, Default text, fictional local fixtures."
-      }
+      "file": "img/oct26/19-match-upcoming.webp",
+      "source": "19-match-upcoming.png",
+      "sha256": "c84cba660cd676475b8dc8629ed2104a3403fa9c25128dfa294968be24c57c1c"
     },
     {
-      "file": "img/fixes-oct23/report-form.png",
-      "title": "Report a score",
-      "description": "Where and when come first, then each game; the action stays pinned to the screen edge.",
-      "sha256": "037d8dc1e94c6904b75e8dc0abfc360ed7415e1d603799695d6a55569f18ee4a",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "file": "img/fixes-oct23/report-form.png",
-        "capturedOn": "2026-10-23",
-        "appCommit": "ee7b865d1",
-        "note": "New iOS simulator capture, Dark, Default text, fictional local fixtures."
-      }
+      "n": 29,
+      "chapter": "Confirmed matches and chat",
+      "person": "Casey",
+      "title": "Match actions",
+      "file": "img/oct26/19b-match-menu.webp",
+      "source": "19b-match-menu.png",
+      "sha256": "6c57699a3b700ade9777b812f0b1d7abc4d39ea6fe06be93228fc98a1f1ba535"
     },
     {
-      "file": "img/fixes-oct23/short-report-confirm.png",
-      "title": "Reporting fewer games",
-      "description": "Reporting 1 of 3 planned games asks for confirmation and names the games without a score.",
-      "sha256": "77c176494f22555dd3e5f59251dfe28f6f221f0050bb33f55922ed2b597a3986",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "file": "img/fixes-oct23/short-report-confirm.png",
-        "capturedOn": "2026-10-23",
-        "appCommit": "ee7b865d1",
-        "note": "New iOS simulator capture, Dark, Default text, fictional local fixtures."
-      }
+      "n": 30,
+      "chapter": "Confirmed matches and chat",
+      "person": "Casey",
+      "title": "Match chat",
+      "file": "img/oct26/20-chat.webp",
+      "source": "20-chat.png",
+      "sha256": "f3d7a6d5ba539eb6699cc87d69a7fe9820b73b8b7691f9ebb214e83d947d94bd"
     },
     {
-      "file": "img/fixes-oct23/boards-mens.png",
-      "title": "Near you and larger ranks",
-      "description": "Ranks are larger. Near you narrows an official area board without changing anyone\u2019s rank; with fewer than 5 nearby it explains why everyone shows.",
-      "sha256": "be2e0b4e96b3e8f96cbb4681498f905170d08be51c975167395eb4872b44506c",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "file": "img/fixes-oct23/boards-mens.png",
-        "capturedOn": "2026-10-23",
-        "appCommit": "ee7b865d1",
-        "note": "New iOS simulator capture, Dark, Default text, fictional local fixtures."
-      }
+      "n": 31,
+      "chapter": "Confirmed matches and chat",
+      "person": "Casey",
+      "title": "Mute or block",
+      "file": "img/oct26/20b-chat-players.webp",
+      "source": "20b-chat-players.png",
+      "sha256": "f7e9b01a37d177f23ca1570ce9862378c984452949320a2f48fc0391f06ea4d4"
     },
     {
-      "file": "img/fixes-oct23/boards-casey.png",
-      "title": "Small boards",
-      "description": "A board under 5 players says how many are listed instead of showing a partial ranking, with your own record pinned below.",
-      "sha256": "29893fe70eb78ee210f1b0397f87215ca2d444a8af2bd0677538cc511abf3108",
-      "width": 1206,
-      "height": 2622,
-      "origin": {
-        "file": "img/fixes-oct23/boards-casey.png",
-        "capturedOn": "2026-10-23",
-        "appCommit": "ee7b865d1",
-        "note": "New iOS simulator capture, Dark, Default text, fictional local fixtures."
-      }
+      "n": 32,
+      "chapter": "Scores",
+      "person": "Casey",
+      "title": "Score due",
+      "file": "img/oct26/21-score-due.webp",
+      "source": "21-score-due.png",
+      "sha256": "ce97c667efaf9d7f2f0ad731bc9f5dca5efeb2039e4b36f55434ec57642aa9fe"
+    },
+    {
+      "n": 33,
+      "chapter": "Scores",
+      "person": "Casey",
+      "title": "Report form",
+      "file": "img/oct26/22-report-form.webp",
+      "source": "22-report-form.png",
+      "sha256": "83762b4a9b92373b3f947aa4c0051606eb6c2bb37589785335df8445424e962c"
+    },
+    {
+      "n": 34,
+      "chapter": "Scores",
+      "person": "Casey",
+      "title": "Games entered",
+      "file": "img/oct26/22b-report-filled.webp",
+      "source": "22b-report-filled.png",
+      "sha256": "488790b5d0610dcb71e57030902f4bd8085ccd6e421abce7948854cd0b00861f"
+    },
+    {
+      "n": 35,
+      "chapter": "Scores",
+      "person": "Casey",
+      "title": "Fewer games than planned",
+      "file": "img/oct26/23-report-short-confirm.webp",
+      "source": "23-report-short-confirm.png",
+      "sha256": "c87415f14c913cef5f044d0c3e88fddbf4896da656a4457cb07567de0b98da20"
+    },
+    {
+      "n": 36,
+      "chapter": "Scores",
+      "person": "Casey",
+      "title": "Score sent",
+      "file": "img/oct26/24-report-sent.webp",
+      "source": "24-report-sent.png",
+      "sha256": "486242513f055c6a634cf57f1d2a3c23a7d488cb27d8149eec42cdd711e16626"
+    },
+    {
+      "n": 37,
+      "chapter": "Scores",
+      "person": "Casey",
+      "title": "Review a score",
+      "file": "img/oct26/25-review.webp",
+      "source": "25-review.png",
+      "sha256": "abbb6166545c71aff22b6159e6528aa908d3ebd3408dc9b5c8d893a43a9802f1"
+    },
+    {
+      "n": 38,
+      "chapter": "Scores",
+      "person": "Casey",
+      "title": "Dispute",
+      "file": "img/oct26/26-dispute.webp",
+      "source": "26-dispute.png",
+      "sha256": "0b57e6b7136fbfda0196ef721c0d0c0f919a4ca16205951395c4aa0fa6c83329"
+    },
+    {
+      "n": 39,
+      "chapter": "Scores",
+      "person": "Casey",
+      "title": "Final",
+      "file": "img/oct26/27-confirmed.webp",
+      "source": "27-confirmed.png",
+      "sha256": "d568bf009e6de402baf5f05cb9d1a838d8568611b0bcf6c910691c255c1cd157"
+    },
+    {
+      "n": 40,
+      "chapter": "Scores",
+      "person": "Casey",
+      "title": "Past matches",
+      "file": "img/oct26/28-past.webp",
+      "source": "28-past.png",
+      "sha256": "3cd62fab4cbd103f47a4e8fb47833fe089d3ebff27c8131dd398d5345257274c"
+    },
+    {
+      "n": 41,
+      "chapter": "Leaderboards",
+      "person": "Casey",
+      "title": "Austin area, Women’s singles",
+      "file": "img/oct26/29-board.webp",
+      "source": "29-board.png",
+      "sha256": "a7e7109ac12b77eaf455251028004fdda83246c7d74dead216639bf973432034"
+    },
+    {
+      "n": 42,
+      "chapter": "Leaderboards",
+      "person": "Casey",
+      "title": "DUPR rating",
+      "file": "img/oct26/29b-board-rating.webp",
+      "source": "29b-board-rating.png",
+      "sha256": "70dd41aa83e6342b99c00d982a2c3c13154b3486a8b06d181b3917c4dcd1e1b9"
+    },
+    {
+      "n": 43,
+      "chapter": "Leaderboards",
+      "person": "Casey",
+      "title": "Near you",
+      "file": "img/oct26/30-board-near-you.webp",
+      "source": "30-board-near-you.png",
+      "sha256": "83a032885d12372402dab2335e40ff69daf9e3658fc7300020f6444bbded5bb3"
+    },
+    {
+      "n": 44,
+      "chapter": "Leaderboards",
+      "person": "Casey",
+      "title": "Filters",
+      "file": "img/oct26/31-board-filters.webp",
+      "source": "31-board-filters.png",
+      "sha256": "3bb24737a08f316a7d1ca518dbbe5ee7304bd6f218a51ed00b7a4408234592d1"
+    },
+    {
+      "n": 45,
+      "chapter": "Leaderboards",
+      "person": "Casey",
+      "title": "About this board",
+      "file": "img/oct26/32-board-about.webp",
+      "source": "32-board-about.png",
+      "sha256": "43dc777d5812a39e2fe627fe37fe9e54b8f35733a959f7bc9f83649579eaa3b8"
+    },
+    {
+      "n": 46,
+      "chapter": "Leaderboards",
+      "person": "Casey",
+      "title": "Search",
+      "file": "img/oct26/33-board-search.webp",
+      "source": "33-board-search.png",
+      "sha256": "755cf89cb0f84502e2cd7455fd720524928ce8838fb85565b0e6b404c3559f3b"
+    },
+    {
+      "n": 47,
+      "chapter": "Leaderboards",
+      "person": "Casey",
+      "title": "Doubles everywhere",
+      "file": "img/oct26/34-board-doubles.webp",
+      "source": "34-board-doubles.png",
+      "sha256": "d820c55c047c4de07d05919b053d58913af367acd3f49b378d8bb2358e01de7d"
+    },
+    {
+      "n": 48,
+      "chapter": "Leaderboards",
+      "person": "Casey",
+      "title": "Teams",
+      "file": "img/oct26/35-board-teams.webp",
+      "source": "35-board-teams.png",
+      "sha256": "9668309af9977e147bdfa2a8d6743f47c83969067b24e2549079720a81c0454c"
+    },
+    {
+      "n": 49,
+      "chapter": "Player records",
+      "person": "Casey",
+      "title": "Casey’s record",
+      "file": "img/oct26/36-stats.webp",
+      "source": "36-stats.png",
+      "sha256": "d9f377a706ec5a4280855b90cbcb2695aac87eec6a927e55b613dc9ca23c2f57"
+    },
+    {
+      "n": 50,
+      "chapter": "Player records",
+      "person": "Casey",
+      "title": "Match history",
+      "file": "img/oct26/36b-stats-matches.webp",
+      "source": "36b-stats-matches.png",
+      "sha256": "a6fad79e3182c426a453b78ef6c897cbdd35058ef6054ae7b7c2000334185f8e"
+    },
+    {
+      "n": 51,
+      "chapter": "Player records",
+      "person": "Casey",
+      "title": "Badge details",
+      "file": "img/oct26/37-badge.webp",
+      "source": "37-badge.png",
+      "sha256": "dc5616888d538be60f23bd190b65155bb65fe0ab0ef36d404d699fb2cea8be09"
+    },
+    {
+      "n": 52,
+      "chapter": "Player records",
+      "person": "Casey",
+      "title": "Another player",
+      "file": "img/oct26/38-other-stats.webp",
+      "source": "38-other-stats.png",
+      "sha256": "4de96676f2058547b3e29099639f67adb369e56176f507c84e85bd2fe62200dd"
+    },
+    {
+      "n": 53,
+      "chapter": "Weekly recap",
+      "person": "Casey",
+      "title": "Week of Oct 19",
+      "file": "img/oct26/39-recap.webp",
+      "source": "39-recap.png",
+      "sha256": "d2f196418481981c9ad69ad8b039e5d4c18fd21b978e39982cf2b40266a2424e"
+    },
+    {
+      "n": 54,
+      "chapter": "Weekly recap",
+      "person": "Casey",
+      "title": "Summary",
+      "file": "img/oct26/40-recap-summary.webp",
+      "source": "40-recap-summary.png",
+      "sha256": "185ef58e00cf83b9e2d95d329b8a5211919a5b4ebc507bbce7b45a3e8fb8bfea"
+    },
+    {
+      "n": 55,
+      "chapter": "Weekly recap",
+      "person": "Casey",
+      "title": "Every match",
+      "file": "img/oct26/40b-recap-summary-lower.webp",
+      "source": "40b-recap-summary-lower.png",
+      "sha256": "d1f79ec98eba8548e5788a84c0f7279bd7ba3de52d63b033afa77a73fb1ee905"
+    },
+    {
+      "n": 56,
+      "chapter": "Weekly recap",
+      "person": "Casey",
+      "title": "What next",
+      "file": "img/oct26/40c-recap-summary-end.webp",
+      "source": "40c-recap-summary-end.png",
+      "sha256": "cee259f95319171bb259457c6d70fb33cfcfee35739ff0192ae308e0f27a390b"
+    },
+    {
+      "n": 57,
+      "chapter": "Fixed teams",
+      "person": "Casey",
+      "title": "New team",
+      "file": "img/oct26/41-add-team.webp",
+      "source": "41-add-team.png",
+      "sha256": "553646f8bf3ebfd760bf71077d4bbe47ec52e7daaa3b0a056194c0ba8933dd71"
+    },
+    {
+      "n": 58,
+      "chapter": "Fixed teams",
+      "person": "Casey",
+      "title": "Find a partner",
+      "file": "img/oct26/41b-add-team-search.webp",
+      "source": "41b-add-team-search.png",
+      "sha256": "6f79547311287c9ed0e28b37c9658820ba75d91ba678059c50ed20cc062bdea7"
+    },
+    {
+      "n": 59,
+      "chapter": "Fixed teams",
+      "person": "Casey",
+      "title": "Send the invite",
+      "file": "img/oct26/41c-add-team-selected.webp",
+      "source": "41c-add-team-selected.png",
+      "sha256": "7adc8e2e71439c3a718a384b0ef9cb9c3df10e59979e5c27458f3924602ac4bd"
+    },
+    {
+      "n": 60,
+      "chapter": "Fixed teams",
+      "person": "Casey",
+      "title": "Team page",
+      "file": "img/oct26/43-team-settings.webp",
+      "source": "43-team-settings.png",
+      "sha256": "04070847b09fcedc95795d685194f234bd3d3fb2fbba7d415929acb49c69fa36"
+    },
+    {
+      "n": 61,
+      "chapter": "Scan to play",
+      "person": "Casey",
+      "title": "Plan the match",
+      "file": "img/oct26/44-scan.webp",
+      "source": "44-scan.png",
+      "sha256": "2ee53321c068362ff3eb27d76bbf83d5371394b0ddd5c987632462c7d496abaf"
+    },
+    {
+      "n": 62,
+      "chapter": "Scan to play",
+      "person": "Casey",
+      "title": "Venue",
+      "file": "img/oct26/44b-scan-venue-picker.webp",
+      "source": "44b-scan-venue-picker.png",
+      "sha256": "051112e16d803d54aa41c94b7fb99613d4977304e5722554903e6972b9ce1f00"
+    },
+    {
+      "n": 63,
+      "chapter": "Scan to play",
+      "person": "Casey",
+      "title": "Scan players",
+      "file": "img/oct26/44c-scan-waiting.webp",
+      "source": "44c-scan-waiting.png",
+      "sha256": "f68888f2d9cd0ce10746d7b56cece5b65d3ba79b15604077adced401d0fff045"
+    },
+    {
+      "n": 64,
+      "chapter": "Scan to play",
+      "person": "Casey",
+      "title": "My QR",
+      "file": "img/oct26/45-my-code.webp",
+      "source": "45-my-code.png",
+      "sha256": "95ca890afbadb7f36761f45ff1a10152671bdc01715daeb8191cd1cbf0045a1c"
+    },
+    {
+      "n": 65,
+      "chapter": "Settings, times and venues",
+      "person": "Casey",
+      "title": "League settings",
+      "file": "img/oct26/46-settings.webp",
+      "source": "46-settings.png",
+      "sha256": "e0fd46b8c937336ad44d3c7766a5d5ea733ea54119528d9ca6e193437fda2d9e"
+    },
+    {
+      "n": 66,
+      "chapter": "Settings, times and venues",
+      "person": "Casey",
+      "title": "Privacy and safety",
+      "file": "img/oct26/46b-settings-lower.webp",
+      "source": "46b-settings-lower.png",
+      "sha256": "630958b1f7fd99461a352fefb98f49b54a5f5025570bc1ed4d84d5d604f1af07"
+    },
+    {
+      "n": 67,
+      "chapter": "Settings, times and venues",
+      "person": "Casey",
+      "title": "Notifications",
+      "file": "img/oct26/47-notification-settings.webp",
+      "source": "47-notification-settings.png",
+      "sha256": "855e026fe4dc167b9d9cbca3d0d7421938eae3cb2b55ed1067c52d6e65f74530"
+    },
+    {
+      "n": 68,
+      "chapter": "Settings, times and venues",
+      "person": "Casey",
+      "title": "Your times",
+      "file": "img/oct26/48-times.webp",
+      "source": "48-times.png",
+      "sha256": "66bc54aea56e73ba968815a869bd91fb1a937af91702d91326399d56d1f00f54"
+    },
+    {
+      "n": 69,
+      "chapter": "Settings, times and venues",
+      "person": "Casey",
+      "title": "Suggested times",
+      "file": "img/oct26/48b-times-lower.webp",
+      "source": "48b-times-lower.png",
+      "sha256": "bece528463ccfe00ea4835bf69716fdcf48a2f6a52613fa2bb3652b3454e4768"
+    },
+    {
+      "n": 70,
+      "chapter": "Settings, times and venues",
+      "person": "Casey",
+      "title": "Saved venues",
+      "file": "img/oct26/49-venues.webp",
+      "source": "49-venues.png",
+      "sha256": "f536f02c559dc711facf86b2b80090ee2e8eaabc6b61e9928709e2e9a5a488fa"
+    },
+    {
+      "n": 71,
+      "chapter": "Settings, times and venues",
+      "person": "Casey",
+      "title": "Venue detail",
+      "file": "img/oct26/50-venue-detail.webp",
+      "source": "50-venue-detail.png",
+      "sha256": "b78291997a506abd8f69e478ac24522b921c1267aae6645bdd7df5a3df1c6182"
+    },
+    {
+      "n": 72,
+      "chapter": "Safety and conduct",
+      "person": "Casey",
+      "title": "Blocked players",
+      "file": "img/oct26/51-blocked.webp",
+      "source": "51-blocked.png",
+      "sha256": "4646bf0e974f7df9667d9aaf20eb0207d0df9da0a1e9bc359beb091522a789db"
+    },
+    {
+      "n": 73,
+      "chapter": "Safety and conduct",
+      "person": "Casey",
+      "title": "Conduct record",
+      "file": "img/oct26/52-conduct.webp",
+      "source": "52-conduct.png",
+      "sha256": "96bcbc6d14f5b451ba7c3e0c5140c8681c149d1594820d01293778c30fcdf412"
+    },
+    {
+      "n": 74,
+      "chapter": "Safety and conduct",
+      "person": "Casey",
+      "title": "The report",
+      "file": "img/oct26/52b-conduct-case.webp",
+      "source": "52b-conduct-case.png",
+      "sha256": "6e17a3570cd468a8177ba1d5afa37e4aa5ca5472ebebbe1c8e1aba77c6cd756e"
+    },
+    {
+      "n": 75,
+      "chapter": "Safety and conduct",
+      "person": "Casey",
+      "title": "Challenge",
+      "file": "img/oct26/52c-conduct-challenge.webp",
+      "source": "52c-conduct-challenge.png",
+      "sha256": "fa30d477dc062d31009c6618b5246762adccf558496e791cc635a1fb68753836"
+    },
+    {
+      "n": 76,
+      "chapter": "Safety and conduct",
+      "person": "Casey",
+      "title": "Under review",
+      "file": "img/oct26/52d-conduct-under-review.webp",
+      "source": "52d-conduct-under-review.png",
+      "sha256": "02111a1e862ad76f5ed625ee06c13dfe80fb374243695081b879451bb062bd28"
+    },
+    {
+      "n": 77,
+      "chapter": "Safety and conduct",
+      "person": "Casey",
+      "title": "Home reminder",
+      "file": "img/oct26/53-home-conduct-task.webp",
+      "source": "53-home-conduct-task.png",
+      "sha256": "96713f24a650643a7a7385fcc28433e47bc91d4a9fe8285ed5d8eee57bee7e37"
+    },
+    {
+      "n": 78,
+      "chapter": "Notifications",
+      "person": "Casey",
+      "title": "Inbox",
+      "file": "img/oct26/54-inbox.webp",
+      "source": "54-inbox.png",
+      "sha256": "b5817ca5c6d708a608fe757c6cd15327ebf46e73edad266bb3ba9fa1e5eb01f2"
     }
-  ],
-  "recentFeatureSources": {
-    "leaderboardSearch": "ff4c8ea62",
-    "recapStories": "cd4719716",
-    "latestReviewedAppHead": "f606153a5",
-    "note": "Original feature-verification captures reused after visual inspection. Recap story examples use the shared player with ladder fixtures, not a populated native Circuit League season. Original source fingerprint is preserved in each added capture.",
-    "compactRatings": "772beb5dce08a56a435e57f445c1109b41ec55f8",
-    "badgeExplanations": "fb4dab223a5b932ccbebffbf570a541792214117"
-  },
-  "candidateBaseCommit": "78f080e07cbd8a7ebcd01891a6395b7fb29a2025",
-  "auditFixes": {
-    "evidence": "apps/docs/docs/operations/circuit-league-audit-fixes-plan-2026-10-21.md",
-    "refreshedImages": 33
-  },
-  "mobileUxFixes": {
-    "plan": "apps/docs/docs/operations/circuit-league-mobile-ux-fixes-plan-2026-10-23.md",
-    "newImages": 7
-  }
+  ]
 }
