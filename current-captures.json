@@ -1,6 +1,6 @@
 {
   "capturedOn": "2026-10-26",
-  "appBase": "e4e2ed091 plus setup check-in step fix",
+  "appBase": "2249de472 plus League polish working tree (2026-10-26 evening)",
   "appearance": {
     "platform": "iOS",
     "device": "iPhone 17 Pro simulator",
@@ -99,8 +99,8 @@
       "person": "Blake",
       "title": "Pick hours",
       "file": "img/oct26/07b-setup-time-grid.webp",
-      "source": "07b-setup-time-grid.png",
-      "sha256": "07e19adfb7ecaf69cfc16b8e639a4cbe66e71016b8c1eab2f7e32f2da8a890e5"
+      "source": "10-times-grid.png",
+      "sha256": "00026a00b1bfb401ea3d71f6e5d644f940cd938972e55a4d0bd56c50e0f16cf0"
     },
     {
       "n": 11,
@@ -360,8 +360,8 @@
       "person": "Casey",
       "title": "Final",
       "file": "img/oct26/27-confirmed.webp",
-      "source": "27-confirmed.png",
-      "sha256": "d568bf009e6de402baf5f05cb9d1a838d8568611b0bcf6c910691c255c1cd157"
+      "source": "39-final-win.png",
+      "sha256": "ebe596d58dff1cfa7304f7d48e71349ed27a277ddee842ecb349e284433c4549"
     },
     {
       "n": 40,
@@ -378,8 +378,8 @@
       "person": "Casey",
       "title": "Austin area, Women’s singles",
       "file": "img/oct26/29-board.webp",
-      "source": "29-board.png",
-      "sha256": "a7e7109ac12b77eaf455251028004fdda83246c7d74dead216639bf973432034"
+      "source": "48-leaderboard.png",
+      "sha256": "6f3c6ce5c59180ed4fedae97621bb0d6b037e0543121ec68b29bf0766cf7c410"
     },
     {
       "n": 42,
@@ -450,8 +450,8 @@
       "person": "Casey",
       "title": "Casey’s record",
       "file": "img/oct26/36-stats.webp",
-      "source": "36-stats.png",
-      "sha256": "d9f377a706ec5a4280855b90cbcb2695aac87eec6a927e55b613dc9ca23c2f57"
+      "source": "49-stats.png",
+      "sha256": "abe578832cc2334fda57542f47f98ae3f0f0b68fabab157bc011c571a1ad584e"
     },
     {
       "n": 50,
@@ -459,8 +459,8 @@
       "person": "Casey",
       "title": "Match history",
       "file": "img/oct26/36b-stats-matches.webp",
-      "source": "36b-stats-matches.png",
-      "sha256": "a6fad79e3182c426a453b78ef6c897cbdd35058ef6054ae7b7c2000334185f8e"
+      "source": "50-stats-matches.png",
+      "sha256": "868a0b26b198c3f7a258fd1b47a4b807d8c6fd7da14907085983894552337a2b"
     },
     {
       "n": 51,
@@ -486,8 +486,8 @@
       "person": "Casey",
       "title": "Week of Oct 19",
       "file": "img/oct26/39-recap.webp",
-      "source": "39-recap.png",
-      "sha256": "d2f196418481981c9ad69ad8b039e5d4c18fd21b978e39982cf2b40266a2424e"
+      "source": "53-recap.png",
+      "sha256": "382179606b31dc28de9fbf974f17ed97fc24645ae35fae67a0610b500b8a6bb2"
     },
     {
       "n": 54,
@@ -531,8 +531,8 @@
       "person": "Casey",
       "title": "Find a partner",
       "file": "img/oct26/41b-add-team-search.webp",
-      "source": "41b-add-team-search.png",
-      "sha256": "6f79547311287c9ed0e28b37c9658820ba75d91ba678059c50ed20cc062bdea7"
+      "source": "58-new-team-womens.png",
+      "sha256": "f47ecf5d10d7194249289ed2f034d04bbe7e3b7b0f1e972f1f6dc09ac34764ec"
     },
     {
       "n": 59,
@@ -585,8 +585,8 @@
       "person": "Casey",
       "title": "My QR",
       "file": "img/oct26/45-my-code.webp",
-      "source": "45-my-code.png",
-      "sha256": "95ca890afbadb7f36761f45ff1a10152671bdc01715daeb8191cd1cbf0045a1c"
+      "source": "64-my-qr.png",
+      "sha256": "33aef968c051120cceb960e5e919f3ea3038f6fd546add50bdaf556ddd51fe0d"
     },
     {
       "n": 65,

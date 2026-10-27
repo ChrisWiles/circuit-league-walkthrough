@@ -28,6 +28,22 @@ Commit `e4e2ed091` fixed what players saw on 16 League screens. The changes incl
 
 After that commit, a second pass found that the automatic check-in step at the end of setup had no heading and an inline Continue. It is now a normal setup step: "Check in when you arrive", with Continue pinned in the footer (screen 17). Mobile tests for setup and check-in pass (6 suites, 99 tests).
 
+## Second polish pass (2026-10-26 evening)
+
+A later pass, not yet committed to the app repository when these captures were taken, changed these screens. The tour shows the new versions of the leaderboard, League stats and match history, the weekly recap, My QR, the hour grid, partner search and the Final screen:
+
+- The Final screen glows green only on a win.
+- Match rows show a labeled count of unread chat messages instead of a dot.
+- Leaderboard rows drop the "You" label and show each record large on the right.
+- League stats match history puts the result and opponent on the left and the score and PD on the right.
+- My QR is Circuit green and black, and still decodes with the iOS camera detector.
+- The hour grid no longer shows a check mark on selected hours.
+- Partner search lists only players who fit the chosen category, and the server refuses an invite that does not fit.
+- The conduct notice on League home is a flat row instead of a large brown card.
+- Setup no longer repeats the category rule in a paragraph, but keeps the confirmation checkbox.
+
+Other screens in the tour are still the earlier captures.
+
 ## Page checks
 
 The page was rendered at 360×800, 390×844 and 1280×900 in a headless browser. At those widths:
@@ -41,10 +57,7 @@ The page was rendered at 360×800, 390×844 and 1280×900 in a headless browser.
 
 ## Known gaps the tour shows as they are
 
-- **Provisional and Established together.** League stats show "Provisional" beside "Established" progress (screen 49). The weekly board is frozen at the last publication, while progress is live.
-- **Repeated recap notifications.** The inbox lists several "Your weekly recap is in" items that do not name their week (screen 78).
-- **Suggested times.** These stay empty after times are saved, because nobody else's times are in the local data (screen 69).
 - **Popular times.** Venue detail has too little local data to show popular times (screen 71).
-- **Partner search.** For a Women's doubles team, partner search also lists men. This is not shown in the tour.
+- **Older captures.** The inbox and suggested-times screens predate the second pass. Recap notifications now name their week, and the empty suggested-times message now explains that it fills in once nearby players save times.
 
 Push, email, DUPR submission and payments were not exercised.
