@@ -1,6 +1,6 @@
 {
   "capturedOn": "2026-10-26",
-  "appBase": "01e6c876f (Scan venues nearest first, zones only when the clock differs) on local main",
+  "appBase": "ee207be70 (League partner invites link-only) on local main",
   "appearance": {
     "platform": "iOS",
     "device": "iPhone 17 Pro simulator",
@@ -550,25 +550,25 @@
       "title": "New team",
       "file": "img/oct26/41-add-team.webp",
       "source": "41-add-team.png",
-      "sha256": "553646f8bf3ebfd760bf71077d4bbe47ec52e7daaa3b0a056194c0ba8933dd71"
+      "sha256": "cdc7ca1b0d58008f97534434618ea03b6b08a5b715a4be11d22620cbc4c49215"
     },
     {
       "n": 61,
       "chapter": "Fixed teams",
       "person": "Casey",
-      "title": "Find a partner",
-      "file": "img/oct26/41b-add-team-search.webp",
-      "source": "58-new-team-womens.png",
-      "sha256": "f47ecf5d10d7194249289ed2f034d04bbe7e3b7b0f1e972f1f6dc09ac34764ec"
+      "title": "Send the link",
+      "file": "img/oct26/41b-add-team-share.webp",
+      "source": "41b-add-team-share.png",
+      "sha256": "5aca45389e54b0cc8a47ee7f722d44904966f777b46d426b21fbe72617115e39"
     },
     {
       "n": 62,
       "chapter": "Fixed teams",
       "person": "Casey",
-      "title": "Send the invite",
-      "file": "img/oct26/41c-add-team-selected.webp",
-      "source": "41c-add-team-selected.png",
-      "sha256": "7adc8e2e71439c3a718a384b0ef9cb9c3df10e59979e5c27458f3924602ac4bd"
+      "title": "Link saved",
+      "file": "img/oct26/41c-add-team-link-saved.webp",
+      "source": "41c-add-team-link-saved.png",
+      "sha256": "18fd02d9b6f524cb1c69a06f2d00df38dfa6aab665248b54df076b9e5b8ac495"
     },
     {
       "n": 63,

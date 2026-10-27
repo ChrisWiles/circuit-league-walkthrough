@@ -38,7 +38,7 @@ A later pass, not yet committed to the app repository when these captures were t
 - League stats match history puts the result and opponent on the left and the score and PD on the right.
 - My QR is Circuit green and black, and still decodes with the iOS camera detector.
 - The hour grid no longer shows a check mark on selected hours.
-- Partner search lists only players who fit the chosen category, and the server refuses an invite that does not fit.
+- Partner search lists only players who fit the chosen category, and the server refuses an invite that does not fit. (Partner search was removed in the fifth pass below.)
 - The conduct notice on League home is a flat row instead of a large brown card.
 - Setup no longer repeats the category rule in a paragraph, but keeps the confirmation checkbox.
 - Match chat has hold-to-react with eight reactions, shown as two new screens after Mute or block.
@@ -64,6 +64,16 @@ App commits `c2f902156`, `17e272bc5`, `5aea79394` and `01e6c876f` on local main 
 - In the app, a time names its zone only when the phone's clock differs from the venue's, or in the repeated hour on the night daylight saving ends. The simulator is on Central time, so every retaken time reads without "Central (CT)" (screens 10, 21, 22, 24, 29, 35, 36, 40, 42, 43, 48 and 76 to 80). The inbox (screen 81) keeps its zone on purpose, because notifications are read outside the app.
 - Scan to play lists the nearest venues first, each with its distance, as flat rows (screen 64). Choosing one folds the list to it (screen 65, which replaces the old venue sheet).
 - The story state differs slightly from earlier passes. The score to review is from Elena, not Jade, and ends in a loss (screens 40 and 42). The challenge deadline is 8:26 PM (screen 77).
+
+## Fifth pass (2026-10-26, night)
+
+App commits `7d3a83d79` and `ee207be70` on local main (not pushed) made League partner invites link-only. The owner decided that a fixed partner is someone a player already knows, so there is no in-app player search. The world was rebuilt from an empty database, and three screens were taken again:
+
+- New team asks only for the category and offers Create invite link (screen 60).
+- Creating it opens the share sheet with the link (screen 61, which replaces the old partner search).
+- The invite then waits under Matchmaking, with Share link and Cancel invite, and reads "Expires in 7 days" (screen 62, which replaces the old selected-partner screen). Before `ee207be70`, a link made while the League tab was already open could briefly read "Expires in 8 days".
+
+The tour does not show the partner opening the link, because the fictional partner has no simulator account. That screen did not change in this pass.
 
 ## Page checks
 
