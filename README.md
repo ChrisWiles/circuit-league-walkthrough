@@ -4,7 +4,7 @@
 
 One page follows two fictional players through Circuit League on iPhone. Blake joins: intro, the four setup stages, notifications and automatic check-in. Casey has played for seven weeks: offers, chat, score reporting and review, leaderboards, player records, the weekly recap, fixed teams, Scan to play, settings, safety and notifications.
 
-All 78 screens were captured on October 26, 2026 on an iPhone 17 Pro simulator (iOS 26.4) in Dark appearance at the Default app text size. They come from one walkthrough of the app on local main, after commit `e4e2ed091` and the setup check-in step fix that followed it. Tap any screen to step through the tour full size; arrow keys and swipes move between screens, and `#s12`-style links open a specific screen.
+All 80 screens were captured on October 26, 2026 on an iPhone 17 Pro simulator (iOS 26.4) in Dark appearance at the Default app text size. Most come from one walkthrough of the app on local main, after commit `e4e2ed091` and the setup check-in step fix that followed it. Ten were recaptured that evening after the second polish pass and the new match chat reactions (local main `8babf9c93`). Tap any screen to step through the tour full size; arrow keys and swipes move between screens, and `#s12`-style links open a specific screen.
 
 All people, matches, venues and safety records are fictional local test data. [Capture list](current-captures.json) names every screen and its source file. [Verification and known gaps](current-evidence.md) records what was checked and what the tour does not show.
 

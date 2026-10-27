@@ -41,6 +41,7 @@ A later pass, not yet committed to the app repository when these captures were t
 - Partner search lists only players who fit the chosen category, and the server refuses an invite that does not fit.
 - The conduct notice on League home is a flat row instead of a large brown card.
 - Setup no longer repeats the category rule in a paragraph, but keeps the confirmation checkbox.
+- Match chat has hold-to-react with eight reactions, shown as two new screens after Mute or block.
 
 Other screens in the tour are still the earlier captures.
 
@@ -49,7 +50,7 @@ Other screens in the tour are still the earlier captures.
 The page was rendered at 360×800, 390×844 and 1280×900 in a headless browser. At those widths:
 
 - No page scrolled sideways.
-- All 78 images loaded.
+- All 80 images loaded.
 - The screen viewer fit between its counter and caption.
 - Next and the arrow keys stepped through the screens.
 - Escape closed the viewer.
