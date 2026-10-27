@@ -8,6 +8,19 @@ Eleven screens were recaptured on an iPhone 17 Pro simulator using iOS 26.4, Dar
 
 The updated viewer was checked at 360×800, 390×844 and 1280×900 with no horizontal page overflow; the full-size check-in image loaded and Next advanced to Blake’s home. All 84 asset hashes in the capture list match the image files.
 
+## October 27 one-story recapture
+
+The earlier October 27 recaptures came from a different fictional League, so Casey's home, menu and match screens showed a Thursday match with Maya while the rest of the tour followed a Wednesday match with Sofia. The world was rebuilt from an empty database with the original story (Sofia's Wednesday 6 PM match, Maya's Sunday score to report, Elena's Saturday report to review, Casey and Maya's Women's doubles team, Elena's no-show report), and the app ran from local main `9c88f0cb2` on the same simulator settings. Twenty screens were taken again so they agree with each other and with the screens around them: 7, 18, 19, 21, 23, 29, 30, 43, 44, 46, 48, 49, 50, 55, 57, 66, 67, 68, 69 and 83.
+
+- Choose venues (screen 7) now shows the venue step. Before, it showed an empty times screen.
+- Casey's home, League menu, match details and match actions (19, 23, 29, 30) show the confirmed Wednesday match with Sofia and two unread chat messages. Home reminder (83) shows the conduct row above the same match list.
+- How standings work, Casey's record and Badge details (21, 55, 57) agree: 5–2 over 7 rated singles matches, with the Provisional estimate still pending. The leaderboard views (48 to 50) show the same −1.5% recent point differential as screen 47.
+- Review and Dispute (43, 44) are both Elena's Saturday report, without a time-zone label.
+- Past matches (46) shows results by day, winner first.
+- Scan to play (67 to 69) stays on Pease Park Courts from venue list to scan screen.
+
+The matching options, check-in setup, settings and notification screens (12, 17, 71 to 73) are still from the earlier October 27 pass. While capturing, a mistimed tap skipped Casey's week; it was undone before any screen was taken. No report, dispute or match plan was sent from the app.
+
 ## How the original screens were captured
 
 Every screen comes from one hands-on walkthrough of the Circuit League player app on an iPhone 17 Pro simulator, iOS 26.4, Dark appearance, Default app text size and the normal iOS text size. The app ran from local main after commit `e4e2ed091` plus the setup check-in fix described below, against an isolated local database with fictional players.

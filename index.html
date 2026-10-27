@@ -155,6 +155,7 @@ dialog#lb[open] { display: grid; grid-template-rows: auto minmax(0, 1fr) auto; }
 
 <script>
 const REFRESHED_20261027 = new Set(['08-setup-options', '10d-setup-check-in', '11-blake-home', '12-home', '13-league-menu', '19b-match-menu', '43-team-settings', '46-settings', '46b-settings-lower', '47-notification-settings', '53-home-conduct-task']);
+const REFRESHED_20261027B = new Set(['06-setup-venues', '11-blake-home', '12-home', '12c-standings-info', '13-league-menu', '19-match-upcoming', '19b-match-menu', '25-review', '26-dispute', '28-past', '29b-board-rating', '30-board-near-you', '31-board-filters', '36-stats', '37-badge', '43-team-settings', '44-scan', '44b-scan-venue-chosen', '44c-scan-waiting', '53-home-conduct-task']);
 const CHAPTERS = [
   { id: 'discover', title: 'Discover the League', who: 'What a player sees on the League tab before joining.', person: 'Blake', shots: [
     ['01-intro-match', 'Always open', 'Circuit proposes matches near you, at your times, against players at your level. Joining is free, any day of the year.'],
@@ -176,12 +177,12 @@ const CHAPTERS = [
     ['10-setup-next', 'You’re in', 'Matches depend on who else is free at your times and venues; some weeks there won’t be one. Start matchmaking turns the search on.'],
     ['10b-setup-notifications-prompt', 'Notifications', 'Match offers need an answer within a few hours, so setup asks for notification permission.'],
     ['10d-setup-check-in', 'Automatic check-in', 'Optional and on by default. Near match time, location checks you in and tells players already checked in. Your position stays on your phone.'],
-    ['11-blake-home', 'Blake’s League home', 'Searching for a first singles match, with this week’s times and Skip this week one tap away.'],
+    ['11-blake-home', 'Blake’s League home', 'Searching for a first match in Men’s singles and Men’s rotating doubles, with Wednesday 6–9 PM saved and Skip this week one tap away.'],
   ]},
   { id: 'home', title: 'Casey’s League home', who: 'Seven weeks in: what needs attention, upcoming matches and standing.', person: 'Casey', shots: [
-    ['12-home', 'Home', 'Casey has a confirmed singles match with Maya, and can add times or manage their doubles team.'],
+    ['12-home', 'Home', 'Two scores need Casey: Sunday’s match with Maya to report and Elena’s Saturday report to review. Wednesday’s match with Sofia is confirmed, with two unread chat messages.'],
     ['12b-home-lower', 'This week', 'Season 1, week 7. Last week’s published standings put Casey #1 in the Austin area, Texas and everywhere, still Provisional. The info button holds the detail.'],
-    ['12c-standings-info', 'How standings work', 'The info button explains how rank is worked out and how close Casey is to dropping the Provisional label.'],
+    ['12c-standings-info', 'How standings work', 'Rank comes from League results, adjusted for who Casey played. With 7 rated singles matches, the estimate of when Provisional ends is still pending.'],
     ['12c-home-bottom', 'More League', 'The full leaderboard, last week’s recap, saved venues and invites.'],
     ['13-league-menu', 'League menu', 'My QR code for Scan to play, League settings and the rules.'],
   ]},
@@ -193,7 +194,7 @@ const CHAPTERS = [
     ['17-offer-accepted', 'Accepted', 'Casey has accepted; the match confirms when Sofia does.'],
   ]},
   { id: 'matches', title: 'Confirmed matches and chat', who: 'Everything about a booked match in one place.', person: 'Casey', shots: [
-    ['19-match-upcoming', 'Match details', 'Confirmed for Wednesday 6 PM. Casey can start another search or open match chat.'],
+    ['19-match-upcoming', 'Match details', 'Confirmed for tomorrow, Wednesday, at 6 PM. Casey can start another search or open match chat, which has two unread messages.'],
     ['19b-match-menu', 'Match actions', 'Add to calendar, directions, venue details, report a problem with a player, rules, and Cancel match last.'],
     ['20-chat', 'Match chat', 'Messages with Sofia about Wednesday. The tab bar steps aside so the composer stays clear.'],
     ['20b-chat-players', 'Mute or block', 'From chat, Casey can mute or block Sofia.'],
@@ -209,14 +210,14 @@ const CHAPTERS = [
     ['22b-report-filled', 'Games entered', 'Each score sits beside its player, green for the game winner and coral for the loser.'],
     ['23-report-short-confirm', 'Fewer games than planned', 'Reporting two of three planned games asks first: game 3 won’t have a score.'],
     ['24-report-sent', 'Score sent', 'Casey won 11–6, 9–11, 11–7. Priya reviews it, or it counts automatically Wednesday at 4:27 PM.'],
-    ['25-review', 'Review a score', 'Elena reported Saturday’s match. Score is right confirms it; Something’s wrong opens a dispute. Doing nothing confirms it Wednesday.'],
+    ['25-review', 'Review a score', 'Elena reported Saturday’s match. Score is right confirms it; Something’s wrong opens a dispute. Doing nothing confirms it Thursday at 1:26 PM.'],
     ['26-dispute', 'Dispute', 'Sending a dispute stops the automatic count. If the players don’t agree within 24 hours, the result is voided.'],
     ['27-confirmed', 'Final', 'Elena won 2–1. A loss shows Final without the green glow that a win gets.'],
-    ['28-past', 'Past matches', 'Results by day, winner first, with pending reports marked.'],
+    ['28-past', 'Past matches', 'Results by day, winner first, with each game’s score beside its player.'],
   ]},
   { id: 'leaderboards', title: 'Leaderboards', who: 'Ranks come from League results, adjusted for who you played, and update after Sunday.', person: 'Casey', shots: [
     ['29-board', 'Austin area, Women’s singles', 'Casey is #1 at 5–2, on the highlighted row. Each record sits large on the right; PD is point differential over recent games, and DUPR appears beside each name.'],
-    ['29b-board-rating', 'DUPR rating', 'Casey’s singles DUPR 4.10, 80% reliable, synced Oct 23. It does not set League rank.'],
+    ['29b-board-rating', 'DUPR rating', 'Casey’s singles DUPR 4.10, 80% reliable, updated Oct 24. It does not set League rank.'],
     ['30-board-near-you', 'Near you', 'Narrows the board to players who play mostly within 20 miles of Casey’s favorite venue.'],
     ['31-board-filters', 'Filters', 'Switch between Men’s and Women’s categories.'],
     ['32-board-about', 'About this board', 'Which cities the area includes, how rank and Near you work, and when standings update.'],
@@ -240,7 +241,7 @@ const CHAPTERS = [
     ['41-add-team', 'New team', 'Choose Women’s or Mixed doubles, then Create invite link. There is no player search: a partner is someone Casey already knows.'],
     ['41b-add-team-share', 'Send the link', 'The share sheet opens with the link, ready to text to a friend. It works for 7 days, and only the first person to open it can accept.'],
     ['41c-add-team-link-saved', 'Link saved', 'The invite waits under Matchmaking, with Share link to send it again and Cancel invite. Maya opens it on her own phone and accepts.'],
-    ['43-team-settings', 'Team page', 'Casey and Maya’s Women’s doubles team has not started matchmaking yet. Out for now and End this team remain available.'],
+    ['43-team-settings', 'Team page', 'Casey and Maya’s Women’s doubles team: times, match settings, Out for now, and End this team last.'],
   ]},
   { id: 'scan', title: 'Scan to play', who: 'Already at the courts with someone? Set up a League match on the spot.', person: 'Casey', shots: [
     ['44-scan', 'Plan the match', 'The nearest League venues come first, each with its distance, when the phone already allows location. Without it, saved venues lead.'],
@@ -283,7 +284,8 @@ CHAPTERS.forEach((c, ci) => {
   for (const [file, t, d] of c.shots) {
     const idx = all.length;
     const n = String(idx + 1).padStart(2, '0');
-    const src = `img/oct26/${file}.webp${REFRESHED_20261027.has(file) ? "?v=20261027" : ""}`;
+    const version = REFRESHED_20261027B.has(file) ? '20261027b' : REFRESHED_20261027.has(file) ? '20261027' : '';
+    const src = `img/oct26/${file}.webp${version ? `?v=${version}` : ''}`;
     all.push({ n, t, d, src, chapter: c.title });
     const el = document.createElement('article');
     el.className = 'shot'; el.id = `s${n}`;

@@ -1,6 +1,6 @@
 {
   "capturedOn": "2026-10-26 through 2026-10-27",
-  "appBase": "Original screens: 8d80f68cc or earlier; October 27 replacements: b36cbc2d9 plus uncommitted native-menu icon fix",
+  "appBase": "Original screens: 8d80f68cc or earlier; October 27 replacements: b36cbc2d9 plus native-menu icon fix, then 9c88f0cb2 for the one-story recapture",
   "appearance": {
     "platform": "iOS",
     "device": "iPhone 17 Pro simulator",
@@ -72,8 +72,10 @@
       "person": "Blake",
       "title": "Choose venues",
       "file": "img/oct26/06-setup-venues.webp",
-      "source": "06-setup-venues.png",
-      "sha256": "f33f098e76658af7e88c375cbc64249d0e637297eb482c32db6e651732d08642"
+      "source": "circuit-league-walkthrough-2026-10-26/shots-2026-10-27/06-setup-venues.png",
+      "sha256": "683bbfb90b26b506df36818e894a89352bb3d8f06440acee24a35fca942c289d",
+      "capturedOn": "2026-10-27",
+      "appBase": "9c88f0cb2"
     },
     {
       "n": 8,
@@ -176,10 +178,10 @@
       "person": "Blake",
       "title": "Blake’s League home",
       "file": "img/oct26/11-blake-home.webp",
-      "source": "circuit-league-recapture-2026-10-27/11-blake-home.png",
-      "sha256": "4f8d37f866811e24310da5bcdd5cb1fab7133ac1eae9682f21bee4a54776cd7b",
+      "source": "circuit-league-walkthrough-2026-10-26/shots-2026-10-27/11-blake-home.png",
+      "sha256": "c086006fb7382415add0fe0bdeaec04e68812d59056d5a237a50bfa40ee84853",
       "capturedOn": "2026-10-27",
-      "appBase": "b36cbc2d9 plus uncommitted native-menu icon fix"
+      "appBase": "9c88f0cb2"
     },
     {
       "n": 19,
@@ -187,10 +189,10 @@
       "person": "Casey",
       "title": "Home",
       "file": "img/oct26/12-home.webp",
-      "source": "circuit-league-recapture-2026-10-27/12-home.png",
-      "sha256": "51913f2943e8eb70dd0ac0b4805136c61c93d8129761452047588963c36cca3a",
+      "source": "circuit-league-walkthrough-2026-10-26/shots-2026-10-27/12-home.png",
+      "sha256": "2f554d8a19941294e3c038fe926288f6e8c8d5c1e2b9bb638239f4b430db7be0",
       "capturedOn": "2026-10-27",
-      "appBase": "b36cbc2d9 plus uncommitted native-menu icon fix"
+      "appBase": "9c88f0cb2"
     },
     {
       "n": 20,
@@ -207,8 +209,10 @@
       "person": "Casey",
       "title": "How standings work",
       "file": "img/oct26/12c-standings-info.webp",
-      "source": "12c-standings-info.png",
-      "sha256": "80e12888e62502f6e06da93e94c8fc9b036f753b4e3248ca63b198646f00c84b"
+      "source": "circuit-league-walkthrough-2026-10-26/shots-2026-10-27/12c-standings-info.png",
+      "sha256": "d1fce5a38a2a41544e005b38a14835ca53de2cc2e48d4da105cdc25d8a912925",
+      "capturedOn": "2026-10-27",
+      "appBase": "9c88f0cb2"
     },
     {
       "n": 22,
@@ -225,10 +229,10 @@
       "person": "Casey",
       "title": "League menu",
       "file": "img/oct26/13-league-menu.webp",
-      "source": "circuit-league-recapture-2026-10-27/13-league-menu.png",
-      "sha256": "9dc0e5918da4289b9dc2535ab111d5b1ce736468fd0fb01e72b840fc9bec4ae9",
+      "source": "circuit-league-walkthrough-2026-10-26/shots-2026-10-27/13-league-menu.png",
+      "sha256": "092ed0e8d2ba303c3235810f249b52a5220197c93f5ada13ffbdda05dfc076a5",
       "capturedOn": "2026-10-27",
-      "appBase": "b36cbc2d9 plus uncommitted native-menu icon fix"
+      "appBase": "9c88f0cb2"
     },
     {
       "n": 24,
@@ -281,8 +285,10 @@
       "person": "Casey",
       "title": "Match details",
       "file": "img/oct26/19-match-upcoming.webp",
-      "source": "19-match-upcoming.png",
-      "sha256": "1252e82b2aea9629992444b37a38bf7cbd1299b4564ca7fd7c8931a4169589b1"
+      "source": "circuit-league-walkthrough-2026-10-26/shots-2026-10-27/19-match-upcoming.png",
+      "sha256": "497de94ffd7c0b9d277f00ea7c35d2cb0fb33acccf15c3538da40e9b113aa322",
+      "capturedOn": "2026-10-27",
+      "appBase": "9c88f0cb2"
     },
     {
       "n": 30,
@@ -290,10 +296,10 @@
       "person": "Casey",
       "title": "Match actions",
       "file": "img/oct26/19b-match-menu.webp",
-      "source": "circuit-league-recapture-2026-10-27/19b-match-menu.png",
-      "sha256": "ffffbc8ec78f0b6e9513008a11efdfad9a0c2b818c77d52dc8cb45e72f46bfb7",
+      "source": "circuit-league-walkthrough-2026-10-26/shots-2026-10-27/19b-match-menu.png",
+      "sha256": "7d2ce9f3bad0365c1cb685d0dabaad9ce355764738773067b39e55493a54f047",
       "capturedOn": "2026-10-27",
-      "appBase": "b36cbc2d9 plus uncommitted native-menu icon fix"
+      "appBase": "9c88f0cb2"
     },
     {
       "n": 31,
@@ -409,8 +415,10 @@
       "person": "Casey",
       "title": "Review a score",
       "file": "img/oct26/25-review.webp",
-      "source": "25-review.png",
-      "sha256": "aaaee2598ff96f7024a717a88d0ee0cf1864f75abc941f14586b77a26a121876"
+      "source": "circuit-league-walkthrough-2026-10-26/shots-2026-10-27/25-review.png",
+      "sha256": "1d4f741eb19c6a02d0ee47b538c08d8325648b1dac8f364aed26b0e61315b2c9",
+      "capturedOn": "2026-10-27",
+      "appBase": "9c88f0cb2"
     },
     {
       "n": 44,
@@ -418,8 +426,10 @@
       "person": "Casey",
       "title": "Dispute",
       "file": "img/oct26/26-dispute.webp",
-      "source": "26-dispute.png",
-      "sha256": "0b57e6b7136fbfda0196ef721c0d0c0f919a4ca16205951395c4aa0fa6c83329"
+      "source": "circuit-league-walkthrough-2026-10-26/shots-2026-10-27/26-dispute.png",
+      "sha256": "edad6f590f9fd0159f0977232b231055c8fc31b48b244a6b658aadfb24c66f3f",
+      "capturedOn": "2026-10-27",
+      "appBase": "9c88f0cb2"
     },
     {
       "n": 45,
@@ -436,8 +446,10 @@
       "person": "Casey",
       "title": "Past matches",
       "file": "img/oct26/28-past.webp",
-      "source": "28-past.png",
-      "sha256": "4ca247ddbb64ed4896b002115000f8bf424f58215bb9f5e0d8ac129b9a4127bf"
+      "source": "circuit-league-walkthrough-2026-10-26/shots-2026-10-27/28-past.png",
+      "sha256": "47599a203c9c7b34c3a57bb44d606ad9a2426a810501f3c12b712d5f75da3ff4",
+      "capturedOn": "2026-10-27",
+      "appBase": "9c88f0cb2"
     },
     {
       "n": 47,
@@ -454,8 +466,10 @@
       "person": "Casey",
       "title": "DUPR rating",
       "file": "img/oct26/29b-board-rating.webp",
-      "source": "29b-board-rating.png",
-      "sha256": "70dd41aa83e6342b99c00d982a2c3c13154b3486a8b06d181b3917c4dcd1e1b9"
+      "source": "circuit-league-walkthrough-2026-10-26/shots-2026-10-27/29b-board-rating.png",
+      "sha256": "ea8613b4df383f42feb5eb56e336e9b1a02de859fb44f72188926b1c44d55bdc",
+      "capturedOn": "2026-10-27",
+      "appBase": "9c88f0cb2"
     },
     {
       "n": 49,
@@ -463,8 +477,10 @@
       "person": "Casey",
       "title": "Near you",
       "file": "img/oct26/30-board-near-you.webp",
-      "source": "30-board-near-you.png",
-      "sha256": "83a032885d12372402dab2335e40ff69daf9e3658fc7300020f6444bbded5bb3"
+      "source": "circuit-league-walkthrough-2026-10-26/shots-2026-10-27/30-board-near-you.png",
+      "sha256": "1e46e7c1c5888bc6131088aab6f6b26f425ce660853f7c0eeb5fffb6b4692a98",
+      "capturedOn": "2026-10-27",
+      "appBase": "9c88f0cb2"
     },
     {
       "n": 50,
@@ -472,8 +488,10 @@
       "person": "Casey",
       "title": "Filters",
       "file": "img/oct26/31-board-filters.webp",
-      "source": "31-board-filters.png",
-      "sha256": "3bb24737a08f316a7d1ca518dbbe5ee7304bd6f218a51ed00b7a4408234592d1"
+      "source": "circuit-league-walkthrough-2026-10-26/shots-2026-10-27/31-board-filters.png",
+      "sha256": "119a55a5bcf0787fc9a84227c19a3f5f653e703122b3ae2090d23c818554e182",
+      "capturedOn": "2026-10-27",
+      "appBase": "9c88f0cb2"
     },
     {
       "n": 51,
@@ -517,8 +535,10 @@
       "person": "Casey",
       "title": "Casey’s record",
       "file": "img/oct26/36-stats.webp",
-      "source": "49-stats.png",
-      "sha256": "2ed773da0c5991d31babb8a3c0e434901dac764e676e592d29a4d3275c0991a8"
+      "source": "circuit-league-walkthrough-2026-10-26/shots-2026-10-27/36-stats.png",
+      "sha256": "7a9ad3ef281511202ce3f6d58fe744d162ed9c64e511ec12861a3013f9cf90a3",
+      "capturedOn": "2026-10-27",
+      "appBase": "9c88f0cb2"
     },
     {
       "n": 56,
@@ -535,8 +555,10 @@
       "person": "Casey",
       "title": "Badge details",
       "file": "img/oct26/37-badge.webp",
-      "source": "37-badge.png",
-      "sha256": "dc5616888d538be60f23bd190b65155bb65fe0ab0ef36d404d699fb2cea8be09"
+      "source": "circuit-league-walkthrough-2026-10-26/shots-2026-10-27/37-badge.png",
+      "sha256": "8914625dcfd10c0e9ae80c7bf53d0ed46064303607bbf3fbac2cec45531f8acd",
+      "capturedOn": "2026-10-27",
+      "appBase": "9c88f0cb2"
     },
     {
       "n": 58,
@@ -616,10 +638,10 @@
       "person": "Casey",
       "title": "Team page",
       "file": "img/oct26/43-team-settings.webp",
-      "source": "circuit-league-recapture-2026-10-27/43-team-settings.png",
-      "sha256": "e868479c193859251eb2a704f9e2e5b5096ea45604e7ab527926900c4897685e",
+      "source": "circuit-league-walkthrough-2026-10-26/shots-2026-10-27/43-team-settings.png",
+      "sha256": "e6f8aa3bfeb9c19342a14129f74594e9666550e4ac512378c5012e77140fee4d",
       "capturedOn": "2026-10-27",
-      "appBase": "b36cbc2d9 plus uncommitted native-menu icon fix"
+      "appBase": "9c88f0cb2"
     },
     {
       "n": 67,
@@ -627,8 +649,10 @@
       "person": "Casey",
       "title": "Plan the match",
       "file": "img/oct26/44-scan.webp",
-      "source": "44-scan.png",
-      "sha256": "d4615e6b4f58ad4f39edc30c620c73a3398739f0f31dd795520a2e3c0ac5a427"
+      "source": "circuit-league-walkthrough-2026-10-26/shots-2026-10-27/44-scan.png",
+      "sha256": "aad6ba850e89d088bc3a76527a1544f130eba9d5be37c8e5e86aabd96df397d6",
+      "capturedOn": "2026-10-27",
+      "appBase": "9c88f0cb2"
     },
     {
       "n": 68,
@@ -636,8 +660,10 @@
       "person": "Casey",
       "title": "Venue chosen",
       "file": "img/oct26/44b-scan-venue-chosen.webp",
-      "source": "44b-scan-venue-chosen.png",
-      "sha256": "e7cd0f748864b7d781c9657c2490484fb9aa164d2eff3dc5cc3f1996132524fa"
+      "source": "circuit-league-walkthrough-2026-10-26/shots-2026-10-27/44b-scan-venue-chosen.png",
+      "sha256": "b1432cae226d135fb48fdd63a0226ee5ecbc7c35bf9762c96c4cdcfcde320289",
+      "capturedOn": "2026-10-27",
+      "appBase": "9c88f0cb2"
     },
     {
       "n": 69,
@@ -645,8 +671,10 @@
       "person": "Casey",
       "title": "Scan players",
       "file": "img/oct26/44c-scan-waiting.webp",
-      "source": "44c-scan-waiting.png",
-      "sha256": "f68888f2d9cd0ce10746d7b56cece5b65d3ba79b15604077adced401d0fff045"
+      "source": "circuit-league-walkthrough-2026-10-26/shots-2026-10-27/44c-scan-waiting.png",
+      "sha256": "cbd8b306b9cb45aed94be48b60f525f439f49db820e35bd9444ccbf968b34986",
+      "capturedOn": "2026-10-27",
+      "appBase": "9c88f0cb2"
     },
     {
       "n": 70,
@@ -777,10 +805,10 @@
       "person": "Casey",
       "title": "Home reminder",
       "file": "img/oct26/53-home-conduct-task.webp",
-      "source": "circuit-league-recapture-2026-10-27/53-home-conduct-task.png",
-      "sha256": "99ce0222c08ea6f9cdaa65d0b064b2787a7f0b9a25e206d6d7b78ced114d299d",
+      "source": "circuit-league-walkthrough-2026-10-26/shots-2026-10-27/53-home-conduct-task.png",
+      "sha256": "9b86d7b48a244d81fea7ef07eb9b991acaf0def59b22bc7270424925f38b59fb",
       "capturedOn": "2026-10-27",
-      "appBase": "b36cbc2d9 plus uncommitted native-menu icon fix"
+      "appBase": "9c88f0cb2"
     },
     {
       "n": 84,
