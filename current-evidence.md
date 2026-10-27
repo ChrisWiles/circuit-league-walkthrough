@@ -57,6 +57,14 @@ App commit `b9c600d12` on local main (not pushed) changed reactions and This wee
 
 Other screens in the tour are still the earlier captures.
 
+## Fourth pass (2026-10-26, night)
+
+App commits `c2f902156`, `17e272bc5`, `5aea79394` and `01e6c876f` on local main (not pushed) changed time zones and the Scan to play venue list. The world was rebuilt from an empty database, and the simulator was placed in Austin with location allowed. Eighteen screens were taken again:
+
+- In the app, a time names its zone only when the phone's clock differs from the venue's, or in the repeated hour on the night daylight saving ends. The simulator is on Central time, so every retaken time reads without "Central (CT)" (screens 10, 21, 22, 24, 29, 35, 36, 40, 42, 43, 48 and 76 to 80). The inbox (screen 81) keeps its zone on purpose, because notifications are read outside the app.
+- Scan to play lists the nearest venues first, each with its distance, as flat rows (screen 64). Choosing one folds the list to it (screen 65, which replaces the old venue sheet).
+- The story state differs slightly from earlier passes. The score to review is from Elena, not Jade, and ends in a loss (screens 40 and 42). The challenge deadline is 8:26 PM (screen 77).
+
 ## Page checks
 
 The page was rendered at 360×800, 390×844 and 1280×900 in a headless browser. At those widths:
