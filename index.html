@@ -135,7 +135,7 @@ dialog#lb[open] { display: grid; grid-template-rows: auto minmax(0, 1fr) auto; }
 
 <footer class="wrap notes">
   <h2>About this tour</h2>
-  <p>Captured October 26, 2026 on an iPhone 17 Pro simulator running iOS 26.4, in Dark appearance at the Default app text size. Every person, match, venue and safety record is fictional local test data.</p>
+  <p>Captured October 26–27, 2026 on an iPhone 17 Pro simulator running iOS 26.4, in Dark appearance at the Default app text size. Eleven screens were recaptured using a rebuilt fictional League, so their match and team details can differ from the original story. Every person, match, venue and safety record is fictional local test data.</p>
   <p>Screens show the state the app was in at capture time, so some show a step in progress, such as a score waiting for the other side. <a href="current-evidence.md">Verification and known gaps</a> · <a href="current-captures.json">Capture list</a></p>
 </footer>
 
@@ -154,6 +154,7 @@ dialog#lb[open] { display: grid; grid-template-rows: auto minmax(0, 1fr) auto; }
 </dialog>
 
 <script>
+const REFRESHED_20261027 = new Set(['08-setup-options', '10d-setup-check-in', '11-blake-home', '12-home', '13-league-menu', '19b-match-menu', '43-team-settings', '46-settings', '46b-settings-lower', '47-notification-settings', '53-home-conduct-task']);
 const CHAPTERS = [
   { id: 'discover', title: 'Discover the League', who: 'What a player sees on the League tab before joining.', person: 'Blake', shots: [
     ['01-intro-match', 'Always open', 'Circuit proposes matches near you, at your times, against players at your level. Joining is free, any day of the year.'],
@@ -169,16 +170,16 @@ const CHAPTERS = [
     ['07-setup-times', 'Your times', 'Add the times you can play this week or next. Skipping this step is allowed, but matchmaking waits for times.'],
     ['07b-setup-time-grid', 'Pick hours', 'Wednesday 6 to 9 PM. No time zone: Blake’s phone already reads the venues’ clock. A phone on another clock would see “Central”.'],
     ['07c-setup-times-saved', 'Times saved', 'Wednesday 6–9 PM is saved; Edit times or the × changes it.'],
-    ['08-setup-options', 'Matching options', 'Matches are three games to 11, win by 2. Optional: a wider level range after a long wait, and auto-accepting matches inside your times.'],
+    ['08-setup-options', 'Matching options', 'Matches are three games to 11, win by 2. Blake can allow a wider level range; automatic matching and acceptance need saved venues and times.'],
     ['09-setup-terms', 'Release and terms', 'Join the League stays off until both boxes are checked, and the footer says so.'],
     ['09b-setup-acceptances', 'Both accepted', 'The release and the League terms, including individual arbitration, are accepted separately. The full terms open from the link.'],
     ['10-setup-next', 'You’re in', 'Matches depend on who else is free at your times and venues; some weeks there won’t be one. Start matchmaking turns the search on.'],
     ['10b-setup-notifications-prompt', 'Notifications', 'Match offers need an answer within a few hours, so setup asks for notification permission.'],
     ['10d-setup-check-in', 'Automatic check-in', 'Optional and on by default. Near match time, location checks you in and tells players already checked in. Your position stays on your phone.'],
-    ['11-blake-home', 'Blake’s League home', 'Searching for a first match in Singles and Rotating doubles, with this week’s times and Skip this week one tap away.'],
+    ['11-blake-home', 'Blake’s League home', 'Searching for a first singles match, with this week’s times and Skip this week one tap away.'],
   ]},
   { id: 'home', title: 'Casey’s League home', who: 'Seven weeks in: what needs attention, upcoming matches and standing.', person: 'Casey', shots: [
-    ['12-home', 'Home', '#1 in the Austin area for Women’s singles. Wednesday’s match with Sofia is confirmed, and singles search stopped after it was booked.'],
+    ['12-home', 'Home', 'Casey has a confirmed singles match with Maya, and can add times or manage their doubles team.'],
     ['12b-home-lower', 'This week', 'Season 1, week 7. Last week’s published standings put Casey #1 in the Austin area, Texas and everywhere, still Provisional. The info button holds the detail.'],
     ['12c-standings-info', 'How standings work', 'The info button explains how rank is worked out and how close Casey is to dropping the Provisional label.'],
     ['12c-home-bottom', 'More League', 'The full leaderboard, last week’s recap, saved venues and invites.'],
@@ -239,7 +240,7 @@ const CHAPTERS = [
     ['41-add-team', 'New team', 'Choose Women’s or Mixed doubles, then Create invite link. There is no player search: a partner is someone Casey already knows.'],
     ['41b-add-team-share', 'Send the link', 'The share sheet opens with the link, ready to text to a friend. It works for 7 days, and only the first person to open it can accept.'],
     ['41c-add-team-link-saved', 'Link saved', 'The invite waits under Matchmaking, with Share link to send it again and Cancel invite. Maya opens it on her own phone and accepts.'],
-    ['43-team-settings', 'Team page', 'Casey and Maya’s Women’s doubles team: times, match settings, Out for now, and End this team last.'],
+    ['43-team-settings', 'Team page', 'Casey and Maya’s Women’s doubles team has not started matchmaking yet. Out for now and End this team remain available.'],
   ]},
   { id: 'scan', title: 'Scan to play', who: 'Already at the courts with someone? Set up a League match on the spot.', person: 'Casey', shots: [
     ['44-scan', 'Plan the match', 'The nearest League venues come first, each with its distance, when the phone already allows location. Without it, saved venues lead.'],
@@ -282,7 +283,7 @@ CHAPTERS.forEach((c, ci) => {
   for (const [file, t, d] of c.shots) {
     const idx = all.length;
     const n = String(idx + 1).padStart(2, '0');
-    const src = `img/oct26/${file}.webp`;
+    const src = `img/oct26/${file}.webp${REFRESHED_20261027.has(file) ? "?v=20261027" : ""}`;
     all.push({ n, t, d, src, chapter: c.title });
     const el = document.createElement('article');
     el.className = 'shot'; el.id = `s${n}`;

@@ -1,6 +1,6 @@
 {
-  "capturedOn": "2026-10-26",
-  "appBase": "8d80f68cc (shared hold-to-react chat menu) on local main",
+  "capturedOn": "2026-10-26 through 2026-10-27",
+  "appBase": "Original screens: 8d80f68cc or earlier; October 27 replacements: b36cbc2d9 plus uncommitted native-menu icon fix",
   "appearance": {
     "platform": "iOS",
     "device": "iPhone 17 Pro simulator",
@@ -64,7 +64,7 @@
       "title": "How you play",
       "file": "img/oct26/05-setup-how.webp",
       "source": "05-setup-how.png",
-      "sha256": "82e480889ba2c23128b415d4367b3cd113e1dc40a28ee428856290213ed75cee"
+      "sha256": "77e691c443961738fd1ad675ac89777958dda759af693204a463c4cb0fe0c1b5"
     },
     {
       "n": 7,
@@ -100,7 +100,7 @@
       "title": "Pick hours",
       "file": "img/oct26/07b-setup-time-grid.webp",
       "source": "07b-setup-time-grid.png",
-      "sha256": "0dcb30d9729cab9e787211e04b9c7ee58e730d02e57f722edcab398046799b4a"
+      "sha256": "7121b177fb5b8bfb2d59203f2fde05213c23443898313dedd721970c9988e03e"
     },
     {
       "n": 11,
@@ -117,8 +117,10 @@
       "person": "Blake",
       "title": "Matching options",
       "file": "img/oct26/08-setup-options.webp",
-      "source": "08-setup-options.png",
-      "sha256": "44c6c159b0a5ccc36dde95e08d613f6896af1eb8e99d04e3b9b09137e8478aed"
+      "source": "circuit-league-recapture-2026-10-27/08-setup-options.png",
+      "sha256": "4d2fcadd22d37398935fc340e3d357df8fa4189211adb546bd74b9d877a6ec81",
+      "capturedOn": "2026-10-27",
+      "appBase": "b36cbc2d9 plus uncommitted native-menu icon fix"
     },
     {
       "n": 13,
@@ -162,8 +164,11 @@
       "person": "Blake",
       "title": "Automatic check-in",
       "file": "img/oct26/10d-setup-check-in.webp",
-      "source": "10d-setup-check-in.png",
-      "sha256": "3a2ca27a715dd89ad9e59e86576385b95e44cde28277f3600045d186eaa93853"
+      "source": "circuit-league-recapture-2026-10-27/10d-setup-check-in.png",
+      "sha256": "b2bd9c9c2a4b42d4b4d18a2925b3e2c5489a0e5672d0e6ce6f8fd5f6c33013ba",
+      "capturedOn": "2026-10-27",
+      "appBase": "b36cbc2d9 plus uncommitted native-menu icon fix",
+      "captureNote": "Real post-join check-in screen opened through a temporary development-only setup entry; the temporary change was reverted."
     },
     {
       "n": 18,
@@ -171,8 +176,10 @@
       "person": "Blake",
       "title": "Blake’s League home",
       "file": "img/oct26/11-blake-home.webp",
-      "source": "11-blake-home.png",
-      "sha256": "0b422bf9ed4f98dff0e5eb6ddab0c94feaca56a8e98d19d0bb44a1bcf128769a"
+      "source": "circuit-league-recapture-2026-10-27/11-blake-home.png",
+      "sha256": "4f8d37f866811e24310da5bcdd5cb1fab7133ac1eae9682f21bee4a54776cd7b",
+      "capturedOn": "2026-10-27",
+      "appBase": "b36cbc2d9 plus uncommitted native-menu icon fix"
     },
     {
       "n": 19,
@@ -180,8 +187,10 @@
       "person": "Casey",
       "title": "Home",
       "file": "img/oct26/12-home.webp",
-      "source": "12-home.png",
-      "sha256": "ed5b21f2c22b602f85159ac77ca575552bf84e0adbc3b8c038bfdd489394c264"
+      "source": "circuit-league-recapture-2026-10-27/12-home.png",
+      "sha256": "51913f2943e8eb70dd0ac0b4805136c61c93d8129761452047588963c36cca3a",
+      "capturedOn": "2026-10-27",
+      "appBase": "b36cbc2d9 plus uncommitted native-menu icon fix"
     },
     {
       "n": 20,
@@ -190,7 +199,7 @@
       "title": "This week",
       "file": "img/oct26/12b-home-lower.webp",
       "source": "12b-home-lower.png",
-      "sha256": "e29483d655db9cae5aee7b15d95f7e5518542c3e54474be82efe3feeeae75246"
+      "sha256": "264d72a97bd367c53a297d8129741e21a9909247c8fd30abedfa8fc90a7cbdf4"
     },
     {
       "n": 21,
@@ -199,7 +208,7 @@
       "title": "How standings work",
       "file": "img/oct26/12c-standings-info.webp",
       "source": "12c-standings-info.png",
-      "sha256": "61c82beb244d366f51b97c849c36e497bbda23fb4d4969526ec0e865d45951f5"
+      "sha256": "80e12888e62502f6e06da93e94c8fc9b036f753b4e3248ca63b198646f00c84b"
     },
     {
       "n": 22,
@@ -208,7 +217,7 @@
       "title": "More League",
       "file": "img/oct26/12c-home-bottom.webp",
       "source": "12c-home-bottom.png",
-      "sha256": "1ed4c3d3642c1ae6682e61543126396c1d3ae1f5b27197aa4e6f28201f3f3b08"
+      "sha256": "686bb8e52e1ec79ef4eb4767edd4ebb10d502fa27c2fe138d9485d1e1f8222cb"
     },
     {
       "n": 23,
@@ -216,8 +225,10 @@
       "person": "Casey",
       "title": "League menu",
       "file": "img/oct26/13-league-menu.webp",
-      "source": "13-league-menu.png",
-      "sha256": "c23f4b7721cf054f30c814243df87c6c9d8ad0c4d013cd3ab5a7c0b2b345db34"
+      "source": "circuit-league-recapture-2026-10-27/13-league-menu.png",
+      "sha256": "9dc0e5918da4289b9dc2535ab111d5b1ce736468fd0fb01e72b840fc9bec4ae9",
+      "capturedOn": "2026-10-27",
+      "appBase": "b36cbc2d9 plus uncommitted native-menu icon fix"
     },
     {
       "n": 24,
@@ -226,7 +237,7 @@
       "title": "Match found",
       "file": "img/oct26/14-offer.webp",
       "source": "14-offer.png",
-      "sha256": "3215d6327407d259ac3359c728eb5d7e4ac42d5d78b10d11b79a56a987d3455b"
+      "sha256": "f9b440a71eb7a17b55d7e3f513394e58ef9cc1a630398b01033aa20f4c186d77"
     },
     {
       "n": 25,
@@ -271,7 +282,7 @@
       "title": "Match details",
       "file": "img/oct26/19-match-upcoming.webp",
       "source": "19-match-upcoming.png",
-      "sha256": "ab39ca1121e467b16793c3d1aea13d4310da04af08e5e669ade95a33501bef13"
+      "sha256": "1252e82b2aea9629992444b37a38bf7cbd1299b4564ca7fd7c8931a4169589b1"
     },
     {
       "n": 30,
@@ -279,8 +290,10 @@
       "person": "Casey",
       "title": "Match actions",
       "file": "img/oct26/19b-match-menu.webp",
-      "source": "19b-match-menu.png",
-      "sha256": "6c57699a3b700ade9777b812f0b1d7abc4d39ea6fe06be93228fc98a1f1ba535"
+      "source": "circuit-league-recapture-2026-10-27/19b-match-menu.png",
+      "sha256": "ffffbc8ec78f0b6e9513008a11efdfad9a0c2b818c77d52dc8cb45e72f46bfb7",
+      "capturedOn": "2026-10-27",
+      "appBase": "b36cbc2d9 plus uncommitted native-menu icon fix"
     },
     {
       "n": 31,
@@ -307,7 +320,7 @@
       "title": "Hold a message",
       "file": "img/oct26/20c-chat-hold.webp",
       "source": "20c-chat-hold.png",
-      "sha256": "3849b3121211a3ac392441952409f144c743c49db383d651498d5937285926ae"
+      "sha256": "d612dcc6b4dfbba285248a3099a50b70198ede848086d478a62509dcaf58ba5b"
     },
     {
       "n": 34,
@@ -316,7 +329,7 @@
       "title": "All reactions",
       "file": "img/oct26/20d-chat-all-reactions.webp",
       "source": "20d-chat-all-reactions.png",
-      "sha256": "f9cb9e65c906b735f9bb4c9bdeb96b1c1274bfaa0bb4a236b3a872df44051d40"
+      "sha256": "623bf54e7099a136ad8f9e7ef2c10ce1505cd7b54b4b67862e0971a857a588d0"
     },
     {
       "n": 35,
@@ -325,7 +338,7 @@
       "title": "Reply",
       "file": "img/oct26/20e-chat-reply-composer.webp",
       "source": "20e-chat-reply-composer.png",
-      "sha256": "00b1ec0194ba641f429247d3dea86498ece4c198b433dccb02a5f96168196aef"
+      "sha256": "b2fc3d314250a8dbd747ab46b8a2b66904bb7fac7884c42bdf85afe3159625fd"
     },
     {
       "n": 36,
@@ -334,7 +347,7 @@
       "title": "The reply",
       "file": "img/oct26/20f-chat-replied.webp",
       "source": "20f-chat-replied.png",
-      "sha256": "03c88389df78543596d6398b8e6b88e7cb7be39a1abdb461038a882a4bcf1240"
+      "sha256": "bd4e4c30bb0bf7992944171ebe2835f938547bdc457fad6345b31c1071a45726"
     },
     {
       "n": 37,
@@ -343,7 +356,7 @@
       "title": "Report a message",
       "file": "img/oct26/20g-chat-report.webp",
       "source": "20g-chat-report.png",
-      "sha256": "edd030a57dbdda1bae0c4501b3858588c8a4807dcdf32df2bd92ad2e9ba154ae"
+      "sha256": "f7f22a49e0ae1c1139fae0578f0dfdc73f753a1ec2656a265aa9159625038033"
     },
     {
       "n": 38,
@@ -352,7 +365,7 @@
       "title": "Score due",
       "file": "img/oct26/21-score-due.webp",
       "source": "21-score-due.png",
-      "sha256": "79e09dec8399fb54fcfdc1ad1de9a0467644a757157acbdf7a6430eddc75b1ac"
+      "sha256": "6b2953815afa9a6fd11ff22302ab634c34f44ff4605a5a0b223733a5a47038d9"
     },
     {
       "n": 39,
@@ -361,7 +374,7 @@
       "title": "Report form",
       "file": "img/oct26/22-report-form.webp",
       "source": "22-report-form.png",
-      "sha256": "b017fb71fb35cf8eca1a986827b2a188e7d8024d4609ae31a1e9093efb26c750"
+      "sha256": "897a8a7f5693fdf54a87fbbbe18218849ca932e5cc2db3eda39d4e887fd3d81f"
     },
     {
       "n": 40,
@@ -397,7 +410,7 @@
       "title": "Review a score",
       "file": "img/oct26/25-review.webp",
       "source": "25-review.png",
-      "sha256": "7a1a6f67f41103cdc21e3777fb19d1df98df64e51efc5f4e48570b501ac0b12e"
+      "sha256": "aaaee2598ff96f7024a717a88d0ee0cf1864f75abc941f14586b77a26a121876"
     },
     {
       "n": 44,
@@ -415,7 +428,7 @@
       "title": "Final",
       "file": "img/oct26/27-confirmed.webp",
       "source": "27-confirmed.png",
-      "sha256": "76705e44c2b8499331059a5e146add8530774e4d20be5009459d5f2bf928b812"
+      "sha256": "6d56f9dcbb79814a41e0656188e746279559c4b50a42c86d3a5da4ca7e5aef8b"
     },
     {
       "n": 46,
@@ -424,7 +437,7 @@
       "title": "Past matches",
       "file": "img/oct26/28-past.webp",
       "source": "28-past.png",
-      "sha256": "51bcb6a203d5b06eed813a13226dc6e3498f00ea6dd1e7be92bf9cf04954b5ef"
+      "sha256": "4ca247ddbb64ed4896b002115000f8bf424f58215bb9f5e0d8ac129b9a4127bf"
     },
     {
       "n": 47,
@@ -433,7 +446,7 @@
       "title": "Austin area, Women’s singles",
       "file": "img/oct26/29-board.webp",
       "source": "48-leaderboard.png",
-      "sha256": "6f3c6ce5c59180ed4fedae97621bb0d6b037e0543121ec68b29bf0766cf7c410"
+      "sha256": "fc9038664278dbb4b147b1afb31d63487c1fa8e86986194f736dd97ac799f8c9"
     },
     {
       "n": 48,
@@ -469,7 +482,7 @@
       "title": "About this board",
       "file": "img/oct26/32-board-about.webp",
       "source": "32-board-about.png",
-      "sha256": "a3a722378bd27b7d8a10759404941237828f15347687de0926c57453d9011595"
+      "sha256": "4c02eda731339476c9de0ed58959849b0d4e57916157f5f40d0ba1364a97bed7"
     },
     {
       "n": 52,
@@ -505,7 +518,7 @@
       "title": "Casey’s record",
       "file": "img/oct26/36-stats.webp",
       "source": "49-stats.png",
-      "sha256": "abe578832cc2334fda57542f47f98ae3f0f0b68fabab157bc011c571a1ad584e"
+      "sha256": "2ed773da0c5991d31babb8a3c0e434901dac764e676e592d29a4d3275c0991a8"
     },
     {
       "n": 56,
@@ -514,7 +527,7 @@
       "title": "Match history",
       "file": "img/oct26/36b-stats-matches.webp",
       "source": "50-stats-matches.png",
-      "sha256": "868a0b26b198c3f7a258fd1b47a4b807d8c6fd7da14907085983894552337a2b"
+      "sha256": "f894eb72f6eee3eaa24d3e92d53724f1edb9cdec08c8b231be2e16b89fae57ca"
     },
     {
       "n": 57,
@@ -541,7 +554,7 @@
       "title": "Week of Oct 19",
       "file": "img/oct26/39-recap.webp",
       "source": "53-recap.png",
-      "sha256": "382179606b31dc28de9fbf974f17ed97fc24645ae35fae67a0610b500b8a6bb2"
+      "sha256": "3bbce14cf57eefb9a607b53bc385044ea1cfd834131166170acee2af64079f61"
     },
     {
       "n": 60,
@@ -577,7 +590,7 @@
       "title": "New team",
       "file": "img/oct26/41-add-team.webp",
       "source": "41-add-team.png",
-      "sha256": "cdc7ca1b0d58008f97534434618ea03b6b08a5b715a4be11d22620cbc4c49215"
+      "sha256": "2249e78900b9d15d7ca2d0ce95b49482786a705cacae3038e56c326309296702"
     },
     {
       "n": 64,
@@ -586,7 +599,7 @@
       "title": "Send the link",
       "file": "img/oct26/41b-add-team-share.webp",
       "source": "41b-add-team-share.png",
-      "sha256": "5aca45389e54b0cc8a47ee7f722d44904966f777b46d426b21fbe72617115e39"
+      "sha256": "316c8a593ec6f38b33fd21024c16eb217f9b92a238c856683bdeb2d6527916f0"
     },
     {
       "n": 65,
@@ -595,7 +608,7 @@
       "title": "Link saved",
       "file": "img/oct26/41c-add-team-link-saved.webp",
       "source": "41c-add-team-link-saved.png",
-      "sha256": "18fd02d9b6f524cb1c69a06f2d00df38dfa6aab665248b54df076b9e5b8ac495"
+      "sha256": "f105464de3909d0156233250a4748ce8cdd849757abaa04bfe04904a5dc437c6"
     },
     {
       "n": 66,
@@ -603,8 +616,10 @@
       "person": "Casey",
       "title": "Team page",
       "file": "img/oct26/43-team-settings.webp",
-      "source": "43-team-settings.png",
-      "sha256": "04070847b09fcedc95795d685194f234bd3d3fb2fbba7d415929acb49c69fa36"
+      "source": "circuit-league-recapture-2026-10-27/43-team-settings.png",
+      "sha256": "e868479c193859251eb2a704f9e2e5b5096ea45604e7ab527926900c4897685e",
+      "capturedOn": "2026-10-27",
+      "appBase": "b36cbc2d9 plus uncommitted native-menu icon fix"
     },
     {
       "n": 67,
@@ -613,7 +628,7 @@
       "title": "Plan the match",
       "file": "img/oct26/44-scan.webp",
       "source": "44-scan.png",
-      "sha256": "ce17d9b34f367cdd14d79025389394228a138ecda14c304c9fbc85a982a8e789"
+      "sha256": "d4615e6b4f58ad4f39edc30c620c73a3398739f0f31dd795520a2e3c0ac5a427"
     },
     {
       "n": 68,
@@ -622,7 +637,7 @@
       "title": "Venue chosen",
       "file": "img/oct26/44b-scan-venue-chosen.webp",
       "source": "44b-scan-venue-chosen.png",
-      "sha256": "ccad583cd1e38e9fac75635ec9aac81a55be7ddd0625a2a12282864d3440e8f1"
+      "sha256": "e7cd0f748864b7d781c9657c2490484fb9aa164d2eff3dc5cc3f1996132524fa"
     },
     {
       "n": 69,
@@ -640,7 +655,7 @@
       "title": "My QR",
       "file": "img/oct26/45-my-code.webp",
       "source": "64-my-qr.png",
-      "sha256": "33aef968c051120cceb960e5e919f3ea3038f6fd546add50bdaf556ddd51fe0d"
+      "sha256": "06e3fb2e9e4c3b7828fad5f3871d8ff4187987d5f85b4b6fdc73cc5749489d06"
     },
     {
       "n": 71,
@@ -648,8 +663,10 @@
       "person": "Casey",
       "title": "League settings",
       "file": "img/oct26/46-settings.webp",
-      "source": "46-settings.png",
-      "sha256": "e0fd46b8c937336ad44d3c7766a5d5ea733ea54119528d9ca6e193437fda2d9e"
+      "source": "circuit-league-recapture-2026-10-27/46-settings.png",
+      "sha256": "46a11c22c01c868d97948cd32cc1ce062f9381c98db9f5a788e198f055cd7594",
+      "capturedOn": "2026-10-27",
+      "appBase": "b36cbc2d9 plus uncommitted native-menu icon fix"
     },
     {
       "n": 72,
@@ -657,8 +674,10 @@
       "person": "Casey",
       "title": "Privacy and safety",
       "file": "img/oct26/46b-settings-lower.webp",
-      "source": "46b-settings-lower.png",
-      "sha256": "630958b1f7fd99461a352fefb98f49b54a5f5025570bc1ed4d84d5d604f1af07"
+      "source": "circuit-league-recapture-2026-10-27/46b-settings-lower.png",
+      "sha256": "3713d46167f8adca55cae797f94941c28a7b15f12c46237be4efc825fc34766a",
+      "capturedOn": "2026-10-27",
+      "appBase": "b36cbc2d9 plus uncommitted native-menu icon fix"
     },
     {
       "n": 73,
@@ -666,8 +685,10 @@
       "person": "Casey",
       "title": "Notifications",
       "file": "img/oct26/47-notification-settings.webp",
-      "source": "47-notification-settings.png",
-      "sha256": "855e026fe4dc167b9d9cbca3d0d7421938eae3cb2b55ed1067c52d6e65f74530"
+      "source": "circuit-league-recapture-2026-10-27/47-notification-settings.png",
+      "sha256": "609a3ea890727c69292de5f6e6b1826411f3108c3d6e51e43dc0a2f2908670da",
+      "capturedOn": "2026-10-27",
+      "appBase": "b36cbc2d9 plus uncommitted native-menu icon fix"
     },
     {
       "n": 74,
@@ -721,7 +742,7 @@
       "title": "Conduct record",
       "file": "img/oct26/52-conduct.webp",
       "source": "52-conduct.png",
-      "sha256": "7844491299223efc295a94543d64debd076df602b8ffc117228da9ab9d7ab4e8"
+      "sha256": "60b46636e42b06d44a9ec4f1483323b57b9776dad9bd02f16408758bba95bf02"
     },
     {
       "n": 80,
@@ -730,7 +751,7 @@
       "title": "The report",
       "file": "img/oct26/52b-conduct-case.webp",
       "source": "52b-conduct-case.png",
-      "sha256": "8ff593a2a091313c0a179c7cd28af7e4df036779b38fed4f23aec547599a4d8d"
+      "sha256": "1b4a764094237e3b650bf4425fd73cbfb2a8242362f998506cdd83c657424b50"
     },
     {
       "n": 81,
@@ -739,7 +760,7 @@
       "title": "Challenge",
       "file": "img/oct26/52c-conduct-challenge.webp",
       "source": "52c-conduct-challenge.png",
-      "sha256": "ba0445c9a682a81a8f55f19d0216714adb9d205b306f0a09a3e99aec47d9a015"
+      "sha256": "fdf8ed0f9586246c98be94a04f588904da46fccb4b0e6ccfb9586259250870b8"
     },
     {
       "n": 82,
@@ -748,7 +769,7 @@
       "title": "Under review",
       "file": "img/oct26/52d-conduct-under-review.webp",
       "source": "52d-conduct-under-review.png",
-      "sha256": "20ae9c322a64001ee2197ea3c6c52f16bf57f2f1fb26113b1717b44d36b38a14"
+      "sha256": "500ac97a8f000a81b723c4951ac5c7dc1168a59b8b342ebe1b3cb929377bfbd2"
     },
     {
       "n": 83,
@@ -756,8 +777,10 @@
       "person": "Casey",
       "title": "Home reminder",
       "file": "img/oct26/53-home-conduct-task.webp",
-      "source": "53-home-conduct-task.png",
-      "sha256": "8839dd6860765ad00e58b3453cd00ea826251e38bd44c0dfc251cd6430788163"
+      "source": "circuit-league-recapture-2026-10-27/53-home-conduct-task.png",
+      "sha256": "99ce0222c08ea6f9cdaa65d0b064b2787a7f0b9a25e206d6d7b78ced114d299d",
+      "capturedOn": "2026-10-27",
+      "appBase": "b36cbc2d9 plus uncommitted native-menu icon fix"
     },
     {
       "n": 84,

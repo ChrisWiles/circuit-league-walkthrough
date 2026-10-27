@@ -1,8 +1,14 @@
 # Walkthrough evidence
 
-Updated October 26, 2026.
+Updated October 27, 2026.
 
-## How the screens were captured
+## October 27 recaptures
+
+Eleven screens were recaptured on an iPhone 17 Pro simulator using iOS 26.4, Dark appearance, Default app text size and the normal iOS text size. The app used local `b36cbc2d9` and an uncommitted native-menu icon color fix. The rebuilt isolated database contains fictional players, venues, a match and a team; these states are not identical to the earlier walkthrough. The matching options, check-in setup, both player home screens, League menu, match menu, team page, both League settings views, notification settings and the conduct reminder now show the current controls. For the check-in capture, a temporary development-only entry opened the real post-join component for the fictional account; the source change was reverted afterward.
+
+The updated viewer was checked at 360×800, 390×844 and 1280×900 with no horizontal page overflow; the full-size check-in image loaded and Next advanced to Blake’s home. All 84 asset hashes in the capture list match the image files.
+
+## How the original screens were captured
 
 Every screen comes from one hands-on walkthrough of the Circuit League player app on an iPhone 17 Pro simulator, iOS 26.4, Dark appearance, Default app text size and the normal iOS text size. The app ran from local main after commit `e4e2ed091` plus the setup check-in fix described below, against an isolated local database with fictional players.
 
