@@ -135,7 +135,7 @@ dialog#lb[open] { display: grid; grid-template-rows: auto minmax(0, 1fr) auto; }
 
 <footer class="wrap notes">
   <h2>About this tour</h2>
-  <p>Captured October 26–27, 2026 on an iPhone 17 Pro simulator running iOS 26.4, in Dark appearance at the Default app text size. Eleven screens were recaptured using a rebuilt fictional League, so their match and team details can differ from the original story. Every person, match, venue and safety record is fictional local test data.</p>
+  <p>Captured October 27, 2026 on an iPhone 17 Pro simulator running iOS 26.4, in Dark appearance at the Default app text size. Every screen except the iOS notification prompt was taken in one pass through one fictional League story. Every person, match, venue and safety record is fictional local test data.</p>
   <p>Screens show the state the app was in at capture time, so some show a step in progress, such as a score waiting for the other side. <a href="current-evidence.md">Verification and known gaps</a> · <a href="current-captures.json">Capture list</a></p>
 </footer>
 
@@ -154,86 +154,87 @@ dialog#lb[open] { display: grid; grid-template-rows: auto minmax(0, 1fr) auto; }
 </dialog>
 
 <script>
-const REFRESHED_20261027 = new Set(['08-setup-options', '10d-setup-check-in', '11-blake-home', '12-home', '13-league-menu', '19b-match-menu', '43-team-settings', '46-settings', '46b-settings-lower', '47-notification-settings', '53-home-conduct-task']);
-const REFRESHED_20261027B = new Set(['06-setup-venues', '11-blake-home', '12-home', '12c-standings-info', '13-league-menu', '19-match-upcoming', '19b-match-menu', '25-review', '26-dispute', '28-past', '29b-board-rating', '30-board-near-you', '31-board-filters', '36-stats', '37-badge', '43-team-settings', '44-scan', '44b-scan-venue-chosen', '44c-scan-waiting', '53-home-conduct-task']);
+const IMAGE_VERSION = '20261027c';
 const CHAPTERS = [
   { id: 'discover', title: 'Discover the League', who: 'What a player sees on the League tab before joining.', person: 'Blake', shots: [
-    ['01-intro-match', 'Always open', 'Circuit proposes matches near you, at your times, against players at your level. Joining is free, any day of the year.'],
-    ['02-intro-week', 'Play when it suits you', 'Pick your times and accept only the matches you want. Saying no costs nothing.'],
+    ['01-intro-match', 'Always open', 'Circuit finds games near you, at your times, against players at your level. Joining is free, any day of the year.'],
+    ['02-intro-week', 'Play when it suits you', 'Pick your times and courts and accept only the matches you want. Skipping a week or saying no costs nothing.'],
     ['03-intro-board', 'Climb your area', 'Confirmed results count toward your standing, boards update weekly, and eligible games go to DUPR.'],
     ['03b-landing', 'Before you join', 'The landing names what joining takes, a free DUPR account and about five minutes, and offers a quick sign-up for a friend’s match today.'],
   ]},
   { id: 'join', title: 'Join in four stages', who: 'Profile, how you play, preferences, then the release and terms.', person: 'Blake', shots: [
     ['04-setup-entry', 'Profile check', 'DUPR is linked and gender is added, so Continue is on. A photo is optional; other players see initials until one is added.'],
-    ['05-setup-how', 'How you play', 'Blake picks Men’s singles and Men’s rotating doubles, then acknowledges which categories he can play. No rule paragraph: the category names already say it.'],
-    ['06-setup-venues', 'Choose venues', 'Each venue is a Favorite, a Backup or Don’t use. Suggestions near you stay unsaved until you choose.'],
-    ['06b-setup-venues-map', 'Venues on a map', 'The same choices on a map, with your location and nearby courts.'],
-    ['07-setup-times', 'Your times', 'Add the times you can play this week or next. Skipping this step is allowed, but matchmaking waits for times.'],
-    ['07b-setup-time-grid', 'Pick hours', 'Wednesday 6 to 9 PM. No time zone: Blake’s phone already reads the venues’ clock. A phone on another clock would see “Central”.'],
+    ['05-setup-how', 'How you play', 'Blake picks Men’s singles and Men’s rotating doubles, then confirms which categories he can play. The rule sits behind Read the category rule.'],
+    ['05b-setup-category-rule', 'Category rule', 'Women’s categories are for players whose sex at birth was female, Men’s categories for everyone else, and a Mixed team has one of each. Circuit reviews eligibility concerns privately.'],
+    ['06-setup-venues', 'Choose venues', 'Find lists nearby venues, nearest first. Each is a Favorite, a Backup or Don’t use; Blake makes Mueller Lake Park a favorite.'],
+    ['06b-setup-venues-map', 'Venues on a map', 'The same choices on a map, with Blake’s location and a legend for favorite, backup and unsaved venues.'],
+    ['07-setup-times', 'Your times', 'Add the times you can play this week or next. Choose times later skips the step, but matchmaking waits for times.'],
+    ['07b-setup-time-grid', 'Pick hours', 'Blake taps 6, 7 and 8 PM on Wednesday: available 6–9 PM. No time zone shows, because Blake’s phone is on the venues’ clock.'],
     ['07c-setup-times-saved', 'Times saved', 'Wednesday 6–9 PM is saved; Edit times or the × changes it.'],
-    ['08-setup-options', 'Matching options', 'Matches are three games to 11, win by 2. Blake can allow a wider level range; automatic matching and acceptance need saved venues and times.'],
+    ['08-setup-options', 'Matching options', 'Matches are three games to 11, win by 2. For each format Blake can allow a wider level range after a long wait and auto-accept matches inside his times.'],
+    ['08b-setup-same-times', 'Same times every week', 'Starts on, so each Monday matchmaking begins again with last week’s times. Blake can change or skip any week.'],
     ['09-setup-terms', 'Release and terms', 'Join the League stays off until both boxes are checked, and the footer says so.'],
     ['09b-setup-acceptances', 'Both accepted', 'The release and the League terms, including individual arbitration, are accepted separately. The full terms open from the link.'],
     ['10-setup-next', 'You’re in', 'Matches depend on who else is free at your times and venues; some weeks there won’t be one. Start matchmaking turns the search on.'],
     ['10b-setup-notifications-prompt', 'Notifications', 'Match offers need an answer within a few hours, so setup asks for notification permission.'],
-    ['10d-setup-check-in', 'Automatic check-in', 'Optional and on by default. Near match time, location checks you in and tells players already checked in. Your position stays on your phone.'],
-    ['11-blake-home', 'Blake’s League home', 'Searching for a first match in Men’s singles and Men’s rotating doubles, with Wednesday 6–9 PM saved and Skip this week one tap away.'],
+    ['10d-setup-check-in', 'Automatic check-in', 'Optional and shown off here. Turned on, location checks Blake in near match time and tells players already checked in. His position stays on his phone.'],
+    ['11-blake-home', 'Blake’s League home', 'Circuit is looking for a first match in Men’s singles and Men’s rotating doubles, with Wednesday 6–9 PM saved and Skip this week one tap away.'],
   ]},
   { id: 'home', title: 'Casey’s League home', who: 'Seven weeks in: what needs attention, upcoming matches and standing.', person: 'Casey', shots: [
     ['12-home', 'Home', 'Two scores need Casey: Sunday’s match with Maya to report and Elena’s Saturday report to review. Wednesday’s match with Sofia is confirmed, with two unread chat messages.'],
-    ['12b-home-lower', 'This week', 'Season 1, week 7. Last week’s published standings put Casey #1 in the Austin area, Texas and everywhere, still Provisional. The info button holds the detail.'],
-    ['12c-standings-info', 'How standings work', 'Rank comes from League results, adjusted for who Casey played. With 7 rated singles matches, the estimate of when Provisional ends is still pending.'],
-    ['12c-home-bottom', 'More League', 'The full leaderboard, last week’s recap, saved venues and invites.'],
+    ['12b-home-lower', 'This week', 'Season 1, week 7, with no results yet. Last week’s published standings put Casey #1 in the Austin area, Texas and everywhere, still Provisional.'],
+    ['12c-standings-info', 'How standings work', 'Rank comes from League results, adjusted for who Casey played, and updates after Sunday closes. About one more match drops the Provisional label.'],
+    ['12c-home-bottom', 'More League', 'The full leaderboard, last week’s recap, saved venues, invites, and a way in for friends who already play together.'],
     ['13-league-menu', 'League menu', 'My QR code for Scan to play, League settings and the rules.'],
   ]},
   { id: 'offers', title: 'Match offers', who: 'Circuit proposes a time and place. Each player answers on their own phone.', person: 'Casey', shots: [
-    ['14-offer', 'Match found', 'Singles vs Sofia P., Wednesday 6 PM at Mueller Lake Park Courts. Answer by Tuesday morning.'],
-    ['14b-offer-players', 'Who’s in it', 'Both players haven’t answered yet. Players see display names, photos and League match counts, never phone numbers or email.'],
-    ['15-offer-other-times', 'Choose another time', 'Propose a different slot. Sofia sees the choice and can accept it; Casey’s acceptance carries over.'],
-    ['16-offer-decline', 'Not this time', 'Declining has no penalty. A second option also pauses matches with Sofia for 7 days.'],
-    ['17-offer-accepted', 'Accepted', 'Casey has accepted; the match confirms when Sofia does.'],
+    ['14-offer', 'Match found', 'Singles vs Sofia P., Wednesday at 6 PM at Mueller Lake Park Courts. Casey has until 6:44 PM today to answer; no answer counts as Not this time.'],
+    ['14b-offer-players', 'Who’s in it', 'Neither player has answered yet. Players see display names, photos and League match counts, never phone numbers or email.'],
+    ['15-offer-other-times', 'Choose another time', 'Casey can propose 8 PM instead. Sofia sees it and can accept, and it counts as accepted by Casey. The time can change two more times.'],
+    ['16-offer-decline', 'Not this time', 'Declining has no penalty. A second option also stops matches with Sofia for 7 days.'],
+    ['17-offer-accepted', 'Accepted', 'Casey has accepted; the match confirms when Sofia does. Casey can still change to Not this time.'],
   ]},
   { id: 'matches', title: 'Confirmed matches and chat', who: 'Everything about a booked match in one place.', person: 'Casey', shots: [
-    ['19-match-upcoming', 'Match details', 'Confirmed for tomorrow, Wednesday, at 6 PM. Casey can start another search or open match chat, which has two unread messages.'],
-    ['19b-match-menu', 'Match actions', 'Add to calendar, directions, venue details, report a problem with a player, rules, and Cancel match last.'],
+    ['19-match-upcoming', 'Match details', 'Confirmed for tomorrow at 6 PM. Casey’s singles search stopped for this match; Find another match starts it again, and match chat has two unread messages.'],
+    ['19b-match-menu', 'Match actions', 'Add to calendar, directions, venue details, report a problem with a player, League rules, and Cancel match last.'],
     ['20-chat', 'Match chat', 'Messages with Sofia about Wednesday. The tab bar steps aside so the composer stays clear.'],
     ['20b-chat-players', 'Mute or block', 'From chat, Casey can mute or block Sofia.'],
-    ['20c-chat-hold', 'Hold a message', 'Holding Maya’s message lifts it above a blurred chat. Six quick reactions sit on top, with Casey’s 🙏 in green. Below: Reply, Copy and Mute, then Report and Block in red. A tap opens the same menu.'],
+    ['20c-chat-hold', 'Hold a message', 'Holding Maya’s message lifts it above a blurred chat. Six quick reactions sit on top, with Casey’s 🙏 in green. Below: Reply, Copy and Mute, then Report and Block in red.'],
     ['20d-chat-all-reactions', 'All reactions', 'The + shows all eight reactions with their names. Tapping Casey’s green Thanks removes it. Reactions never notify anyone.'],
-    ['20e-chat-reply-composer', 'Reply', 'Reply puts Maya’s question above the message box, with Cancel reply.'],
+    ['20e-chat-reply-composer', 'Reply', 'Reply puts Maya’s message above the message box, with Cancel reply.'],
     ['20f-chat-replied', 'The reply', 'The sent message quotes what it answers. Reactions sit on the bubble’s outer corner: top-right on Maya’s message, top-left on Casey’s.'],
     ['20g-chat-report', 'Report a message', 'Report sends Maya’s message and the reason to Circuit, not to a league organizer. Casey picks a reason; details are optional.'],
   ]},
   { id: 'scores', title: 'Scores', who: 'One side reports, the other side reviews. Unanswered reports count after 48 hours.', person: 'Casey', shots: [
-    ['21-score-due', 'Score due', 'Today’s noon match vs Priya. Report by Wednesday noon, or report that someone didn’t come.'],
-    ['22-report-form', 'Report form', 'Played date and venue default to the plan; change them only if play moved. Each game is entered on its own.'],
-    ['22b-report-filled', 'Games entered', 'Each score sits beside its player, green for the game winner and coral for the loser.'],
+    ['21-score-due', 'Score due', 'Today’s noon match vs Priya at Pease Park Courts. Report by Thursday noon, or say that someone didn’t come.'],
+    ['22-report-form', 'Report form', 'The date and venue come from the plan; change them only if play moved. Each game is entered on its own.'],
+    ['22b-report-filled', 'Games entered', 'Casey won 11–6 and 11–9. Each name turns green for the game winner and coral for the loser, and the button says how many games will be reported.'],
     ['23-report-short-confirm', 'Fewer games than planned', 'Reporting two of three planned games asks first: game 3 won’t have a score.'],
-    ['24-report-sent', 'Score sent', 'Casey won 11–6, 9–11, 11–7. Priya reviews it, or it counts automatically Wednesday at 4:27 PM.'],
-    ['25-review', 'Review a score', 'Elena reported Saturday’s match. Score is right confirms it; Something’s wrong opens a dispute. Doing nothing confirms it Thursday at 1:26 PM.'],
-    ['26-dispute', 'Dispute', 'Sending a dispute stops the automatic count. If the players don’t agree within 24 hours, the result is voided.'],
-    ['27-confirmed', 'Final', 'Elena won 2–1. A loss shows Final without the green glow that a win gets.'],
-    ['28-past', 'Past matches', 'Results by day, winner first, with each game’s score beside its player.'],
+    ['24-report-sent', 'Score sent', 'Casey won 11–6, 11–9. Priya reviews it, or it counts automatically Thursday at 3:58 PM.'],
+    ['25-review', 'Review a score', 'Elena reported Saturday’s match, 2–1 to her. Score is right confirms it; Something’s wrong opens a dispute. Doing nothing confirms it Thursday at 3:44 PM.'],
+    ['26-dispute', 'Dispute', 'Sending a dispute stops the automatic count. Either side can then propose a correction; with no agreed score within 24 hours, the result is voided.'],
+    ['27-confirmed', 'Final', 'After Score is right: You lost 1–2. All three games are sending to DUPR, and Your progress explains when Provisional ends.'],
+    ['28-past', 'Past matches', 'Results by day, winner first, with each game’s score beside its player. Today’s match with Priya waits as Score sent.'],
   ]},
   { id: 'leaderboards', title: 'Leaderboards', who: 'Ranks come from League results, adjusted for who you played, and update after Sunday.', person: 'Casey', shots: [
     ['29-board', 'Austin area, Women’s singles', 'Casey is #1 at 5–2, on the highlighted row. Each record sits large on the right; PD is point differential over recent games, and DUPR appears beside each name.'],
     ['29b-board-rating', 'DUPR rating', 'Casey’s singles DUPR 4.10, 80% reliable, updated Oct 24. It does not set League rank.'],
     ['30-board-near-you', 'Near you', 'Narrows the board to players who play mostly within 20 miles of Casey’s favorite venue.'],
     ['31-board-filters', 'Filters', 'Switch between Men’s and Women’s categories.'],
-    ['32-board-about', 'About this board', 'Which cities the area includes, how rank and Near you work, and when standings update.'],
-    ['33-board-search', 'Search', 'Searching keeps each player’s real rank.'],
-    ['34-board-doubles', 'Doubles everywhere', 'Not enough Women’s doubles players are listed yet; the board says how many it needs.'],
-    ['35-board-teams', 'Teams', 'Fixed teams get their own board once five are listed.'],
+    ['32-board-about', 'About this board', 'Which cities the area includes, how rank, DUPR, PD and Near you work, and when standings update.'],
+    ['33-board-search', 'Search', 'Searching for “Ele” finds Elena at her real rank, #4.'],
+    ['34-board-doubles', 'Doubles everywhere', 'No Women’s doubles players are listed yet, and standings need five. Casey’s own row says 3 more confirmed matches are needed to appear.'],
+    ['35-board-teams', 'Teams', 'Fixed teams get their own board once five are listed. None are yet.'],
   ]},
   { id: 'stats', title: 'Player records', who: 'Season results, recent form, badges and rank history.', person: 'Casey', shots: [
-    ['36-stats', 'Casey’s record', '5–2 across 7 Women’s singles matches, season PD +5.9%. Rank history names every week, listed or not.'],
+    ['36-stats', 'Casey’s record', '5–3 across 8 Women’s singles matches, season PD +4.7%. Rank history names every week, listed or not.'],
     ['36b-stats-matches', 'Match history', 'Each match puts the result and opponent on the left and the score and PD on the right. Clutch marks a win that came down to a deciding game or a final game won by 2 points.'],
-    ['37-badge', 'Badge details', 'Tap a badge to see how it was earned.'],
-    ['38-other-stats', 'Another player', 'Maya’s record, reached from the leaderboard.'],
+    ['37-badge', 'Badge details', 'Tapping Founding Member explains it: a League match in the Austin launch area in Season 1.'],
+    ['38-other-stats', 'Another player', 'Maya’s record, opened from the leaderboard: 1–2 over 3 matches, still Provisional.'],
   ]},
   { id: 'recaps', title: 'Weekly recap', who: 'Each week ends with a recap card and a full summary.', person: 'Casey', shots: [
     ['39-recap', 'Week of Oct 19', '7 games won, 5 lost, over 5 matches, week PD +2.6%, #1 in the Austin area, Texas and everywhere.'],
-    ['40-recap-summary', 'Summary', 'The same week in detail: new opponents, season completion, badges and each leaderboard.'],
+    ['40-recap-summary', 'Summary', 'The same week in detail: 4 new opponents, 7 of 8 matches toward the season completion badge, two Clutch wins and each leaderboard.'],
     ['40b-recap-summary-lower', 'Every match', 'All of the week’s scores, then notable results compared with the week before.'],
     ['40c-recap-summary-end', 'What next', 'View standings, or start matchmaking for the new week.'],
   ]},
@@ -245,29 +246,28 @@ const CHAPTERS = [
   ]},
   { id: 'scan', title: 'Scan to play', who: 'Already at the courts with someone? Set up a League match on the spot.', person: 'Casey', shots: [
     ['44-scan', 'Plan the match', 'The nearest League venues come first, each with its distance, when the phone already allows location. Without it, saved venues lead.'],
-    ['44b-scan-venue-chosen', 'Venue chosen', 'Picking a venue folds the list to it, with Change to pick again, then the format.'],
+    ['44b-scan-venue-chosen', 'Venue chosen', 'Picking a venue folds the list to it, with Change to pick again, then the format and Create match plan.'],
     ['44c-scan-waiting', 'Scan players', 'One of two players is in, so Scan a player is the next step. Start publishes the match once everyone has confirmed on their own phone.'],
     ['45-my-code', 'My QR', 'The code a host scans, in Circuit green and black. It doubles as an invite link, and can be reset in League settings.'],
   ]},
   { id: 'settings', title: 'Settings, times and venues', who: 'Everything that shapes matchmaking stays editable after setup.', person: 'Casey', shots: [
-    ['46-settings', 'League settings', 'Times, venues, automatic weekly matchmaking, pausing offers until Monday, notifications and check-in.'],
-    ['46b-settings-lower', 'Privacy and safety', 'Full-name display, resetting your code, blocked players and conduct record.'],
+    ['46-settings', 'League settings', 'Times, venues, same times every week, pausing offers until Monday, notifications and check-in.'],
+    ['46b-settings-lower', 'Privacy and safety', 'Full-name display, resetting your code, blocked players, conduct record and League rules. To step away, turn off matchmaking.'],
     ['47-notification-settings', 'Notifications', 'Each League alert type has its own switch. Account and safety notices stay on.'],
-    ['48-times', 'Your times', 'This week and next. Wednesday 6–9 PM is saved.'],
-    ['48b-times-lower', 'Suggested times', 'Suggested times are shown by format. There are none yet for Singles.'],
+    ['48-times', 'Your times', 'This week and next, with Wednesday 6–9 PM saved. Suggested times for Singles appear once other players in the area save theirs.'],
     ['49-venues', 'Saved venues', 'One ranked favorite and one backup, 2 of 25 venues saved.'],
     ['50-venue-detail', 'Venue detail', 'Court details, directions, your choice for this venue, popular times when there is enough data, the venue leaderboard and a printable flyer.'],
   ]},
   { id: 'safety', title: 'Safety and conduct', who: 'Blocks, reports and a clear way to respond.', person: 'Casey', shots: [
     ['51-blocked', 'Blocked players', 'No one is blocked. Blocking happens from a player page or match chat.'],
-    ['52-conduct', 'Conduct record', 'A no-show report about Casey is awaiting a response.'],
-    ['52b-conduct-case', 'The report', 'It hasn’t been decided. Casey can challenge it until Wednesday 8:26 PM; otherwise it becomes a confirmed finding.'],
+    ['52-conduct', 'Conduct record', 'Elena’s no-show report about Monday’s match is awaiting Casey’s response.'],
+    ['52b-conduct-case', 'The report', 'It hasn’t been decided. Casey can challenge it until Thursday at 4:05 PM, or report the score: a confirmed game shows the match was played and dismisses the report.'],
     ['52c-conduct-challenge', 'Challenge', 'Explain what happened, up to 500 characters.'],
-    ['52d-conduct-under-review', 'Under review', 'Casey’s explanation is sent and the report is under review.'],
-    ['53-home-conduct-task', 'Home reminder', 'While a report needs a response, one flat row leads the League home and opens the conduct record.'],
+    ['52d-conduct-under-review', 'Under review', 'Casey’s explanation is saved and the report is under review.'],
+    ['53-home-conduct-task', 'Home reminder', 'While a report needs a response, one flat row leads the League home and opens the conduct record. Monday’s match also asks for a score.'],
   ]},
   { id: 'inbox', title: 'Notifications', who: 'League alerts land in the app inbox, newest first.', person: 'Casey', shots: [
-    ['54-inbox', 'Inbox', 'Team ready, chat messages, a confirmed match and weekly recaps, with unread items marked New.'],
+    ['54-inbox', 'Inbox', 'Score reminders, team ready, chat messages and a confirmed match, with unread items marked New. Times name their zone because notifications are read outside the app.'],
   ]},
 ];
 
@@ -284,8 +284,7 @@ CHAPTERS.forEach((c, ci) => {
   for (const [file, t, d] of c.shots) {
     const idx = all.length;
     const n = String(idx + 1).padStart(2, '0');
-    const version = REFRESHED_20261027B.has(file) ? '20261027b' : REFRESHED_20261027.has(file) ? '20261027' : '';
-    const src = `img/oct26/${file}.webp${version ? `?v=${version}` : ''}`;
+    const src = `img/oct26/${file}.webp?v=${IMAGE_VERSION}`;
     all.push({ n, t, d, src, chapter: c.title });
     const el = document.createElement('article');
     el.className = 'shot'; el.id = `s${n}`;

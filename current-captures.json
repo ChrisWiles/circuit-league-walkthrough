@@ -1,6 +1,6 @@
 {
-  "capturedOn": "2026-10-26 through 2026-10-27",
-  "appBase": "Original screens: 8d80f68cc or earlier; October 27 replacements: b36cbc2d9 plus native-menu icon fix, then 9c88f0cb2 for the one-story recapture",
+  "capturedOn": "2026-10-27",
+  "appBase": "Pickleball-Tournaments local main 446eb02e0 plus the setup fix committed as 07d69be1e; screen 10b-setup-notifications-prompt is kept from 2026-10-26",
   "appearance": {
     "platform": "iOS",
     "device": "iPhone 17 Pro simulator",
@@ -10,7 +10,7 @@
     "systemContentSize": "large (iOS default)"
   },
   "data": "Fictional local fixtures",
-  "count": 84,
+  "count": 85,
   "screens": [
     {
       "n": 1,
@@ -19,7 +19,7 @@
       "title": "Always open",
       "file": "img/oct26/01-intro-match.webp",
       "source": "01-intro-match.png",
-      "sha256": "afe7a661411750fcd450d58a6709d3b16cb2f76bef08b5f86bc3b21af118adbe"
+      "sha256": "8440033e38054f70f83ee6da92a35467bd5b1860444532f8932ee6a7ada0281e"
     },
     {
       "n": 2,
@@ -28,7 +28,7 @@
       "title": "Play when it suits you",
       "file": "img/oct26/02-intro-week.webp",
       "source": "02-intro-week.png",
-      "sha256": "ef501cd8e3f488f07e9059d19df7b021e8a099f18634ac898e29b18f2913e8b5"
+      "sha256": "4f6cb25afa1462c217b35448031cf802ad56f44dd60c1ffaca59d38746f08ede"
     },
     {
       "n": 3,
@@ -37,7 +37,7 @@
       "title": "Climb your area",
       "file": "img/oct26/03-intro-board.webp",
       "source": "03-intro-board.png",
-      "sha256": "48958c908242d50ac0c30a5873f258b225f31ffdc33bd3841ea497678820a968"
+      "sha256": "5ea63529bc8f980ddcae16e30eca2b4dfe40af8394dbd0463d2905965ad3fd1c"
     },
     {
       "n": 4,
@@ -46,7 +46,7 @@
       "title": "Before you join",
       "file": "img/oct26/03b-landing.webp",
       "source": "03b-landing.png",
-      "sha256": "6eb81b2c38fe7acc5971024ea3cc00c14fbe800380a87ded779fbac7ca9a773f"
+      "sha256": "0f243549b18ebcbf1924cd661fe587e5f7d0470578a85aa5b9b0f97d4165e63c"
     },
     {
       "n": 5,
@@ -55,7 +55,7 @@
       "title": "Profile check",
       "file": "img/oct26/04-setup-entry.webp",
       "source": "04-setup-entry.png",
-      "sha256": "a84a7fbe5e770dbedce47fd6cae4f57397f91c670b08ccf29ecab1618a78bc6f"
+      "sha256": "3b68c99666c6ea327bbde11ca9a645483d10fadee9042b977e8820376996f928"
     },
     {
       "n": 6,
@@ -64,95 +64,109 @@
       "title": "How you play",
       "file": "img/oct26/05-setup-how.webp",
       "source": "05-setup-how.png",
-      "sha256": "77e691c443961738fd1ad675ac89777958dda759af693204a463c4cb0fe0c1b5"
+      "sha256": "6ee6e0d280d35ffb9340acf73d482d48d5c646ebc766fd14c4313f270ad4a372"
     },
     {
       "n": 7,
       "chapter": "Join in four stages",
       "person": "Blake",
-      "title": "Choose venues",
-      "file": "img/oct26/06-setup-venues.webp",
-      "source": "circuit-league-walkthrough-2026-10-26/shots-2026-10-27/06-setup-venues.png",
-      "sha256": "683bbfb90b26b506df36818e894a89352bb3d8f06440acee24a35fca942c289d",
-      "capturedOn": "2026-10-27",
-      "appBase": "9c88f0cb2"
+      "title": "Category rule",
+      "file": "img/oct26/05b-setup-category-rule.webp",
+      "source": "05b-setup-category-rule.png",
+      "sha256": "03399db2e980753f3b8e54a695f77a874f676e6cebf4985ab16826b25fbf623f"
     },
     {
       "n": 8,
       "chapter": "Join in four stages",
       "person": "Blake",
-      "title": "Venues on a map",
-      "file": "img/oct26/06b-setup-venues-map.webp",
-      "source": "06b-setup-venues-map.png",
-      "sha256": "d920869b198607d76a0eb40bc4f3fe227a50cb0b76fb3b45b56f193ace130b98"
+      "title": "Choose venues",
+      "file": "img/oct26/06-setup-venues.webp",
+      "source": "06-setup-venues.png",
+      "sha256": "7a80b9c43128959f8f41ef3eefb96b33074c50b57f0ff2f3bf3bb92a9a70a0b8"
     },
     {
       "n": 9,
       "chapter": "Join in four stages",
       "person": "Blake",
-      "title": "Your times",
-      "file": "img/oct26/07-setup-times.webp",
-      "source": "07-setup-times.png",
-      "sha256": "5b2b7c8a239b5cb3940ae1a166ba8ef1ef1d6e94a8f61090bc1a196c7902b6d7"
+      "title": "Venues on a map",
+      "file": "img/oct26/06b-setup-venues-map.webp",
+      "source": "06b-setup-venues-map.png",
+      "sha256": "2efe4c6622d4b985656b73d4f48db48aa8a99de3d840f1d9933e3f43ac02f12e"
     },
     {
       "n": 10,
       "chapter": "Join in four stages",
       "person": "Blake",
-      "title": "Pick hours",
-      "file": "img/oct26/07b-setup-time-grid.webp",
-      "source": "07b-setup-time-grid.png",
-      "sha256": "7121b177fb5b8bfb2d59203f2fde05213c23443898313dedd721970c9988e03e"
+      "title": "Your times",
+      "file": "img/oct26/07-setup-times.webp",
+      "source": "07-setup-times.png",
+      "sha256": "07bd4f430bddfa8f00220b4ad8486777c955927d8a6260c695604295b8262550"
     },
     {
       "n": 11,
       "chapter": "Join in four stages",
       "person": "Blake",
-      "title": "Times saved",
-      "file": "img/oct26/07c-setup-times-saved.webp",
-      "source": "07c-setup-times-saved.png",
-      "sha256": "d13ab60332aa8eadd6f7a7d4b2a1f2ba0a2c796771c192b70806e628ae383b78"
+      "title": "Pick hours",
+      "file": "img/oct26/07b-setup-time-grid.webp",
+      "source": "07b-setup-time-grid.png",
+      "sha256": "057492ed39e16411d5252e105b190ecfe1af133b4fc761ca85aaf7efd76f2a3b"
     },
     {
       "n": 12,
       "chapter": "Join in four stages",
       "person": "Blake",
-      "title": "Matching options",
-      "file": "img/oct26/08-setup-options.webp",
-      "source": "circuit-league-recapture-2026-10-27/08-setup-options.png",
-      "sha256": "4d2fcadd22d37398935fc340e3d357df8fa4189211adb546bd74b9d877a6ec81",
-      "capturedOn": "2026-10-27",
-      "appBase": "b36cbc2d9 plus uncommitted native-menu icon fix"
+      "title": "Times saved",
+      "file": "img/oct26/07c-setup-times-saved.webp",
+      "source": "07c-setup-times-saved.png",
+      "sha256": "54d47fe54bcc1d27f8deb3e87c58307358e9dcda060b02bb31e36be484057f52"
     },
     {
       "n": 13,
       "chapter": "Join in four stages",
       "person": "Blake",
-      "title": "Release and terms",
-      "file": "img/oct26/09-setup-terms.webp",
-      "source": "09-setup-terms.png",
-      "sha256": "32a99ca94624bec06c28368001cb1900a3a3d28476683b758e3e9330b04cd1a2"
+      "title": "Matching options",
+      "file": "img/oct26/08-setup-options.webp",
+      "source": "08-setup-options.png",
+      "sha256": "b14572ed078e74f1253e7a575e0c19cf417deaf2c14271aa7dcc80a2fbfd4b5a"
     },
     {
       "n": 14,
       "chapter": "Join in four stages",
       "person": "Blake",
-      "title": "Both accepted",
-      "file": "img/oct26/09b-setup-acceptances.webp",
-      "source": "09b-setup-acceptances.png",
-      "sha256": "364a7b418d12129bd203542b8a20e8d875260c0dced984c66524b9a042ca2f94"
+      "title": "Same times every week",
+      "file": "img/oct26/08b-setup-same-times.webp",
+      "source": "08b-setup-same-times.png",
+      "sha256": "629a960fbea5e78f2d9177bdfe87945cf5b0b9fc6ddf10b7f131d0dcca7438e0"
     },
     {
       "n": 15,
       "chapter": "Join in four stages",
       "person": "Blake",
-      "title": "You’re in",
-      "file": "img/oct26/10-setup-next.webp",
-      "source": "10-setup-next.png",
-      "sha256": "14fa6318f809638bb387458048b8aa12b52bf642dbcfbace3ec3b1efe29f12e9"
+      "title": "Release and terms",
+      "file": "img/oct26/09-setup-terms.webp",
+      "source": "09-setup-terms.png",
+      "sha256": "832ffce836733b674f87a4adcc9b2fbfe85d67e713e1113428bb251cdc687231"
     },
     {
       "n": 16,
+      "chapter": "Join in four stages",
+      "person": "Blake",
+      "title": "Both accepted",
+      "file": "img/oct26/09b-setup-acceptances.webp",
+      "source": "09b-setup-acceptances.png",
+      "sha256": "bda0276f4d810d7751113b93bd12940dec38f39aa9a4badb923a45f6f445ca23"
+    },
+    {
+      "n": 17,
+      "chapter": "Join in four stages",
+      "person": "Blake",
+      "title": "You’re in",
+      "file": "img/oct26/10-setup-next.webp",
+      "source": "10-setup-next.png",
+      "sha256": "cc59854cfddd3886af60d72d95057dc0a9f45a5acd51d5226b83ce94a3f88d0d"
+    },
+    {
+      "n": 18,
       "chapter": "Join in four stages",
       "person": "Blake",
       "title": "Notifications",
@@ -161,663 +175,607 @@
       "sha256": "75fd5a80ec925e240381abbbcf48fe30645bf6687bb9e96ae988d7ca0398d2a3"
     },
     {
-      "n": 17,
+      "n": 19,
       "chapter": "Join in four stages",
       "person": "Blake",
       "title": "Automatic check-in",
       "file": "img/oct26/10d-setup-check-in.webp",
-      "source": "circuit-league-recapture-2026-10-27/10d-setup-check-in.png",
-      "sha256": "b2bd9c9c2a4b42d4b4d18a2925b3e2c5489a0e5672d0e6ce6f8fd5f6c33013ba",
-      "capturedOn": "2026-10-27",
-      "appBase": "b36cbc2d9 plus uncommitted native-menu icon fix",
-      "captureNote": "Real post-join check-in screen opened through a temporary development-only setup entry; the temporary change was reverted."
+      "source": "10d-setup-check-in.png",
+      "sha256": "c9ae710c3e0e7a36fda56c0e8557fad7b651c0e6b6b6f1b5631ef9b2686ab7e2"
     },
     {
-      "n": 18,
+      "n": 20,
       "chapter": "Join in four stages",
       "person": "Blake",
       "title": "Blake’s League home",
       "file": "img/oct26/11-blake-home.webp",
-      "source": "circuit-league-walkthrough-2026-10-26/shots-2026-10-27/11-blake-home.png",
-      "sha256": "c086006fb7382415add0fe0bdeaec04e68812d59056d5a237a50bfa40ee84853",
-      "capturedOn": "2026-10-27",
-      "appBase": "9c88f0cb2"
-    },
-    {
-      "n": 19,
-      "chapter": "Casey’s League home",
-      "person": "Casey",
-      "title": "Home",
-      "file": "img/oct26/12-home.webp",
-      "source": "circuit-league-walkthrough-2026-10-26/shots-2026-10-27/12-home.png",
-      "sha256": "2f554d8a19941294e3c038fe926288f6e8c8d5c1e2b9bb638239f4b430db7be0",
-      "capturedOn": "2026-10-27",
-      "appBase": "9c88f0cb2"
-    },
-    {
-      "n": 20,
-      "chapter": "Casey’s League home",
-      "person": "Casey",
-      "title": "This week",
-      "file": "img/oct26/12b-home-lower.webp",
-      "source": "12b-home-lower.png",
-      "sha256": "264d72a97bd367c53a297d8129741e21a9909247c8fd30abedfa8fc90a7cbdf4"
+      "source": "11-blake-home.png",
+      "sha256": "181c30b0d19e92597bee45754214afce49293ccf6d26f62676d521e2ecb67633"
     },
     {
       "n": 21,
       "chapter": "Casey’s League home",
       "person": "Casey",
-      "title": "How standings work",
-      "file": "img/oct26/12c-standings-info.webp",
-      "source": "circuit-league-walkthrough-2026-10-26/shots-2026-10-27/12c-standings-info.png",
-      "sha256": "d1fce5a38a2a41544e005b38a14835ca53de2cc2e48d4da105cdc25d8a912925",
-      "capturedOn": "2026-10-27",
-      "appBase": "9c88f0cb2"
+      "title": "Home",
+      "file": "img/oct26/12-home.webp",
+      "source": "12-home.png",
+      "sha256": "82e6680507fa0a391db02983c3812692fe4b1c63cc2e80a3678237869e77edda"
     },
     {
       "n": 22,
       "chapter": "Casey’s League home",
       "person": "Casey",
-      "title": "More League",
-      "file": "img/oct26/12c-home-bottom.webp",
-      "source": "12c-home-bottom.png",
-      "sha256": "686bb8e52e1ec79ef4eb4767edd4ebb10d502fa27c2fe138d9485d1e1f8222cb"
+      "title": "This week",
+      "file": "img/oct26/12b-home-lower.webp",
+      "source": "12b-home-lower.png",
+      "sha256": "ca76f79c9150bc9e1ecd53ac7128a904d5e79556eb47b123f8effbbb9f027af4"
     },
     {
       "n": 23,
       "chapter": "Casey’s League home",
       "person": "Casey",
-      "title": "League menu",
-      "file": "img/oct26/13-league-menu.webp",
-      "source": "circuit-league-walkthrough-2026-10-26/shots-2026-10-27/13-league-menu.png",
-      "sha256": "092ed0e8d2ba303c3235810f249b52a5220197c93f5ada13ffbdda05dfc076a5",
-      "capturedOn": "2026-10-27",
-      "appBase": "9c88f0cb2"
+      "title": "How standings work",
+      "file": "img/oct26/12c-standings-info.webp",
+      "source": "12c-standings-info.png",
+      "sha256": "38d95ce30dd265ffbed415c85d7defd2010ef35b294b8d47f28f9b485946edfd"
     },
     {
       "n": 24,
-      "chapter": "Match offers",
+      "chapter": "Casey’s League home",
       "person": "Casey",
-      "title": "Match found",
-      "file": "img/oct26/14-offer.webp",
-      "source": "14-offer.png",
-      "sha256": "f9b440a71eb7a17b55d7e3f513394e58ef9cc1a630398b01033aa20f4c186d77"
+      "title": "More League",
+      "file": "img/oct26/12c-home-bottom.webp",
+      "source": "12c-home-bottom.png",
+      "sha256": "17bc0c0e3480bdc85c022b0cba72b53ec11c60f49be7fa64b9201b22d23c703c"
     },
     {
       "n": 25,
-      "chapter": "Match offers",
+      "chapter": "Casey’s League home",
       "person": "Casey",
-      "title": "Who’s in it",
-      "file": "img/oct26/14b-offer-players.webp",
-      "source": "14b-offer-players.png",
-      "sha256": "be5dce5dd539f1763277eb028378102797cc21ce97391544bdc52a6f6177a418"
+      "title": "League menu",
+      "file": "img/oct26/13-league-menu.webp",
+      "source": "13-league-menu.png",
+      "sha256": "4ad4f80622a273c0972f74710356b312168413e1d6070380d274df1e494a1377"
     },
     {
       "n": 26,
       "chapter": "Match offers",
       "person": "Casey",
-      "title": "Choose another time",
-      "file": "img/oct26/15-offer-other-times.webp",
-      "source": "15-offer-other-times.png",
-      "sha256": "18423d7478403b4fea9def0fcd3596f298632947676cd6f8a8095fdd8755c907"
+      "title": "Match found",
+      "file": "img/oct26/14-offer.webp",
+      "source": "14-offer.png",
+      "sha256": "d143580aeca8a5268b93c650bcf4f470f623cfcc5372f9330e0df50d9b742053"
     },
     {
       "n": 27,
       "chapter": "Match offers",
       "person": "Casey",
-      "title": "Not this time",
-      "file": "img/oct26/16-offer-decline.webp",
-      "source": "16-offer-decline.png",
-      "sha256": "d25949ce808e726bec0091f3e59bb82590cb3c1b6748ac077da6b3dd2a3df572"
+      "title": "Who’s in it",
+      "file": "img/oct26/14b-offer-players.webp",
+      "source": "14b-offer-players.png",
+      "sha256": "376d405eccbdd8f045a84460ba8d58389797ccf59432245ad6d0c6a4f8fa2e09"
     },
     {
       "n": 28,
       "chapter": "Match offers",
       "person": "Casey",
-      "title": "Accepted",
-      "file": "img/oct26/17-offer-accepted.webp",
-      "source": "17-offer-accepted.png",
-      "sha256": "f4f617e24688ec4551e99215efc2cd6304cbdb2bf7e818f562c75b5289a13f26"
+      "title": "Choose another time",
+      "file": "img/oct26/15-offer-other-times.webp",
+      "source": "15-offer-other-times.png",
+      "sha256": "cb43c05794e9ac9058e05a67b07d3e94294092e7936ad0a1a0c0b83547181d56"
     },
     {
       "n": 29,
-      "chapter": "Confirmed matches and chat",
+      "chapter": "Match offers",
       "person": "Casey",
-      "title": "Match details",
-      "file": "img/oct26/19-match-upcoming.webp",
-      "source": "circuit-league-walkthrough-2026-10-26/shots-2026-10-27/19-match-upcoming.png",
-      "sha256": "497de94ffd7c0b9d277f00ea7c35d2cb0fb33acccf15c3538da40e9b113aa322",
-      "capturedOn": "2026-10-27",
-      "appBase": "9c88f0cb2"
+      "title": "Not this time",
+      "file": "img/oct26/16-offer-decline.webp",
+      "source": "16-offer-decline.png",
+      "sha256": "c9d5019cba9d13f758ec85ee8b92983270c4aad8f3d897cb7f534e0da4218315"
     },
     {
       "n": 30,
-      "chapter": "Confirmed matches and chat",
+      "chapter": "Match offers",
       "person": "Casey",
-      "title": "Match actions",
-      "file": "img/oct26/19b-match-menu.webp",
-      "source": "circuit-league-walkthrough-2026-10-26/shots-2026-10-27/19b-match-menu.png",
-      "sha256": "7d2ce9f3bad0365c1cb685d0dabaad9ce355764738773067b39e55493a54f047",
-      "capturedOn": "2026-10-27",
-      "appBase": "9c88f0cb2"
+      "title": "Accepted",
+      "file": "img/oct26/17-offer-accepted.webp",
+      "source": "17-offer-accepted.png",
+      "sha256": "402120c19dfeb1509d9c3e9411816a9073545fe2db1af4f86ad13d2e9440c5cf"
     },
     {
       "n": 31,
       "chapter": "Confirmed matches and chat",
       "person": "Casey",
-      "title": "Match chat",
-      "file": "img/oct26/20-chat.webp",
-      "source": "20-chat.png",
-      "sha256": "f3d7a6d5ba539eb6699cc87d69a7fe9820b73b8b7691f9ebb214e83d947d94bd"
+      "title": "Match details",
+      "file": "img/oct26/19-match-upcoming.webp",
+      "source": "19-match-upcoming.png",
+      "sha256": "6cb09b4fa9bc4b593b26fdc5bbada7e2289306264310e14b1979f3eff341e893"
     },
     {
       "n": 32,
       "chapter": "Confirmed matches and chat",
       "person": "Casey",
-      "title": "Mute or block",
-      "file": "img/oct26/20b-chat-players.webp",
-      "source": "20b-chat-players.png",
-      "sha256": "f7e9b01a37d177f23ca1570ce9862378c984452949320a2f48fc0391f06ea4d4"
+      "title": "Match actions",
+      "file": "img/oct26/19b-match-menu.webp",
+      "source": "19b-match-menu.png",
+      "sha256": "c8f02ff685cfb52c5bbab0837120408a7375d2ae631656d80d398d5192681ed5"
     },
     {
       "n": 33,
       "chapter": "Confirmed matches and chat",
       "person": "Casey",
-      "title": "Hold a message",
-      "file": "img/oct26/20c-chat-hold.webp",
-      "source": "20c-chat-hold.png",
-      "sha256": "d612dcc6b4dfbba285248a3099a50b70198ede848086d478a62509dcaf58ba5b"
+      "title": "Match chat",
+      "file": "img/oct26/20-chat.webp",
+      "source": "20-chat.png",
+      "sha256": "e1dc10eb1fec18148a61edbc5ea8a0506a450e2bc6b7e2f0c1b287a93c64b7e0"
     },
     {
       "n": 34,
       "chapter": "Confirmed matches and chat",
       "person": "Casey",
-      "title": "All reactions",
-      "file": "img/oct26/20d-chat-all-reactions.webp",
-      "source": "20d-chat-all-reactions.png",
-      "sha256": "623bf54e7099a136ad8f9e7ef2c10ce1505cd7b54b4b67862e0971a857a588d0"
+      "title": "Mute or block",
+      "file": "img/oct26/20b-chat-players.webp",
+      "source": "20b-chat-players.png",
+      "sha256": "2ed5d75b23a49d93b518d14803ad634c369dfa2922b8b3cc51facc1ae4f1fb8c"
     },
     {
       "n": 35,
       "chapter": "Confirmed matches and chat",
       "person": "Casey",
-      "title": "Reply",
-      "file": "img/oct26/20e-chat-reply-composer.webp",
-      "source": "20e-chat-reply-composer.png",
-      "sha256": "b2fc3d314250a8dbd747ab46b8a2b66904bb7fac7884c42bdf85afe3159625fd"
+      "title": "Hold a message",
+      "file": "img/oct26/20c-chat-hold.webp",
+      "source": "20c-chat-hold.png",
+      "sha256": "ac0bcc7d31228d6ef0656e1c5feacde458991c003e3e3008f56865d5b6d01e54"
     },
     {
       "n": 36,
       "chapter": "Confirmed matches and chat",
       "person": "Casey",
-      "title": "The reply",
-      "file": "img/oct26/20f-chat-replied.webp",
-      "source": "20f-chat-replied.png",
-      "sha256": "bd4e4c30bb0bf7992944171ebe2835f938547bdc457fad6345b31c1071a45726"
+      "title": "All reactions",
+      "file": "img/oct26/20d-chat-all-reactions.webp",
+      "source": "20d-chat-all-reactions.png",
+      "sha256": "99eed2f8f24eb21fc0b3d119bb3018a6d36b651af8463f1581a552534d308acc"
     },
     {
       "n": 37,
       "chapter": "Confirmed matches and chat",
       "person": "Casey",
-      "title": "Report a message",
-      "file": "img/oct26/20g-chat-report.webp",
-      "source": "20g-chat-report.png",
-      "sha256": "f7f22a49e0ae1c1139fae0578f0dfdc73f753a1ec2656a265aa9159625038033"
+      "title": "Reply",
+      "file": "img/oct26/20e-chat-reply-composer.webp",
+      "source": "20e-chat-reply-composer.png",
+      "sha256": "4823e478e3c4291ae7b597cd9cf16b605b4359ba7b3fd4466131e35b83e5855b"
     },
     {
       "n": 38,
-      "chapter": "Scores",
+      "chapter": "Confirmed matches and chat",
       "person": "Casey",
-      "title": "Score due",
-      "file": "img/oct26/21-score-due.webp",
-      "source": "21-score-due.png",
-      "sha256": "6b2953815afa9a6fd11ff22302ab634c34f44ff4605a5a0b223733a5a47038d9"
+      "title": "The reply",
+      "file": "img/oct26/20f-chat-replied.webp",
+      "source": "20f-chat-replied.png",
+      "sha256": "718f6841ee9844a41e496ac170d1c28f3bbe3ce99ebe26f5e0163df7506aa4d6"
     },
     {
       "n": 39,
-      "chapter": "Scores",
+      "chapter": "Confirmed matches and chat",
       "person": "Casey",
-      "title": "Report form",
-      "file": "img/oct26/22-report-form.webp",
-      "source": "22-report-form.png",
-      "sha256": "897a8a7f5693fdf54a87fbbbe18218849ca932e5cc2db3eda39d4e887fd3d81f"
+      "title": "Report a message",
+      "file": "img/oct26/20g-chat-report.webp",
+      "source": "20g-chat-report.png",
+      "sha256": "a5137485b65df0ce51f58b134680469826d8fc3e65e55bc00b331a8ace6105bf"
     },
     {
       "n": 40,
       "chapter": "Scores",
       "person": "Casey",
-      "title": "Games entered",
-      "file": "img/oct26/22b-report-filled.webp",
-      "source": "22b-report-filled.png",
-      "sha256": "488790b5d0610dcb71e57030902f4bd8085ccd6e421abce7948854cd0b00861f"
+      "title": "Score due",
+      "file": "img/oct26/21-score-due.webp",
+      "source": "21-score-due.png",
+      "sha256": "3b67e0ff9e67ed0ddef4429fe6366a6918da8e8d9c8e0c643d5630ee2f1ce4e2"
     },
     {
       "n": 41,
       "chapter": "Scores",
       "person": "Casey",
-      "title": "Fewer games than planned",
-      "file": "img/oct26/23-report-short-confirm.webp",
-      "source": "23-report-short-confirm.png",
-      "sha256": "c87415f14c913cef5f044d0c3e88fddbf4896da656a4457cb07567de0b98da20"
+      "title": "Report form",
+      "file": "img/oct26/22-report-form.webp",
+      "source": "22-report-form.png",
+      "sha256": "60d3c246d117ffde1f4e549e59d57331ac1b4162f7d16ad168f319adbaf9887e"
     },
     {
       "n": 42,
       "chapter": "Scores",
       "person": "Casey",
-      "title": "Score sent",
-      "file": "img/oct26/24-report-sent.webp",
-      "source": "24-report-sent.png",
-      "sha256": "486242513f055c6a634cf57f1d2a3c23a7d488cb27d8149eec42cdd711e16626"
+      "title": "Games entered",
+      "file": "img/oct26/22b-report-filled.webp",
+      "source": "22b-report-filled.png",
+      "sha256": "30e8df87c636d1aeb341e9b4ac4924496a91915b0aa93a2ae06a8b5f3d60c958"
     },
     {
       "n": 43,
       "chapter": "Scores",
       "person": "Casey",
-      "title": "Review a score",
-      "file": "img/oct26/25-review.webp",
-      "source": "circuit-league-walkthrough-2026-10-26/shots-2026-10-27/25-review.png",
-      "sha256": "1d4f741eb19c6a02d0ee47b538c08d8325648b1dac8f364aed26b0e61315b2c9",
-      "capturedOn": "2026-10-27",
-      "appBase": "9c88f0cb2"
+      "title": "Fewer games than planned",
+      "file": "img/oct26/23-report-short-confirm.webp",
+      "source": "23-report-short-confirm.png",
+      "sha256": "d0d66dc3f7d1162882a8e772b44b7bf8f34ee22394bfbdd3b329446cf190fc67"
     },
     {
       "n": 44,
       "chapter": "Scores",
       "person": "Casey",
-      "title": "Dispute",
-      "file": "img/oct26/26-dispute.webp",
-      "source": "circuit-league-walkthrough-2026-10-26/shots-2026-10-27/26-dispute.png",
-      "sha256": "edad6f590f9fd0159f0977232b231055c8fc31b48b244a6b658aadfb24c66f3f",
-      "capturedOn": "2026-10-27",
-      "appBase": "9c88f0cb2"
+      "title": "Score sent",
+      "file": "img/oct26/24-report-sent.webp",
+      "source": "24-report-sent.png",
+      "sha256": "f9c16fc3d0f56c78caf98a411370c3d0c2ceb316cda3d81fa9369654703518d1"
     },
     {
       "n": 45,
       "chapter": "Scores",
       "person": "Casey",
-      "title": "Final",
-      "file": "img/oct26/27-confirmed.webp",
-      "source": "27-confirmed.png",
-      "sha256": "6d56f9dcbb79814a41e0656188e746279559c4b50a42c86d3a5da4ca7e5aef8b"
+      "title": "Review a score",
+      "file": "img/oct26/25-review.webp",
+      "source": "25-review.png",
+      "sha256": "35c07827c59e342ad7a42fda443f6d9ec64014f6fb0d92276b70c273f5a47e7b"
     },
     {
       "n": 46,
       "chapter": "Scores",
       "person": "Casey",
-      "title": "Past matches",
-      "file": "img/oct26/28-past.webp",
-      "source": "circuit-league-walkthrough-2026-10-26/shots-2026-10-27/28-past.png",
-      "sha256": "47599a203c9c7b34c3a57bb44d606ad9a2426a810501f3c12b712d5f75da3ff4",
-      "capturedOn": "2026-10-27",
-      "appBase": "9c88f0cb2"
+      "title": "Dispute",
+      "file": "img/oct26/26-dispute.webp",
+      "source": "26-dispute.png",
+      "sha256": "bb70166f037031427e16eb75b175c6fcd4c1719ce077609ebe95f844212d813a"
     },
     {
       "n": 47,
-      "chapter": "Leaderboards",
+      "chapter": "Scores",
       "person": "Casey",
-      "title": "Austin area, Women’s singles",
-      "file": "img/oct26/29-board.webp",
-      "source": "48-leaderboard.png",
-      "sha256": "fc9038664278dbb4b147b1afb31d63487c1fa8e86986194f736dd97ac799f8c9"
+      "title": "Final",
+      "file": "img/oct26/27-confirmed.webp",
+      "source": "27-confirmed.png",
+      "sha256": "419b5446af84d0dc8e4524a58d1b9ab052967778a76ca6b11084f9ad4d0fb4e2"
     },
     {
       "n": 48,
-      "chapter": "Leaderboards",
+      "chapter": "Scores",
       "person": "Casey",
-      "title": "DUPR rating",
-      "file": "img/oct26/29b-board-rating.webp",
-      "source": "circuit-league-walkthrough-2026-10-26/shots-2026-10-27/29b-board-rating.png",
-      "sha256": "ea8613b4df383f42feb5eb56e336e9b1a02de859fb44f72188926b1c44d55bdc",
-      "capturedOn": "2026-10-27",
-      "appBase": "9c88f0cb2"
+      "title": "Past matches",
+      "file": "img/oct26/28-past.webp",
+      "source": "28-past.png",
+      "sha256": "344ce001c3d484e428dc386bf71a97cd867d7a10ab17d21428733a72f3343243"
     },
     {
       "n": 49,
       "chapter": "Leaderboards",
       "person": "Casey",
-      "title": "Near you",
-      "file": "img/oct26/30-board-near-you.webp",
-      "source": "circuit-league-walkthrough-2026-10-26/shots-2026-10-27/30-board-near-you.png",
-      "sha256": "1e46e7c1c5888bc6131088aab6f6b26f425ce660853f7c0eeb5fffb6b4692a98",
-      "capturedOn": "2026-10-27",
-      "appBase": "9c88f0cb2"
+      "title": "Austin area, Women’s singles",
+      "file": "img/oct26/29-board.webp",
+      "source": "29-board.png",
+      "sha256": "8e7ff7433ae71ebc74ccfeb00c897d89e8f851104d21dac6e737e047e9aec054"
     },
     {
       "n": 50,
       "chapter": "Leaderboards",
       "person": "Casey",
-      "title": "Filters",
-      "file": "img/oct26/31-board-filters.webp",
-      "source": "circuit-league-walkthrough-2026-10-26/shots-2026-10-27/31-board-filters.png",
-      "sha256": "119a55a5bcf0787fc9a84227c19a3f5f653e703122b3ae2090d23c818554e182",
-      "capturedOn": "2026-10-27",
-      "appBase": "9c88f0cb2"
+      "title": "DUPR rating",
+      "file": "img/oct26/29b-board-rating.webp",
+      "source": "29b-board-rating.png",
+      "sha256": "7f12a7a02cea65438d388325096771b0439c39e7a25de4e6889663c13db8cdc7"
     },
     {
       "n": 51,
       "chapter": "Leaderboards",
       "person": "Casey",
-      "title": "About this board",
-      "file": "img/oct26/32-board-about.webp",
-      "source": "32-board-about.png",
-      "sha256": "4c02eda731339476c9de0ed58959849b0d4e57916157f5f40d0ba1364a97bed7"
+      "title": "Near you",
+      "file": "img/oct26/30-board-near-you.webp",
+      "source": "30-board-near-you.png",
+      "sha256": "d542c2b6bc5e96fc28d7c9ac5bb0f3a880a4019d04178724b8d5d4d3d5444d9d"
     },
     {
       "n": 52,
       "chapter": "Leaderboards",
       "person": "Casey",
-      "title": "Search",
-      "file": "img/oct26/33-board-search.webp",
-      "source": "33-board-search.png",
-      "sha256": "755cf89cb0f84502e2cd7455fd720524928ce8838fb85565b0e6b404c3559f3b"
+      "title": "Filters",
+      "file": "img/oct26/31-board-filters.webp",
+      "source": "31-board-filters.png",
+      "sha256": "6b0f17851baee01338a5c7c74f772b8f9bfc09a7399ef761abb32425f01217b0"
     },
     {
       "n": 53,
       "chapter": "Leaderboards",
       "person": "Casey",
-      "title": "Doubles everywhere",
-      "file": "img/oct26/34-board-doubles.webp",
-      "source": "34-board-doubles.png",
-      "sha256": "d820c55c047c4de07d05919b053d58913af367acd3f49b378d8bb2358e01de7d"
+      "title": "About this board",
+      "file": "img/oct26/32-board-about.webp",
+      "source": "32-board-about.png",
+      "sha256": "93ec53fa2a1e4ff033d2a3ab161b5f82a92fa7afef6523c9c6427d1065643e53"
     },
     {
       "n": 54,
       "chapter": "Leaderboards",
       "person": "Casey",
-      "title": "Teams",
-      "file": "img/oct26/35-board-teams.webp",
-      "source": "35-board-teams.png",
-      "sha256": "9668309af9977e147bdfa2a8d6743f47c83969067b24e2549079720a81c0454c"
+      "title": "Search",
+      "file": "img/oct26/33-board-search.webp",
+      "source": "33-board-search.png",
+      "sha256": "7403e7c3ebb53202a6418831787fac3c519060d371261d8192ea6d18ee378884"
     },
     {
       "n": 55,
-      "chapter": "Player records",
+      "chapter": "Leaderboards",
       "person": "Casey",
-      "title": "Casey’s record",
-      "file": "img/oct26/36-stats.webp",
-      "source": "circuit-league-walkthrough-2026-10-26/shots-2026-10-27/36-stats.png",
-      "sha256": "7a9ad3ef281511202ce3f6d58fe744d162ed9c64e511ec12861a3013f9cf90a3",
-      "capturedOn": "2026-10-27",
-      "appBase": "9c88f0cb2"
+      "title": "Doubles everywhere",
+      "file": "img/oct26/34-board-doubles.webp",
+      "source": "34-board-doubles.png",
+      "sha256": "d9d039f66779648a552cbaa9793c95e810603c5b92e9bd53c25f141b6cca5bd7"
     },
     {
       "n": 56,
-      "chapter": "Player records",
+      "chapter": "Leaderboards",
       "person": "Casey",
-      "title": "Match history",
-      "file": "img/oct26/36b-stats-matches.webp",
-      "source": "50-stats-matches.png",
-      "sha256": "f894eb72f6eee3eaa24d3e92d53724f1edb9cdec08c8b231be2e16b89fae57ca"
+      "title": "Teams",
+      "file": "img/oct26/35-board-teams.webp",
+      "source": "35-board-teams.png",
+      "sha256": "203a08e507f532608d05a0bc86f45e378d181b7298da4ea3c16dd4d13fc0aee9"
     },
     {
       "n": 57,
       "chapter": "Player records",
       "person": "Casey",
-      "title": "Badge details",
-      "file": "img/oct26/37-badge.webp",
-      "source": "circuit-league-walkthrough-2026-10-26/shots-2026-10-27/37-badge.png",
-      "sha256": "8914625dcfd10c0e9ae80c7bf53d0ed46064303607bbf3fbac2cec45531f8acd",
-      "capturedOn": "2026-10-27",
-      "appBase": "9c88f0cb2"
+      "title": "Casey’s record",
+      "file": "img/oct26/36-stats.webp",
+      "source": "36-stats.png",
+      "sha256": "eada2c66af53a04db99aaaa64896c105484dde27cecfd2d7392dc4d20bb37ead"
     },
     {
       "n": 58,
       "chapter": "Player records",
       "person": "Casey",
-      "title": "Another player",
-      "file": "img/oct26/38-other-stats.webp",
-      "source": "38-other-stats.png",
-      "sha256": "4de96676f2058547b3e29099639f67adb369e56176f507c84e85bd2fe62200dd"
+      "title": "Match history",
+      "file": "img/oct26/36b-stats-matches.webp",
+      "source": "36b-stats-matches.png",
+      "sha256": "14f784c4bcb98da8ecc63667bf09515a0d76603ccb75017942ed5af929800863"
     },
     {
       "n": 59,
-      "chapter": "Weekly recap",
+      "chapter": "Player records",
       "person": "Casey",
-      "title": "Week of Oct 19",
-      "file": "img/oct26/39-recap.webp",
-      "source": "53-recap.png",
-      "sha256": "3bbce14cf57eefb9a607b53bc385044ea1cfd834131166170acee2af64079f61"
+      "title": "Badge details",
+      "file": "img/oct26/37-badge.webp",
+      "source": "37-badge.png",
+      "sha256": "05c06eb80afce558250bccc772ed2f75613d5249a7643de8721695499ef1211d"
     },
     {
       "n": 60,
-      "chapter": "Weekly recap",
+      "chapter": "Player records",
       "person": "Casey",
-      "title": "Summary",
-      "file": "img/oct26/40-recap-summary.webp",
-      "source": "40-recap-summary.png",
-      "sha256": "185ef58e00cf83b9e2d95d329b8a5211919a5b4ebc507bbce7b45a3e8fb8bfea"
+      "title": "Another player",
+      "file": "img/oct26/38-other-stats.webp",
+      "source": "38-other-stats.png",
+      "sha256": "a405985305e3c91102bbaa76956ed42f9bc394da8072882ce55033cbb71ac15c"
     },
     {
       "n": 61,
       "chapter": "Weekly recap",
       "person": "Casey",
-      "title": "Every match",
-      "file": "img/oct26/40b-recap-summary-lower.webp",
-      "source": "40b-recap-summary-lower.png",
-      "sha256": "d1f79ec98eba8548e5788a84c0f7279bd7ba3de52d63b033afa77a73fb1ee905"
+      "title": "Week of Oct 19",
+      "file": "img/oct26/39-recap.webp",
+      "source": "39-recap.png",
+      "sha256": "b621aa96bdae862ac7d53f8a93033a94ed217d7514897881e2d266fa3452fd40"
     },
     {
       "n": 62,
       "chapter": "Weekly recap",
       "person": "Casey",
-      "title": "What next",
-      "file": "img/oct26/40c-recap-summary-end.webp",
-      "source": "40c-recap-summary-end.png",
-      "sha256": "cee259f95319171bb259457c6d70fb33cfcfee35739ff0192ae308e0f27a390b"
+      "title": "Summary",
+      "file": "img/oct26/40-recap-summary.webp",
+      "source": "40-recap-summary.png",
+      "sha256": "8eec6cb19c824fa0a0fd962cacfc89f830f032841208ef4a4a10efc5dc2f5674"
     },
     {
       "n": 63,
-      "chapter": "Fixed teams",
+      "chapter": "Weekly recap",
       "person": "Casey",
-      "title": "New team",
-      "file": "img/oct26/41-add-team.webp",
-      "source": "41-add-team.png",
-      "sha256": "2249e78900b9d15d7ca2d0ce95b49482786a705cacae3038e56c326309296702"
+      "title": "Every match",
+      "file": "img/oct26/40b-recap-summary-lower.webp",
+      "source": "40b-recap-summary-lower.png",
+      "sha256": "68e2d53a4a2979c9e971a21d4f2976de86e786775811e2379d90346b76805782"
     },
     {
       "n": 64,
-      "chapter": "Fixed teams",
+      "chapter": "Weekly recap",
       "person": "Casey",
-      "title": "Send the link",
-      "file": "img/oct26/41b-add-team-share.webp",
-      "source": "41b-add-team-share.png",
-      "sha256": "316c8a593ec6f38b33fd21024c16eb217f9b92a238c856683bdeb2d6527916f0"
+      "title": "What next",
+      "file": "img/oct26/40c-recap-summary-end.webp",
+      "source": "40c-recap-summary-end.png",
+      "sha256": "15b1a0d613768ef203261c457e711fba749647cc51642e1f614099b1dbc4e7ae"
     },
     {
       "n": 65,
       "chapter": "Fixed teams",
       "person": "Casey",
-      "title": "Link saved",
-      "file": "img/oct26/41c-add-team-link-saved.webp",
-      "source": "41c-add-team-link-saved.png",
-      "sha256": "f105464de3909d0156233250a4748ce8cdd849757abaa04bfe04904a5dc437c6"
+      "title": "New team",
+      "file": "img/oct26/41-add-team.webp",
+      "source": "41-add-team.png",
+      "sha256": "1ead153c814b77cbd68b3e9b0ba34248b9bf2454bb6cfe1bb3eda8e1da3a9f39"
     },
     {
       "n": 66,
       "chapter": "Fixed teams",
       "person": "Casey",
-      "title": "Team page",
-      "file": "img/oct26/43-team-settings.webp",
-      "source": "circuit-league-walkthrough-2026-10-26/shots-2026-10-27/43-team-settings.png",
-      "sha256": "e6f8aa3bfeb9c19342a14129f74594e9666550e4ac512378c5012e77140fee4d",
-      "capturedOn": "2026-10-27",
-      "appBase": "9c88f0cb2"
+      "title": "Send the link",
+      "file": "img/oct26/41b-add-team-share.webp",
+      "source": "41b-add-team-share.png",
+      "sha256": "e7127d73c8acdc94be14437e67d14cd4cb4b47cc6805910d03a7a798eb456481"
     },
     {
       "n": 67,
-      "chapter": "Scan to play",
+      "chapter": "Fixed teams",
       "person": "Casey",
-      "title": "Plan the match",
-      "file": "img/oct26/44-scan.webp",
-      "source": "circuit-league-walkthrough-2026-10-26/shots-2026-10-27/44-scan.png",
-      "sha256": "aad6ba850e89d088bc3a76527a1544f130eba9d5be37c8e5e86aabd96df397d6",
-      "capturedOn": "2026-10-27",
-      "appBase": "9c88f0cb2"
+      "title": "Link saved",
+      "file": "img/oct26/41c-add-team-link-saved.webp",
+      "source": "41c-add-team-link-saved.png",
+      "sha256": "70e2c065060e8a855cfd2882b2d9023791057c902924cbbeb50b67d070bb98f0"
     },
     {
       "n": 68,
-      "chapter": "Scan to play",
+      "chapter": "Fixed teams",
       "person": "Casey",
-      "title": "Venue chosen",
-      "file": "img/oct26/44b-scan-venue-chosen.webp",
-      "source": "circuit-league-walkthrough-2026-10-26/shots-2026-10-27/44b-scan-venue-chosen.png",
-      "sha256": "b1432cae226d135fb48fdd63a0226ee5ecbc7c35bf9762c96c4cdcfcde320289",
-      "capturedOn": "2026-10-27",
-      "appBase": "9c88f0cb2"
+      "title": "Team page",
+      "file": "img/oct26/43-team-settings.webp",
+      "source": "43-team-settings.png",
+      "sha256": "244f0000c8e1feb1bc13fc97596ee7f8535cc33c5a710d5708a657441c11666a"
     },
     {
       "n": 69,
       "chapter": "Scan to play",
       "person": "Casey",
-      "title": "Scan players",
-      "file": "img/oct26/44c-scan-waiting.webp",
-      "source": "circuit-league-walkthrough-2026-10-26/shots-2026-10-27/44c-scan-waiting.png",
-      "sha256": "cbd8b306b9cb45aed94be48b60f525f439f49db820e35bd9444ccbf968b34986",
-      "capturedOn": "2026-10-27",
-      "appBase": "9c88f0cb2"
+      "title": "Plan the match",
+      "file": "img/oct26/44-scan.webp",
+      "source": "44-scan.png",
+      "sha256": "add00f441dba646a922c1399282b2a59f6a00655ad590259ef8289d5a2acc868"
     },
     {
       "n": 70,
       "chapter": "Scan to play",
       "person": "Casey",
-      "title": "My QR",
-      "file": "img/oct26/45-my-code.webp",
-      "source": "64-my-qr.png",
-      "sha256": "06e3fb2e9e4c3b7828fad5f3871d8ff4187987d5f85b4b6fdc73cc5749489d06"
+      "title": "Venue chosen",
+      "file": "img/oct26/44b-scan-venue-chosen.webp",
+      "source": "44b-scan-venue-chosen.png",
+      "sha256": "0489693f755251684154eeb1607e31c43a2ad15852dbf857f2fb8307ad996565"
     },
     {
       "n": 71,
-      "chapter": "Settings, times and venues",
+      "chapter": "Scan to play",
       "person": "Casey",
-      "title": "League settings",
-      "file": "img/oct26/46-settings.webp",
-      "source": "circuit-league-recapture-2026-10-27/46-settings.png",
-      "sha256": "46a11c22c01c868d97948cd32cc1ce062f9381c98db9f5a788e198f055cd7594",
-      "capturedOn": "2026-10-27",
-      "appBase": "b36cbc2d9 plus uncommitted native-menu icon fix"
+      "title": "Scan players",
+      "file": "img/oct26/44c-scan-waiting.webp",
+      "source": "44c-scan-waiting.png",
+      "sha256": "fee3be3709f980b44c13bfa178b4e550f6b228571dd35aa2f7618f4c9c74751f"
     },
     {
       "n": 72,
-      "chapter": "Settings, times and venues",
+      "chapter": "Scan to play",
       "person": "Casey",
-      "title": "Privacy and safety",
-      "file": "img/oct26/46b-settings-lower.webp",
-      "source": "circuit-league-recapture-2026-10-27/46b-settings-lower.png",
-      "sha256": "3713d46167f8adca55cae797f94941c28a7b15f12c46237be4efc825fc34766a",
-      "capturedOn": "2026-10-27",
-      "appBase": "b36cbc2d9 plus uncommitted native-menu icon fix"
+      "title": "My QR",
+      "file": "img/oct26/45-my-code.webp",
+      "source": "45-my-code.png",
+      "sha256": "95773ab03ce2f745566ef07872ec7de33df58bd1a7fb5391bb2ad3de0c373f3b"
     },
     {
       "n": 73,
       "chapter": "Settings, times and venues",
       "person": "Casey",
-      "title": "Notifications",
-      "file": "img/oct26/47-notification-settings.webp",
-      "source": "circuit-league-recapture-2026-10-27/47-notification-settings.png",
-      "sha256": "609a3ea890727c69292de5f6e6b1826411f3108c3d6e51e43dc0a2f2908670da",
-      "capturedOn": "2026-10-27",
-      "appBase": "b36cbc2d9 plus uncommitted native-menu icon fix"
+      "title": "League settings",
+      "file": "img/oct26/46-settings.webp",
+      "source": "46-settings.png",
+      "sha256": "01b814499a2ce89cbf4ff84f0153595f8b48be93dff17eebdfbf112de73d6260"
     },
     {
       "n": 74,
       "chapter": "Settings, times and venues",
       "person": "Casey",
-      "title": "Your times",
-      "file": "img/oct26/48-times.webp",
-      "source": "48-times.png",
-      "sha256": "66bc54aea56e73ba968815a869bd91fb1a937af91702d91326399d56d1f00f54"
+      "title": "Privacy and safety",
+      "file": "img/oct26/46b-settings-lower.webp",
+      "source": "46b-settings-lower.png",
+      "sha256": "68721c0a8a648cecf7ffa612f2f155fef334262b1af724a2003c403c54ac4116"
     },
     {
       "n": 75,
       "chapter": "Settings, times and venues",
       "person": "Casey",
-      "title": "Suggested times",
-      "file": "img/oct26/48b-times-lower.webp",
-      "source": "48b-times-lower.png",
-      "sha256": "bece528463ccfe00ea4835bf69716fdcf48a2f6a52613fa2bb3652b3454e4768"
+      "title": "Notifications",
+      "file": "img/oct26/47-notification-settings.webp",
+      "source": "47-notification-settings.png",
+      "sha256": "7c26f4215553c51e8bf8f05ef4cf6a6b7050b69ea045acc626e8136845c0e624"
     },
     {
       "n": 76,
       "chapter": "Settings, times and venues",
       "person": "Casey",
-      "title": "Saved venues",
-      "file": "img/oct26/49-venues.webp",
-      "source": "49-venues.png",
-      "sha256": "f536f02c559dc711facf86b2b80090ee2e8eaabc6b61e9928709e2e9a5a488fa"
+      "title": "Your times",
+      "file": "img/oct26/48-times.webp",
+      "source": "48-times.png",
+      "sha256": "2e8759a6e3bd753a1b7a1c8212093cf3b717043be983d549548fc24256dc8595"
     },
     {
       "n": 77,
       "chapter": "Settings, times and venues",
       "person": "Casey",
-      "title": "Venue detail",
-      "file": "img/oct26/50-venue-detail.webp",
-      "source": "50-venue-detail.png",
-      "sha256": "b78291997a506abd8f69e478ac24522b921c1267aae6645bdd7df5a3df1c6182"
+      "title": "Saved venues",
+      "file": "img/oct26/49-venues.webp",
+      "source": "49-venues.png",
+      "sha256": "674b4d0bb2a0e3a936dae54c642fc0ac4e7e00eb24970b4a8377346ed2c9a523"
     },
     {
       "n": 78,
-      "chapter": "Safety and conduct",
+      "chapter": "Settings, times and venues",
       "person": "Casey",
-      "title": "Blocked players",
-      "file": "img/oct26/51-blocked.webp",
-      "source": "51-blocked.png",
-      "sha256": "4646bf0e974f7df9667d9aaf20eb0207d0df9da0a1e9bc359beb091522a789db"
+      "title": "Venue detail",
+      "file": "img/oct26/50-venue-detail.webp",
+      "source": "50-venue-detail.png",
+      "sha256": "4fbce36e4da82493cedf25c3ef3b9bb4971999a0530982fb7583bb9890f35ef3"
     },
     {
       "n": 79,
       "chapter": "Safety and conduct",
       "person": "Casey",
-      "title": "Conduct record",
-      "file": "img/oct26/52-conduct.webp",
-      "source": "52-conduct.png",
-      "sha256": "60b46636e42b06d44a9ec4f1483323b57b9776dad9bd02f16408758bba95bf02"
+      "title": "Blocked players",
+      "file": "img/oct26/51-blocked.webp",
+      "source": "51-blocked.png",
+      "sha256": "35aee6a118795abd203c59bc9cf30f68b54721764e568e93a62a143fb9a657c4"
     },
     {
       "n": 80,
       "chapter": "Safety and conduct",
       "person": "Casey",
-      "title": "The report",
-      "file": "img/oct26/52b-conduct-case.webp",
-      "source": "52b-conduct-case.png",
-      "sha256": "1b4a764094237e3b650bf4425fd73cbfb2a8242362f998506cdd83c657424b50"
+      "title": "Conduct record",
+      "file": "img/oct26/52-conduct.webp",
+      "source": "52-conduct.png",
+      "sha256": "9d658ae8d2dce964199e6182e83857c2f9948eaab1880d6d14d3b322d76cdd17"
     },
     {
       "n": 81,
       "chapter": "Safety and conduct",
       "person": "Casey",
-      "title": "Challenge",
-      "file": "img/oct26/52c-conduct-challenge.webp",
-      "source": "52c-conduct-challenge.png",
-      "sha256": "fdf8ed0f9586246c98be94a04f588904da46fccb4b0e6ccfb9586259250870b8"
+      "title": "The report",
+      "file": "img/oct26/52b-conduct-case.webp",
+      "source": "52b-conduct-case.png",
+      "sha256": "2927cde0b7a4af5b6198f894f9d8342549a7781c320952ef75bbbab8fa0de649"
     },
     {
       "n": 82,
       "chapter": "Safety and conduct",
       "person": "Casey",
-      "title": "Under review",
-      "file": "img/oct26/52d-conduct-under-review.webp",
-      "source": "52d-conduct-under-review.png",
-      "sha256": "500ac97a8f000a81b723c4951ac5c7dc1168a59b8b342ebe1b3cb929377bfbd2"
+      "title": "Challenge",
+      "file": "img/oct26/52c-conduct-challenge.webp",
+      "source": "52c-conduct-challenge.png",
+      "sha256": "118d1e9c5e00c740070a6eaa450eb62f6464fa4b34d40af4ee6e5a06e2ce6e19"
     },
     {
       "n": 83,
       "chapter": "Safety and conduct",
       "person": "Casey",
-      "title": "Home reminder",
-      "file": "img/oct26/53-home-conduct-task.webp",
-      "source": "circuit-league-walkthrough-2026-10-26/shots-2026-10-27/53-home-conduct-task.png",
-      "sha256": "9b86d7b48a244d81fea7ef07eb9b991acaf0def59b22bc7270424925f38b59fb",
-      "capturedOn": "2026-10-27",
-      "appBase": "9c88f0cb2"
+      "title": "Under review",
+      "file": "img/oct26/52d-conduct-under-review.webp",
+      "source": "52d-conduct-under-review.png",
+      "sha256": "5c389af6216cbe10ba329529e572ffd1eb2b6232497b73c9f22cfe7caeac219a"
     },
     {
       "n": 84,
+      "chapter": "Safety and conduct",
+      "person": "Casey",
+      "title": "Home reminder",
+      "file": "img/oct26/53-home-conduct-task.webp",
+      "source": "53-home-conduct-task.png",
+      "sha256": "218e94d2023b3a54f5f89f0c8d4c6ec0e944e0e3689c39cf73f4202258c3d8f1"
+    },
+    {
+      "n": 85,
       "chapter": "Notifications",
       "person": "Casey",
       "title": "Inbox",
       "file": "img/oct26/54-inbox.webp",
       "source": "54-inbox.png",
-      "sha256": "b5817ca5c6d708a608fe757c6cd15327ebf46e73edad266bb3ba9fa1e5eb01f2"
+      "sha256": "299216fc8f46f13118eedca0c734815a64c2f092d7ac258b756bcdfe312d0f02"
     }
   ]
 }
