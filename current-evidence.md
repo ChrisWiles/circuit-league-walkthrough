@@ -43,17 +43,17 @@ A later pass, not yet committed to the app repository when these captures were t
 - Setup no longer repeats the category rule in a paragraph, but keeps the confirmation checkbox.
 - Match chat has hold-to-react with eight reactions, shown as two new screens after Mute or block.
 
-The setup and conduct-notice changes above reached the app in that pass, but their screens (6 and 80) still showed the old versions until the third pass below.
+The setup and conduct-notice changes above reached the app in that pass, but their screens (6 and 83) still showed the old versions until the third pass below.
 
 ## Third pass (2026-10-26, late evening)
 
 App commit `b9c600d12` on local main (not pushed) changed reactions and This week. Six screens were taken again, and one is new:
 
-- Reactions sit in a small badge on the bubble's outer top corner, as in Messages, without covering the text: top-right on someone else's message, top-left on your own (screen 34).
-- The hold sheet no longer repeats the message, and your own reaction has a green ring (screen 33).
+- Reactions sit in a small badge on the bubble's outer top corner, as in Messages, without covering the text: top-right on someone else's message, top-left on your own (replaced in the sixth pass).
+- The hold sheet no longer repeats the message, and your own reaction has a green ring (replaced in the sixth pass).
 - This week drops the rank explanation and Provisional progress lines. A small info button beside Published standings opens "How standings work" (screens 20 and 21, new).
 - How you play is shown without the category rule paragraph (screen 6).
-- The conduct reminder on League home is shown as the flat row (screen 80).
+- The conduct reminder on League home is shown as the flat row (screen 83).
 
 Other screens in the tour are still the earlier captures.
 
@@ -61,26 +61,35 @@ Other screens in the tour are still the earlier captures.
 
 App commits `c2f902156`, `17e272bc5`, `5aea79394` and `01e6c876f` on local main (not pushed) changed time zones and the Scan to play venue list. The world was rebuilt from an empty database, and the simulator was placed in Austin with location allowed. Eighteen screens were taken again:
 
-- In the app, a time names its zone only when the phone's clock differs from the venue's, or in the repeated hour on the night daylight saving ends. The simulator is on Central time, so every retaken time reads without "Central (CT)" (screens 10, 21, 22, 24, 29, 35, 36, 40, 42, 43, 48 and 76 to 80). The inbox (screen 81) keeps its zone on purpose, because notifications are read outside the app.
-- Scan to play lists the nearest venues first, each with its distance, as flat rows (screen 64). Choosing one folds the list to it (screen 65, which replaces the old venue sheet).
-- The story state differs slightly from earlier passes. The score to review is from Elena, not Jade, and ends in a loss (screens 40 and 42). The challenge deadline is 8:26 PM (screen 77).
+- In the app, a time names its zone only when the phone's clock differs from the venue's, or in the repeated hour on the night daylight saving ends. The simulator is on Central time, so every retaken time reads without "Central (CT)" (screens 10, 21, 22, 24, 29, 38, 39, 43, 45, 46, 51 and 79 to 83). The inbox (screen 84) keeps its zone on purpose, because notifications are read outside the app.
+- Scan to play lists the nearest venues first, each with its distance, as flat rows (screen 67). Choosing one folds the list to it (screen 68, which replaces the old venue sheet).
+- The story state differs slightly from earlier passes. The score to review is from Elena, not Jade, and ends in a loss (screens 43 and 45). The challenge deadline is 8:26 PM (screen 80).
 
 ## Fifth pass (2026-10-26, night)
 
 App commits `7d3a83d79` and `ee207be70` on local main (not pushed) made League partner invites link-only. The owner decided that a fixed partner is someone a player already knows, so there is no in-app player search. The world was rebuilt from an empty database, and three screens were taken again:
 
-- New team asks only for the category and offers Create invite link (screen 60).
-- Creating it opens the share sheet with the link (screen 61, which replaces the old partner search).
-- The invite then waits under Matchmaking, with Share link and Cancel invite, and reads "Expires in 7 days" (screen 62, which replaces the old selected-partner screen). Before `ee207be70`, a link made while the League tab was already open could briefly read "Expires in 8 days".
+- New team asks only for the category and offers Create invite link (screen 63).
+- Creating it opens the share sheet with the link (screen 64, which replaces the old partner search).
+- The invite then waits under Matchmaking, with Share link and Cancel invite, and reads "Expires in 7 days" (screen 65, which replaces the old selected-partner screen). Before `ee207be70`, a link made while the League tab was already open could briefly read "Expires in 8 days".
 
 The tour does not show the partner opening the link, because the fictional partner has no simulator account. That screen did not change in this pass.
+
+## Sixth pass (2026-10-26, night)
+
+App commit `8d80f68cc` on local main (not pushed) gave League and Ladder chat one shared message menu. Its two migrations were applied to the walkthrough database. Casey's reaction screens were replaced, and three screens are new:
+
+- Holding a message lifts it above a blurred chat. Six quick reactions sit on top, with Casey's own in green. Below are Reply, Copy and Mute, then Report message and Block in red, under the message time (screen 33, which replaces the old hold sheet).
+- The + shows all eight reactions with their names (screen 34, which replaces the old reaction badge screen).
+- Reply puts the message above the box with Cancel reply (screen 35, new), and the sent message quotes it (screen 36, new). Reaction badges still sit on each bubble's outer corner.
+- Report message says Circuit receives the message and the reason, and the league organizer does not see the report (screen 37, new). No report was sent.
 
 ## Page checks
 
 The page was rendered at 360×800, 390×844 and 1280×900 in a headless browser. At those widths:
 
 - No page scrolled sideways.
-- All 81 images loaded.
+- All 84 images loaded.
 - The screen viewer fit between its counter and caption.
 - Next and the arrow keys stepped through the screens.
 - Escape closed the viewer.
@@ -88,7 +97,7 @@ The page was rendered at 360×800, 390×844 and 1280×900 in a headless browser.
 
 ## Known gaps the tour shows as they are
 
-- **Popular times.** Venue detail has too little local data to show popular times (screen 71).
+- **Popular times.** Venue detail has too little local data to show popular times (screen 77).
 - **Older captures.** The inbox and suggested-times screens predate the second pass. Recap notifications now name their week, and the empty suggested-times message now explains that it fills in once nearby players save times.
 
 Push, email, DUPR submission and payments were not exercised.
