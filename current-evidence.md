@@ -43,6 +43,18 @@ A later pass, not yet committed to the app repository when these captures were t
 - Setup no longer repeats the category rule in a paragraph, but keeps the confirmation checkbox.
 - Match chat has hold-to-react with eight reactions, shown as two new screens after Mute or block.
 
+The setup and conduct-notice changes above reached the app in that pass, but their screens (6 and 80) still showed the old versions until the third pass below.
+
+## Third pass (2026-10-26, late evening)
+
+App commit `b9c600d12` on local main (not pushed) changed reactions and This week. Six screens were taken again, and one is new:
+
+- Reactions sit in a small badge on the bubble's outer top corner, as in Messages, without covering the text: top-right on someone else's message, top-left on your own (screen 34).
+- The hold sheet no longer repeats the message, and your own reaction has a green ring (screen 33).
+- This week drops the rank explanation and Provisional progress lines. A small info button beside Published standings opens "How standings work" (screens 20 and 21, new).
+- How you play is shown without the category rule paragraph (screen 6).
+- The conduct reminder on League home is shown as the flat row (screen 80).
+
 Other screens in the tour are still the earlier captures.
 
 ## Page checks
@@ -50,7 +62,7 @@ Other screens in the tour are still the earlier captures.
 The page was rendered at 360×800, 390×844 and 1280×900 in a headless browser. At those widths:
 
 - No page scrolled sideways.
-- All 80 images loaded.
+- All 81 images loaded.
 - The screen viewer fit between its counter and caption.
 - Next and the arrow keys stepped through the screens.
 - Escape closed the viewer.
