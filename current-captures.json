@@ -1,6 +1,6 @@
 {
-  "capturedOn": "2026-10-27",
-  "appBase": "Pickleball-Tournaments local main 446eb02e0 plus the setup fix committed as 07d69be1e; screen 10b-setup-notifications-prompt is kept from 2026-10-26",
+  "capturedOn": "2026-10-28",
+  "appBase": "Pickleball-Tournaments local main 2605990fa (the full-audit fixes); screen 10b-setup-notifications-prompt is kept from 2026-10-26",
   "appearance": {
     "platform": "iOS",
     "device": "iPhone 17 Pro simulator",
@@ -19,7 +19,7 @@
       "title": "Always open",
       "file": "img/oct26/01-intro-match.webp",
       "source": "01-intro-match.png",
-      "sha256": "8440033e38054f70f83ee6da92a35467bd5b1860444532f8932ee6a7ada0281e"
+      "sha256": "0823da9ac1bd6e93ee60f17b44e37f598b1736b07a1f1062af455139fd127317"
     },
     {
       "n": 2,
@@ -28,7 +28,7 @@
       "title": "Play when it suits you",
       "file": "img/oct26/02-intro-week.webp",
       "source": "02-intro-week.png",
-      "sha256": "4f6cb25afa1462c217b35448031cf802ad56f44dd60c1ffaca59d38746f08ede"
+      "sha256": "908fe450adf17ea0f483c65f650662c5e1bf3bdef501d37b300b6de03e689dff"
     },
     {
       "n": 3,
@@ -37,7 +37,7 @@
       "title": "Climb your area",
       "file": "img/oct26/03-intro-board.webp",
       "source": "03-intro-board.png",
-      "sha256": "5ea63529bc8f980ddcae16e30eca2b4dfe40af8394dbd0463d2905965ad3fd1c"
+      "sha256": "7228d33c8673af64d59effa1f410f4e1378988e74e9ad6d81703df34cacdda0a"
     },
     {
       "n": 4,
@@ -46,7 +46,7 @@
       "title": "Before you join",
       "file": "img/oct26/03b-landing.webp",
       "source": "03b-landing.png",
-      "sha256": "0f243549b18ebcbf1924cd661fe587e5f7d0470578a85aa5b9b0f97d4165e63c"
+      "sha256": "005412ba21f0ac3bb9f5bba701a55b661c3fc179c5147f5cccf58623cc7245c6"
     },
     {
       "n": 5,
@@ -55,7 +55,7 @@
       "title": "Profile check",
       "file": "img/oct26/04-setup-entry.webp",
       "source": "04-setup-entry.png",
-      "sha256": "3b68c99666c6ea327bbde11ca9a645483d10fadee9042b977e8820376996f928"
+      "sha256": "45966b423d6b0eddef19585f324f25177e5edca7d7268c531d14928a8c3cd16d"
     },
     {
       "n": 6,
@@ -64,7 +64,7 @@
       "title": "How you play",
       "file": "img/oct26/05-setup-how.webp",
       "source": "05-setup-how.png",
-      "sha256": "6ee6e0d280d35ffb9340acf73d482d48d5c646ebc766fd14c4313f270ad4a372"
+      "sha256": "7cc31796f0b53bf96a15059fe58d34f69acfdbe0057a3a854f79a074e84b3b2d"
     },
     {
       "n": 7,
@@ -73,7 +73,7 @@
       "title": "Category rule",
       "file": "img/oct26/05b-setup-category-rule.webp",
       "source": "05b-setup-category-rule.png",
-      "sha256": "03399db2e980753f3b8e54a695f77a874f676e6cebf4985ab16826b25fbf623f"
+      "sha256": "37a74260bdfeacf2d12d075f619d95d5071403b20bd72c34a41fe89ef9e41a25"
     },
     {
       "n": 8,
@@ -82,7 +82,7 @@
       "title": "Choose venues",
       "file": "img/oct26/06-setup-venues.webp",
       "source": "06-setup-venues.png",
-      "sha256": "7a80b9c43128959f8f41ef3eefb96b33074c50b57f0ff2f3bf3bb92a9a70a0b8"
+      "sha256": "cce4b498a40c5bfe5944fc2792214126520ef3f2f1292db7a5275c8f6f8fb31f"
     },
     {
       "n": 9,
@@ -91,7 +91,7 @@
       "title": "Venues on a map",
       "file": "img/oct26/06b-setup-venues-map.webp",
       "source": "06b-setup-venues-map.png",
-      "sha256": "2efe4c6622d4b985656b73d4f48db48aa8a99de3d840f1d9933e3f43ac02f12e"
+      "sha256": "aa7cda03f1793bc2cc6f87b6de144fe65cccaf151fadf012e5cf226b03535769"
     },
     {
       "n": 10,
@@ -100,7 +100,7 @@
       "title": "Your times",
       "file": "img/oct26/07-setup-times.webp",
       "source": "07-setup-times.png",
-      "sha256": "07bd4f430bddfa8f00220b4ad8486777c955927d8a6260c695604295b8262550"
+      "sha256": "2c95435f8263b95a0c2dc4f97763f4b8d80232a91c5c16982fe1aecfa290a81a"
     },
     {
       "n": 11,
@@ -109,7 +109,7 @@
       "title": "Pick hours",
       "file": "img/oct26/07b-setup-time-grid.webp",
       "source": "07b-setup-time-grid.png",
-      "sha256": "057492ed39e16411d5252e105b190ecfe1af133b4fc761ca85aaf7efd76f2a3b"
+      "sha256": "ae7d90d208db0fd9944f307ef5c6609f388b32275d4edc88d5238872f491f7e4"
     },
     {
       "n": 12,
@@ -118,7 +118,7 @@
       "title": "Times saved",
       "file": "img/oct26/07c-setup-times-saved.webp",
       "source": "07c-setup-times-saved.png",
-      "sha256": "54d47fe54bcc1d27f8deb3e87c58307358e9dcda060b02bb31e36be484057f52"
+      "sha256": "e35a38df0af36db5de93702e8061de25daf646664b53fb8aa4c51d3ccfbb4dad"
     },
     {
       "n": 13,
@@ -127,7 +127,7 @@
       "title": "Matching options",
       "file": "img/oct26/08-setup-options.webp",
       "source": "08-setup-options.png",
-      "sha256": "b14572ed078e74f1253e7a575e0c19cf417deaf2c14271aa7dcc80a2fbfd4b5a"
+      "sha256": "1072a9643b5ed6a1af68796487bd6b4bc26f783fbee5baa6bf8f23a94138edf7"
     },
     {
       "n": 14,
@@ -136,7 +136,7 @@
       "title": "Same times every week",
       "file": "img/oct26/08b-setup-same-times.webp",
       "source": "08b-setup-same-times.png",
-      "sha256": "629a960fbea5e78f2d9177bdfe87945cf5b0b9fc6ddf10b7f131d0dcca7438e0"
+      "sha256": "a0b097a7a8ed1703fdd03f12c2e5ce173da3053873bc52aa5ca9c1e1f092c63e"
     },
     {
       "n": 15,
@@ -145,7 +145,7 @@
       "title": "Release and terms",
       "file": "img/oct26/09-setup-terms.webp",
       "source": "09-setup-terms.png",
-      "sha256": "832ffce836733b674f87a4adcc9b2fbfe85d67e713e1113428bb251cdc687231"
+      "sha256": "238bfac8b3b04ac05233450d41dcd9878a5d1627ac5861f642cabdd43e20a553"
     },
     {
       "n": 16,
@@ -154,7 +154,7 @@
       "title": "Both accepted",
       "file": "img/oct26/09b-setup-acceptances.webp",
       "source": "09b-setup-acceptances.png",
-      "sha256": "bda0276f4d810d7751113b93bd12940dec38f39aa9a4badb923a45f6f445ca23"
+      "sha256": "851d2edb585b13e92f9a5f14d7e43b9938698602741b41391672c6df82be1a6c"
     },
     {
       "n": 17,
@@ -163,7 +163,7 @@
       "title": "You’re in",
       "file": "img/oct26/10-setup-next.webp",
       "source": "10-setup-next.png",
-      "sha256": "cc59854cfddd3886af60d72d95057dc0a9f45a5acd51d5226b83ce94a3f88d0d"
+      "sha256": "8e01698f23382716eda408f8356188d08d1d69e571734d21bd66dafddb048d3d"
     },
     {
       "n": 18,
@@ -181,7 +181,7 @@
       "title": "Automatic check-in",
       "file": "img/oct26/10d-setup-check-in.webp",
       "source": "10d-setup-check-in.png",
-      "sha256": "c9ae710c3e0e7a36fda56c0e8557fad7b651c0e6b6b6f1b5631ef9b2686ab7e2"
+      "sha256": "ea844e79fbfbeb869f06201731cfba973dc0142c6fe309c3dea3f7cb6354c759"
     },
     {
       "n": 20,
@@ -190,7 +190,7 @@
       "title": "Blake’s League home",
       "file": "img/oct26/11-blake-home.webp",
       "source": "11-blake-home.png",
-      "sha256": "181c30b0d19e92597bee45754214afce49293ccf6d26f62676d521e2ecb67633"
+      "sha256": "ce7979363ced5099b5f1681476f22fcb0eb256f63a013c7037f3c99948d79f39"
     },
     {
       "n": 21,
@@ -199,7 +199,7 @@
       "title": "Home",
       "file": "img/oct26/12-home.webp",
       "source": "12-home.png",
-      "sha256": "82e6680507fa0a391db02983c3812692fe4b1c63cc2e80a3678237869e77edda"
+      "sha256": "dcbb35eab26bea09de7ba143196aff020a43310f29710817a2ab3013fbfc386b"
     },
     {
       "n": 22,
@@ -208,7 +208,7 @@
       "title": "This week",
       "file": "img/oct26/12b-home-lower.webp",
       "source": "12b-home-lower.png",
-      "sha256": "ca76f79c9150bc9e1ecd53ac7128a904d5e79556eb47b123f8effbbb9f027af4"
+      "sha256": "423832ab0fe6beae76c32a2ecb92c68cc069b92230ab81a1aa83d54406304bbd"
     },
     {
       "n": 23,
@@ -217,7 +217,7 @@
       "title": "How standings work",
       "file": "img/oct26/12c-standings-info.webp",
       "source": "12c-standings-info.png",
-      "sha256": "38d95ce30dd265ffbed415c85d7defd2010ef35b294b8d47f28f9b485946edfd"
+      "sha256": "fba3e7c916d2b15090e27d6e7e5cfdf94ff6973e048d72ce6a2c80e74bac006e"
     },
     {
       "n": 24,
@@ -226,7 +226,7 @@
       "title": "More League",
       "file": "img/oct26/12c-home-bottom.webp",
       "source": "12c-home-bottom.png",
-      "sha256": "17bc0c0e3480bdc85c022b0cba72b53ec11c60f49be7fa64b9201b22d23c703c"
+      "sha256": "c8f455971cc6521a2375cf0772e0ae0b7682cfab901bd6026141dd02653495a1"
     },
     {
       "n": 25,
@@ -235,7 +235,7 @@
       "title": "League menu",
       "file": "img/oct26/13-league-menu.webp",
       "source": "13-league-menu.png",
-      "sha256": "4ad4f80622a273c0972f74710356b312168413e1d6070380d274df1e494a1377"
+      "sha256": "73ebf93eb047367a81ac736f269cd157384337d7b7a2136440afcba7702fdf12"
     },
     {
       "n": 26,
@@ -244,7 +244,7 @@
       "title": "Match found",
       "file": "img/oct26/14-offer.webp",
       "source": "14-offer.png",
-      "sha256": "d143580aeca8a5268b93c650bcf4f470f623cfcc5372f9330e0df50d9b742053"
+      "sha256": "4ed1ec9855e9ca279b93f99651cc265241123075046028526036fc5f2d2125aa"
     },
     {
       "n": 27,
@@ -253,7 +253,7 @@
       "title": "Who’s in it",
       "file": "img/oct26/14b-offer-players.webp",
       "source": "14b-offer-players.png",
-      "sha256": "376d405eccbdd8f045a84460ba8d58389797ccf59432245ad6d0c6a4f8fa2e09"
+      "sha256": "0e86bb72de9d120b2931dc82f1b1c60f2823c855f766654214563fe5e345e890"
     },
     {
       "n": 28,
@@ -262,7 +262,7 @@
       "title": "Choose another time",
       "file": "img/oct26/15-offer-other-times.webp",
       "source": "15-offer-other-times.png",
-      "sha256": "cb43c05794e9ac9058e05a67b07d3e94294092e7936ad0a1a0c0b83547181d56"
+      "sha256": "9cdcebac44451efd03f1e0645fd7765a859b648aadd7cc12109ad8cd6cd8d2fd"
     },
     {
       "n": 29,
@@ -271,7 +271,7 @@
       "title": "Not this time",
       "file": "img/oct26/16-offer-decline.webp",
       "source": "16-offer-decline.png",
-      "sha256": "c9d5019cba9d13f758ec85ee8b92983270c4aad8f3d897cb7f534e0da4218315"
+      "sha256": "c4f7e8a937ff7c70f64129bc31d5724aa2c41cdbdf0a98c71cb5673609ea6106"
     },
     {
       "n": 30,
@@ -280,7 +280,7 @@
       "title": "Accepted",
       "file": "img/oct26/17-offer-accepted.webp",
       "source": "17-offer-accepted.png",
-      "sha256": "402120c19dfeb1509d9c3e9411816a9073545fe2db1af4f86ad13d2e9440c5cf"
+      "sha256": "f29a3727eb489d9f2c0b22ca6e3918bb05910725e33165005b8a646c7a4eb6c5"
     },
     {
       "n": 31,
@@ -289,7 +289,7 @@
       "title": "Match details",
       "file": "img/oct26/19-match-upcoming.webp",
       "source": "19-match-upcoming.png",
-      "sha256": "6cb09b4fa9bc4b593b26fdc5bbada7e2289306264310e14b1979f3eff341e893"
+      "sha256": "5b19c74d017331b5c845f49a075c85741cc132c2588c60d99c5bfc543dfd9349"
     },
     {
       "n": 32,
@@ -298,7 +298,7 @@
       "title": "Match actions",
       "file": "img/oct26/19b-match-menu.webp",
       "source": "19b-match-menu.png",
-      "sha256": "c8f02ff685cfb52c5bbab0837120408a7375d2ae631656d80d398d5192681ed5"
+      "sha256": "55170c27104d6d2bbc276bfa7ec34a622e251d0e67c127afddf07cb1087cd5a5"
     },
     {
       "n": 33,
@@ -307,7 +307,7 @@
       "title": "Match chat",
       "file": "img/oct26/20-chat.webp",
       "source": "20-chat.png",
-      "sha256": "e1dc10eb1fec18148a61edbc5ea8a0506a450e2bc6b7e2f0c1b287a93c64b7e0"
+      "sha256": "1f6223f2e2b8941360e8a55ff27b5def53c29d0e275b5e3c039d90adfcce1fc6"
     },
     {
       "n": 34,
@@ -316,7 +316,7 @@
       "title": "Mute or block",
       "file": "img/oct26/20b-chat-players.webp",
       "source": "20b-chat-players.png",
-      "sha256": "2ed5d75b23a49d93b518d14803ad634c369dfa2922b8b3cc51facc1ae4f1fb8c"
+      "sha256": "7804c81b2b6dcdec90041c496888224e616e1048706c26d16e06cf9a8dc56e85"
     },
     {
       "n": 35,
@@ -325,7 +325,7 @@
       "title": "Hold a message",
       "file": "img/oct26/20c-chat-hold.webp",
       "source": "20c-chat-hold.png",
-      "sha256": "ac0bcc7d31228d6ef0656e1c5feacde458991c003e3e3008f56865d5b6d01e54"
+      "sha256": "f6de669f249c734d0daad098491fa50ff774be4bbfc98a069adf75be145b8744"
     },
     {
       "n": 36,
@@ -334,7 +334,7 @@
       "title": "All reactions",
       "file": "img/oct26/20d-chat-all-reactions.webp",
       "source": "20d-chat-all-reactions.png",
-      "sha256": "99eed2f8f24eb21fc0b3d119bb3018a6d36b651af8463f1581a552534d308acc"
+      "sha256": "b66acdd226bcb78092a667c4c75ca2a75a5741ffa353e436ba3f74b360a7a01c"
     },
     {
       "n": 37,
@@ -343,7 +343,7 @@
       "title": "Reply",
       "file": "img/oct26/20e-chat-reply-composer.webp",
       "source": "20e-chat-reply-composer.png",
-      "sha256": "4823e478e3c4291ae7b597cd9cf16b605b4359ba7b3fd4466131e35b83e5855b"
+      "sha256": "9a29d9feb10eadf46fe30feb2da77b74862a4f8e43dc17c1d1add0b1b42a55b1"
     },
     {
       "n": 38,
@@ -352,7 +352,7 @@
       "title": "The reply",
       "file": "img/oct26/20f-chat-replied.webp",
       "source": "20f-chat-replied.png",
-      "sha256": "718f6841ee9844a41e496ac170d1c28f3bbe3ce99ebe26f5e0163df7506aa4d6"
+      "sha256": "d3c5facd9ce9f82cf1860895389aeea9bfa039af8073d81f7541821e36025d81"
     },
     {
       "n": 39,
@@ -361,7 +361,7 @@
       "title": "Report a message",
       "file": "img/oct26/20g-chat-report.webp",
       "source": "20g-chat-report.png",
-      "sha256": "a5137485b65df0ce51f58b134680469826d8fc3e65e55bc00b331a8ace6105bf"
+      "sha256": "540796399570da427f7b90d08e41e73f1a3f123e2969f422c4d7bc6a0ed29ebd"
     },
     {
       "n": 40,
@@ -370,7 +370,7 @@
       "title": "Score due",
       "file": "img/oct26/21-score-due.webp",
       "source": "21-score-due.png",
-      "sha256": "3b67e0ff9e67ed0ddef4429fe6366a6918da8e8d9c8e0c643d5630ee2f1ce4e2"
+      "sha256": "41f641f41cad4f355c420b6ee4b9b550608315370ef2234a67fd5c65e912044b"
     },
     {
       "n": 41,
@@ -379,7 +379,7 @@
       "title": "Report form",
       "file": "img/oct26/22-report-form.webp",
       "source": "22-report-form.png",
-      "sha256": "60d3c246d117ffde1f4e549e59d57331ac1b4162f7d16ad168f319adbaf9887e"
+      "sha256": "95b4ad22a341e29f6caf8c76e4d6aea014a60ab29fa67354ce77fffedde9144b"
     },
     {
       "n": 42,
@@ -388,7 +388,7 @@
       "title": "Games entered",
       "file": "img/oct26/22b-report-filled.webp",
       "source": "22b-report-filled.png",
-      "sha256": "30e8df87c636d1aeb341e9b4ac4924496a91915b0aa93a2ae06a8b5f3d60c958"
+      "sha256": "ef94702df3485e1aefe92988a88b1fe646c374ddd255100bce125a87a76d9890"
     },
     {
       "n": 43,
@@ -397,7 +397,7 @@
       "title": "Fewer games than planned",
       "file": "img/oct26/23-report-short-confirm.webp",
       "source": "23-report-short-confirm.png",
-      "sha256": "d0d66dc3f7d1162882a8e772b44b7bf8f34ee22394bfbdd3b329446cf190fc67"
+      "sha256": "9ec583c166618bf6ba68a6c4b9c1a10b79685a1e25a2463475e8688e8b6990e8"
     },
     {
       "n": 44,
@@ -406,7 +406,7 @@
       "title": "Score sent",
       "file": "img/oct26/24-report-sent.webp",
       "source": "24-report-sent.png",
-      "sha256": "f9c16fc3d0f56c78caf98a411370c3d0c2ceb316cda3d81fa9369654703518d1"
+      "sha256": "98d142ab28f4399ea8f801407fd435af63c8b5a2a83c027a9f7a9cc95e88a651"
     },
     {
       "n": 45,
@@ -415,7 +415,7 @@
       "title": "Review a score",
       "file": "img/oct26/25-review.webp",
       "source": "25-review.png",
-      "sha256": "35c07827c59e342ad7a42fda443f6d9ec64014f6fb0d92276b70c273f5a47e7b"
+      "sha256": "bf4147ddd24190fc88f6564e5049ee19628f78ca467e10c1afbb6b320e8f6c8a"
     },
     {
       "n": 46,
@@ -424,7 +424,7 @@
       "title": "Dispute",
       "file": "img/oct26/26-dispute.webp",
       "source": "26-dispute.png",
-      "sha256": "bb70166f037031427e16eb75b175c6fcd4c1719ce077609ebe95f844212d813a"
+      "sha256": "63c3dde02c6775a8c460f99a2b823ebc867ef8b3a229b7b80e37a26eb79ad104"
     },
     {
       "n": 47,
@@ -433,7 +433,7 @@
       "title": "Final",
       "file": "img/oct26/27-confirmed.webp",
       "source": "27-confirmed.png",
-      "sha256": "419b5446af84d0dc8e4524a58d1b9ab052967778a76ca6b11084f9ad4d0fb4e2"
+      "sha256": "74768ae28176450ec73bcdbb6e338a0442feaa60a9a742b68614f4fb498d2d32"
     },
     {
       "n": 48,
@@ -442,7 +442,7 @@
       "title": "Past matches",
       "file": "img/oct26/28-past.webp",
       "source": "28-past.png",
-      "sha256": "344ce001c3d484e428dc386bf71a97cd867d7a10ab17d21428733a72f3343243"
+      "sha256": "9a50c08c6ce4404ab3aaab6a86be927e3f83a6e9b891cea3870966d335657946"
     },
     {
       "n": 49,
@@ -451,7 +451,7 @@
       "title": "Austin area, Women’s singles",
       "file": "img/oct26/29-board.webp",
       "source": "29-board.png",
-      "sha256": "8e7ff7433ae71ebc74ccfeb00c897d89e8f851104d21dac6e737e047e9aec054"
+      "sha256": "3153266a7d3edcc228d5c52fd7fbfc6848a0d6f4175a7e88302a8d881ef4d71d"
     },
     {
       "n": 50,
@@ -460,7 +460,7 @@
       "title": "DUPR rating",
       "file": "img/oct26/29b-board-rating.webp",
       "source": "29b-board-rating.png",
-      "sha256": "7f12a7a02cea65438d388325096771b0439c39e7a25de4e6889663c13db8cdc7"
+      "sha256": "d3c1197b0bb9a7695640d568c25db43332821aa2783d10e465eca8a6f7536607"
     },
     {
       "n": 51,
@@ -469,7 +469,7 @@
       "title": "Near you",
       "file": "img/oct26/30-board-near-you.webp",
       "source": "30-board-near-you.png",
-      "sha256": "d542c2b6bc5e96fc28d7c9ac5bb0f3a880a4019d04178724b8d5d4d3d5444d9d"
+      "sha256": "063cba26032aa798cece05d60ba1043cb4934e44a40779e7bd84b4172e9c0108"
     },
     {
       "n": 52,
@@ -478,7 +478,7 @@
       "title": "Filters",
       "file": "img/oct26/31-board-filters.webp",
       "source": "31-board-filters.png",
-      "sha256": "6b0f17851baee01338a5c7c74f772b8f9bfc09a7399ef761abb32425f01217b0"
+      "sha256": "7f1d73065577f33f1716037241f221f12b00884ceed0b4230a6d7726f482178e"
     },
     {
       "n": 53,
@@ -487,7 +487,7 @@
       "title": "About this board",
       "file": "img/oct26/32-board-about.webp",
       "source": "32-board-about.png",
-      "sha256": "93ec53fa2a1e4ff033d2a3ab161b5f82a92fa7afef6523c9c6427d1065643e53"
+      "sha256": "557e23f3cfb1d3f1ae059b5da1285d26515347107743618b3fc32df1dea7673b"
     },
     {
       "n": 54,
@@ -496,7 +496,7 @@
       "title": "Search",
       "file": "img/oct26/33-board-search.webp",
       "source": "33-board-search.png",
-      "sha256": "7403e7c3ebb53202a6418831787fac3c519060d371261d8192ea6d18ee378884"
+      "sha256": "4663cebda8da0033b8e0047713d9fb7f1b2b8b09bc79316e92042d788694275b"
     },
     {
       "n": 55,
@@ -505,7 +505,7 @@
       "title": "Doubles everywhere",
       "file": "img/oct26/34-board-doubles.webp",
       "source": "34-board-doubles.png",
-      "sha256": "d9d039f66779648a552cbaa9793c95e810603c5b92e9bd53c25f141b6cca5bd7"
+      "sha256": "5f5603433404c6f199dd4d1fe7a5c44f21c8dc1cdef3dc9e407a413bb9d39e90"
     },
     {
       "n": 56,
@@ -514,7 +514,7 @@
       "title": "Teams",
       "file": "img/oct26/35-board-teams.webp",
       "source": "35-board-teams.png",
-      "sha256": "203a08e507f532608d05a0bc86f45e378d181b7298da4ea3c16dd4d13fc0aee9"
+      "sha256": "c5100f6af8553af6cd773b442e06c126e990d92962ba843b66a568b574a9270f"
     },
     {
       "n": 57,
@@ -523,7 +523,7 @@
       "title": "Casey’s record",
       "file": "img/oct26/36-stats.webp",
       "source": "36-stats.png",
-      "sha256": "eada2c66af53a04db99aaaa64896c105484dde27cecfd2d7392dc4d20bb37ead"
+      "sha256": "a0e04460020ca2d795577ef27a009d2c5d3e7bfe091f172aba35c285b0a937f3"
     },
     {
       "n": 58,
@@ -532,7 +532,7 @@
       "title": "Match history",
       "file": "img/oct26/36b-stats-matches.webp",
       "source": "36b-stats-matches.png",
-      "sha256": "14f784c4bcb98da8ecc63667bf09515a0d76603ccb75017942ed5af929800863"
+      "sha256": "082b72324b5549564ed5a5f68510fa079d5cfb1a4c7127535c2892c75957fa48"
     },
     {
       "n": 59,
@@ -541,7 +541,7 @@
       "title": "Badge details",
       "file": "img/oct26/37-badge.webp",
       "source": "37-badge.png",
-      "sha256": "05c06eb80afce558250bccc772ed2f75613d5249a7643de8721695499ef1211d"
+      "sha256": "dc421f125beca64e90af743f4320ce3f49ba17e6433fe9712317a785b5e54145"
     },
     {
       "n": 60,
@@ -550,7 +550,7 @@
       "title": "Another player",
       "file": "img/oct26/38-other-stats.webp",
       "source": "38-other-stats.png",
-      "sha256": "a405985305e3c91102bbaa76956ed42f9bc394da8072882ce55033cbb71ac15c"
+      "sha256": "d2385cfb1e78d5c582801d003b7233bb11ecf5ce7443c0c16c794c0468e03208"
     },
     {
       "n": 61,
@@ -559,7 +559,7 @@
       "title": "Week of Oct 19",
       "file": "img/oct26/39-recap.webp",
       "source": "39-recap.png",
-      "sha256": "b621aa96bdae862ac7d53f8a93033a94ed217d7514897881e2d266fa3452fd40"
+      "sha256": "14c482a5a5e39cd9111e54af942815a3f51dd715df91f8a086109b357d63d475"
     },
     {
       "n": 62,
@@ -568,7 +568,7 @@
       "title": "Summary",
       "file": "img/oct26/40-recap-summary.webp",
       "source": "40-recap-summary.png",
-      "sha256": "8eec6cb19c824fa0a0fd962cacfc89f830f032841208ef4a4a10efc5dc2f5674"
+      "sha256": "888af821fde18baf15675facf0360a460733a29447dc476557bc3b58037c1ddc"
     },
     {
       "n": 63,
@@ -577,7 +577,7 @@
       "title": "Every match",
       "file": "img/oct26/40b-recap-summary-lower.webp",
       "source": "40b-recap-summary-lower.png",
-      "sha256": "68e2d53a4a2979c9e971a21d4f2976de86e786775811e2379d90346b76805782"
+      "sha256": "2218e69fd5f742510bb8d6147afc623f6cd01b92f0fe1886c5e37b74d6981f22"
     },
     {
       "n": 64,
@@ -586,7 +586,7 @@
       "title": "What next",
       "file": "img/oct26/40c-recap-summary-end.webp",
       "source": "40c-recap-summary-end.png",
-      "sha256": "15b1a0d613768ef203261c457e711fba749647cc51642e1f614099b1dbc4e7ae"
+      "sha256": "32fc56d140759ef6f2901b1210050585aa6c3a7ecd58bad56db437c77b761fb1"
     },
     {
       "n": 65,
@@ -595,7 +595,7 @@
       "title": "New team",
       "file": "img/oct26/41-add-team.webp",
       "source": "41-add-team.png",
-      "sha256": "1ead153c814b77cbd68b3e9b0ba34248b9bf2454bb6cfe1bb3eda8e1da3a9f39"
+      "sha256": "39a0466f9485bdaff577ef98e6930af566505799f0d2a31ac3975780f1460c0d"
     },
     {
       "n": 66,
@@ -604,7 +604,7 @@
       "title": "Send the link",
       "file": "img/oct26/41b-add-team-share.webp",
       "source": "41b-add-team-share.png",
-      "sha256": "e7127d73c8acdc94be14437e67d14cd4cb4b47cc6805910d03a7a798eb456481"
+      "sha256": "38adca4a6ce0ccf75aa5a0f4983dfa6644dd2af2deba7b8fd9cb05205cfba77c"
     },
     {
       "n": 67,
@@ -613,7 +613,7 @@
       "title": "Link saved",
       "file": "img/oct26/41c-add-team-link-saved.webp",
       "source": "41c-add-team-link-saved.png",
-      "sha256": "70e2c065060e8a855cfd2882b2d9023791057c902924cbbeb50b67d070bb98f0"
+      "sha256": "6e3dac5b47c336e30c957ec432ac8583f7adbca35d9f176ee0c7b9286aa4bf68"
     },
     {
       "n": 68,
@@ -622,7 +622,7 @@
       "title": "Team page",
       "file": "img/oct26/43-team-settings.webp",
       "source": "43-team-settings.png",
-      "sha256": "244f0000c8e1feb1bc13fc97596ee7f8535cc33c5a710d5708a657441c11666a"
+      "sha256": "c0a3db21fe897fadcae3b79eda16b7db3c74a36d22b0b191828fcd225f64778c"
     },
     {
       "n": 69,
@@ -631,7 +631,7 @@
       "title": "Plan the match",
       "file": "img/oct26/44-scan.webp",
       "source": "44-scan.png",
-      "sha256": "add00f441dba646a922c1399282b2a59f6a00655ad590259ef8289d5a2acc868"
+      "sha256": "de455f0610754121d8c7488b54830878ef2261da11f5c133ecb79cfa841d084b"
     },
     {
       "n": 70,
@@ -640,7 +640,7 @@
       "title": "Venue chosen",
       "file": "img/oct26/44b-scan-venue-chosen.webp",
       "source": "44b-scan-venue-chosen.png",
-      "sha256": "0489693f755251684154eeb1607e31c43a2ad15852dbf857f2fb8307ad996565"
+      "sha256": "490bdf46221ede1adb1ef32bc74c6d43bfe87165b0b8d7468b77d250d83ec5fa"
     },
     {
       "n": 71,
@@ -649,7 +649,7 @@
       "title": "Scan players",
       "file": "img/oct26/44c-scan-waiting.webp",
       "source": "44c-scan-waiting.png",
-      "sha256": "fee3be3709f980b44c13bfa178b4e550f6b228571dd35aa2f7618f4c9c74751f"
+      "sha256": "815a00b4055e353424d9aeec121e196db1a4141d152e193ae1b4bbcd091f1951"
     },
     {
       "n": 72,
@@ -658,7 +658,7 @@
       "title": "My QR",
       "file": "img/oct26/45-my-code.webp",
       "source": "45-my-code.png",
-      "sha256": "95773ab03ce2f745566ef07872ec7de33df58bd1a7fb5391bb2ad3de0c373f3b"
+      "sha256": "a07e9f1bd4a0a8ed11a84719db323915df909038cc3af17a9b00df4bc3184f9e"
     },
     {
       "n": 73,
@@ -667,7 +667,7 @@
       "title": "League settings",
       "file": "img/oct26/46-settings.webp",
       "source": "46-settings.png",
-      "sha256": "01b814499a2ce89cbf4ff84f0153595f8b48be93dff17eebdfbf112de73d6260"
+      "sha256": "c9d017b133b2c142755b930f01eb050277a7b4adaa8fa7ec2ce1c337e812ff44"
     },
     {
       "n": 74,
@@ -676,7 +676,7 @@
       "title": "Privacy and safety",
       "file": "img/oct26/46b-settings-lower.webp",
       "source": "46b-settings-lower.png",
-      "sha256": "68721c0a8a648cecf7ffa612f2f155fef334262b1af724a2003c403c54ac4116"
+      "sha256": "8aea2ba9f7595bb5ebadec74061627545734fed175cea13b42ceaa8175f8f707"
     },
     {
       "n": 75,
@@ -685,7 +685,7 @@
       "title": "Notifications",
       "file": "img/oct26/47-notification-settings.webp",
       "source": "47-notification-settings.png",
-      "sha256": "7c26f4215553c51e8bf8f05ef4cf6a6b7050b69ea045acc626e8136845c0e624"
+      "sha256": "1b941576dc170fa8fbf70b0b2185292fad1e8c55a6b638e925788cc7f9c5c2c5"
     },
     {
       "n": 76,
@@ -694,7 +694,7 @@
       "title": "Your times",
       "file": "img/oct26/48-times.webp",
       "source": "48-times.png",
-      "sha256": "2e8759a6e3bd753a1b7a1c8212093cf3b717043be983d549548fc24256dc8595"
+      "sha256": "e316665073630703ef07cb20aabe94e84c5de6b73f29de8dc0461b47b6db9395"
     },
     {
       "n": 77,
@@ -703,7 +703,7 @@
       "title": "Saved venues",
       "file": "img/oct26/49-venues.webp",
       "source": "49-venues.png",
-      "sha256": "674b4d0bb2a0e3a936dae54c642fc0ac4e7e00eb24970b4a8377346ed2c9a523"
+      "sha256": "ea0c1582727a2be7f11fdfed4bcf627de2571dcd55c506e6585ca80bf6517c90"
     },
     {
       "n": 78,
@@ -712,7 +712,7 @@
       "title": "Venue detail",
       "file": "img/oct26/50-venue-detail.webp",
       "source": "50-venue-detail.png",
-      "sha256": "4fbce36e4da82493cedf25c3ef3b9bb4971999a0530982fb7583bb9890f35ef3"
+      "sha256": "2466e744b6ee1c73b4c65dba70135fc8e73b782f99893d0ea8e367a7a806fae2"
     },
     {
       "n": 79,
@@ -721,7 +721,7 @@
       "title": "Blocked players",
       "file": "img/oct26/51-blocked.webp",
       "source": "51-blocked.png",
-      "sha256": "35aee6a118795abd203c59bc9cf30f68b54721764e568e93a62a143fb9a657c4"
+      "sha256": "d19a65868e1b5157ae692ba42fc0532402349c165f4717e39e215a75a11d95ae"
     },
     {
       "n": 80,
@@ -730,7 +730,7 @@
       "title": "Conduct record",
       "file": "img/oct26/52-conduct.webp",
       "source": "52-conduct.png",
-      "sha256": "9d658ae8d2dce964199e6182e83857c2f9948eaab1880d6d14d3b322d76cdd17"
+      "sha256": "8c39bb8a44a71fe9c94527772019615b3428bde03a2588fddefb248a24a9f746"
     },
     {
       "n": 81,
@@ -739,7 +739,7 @@
       "title": "The report",
       "file": "img/oct26/52b-conduct-case.webp",
       "source": "52b-conduct-case.png",
-      "sha256": "2927cde0b7a4af5b6198f894f9d8342549a7781c320952ef75bbbab8fa0de649"
+      "sha256": "ae2a29f9a75c560463e776da2caf76ac8134e7f0716c2fc3a62cc631b59b4e37"
     },
     {
       "n": 82,
@@ -748,7 +748,7 @@
       "title": "Challenge",
       "file": "img/oct26/52c-conduct-challenge.webp",
       "source": "52c-conduct-challenge.png",
-      "sha256": "118d1e9c5e00c740070a6eaa450eb62f6464fa4b34d40af4ee6e5a06e2ce6e19"
+      "sha256": "eedd3256264ce095c131cd608ddddc2298199c92748a81764a53f45d6bd77e69"
     },
     {
       "n": 83,
@@ -757,7 +757,7 @@
       "title": "Under review",
       "file": "img/oct26/52d-conduct-under-review.webp",
       "source": "52d-conduct-under-review.png",
-      "sha256": "5c389af6216cbe10ba329529e572ffd1eb2b6232497b73c9f22cfe7caeac219a"
+      "sha256": "e7173c75b9779620c577ea28a544da8d9bb40078a12817352b01a3da481e1441"
     },
     {
       "n": 84,
@@ -766,7 +766,7 @@
       "title": "Home reminder",
       "file": "img/oct26/53-home-conduct-task.webp",
       "source": "53-home-conduct-task.png",
-      "sha256": "218e94d2023b3a54f5f89f0c8d4c6ec0e944e0e3689c39cf73f4202258c3d8f1"
+      "sha256": "64c918e2f31596c2c31e960fb4cc40c02c7dbe73e59b1a73d2e2080212792c64"
     },
     {
       "n": 85,
@@ -775,7 +775,7 @@
       "title": "Inbox",
       "file": "img/oct26/54-inbox.webp",
       "source": "54-inbox.png",
-      "sha256": "299216fc8f46f13118eedca0c734815a64c2f092d7ac258b756bcdfe312d0f02"
+      "sha256": "1c14d89d9b84837307e2537a833e8408bf97e3d7e00d81c5a4304b86176f2138"
     }
   ]
 }
