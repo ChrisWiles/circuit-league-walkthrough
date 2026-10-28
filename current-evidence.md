@@ -1,6 +1,18 @@
 # Walkthrough evidence
 
-Updated October 28, 2026.
+Updated October 28, 2026 (later retake).
+
+## Later retake (October 28)
+
+Nine screens were taken again and one was removed after four app changes on local main (`b68390248`, `738989d82`, `e51c34c53`, `40fe473c7`; app 40fe473c7, nothing pushed). The tour now has 84 screens.
+
+- **Removed.** 05b Category rule. The setup step no longer has a Read the category rule link or sheet, and League Help no longer states the rule. Screen 05 How you play was retaken without the link.
+- **Chat.** 20, 20b, 20c, 20d, 20e, 20f and 20g were retaken because the chat header action is now People. 20b shows the new People sheet: Sofia's name as the title, Mute and Block side by side.
+- **Score report.** 22 Report form was retaken: the planned date and venue are one line, with Change date or venue below it.
+- **Not retaken.** The Accepted · Waiting on group status on Your matches appears on no screen of the tour, so no image changed for it.
+- **Data.** The same story as the full recapture, rebuilt on an isolated local database. Captures use the same device, Dark appearance and Default text size. Every retaken image was checked for development banners.
+- **Not rechecked.** The other 75 images are unchanged from the full recapture below, so they still come from app `2605990fa`.
+
 
 ## Full recapture (October 28)
 
@@ -28,7 +40,7 @@ Every image was checked for development banners, loading states, keyboards and s
 The page was rendered in a headless browser at 360×800, 390×844 and 1280×900, in dark mode. At each size:
 
 - No page scrolled sideways.
-- All 85 images loaded at full size, each with the `?v=20261028a` version so browsers fetch the new captures.
+- All 84 images loaded at full size, each with the `?v=20261028b` version so browsers fetch the new captures.
 - A `#s14` link opened the viewer on screen 14, the right arrow moved to screen 15, and Escape closed it.
 - No script errors.
 

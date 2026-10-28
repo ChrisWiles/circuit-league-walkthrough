@@ -154,7 +154,7 @@ dialog#lb[open] { display: grid; grid-template-rows: auto minmax(0, 1fr) auto; }
 </dialog>
 
 <script>
-const IMAGE_VERSION = '20261028a';
+const IMAGE_VERSION = '20261028b';
 const CHAPTERS = [
   { id: 'discover', title: 'Discover the League', who: 'What a player sees on the League tab before joining.', person: 'Blake', shots: [
     ['01-intro-match', 'Always open', 'Circuit finds games near you, at your times, against players at your level. Joining is free, any day of the year.'],
@@ -164,8 +164,7 @@ const CHAPTERS = [
   ]},
   { id: 'join', title: 'Join in four stages', who: 'Profile, how you play, preferences, then the release and terms.', person: 'Blake', shots: [
     ['04-setup-entry', 'Profile check', 'DUPR is linked and gender is added, so Continue is on. A photo is optional; other players see initials until one is added.'],
-    ['05-setup-how', 'How you play', 'Blake picks Men’s singles and Men’s rotating doubles, then confirms which categories he can play. The rule sits behind Read the category rule.'],
-    ['05b-setup-category-rule', 'Category rule', 'Women’s categories are for players whose sex at birth was female, Men’s categories for everyone else, and a Mixed team has one of each. Circuit reviews eligibility concerns privately.'],
+    ['05-setup-how', 'How you play', 'Blake picks Men’s singles and Men’s rotating doubles, then confirms which categories he can play.'],
     ['06-setup-venues', 'Choose venues', 'Find lists nearby venues, nearest first. Each is a Favorite, a Backup or Don’t use; Blake makes Mueller Lake Park a favorite.'],
     ['06b-setup-venues-map', 'Venues on a map', 'The same choices on a map, with Blake’s location and a legend for favorite, backup and unsaved venues.'],
     ['07-setup-times', 'Your times', 'Add the times you can play this week or next. Choose times later skips the step, but matchmaking waits for times.'],
@@ -198,7 +197,7 @@ const CHAPTERS = [
     ['19-match-upcoming', 'Match details', 'Confirmed for tomorrow, Thursday at 6 PM. Casey’s singles search stopped for this match; Find another match starts it again, and match chat has two unread messages.'],
     ['19b-match-menu', 'Match actions', 'Add to calendar, directions, venue details, report a problem with a player, League rules, and Cancel match last.'],
     ['20-chat', 'Match chat', 'Messages with Sofia about Thursday. The tab bar steps aside so the composer stays clear.'],
-    ['20b-chat-players', 'Mute or block', 'From chat, Casey can mute or block Sofia.'],
+    ['20b-chat-players', 'Mute or block', 'People opens a sheet for Sofia with Mute and Block side by side. It is also the only place to unmute.'],
     ['20c-chat-hold', 'Hold a message', 'Holding Maya’s message lifts it above a blurred chat. Six quick reactions sit on top, with Casey’s 🙏 in green. Below: Reply, Copy and Mute, then Report and Block in red.'],
     ['20d-chat-all-reactions', 'All reactions', 'The + shows all eight reactions with their names. Tapping Casey’s green Thanks removes it. Reactions never notify anyone.'],
     ['20e-chat-reply-composer', 'Reply', 'Reply puts Maya’s message above the message box, with Cancel reply.'],
@@ -207,7 +206,7 @@ const CHAPTERS = [
   ]},
   { id: 'scores', title: 'Scores', who: 'One side reports, the other side reviews. Unanswered reports count after 48 hours.', person: 'Casey', shots: [
     ['21-score-due', 'Score due', 'Today’s noon match against Priya at Pease Park Courts. Report by Friday noon, or say that someone didn’t come.'],
-    ['22-report-form', 'Report form', 'The date and venue come from the plan; change them only if play moved. Each game is entered on its own.'],
+    ['22-report-form', 'Report form', 'Where and when shows the planned date and venue as one line. Change date or venue opens the date and venue pickers, for when play moved. Each game is entered on its own.'],
     ['22b-report-filled', 'Games entered', 'Casey won 11–6 and 11–9. Each name turns green for the game winner and coral for the loser, and the button says how many games will be reported.'],
     ['23-report-short-confirm', 'Fewer games than planned', 'Reporting two of three planned games asks first: game 3 won’t have a score.'],
     ['24-report-sent', 'Score sent', 'Casey won 11–6, 11–9. Priya reviews it, or it counts automatically Friday at 3:30 PM.'],
