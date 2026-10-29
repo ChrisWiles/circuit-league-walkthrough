@@ -121,9 +121,10 @@ dialog#lb[open] { display: grid; grid-template-rows: auto minmax(0, 1fr) auto; }
 <header class="wrap top">
   <span class="eyebrow">Circuit Pickleball · Circuit League · iPhone</span>
   <h1>Circuit League, screen by screen</h1>
-  <p class="lede">Follow two players through the League: one joins today, the other is seven weeks in. Tap any screen to step through it full size.</p>
+  <p class="lede">Follow three players through the League: one joins today, one is still waiting for a first match, and one is seven weeks in. Tap any screen to step through it full size.</p>
   <div class="people">
     <div class="person"><span class="av">BT</span><b>Blake</b><span>New player. Joins, sets times and courts, starts matchmaking.</span></div>
+    <div class="person"><span class="av">JL</span><b>Jordan</b><span>Newer player. A day without a match brings an invite-a-friend prompt.</span></div>
     <div class="person"><span class="av">CJ</span><b>Casey</b><span>Established player. Answers offers, reports scores, climbs the board.</span></div>
   </div>
   <div class="facts" id="facts"></div>
@@ -154,7 +155,7 @@ dialog#lb[open] { display: grid; grid-template-rows: auto minmax(0, 1fr) auto; }
 </dialog>
 
 <script>
-const IMAGE_VERSION = '20261028b';
+const IMAGE_VERSION = '20261028c';
 const CHAPTERS = [
   { id: 'discover', title: 'Discover the League', who: 'What a player sees on the League tab before joining.', person: 'Blake', shots: [
     ['01-intro-match', 'Always open', 'Circuit finds games near you, at your times, against players at your level. Joining is free, any day of the year.'],
@@ -178,6 +179,13 @@ const CHAPTERS = [
     ['10b-setup-notifications-prompt', 'Notifications', 'Match offers need an answer within a few hours, so setup asks for notification permission.'],
     ['10d-setup-check-in', 'Automatic check-in', 'Optional and shown off here. Turned on, location checks Blake in near match time and tells players already checked in. His position stays on his phone.'],
     ['11-blake-home', 'Blake’s League home', 'Circuit is looking for a first match in Men’s singles and Men’s rotating doubles, with Thursday 6–9 PM saved and Skip this week one tap away.'],
+  ]},
+  { id: 'invite', title: 'No match yet: invite friends', who: 'After a day of searching with no match, the League asks for help growing the pool.', person: 'Jordan', shots: [
+    ['11b-invite-inbox', 'A nudge in the inbox', 'Jordan has searched Men’s singles since yesterday with no match. The inbox suggests inviting a friend from the League tab.'],
+    ['11c-invite-prompt', 'Invite friends', 'Opening the League tab shows the suggestion once per search: more Men’s singles players near Jordan’s level could help. It names the category and format, never a made-up count.'],
+    ['11d-invite-share', 'Share the link', 'Invite friends opens the share sheet with Jordan’s personal League invite link. A friend who joins through it is credited to Jordan.'],
+    ['11e-invite-copy', 'Copy instead', 'Jordan closed the share sheet without sending, so Copy invite link appears. The suggestion stays open.'],
+    ['11f-invite-doubles-on', 'Also search doubles', 'One tap adds a Men’s rotating doubles search beside singles, looking since today. Players already searching doubles are not offered this.'],
   ]},
   { id: 'home', title: 'Casey’s League home', who: 'Seven weeks in: what needs attention, upcoming matches and standing.', person: 'Casey', shots: [
     ['12-home', 'Home', 'One task needs Casey: Tuesday’s score against Elena, due by Thursday 7:30 AM. Below it, Casey’s #1 Austin-area singles rank among 6 ranked players and tomorrow’s 6 PM match with Sofia.'],

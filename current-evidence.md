@@ -1,6 +1,19 @@
 # Walkthrough evidence
 
-Updated October 28, 2026 (later retake).
+Updated October 28, 2026 (Invite friends chapter).
+
+## Invite friends chapter (October 28, evening)
+
+Five screens were added in a new chapter, No match yet: invite friends (89 screens in 15 chapters). The owner noticed the tour never showed what happens when matchmaking finds nobody.
+
+- **Player.** Jordan, a new fictional Men's singles player added to the same story, with Thursday 6–9 PM saved and no tournament entries (so no Event live chip in the header). Jordan's singles search was backdated to 26 hours, which is when the prompt and the inbox nudge become due.
+- **Screens.** 11b inbox nudge, 11c the Invite friends sheet, 11d the iOS share sheet with Jordan's invite link, 11e Copy invite link after closing the share sheet without sending, 11f the League home after Also search doubles started a Men's rotating doubles search.
+- **App.** Pickleball-Tournaments local main `40fe473c7` plus the uncommitted League follow-up changes: the prompt names the category and format without a count, and Also search doubles is offered only to a singles player who is not already searching doubles. Nothing is pushed or deployed.
+- **Data.** The story was rebuilt on an isolated local database. The inbox notice was produced by the League's own growth pass and delivered through the outbox worker; Jordan's queued delivery was moved ahead of older fixture events so it would not wait behind them.
+- **Checks.** Every new image was checked for development banners, loading states and keyboards. Dark appearance, Default text size.
+- **Not shown.** Invite friends also appears on small leaderboards and in a recap after a week with no match; those placements are not captured.
+- **Fixed since the last retake.** A weekly recap now names every opponent in the week, including one who was not ranked when the week froze, so the "Recap names" gap listed below is closed in the app (not yet deployed).
+
 
 ## Later retake (October 28)
 
