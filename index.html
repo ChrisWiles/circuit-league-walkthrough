@@ -152,7 +152,7 @@ dialog#lb[open] { display: grid; grid-template-rows: auto minmax(0, 1fr) auto; }
 
 <footer class="wrap notes">
   <h2>About this tour</h2>
-  <p>Captured October 27, 2026 on an iPhone 17 Pro simulator running iOS 26.4, in Dark appearance at the Default app text size. Every screen except the iOS notification prompt was taken in one pass through one fictional League story. Every person, match, venue and safety record is fictional local test data.</p>
+  <p>Captured October 27–29, 2026 on an iPhone 17 Pro simulator running iOS 26.4, in Dark appearance at the Default app text size. Every screen except the iOS notification prompt comes from one fictional League story; the booked-match, suggested-time and invite screens were added on October 29. Every person, match, venue and safety record is fictional local test data.</p>
   <p>Screens show the state the app was in at capture time, so some show a step in progress, such as a score waiting for the other side. <a href="current-evidence.md">Verification and known gaps</a> · <a href="current-captures.json">Capture list</a></p>
 </footer>
 
@@ -170,11 +170,11 @@ dialog#lb[open] { display: grid; grid-template-rows: auto minmax(0, 1fr) auto; }
 </dialog>
 
 <script>
-const IMAGE_VERSION = '20261028c';
+const IMAGE_VERSION = '20261029a';
 const CHAPTERS = [
   { id: 'discover', title: 'Discover the League', who: 'What a player sees on the League tab before joining.', person: 'Blake', shots: [
     ['01-intro-match', 'Always open', 'Circuit finds games near you, at your times, against players at your level. Joining is free, any day of the year.'],
-    ['02-intro-week', 'Play when it suits you', 'Pick your times and courts and accept only the matches you want. Skipping a week or saying no costs nothing.'],
+    ['02-intro-week', 'Play when it suits you', 'Pick your times and courts. A match that fits them is booked for you, and skipping a week costs nothing.'],
     ['03-intro-board', 'Climb your area', 'Confirmed results count toward your standing, boards update weekly, and eligible games go to DUPR.'],
     ['03b-landing', 'Before you join', 'The landing names what joining takes, a free DUPR account and about five minutes, and offers a quick sign-up for a friend’s match today.'],
   ]},
@@ -186,16 +186,18 @@ const CHAPTERS = [
     ['07-setup-times', 'Your times', 'Add the times you can play this week or next. Choose times later skips the step, but matchmaking waits for times.'],
     ['07b-setup-time-grid', 'Pick hours', 'Blake taps 6, 7 and 8 PM on Thursday: available 6–9 PM. No time zone shows, because Blake’s phone is on the venues’ clock.'],
     ['07c-setup-times-saved', 'Times saved', 'Thursday 6–9 PM is saved; Edit times or the × changes it.'],
-    ['08-setup-options', 'Matching options', 'Matches are three games to 11, win by 2, and stopping early still counts the games finished. For each format Blake can allow a wider level range after a long wait and auto-accept matches inside his times.'],
+    ['08-setup-options', 'Matching options', 'Matches are three games to 11, win by 2, and stopping early still counts the games finished. For each format Blake can allow a wider level range after a long wait. Confirm matches that fit my times starts on: a fair match inside his saved times and venues is booked, and he is told.'],
     ['08b-setup-same-times', 'Same times every week', 'Starts on, so each Monday matchmaking begins again with last week’s times. Blake can change or skip any week.'],
     ['09-setup-terms', 'Release and terms', 'Join the League stays off until both boxes are checked, and the footer says so.'],
     ['09b-setup-acceptances', 'Both accepted', 'The release and the League terms, including individual arbitration, are accepted separately. The full terms open from the link.'],
     ['10-setup-next', 'You’re in', 'Matches depend on who else is free at your times and venues; some weeks there won’t be one. Start matchmaking turns the search on.'],
     ['10b-setup-notifications-prompt', 'Notifications', 'Match offers need an answer within a few hours, so setup asks for notification permission.'],
     ['10d-setup-check-in', 'Automatic check-in', 'Optional and shown off here. Turned on, location checks Blake in near match time and tells players already checked in. His position stays on his phone.'],
-    ['11-blake-home', 'Blake’s League home', 'Circuit is looking for a first match in Men’s singles and Men’s rotating doubles, with Thursday 6–9 PM saved and Skip this week one tap away.'],
+    ['11-blake-home', 'Blake’s League home', 'Circuit is looking for Blake’s first match in Men’s singles and Men’s rotating doubles, both looking since today. Bring your regulars asks once for the people he already plays with; Not now hides it.'],
   ]},
-  { id: 'invite', title: 'No match yet: invite friends', who: 'After a day of searching with no match, the League asks for help growing the pool.', person: 'Jordan', shots: [
+  { id: 'invite', title: 'Bring your friends', who: 'New members are asked once to bring their regulars. A search still waiting after a day asks again.', person: 'Blake, then Jordan', shots: [
+    ['11a-welcome-push', 'Welcome to the League', 'The morning after Blake starts searching, one welcome notice suggests inviting players near his level. Friends he brings can still earn Founding Member.'],
+    ['11g-invite-empty-time', 'An empty time', 'Nobody near Blake’s level searches Thursday 6–9 PM yet, so his times say so and offer Invite friends. Suggested times appear once other players save theirs.'],
     ['11b-invite-inbox', 'A nudge in the inbox', 'Jordan has searched Men’s singles since yesterday with no match. The inbox suggests inviting a friend from the League tab.'],
     ['11c-invite-prompt', 'Invite friends', 'Opening the League tab shows the suggestion once per search: more Men’s singles players near Jordan’s level could help. It names the category and format, never a made-up count.'],
     ['11d-invite-share', 'Share the link', 'Invite friends opens the share sheet with Jordan’s personal League invite link. A friend who joins through it is credited to Jordan.'],
@@ -215,6 +217,17 @@ const CHAPTERS = [
     ['15-offer-other-times', 'Choose another time', 'Casey can propose Thursday at 8 PM instead. Sofia sees it and can accept, and it counts as accepted by Casey. The time can change two more times.'],
     ['16-offer-decline', 'Not this time', 'Declining has no penalty. A second option also stops matches with Sofia for 7 days.'],
     ['17-offer-accepted', 'Accepted', 'A second offer, Friday at 6 PM against Nora K. Casey has accepted, and the match confirms when Nora does; Nora still hasn’t answered.'],
+  ]},
+  { id: 'suggest', title: 'Times that would match', who: 'When a search waits, Circuit suggests one time that would find a match now.', person: 'Casey', shots: [
+    ['48b-suggest-inbox', 'A time that would match', 'Casey’s singles search has waited more than a day without a new match. At most once a day, a notice names one time that would find one: Saturday at 10 AM.'],
+    ['48c-suggest-times', 'Match possible now', 'Opening it shows Casey’s times with the starts that would match right now. Below, nobody near her level searches Friday 6–9 PM, with Invite friends.'],
+    ['48d-suggest-sheet', 'Add the time', 'Tapping Saturday 10 AM opens that day with 10 AM to 12 PM already picked. Save times adds it.'],
+    ['48e-suggest-saved', 'Saved', 'Saturday 10 AM–12 PM sits beside Friday 6–9 PM, and singles matchmaking stays on. The next matching run booked Saturday against Nora.'],
+  ]},
+  { id: 'booked', title: 'Booked from your times', who: 'A fair match that fits your saved times and venues is booked for you, at least 12 hours ahead.', person: 'Casey', shots: [
+    ['17b-booked-switch', 'Confirm matches that fit my times', 'Each search has the switch in its settings, on by default. Turned off, every match waits for Casey to answer.'],
+    ['17c-booked-inbox', 'You’re playing', 'Circuit booked Saturday 10 AM against Nora at Mueller Lake Park Courts, because it fits both players’ saved times. Casey can cancel before Friday 10 PM with no late mark.'],
+    ['17d-booked-match', 'The booked match', 'Confirmed, with the free-cancel time under Add to calendar. Casey’s singles search stopped for this match; Find another match starts it again.'],
   ]},
   { id: 'matches', title: 'Confirmed matches and chat', who: 'Everything about a booked match in one place.', person: 'Casey', shots: [
     ['19-match-upcoming', 'Match details', 'Confirmed for tomorrow, Thursday at 6 PM. Casey’s singles search stopped for this match; Find another match starts it again, and match chat has two unread messages.'],
@@ -259,6 +272,7 @@ const CHAPTERS = [
     ['40-recap-summary', 'Summary', 'The same week in detail: 4 new opponents, 7 of 8 matches toward the season completion badge, two Clutch wins and each leaderboard.'],
     ['40b-recap-summary-lower', 'Every match', 'All of the week’s scores, winner first, with each game beside its player.'],
     ['40c-recap-summary-end', 'What next', 'Badges, then notable results: a 7–5 game record against 4–0 the week before. View standings, or start matchmaking for the new week.'],
+    ['40d-recap-no-match', 'A week without a match', 'Casey had no League match in the week of Oct 5. The summary offers See times that would match, which opens her times, and Invite friends.'],
   ]},
   { id: 'teams', title: 'Fixed teams', who: 'Doubles with the same partner every game.', person: 'Casey', shots: [
     ['41-add-team', 'New team', 'Choose Women’s or Mixed doubles, then Create invite link. There is no player search: a partner is someone Casey already knows.'],
@@ -270,13 +284,13 @@ const CHAPTERS = [
     ['44-scan', 'Plan the match', 'The nearest League venues come first, each with its distance, when the phone already allows location. Without it, saved venues lead.'],
     ['44b-scan-venue-chosen', 'Venue chosen', 'Picking a venue folds the list to it, with Change to pick again, then the format and Create match plan.'],
     ['44c-scan-waiting', 'Scan players', 'One of two players is in, so Scan a player is the next step. Start publishes the match once everyone has confirmed on their own phone.'],
-    ['45-my-code', 'My QR', 'The code a host scans, in Circuit green and black. It doubles as an invite link, and can be reset in League settings.'],
+    ['45-my-code', 'My QR', 'The code a host scans, in Circuit green and black. It doubles as an invite link, and only Casey sees that 2 friends joined with it. It can be reset in League settings.'],
   ]},
   { id: 'settings', title: 'Settings, times and venues', who: 'Everything that shapes matchmaking stays editable after setup.', person: 'Casey', shots: [
     ['46-settings', 'League settings', 'Times, venues, same times every week, pausing offers until Monday, notifications and check-in.'],
     ['46b-settings-lower', 'Privacy and safety', 'Full-name display, resetting your code, blocked players, conduct record and League rules. To step away, turn off matchmaking.'],
     ['47-notification-settings', 'Notifications', 'Each League alert type has its own switch. Account and safety notices stay on.'],
-    ['48-times', 'Your times', 'This week and next, with Thursday 6–9 PM saved. Suggested times for Singles appear once other players in the area save theirs.'],
+    ['48-times', 'Your times', 'Next week is empty so far. Reuse last week’s times copies Casey’s two saved times; suggested times appear once other players save theirs.'],
     ['49-venues', 'Saved venues', 'One ranked favorite and one backup, 2 of 25 venues saved.'],
     ['50-venue-detail', 'Venue detail', 'Court details, directions, your choice for this venue, popular times when there is enough data, the venue leaderboard and a printable flyer.'],
   ]},

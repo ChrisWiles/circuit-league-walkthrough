@@ -1,6 +1,18 @@
 # Walkthrough evidence
 
-Updated October 28, 2026 (Invite friends chapter).
+Updated October 29, 2026 (booked matches, suggested times and invite moments).
+
+## Booked matches, suggested times and invite moments (October 29)
+
+Ten screens were added and five retaken after the League started booking matches that fit a player's saved times, suggesting a time that would match, and asking new members to bring their regulars (99 screens in 17 chapters).
+
+- **New chapters.** Times that would match (48b–48e) and Booked from your times (17b–17d), both Casey. The invite chapter is now Bring your friends and opens with Blake's welcome notice (11a) and the empty-time line on his times (11g) before Jordan's screens. The weekly recap chapter adds a week with no match (40d).
+- **Retaken.** 02 intro (new wording: a match that fits your times is booked for you), 08 matching options (Confirm matches that fit my times, on), 11 Blake's home (new first-time line and the Bring your regulars card), 45 My QR (the private friends-joined count) and 48 Your times (next week, with Reuse last week's times).
+- **App.** Pickleball-Tournaments local main `04f49b8b2` plus uncommitted copy fixes to the League intro and the first-time line. Nothing is pushed or deployed.
+- **Data.** Same isolated local database and fictional story. Casey's singles search was backdated two days, and a new fictional player, Nora, saved Saturday 10 AM–1 PM. The time suggestion came from the League's own suggestion worker; it was first suppressed by Casey's daily notice limit, so her earlier fixture notices were dated a day back and the suggestion was produced again. Casey saved the suggested time and turned on Confirm matches that fit my times in the app; the next matching run booked Saturday against Nora and the outbox delivered the confirmation. Five backfilled recap rows and a duplicate score reminder were removed from Casey's inbox and older rows marked read, so the inbox reads like a real week. The two friends who joined with Casey's code were recorded directly in the database. Older fixture deliveries were held back so the new notices were not stuck behind them.
+- **Checks.** Every new image was reviewed for development banners, loading states and keyboards. Dark appearance, Default text size. The page loads all 99 images at full size with `?v=20261029a`, has no sideways scroll at 360, 390 and 1280 px, and the full-screen viewer opens, steps and closes.
+- **Known gaps.** Jordan's screens 23–26 are from October 28 and still show the earlier first-time line ("You'll get a Match found to accept or skip") above the invite prompt. Screen 38 says "Everyone still needs to accept" because Casey's switch was still off when it was taken; it was turned on in screen 41. The no-match recap (40d) offers Start matchmaking although Casey's singles search is on.
+
 
 ## Invite friends chapter (October 28, evening)
 
