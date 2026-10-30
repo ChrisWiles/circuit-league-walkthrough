@@ -1,6 +1,6 @@
 {
  "capturedOn": "2026-10-29",
- "appBase": "Pickleball-Tournaments local main 40fe473c7 for the 2026-10-26/28 screens; screens 02, 08, 11, 11a, 11g, 17b-17d, 40d, 45, 48 and 48b-48e retaken or added 2026-10-29 on local main 04f49b8b2 plus the uncommitted League intro and first-time copy fixes; screen 10b-setup-notifications-prompt is kept from 2026-10-26",
+ "appBase": "Pickleball-Tournaments local main 40fe473c7 for the 2026-10-26/28 screens; screens 02, 08, 11, 11a, 11g, 17b-17d, 40d, 45, 48 and 48b-48e retaken or added 2026-10-29 on local main 04f49b8b2 plus the uncommitted League intro and first-time copy fixes; screen 10b-setup-notifications-prompt is kept from 2026-10-26; screen 54-inbox retaken 2026-10-29 on local main 54e8a91b5 (unread bar and round icons)",
  "appearance": {
   "platform": "iOS",
   "device": "iPhone 17 Pro simulator",
@@ -901,7 +901,7 @@
    "title": "Inbox",
    "file": "img/oct26/54-inbox.webp",
    "source": "54-inbox.png",
-   "sha256": "1c14d89d9b84837307e2537a833e8408bf97e3d7e00d81c5a4304b86176f2138"
+   "sha256": "27d414ed67dad6592b16849b019256780f1808a30bcf48642a792dd02bec0648"
   }
  ]
 }
