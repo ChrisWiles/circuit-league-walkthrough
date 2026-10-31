@@ -170,7 +170,7 @@ dialog#lb[open] { display: grid; grid-template-rows: auto minmax(0, 1fr) auto; }
 </dialog>
 
 <script>
-const IMAGE_VERSION = '20261030a';
+const IMAGE_VERSION = '20261031a';
 const CHAPTERS = [
   { id: 'discover', title: 'Discover the League', who: 'What a player sees on the League tab before joining.', person: 'Blake', shots: [
     ['01-intro-match', 'Always open', 'Circuit finds games near you, at your times, against players at your level. Joining is free, any day of the year.'],
@@ -278,7 +278,12 @@ const CHAPTERS = [
     ['41-add-team', 'New team', 'Choose Women’s or Mixed doubles, then Create invite link. There is no player search: a partner is someone Casey already knows.'],
     ['41b-add-team-share', 'Send the link', 'The share sheet opens with the link, ready to text to a friend. It works for 7 days, and only the first person to open it can accept.'],
     ['41c-add-team-link-saved', 'Link saved', 'The invite waits under Matchmaking, with Share link to send it again and Cancel invite. Maya opens it on her own phone and accepts.'],
-    ['43-team-settings', 'Team page', 'Casey and Maya’s Women’s doubles team: times, match settings, Out for now, and End this team last.'],
+    ['42-teams-list', 'Several partners', 'Each team is named for the partner and says where it stands: Diego’s team waits for his times this week, Priya is out for now, and Maya’s team is looking. Jade’s invite waits for Casey’s answer.'],
+    ['43-team-settings', 'Team page', 'Casey and Maya’s Women’s doubles team: its status and switch, both partners’ times this week with the time they share marked Both, and the venue they both picked. Match settings, Out for now and End this team follow.'],
+    ['43b-team-times-missing', 'Waiting for a partner', 'Diego hasn’t saved times this week, so the team can’t be matched. The page says whose times are missing; Casey’s own times still show.'],
+    ['43c-team-match-found', 'Team Match found', 'Casey and Maya against Jade and Sofia on Sunday at 10 AM. Above Accept: the time fits both partners’ saved times, so Casey’s answer counts for Maya too.'],
+    ['43d-partner-accepted', 'Partner accepted', 'Maya answered first, for both of them. Casey’s card says so, and names the matchup with her partner first, so several teams stay easy to tell apart.'],
+    ['43e-team-ended', 'Partner left', 'Diego left the League, so the team ended and he is no longer named. Its record is kept, and Remove from my list clears it from Casey’s list only.'],
   ]},
   { id: 'scan', title: 'Scan to play', who: 'Already at the courts with someone? Set up a League match on the spot.', person: 'Casey', shots: [
     ['44-scan', 'Plan the match', 'The nearest League venues come first, each with its distance, when the phone already allows location. Without it, saved venues lead.'],
