@@ -170,7 +170,7 @@ dialog#lb[open] { display: grid; grid-template-rows: auto minmax(0, 1fr) auto; }
 </dialog>
 
 <script>
-const IMAGE_VERSION = '20261031a';
+const IMAGE_VERSION = '20261101c';
 const CHAPTERS = [
   { id: 'discover', title: 'Discover the League', who: 'What a player sees on the League tab before joining.', person: 'Blake', shots: [
     ['01-intro-match', 'Always open', 'Circuit finds games near you, at your times, against players at your level. Joining is free, any day of the year.'],
@@ -212,7 +212,7 @@ const CHAPTERS = [
     ['13-league-menu', 'League menu', 'My QR code for Scan to play, League settings and the rules.'],
   ]},
   { id: 'offers', title: 'Match offers', who: 'Circuit proposes a time and place. Each player answers on their own phone.', person: 'Casey', shots: [
-    ['14-offer', 'Match found', 'Singles vs Sofia P., Thursday at 6 PM at Mueller Lake Park Courts. Casey has until 6:14 PM today to answer; no answer counts as Not this time, and two unanswered offers in a row turn off matchmaking for that search.'],
+    ['14-offer', 'Match found', 'Singles vs Sofia P., Monday at 5:45 AM at Mueller Lake Park Courts. Casey has until 4:00 AM to answer; no answer counts as Not this time, and two unanswered offers in a row turn off matchmaking for that search. Because it starts within 12 hours, a line warns that cancelling after accepting counts as late.'],
     ['14b-offer-players', 'Who’s in it', 'Neither player has answered yet. Players see display names, photos and League match counts, never phone numbers or email.'],
     ['15-offer-other-times', 'Choose another time', 'Casey can propose Thursday at 8 PM instead. Sofia sees it and can accept, and it counts as accepted by Casey. The time can change two more times.'],
     ['16-offer-decline', 'Not this time', 'Declining has no penalty. A second option also stops matches with Sofia for 7 days.'],
@@ -240,6 +240,22 @@ const CHAPTERS = [
     ['20f-chat-replied', 'The reply', 'The sent message quotes what it answers. Casey’s 🙏 sits on the outer corner of Maya’s message.'],
     ['20g-chat-report', 'Report a message', 'Report sends Maya’s message and the reason to Circuit, not to a league organizer. Casey picks a reason; details are optional.'],
   ]},
+  { id: 'cancel', title: 'Cancelling a match', who: 'Ask to call it off together, or cancel now. What happens depends on how close the match is.', person: 'Casey, then Sofia', shots: [
+    ['55-cancel-choices', 'Cancel this match?', 'More than 12 hours before Tuesday’s match, Casey can Ask to call it off together, so nobody gets a late mark if Sofia agrees, or Cancel now, which has no late mark this far ahead.'],
+    ['55b-cancel-requested', 'Waiting for Sofia', 'Casey asked. The match stays on until Sofia answers, and Withdraw request takes it back. Casey’s singles search is stopped for this match.'],
+    ['55c-cancel-request-received', 'Sofia’s side', 'Sofia sees that Casey asked to call the match off, with Agree and Keep the match. If she agrees, nobody gets a late mark.'],
+    ['55d-cancel-called-off', 'Called off', 'The match shows Called off by agreement, and Casey’s search is on again. The match chat stays open with one unread message.'],
+    ['55e-cancel-late-warning', 'Inside 12 hours', 'With less than 12 hours to the start, Cancel now says it counts as a late cancellation and that Casey has 48 hours to challenge it if it was not her fault. Ask to call it off together is still offered.'],
+    ['55f-cancel-late-cancelled', 'Cancelled late', 'The match shows Cancelled and says it was cancelled by Casey. The page says You cancelled this match and Your search is off; Find another match starts it again. The late cancellation is recorded on her Conduct record.'],
+    ['55g-cancel-team-match', 'A partner cancels a team match', 'Maya cancelled Tuesday’s 10 AM team match more than 12 hours ahead. Casey sees Cancelled by Maya R., Your team search is off because of this cancellation, and Search again turns it back on.'],
+  ]},
+  { id: 'absence', title: 'When someone doesn’t come', who: 'Fifteen minutes after the start, the person who showed up can end the match as not played. The other player can answer.', person: 'Riley, then Taylor', shots: [
+    ['56-absence-sheet', 'Taylor C. didn’t come?', 'Riley is told to check match chat first, that Taylor can answer within 48 hours, and that nobody gets a score, rating change or cancellation penalty.'],
+    ['56b-absence-ended', 'Ended as not played', 'The match shows Not played with the reason: Taylor C. didn’t come on Nov 1. Match chat stays available.'],
+    ['56c-absence-opponent-view', 'Taylor’s side', 'Taylor reads that Riley said Taylor didn’t come, and that if that’s wrong there are 48 hours to answer, after which Circuit reviews it. I was there is the answer.'],
+    ['56d-absence-answer', 'You were there?', 'An optional note, and a plain statement: Circuit reviews the answer, and until then the match stays ended as not played.'],
+    ['56e-absence-answered', 'Answer sent', 'Taylor’s match page now says: You said you were there. Circuit is reviewing it.'],
+  ]},
   { id: 'scores', title: 'Scores', who: 'One side reports, the other side reviews. Unanswered reports count after 48 hours.', person: 'Casey', shots: [
     ['21-score-due', 'Score due', 'Today’s noon match against Priya at Pease Park Courts. Report by Friday noon, or say that someone didn’t come.'],
     ['22-report-form', 'Report form', 'Where and when shows the planned date and venue as one line. Change date or venue opens the date and venue pickers, for when play moved. Each game is entered on its own.'],
@@ -247,9 +263,16 @@ const CHAPTERS = [
     ['23-report-short-confirm', 'Fewer games than planned', 'Reporting two of three planned games asks first: game 3 won’t have a score.'],
     ['24-report-sent', 'Score sent', 'Casey won 11–6, 11–9. Priya reviews it, or it counts automatically Friday at 3:30 PM.'],
     ['25-review', 'Review a score', 'Elena reported Saturday’s match, 2–1 to her. Score is right confirms it; Something’s wrong opens a dispute. Doing nothing confirms it Friday at 3:14 PM.'],
-    ['26-dispute', 'Dispute', 'Sending a dispute stops the automatic count. Either side can then propose a correction; with no agreed score within 24 hours, the result is voided.'],
+    ['26-dispute', 'Dispute', 'Priya ticks only the game she disputes, game 3 (Casey’s 11–8), and adds a note: I had that third game at 11-9. Other games stand. With no agreed score within 24 hours, the disputed game is voided.'],
     ['27-confirmed', 'Final', 'After Score is right: You lost 1–2, match 3 in the week of Oct 19. All three games are sending to DUPR, and Your progress explains when Provisional ends.'],
     ['28-past', 'Past matches', 'Results by day, winner first, with each game’s score beside its player. Today’s match with Priya waits as Score sent; Sunday’s with Maya still needs a score.'],
+  ]},
+  { id: 'fix-score', title: 'Fixing a score', who: 'The reporter can correct a score the other side hasn’t answered yet. The other side can dispute only the games they disagree with.', person: 'Casey and Priya', shots: [
+    ['57-score-sent-fix', 'Score sent, with Fix the score', 'Casey’s 11–7, 9–11, 11–8 is waiting for Priya. Fix the score opens the form again, and Played more than planned adds games up to the limit.'],
+    ['57b-score-fix-form', 'Fix the score', 'The form lists each game with Casey and Priya, and the button reads Send corrected score.'],
+    ['57e-score-corrected', 'Corrected score sent', 'Casey fixed game 2 to 11–9 and sent it again: 11–7, 11–9, 11–8. The review clock starts over, so Priya reviews it or it counts automatically two days after it was sent.'],
+    ['57c-score-review', 'Priya reviews', 'Priya sees what Casey reported at 8:10 PM and that doing nothing counts it at 8:10 PM Tuesday, with Score is right and Something’s wrong.'],
+    ['57d-score-disputed', 'Only game 3 is disputed', 'Priya’s note says she had game 3 at 11–9. The automatic count stops and the two have until 8:12 PM tomorrow to agree, or that game is voided. Propose a correction is open to both.'],
   ]},
   { id: 'leaderboards', title: 'Leaderboards', who: 'Ranks come from League results, adjusted for who you played, and update after Sunday.', person: 'Casey', shots: [
     ['29-board', 'Austin area, Women’s singles', 'Casey is #1 at 5–2, on the highlighted row. Each record sits large on the right; PD is point differential over recent games, and DUPR appears beside each name.'],
@@ -275,40 +298,61 @@ const CHAPTERS = [
     ['40d-recap-no-match', 'A week without a match', 'Casey had no League match in the week of Oct 5. The summary offers See times that would match, which opens her times, and Invite friends.'],
   ]},
   { id: 'teams', title: 'Fixed teams', who: 'Doubles with the same partner every game.', person: 'Casey', shots: [
-    ['41-add-team', 'New team', 'Choose Women’s or Mixed doubles, then Create invite link. There is no player search: a partner is someone Casey already knows.'],
-    ['41b-add-team-share', 'Send the link', 'The share sheet opens with the link, ready to text to a friend. It works for 7 days, and only the first person to open it can accept.'],
-    ['41c-add-team-link-saved', 'Link saved', 'The invite waits under Matchmaking, with Share link to send it again and Cancel invite. Maya opens it on her own phone and accepts.'],
-    ['42-teams-list', 'Several partners', 'Each team is named for the partner and says where it stands: Diego’s team waits for his times this week, Priya is out for now, and Maya’s team is looking. Jade’s invite waits for Casey’s answer.'],
-    ['43-team-settings', 'Team page', 'Casey and Maya’s Women’s doubles team: its status and switch, both partners’ times this week with the time they share marked Both, and the venue they both picked. Match settings, Out for now and End this team follow.'],
-    ['43b-team-times-missing', 'Waiting for a partner', 'Diego hasn’t saved times this week, so the team can’t be matched. The page says whose times are missing; Casey’s own times still show.'],
-    ['43c-team-match-found', 'Team Match found', 'Casey and Maya against Jade and Sofia on Sunday at 10 AM. Above Accept: the time fits both partners’ saved times, so Casey’s answer counts for Maya too.'],
+    ['41-add-team', 'New team', 'Choose Women’s or Mixed doubles, then Create invite link. The link works for 7 days. If someone Casey hasn’t played with accepts, she confirms them before the team forms. There is no player search: a partner is someone Casey already knows.'],
+    ['41b-add-team-share', 'Send the link', 'The share sheet opens over the League tab with the link, ready to text to a friend. It works for 7 days.'],
+    ['41c-add-team-link-saved', 'Link saved', 'The invite waits under Matchmaking as Invite link, Waiting for someone to open your link, with Share link to send it again and Cancel invite.'],
+    ['42-teams-list', 'Several partners', 'Each team is named for the partner and says where it stands: Maya’s and Diego’s teams ask for this week’s times, Priya is out for now, and Jade’s invite waits for Casey’s answer, with Invite link below for a team still being formed.'],
+    ['43-team-settings', 'Team page', 'Casey and Maya’s Women’s doubles team, on the Next week tab, with the Team matchmaking switch under the name: each partner’s times for Tuesday, Nov 3 with the shared time marked Both 10 AM–1 PM, and the venue they both picked. Match settings, Out for now and End this team sit below.'],
+    ['43b-team-times-missing', 'Waiting for a partner', 'On the This week tab neither partner has times, so the page says Neither of you has added times for this week and the Team matchmaking switch stays off with Add your times for this week under it.'],
+    ['43c-team-match-found', 'Team Match found', 'Casey and Maya against Jade and Sofia on Tuesday at 10 AM. Above Accept: the time fits both partners’ saved times, so Casey’s answer counts for Maya too.'],
     ['43d-partner-accepted', 'Partner accepted', 'Maya answered first, for both of them. Casey’s card says so, and names the matchup with her partner first, so several teams stay easy to tell apart.'],
-    ['43e-team-ended', 'Partner left', 'Diego left the League, so the team ended and he is no longer named. Its record is kept, and Remove from my list clears it from Casey’s list only.'],
+    ['43e-team-ended', 'Partner left', 'Diego left the League, so the team ended and he shows as Former League player. Its record is kept, and Remove from my list clears it from Casey’s list only.'],
+  ]},
+  { id: 'team-link', title: 'Joining from a team link', who: 'A partner opens the link, finishes joining the League if needed, and the person who invited confirms them.', person: 'Blake, then Jade', shots: [
+    ['58-team-link-invite', 'Invite from Jade', 'Blake isn’t in the League yet. The invite says Jade M. invited Blake to a Mixed doubles team, answer by Nov 8, and that accepting doesn’t start matchmaking.'],
+    ['58b-team-link-joined', 'In the League', 'After Blake picks Team in How you play, setup ends with Accept Jade M.’s invite.'],
+    ['58c-team-link-accept', 'Accept as Blake', 'The invite now says You’re accepting as Blake T.'],
+    ['58d-team-link-waiting', 'Waiting for Jade', 'Blake is told that Jade confirms it is him before the team forms, and that Blake will hear when Jade answers.'],
+    ['58e-team-link-confirm', 'Jade confirms', 'On Jade’s phone: Blake T. opened the link and accepted. Confirm only if she knows him, with Confirm partner and Not this person.'],
+    ['58f-team-link-formed', 'You’re a team', 'Jade and Blake are now a Mixed doubles team, with Open team and a reminder to add times for this week.'],
   ]},
   { id: 'scan', title: 'Scan to play', who: 'Already at the courts with someone? Set up a League match on the spot.', person: 'Casey', shots: [
     ['44-scan', 'Plan the match', 'The nearest League venues come first, each with its distance, when the phone already allows location. Without it, saved venues lead.'],
     ['44b-scan-venue-chosen', 'Venue chosen', 'Picking a venue folds the list to it, with Change to pick again, then the format and Create match plan.'],
-    ['44c-scan-waiting', 'Scan players', 'One of two players is in, so Scan a player is the next step. Start publishes the match once everyone has confirmed on their own phone.'],
-    ['45-my-code', 'My QR', 'The code a host scans, in Circuit green and black. It doubles as an invite link, and only Casey sees that 2 friends joined with it. It can be reset in League settings.'],
+    ['44c-scan-waiting', 'Scan players', 'One of two players is in, so Scan a player is the next step. This evening plan also shows a notice that the match may finish after sunset, so check the courts’ lighting. Start publishes the match once everyone has confirmed on their own phone.'],
+    ['45-my-code', 'My QR', 'The code a host scans, in Circuit green and black. Casey is told to show it only to people she wants to play with, and that she can reset it in League settings.'],
+  ]},
+  { id: 'scanned', title: 'Being scanned', who: 'Hannah is added to a match by a host, then checks the plan on her own phone.', person: 'Hannah', shots: [
+    ['59-scanned-invite', 'Priya added you', 'Hannah’s My QR says Priya S. added her. She reviews the match on her own phone, and the invitation lasts 30 minutes.'],
+    ['59b-scanned-confirm', 'Confirm this plan', 'Mueller Lake Park Courts, women’s singles, 2 of 2 players. Hannah confirms only for herself, or declines.'],
+    ['59c-scanned-cancelled', 'If the host cancels', 'Priya cancelled the match plan, so Hannah sees Not confirmed and is told to ask the host to scan her again.'],
   ]},
   { id: 'settings', title: 'Settings, times and venues', who: 'Everything that shapes matchmaking stays editable after setup.', person: 'Casey', shots: [
-    ['46-settings', 'League settings', 'Times, venues, same times every week, pausing offers until Monday, notifications and check-in.'],
+    ['46-settings', 'League settings', 'How you play comes first, then times, venues, same times every week, an away-until date, pausing offers until Monday and notifications. Check-in and privacy sit lower.'],
     ['46b-settings-lower', 'Privacy and safety', 'Full-name display, resetting your code, blocked players, conduct record and League rules. To step away, turn off matchmaking.'],
     ['47-notification-settings', 'Notifications', 'Each League alert type has its own switch. Account and safety notices stay on.'],
     ['48-times', 'Your times', 'Next week is empty so far. Reuse last week’s times copies Casey’s two saved times; suggested times appear once other players save theirs.'],
     ['49-venues', 'Saved venues', 'One ranked favorite and one backup, 2 of 25 venues saved.'],
     ['50-venue-detail', 'Venue detail', 'Court details, directions, your choice for this venue, popular times when there is enough data, the venue leaderboard and a printable flyer.'],
   ]},
+  { id: 'how-you-play', title: 'Changing how you play', who: 'Formats and categories can be changed from League settings, and a one-week extra category can be offered on the League home.', person: 'Casey', shots: [
+    ['60-play-formats', 'How you play', 'Singles is on with Women’s; Rotating doubles and Team are off. A note says changes apply to new matching only.'],
+    ['60b-play-formats-mixed', 'Adding Rotating doubles', 'Casey turns on Rotating doubles and picks Mixed. Save becomes available.'],
+    ['60c-play-saved', 'How you play saved', 'The settings row now reads Singles, Rotating doubles, under a green saved message.'],
+    ['60d-home-widen-row', 'Also play Mixed this week?', 'On the League home, a row under Needs you offers Mixed for one week, since Casey already plays Rotating doubles.'],
+    ['60e-widen-sheet', 'Add Mixed', 'A match is possible in Mixed. It is added until Sunday, then removed. Add it or Not now.'],
+    ['60f-pause-offers', 'Pause offers until Monday', 'In League settings the switch says what it does: no new offers or bookings, including for teams, until the next League week starts. Open offers are withdrawn and do not count as missed; booked matches stay.'],
+  ]},
   { id: 'safety', title: 'Safety and conduct', who: 'Blocks, reports and a clear way to respond.', person: 'Casey', shots: [
     ['51-blocked', 'Blocked players', 'No one is blocked. Blocking happens from a player page or match chat.'],
-    ['52-conduct', 'Conduct record', 'A no-show report about Tuesday’s 7:30 AM match is awaiting Casey’s response.'],
-    ['52b-conduct-case', 'The report', 'It hasn’t been decided. Casey can challenge it until Friday at 3:41 PM, or report the score: a confirmed game shows the match was played and dismisses the report.'],
-    ['52c-conduct-challenge', 'Challenge', 'Explain what happened, up to 500 characters.'],
-    ['52d-conduct-under-review', 'Under review', 'Casey’s explanation, that the match moved to Wednesday in chat, is saved and the report is under review.'],
+    ['52-conduct', 'Conduct record', 'Casey cancelled Monday’s 5:45 AM match inside 12 hours, so the record lists Late cancellation (you cancelled) as open to challenge, above a no-show report that is awaiting her response.'],
+    ['52b-conduct-case', 'The late cancellation', 'The case is open to challenge until Tuesday at 9:01 PM. If Casey does not challenge it, it becomes a confirmed finding; a first finding is a warning, and three within 60 days pause new matches for 7 days. Her existing matches, scores and chat stay available.'],
+    ['52c-conduct-challenge', 'Challenge', 'Explain what happened, up to 500 characters. Casey writes that Sofia asked in chat to move the early time and she could not make it.'],
+    ['52d-conduct-under-review', 'Under review', 'Casey’s explanation is saved and the case reads Challenge under review, with her words shown under Your challenge. Circuit reviews it before deciding.'],
     ['53-home-conduct-task', 'Home reminder', 'While a report needs a response, one flat row leads the League home and opens the conduct record. Tuesday’s match also asks for a score.'],
   ]},
   { id: 'inbox', title: 'Notifications', who: 'League alerts land in the app inbox, newest first.', person: 'Casey', shots: [
-    ['54-inbox', 'Inbox', 'The week’s recap, a score reminder, team ready, chat messages and a confirmed match, newest first. Unread items have a green bar on the left and are marked New.'],
+    ['54-inbox', 'Inbox', 'Newest first: Your partner updated their availability, Your team ended, Team invitation, Your team is ready, League incident to review and match chat messages. Unread items have a green bar on the left and are marked New.'],
   ]},
 ];
 
