@@ -1,6 +1,20 @@
 # Walkthrough evidence
 
-Updated October 29, 2026 (booked matches, suggested times and invite moments).
+Updated November 3, 2026 (after the League simplification).
+
+## After the League simplification (November 2–3)
+
+The tour was recaptured after the League dropped its intro screens, setup options, other-time proposals, the booking switch, the share-sheet invite steps, the daily suggestion notice, the one-week Mixed row and Pause offers (140 screens in 23 chapters).
+
+- **Dropped.** 01–03 intro, 08 and 08b setup options, 10b notification prompt, 10d check-in step, 11c–11e invite prompt and share sheet, 15 other times, 17b booking switch, 48b suggestion notice, 60d–60f Mixed for a week and Pause offers. Discover is folded into Join, which now opens with the landing (03b).
+- **New chapters.** Booked from your times (Blake's first booked match, with the check-in and alerts cards), A time for one week (Diego approves an added Saturday time, then the matching-time list and grid), and Taking a break and coming back (Casey and Jordan on a break, Nina paused after four quiet weeks, Riley's Monday message for a search he switched off).
+- **Added inside chapters.** 11h and 11i waiting searches that offer doubles or Mixed, 17e alerts, 27b Reconnect DUPR, 34b Place, 58a How you play from a team link, 58g and 58h an existing member accepting a team invite and the team searching.
+- **Retaken.** 03b–07, 10, 11, 11f, 11g, 12–12c, 14, 14b, 16, 17, 17c, 17d, 22, 23, 24, 25, 27, 29, 34, 35, 39–40d, 46–49, 54, 58–58f and 60–60c.
+- **App.** Pickleball-Tournaments local main `4405371cb` plus the uncommitted team-link copy changes (the first person to accept is no longer called the partner). Nothing is pushed or deployed.
+- **Data.** Rebuilt on an isolated local database with no cron. Matching only offers between 7 AM and 10 PM Chicago time, so the offer, booking and inbox screens were taken in the morning. The alerts card shows only while notifications are off, so they were turned off in iOS Settings for that shot and back on afterwards. For the matching-time screens a new fictional player, Ethan, was added and three searches were dated two days back. One stale Match found notice from a re-run offer was removed from Casey's inbox. Held fixture deliveries were moved aside so only Riley's Monday message was delivered.
+- **Checks.** Every image was reviewed; Dark appearance, Default text size. Page checks are listed in the capture report.
+- **Kept from earlier captures.** 07b, 07c, 09, 09b, 11a, 11b, 13, 19–21, 22b, 26, 28, 29b–33, 36–38, 41–45, 50–53, 55–57 and 59 are unchanged screens from October 26–29.
+- **Known gaps.** Screen 48c lists Saturday 10 AM as a match possible now although Diego has just saved that hour; matching had not run yet. The Until a date calendar's Done did not save a break in the simulator, so the break screens use Until Monday and a date set directly. Screen 63b, opened from "Your search is off. Turn it on", asks Riley to add times rather than showing a switch.
 
 ## Booked matches, suggested times and invite moments (October 29)
 
