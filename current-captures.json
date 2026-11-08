@@ -1063,7 +1063,7 @@
    "title": "Challenges in the menu",
    "file": "img/oct26/70-menu.webp",
    "source": "70-menu.png",
-   "sha256": "fd9910d447ebb922182b2b5e9c417bb2f699552fe95b7a9850584c259f280369"
+   "sha256": "c170663345aaec1ed9b75861197c20f2bb38e595f2b9558a1f394dd2928cd751"
   },
   {
    "n": 118,
@@ -1081,7 +1081,7 @@
    "title": "A link anyone can take",
    "file": "img/oct26/71-composer-link.webp",
    "source": "71-composer-link.png",
-   "sha256": "2ee02da4143e99a56dae81d2c791f48063571bf8028bb9c1837886824ba1e352"
+   "sha256": "198cebf0409f84aca2078c6cb409556328183794ccc617874c62d8fae7d0b78f"
   },
   {
    "n": 120,
@@ -1090,7 +1090,7 @@
    "title": "A place that isn’t a League venue",
    "file": "img/oct26/72-composer-not-listed.webp",
    "source": "72-composer-not-listed.png",
-   "sha256": "bcbc4e38516dbea1c5d778e1cd7e2565b64f1fc7dc08f1cb6c8d22957cf4a4f8"
+   "sha256": "450ec8def9a35aeb45bef4f469f41eb0f7a5a1589ba52d16f1515fb7e4bea5e6"
   },
   {
    "n": 121,
@@ -1099,7 +1099,7 @@
    "title": "Time, DUPR and a note",
    "file": "img/oct26/73-composer-ready.webp",
    "source": "73-composer-ready.png",
-   "sha256": "1520d8698de50fc5a99a7ea97cf8aac058e147c11f4efdf471e2aacf5a9b911e"
+   "sha256": "1e330a3e2bd01b4276b615804e7c796af656ca6cd9581de90333e3dac05ff5c2"
   },
   {
    "n": 122,
@@ -1126,7 +1126,7 @@
    "title": "Opening the link",
    "file": "img/oct26/76-link-open.webp",
    "source": "76-link-open.png",
-   "sha256": "9eda69e3f9239b8f150658b196e3fd5ba04e58ff807b23ee049ddbb5c68ea609"
+   "sha256": "cc9a7ce21114b27bdb3f01d99f2f0036f1033501fcd286008efa077f9831d020"
   },
   {
    "n": 125,
@@ -1153,7 +1153,7 @@
    "title": "A challenge in Needs you",
    "file": "img/oct26/79-home-challenge.webp",
    "source": "79-home-challenge.png",
-   "sha256": "a85c5efba38f165a28f072794acc3cfb953ddaed51cd947d73541a8dbe55f1ab"
+   "sha256": "104a649a5a2d2e73751933faeb96af0407fdbd0d563a9caa32c3cab402e3ee2e"
   },
   {
    "n": 128,
@@ -1180,7 +1180,7 @@
    "title": "Set a time",
    "file": "img/oct26/82-challenge-set-time.webp",
    "source": "82-challenge-set-time.png",
-   "sha256": "df0785e32f3a2cce9fcfb1123906e9c20a47010ef160d75ec8c89cb225bfca3a"
+   "sha256": "0e997e9953e1de687b0043ec2c4bf1bbf652d1272a272687feb68dbbd968f522"
   },
   {
    "n": 131,
@@ -1198,7 +1198,7 @@
    "title": "The Challenges list",
    "file": "img/oct26/70c-challenges-list.webp",
    "source": "70c-challenges-list.png",
-   "sha256": "902d1d006d22f181162a18c9a6735a6e3a4ce637a946b904ee48a27cff4c6e99"
+   "sha256": "0db70826900a43ae07e692e97ae5ade6c4e4677f32e433ab81ec299cf0a45dcd"
   },
   {
    "n": 133,
@@ -1225,7 +1225,7 @@
    "title": "Withdrawn",
    "file": "img/oct26/86-withdrawn.webp",
    "source": "86-withdrawn.png",
-   "sha256": "1d20247897591c15048335b8c20f16a95cc96c33b40c1b4182f5da59399f049a"
+   "sha256": "aae2ee6f9dfae535fbb8eba3c28b81b73972f842f96bb51288b78872695d7747"
   },
   {
    "n": 136,
@@ -1234,16 +1234,16 @@
    "title": "Follow from a stats page",
    "file": "img/oct26/87-following-stats.webp",
    "source": "87-following-stats.png",
-   "sha256": "3843e3ea93fcf2db7242daf109aaf12771f4073033804c938e35215a5958c6f4"
+   "sha256": "3bb6abc5088a383ebef726ce21abb5293da294c621549c91b5b90af38af6c077"
   },
   {
    "n": 137,
    "chapter": "Following players",
    "person": "Casey",
-   "title": "Your friend",
+   "title": "Block stays out of the way",
    "file": "img/oct26/87b-following-stats-top.webp",
    "source": "87b-following-stats-top.png",
-   "sha256": "270fe567a7b839589571e9e255d0f0170c700ea0481a07d7b1369c95b9aa1dfa"
+   "sha256": "076f79e76bd6076fdf781f89b40100909920b482d965e1bf99bded720011a657"
   },
   {
    "n": 138,
@@ -1261,7 +1261,7 @@
    "title": "Following",
    "file": "img/oct26/88-friends-following.webp",
    "source": "88-friends-following.png",
-   "sha256": "baccfba0a15487270f1e293866006389cb1169b59d156bbadf88ebd28e96eff9"
+   "sha256": "f9b9854f00e16073a89db1ca6b7ab6e1ee62015541115126c0cf8a7363889704"
   },
   {
    "n": 140,
@@ -1270,7 +1270,7 @@
    "title": "Followers",
    "file": "img/oct26/89-friends-followers.webp",
    "source": "89-friends-followers.png",
-   "sha256": "8c911202d8f3aa73d626550ca02f0fb45d859e14a58114e0bba3f794be0afb5a"
+   "sha256": "a51e7d689cb8c87e68f4c3ceffeb54207291f3c5d02da43f3af90eb6855bac5f"
   },
   {
    "n": 141,
@@ -1315,16 +1315,16 @@
    "title": "Venue leaderboard",
    "file": "img/oct26/92-venue-board-needs.webp",
    "source": "92-venue-board-needs.png",
-   "sha256": "265720dfe59aaf37d3189583fee70554053fd109e82bf5b8a7a9691d985b6ef5"
+   "sha256": "423443fde1c0d198b7c12b3d3b72552de5dbf8fedb08b7cb45781bea8498ed0f"
   },
   {
    "n": 146,
    "chapter": "Growing your local League",
    "person": "Blake, then Casey",
-   "title": "Friends you’ve brought",
+   "title": "Brought to the League",
    "file": "img/oct26/90-friends-brought.webp",
    "source": "90-friends-brought.png",
-   "sha256": "84b23cf3fc2b284182d648e825c8df0591bb9f026bf8faead57e0c640a2e56b7"
+   "sha256": "89a845680d624c03586810c824ee3848c2c157d4353734a73a90a01f37dfb003"
   },
   {
    "n": 147,
