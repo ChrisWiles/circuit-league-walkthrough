@@ -1,6 +1,6 @@
 {
- "capturedOn": "2026-11-03",
- "appBase": "Pickleball-Tournaments local main 4405371cb with the team-link copy patch applied, for screens retaken or added 2026-11-02/03; other screens kept from 2026-10-26/29 captures on local main 40fe473c7, 04f49b8b2 and 54e8a91b5",
+ "capturedOn": "2026-11-08",
+ "appBase": "Pickleball-Tournaments local main bd10ac775 plus two uncommitted mobile fixes (challenge create sends the installation header; Challenges screen pinned New challenge) for the 31 screens added 2026-11-08; other screens kept from the 2026-10-26/29 and 2026-11-02/03 captures",
  "appearance": {
   "platform": "iOS",
   "device": "iPhone 17 Pro simulator",
@@ -10,7 +10,7 @@
   "systemContentSize": "large (iOS default)"
  },
  "data": "Fictional local fixtures",
- "count": 140,
+ "count": 171,
  "screens": [
   {
    "n": 1,
@@ -1058,6 +1058,285 @@
   },
   {
    "n": 117,
+   "chapter": "Challenge a friend",
+   "person": "Casey, Sofia, then Maya",
+   "title": "Challenges in the menu",
+   "file": "img/oct26/70-menu.webp",
+   "source": "70-menu.png",
+   "sha256": "fd9910d447ebb922182b2b5e9c417bb2f699552fe95b7a9850584c259f280369"
+  },
+  {
+   "n": 118,
+   "chapter": "Challenge a friend",
+   "person": "Casey, Sofia, then Maya",
+   "title": "No challenges yet",
+   "file": "img/oct26/70b-challenges-empty.webp",
+   "source": "70b-challenges-empty.png",
+   "sha256": "995da7171c8f82efc6d9195069f3a7c27c6c0d7b4f3c59c271ada907d47ad16b"
+  },
+  {
+   "n": 119,
+   "chapter": "Challenge a friend",
+   "person": "Casey, Sofia, then Maya",
+   "title": "A link anyone can take",
+   "file": "img/oct26/71-composer-link.webp",
+   "source": "71-composer-link.png",
+   "sha256": "2ee02da4143e99a56dae81d2c791f48063571bf8028bb9c1837886824ba1e352"
+  },
+  {
+   "n": 120,
+   "chapter": "Challenge a friend",
+   "person": "Casey, Sofia, then Maya",
+   "title": "A place that isn’t a League venue",
+   "file": "img/oct26/72-composer-not-listed.webp",
+   "source": "72-composer-not-listed.png",
+   "sha256": "bcbc4e38516dbea1c5d778e1cd7e2565b64f1fc7dc08f1cb6c8d22957cf4a4f8"
+  },
+  {
+   "n": 121,
+   "chapter": "Challenge a friend",
+   "person": "Casey, Sofia, then Maya",
+   "title": "Time, DUPR and a note",
+   "file": "img/oct26/73-composer-ready.webp",
+   "source": "73-composer-ready.png",
+   "sha256": "1520d8698de50fc5a99a7ea97cf8aac058e147c11f4efdf471e2aacf5a9b911e"
+  },
+  {
+   "n": 122,
+   "chapter": "Challenge a friend",
+   "person": "Casey, Sofia, then Maya",
+   "title": "Share the link",
+   "file": "img/oct26/74-share-link.webp",
+   "source": "74-share-link.png",
+   "sha256": "b27a4c9883128b8b484e56cc6cf6ac8610c8fabd6a42d30e238cebc9f1c68546"
+  },
+  {
+   "n": 123,
+   "chapter": "Challenge a friend",
+   "person": "Casey, Sofia, then Maya",
+   "title": "Waiting for a taker",
+   "file": "img/oct26/75-challenge-sent.webp",
+   "source": "75-challenge-sent.png",
+   "sha256": "9e0ae8bfbc6426bd3bc7d584efc3c585f221f9a06c6802952fdfe0bec99316ae"
+  },
+  {
+   "n": 124,
+   "chapter": "Challenge a friend",
+   "person": "Casey, Sofia, then Maya",
+   "title": "Opening the link",
+   "file": "img/oct26/76-link-open.webp",
+   "source": "76-link-open.png",
+   "sha256": "9eda69e3f9239b8f150658b196e3fd5ba04e58ff807b23ee049ddbb5c68ea609"
+  },
+  {
+   "n": 125,
+   "chapter": "Challenge a friend",
+   "person": "Casey, Sofia, then Maya",
+   "title": "Accepted",
+   "file": "img/oct26/77-challenge-set.webp",
+   "source": "77-challenge-set.png",
+   "sha256": "4d3047f4fd724062be9ffb1122ff4465506ed428d2ad12838717a4c99fd780ed"
+  },
+  {
+   "n": 126,
+   "chapter": "Challenge a friend",
+   "person": "Casey, Sofia, then Maya",
+   "title": "An ordinary League match",
+   "file": "img/oct26/78-challenge-match.webp",
+   "source": "78-challenge-match.png",
+   "sha256": "bcf60fcb6824bb54bbbe16fdbed4f6ab8e5927e3c7e7f369fdef5f4cce50bf1c"
+  },
+  {
+   "n": 127,
+   "chapter": "Challenge a friend",
+   "person": "Casey, Sofia, then Maya",
+   "title": "A challenge in Needs you",
+   "file": "img/oct26/79-home-challenge.webp",
+   "source": "79-home-challenge.png",
+   "sha256": "a85c5efba38f165a28f072794acc3cfb953ddaed51cd947d73541a8dbe55f1ab"
+  },
+  {
+   "n": 128,
+   "chapter": "Challenge a friend",
+   "person": "Casey, Sofia, then Maya",
+   "title": "Answer a challenge",
+   "file": "img/oct26/80-challenge-received.webp",
+   "source": "80-challenge-received.png",
+   "sha256": "56ecad6365c4ef8a4827edf49101dace35b1e0541e897c4b74589d179bb1753b"
+  },
+  {
+   "n": 129,
+   "chapter": "Challenge a friend",
+   "person": "Casey, Sofia, then Maya",
+   "title": "Agree on a time",
+   "file": "img/oct26/81-challenge-accepted.webp",
+   "source": "81-challenge-accepted.png",
+   "sha256": "23d3d6663c26a1d224c16a33e99b5e7721b62f07b86d6bd4945fe09091bbd860"
+  },
+  {
+   "n": 130,
+   "chapter": "Challenge a friend",
+   "person": "Casey, Sofia, then Maya",
+   "title": "Set a time",
+   "file": "img/oct26/82-challenge-set-time.webp",
+   "source": "82-challenge-set-time.png",
+   "sha256": "df0785e32f3a2cce9fcfb1123906e9c20a47010ef160d75ec8c89cb225bfca3a"
+  },
+  {
+   "n": 131,
+   "chapter": "Challenge a friend",
+   "person": "Casey, Sofia, then Maya",
+   "title": "Booked",
+   "file": "img/oct26/83-challenge-booked.webp",
+   "source": "83-challenge-booked.png",
+   "sha256": "d667f05697e476a8faf4d2ede11178303e5c9d150c197a9be0b72bf3a6a36a52"
+  },
+  {
+   "n": 132,
+   "chapter": "Challenge a friend",
+   "person": "Casey, Sofia, then Maya",
+   "title": "The Challenges list",
+   "file": "img/oct26/70c-challenges-list.webp",
+   "source": "70c-challenges-list.png",
+   "sha256": "902d1d006d22f181162a18c9a6735a6e3a4ce637a946b904ee48a27cff4c6e99"
+  },
+  {
+   "n": 133,
+   "chapter": "Challenge a friend",
+   "person": "Casey, Sofia, then Maya",
+   "title": "Withdraw a challenge",
+   "file": "img/oct26/84-withdraw-menu.webp",
+   "source": "84-withdraw-menu.png",
+   "sha256": "f666c2f4912533e5d21aad5988f13bcb19333ffb4f01b4534140169fe0b0a02b"
+  },
+  {
+   "n": 134,
+   "chapter": "Challenge a friend",
+   "person": "Casey, Sofia, then Maya",
+   "title": "Confirm withdrawal",
+   "file": "img/oct26/85-withdraw-confirm.webp",
+   "source": "85-withdraw-confirm.png",
+   "sha256": "0c0b0b61b750c5fc8b0436ca208f5011aed8cabafcf077389714b3f6eeeefdfd"
+  },
+  {
+   "n": 135,
+   "chapter": "Challenge a friend",
+   "person": "Casey, Sofia, then Maya",
+   "title": "Withdrawn",
+   "file": "img/oct26/86-withdrawn.webp",
+   "source": "86-withdrawn.png",
+   "sha256": "1d20247897591c15048335b8c20f16a95cc96c33b40c1b4182f5da59399f049a"
+  },
+  {
+   "n": 136,
+   "chapter": "Following players",
+   "person": "Casey",
+   "title": "Follow from a stats page",
+   "file": "img/oct26/87-following-stats.webp",
+   "source": "87-following-stats.png",
+   "sha256": "3843e3ea93fcf2db7242daf109aaf12771f4073033804c938e35215a5958c6f4"
+  },
+  {
+   "n": 137,
+   "chapter": "Following players",
+   "person": "Casey",
+   "title": "Your friend",
+   "file": "img/oct26/87b-following-stats-top.webp",
+   "source": "87b-following-stats-top.png",
+   "sha256": "270fe567a7b839589571e9e255d0f0170c700ea0481a07d7b1369c95b9aa1dfa"
+  },
+  {
+   "n": 138,
+   "chapter": "Following players",
+   "person": "Casey",
+   "title": "Follow after a match",
+   "file": "img/oct26/96-match-rematch.webp",
+   "source": "96-match-rematch.png",
+   "sha256": "4e12feaa97790639ae1ce0af81c86011a30212897c0f76c95f15b96dcf3b7977"
+  },
+  {
+   "n": 139,
+   "chapter": "Following players",
+   "person": "Casey",
+   "title": "Following",
+   "file": "img/oct26/88-friends-following.webp",
+   "source": "88-friends-following.png",
+   "sha256": "baccfba0a15487270f1e293866006389cb1169b59d156bbadf88ebd28e96eff9"
+  },
+  {
+   "n": 140,
+   "chapter": "Following players",
+   "person": "Casey",
+   "title": "Followers",
+   "file": "img/oct26/89-friends-followers.webp",
+   "source": "89-friends-followers.png",
+   "sha256": "8c911202d8f3aa73d626550ca02f0fb45d859e14a58114e0bba3f794be0afb5a"
+  },
+  {
+   "n": 141,
+   "chapter": "Growing your local League",
+   "person": "Blake, then Casey",
+   "title": "Before joining",
+   "file": "img/oct26/94-not-joined-counts.webp",
+   "source": "94-not-joined-counts.png",
+   "sha256": "d0ce4e5ea4fb4bc73ecca7448298940c042cb3ed18a8d8b5f1138912bd9d8c3f"
+  },
+  {
+   "n": 142,
+   "chapter": "Growing your local League",
+   "person": "Blake, then Casey",
+   "title": "Who plays near you",
+   "file": "img/oct26/95-near-you.webp",
+   "source": "95-near-you.png",
+   "sha256": "b719ba1386277aedf17d8fb774aad5336b4c99c306e4ab9c7682c3d856ef1e66"
+  },
+  {
+   "n": 143,
+   "chapter": "Growing your local League",
+   "person": "Blake, then Casey",
+   "title": "Your city on the home page",
+   "file": "img/oct26/93-home-city.webp",
+   "source": "93-home-city.png",
+   "sha256": "61d6e9fd78b4ace808383df8e3677c70b08bab1f2c84e03a2862e778b50104da"
+  },
+  {
+   "n": 144,
+   "chapter": "Growing your local League",
+   "person": "Blake, then Casey",
+   "title": "Venue progress",
+   "file": "img/oct26/91-venue-progress.webp",
+   "source": "91-venue-progress.png",
+   "sha256": "4d185cada5c1eff2dc089e244aef5eefbd5ae6dc19d09bc3a936e8d0da14d910"
+  },
+  {
+   "n": 145,
+   "chapter": "Growing your local League",
+   "person": "Blake, then Casey",
+   "title": "Venue leaderboard",
+   "file": "img/oct26/92-venue-board-needs.webp",
+   "source": "92-venue-board-needs.png",
+   "sha256": "265720dfe59aaf37d3189583fee70554053fd109e82bf5b8a7a9691d985b6ef5"
+  },
+  {
+   "n": 146,
+   "chapter": "Growing your local League",
+   "person": "Blake, then Casey",
+   "title": "Friends you’ve brought",
+   "file": "img/oct26/90-friends-brought.webp",
+   "source": "90-friends-brought.png",
+   "sha256": "84b23cf3fc2b284182d648e825c8df0591bb9f026bf8faead57e0c640a2e56b7"
+  },
+  {
+   "n": 147,
+   "chapter": "Growing your local League",
+   "person": "Blake, then Casey",
+   "title": "Share a result",
+   "file": "img/oct26/98-share-result-card.webp",
+   "source": "98-share-result-card.png",
+   "sha256": "1fcaecdab67ef1125f38839fc5a6ca039ce9a32528f8cf6fd2150f26aba23dae"
+  },
+  {
+   "n": 148,
    "chapter": "Settings, times and venues",
    "person": "Casey",
    "title": "League settings",
@@ -1066,7 +1345,7 @@
    "sha256": "7d3bb4a0d22679e46a1128622ab0cedb2264c62ea35c0441b46d93b1f210249e"
   },
   {
-   "n": 118,
+   "n": 149,
    "chapter": "Settings, times and venues",
    "person": "Casey",
    "title": "Privacy and safety",
@@ -1075,7 +1354,7 @@
    "sha256": "1b371009c0545251588b16872cee198f415ad9c709d247facab0b1f87d5d1649"
   },
   {
-   "n": 119,
+   "n": 150,
    "chapter": "Settings, times and venues",
    "person": "Casey",
    "title": "Notifications",
@@ -1084,7 +1363,7 @@
    "sha256": "7125481b3c06cefa774df4a9c44eeb18b5389e544eb9e6472ed423cbb10cd651"
   },
   {
-   "n": 120,
+   "n": 151,
    "chapter": "Settings, times and venues",
    "person": "Casey",
    "title": "Your times",
@@ -1093,7 +1372,7 @@
    "sha256": "ee1cf9523db1696597ab137b4501bdde4e1b577ddeb34fc5caa7bddb1f3c8cbc"
   },
   {
-   "n": 121,
+   "n": 152,
    "chapter": "Settings, times and venues",
    "person": "Casey",
    "title": "Saved venues",
@@ -1102,7 +1381,7 @@
    "sha256": "c857f52e94fff3bbb0945ae30eddd0edcb60358f8376474ecd92eca80fbacd74"
   },
   {
-   "n": 122,
+   "n": 153,
    "chapter": "Settings, times and venues",
    "person": "Casey",
    "title": "Venue detail",
@@ -1111,7 +1390,7 @@
    "sha256": "2466e744b6ee1c73b4c65dba70135fc8e73b782f99893d0ea8e367a7a806fae2"
   },
   {
-   "n": 123,
+   "n": 154,
    "chapter": "Taking a break and coming back",
    "person": "Casey, Jordan, Nina, then Riley",
    "title": "Until a date",
@@ -1120,7 +1399,7 @@
    "sha256": "27472c4c093f389dc05c9fc7799fa95cd6132af452fb25fc7c1141c5b7c3cc36"
   },
   {
-   "n": 124,
+   "n": 155,
    "chapter": "Taking a break and coming back",
    "person": "Casey, Jordan, Nina, then Riley",
    "title": "On a break",
@@ -1129,7 +1408,7 @@
    "sha256": "f7758c2ee3444487dd94f6fcde1b9a81b3c7c1f27acf557fe8dee31357c85a2e"
   },
   {
-   "n": 125,
+   "n": 156,
    "chapter": "Taking a break and coming back",
    "person": "Casey, Jordan, Nina, then Riley",
    "title": "On the home",
@@ -1138,7 +1417,7 @@
    "sha256": "fa4881dfa60c6fc32fc14b602789a000023a7359a677cefdf5995968c846ec89"
   },
   {
-   "n": 126,
+   "n": 157,
    "chapter": "Taking a break and coming back",
    "person": "Casey, Jordan, Nina, then Riley",
    "title": "Jordan’s break",
@@ -1147,7 +1426,7 @@
    "sha256": "7067b47053be9f240b57c47bccbd2c4ed06ee773e7ac7b5b921e315dd9e1606e"
   },
   {
-   "n": 127,
+   "n": 158,
    "chapter": "Taking a break and coming back",
    "person": "Casey, Jordan, Nina, then Riley",
    "title": "Back again",
@@ -1156,7 +1435,7 @@
    "sha256": "e5eb936cd4c355143083909bf0a6060914186589e72779ba17b7bc306007d7b3"
   },
   {
-   "n": 128,
+   "n": 159,
    "chapter": "Taking a break and coming back",
    "person": "Casey, Jordan, Nina, then Riley",
    "title": "Paused after four quiet weeks",
@@ -1165,7 +1444,7 @@
    "sha256": "e0c254f2cadf2bc518122a1a232d09df864fc15a546397c4f1fe5f9cff523aee"
   },
   {
-   "n": 129,
+   "n": 160,
    "chapter": "Taking a break and coming back",
    "person": "Casey, Jordan, Nina, then Riley",
    "title": "A Monday message",
@@ -1174,7 +1453,7 @@
    "sha256": "6472f7cb2fefcc6d5fea6f1671708829feb8ed6166d968e8113fd8e0f6422f78"
   },
   {
-   "n": 130,
+   "n": 161,
    "chapter": "Taking a break and coming back",
    "person": "Casey, Jordan, Nina, then Riley",
    "title": "Back to the League tab",
@@ -1183,7 +1462,7 @@
    "sha256": "d9ee9fa8dc43a24a9ae615c9d1eb43c11a9ca90e205eb2ed6909bf6333a206bc"
   },
   {
-   "n": 131,
+   "n": 162,
    "chapter": "Changing how you play",
    "person": "Casey",
    "title": "How you play",
@@ -1192,7 +1471,7 @@
    "sha256": "a8958925c15f393046cdc6d409e05db3cf8ecc296994586ae8b88029bf2bb574"
   },
   {
-   "n": 132,
+   "n": 163,
    "chapter": "Changing how you play",
    "person": "Casey",
    "title": "Adding Rotating doubles",
@@ -1201,7 +1480,7 @@
    "sha256": "b85aab63339720abf9d2f40e686e95c2895d6710c23ac582514e09a453991cf5"
   },
   {
-   "n": 133,
+   "n": 164,
    "chapter": "Changing how you play",
    "person": "Casey",
    "title": "Saved",
@@ -1210,7 +1489,7 @@
    "sha256": "ed974b2903ce78b716fc2e8eada4b773815239bad123cc26a6eeb7133897c221"
   },
   {
-   "n": 134,
+   "n": 165,
    "chapter": "Safety and conduct",
    "person": "Casey",
    "title": "Blocked players",
@@ -1219,7 +1498,7 @@
    "sha256": "d19a65868e1b5157ae692ba42fc0532402349c165f4717e39e215a75a11d95ae"
   },
   {
-   "n": 135,
+   "n": 166,
    "chapter": "Safety and conduct",
    "person": "Casey",
    "title": "Conduct record",
@@ -1228,7 +1507,7 @@
    "sha256": "bc1e9fa5e99124bfebbdfd24bad617b962c98fec5e3ebb84acf6cab3bb2fb6dc"
   },
   {
-   "n": 136,
+   "n": 167,
    "chapter": "Safety and conduct",
    "person": "Casey",
    "title": "The late cancellation",
@@ -1237,7 +1516,7 @@
    "sha256": "7377c1aa2cb9e4cfd39aa053346caa10e8a54123b3181a09d919afc6673eaf28"
   },
   {
-   "n": 137,
+   "n": 168,
    "chapter": "Safety and conduct",
    "person": "Casey",
    "title": "Challenge",
@@ -1246,7 +1525,7 @@
    "sha256": "0c0684889e5baf7e54bb66f20ea2283063e1f270639ca8c292ff70e578819e02"
   },
   {
-   "n": 138,
+   "n": 169,
    "chapter": "Safety and conduct",
    "person": "Casey",
    "title": "Under review",
@@ -1255,7 +1534,7 @@
    "sha256": "e636dfaad95142e819bb8d7448da52e16b425709841260cc88771fe3ac32fc36"
   },
   {
-   "n": 139,
+   "n": 170,
    "chapter": "Safety and conduct",
    "person": "Casey",
    "title": "Home reminder",
@@ -1264,7 +1543,7 @@
    "sha256": "64c918e2f31596c2c31e960fb4cc40c02c7dbe73e59b1a73d2e2080212792c64"
   },
   {
-   "n": 140,
+   "n": 171,
    "chapter": "Notifications",
    "person": "Casey",
    "title": "Inbox",

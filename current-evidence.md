@@ -1,6 +1,16 @@
 # Walkthrough evidence
 
-Updated November 3, 2026 (after the League simplification).
+Updated November 8, 2026 (challenges, following and growth).
+
+## Challenges, following and growth (November 8)
+
+Three chapters were added (171 screens in 26 chapters, IMAGE_VERSION 20261108a). Nothing earlier was retaken.
+
+- **New chapters.** Challenge a friend (70–86: the menu entry, the empty and grouped Challenges list, a link challenge to a Not listed place, Sofia taking it, Maya's Let's find a time challenge accepted and timed, and withdrawing a link), Following players (87–89, 96: following from stats and after a match, Following and Followers), and Growing your local League (90–95, 98: the not-joined count, See who plays near you, the home city bar, venue pool bars and Founder spots, a venue board that needs more players, Friends you've brought and the result share card).
+- **App.** Pickleball-Tournaments local main `bd10ac775` plus two uncommitted mobile fixes made during capture: creating a challenge now sends the phone's installation header (before, every challenge from the app was refused with "Update the Circuit app, then open this match again."), and the Challenges screen pins a full-width New challenge above the tab bar with a fuller empty state. Nothing is pushed or deployed.
+- **Data.** Isolated local stack with no cron. Sofia took Casey's link, and Maya, Jade and Priya sent or answered challenges, through the API with their own installation ids, because the own-phone rule refuses a second player on the same simulator. Maya, Sofia and Jade were set to follow Casey; Diego and Hannah were marked as invited by Casey (Diego credited) with Casey's Brought a friend badge added directly. Screen 98 is the generated 1080×1350 card centred on a phone-sized dark canvas.
+- **Checks.** Every image was reviewed; Dark appearance, Default text size.
+- **Known gaps.** The link page (76) has no header or back button and leaves out the challenger's note. The withdrawn challenge (86) says "Casey J. withdrew" to Casey herself. Maya's stats (87b) show her badges twice once she is followed, and the streak line reads "0-week streak". The Friends screen keeps the title Friends you've brought on every tab. An opponent Casey has played but not followed gets Share challenge link instead of Challenge until they have played three matches together. The venue board (92) repeats "Play a match to be listed again". Join (03b–11) still says DUPR is required; DUPR became optional on November 7 and those screens were not retaken.
 
 ## After the League simplification (November 2–3)
 

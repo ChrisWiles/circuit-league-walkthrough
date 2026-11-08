@@ -152,7 +152,7 @@ dialog#lb[open] { display: grid; grid-template-rows: auto minmax(0, 1fr) auto; }
 
 <footer class="wrap notes">
   <h2>About this tour</h2>
-  <p>Captured October 27–29 and November 2–3, 2026 on an iPhone 17 Pro simulator running iOS 26.4, in Dark appearance at the Default app text size. Every screen comes from one fictional League story; setup, waiting searches, booked matches, the one-week time, breaks, team links, scores, boards, recaps and settings were retaken or added on November 2–3 after the League was simplified. Every person, match, venue and safety record is fictional local test data.</p>
+  <p>Captured October 27–29 and November 2–3 and 8, 2026 on an iPhone 17 Pro simulator running iOS 26.4, in Dark appearance at the Default app text size. Every screen comes from one fictional League story; setup, waiting searches, booked matches, the one-week time, breaks, team links, scores, boards, recaps and settings were retaken or added on November 2–3 after the League was simplified. Challenges, following and the growth screens were added on November 8. Every person, match, venue and safety record is fictional local test data.</p>
   <p>Screens show the state the app was in at capture time, so some show a step in progress, such as a score waiting for the other side. <a href="current-evidence.md">Verification and known gaps</a> · <a href="current-captures.json">Capture list</a></p>
 </footer>
 
@@ -170,7 +170,7 @@ dialog#lb[open] { display: grid; grid-template-rows: auto minmax(0, 1fr) auto; }
 </dialog>
 
 <script>
-const IMAGE_VERSION = '20261103a';
+const IMAGE_VERSION = '20261108a';
 const CHAPTERS = [
   { id: 'join', title: 'Join the League', who: 'What joining takes, then profile, how you play, venues and times, and the release and terms.', person: 'Blake', shots: [
     ['03b-landing', 'Before you join', 'The League tab says joining is free on any day, skipping a week costs nothing, and confirmed games can go to DUPR. It names what joining takes: a free DUPR account and about five minutes.'],
@@ -323,6 +323,43 @@ const CHAPTERS = [
     ['59-scanned-invite', 'Priya added you', 'Hannah’s My QR says Priya S. added her. She reviews the match on her own phone, and the invitation lasts 30 minutes.'],
     ['59b-scanned-confirm', 'Confirm this plan', 'Mueller Lake Park Courts, women’s singles, 2 of 2 players. Hannah confirms only for herself, or declines.'],
     ['59c-scanned-cancelled', 'If the host cancels', 'Priya cancelled the match plan, so Hannah sees Not confirmed and is told to ask the host to scan her again.'],
+  ]},
+  { id: 'challenges', title: 'Challenge a friend', who: 'Pick who, where and when instead of waiting for an offer. Once everyone accepts and there is a time, it is an ordinary League match with its own chat.', person: 'Casey, Sofia, then Maya', shots: [
+    ['70-menu', 'Challenges in the menu', 'The League header’s menu holds My QR code, Challenges, Friends you’ve brought, League settings and League rules.'],
+    ['70b-challenges-empty', 'No challenges yet', 'Casey hasn’t sent or received one. The page says who she can challenge and what happens once everyone accepts; New challenge stays pinned above the tab bar.'],
+    ['71-composer-link', 'A link anyone can take', 'Casey hasn’t followed anyone yet, so the challenge starts as a Link: anyone with it can take it. She picks Singles and a saved venue, Mueller Lake Park Courts.'],
+    ['72-composer-not-listed', 'A place that isn’t a League venue', 'Not listed lets Casey name her own spot, Casey’s driveway in Austin, TX. The match counts for ratings and records but not for a venue or city board, and only the players in the challenge see the place name.'],
+    ['73-composer-ready', 'Time, DUPR and a note', 'Pick a time sets Saturday, Nov 14 at 10 AM. Now and Let’s find a time are the other choices. It goes to DUPR, and the note says she has balls and water.'],
+    ['74-share-link', 'Share the link', 'Share challenge link creates the challenge and opens the share sheet. The message names Casey, Singles, “a spot they picked” and the time; the private place name stays out of it.'],
+    ['75-challenge-sent', 'Waiting for a taker', 'Casey has accepted her own challenge; the other seat reads Anyone with the link until someone takes it. It must be answered by the picked time. Share link sends it again.'],
+    ['76-link-open', 'Opening the link', 'Sofia opens Casey’s link: Singles at a spot they picked, Saturday 10 AM Central, goes to DUPR, a close match for her level. One tap accepts.'],
+    ['77-challenge-set', 'Accepted', 'Sofia took the seat, so both players show Accepted, the place name and note appear, and View match opens the booked match.'],
+    ['78-challenge-match', 'An ordinary League match', 'Saturday 10 AM at Casey’s driveway, confirmed, with check-in and Match chat like any League match. A match at a private place can be cancelled any time before the start.'],
+    ['79-home-challenge', 'A challenge in Needs you', 'Maya challenges Casey back. Casey’s League home lists it under Needs you with the format, venue, “Time to agree” and an answer-by time; the Sofia match is under Your matches.'],
+    ['80-challenge-received', 'Answer a challenge', 'Maya’s note says “Rematch? I owe you one.” Casey is a slight favorite, the match goes to DUPR, and she can Accept or Decline.'],
+    ['81-challenge-accepted', 'Agree on a time', 'Both have accepted a Let’s find a time challenge, so it needs a time by Sun, Nov 15. Chat is already open for agreeing one.'],
+    ['82-challenge-set-time', 'Set a time', 'Casey picks Thursday, Nov 12 at 6 PM and saves it.'],
+    ['83-challenge-booked', 'Booked', 'With a time set, the challenge becomes a confirmed match at Mueller Lake Park Courts, with Add to calendar and Match chat.'],
+    ['70c-challenges-list', 'The Challenges list', 'Open challenges are grouped: Jade’s to answer under Needs you, Casey’s open link under Waiting, and Priya’s decline under Closed for 7 days. Booked challenges leave the list for Your matches.'],
+    ['84-withdraw-menu', 'Withdraw a challenge', 'Nobody has taken Casey’s second link, so the options menu offers Withdraw challenge.'],
+    ['85-withdraw-confirm', 'Confirm withdrawal', 'Everyone challenged is told it is off, and it cannot be undone.'],
+    ['86-withdrawn', 'Withdrawn', 'The challenge is closed and says Casey J. withdrew it.'],
+  ]},
+  { id: 'following', title: 'Following players', who: 'Follow people you like playing. Follows are private to the follower, and a followed player you have played can be challenged in one tap.', person: 'Casey', shots: [
+    ['87-following-stats', 'Follow from a stats page', 'Casey followed Maya from Maya’s League stats. The buttons now read Following and Challenge; before following, a player with no head-to-head shows Share challenge link instead.'],
+    ['87b-following-stats-top', 'Your friend', 'Once followed, Maya’s stats add a Your friend block: her weekly streak, badges including two venue Founder badges, and her home venue.'],
+    ['96-match-rematch', 'Follow after a match', 'A finished match lists the opponent with Follow, then Rematch, which opens a challenge to the same player, and Share result.'],
+    ['88-friends-following', 'Following', 'Friends opens on the players Casey follows, with their best board rank. Maya, whom she has played, can be challenged; Sofia gets a challenge link.'],
+    ['89-friends-followers', 'Followers', 'The players who follow Casey. Only Casey sees this list.'],
+  ]},
+  { id: 'growth', title: 'Growing your local League', who: 'How many people play nearby, how close each venue is to a full pool, and credit for friends you bring.', person: 'Blake, then Casey', shots: [
+    ['94-not-joined-counts', 'Before joining', 'Blake hasn’t joined. The League tab says 17 players so far in the Austin area, that DUPR is optional, and offers See who plays near you.'],
+    ['95-near-you', 'Who plays near you', 'Picking Austin shows the young-city bar, “Be one of the first in Austin” at 13 of 20 players, then players per venue: Mueller Lake Park 8, Pease Park 6, South Austin 4. Location is used once and not saved.'],
+    ['93-home-city', 'Your city on the home page', 'Members see the same Austin bar on their League home, with their venue’s player count and how many friends they have brought.'],
+    ['91-venue-progress', 'Venue progress', 'Mueller Lake Park Courts: 8 players play here, none looking this week. Each pool has a bar toward its target — Women’s singles 3 of 8 (Casey plays this), Men’s singles 5 of 8 — and 8 of 10 Founder spots are taken. Reaching a target unlocks nothing; it never gates matching.'],
+    ['92-venue-board-needs', 'Venue leaderboard', 'The venue’s own leaderboard needs 5 listed players for standings; Mueller has 2 in Women’s singles, so it says how many are needed and offers Invite friends.'],
+    ['90-friends-brought', 'Friends you’ve brought', 'Diego joined from Casey’s link and played his first match, earning her Brought a friend; 2 more friends who play earn Brought 3 friends. Hannah has joined but not played yet.'],
+    ['98-share-result-card', 'Share a result', 'Share result makes this 4:5 image on the phone. It names only the sharer — the score and venue, never the opponent — with the League’s address.'],
   ]},
   { id: 'settings', title: 'Settings, times and venues', who: 'Everything that shapes matchmaking stays editable after setup.', person: 'Casey', shots: [
     ['46-settings', 'League settings', 'How you play, times and venues, then Take a break, either until Monday or until a chosen date, and notifications. Automatic check-in and privacy sit lower.'],
