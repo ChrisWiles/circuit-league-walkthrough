@@ -1,5 +1,16 @@
 # Walkthrough evidence
 
+## Live season progress (November 8)
+
+Six new captures show the implementation in local app commit `016cb496c`: Your season on home, season detail, expanded private DUPR history, native season sharing, a subsequent rank change and the corresponding live board. Earlier screenshots are retained at their captured revisions; the earlier leaderboard chapter is labeled accordingly.
+
+- **Device and source.** A separate iPhone 17 Pro simulator on iOS 26.4, Dark appearance, Default app text size and default system text size. The capture checkout contains exactly the reviewed feature source committed as `016cb496c`, on the prior app baseline `bf391af6d`. Existing compatible dev client; no native rebuild. Screenshots were converted to WebP without painting over or constructing UI. No production app or backend release is implied.
+- **Fictional season.** An isolated local stack with cron disabled, fictional members and venues, and historical matches reported and confirmed through the normal player RPCs. Weekly publications were frozen with the existing shared engine. This season begins September 29; the first fixture DUPR observation is September 30, so Since first sync is intentional. The values 3.92 and 4.11 are fixture observations, not evidence of a live DUPR synchronization.
+- **Verified transition.** Casey starts this capture at #1, 5–3 over eight matches. A further match against Maya is reported 0–11, 0–11 and confirmed by the opposing player. The actual rating RPC and shared projection publish the live board; the native home then shows #2, Down 1 place, first/best #1 and 5–4 over nine matches. Archived weekly publications were retained. This capture exercises real calculation/publication RPCs; worker dispatch and race deferral are additionally covered by the worker tests, rather than by a running Edge worker in this minimal stack.
+- **Native review.** Home → View season → expanded history → Share season was exercised. The native share sheet opened; nothing was sent. Default screenshots and a separate enlarged iOS text inspection were reviewed. The final match also mounted the season summary. The owned stack was stopped with its backup retained.
+- **Checks and limits.** Shared calculations/contracts: 85 tests; native home/stats/season: 68 tests; Deno worker: 47 tests. The database cohort passed three tests, with the final privacy case rerun after tightening owner-only output; an authenticated owner/non-owner smoke also passed. Final migration replay and all 20 changed function bodies/ACLs matched canonical source. Full mobile typecheck still reports an existing organizer route typing error. Android, physical devices and live-provider synchronization were not verified. The prepared 178-screen publication was checked at 360×800, 390×844 and 1280×900: all images loaded, no page overflow, all six new captures were present, and viewer opening, next-screen navigation and closing passed with no page errors. The new chapter thumbnails and phone/desktop viewer were visually reviewed. The capture manifest rebuild was byte-identical.
+
+
 Updated November 8, 2026 (challenges, following and growth).
 
 ## Challenges, following and growth (November 8)

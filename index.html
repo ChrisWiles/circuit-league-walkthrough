@@ -137,7 +137,7 @@ dialog#lb[open] { display: grid; grid-template-rows: auto minmax(0, 1fr) auto; }
 <header class="wrap top">
   <span class="eyebrow">Circuit Pickleball · Circuit League · iPhone</span>
   <h1>Circuit League, screen by screen</h1>
-  <p class="lede">Follow three players through the League: one joins today, one is still waiting for a first match, and one is seven weeks in. A few others show breaks, team links and a one-week time. Tap any screen to step through it full size.</p>
+  <p class="lede">Follow three players through the League: one joins today, one is still waiting for a first match, and one is seven weeks in. A few others show breaks, team links and a one-week time. The new Your season chapter shows live progress and DUPR history. Tap any screen to step through it full size.</p>
   <div class="people">
     <div class="person"><span class="av">BT</span><b>Blake</b><span>New player. Joins, sets times and courts, starts matchmaking.</span></div>
     <div class="person"><span class="av">JL</span><b>Jordan</b><span>Newer player. A day without a match brings an invite-a-friend prompt.</span></div>
@@ -152,7 +152,8 @@ dialog#lb[open] { display: grid; grid-template-rows: auto minmax(0, 1fr) auto; }
 
 <footer class="wrap notes">
   <h2>About this tour</h2>
-  <p>Captured October 27–29 and November 2–3 and 8, 2026 on an iPhone 17 Pro simulator running iOS 26.4, in Dark appearance at the Default app text size. Every screen comes from one fictional League story; setup, waiting searches, booked matches, the one-week time, breaks, team links, scores, boards, recaps and settings were retaken or added on November 2–3 after the League was simplified. Challenges, following and the growth screens were added on November 8, and screens with the new badges, format pictures and pinned next-step buttons were retaken that evening. Every person, match, venue and safety record is fictional local test data.</p>
+  <p>Captured October 27–29 and November 2–3 and 8, 2026 on an iPhone 17 Pro simulator running iOS 26.4, in Dark appearance at the Default app text size. The gallery combines fictional League examples; setup, waiting searches, booked matches, the one-week time, breaks, team links, scores, boards, recaps and settings were retaken or added on November 2–3 after the League was simplified. Challenges, following and the growth screens were added on November 8, and screens with the new badges, format pictures and pinned next-step buttons were retaken that evening. Every person, match, venue and safety record is fictional local test data.</p>
+  <p>The Your season chapter adds six captures from the live-progress implementation on local main, with a real confirmed-result transition in fictional data. This walkthrough publication does not release the Circuit app or backend.</p>
   <p>Screens show the state the app was in at capture time, so some show a step in progress, such as a score waiting for the other side. <a href="current-evidence.md">Verification and known gaps</a> · <a href="current-captures.json">Capture list</a></p>
 </footer>
 
@@ -170,7 +171,7 @@ dialog#lb[open] { display: grid; grid-template-rows: auto minmax(0, 1fr) auto; }
 </dialog>
 
 <script>
-const IMAGE_VERSION = '20261109d';
+const IMAGE_VERSION = '20261109f';
 const CHAPTERS = [
   { id: 'join', title: 'Join the League', who: 'What joining takes, then how you play, venues and times, and the release and terms.', person: 'Blake', shots: [
     ['03b-landing', 'Before you join', 'The League tab says joining is free on any day, skipping a week costs nothing, and 17 players have joined in the Austin area. Games can go to DUPR or be just for fun: joining takes about five minutes, and DUPR is optional.'],
@@ -196,7 +197,7 @@ const CHAPTERS = [
   { id: 'home', title: 'Casey’s League home', who: 'Seven weeks in: what needs attention, upcoming matches and standing.', person: 'Casey', shots: [
     ['12-home', 'Home', 'A report about Casey needs a response, so it leads the page. Below it, her #1 Austin-area singles rank among 6 ranked players and today’s 5 PM match with Sofia, with two chat messages.'],
     ['12b-home-lower', 'Matchmaking', 'Casey’s singles search stopped after the Sofia match, and the Women’s doubles team with Maya waits for Maya’s times. This week’s times are Tuesday 5–8 PM, with Update times, Take a break and Start matchmaking.'],
-    ['12c-standings-info', 'How standings work', 'Rank comes from League results, adjusted for who Casey played, and updates after Sunday closes. Provisional ends once her results settle her level; matches against new opponents help most.'],
+    ['12c-standings-info', 'How standings work · Earlier capture', 'Earlier capture: rank comes from League results, adjusted for who Casey played, and updates after Sunday closes. Provisional ends once her results settle her level; matches against new opponents help most.'],
     ['12c-home-bottom', 'More League', 'Season 1, week 7, with no results yet. Last week’s standings put Casey #1 in the Austin area, still Provisional, and not shown yet at two venues. Then the leaderboard, last week’s recap and saved venues.'],
     ['13-league-menu', 'League menu', 'My QR code for Scan to play, League settings and the rules.'],
   ]},
@@ -257,7 +258,15 @@ const CHAPTERS = [
     ['57c-score-review', 'Priya reviews', 'Priya sees what Casey reported at 8:10 PM and that doing nothing counts it at 8:10 PM Tuesday, with Score is right and Something’s wrong.'],
     ['57d-score-disputed', 'Only game 3 is disputed', 'Priya’s note says she had game 3 at 11–9. The automatic count stops and the two have until 8:12 PM tomorrow to agree, or that game is voided. Propose a correction is open to both.'],
   ]},
-  { id: 'leaderboards', title: 'Leaderboards', who: 'Ranks come from League results, adjusted for who you played, and update after Sunday.', person: 'Casey', shots: [
+  { id: 'season-progress', title: 'Your season', who: 'Live rank, movement from your first recorded position, private DUPR history and personal highlights. A separate fictional season captured from the new app revision.', person: 'Casey', shots: [
+    ['nov08-season-01-home', 'Your season at a glance', 'After upcoming matches, Casey sees #1 of 6 on Austin area Women’s singles, her first and best recorded ranks, a 5–3 record and three personal highlights. DUPR is separate: 3.92 to 4.11, up 0.19 since the first available sync.'],
+    ['nov08-season-02-detail', 'Open the season', 'View season opens Casey’s existing stats page. The season summary sits above recent form, badges and weekly rank history. The DUPR note explains that its change includes play outside Circuit.'],
+    ['nov08-season-03-history', 'The actual DUPR observations', 'View DUPR history expands the two synchronized values with their dates. The first observation is after this season began, so the summary says Since first sync. Weekly rank history remains a separate saved record below. These provider values are fictional fixtures.'],
+    ['nov08-season-04-share', 'Share your season', 'Share season opens the native share sheet with Casey’s rank, record and highlights. The shared text leaves out DUPR history, private Circuit Rating values and opponent names. No message was sent during capture.'],
+    ['nov08-season-05-movement', 'A confirmed result changes the rank', 'After Casey loses another confirmed match to Maya, her live position becomes #2 of 6 and her record becomes 5–4. Down 1 place this season compares with First recorded #1; Best #1 stays intact. The recent-match highlight updates too.'],
+    ['nov08-season-06-board', 'The same live board', 'The Austin area board now shows Maya #1 and Casey #2 at 5–4, with an update time. Current standings use confirmed results as they are processed. The row arrows compare with the previous weekly publication; Your season compares with the first recorded season position.'],
+  ]},
+  { id: 'leaderboards', title: 'Leaderboards · Earlier captures', who: 'These earlier captures show weekly boards. See Your season for current live standings; weekly recaps remain frozen.', person: 'Casey', shots: [
     ['29-board', 'Austin area, Women’s singles', 'Casey is #1 at 5–2, on the highlighted row. Each record sits on the right; PD is point differential over recent games, and DUPR appears beside each name.'],
     ['29b-board-rating', 'DUPR rating', 'Casey’s singles DUPR 4.10, 80% reliable, updated Oct 25. It does not set League rank.'],
     ['30-board-near-you', 'Near you', 'Narrows the board to players who play mostly within 20 miles of Casey’s favorite venue.'],
