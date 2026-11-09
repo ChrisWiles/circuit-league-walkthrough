@@ -505,7 +505,7 @@
    "title": "Score sent",
    "file": "img/oct26/24-report-sent.webp",
    "source": "24-report-sent.png",
-   "sha256": "4d5610f75d34a8afc6fbcac594e2ad45c527cf5a5a2674f50952a53ef8497a1f"
+   "sha256": "a7f2926da1cf02a042e3b31106dfb571e2781d1e892536724b288192af95aa3c"
   },
   {
    "n": 56,
@@ -577,7 +577,7 @@
    "title": "Corrected score sent",
    "file": "img/oct26/57e-score-corrected.webp",
    "source": "57e-score-corrected.png",
-   "sha256": "9eb0917f72383c137eb570b1f7081575a00f39e0b555a312734332399cc65e45"
+   "sha256": "c59cb794e320bc981a380fa9c3d2a1cf171a252b7ec090d36b65919202021460"
   },
   {
    "n": 64,
@@ -775,7 +775,7 @@
    "title": "A week without a match",
    "file": "img/oct26/40d-recap-no-match.webp",
    "source": "40d-recap-no-match.png",
-   "sha256": "9cc2b1f87ccc6c5d203388fead2ee3fe32f893a85628052269bcd625401386b3"
+   "sha256": "1d4dd2e03d971f970392d323802ff0afc17ecff02f520cbbac9193c7a4807833"
   },
   {
    "n": 86,
@@ -847,7 +847,7 @@
    "title": "New team",
    "file": "img/oct26/41-add-team.webp",
    "source": "41-add-team.png",
-   "sha256": "bfaa46057a8027528a18e78ba4f0167084dc0149aa64fe4e7ecf60fe6b80d3b9"
+   "sha256": "5c89c40bb6505cd3f2e15c240788a1fcb251d825dd9da5a3f2bffcdb3187bb75"
   },
   {
    "n": 94,
@@ -991,7 +991,7 @@
    "title": "An existing member",
    "file": "img/oct26/58g-member-invite.webp",
    "source": "58g-member-invite.png",
-   "sha256": "d18707defa4cc1104a73704a66d05fdd9679e61c671296da5dc6f47ddf4804f8"
+   "sha256": "ccdd78a229f1a36d59d03da90cbb7eb4a5ade5deb25eefd74945768703f57d4e"
   },
   {
    "n": 110,
@@ -1000,7 +1000,7 @@
    "title": "Searching together",
    "file": "img/oct26/58h-member-formed.webp",
    "source": "58h-member-formed.png",
-   "sha256": "01c6065e17e806ecf4cb58a3ffdd6f23dd80c3728f9d6b176eefaea7b3fa9dc7"
+   "sha256": "7bd670d137a59eb5a76650ae5d5f002c501c5e0c32b7a1cff82cb1d3bd86ef88"
   },
   {
    "n": 111,
@@ -1126,7 +1126,7 @@
    "title": "Waiting for a taker",
    "file": "img/oct26/75-challenge-sent.webp",
    "source": "75-challenge-sent.png",
-   "sha256": "d1c60bfd8b2f4364c1fb3c7498c91a5a4df6cfaf1a46e2f095cc2f9828a8854a"
+   "sha256": "b7423af4d75c724372c2a5a5a59c7702c8a670b877708b63dae3ebf51fb8b417"
   },
   {
    "n": 125,
@@ -1135,7 +1135,7 @@
    "title": "Opening the link",
    "file": "img/oct26/76-link-open.webp",
    "source": "76-link-open.png",
-   "sha256": "2a2db73ed90c338ee1c77bc83f9f9473287027ef257905d9ad732eaf82baa195"
+   "sha256": "96bea6ae6deee725fbff5eaee8ce9ad9834470c573b96b0d5737e01e66f2487d"
   },
   {
    "n": 126,
@@ -1342,7 +1342,7 @@
    "title": "Share a result",
    "file": "img/oct26/98-share-result-card.webp",
    "source": "98-share-result-card.png",
-   "sha256": "1fcaecdab67ef1125f38839fc5a6ca039ce9a32528f8cf6fd2150f26aba23dae"
+   "sha256": "5c44b4680774596fa1bfd53b8da28b35efa8b1d5a0101cf635c91195edf2c995"
   },
   {
    "n": 149,
@@ -1477,7 +1477,7 @@
    "title": "How you play",
    "file": "img/oct26/60-play-formats.webp",
    "source": "60-play-formats.png",
-   "sha256": "22c557143203eb262e8572c333ffa71d5504d2bcd4922c0ecb19cddcd1de3ce9"
+   "sha256": "ba12189c0ae3c56f3fe7b5b3bc2ec2c8224582f28f27395e885918e0217e70ec"
   },
   {
    "n": 164,
@@ -1486,7 +1486,7 @@
    "title": "Adding Rotating doubles",
    "file": "img/oct26/60b-play-formats-mixed.webp",
    "source": "60b-play-formats-mixed.png",
-   "sha256": "6421c66de44a79ca5dec0bfa59b2978194ca5e075a2a2b87891d59cda19b2f43"
+   "sha256": "cf43ff683fb219df1c47883ff0f1d339572b1559167bf5972c97c8c90584c003"
   },
   {
    "n": 165,
@@ -1495,7 +1495,7 @@
    "title": "Saved",
    "file": "img/oct26/60c-play-saved.webp",
    "source": "60c-play-saved.png",
-   "sha256": "ac7d160bfc613de72184e155299de0193f670a35e74a8ff2f9550705ce2e68b5"
+   "sha256": "c9308656f63ea0133edc3c2392b0442901ca10a3869ee0c6f2dcafe6012c30e0"
   },
   {
    "n": 166,
