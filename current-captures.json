@@ -961,19 +961,19 @@
    "n": 106,
    "chapter": "Joining from a team link",
    "person": "Ryan, Jade, then Hannah",
-   "title": "Waiting for Jade",
+   "title": "Waiting for Casey",
    "file": "img/oct26/58d-team-link-waiting.webp",
    "source": "58d-team-link-waiting.png",
-   "sha256": "fd9f154174b0488e90c75c617b9922e9ad72b1e257a1f0155b0736d1f20c4720"
+   "sha256": "b68f41baddf39f2c77ff4124254e09a772b3179a8d86c4e866eba467eeef7e41"
   },
   {
    "n": 107,
    "chapter": "Joining from a team link",
    "person": "Ryan, Jade, then Hannah",
-   "title": "Jade confirms",
+   "title": "Casey confirms",
    "file": "img/oct26/58e-team-link-confirm.webp",
    "source": "58e-team-link-confirm.png",
-   "sha256": "aa1772a2b855536a3dac99e97a7a2cd92c32d33b37ea1294850776660eeff741"
+   "sha256": "bd009a9532b809c23703ef07947ab3e842b830ef90330f954af1a21602e45ecd"
   },
   {
    "n": 108,
@@ -982,7 +982,7 @@
    "title": "You’re a team",
    "file": "img/oct26/58f-team-link-formed.webp",
    "source": "58f-team-link-formed.png",
-   "sha256": "f42a2f9dc686af71bf9d7263bbe57ffbfd5249a9dbd8ac659411228f20d3188c"
+   "sha256": "a0e68d130f24639587e2c7e5daab8891c4e93054fc4308eab305474ab9d4006b"
   },
   {
    "n": 109,
@@ -1045,7 +1045,7 @@
    "title": "Priya added you",
    "file": "img/oct26/59-scanned-invite.webp",
    "source": "59-scanned-invite.png",
-   "sha256": "d0fe75e3228ca7b404f3b7f3d9d81d9e6ef9ee88bd1abb24e2fa5489d062ae32"
+   "sha256": "9f0308d7d6067d868cc78a6af409d128fce532a8ac468b5e1ac80553d97b1801"
   },
   {
    "n": 116,
@@ -1081,7 +1081,7 @@
    "title": "No challenges yet",
    "file": "img/oct26/70b-challenges-empty.webp",
    "source": "70b-challenges-empty.png",
-   "sha256": "995da7171c8f82efc6d9195069f3a7c27c6c0d7b4f3c59c271ada907d47ad16b"
+   "sha256": "1346a869213dd534311da7bd0d53d7547c7aed7881b8f1d18c8bf4939b2a8caa"
   },
   {
    "n": 120,
@@ -1198,7 +1198,7 @@
    "title": "Booked",
    "file": "img/oct26/83-challenge-booked.webp",
    "source": "83-challenge-booked.png",
-   "sha256": "d667f05697e476a8faf4d2ede11178303e5c9d150c197a9be0b72bf3a6a36a52"
+   "sha256": "5cf516e750aa0b8f638bd94300b0d8e86f0aee69531c1d5f8acfcfdd3969f5c5"
   },
   {
    "n": 133,
@@ -1216,7 +1216,7 @@
    "title": "Withdraw a challenge",
    "file": "img/oct26/84-withdraw-menu.webp",
    "source": "84-withdraw-menu.png",
-   "sha256": "f666c2f4912533e5d21aad5988f13bcb19333ffb4f01b4534140169fe0b0a02b"
+   "sha256": "9e27a1de737a6fbcbca020ebf25f4183562b82a6377ef505edce54658b7e5266"
   },
   {
    "n": 135,
@@ -1225,7 +1225,7 @@
    "title": "Confirm withdrawal",
    "file": "img/oct26/85-withdraw-confirm.webp",
    "source": "85-withdraw-confirm.png",
-   "sha256": "0c0b0b61b750c5fc8b0436ca208f5011aed8cabafcf077389714b3f6eeeefdfd"
+   "sha256": "c053d02086e8233af57a04d3f0f20d661b887830e6e37b975aca13dd5c868826"
   },
   {
    "n": 136,
