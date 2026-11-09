@@ -152,7 +152,7 @@ dialog#lb[open] { display: grid; grid-template-rows: auto minmax(0, 1fr) auto; }
 
 <footer class="wrap notes">
   <h2>About this tour</h2>
-  <p>Captured October 27–29 and November 2–3 and 8, 2026 on an iPhone 17 Pro simulator running iOS 26.4, in Dark appearance at the Default app text size. Every screen comes from one fictional League story; setup, waiting searches, booked matches, the one-week time, breaks, team links, scores, boards, recaps and settings were retaken or added on November 2–3 after the League was simplified. Challenges, following and the growth screens were added on November 8. Every person, match, venue and safety record is fictional local test data.</p>
+  <p>Captured October 27–29 and November 2–3 and 8, 2026 on an iPhone 17 Pro simulator running iOS 26.4, in Dark appearance at the Default app text size. Every screen comes from one fictional League story; setup, waiting searches, booked matches, the one-week time, breaks, team links, scores, boards, recaps and settings were retaken or added on November 2–3 after the League was simplified. Challenges, following and the growth screens were added on November 8, and screens with the new badges, format pictures and pinned next-step buttons were retaken that evening. Every person, match, venue and safety record is fictional local test data.</p>
   <p>Screens show the state the app was in at capture time, so some show a step in progress, such as a score waiting for the other side. <a href="current-evidence.md">Verification and known gaps</a> · <a href="current-captures.json">Capture list</a></p>
 </footer>
 
@@ -170,14 +170,13 @@ dialog#lb[open] { display: grid; grid-template-rows: auto minmax(0, 1fr) auto; }
 </dialog>
 
 <script>
-const IMAGE_VERSION = '20261108c';
+const IMAGE_VERSION = '20261109a';
 const CHAPTERS = [
-  { id: 'join', title: 'Join the League', who: 'What joining takes, then profile, how you play, venues and times, and the release and terms.', person: 'Blake', shots: [
-    ['03b-landing', 'Before you join', 'The League tab says joining is free on any day, skipping a week costs nothing, and confirmed games can go to DUPR. It names what joining takes: a free DUPR account and about five minutes.'],
-    ['04-setup-entry', 'Profile check', 'Shown only when something is missing. Blake hasn’t linked DUPR, so Continue stays off and the footer says why. A photo is optional; with nothing missing, setup skips this step.'],
-    ['05-setup-how', 'How you play', 'Blake picks Men’s singles and Men’s rotating doubles. Each format he ticks shows only the categories he can play.'],
+  { id: 'join', title: 'Join the League', who: 'What joining takes, then how you play, venues and times, and the release and terms.', person: 'Blake', shots: [
+    ['03b-landing', 'Before you join', 'The League tab says joining is free on any day, skipping a week costs nothing, and 17 players have joined in the Austin area. Games can go to DUPR or be just for fun: joining takes about five minutes, and DUPR is optional.'],
+    ['05-setup-how', 'How you play', 'Blake picks Men’s singles and Men’s rotating doubles. Each format has its own picture, and a ticked format shows only the categories he can play. A friend’s invite can also be scanned or pasted here.'],
     ['06-setup-venues', 'Choose venues', 'Find lists nearby venues, nearest first. Blake makes Mueller Lake Park Courts a Favorite; Backup and Don’t use are the other choices.'],
-    ['06b-setup-venues-map', 'Venues on a map', 'The same choices on a map, with Blake’s location and a legend for Favorite, Backup and not saved.'],
+    ['06b-setup-venues-map', 'Venues on a map', 'The same choices on a map, around Blake’s location.'],
     ['07-setup-times', 'Your times', 'Times repeat every Monday until Blake changes them. Choose times later skips the step, but matchmaking waits for times.'],
     ['07b-setup-time-grid', 'Pick hours', 'Blake taps 6, 7 and 8 PM on Thursday: available 6–9 PM. No time zone shows, because Blake’s phone is on the venues’ clock.'],
     ['07c-setup-times-saved', 'Times saved', 'Thursday 6–9 PM is saved; Edit times or the × changes it.'],
@@ -209,7 +208,7 @@ const CHAPTERS = [
   ]},
   { id: 'booked', title: 'Booked from your times', who: 'A fair match that fits both players’ saved times and venues, far enough ahead, is booked without asking.', person: 'Blake', shots: [
     ['17c-booked-inbox', 'Match booked', 'Circuit booked Blake’s first match, Thursday at 6 PM at Mueller Lake Park Courts, because it fits his saved times. He can cancel free until 6 AM that day.'],
-    ['17d-booked-match', 'The booked match', 'Blake against Jordan L., with the free-cancel time. His singles search stopped for this match; Find another match starts it again. The first booked match also asks once about automatic check-in; Not now keeps it off.'],
+    ['17d-booked-match', 'The booked match', 'Blake against Jordan L. on Thursday at 6 PM. The first booked match asks once about automatic check-in. Allow location is an outline button, so it doesn’t compete with the match; Not now keeps check-in off.'],
     ['17e-first-match-alerts', 'Turn on alerts', 'Setup asks for no permissions, so the first booked match asks for notifications. Here they are off in iOS Settings, so the card offers Open Settings to hear about a cancellation and get a reminder an hour before.'],
   ]},
   { id: 'matches', title: 'Confirmed matches and chat', who: 'Everything about a booked match in one place.', person: 'Casey', shots: [
@@ -270,10 +269,12 @@ const CHAPTERS = [
     ['35-board-teams', 'Teams', 'Fixed teams get their own board once five are listed. None are yet; Casey and Maya need 3 more confirmed matches together.'],
   ]},
   { id: 'stats', title: 'Player records', who: 'Season results, recent form, badges and rank history.', person: 'Casey', shots: [
-    ['36-stats', 'Casey’s record', '5–3 across 8 Women’s singles matches, season PD +4.7%, with singles progress now Established. Rank history names every week, listed or not.'],
+    ['36-stats', 'Casey’s record', '5–2 across 7 Women’s singles matches, season PD +5.9%. Badges are illustrated medals: Court explorer (5 venues), Founding Member, First League win, 5 different opponents and 3 League venues, with more to the side. Rank history names every week, listed or not.'],
     ['36b-stats-matches', 'Match history', 'Each match puts the result and opponent on the left and the score and PD on the right. Clutch marks a win that came down to a deciding game or a final game won by 2 points.'],
-    ['37-badge', 'Badge details', 'Tapping Founding Member explains it: a League match in the Austin launch area in Season 1.'],
-    ['38-other-stats', 'Another player', 'Maya’s record, opened from the leaderboard: 1–2 over 3 matches, still Provisional.'],
+    ['37-badge', 'Badge details', 'Tapping Founding Member opens its medal: Founding Member #10, for a League match in Season 1, numbered in the order of first completed matches.'],
+    ['37b-badge-progress', 'A badge that grows', 'Court explorer counts the listed venues where Casey has a confirmed League result. She is at 5 venues; a match at a Not listed place does not add one.'],
+    ['37c-badge-group', 'Several awards in one medal', 'Venue founder gathers every venue where Casey was one of the first 10 players with a League result: Pease Park, South Austin, Northwest, Spicewood and Mueller Lake Park.'],
+    ['38-other-stats', 'Another player', 'Jade’s record, opened from the leaderboard: 2–1 over 3 matches, still Provisional. Follow and Share challenge link sit under her name, and her badges show below.'],
   ]},
   { id: 'recaps', title: 'Weekly recap', who: 'Each week ends with a recap card and a full summary.', person: 'Casey', shots: [
     ['39-recap', 'Week of Oct 19', '7 games won, 5 lost, over 5 matches, week PD +2.6%, #1 in the Austin area. The two venue boards show a dash until Casey is ranked there.'],
@@ -292,7 +293,7 @@ const CHAPTERS = [
     ['48e-popular-times', 'Popular times', 'Next week has no matching starts yet, so Popular times lists recent saved times for Men’s singles, with a reminder that adding one doesn’t guarantee a match.'],
   ]},
   { id: 'teams', title: 'Fixed teams', who: 'Doubles with the same partner every game.', person: 'Casey', shots: [
-    ['41-add-team', 'New team', 'Choose Women’s or Mixed doubles, then Create invite link. The link works for 7 days. If someone Casey hasn’t played with accepts, she confirms them before the team forms. There is no player search: a partner is someone Casey already knows.'],
+    ['41-add-team', 'New team', 'Choose Women’s or Mixed doubles. Create invite link is pinned at the bottom, and the link works for 7 days. If someone Casey hasn’t played with accepts, she confirms them before the team forms. There is no player search: a partner is someone Casey already knows.'],
     ['41b-add-team-share', 'Send the link', 'The share sheet opens over the League tab with the link, ready to text to a friend. It works for 7 days.'],
     ['41c-add-team-link-saved', 'Link saved', 'The invite waits under Matchmaking as Invite link, Waiting for someone to open your link, with Share link to send it again and Cancel invite.'],
     ['42-teams-list', 'Several partners', 'Each team is named for the partner and says where it stands: Maya’s and Diego’s teams ask for this week’s times, Priya is out for now, and Jade’s invite waits for Casey’s answer, with Invite link below for a team still being formed.'],
@@ -303,26 +304,26 @@ const CHAPTERS = [
     ['43e-team-ended', 'Partner left', 'Diego left the League, so the team ended and he shows as Former League player. Its record is kept, and Remove from my list clears it from Casey’s list only.'],
   ]},
   { id: 'team-link', title: 'Joining from a team link', who: 'A partner opens the link, finishes joining the League if needed, and the person who invited confirms them. Once formed, the team searches when both have times and venues.', person: 'Ryan, Jade, then Hannah', shots: [
-    ['58-team-link-invite', 'Invite from Jade', 'Ryan isn’t in the League yet. Jade M. invited him to a Mixed doubles team, answer by Nov 9. Matchmaking starts once the team forms if both have times and venues and neither is on a break.'],
-    ['58a-team-link-how', 'How you play', 'Setup arrives with Team already ticked: then he’ll accept Jade M.’s invite.'],
+    ['58-team-link-invite', 'Invite from Jade', 'Ryan isn’t in the League yet. Jade M. invited him to a Mixed doubles team, answer by Nov 15. Matchmaking starts once the team forms if both have times and venues and neither is on a break. Join the League to accept is pinned at the bottom, with Not now under it.'],
+    ['58a-team-link-how', 'How you play', 'Setup arrives with Team doubles already ticked: then he’ll accept Jade M.’s invite.'],
     ['58b-team-link-joined', 'In the League', 'Setup ends with Accept Jade M.’s invite.'],
-    ['58c-team-link-accept', 'Accept as Ryan', 'The invite now says You’re accepting as Ryan C.'],
-    ['58d-team-link-waiting', 'Waiting for Jade', 'Jade confirms it is Ryan before the team forms, and Ryan will hear when she answers.'],
-    ['58e-team-link-confirm', 'Jade confirms', 'On Jade’s phone: Ryan C. opened the link and accepted. Confirm only if she knows him, with Confirm partner and Not this person.'],
+    ['58c-team-link-accept', 'Accept as Ryan', 'The invite now says You’re accepting as Ryan C., with Accept pinned at the bottom.'],
+    ['58d-team-link-waiting', 'Waiting for Jade', 'Jade confirms it is Ryan before the team forms and has until Nov 15 to answer. Ryan will hear when she does.'],
+    ['58e-team-link-confirm', 'Jade confirms', 'On Jade’s phone: Ryan C. opened the link and accepted. Confirm only if she knows him: Confirm partner is pinned at the bottom, with Not this person under it.'],
     ['58f-team-link-formed', 'You’re a team', 'Jade and Ryan are a Mixed doubles team, and its matchmaking is already on: Looking since today.'],
     ['58g-member-invite', 'An existing member', 'Hannah is already in the League, so Jade’s Women’s doubles invite goes straight to Accept as Hannah W.'],
     ['58h-member-formed', 'Searching together', 'On Hannah’s League home the team with Jade is on, looking since yesterday, beside her own singles search, which is off.'],
   ]},
   { id: 'scan', title: 'Scan to play', who: 'Already at the courts with someone? Set up a League match on the spot.', person: 'Casey', shots: [
     ['44-scan', 'Plan the match', 'The nearest League venues come first, each with its distance, when the phone already allows location. Without it, saved venues lead.'],
-    ['44b-scan-venue-chosen', 'Venue chosen', 'Picking a venue folds the list to it, with Change to pick again, then the format and Create match plan.'],
-    ['44c-scan-waiting', 'Scan players', 'One of two players is in, so Scan a player is the next step. This evening plan also shows a notice that the match may finish after sunset, so check the courts’ lighting. Start publishes the match once everyone has confirmed on their own phone.'],
+    ['44b-scan-venue-chosen', 'Venue chosen', 'Picking Pease Park Courts folds the list to it, with Change to pick again, then the format. Create match plan is pinned at the bottom.'],
+    ['44c-scan-waiting', 'Scan players', 'One of two players is in, so Scan a player is pinned at the bottom as the next step. Pease Park has no lights, so this evening plan shows a yellow notice that the match may finish after sunset. Start publishes the match once everyone has confirmed on their own phone.'],
     ['45-my-code', 'My QR', 'The code a host scans, in Circuit green and black. Casey is told to show it only to people she wants to play with, and that she can reset it in League settings.'],
   ]},
-  { id: 'scanned', title: 'Being scanned', who: 'Hannah is added to a match by a host, then checks the plan on her own phone.', person: 'Hannah', shots: [
-    ['59-scanned-invite', 'Priya added you', 'Hannah’s My QR says Priya S. added her. She reviews the match on her own phone, and the invitation lasts 30 minutes.'],
-    ['59b-scanned-confirm', 'Confirm this plan', 'Mueller Lake Park Courts, women’s singles, 2 of 2 players. Hannah confirms only for herself, or declines.'],
-    ['59c-scanned-cancelled', 'If the host cancels', 'Priya cancelled the match plan, so Hannah sees Not confirmed and is told to ask the host to scan her again.'],
+  { id: 'scanned', title: 'Being scanned', who: 'Casey is added to a match by a host, then checks the plan on her own phone.', person: 'Casey', shots: [
+    ['59-scanned-invite', 'Priya added you', 'Casey’s My QR says Priya S. added her. She reviews the match on her own phone, and the invitation lasts 30 minutes.'],
+    ['59b-scanned-confirm', 'Confirm this plan', 'Mueller Lake Park Courts, women’s singles, 2 of 2 players. A note says the group has a large skill gap and can still play. Casey confirms only for herself: Confirm this plan is pinned, with Decline invitation under it.'],
+    ['59c-scanned-cancelled', 'If the host cancels', 'Priya cancelled the match plan, so Casey is told to ask the host to scan her again.'],
   ]},
   { id: 'challenges', title: 'Challenge a friend', who: 'Pick who, where and when instead of waiting for an offer. Once everyone accepts and there is a time, it is an ordinary League match with its own chat.', person: 'Casey, Sofia, then Maya', shots: [
     ['70-menu', 'Challenges in the menu', 'The League header’s menu holds My QR code, Challenges, Friends, League settings and League rules.'],
@@ -331,22 +332,22 @@ const CHAPTERS = [
     ['72-composer-not-listed', 'A place that isn’t a League venue', 'Not listed lets Casey name her own spot, Casey’s driveway in Austin, TX. The match counts for ratings and records but not for a venue or city board, and only the players in the challenge see the place name. Now, Pick a time and Let’s find a time each take a full row.'],
     ['73-composer-ready', 'Time, DUPR and a note', 'Pick a time sets Saturday, Nov 14 at 10 AM. It goes to DUPR, and the note says she has balls and water.'],
     ['74-share-link', 'Share the link', 'Share challenge link creates the challenge and opens the share sheet. The message names Casey, Singles, “a spot they picked” and the time; the private place name stays out of it.'],
-    ['75-challenge-sent', 'Waiting for a taker', 'Casey has accepted her own challenge; the other seat reads Anyone with the link until someone takes it. It must be answered by the picked time. Share link sends it again.'],
-    ['76-link-open', 'Opening the link', 'Sofia opens a link from Casey: Singles at a spot they picked, Sunday 10 AM Central, goes to DUPR, a close match for her level. The page has its own Challenge header with a way back, and one tap accepts.'],
-    ['77-challenge-set', 'Accepted', 'Sofia took the seat, so both players show Accepted, the place name and note appear, and View match opens the booked match.'],
-    ['78-challenge-match', 'An ordinary League match', 'Saturday 10 AM at Casey’s driveway, confirmed, with check-in and Match chat like any League match. A match at a private place can be cancelled any time before the start.'],
+    ['75-challenge-sent', 'Waiting for a taker', 'Casey’s second link: Sunday, Nov 15 at 10 AM at Casey’s driveway. She has accepted her own challenge; the other seat reads Anyone with the link until someone takes it, by the picked time. Share link is pinned at the bottom.'],
+    ['76-link-open', 'Opening the link', 'Sofia opens Casey’s link: Singles at a spot they picked, Sunday 10 AM Central, goes to DUPR, a close match for her level. Accept challenge is pinned at the bottom.'],
+    ['77-challenge-set', 'Accepted', 'Sofia took the seat, so both players show Accepted, the place name and note appear, and View match, pinned at the bottom, opens the booked match.'],
+    ['78-challenge-match', 'An ordinary League match', 'On Sofia’s phone: Saturday 10 AM at Casey’s driveway, confirmed, with Match chat like any League match. Automatic check-in is offered with an outline Allow location. A match at a private place can be cancelled any time before the start.'],
     ['79-home-challenge', 'A challenge in Needs you', 'Casey’s League home lists Jade’s challenge under Needs you: “Jade M. challenged you”, then the plan (Singles, Pease Park Courts, Thursday 6 PM) and the answer-by time.'],
-    ['80-challenge-received', 'Answer a challenge', 'Maya’s note says “Rematch? I owe you one.” Casey is a slight favorite, the match goes to DUPR, and she can Accept or Decline.'],
-    ['81-challenge-accepted', 'Agree on a time', 'Both have accepted a Let’s find a time challenge, so it needs a time by Sun, Nov 15. Chat is already open for agreeing one.'],
-    ['82-challenge-set-time', 'Set a time', 'Casey picks Thursday, Nov 12 at 6 PM. While the time panel is open, Save time is the screen’s one green button.'],
+    ['80-challenge-received', 'Answer a challenge', 'Jade challenged Casey to Singles at Pease Park Courts on Thursday at 6 PM. It is a stretch match: it still counts, but with a big skill gap a win moves ratings very little. Accept is pinned at the bottom, with Decline under it.'],
+    ['81-challenge-accepted', 'Agree on a time', 'Both have accepted Maya’s Let’s find a time challenge, so it needs a time by Sun, Nov 15. Set time is pinned at the bottom, with Open chat under it for agreeing one.'],
+    ['82-challenge-set-time', 'Set a time', 'Casey picks Thursday, Nov 12 at 6 PM. While the time panel is open, Save time is pinned as the screen’s one green button, with Cancel under it.'],
     ['83-challenge-booked', 'Booked', 'With a time set, the challenge becomes a confirmed match at Mueller Lake Park Courts, with Add to calendar and Match chat.'],
-    ['70c-challenges-list', 'The Challenges list', 'Open challenges are grouped: Maya’s (needs a time) and Jade’s (to answer) under Needs you, Casey’s open link under Waiting, and Priya’s decline and Casey’s withdrawn link under Closed for 7 days. New challenge stays pinned at the bottom; booked challenges leave the list for Your matches.'],
+    ['70c-challenges-list', 'The Challenges list', 'Open challenges are grouped: Maya’s (needs a time) and Jade’s (to answer) under Needs you, Casey’s two open links under Waiting, and Priya’s decline and Casey’s withdrawn link under Closed for 7 days. New challenge stays pinned at the bottom; booked challenges leave the list for Your matches.'],
     ['84-withdraw-menu', 'Withdraw a challenge', 'Nobody has taken Casey’s second link, so the options menu offers Withdraw challenge.'],
     ['85-withdraw-confirm', 'Confirm withdrawal', 'Everyone challenged is told it is off, and it cannot be undone.'],
     ['86-withdrawn', 'Withdrawn', 'The challenge is closed and tells Casey “You withdrew this challenge.”'],
   ]},
   { id: 'following', title: 'Following players', who: 'Follow people you like playing. Follows are private to the follower, and a followed player you have played can be challenged in one tap.', person: 'Casey', shots: [
-    ['87-following-stats', 'Follow from a stats page', 'Casey follows Maya from Maya’s League stats. Following and Challenge sit full width under her name; before following, a player with no head-to-head shows Share challenge link instead. Following adds Your friend: “No streak this week · Longest 2 weeks” and her home venue, with her badges listed once under Badges.'],
+    ['87-following-stats', 'Follow from a stats page', 'Casey follows Maya from Maya’s League stats. Following and Challenge sit full width under her name; before following, a player with no head-to-head shows Share challenge link instead. Following adds Your friend: “No streak this week · Longest 2 weeks” and her home venue, and her badges as medals: Founding Member, First League win and Venue founder ×2.'],
     ['87b-following-stats-top', 'Block stays out of the way', 'At the end of Maya’s stats, after her rank history and matches, Block Maya R. sits on its own as a quiet action.'],
     ['96-match-rematch', 'Follow after a match', 'A finished match lists the opponent with Follow, then Rematch, which opens a challenge to the same player, and Share result.'],
     ['88-friends-following', 'Following', 'Friends opens on the players Casey follows, with their best board rank. Maya, whom she has played, can be challenged; Sofia gets a challenge link.'],
@@ -354,7 +355,7 @@ const CHAPTERS = [
   ]},
   { id: 'growth', title: 'Growing your local League', who: 'How many people play nearby, how close each venue is to a full pool, and credit for friends you bring.', person: 'Blake, then Casey', shots: [
     ['94-not-joined-counts', 'Before joining', 'Blake hasn’t joined. The League tab says 17 players so far in the Austin area, that DUPR is optional, and offers See who plays near you.'],
-    ['95-near-you', 'Who plays near you', 'Picking Austin shows the young-city bar, “Be one of the first in Austin” at 13 of 20 players, then players per venue: Mueller Lake Park 8, Pease Park 6, South Austin 4. Location is used once and not saved.'],
+    ['95-near-you', 'Who plays near you', 'Picking Austin shows the young-city bar, “Be one of the first in Austin” at 13 of 20 players, then players per venue: Mueller Lake Park 8, Pease Park 6, South Austin 4. Use my location is an outline button above the cities; location is used once and not saved.'],
     ['93-home-city', 'Your city on the home page', 'Members see the same Austin bar on their League home, with their venue’s player count and how many friends they have brought.'],
     ['91-venue-progress', 'Venue progress', 'Mueller Lake Park Courts: 8 players play here, none looking this week. Each pool has a bar toward its target — Women’s singles 3 of 8 (Casey plays this), Men’s singles 5 of 8 — and 8 of 10 Founder spots are taken. Reaching a target unlocks nothing; it never gates matching.'],
     ['92-venue-board-needs', 'Venue leaderboard', 'The venue’s own leaderboard needs 5 listed players for standings. Mueller has 2 in Women’s singles and Casey is one of them, so it says so and offers Invite friends; her pinned row shows her record.'],
@@ -380,14 +381,14 @@ const CHAPTERS = [
     ['63b-search-off-home', 'Back to the League tab', 'The message opens his League home, where the next step is Add times.'],
   ]},
   { id: 'how-you-play', title: 'Changing how you play', who: 'Formats and categories can be changed from League settings at any time.', person: 'Casey', shots: [
-    ['60-play-formats', 'How you play', 'Singles is on with Women’s; Rotating doubles and Team are off. Changes apply to new matching only.'],
+    ['60-play-formats', 'How you play', 'Singles is on with Women’s; Rotating doubles and Team doubles are off. Each format has its own picture. Changes apply to new matching only.'],
     ['60b-play-formats-mixed', 'Adding Rotating doubles', 'Casey ticks Rotating doubles and picks Mixed. Save becomes available.'],
     ['60c-play-saved', 'Saved', 'How you play now reads Singles, Rotating doubles, under a green saved message.'],
   ]},
   { id: 'safety', title: 'Safety and conduct', who: 'Blocks, reports and a clear way to respond.', person: 'Casey', shots: [
     ['51-blocked', 'Blocked players', 'No one is blocked. Blocking happens from a player page or match chat.'],
     ['52-conduct', 'Conduct record', 'Casey cancelled Monday’s 5:45 AM match inside 12 hours, so the record lists Late cancellation (you cancelled) as open to challenge, above a no-show report that is awaiting her response.'],
-    ['52b-conduct-case', 'The late cancellation', 'The case is open to challenge until Tuesday at 9:01 PM. If Casey does not challenge it, it becomes a confirmed finding; a first finding is a warning, and three within 60 days pause new matches for 7 days. Her existing matches, scores and chat stay available.'],
+    ['52b-conduct-case', 'The late cancellation', 'The case is open to challenge until Tuesday at 7:25 PM, and Challenge this report is pinned at the bottom. If Casey does not challenge it, it becomes a confirmed finding; a first finding is a warning, and three within 60 days pause new matches for 7 days. Her existing matches, scores and chat stay available.'],
     ['52c-conduct-challenge', 'Challenge', 'Explain what happened, up to 500 characters. Casey writes that Sofia asked in chat to move the early time and she could not make it.'],
     ['52d-conduct-under-review', 'Under review', 'Casey’s explanation is saved and the case reads Challenge under review, with her words shown under Your challenge. Circuit reviews it before deciding.'],
     ['53-home-conduct-task', 'Home reminder', 'While a report needs a response, one flat row leads the League home and opens the conduct record. Tuesday’s match also asks for a score.'],
