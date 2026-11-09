@@ -1,5 +1,59 @@
 # Walkthrough evidence
 
+## Walkthrough viewer (November 9)
+
+A 390-pixel local browser check opened a direct image link and a gallery image, moved to the previous screen with the keyboard, and closed with Escape. Both returned focus to the button for the screen last viewed. No page errors occurred. An automated WCAG-tagged check at 390 pixels reported no violations on the page or open viewer in light and dark modes after contrast and keyboard-scroll fixes. A focused viewer advanced with the arrow key. The check used Chromium; Safari, screen-reader and touch operation were not tested.
+
+## Current League home (November 9)
+
+Riley’s local iOS home shows a prepared fictional singles match and the notification-off warning. The match screen eventually loaded after a service delay and displayed the same opponent, venue and time, along with fixture rating values. Opening match chat produced a retryable local-service error; one retry returned to the same error. After the service recovered, chat loaded with an unsent suggested-message draft; the exact trigger for recovery is not established. Opening the inbox remained in a loading state during the capture attempt; notification delivery was not verified.
+
+## Format selection (November 9)
+
+Three captures show fictional Riley choosing and saving Mixed rotating doubles in League settings on isolated app revision `5faf151a7`. Earlier attempts timed out during local service trouble. After checking the local saved state, a retry returned to settings showing Singles and Rotating doubles; reopening How you play showed Mixed selected. Android, VoiceOver and larger text remain unverified. All 255 gallery images loaded at 360, 390 and 1280 pixels with no page errors or document overflow; the saved-state image was inspected in the 390-pixel gallery.
+
+## Settings and usual times (November 9)
+
+Seven iOS captures show the fictional Riley profile’s current League settings, notification preferences, next-week usual times, saved venues and venue detail. Navigation was exercised against isolated app revision `5faf151a7`; no setting was changed in this sequence. The venue detail initially showed a retryable local popular-times error; after the service recovered, its empty-data state appeared and was captured. A populated popular-times state is still needed. The phone’s notification permission was off; the switches do not demonstrate message delivery. All 255 local gallery images loaded at 360, 390 and 1280 pixels without horizontal overflow or page errors. Android, VoiceOver and enlarged text were not tested in this sequence.
+
+## Missed-match report and answer (November 9)
+
+Five captures follow a fictional match prepared directly in the local database. Riley used the app to report that Taylor did not come; Taylor used a separate simulator to answer. The app displayed Not played and then a pending Circuit review. This is an allegation and response, not evidence of physical attendance or a final conduct decision. The first report attempt encountered a local service error; after the app showed retry and the match was still confirmed, a retry succeeded. The match record then had cancelled status and a newer version, while its UI labeled the outcome Not played. All 255 local gallery images loaded at 360, 390 and 1280 pixels without horizontal overflow or page errors. No live delivery, Android, VoiceOver or larger-text behavior was verified.
+
+## Cancellation (November 9)
+
+Seven captures use three separately prepared fictional Casey–Riley singles matches on the local stack. Casey cancelled the first before the late window. For the second, inside the late window, Casey requested a mutual call-off and Riley agreed on a separate simulator. For the third, Casey directly cancelled inside the late window. Each match’s local database status became cancelled; the app labels the second Called off by agreement. All 255 local gallery images loaded at 360, 390 and 1280 pixels without horizontal overflow or page errors. The direct-cancellation result does not itself show the conduct consequence; no notification delivery, actual booking, Android or accessibility behavior was verified. The retained team cancellation image is an explicitly older example awaiting recapture.
+
+## Match and chat (November 9)
+
+A fictional future Casey–Riley match was inserted as a local fixture; its booking was not exercised. Casey sent a suggested message in the app and Riley responded from a separate simulator. Casey reopened chat to see Riley’s response, then opened People, message options and reactions, sent a reply, and opened the report form without submitting it. No mute or block was applied. Captures used the isolated `5faf151a7` app, local data, iOS 26.4, dark mode and default text. All 254 gallery images loaded locally at 360, 390 and 1280 pixels without horizontal overflow or page errors. Live update timing, notification delivery, Android, VoiceOver and larger text were not established.
+
+## Join and notifications (November 9)
+
+Blake chose singles and rotating doubles, favorited Mueller, saved Thursday 6–9 PM, accepted both items, joined and started matchmaking. He declined the in-app notification prompt. The setup was entered through a test link from the DUPR profile page, so the page shown after completion cannot establish normal navigation. No DUPR account was linked. Drew, a separate fictional profile, supplied the landing, favorite-venue and checked-terms screenshots to replace frames captured during transitions. The map, times, success, prompt and home belong to Blake. Both profiles used the isolated `5faf151a7` app and local data, iOS 26.4 dark mode and default text. All 255 gallery images in the previous local version loaded in the local page at 360, 390 and 1280 pixels without horizontal overflow or page errors. The capture does not establish push delivery, Android or accessibility behavior.
+
+## Score disagreement (November 9)
+
+Four captures follow another fictional Riley–Taylor match. Riley reported a directly prepared one-game match as 11–7. On a separate simulator, Taylor proposed 11–9; Riley accepted the proposal in the app. The local match became Final with one recorded game. All 253 image assets loaded locally at 360, 390 and 1280 pixels without horizontal overflow or page errors. The capture environment and external delivery limits match the score review below.
+
+## Score correction (November 9)
+
+Four native captures follow a separate fictional Riley–Taylor singles match. A directly prepared unscored fixture was reported as 11–7 in the app; Riley used Fix the score and sent 11–9, then Taylor reviewed and confirmed it on a separate simulator. The local database shows a completed match with one game. All 249 image assets loaded in the local page at 360, 390 and 1280 pixels, with no page overflow or JavaScript errors. A fifth capture shows the same corrected match after Taylor confirmed it. The same simulator, source revision, local migrations, appearance and delivery limits as the one-game score review below apply.
+
+## One-game score review (November 9)
+
+Eight native captures show a single fictional Riley–Taylor match from score due through reporting, the same-phone confirmation restriction, opposing review and Final. The unscored match and its participants were prepared directly as local fixture data; Riley entered the one played game and submitted 11–8 in the app. Taylor first opened review on the reporting simulator, which displayed the confirmation restriction, then signed in on a separately created iPhone simulator and confirmed the same score. The local database reports the match completed with one game. The current result screen says a DUPR send is pending; this local fixture does not establish or perform external DUPR delivery.
+
+Both simulators ran iOS 26.4 with Dark appearance and default system text against app revision `5faf151a764de03143aceac3794d077a148ea586` and its two added local ranking migrations. Images are unpainted lossless WebP derivatives. The two remaining score-reference images after this sequence are earlier captures; they do not depict this match.
+
+## Pause and return (November 9)
+
+Five native captures follow fictional member Riley from an active singles search through Pause until November 16, the home banner, End pause and an active search again. His saved Wednesday time was prepared through the local authenticated command; pausing and ending it were performed in the app. No upcoming match existed in this example, so the visible booked-match statement is product copy, not a test that a booking survived. The simulator, isolated app revision and local stack match the Usual times capture below; the Pause and home owners did not change in the subsequent local `5faf151a7` commit. Captures are unpainted lossless WebP derivatives. Three later inactivity/return examples in that chapter remain earlier captures and need refresh.
+
+## Usual times (November 9)
+
+Four native captures follow Casey adding Thursday 6–9 PM and reopening next week, where both Tuesday and Thursday remain. The selection, saved view and following-week view were observed on a task-created iPhone 17 Pro simulator using iOS 26.4, Dark and default system text. The app ran from committed app revision `e0531b714ff6e4b5601aed78f81baf16258b373d` against an isolated local fixture. The times owners did not change in the subsequent local `5faf151a764de03143aceac3794d077a148ea586` commit; this does not verify other source dependencies or a deployed build. Images are unpainted lossless WebP conversions of the simulator captures. The initial times were fixture setup; adding Thursday and opening next week were performed in the app. No notification or external service delivery is claimed. The local API stalled during setup and recovered; the other fixture branches remain incomplete.
+
 ## Live season progress (November 8)
 
 Six new captures show the implementation in local app commit `016cb496c`: Your season on home, season detail, expanded private DUPR history, native season sharing, a subsequent rank change and the corresponding live board. Earlier screenshots are retained at their captured revisions; the earlier leaderboard chapter is labeled accordingly.
@@ -12,6 +66,22 @@ Six new captures show the implementation in local app commit `016cb496c`: Your s
 
 
 Updated November 8, 2026 (challenges, following and growth).
+
+This capture set has 268 phone screens and one exported result card and uses image version `20261109by`. The 171-screen count and image version below describe the earlier capture set recorded in that section.
+
+## Scan and rotating score completion
+
+The Scan chapter uses one plan and one published match throughout: Alex, Ben, Chris and Diego at Harborview. Alex created and started the plan in the app. The three guest additions and confirmations used the genuine authenticated RPCs with separate actor installation headers; Ben’s invitation, review and confirmed views were captured in the app. QR camera recognition itself was not exercised. The published four-player match was verified in the database.
+
+Alex entered all three scores and revised game 3 in the app. Ben reviewed and confirmed his opposing games on the separate Circuit Video Guest 1108 simulator, with a different installation from Alex’s device. Chris confirmed the remaining opposing game through his authenticated RPC. The completed record, all three final scores, named confirmers, match history and reopened native result agree. The 1080 × 1350 result card is the untouched image generated by the app and passed to the share sheet, copied from the owned app cache. No message or external DUPR submission was sent.
+
+A genuine receipt grammar defect found in this capture was corrected in authored mobile source: singular and plural reviewers now use “will review.” The 61 existing score-stage component tests and changed-file formatting passed, and the corrected native receipt was checked. Local infrastructure timeouts required retries; recordings retain those attempts privately. These screenshots are edited workflow selections, not a claim of continuous error-free recording. The earlier receipt/correction examples remain historical reference until the planned replacements are complete.
+
+## Rotating doubles matching and coordination
+
+Ten new native captures form one Honolulu example: Alex saves Friday availability, the actual matching worker returns two groups, and his booked group is Alex, Jordan, Marcus and Nolan. The chapter shows the same November 13 match through its plan, all three rotations and a delivered chat reply. It does not yet show play, score reporting or confirmation for that match.
+
+The isolated app uses base bf391af6de7f633062104b526378a33a7bfbc8b9 plus the current local snapshot recorded in the private runtime identity. Captures are unpainted 1206×2622 simulator pixels converted losslessly to WebP. No production data or external delivery was used. A local Docker memory failure interrupted several attempts; failed attempts remain private and are not presented as successful actions. The source PNGs, matching response and raw recordings are retained privately. At the time of that capture, these additions were local and unpublished.
 
 ## Challenges, following and growth (November 8)
 
@@ -106,10 +176,102 @@ The page was rendered in a headless browser at 360×800, 390×844 and 1280×900,
 
 The SHA-256 hash of every image file is in the [capture list](current-captures.json).
 
-## Known gaps the tour shows as they are
+## Earlier capture limits
 
-- **Popular times.** Venue detail has too little local data to show popular times.
-- **Suggested times.** Your times has no suggested times for Singles, because too few nearby players have saved times.
-- **The partner's side of a team invite.** The tour doesn't show Maya opening the invite link, because the fictional partner has no simulator account.
+- **Earlier Popular times.** The earlier venue fixture has too little data. The current Honolulu doubles chapters show populated popular starts and the time picker.
+- **Earlier suggested times.** The earlier singles fixture has no compatible suggestions. The current doubles journey shows compatible starts followed by an actual matcher booking.
+- **Earlier partner branch.** Maya’s earlier invite branch stops before her acceptance. The current Alex/Ben chapter shows a real native link review and acceptance on a separate simulator.
 
 Push, email, DUPR submission and payments were not exercised.
+
+## Honolulu doubles expansion
+
+The appended doubles chapters use two dedicated native iPhone simulators and the owned local Circuit stack. They cover a real matcher booking, a named Team doubles challenge through a saved time and retained chat, Pause/resume, an early cancellation, a missing-player report, and completed weekly/season views. Actor-side writes use the normal authenticated League commands. Some counterpart actions are orchestrated through those RPCs rather than filmed taps; no camera QR recognition or external message delivery is claimed.
+
+The historical season fixture spans August31–October25,2026:32 completed matches,96 confirmed games,eight weekly snapshots and a final snapshot. Match plans and audit timestamps are fixture preparation; score reports and opposing confirmations run through the actual server commands, and ratings, boards and recaps use the canonical shared projection engines. Current November matching and recovery examples are separate from that historical season. This is not an uninterrupted eight-week recording. Captures retain their real app pixels.
+
+Popular doubles times and Ben’s own-phone invitation/score review are now present in the new chapters. Earlier thin-data or missing-partner captures remain historical examples. The app’s rotating history count is corrected to use the player’s side in each game; a regression fails before the fix and all12 selected shared tests pass after it. The native corrected history is verified. No production apply, provider DUPR send, push/email delivery or publication is established.
+
+### November 9 inbox refresh
+
+The current Riley inbox capture comes from the isolated local iPhone fixture at app commit `5faf151a764de03143aceac3794d077a148ea586`. It shows four in-app notices; it does not establish push or email delivery. Tapping the first cancellation notice navigated to the match screen, which was still loading during the observation, so a completed destination is not claimed.
+
+### November 9 home and menu refresh
+
+Riley’s local iPhone captures show the current per-format matchmaking controls and the current League actions menu. They are separate from Casey’s earlier home and standings examples. The first cancellation notice in Riley’s inbox later resolved to a retryable match-load error in this local environment; no successful destination or production failure is claimed.
+
+### November 9 standings explanation
+
+Riley opened About on the current leaderboard to capture the current standings explanation. A retryable local refresh error appears behind the sheet; no production behavior is inferred. This is the leaderboard About sheet, not the earlier home information sheet.
+
+### November 9 current home
+
+The home chapter now uses Riley’s current local iPhone match, search, weekly progress and menu captures. The first image is reused from the confirmed-match example; the October 19 recap link is fixture history, not a claim about the prior week.
+
+### November 9 offer preview
+
+The Riley/Morgan proposal was inserted directly into the isolated database to inspect the current pending offer, player details and decline-choice sheet. It is not a matcher-produced offer and does not demonstrate eligibility or delivery. The decline sheet was not submitted; an acceptance attempt returned “This match isn’t available,” so the current response and confirmation journey remain unverified.
+
+### November 9 matcher booking
+
+The local matcher created the Casey/Sofia confirmed match from saved fictional availability; Casey’s iPhone captured the resulting match detail. The later Riley/Marcus matching call ended with an upstream error and the database showed no additional proposal at the time of inspection. Push and email delivery were not exercised.
+
+### November 9 first-match permission
+
+Blake’s match with Theo was directly prepared in the isolated database. Its first-match screen showed the current optional location prompt; tapping Not now dismissed it. No system location permission or actual check-in was exercised.
+
+After Blake chose Not now, League settings showed automatic check-in off and the switch remained available. Enabling it, the system permission dialog and actual check-in were not exercised.
+
+On the same prepared Blake/Theo match, notifications were denied on the test iPhone. The current recovery card appeared; Open Settings led to Circuit’s iOS settings with Notifications Off. Push delivery and enabling notifications were not tested.
+
+### November 9 leaderboard refresh
+
+Blake’s local iPhone captures show fictional populated singles boards, DUPR details, the fewer-than-five near-you fallback, category selection and About. Applying the category filter loaded the women’s board. Populated near-you, Android, VoiceOver and external DUPR synchronization remain unverified.
+
+### November 9 search and player record
+
+Blake searched the fictional women’s board for Elena and opened Jade’s record separately. One match row expanded to show individual games. No follow or challenge was submitted. The no-results search state was subsequently checked as described below.
+
+### November 9 leaderboard recovery and place
+
+An unmatched search showed zero results; Clear search restored the full board. Blake selected Mueller from the current place sheet and saw a venue board with two listed players and a five-player threshold. This fictional local fixture does not establish the availability of every venue board.
+
+### November 9 badge detail
+
+Blake opened Jade’s Founding Member badge in the local iPhone app. The number and record are fictional. The local board catalog exposed only singles, so current doubles and team board captures remain outstanding.
+
+### November 9 current Casey record and badges
+
+Casey’s local iPhone record includes Your season and showed standings updating when captured. The Court explorer and grouped Venue founder sheets were opened. Counts, rank, ratings and venues are fictional test data; no external DUPR synchronization or physical play is established.
+
+### November 9 current weekly recap
+
+Casey’s fictional October 19 weekly snapshot was opened on the current local iPhone app. Four captures follow one scrollable recap from summary through match scores, badges and actions; those actions were not exercised in this capture. The separately opened no-match image was subsequently refreshed as described below.
+
+### November 9 no-match recap
+
+Casey’s October 5 fictional empty snapshot was opened directly. Its matching-times action navigated to the times editor, where no suggestions appeared in this fixture. Other actions, external delivery and discovery through the recap list were not exercised.
+
+### November 9 no matching-time suggestions
+
+Casey’s local iPhone times editor displayed no suggested singles times after opening it from the empty recap. The displayed invitation was not used. Earlier Diego suggestion examples are separate fixtures and still need current verification.
+
+### November 9 conduct challenge
+
+Casey’s local late-cancellation report was challenged with a fictional explanation through the iPhone app. The app showed a saved receipt and then the same report under review. The report was not adjudicated; no real incident, external communication or final finding is asserted.
+
+### November 9 block and unblock
+
+On the isolated local iPhone, Casey opened the block confirmation on Jade’s fictional record, blocked her, saw her in the list and unblocked her. The app confirmed each change and the list became empty. Message visibility, matching exclusion and absence of notifications were not independently tested.
+
+### November 9 following and visibility
+
+In the isolated fixture, Casey followed Jade from Jade’s stats page and saw her in Following. Riley separately followed Casey from another simulator; Casey’s Followers tab displayed Riley. No challenge was sent and push/email delivery was not tested.
+
+### November 9 direct challenge
+
+Casey selected fictional Jade and a venue, chose to agree a time later and sent a direct singles challenge on the isolated iPhone app. The sender’s screen showed Casey accepted and Jade waiting. Recipient response, delivery outside the local app and any match outcome were not exercised.
+
+### November 9 interim publication check
+
+The 269-position gallery was checked in Chromium at widths of 360, 390 and 1280 pixels: all page images decoded, there was no horizontal page overflow or JavaScript page error, and the viewer opened, advanced with the right arrow and closed with Escape. Automated WCAG 2 A/AA and 2.1 A/AA checks returned no violations for the page and open viewer in light and dark modes at 390 pixels. These checks do not establish Safari, touch, VoiceOver, Android or the completeness of earlier captures. The refresh and image audit continue after this publication.
