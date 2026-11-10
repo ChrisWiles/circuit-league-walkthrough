@@ -137,7 +137,7 @@ dialog#lb[open] { display: grid; grid-template-rows: auto minmax(0, 1fr) auto; }
 <header class="wrap top">
   <span class="eyebrow">Circuit Pickleball · Circuit League · iPhone</span>
   <h1>Circuit League, screen by screen</h1>
-  <p class="lede">Follow players from joining and finding a group through scheduling, play, results and returning for another match. Start with Alex’s rotating doubles example or choose a chapter below. This walkthrough is being refreshed: some chapters use earlier captures or local app builds that may differ from the released app. Recent app changes also affect home, season, scores, rankings and times; screenshots from the earlier local build need comparison with the latest app. Tap any screen to step through it full size.</p>
+  <p class="lede">Follow players from joining and finding a group through scheduling, play, results and returning for another match. Start with Alex’s rotating doubles example or choose a chapter below. <b>Refresh in progress · November 10:</b> this draft has 239 images after consolidating repeated flows. Challenges, score corrections and team details include new captures; 88 images still need a design comparison or retake. <a href="current-evidence.md">See progress and audit findings</a>. Tap any screen to step through it full size.</p>
   <p><b>Recommended doubles route:</b> <a href="#availability-venue-depth">Courts and times</a> → <a href="#rotating-doubles-match">Find a group</a> → <a href="#scan">Scan at the courts</a> → <a href="#rotating-scores-complete">Report and confirm</a> → <a href="#team-doubles-complete">Regular partners</a> → <a href="#doubles-change-plans">Changed plans</a> → <a href="#team-challenge-replacement">Replacement time</a> → <a href="#doubles-season-results">Season results</a>. These chapters use separate fictional examples.</p>
   <div class="people">
     <div class="person"><span class="av">AR</span><b>Alex</b><span>Chooses shared courts and a useful time, gets a doubles match and meets his group.</span></div>
@@ -154,9 +154,9 @@ dialog#lb[open] { display: grid; grid-template-rows: auto minmax(0, 1fr) auto; }
 
 <footer class="wrap notes">
   <h2>About this tour</h2>
-  <p>Captured October 27–29 and November 2–3 and 8–9, 2026 on an iPhone 17 Pro simulator running iOS 26.4, in Dark appearance at the Default app text size. The reference follows several local League examples; setup, waiting searches, booked matches, the one-week time, breaks, team links, scores, boards, recaps and settings were retaken or added on November 2–3 after the League was simplified. Challenges, following and the growth screens were added on November 8, and screens with the new badges, format pictures and pinned next-step buttons were retaken that evening. The Honolulu doubles chapters show earlier examples of matching, rotating results, Team doubles, Scan, replacement scheduling, Pause and a season. Their current behavior and completeness are still being checked. Earlier standalone reference chapters retain their captured identities and dates. People, matches and safety records are fictional local test data. Venue names may refer to real places; the displayed venue details are test data.</p>
-  <p>The Your season chapter combines newer local captures with clearly labeled earlier examples, including a confirmed-result transition. Some earlier ranking and statistics screens still need current comparison. This walkthrough publication does not release the Circuit app or backend.</p>
-  <p>Screens show the state the app was in at capture time, so some show a step in progress, such as a score waiting for the other side. <a href="current-evidence.md">Verification and known gaps</a> · <a href="current-captures.json">Capture list</a></p>
+  <p>Captured October 27–29 and November 2–3 and 8–10, 2026 on an iPhone 17 Pro simulator running iOS 26.4, in Dark appearance at Default app text size. The gallery combines separate fictional sessions and local app revisions. People, matches and safety records are fictional; displayed venue details are test data.</p>
+  <p>The November 10 refresh keeps shared steps in one place and retains format differences: fixed partners, rotating partnerships, team availability and who can confirm scores. Some older designs remain while review continues. This publication does not release the Circuit app or backend.</p>
+  <p>Waiting for a response is an intentional state. The retained images were visually inspected for unintended error banners; a full current-design and accessibility review is still in progress. <a href="current-evidence.md">Progress, audit findings and known gaps</a> · <a href="current-captures.json">Capture list</a> · <a href="archive-20261110.html">Earlier gallery</a></p>
 </footer>
 
 <dialog id="lb" aria-label="Screen viewer" autofocus>
@@ -173,7 +173,7 @@ dialog#lb[open] { display: grid; grid-template-rows: auto minmax(0, 1fr) auto; }
 </dialog>
 
 <script>
-const IMAGE_VERSION = '20261110b';
+const IMAGE_VERSION = '20261110d';
 const CHAPTERS = [
   { id: 'join', title: 'Join the League', who: 'A local fictional player chooses formats, a court and usual times, then joins. The landing, selected venue and acceptance screens use a second fictional profile; the choices are equivalent.', person: 'Blake and Drew', shots: [
     ['nov09-join-landing', 'Before you join', 'The League tab describes the free League, where it is open, and the time needed to join. DUPR is optional. The player count shown is local fixture data.'],
@@ -198,12 +198,11 @@ const CHAPTERS = [
     ['11f-invite-doubles-on', 'Also search doubles', 'In the earlier capture, Jordan has added a Men’s rotating doubles search beside singles. The current action and resulting state need a fresh walkthrough.'],
     ['11i-waiting-mixed', 'Also search Mixed', 'Blake already searches Men’s singles and Men’s rotating doubles, so his waiting doubles search offers Mixed instead.'],
   ]},
-  { id: 'home', title: 'League home', who: 'Casey’s latest home is followed by Maya’s matchmaking controls and earlier Riley examples. Season details have moved to Your season; the standings explanation opens from the leaderboard.', person: 'Jade and Priya, then Casey and Riley', shots: [
-    ['nov09-latest-league-home', 'Home', 'Casey’s latest local home puts tasks needing attention above the next match. The four tasks and booked matches are fictional fixture data.'],
-    ['nov09-current-maya-matchmaking', 'Matchmaking', 'From home, Maya opens Manage matchmaking. Singles is on, rotating doubles is off, and her saved times and Pause control appear below.'],
-    ["nov09-current-board-about", "How standings work", "Maya opens About from the historical board. The displayed DUPR rating does not set League rank. Rank weighs points against the opponent’s expected score; PD summarizes recent form."],
-    ['nov09-current-maya-week', 'This week and progress', 'Maya scrolls through Your season to see this week’s all-format activity. The prior weekly recap is still preparing in this fictional example.'],
-    ['nov09-riley-league-menu', 'League menu', 'Riley opens More League actions to find his QR code, Challenges, Friends, League settings and League rules.'],
+  { id: "home", title: "League home", who: "League home and matchmaking in fictional examples. For standings explanations, see <a href=\"#leaderboards\">Leaderboards</a>.", person: "Jade and Priya, then Casey and Riley", shots: [
+    ["nov10-current-league-home","Home","Alex’s current fictional home puts a challenge needing an agreed time above his next match and later bookings. The reminder and matches are local fixture data."],
+    ["nov09-current-maya-matchmaking","Matchmaking","From home, Maya opens Manage matchmaking. Singles is on, rotating doubles is off, and her saved times and Pause control appear below."],
+    ["nov09-current-maya-week","This week and progress","Maya scrolls through Your season to see this week’s all-format activity. The prior weekly recap is still preparing in this fictional example."],
+    ["nov09-riley-league-menu","League menu","Riley opens More League actions to find his QR code, Challenges, Friends, League settings and League rules."]
   ]},
   { id: 'offers', title: 'Match offers', who: 'Riley reviews a prepared fictional offer. The accepted example is an earlier separate capture; matchmaking and final confirmation are not demonstrated here.', person: 'Riley and Casey', shots: [
     ['nov09-riley-offer', 'Match offered', 'Riley sees an answer deadline, opponent, time and venue for a prepared singles offer. This example says the result will not be sent to DUPR; the offer was prepared locally, not produced by the matcher.'],
@@ -219,9 +218,9 @@ const CHAPTERS = [
     ['nov09-blake-checkin-off', 'Change check-in later', 'After choosing Not now, Blake’s League settings show automatic check-in off. The switch remains available if he changes his mind; this example does not show location permission being granted.'],
     ['nov09-blake-notification-recovery', 'Notifications off', 'After notifications were denied on the test iPhone, Blake’s prepared first match offers Open Settings or Not now. Open Settings led to Circuit’s iOS settings, where notifications were off. No notification delivery was tested.'],
   ]},
-  { id: 'matches', title: 'Confirmed matches and chat', who: 'Casey and Maya coordinate the same fictional challenge match on separate simulators. Blue chat styling is present in the local app; its release status has not been checked.', person: 'Casey and Maya', shots: [
-    ["nov09-current-challenge-match", "Match details", "Casey opens her confirmed singles match with Maya. The venue, players and Match chat are visible."],
-    ["nov09-current-match-menu", "Match actions", "The match menu offers calendar, directions, venue details, a player report, rules and cancellation."],
+  { id: 'matches', title: 'Confirmed matches and chat', who: "Ben and Alex’s current fictional confirmed match shows details and actions. The separate Casey–Maya conversation demonstrates shared chat, including blue outgoing messages, replies and emoji reactions. App release status is not established.", person: "Ben and Alex; Casey and Maya chat", shots: [
+    ["nov10-direct-challenge-booked", "Match details", "Ben’s current fictional challenge with Alex becomes a confirmed Saturday 8 AM singles match at Harborview. The separate Casey–Maya conversation below demonstrates shared chat controls."],
+    ["nov10-match-menu", "Match actions", "Ben opens the current confirmed match menu. Calendar, directions, venue details, player reporting, rules and cancellation stay together. External calendar and directions were not exercised."],
     ["nov09-current-chat-conversation", "Match chat", "Casey and Maya exchange messages on separate simulators. Blue outgoing bubbles show the local app change; release status was not verified here."],
     ["nov09-current-chat-people", "Mute or block", "People opens options to mute or block Maya. Neither action was taken."],
     ["nov09-current-chat-options", "Hold a message", "Holding Maya’s message opens quick emoji reactions and options including Reply, Copy, Mute, Report message and Block."],
@@ -230,12 +229,12 @@ const CHAPTERS = [
     ["nov09-current-chat-result", "A reaction and a reply", "Casey’s heart appears on Maya’s message, and Casey’s blue reply quotes it. Both players are fictional test accounts."],
     ["nov09-current-chat-report", "Report a message", "The report form lists reasons and optional details and explains who reviews the report. This example stops before submitting."],
   ]},
-  { id: 'cancel', title: 'Cancelling a match', who: 'Jade cancels a fictional match ahead of time, and Priya checks the result. Separate earlier Casey–Riley matches show late cancellation.', person: 'Jade and Priya, then Casey and Riley', shots: [
-    ['nov09-current-jade-cancel-preview', 'Cancel ahead of time', 'Before the deadline, Jade sees that cancelling ends the match for both players and Priya can return to matchmaking.'],
-    ['nov09-current-jade-cancel-result', 'Cancelled ahead of time', 'Jade cancels the same match. It is marked Cancelled, her previously restarted search remains on, and match chat is available.'],
+  { id: 'cancel', title: 'Cancelling a match', who: "Ben cancels the current fictional challenge match before its start and Alex sees who cancelled. Priya’s separate matcher-booked example shows home and history. Earlier Casey–Riley fixtures show the late window and calling off together.", person: "Ben and Alex; separate Priya, Casey and Riley examples", shots: [
+    ["nov10-cancel-preview", "Cancel before the start", "Ben opens cancellation for the fictional challenge match with Alex. This challenge can be cancelled before its start; the sheet says it ends the match for both players."],
+    ["nov10-cancel-result", "Cancelled by Ben", "Ben confirms cancellation in the current app. The same Harborview match now shows Cancelled and the date."],
     ['nov09-priya-cancel-home', 'Priya returns to search', 'On Priya’s phone, the cancelled match is no longer upcoming and one search is on. She can open Match history to see the result.'],
     ['nov09-priya-cancel-history', 'Find the cancelled match', 'Priya’s Past list shows the cancelled match with Jade alongside earlier results.'],
-    ['nov09-priya-cancel-detail', 'See who cancelled', 'The match detail says Jade cancelled and Priya’s search is on. Match chat remains available.'],
+    ["nov10-cancel-opponent", "See who cancelled", "Alex opens the same cancelled match on his simulator. It names Ben as the person who cancelled. This is separate from Priya’s matcher-booked home/history example."],
     ['nov09-cancel-late-sheet', 'Inside the late window', 'For a separate match today, Casey can ask to call it off together or cancel now. The screen describes the late-cancellation consequence and says the match stays on until everyone agrees.'],
     ['nov09-cancel-together-pending', 'Waiting for Riley', 'Casey asks to call off the 6 PM match together. It remains confirmed while Riley decides; Casey can withdraw the request.'],
     ['nov09-cancel-together-other', 'Riley responds', 'On Riley’s device, the same match offers Agree or Keep the match.'],
@@ -249,37 +248,29 @@ const CHAPTERS = [
     ['nov09-absence-answer', 'Answer the report', 'Taylor can add an optional note. The screen says Circuit reviews the answer and the match stays not played meanwhile.'],
     ['nov09-absence-sent', 'Answer sent', 'Taylor submits the answer. The page says Circuit is reviewing it; the example does not show a final conduct decision.'],
   ]},
-  { id: 'scores', title: 'Report and review a score', who: 'Priya’s separate prepared match shows where score-due and score-sent states appear. Casey reports one fictional game in the latest app and database, then opens the option to add another played game. Maya confirms the one reported game on a second phone. A separate earlier Riley and Taylor example shows the review on another phone.', person: 'Priya, then Casey and Maya, then Riley and Taylor', shots: [
-    ['nov09-priya-score-due-home', 'A score needs reporting', 'In a separate prepared fictional match, Priya sees Report Monday’s score under Needs you, with the opponent and report deadline.'],
-    ['nov09-priya-score-sent-home', 'Score sent on home', 'After a fictional score is submitted in the local fixture, the same match appears as Score sent under Upcoming activity while it awaits review.'],
-    ['nov09-latest-singles-score-draft', 'Enter one game', 'Casey enters a fictional 11–7 score for the one game played. The action names the number of games being reported.'],
-    ['nov09-latest-singles-score-sent', 'Score sent · Casey', 'Casey sends the game. The receipt says Maya can review it or it counts at the displayed deadline. The local match has one game awaiting review.'],
-    ['nov09-latest-singles-next-game', 'Add a played game', 'Report next game opens a form that retains the reported game and offers a blank second game. Only games actually played should be reported.'],
-    ['nov09-latest-maya-score-review', 'Maya reviews the score', 'On a second phone, Maya sees Casey’s 11–7, the automatic-count deadline and options to confirm or report a problem.'],
-    ['nov09-latest-maya-score-final', 'Maya confirms', 'Maya confirms the score. The same fictional match is Final with one recorded game. The screen says the game is sending to DUPR; external delivery was not tested.'],
-    ['nov09-riley-score-due', 'A score is due', 'Riley opens his singles match with Taylor at Pease Park. The screen shows both players, their available rank and DUPR details, and the report deadline.'],
-    ['nov09-same-phone-review', 'Review needs another phone', 'In an earlier separate example, after Riley reports 11–8, Taylor signs in on the reporting phone. The app explains that this phone cannot confirm it; Taylor can review on his own phone.'],
-    ['nov09-taylor-review', 'Taylor reviews on his phone', 'On a separate phone Taylor sees Riley’s 11–8, the automatic-count deadline and options to confirm or report a problem.'],
-    ['nov09-taylor-final', 'The confirmed result', 'Taylor confirms the score. The same match is Final, with one game recorded. The local fixture shows a pending DUPR send; no external submission was made.'],
-    ['27b-dupr-reconnect', 'Reconnect DUPR · Earlier example', 'Casey’s DUPR connection needs renewing, so her win over Maya says All 3 games: Reconnect DUPR to send these games, with a Reconnect button. The League result already counts.'],
-    ['nov09-priya-cancel-history', 'Past matches', 'In a separate current example, Priya’s Past list groups completed results and a cancelled match by date. The screenshot does not show score-due or score-sent placement.'],
+  { id: "scores", title: "Report and review a score", who: "Alex reports a fictional 11–7 result in the current app and opens the option to add a played game. Continue to <a href=\"#fix-score\">correcting and reviewing this same score</a> for Ben’s own-phone review and final result. Priya’s home states and the two recovery examples are separate fixtures pending current comparison.", person: "Alex and Ben; separate earlier examples", shots: [
+    ["nov09-priya-score-due-home","A score needs reporting","In a separate prepared fictional match, Priya sees Report Monday’s score under Needs you, with the opponent and report deadline."],
+    ["nov09-priya-score-sent-home","Score sent on home","After a fictional score is submitted in the local fixture, the same match appears as Score sent under Upcoming activity while it awaits review."],
+    ["nov10-singles-score-draft","Enter one game","Alex enters a fictional 11–7 against Ben at Harborview. The action names the one game being reported."],
+    ["nov10-singles-score-sent","Score sent · Alex","Alex submits 11–7 in the current app. The receipt names Ben as the reviewer and shows the automatic-count deadline."],
+    ["nov10-singles-next-game","Add a played game","Report next game retains the reported 11–7 and offers a blank second game. No additional game was submitted."],
+    ["nov10-singles-score-due","A score is due","Alex opens a prepared fictional singles match against Ben at Harborview in the current app, before reporting its score."],
+    ["nov09-same-phone-review","Review needs another phone","In an earlier separate example, after Riley reports 11–8, Taylor signs in on the reporting phone. The app explains that this phone cannot confirm it; Taylor can review on his own phone."],
+    ["27b-dupr-reconnect","Reconnect DUPR · Earlier example","Casey’s DUPR connection needs renewing, so her win over Maya says All 3 games: Reconnect DUPR to send these games, with a Reconnect button. The League result already counts."]
   ]},
-  { id: 'fix-score', title: 'Correct a sent score', who: 'Riley corrects a separate singles result before Taylor reviews it.', person: 'Riley and Taylor', shots: [
-    ['nov09-correction-pending', 'Fix a sent score', 'In a separate match at Pease Park, Riley sees the 11–7 score he sent and chooses Fix the score before Taylor reviews it.'],
-    ['nov09-correction-edit', 'Change the score', 'Riley changes Taylor’s score from 7 to 9. The form says Taylor will review the correction and shows when it would count automatically.'],
-    ['nov09-correction-receipt', 'Corrected score sent', 'The receipt shows the corrected 11–9 result and the new review deadline.'],
-    ['nov09-correction-review', 'Taylor reviews the correction', 'On Taylor’s device, the corrected 11–9 result appears with Score is right and Something’s wrong. Taylor confirmed this result during capture.'],
-    ['nov09-correction-final', 'The corrected result', 'Taylor confirmed the corrected score. The same one-game match is Final; a DUPR send is pending in this local fixture.'],
+  { id: "fix-score", title: "Correct a sent score", who: "Alex corrects that same fictional singles result from 11–7 to 11–9 before Ben reviews it. Ben confirms on a separate simulator installation; this is local app behavior, not a production or DUPR delivery test.", person: "Alex and Ben", shots: [
+    ["nov10-singles-correction-pending","Fix a sent score","The same Harborview match is awaiting Ben’s review. Alex can choose Fix the score."],
+    ["nov10-singles-correction-draft","Change the score","Alex changes Ben’s score from 7 to 9. The form explains that Ben reviews the correction and when it counts automatically."],
+    ["nov10-singles-correction-sent","Corrected score sent","Alex submits the corrected 11–9. The receipt shows Ben’s review deadline."],
+    ["nov10-singles-correction-review","Ben reviews the correction","On a separate simulator installation, Ben sees the corrected 11–9 and can confirm it or report a problem."],
+    ["nov10-singles-correction-final","The corrected result","Ben taps Score is right and the same match becomes Final, with Alex 11 and Ben 9. Sending to DUPR is the displayed app state; external delivery was not exercised."]
   ]},
-  { id: 'season-progress', title: 'Your season', who: 'Casey’s compact home summary is followed by Maya’s separate latest season details and rank chart. The DUPR history and later Casey examples use earlier captures.', person: 'Casey and Maya', shots: [
-    ['nov09-latest-season-home', 'Your season at a glance', 'Casey’s compact home summary shows her fictional rank and match record. View season opens the details.'],
-    ['nov09-new-season-progress', 'Open the season', 'In a separate current fixture, Maya’s season screen shows her published rank, record and progress. It says standings are updating; the screen does not establish a completed refresh.'],
-    ['nov09-cbff-dupr-history', 'The DUPR observations', 'Alex expands two fictional DUPR observations. One was prepared in the isolated fixture; this does not demonstrate an external DUPR sync.'],
-    ['nov09-new-season-share', 'Share your season', 'Maya opens the native share sheet. The screenshot does not show the full shared text, and no message was sent.'],
-    ['nov09-latest-rank-chart', 'Weekly rank history', 'In a separate current fictional example, Maya’s rank history uses a line chart. A dash marks a week without a listing; each later point shows a published weekly rank.'],
-    ['nov09-cbff-season-recent-ten', 'Recent season results', 'In a separate fictional completed season, Alex sees his last ten match results, newest first, along with his season record and completion goal. These figures are fixture data.'],
-    ['nov08-season-05-movement', 'A confirmed result changes the rank', 'In an earlier Casey fixture, after a confirmed loss to Maya, her position becomes #2 of 6 and her record becomes 5–4. Down 1 place this season compares with First recorded #1; Best #1 stays intact. The recent-match highlight updates too.'],
-    ['nov09-current-recap-board', 'Standings from a weekly recap', 'In a separate current example, Maya opens standings from her October 19 recap. The board is dated October 25 and shows the historical snapshot, not live standings.'],
+  { id: "season-progress", title: "Your season", who: "Casey’s compact home summary is followed by Maya’s separate latest season details and rank chart. The DUPR history and later Casey examples use earlier captures.", person: "Casey and Maya", shots: [
+    ["nov09-latest-season-home","Your season at a glance","Casey’s compact home summary shows her fictional rank and match record. View season opens the details."],
+    ["nov10-season-overview","Open the season","In a separate current fictional season, Alex sees his published eighth-place rank, 7–5 match record, last ten results and completed season goal. These are results from the prepared historical fixture."],
+    ["nov09-cbff-dupr-history","The DUPR observations","Alex expands two fictional DUPR observations. One was prepared in the isolated fixture; this does not demonstrate an external DUPR sync."],
+    ["nov09-new-season-share","Share your season","Maya opens the native share sheet. The screenshot does not show the full shared text, and no message was sent."],
+    ["nov09-current-recap-board","Standings from a weekly recap","In a separate current example, Maya opens standings from her October 19 recap. The board is dated October 25 and shows the historical snapshot, not live standings."]
   ]},
   { id: 'leaderboards', title: 'Leaderboards', who: 'Maya explores singles boards and controls; separate local snapshot views show empty rotating and team doubles boards.', person: 'Maya and Blake', shots: [
     ["nov09-board-current", "Austin area, Women’s singles", "Maya opens the Austin area women’s singles board. Her own row is highlighted; other players are shown with percentile, match record and recent point margin. The board is dated November 8."],
@@ -295,13 +286,13 @@ const CHAPTERS = [
     ["nov09-current-growth-board", "A venue board", "In a separate current example, Maya opens the Mueller venue board. Two players are listed and five are needed for standings; her own record remains visible."],
     ['nov09-current-team-board', 'Team doubles', 'In a separate local snapshot, the women’s team doubles board has no listed teams and says five are needed for standings.'],
   ]},
-  { id: 'stats', title: 'Player records', who: 'Maya checks her own latest season record, an expanded match and Jade’s record; Casey’s badge examples are separate earlier captures.', person: 'Casey, Maya and Blake', shots: [
-    ['nov09-new-season-progress', 'Maya’s record', 'Maya’s fictional season record shows a published rank, match record and progress. The screen says standings are updating; its numbers may change after processing.'],
-    ['nov09-latest-match-expanded', 'Expand a match', 'In a separate current example, Maya expands her confirmed fictional match with Casey to see its 11–7 game. Other matches remain collapsed.'],
-    ['nov09-jade-founding-badge', 'Badge details', 'Blake opens Jade’s Founding Member badge. The detail explains her fictional member number and its relation to the order of first completed matches.'],
-    ['nov09-casey-court-explorer', 'A badge that grows', 'Court explorer counts listed venues with confirmed League results. This fictional example shows five; a Not listed place does not add one.'],
-    ['nov09-casey-venue-founder', 'Several awards in one medal', 'Casey’s fictional Venue founder detail groups five venues where she was among the first ten players with a League result.'],
-    ["nov09-current-jade-stats", "Another player", "Maya opens Jade’s record, with fictional results, badges and the current weekly rank chart. Follow and Share challenge link are available."],
+  { id: "stats", title: "Player records", who: "Maya checks her own latest season record, an expanded match and Jade’s record; Casey’s badge examples are separate earlier captures.", person: "Casey, Maya and Blake", shots: [
+    ["nov09-latest-match-expanded","Expand a match","In a separate current example, Maya expands her confirmed fictional match with Casey to see its 11–7 game. Other matches remain collapsed."],
+    ["nov10-badges-and-history","Badges and weekly history","Alex’s fictional season record shows the redesigned medals and his weekly rank chart. Each medal opens an explanation."],
+    ["nov10-founder-badge","Badge details","Alex opens his redesigned Founding Member medal. The detail shows fictional member number 4 and explains that it follows the order of first completed matches."],
+    ["nov09-casey-court-explorer","A badge that grows","Court explorer counts listed venues with confirmed League results. This fictional example shows five; a Not listed place does not add one."],
+    ["nov09-casey-venue-founder","Several awards in one medal","Casey’s fictional Venue founder detail groups five venues where she was among the first ten players with a League result."],
+    ["nov09-current-jade-stats","Another player","Maya opens Jade’s record, with fictional results, badges and the current weekly rank chart. Follow and Share challenge link are available."]
   ]},
   { id: 'recaps', title: 'Weekly recap', who: 'Alex opens a fictional completed week, reads its summary and browses his recap archive.', person: 'Alex', shots: [
     ['nov10-recap-story', 'Your week', 'Alex opens the week of October 19 in the story. His fictional week shows two games won, one lost, one match and an eight-week streak.'],
@@ -326,27 +317,19 @@ const CHAPTERS = [
     ['nov09-casey-popular-saved', 'See the saved time', 'Casey saves the suggested 6–8 PM window. It appears under Thursday after switching weeks and returning; availability alone does not book a match.'],
     ['nov09-latest-times-empty', 'No suggested times', 'After Maya selects Singles, the current fictional example has no suggested times yet. Suggestions depend on other players’ saved times and do not by themselves book a match.'],
   ]},
-  { id: 'teams', title: 'Team doubles', who: 'Casey and Jade form a fictional team and compare times in the current local app. The later team and offer examples are earlier captures.', person: 'Casey and Jade, then earlier partners', shots: [
-    ['nov09-team-invite-compose', 'New team', 'Casey selects Women’s doubles. The app says the link works for seven days and a new partner may need her confirmation before the team forms.'],
-    ['nov09-team-invite-share', 'Share the invitation', 'The native share sheet opens after Casey creates the fictional invitation. No external recipient was selected, and the full link is not shown.'],
-    ['nov09-team-invite-waiting', 'Link saved', 'The invitation appears under Matchmaking with Share link, Cancel invite and its seven-day expiry. This is the state before Jade opens it.'],
-    ['nov09-team-jade-receives', 'Jade reviews the invitation', 'On a second simulator, Jade opens Casey’s fictional Women’s doubles invite. It shows the answer deadline and when team matchmaking can start.'],
-    ['nov09-team-jade-formed', 'The team forms', 'Jade accepts. In this fixture the app immediately confirms the team; other invitations can require the sender to confirm the partner.'],
-    ['nov09-team-jade-current', 'Check what the team needs', 'Jade opens the team page. Casey has times saved, Jade has none, and the team has no venue both players picked.'],
-    ['nov09-team-jade-time-selection', 'Add available hours', 'Jade selects Tuesday from 6 to 9 PM in her times editor and saves it.'],
-    ['nov09-team-jade-shared-time', 'A shared time', 'Back on the team page, both players now have Tuesday 6–9 PM. The app still says they have no venue both picked; this is not a booking.'],
-    ['nov09-team-shared-venue', 'Choose a shared venue', 'Jade then saves Mueller as a favorite. The team page shows Mueller and the shared Tuesday time, while matchmaking remains off waiting for both partners to be ready. No match has been booked.'],
-    ['nov09-team-start-available', 'Restart this team’s search', 'Jade opens the team’s times and can choose Find another match. The screen says there are not enough players saved at that time for a suggestion.'],
-    ['nov09-team-search-on', 'Team matchmaking is on', 'After Jade chooses Find another match, the app says Casey and Jade’s matchmaking is on. This is a search, not a confirmed booking.'],
-    ['nov09-team-times-saved', 'See the saved time', 'Jade’s team times screen shows Tuesday 6–9 PM and explains that her times apply to all her searches. Matchmaking is on; the rest of the list is available by scrolling.'],
-    ['nov09-883-several-teams', 'Several partners', 'In a separate fictional example, Alex has teams with Blake and Ben. Blake has not added times this week; the Ben team search stopped after a match.'],
-    ['nov09-current-ben-team-next-week', 'Team page', 'In a separate later example, Ben’s team page shows Alex, next-week availability, common venues, an upcoming match and Pause.'],
-    ['nov09-883-team-missing-times', 'When one player has no time', 'In a separate Ben and Alex example, Alex has no Tuesday time and Ben has no Thursday time. Monday and Friday show hours they both selected.'],
-    ['nov09-883-team-offer-prepared', 'A team match offer', 'In a separately prepared fictional offer, Alex sees Ben as his partner, Chris and Diego as opponents, and a set time and venue. Ben also needs to accept; this image does not establish a booking or how the offer was generated.'],
-    ['nov09-883-team-offer-partner-accepted', 'Ben has accepted', 'After Ben accepts through an authenticated local test call, Alex reopens the prepared offer and sees that his answer completes their team. The opposing team has not answered in this example.'],
-    ['nov09-883-team-offer-waiting-opponents', 'Waiting for the other team', 'Alex accepts on his phone. Both teammates are accepted; the screen names Chris and Diego as the players still awaited. The prepared offer is not yet a confirmed match.'],
-    ['nov09-883-team-offer-match-confirmed', 'The match is confirmed', 'Chris and Diego accept through authenticated local test calls. The prepared offer becomes a confirmed match for Alex and Ben against Chris and Diego; the original offer was prepared for this example, not generated by the matcher.'],
-    ['43e-team-ended', 'Partner left', 'Diego left the League, so the team ended and he shows as Former League player. Its record is kept, and Remove from my list clears it from Casey’s list only.'],
+  { id: "teams", title: "Team doubles", who: "Casey and Jade form a fictional team. A separate current Alex–Ben example shows shared availability; use <a href=\"#usual-times-current\">the shared times editor</a> and <a href=\"#settings\">saved courts</a> to change your own choices. Team offer and partner-left examples are earlier captures requiring comparison.", person: "Casey and Jade, then earlier partners", shots: [
+    ["nov09-team-invite-compose","New team","Casey selects Women’s doubles. The app says the link works for seven days and a new partner may need her confirmation before the team forms."],
+    ["nov09-team-invite-share","Share the invitation","The native share sheet opens after Casey creates the fictional invitation. No external recipient was selected, and the full link is not shown."],
+    ["nov09-team-invite-waiting","Link saved","The invitation appears under Matchmaking with Share link, Cancel invite and its seven-day expiry. This is the state before Jade opens it."],
+    ["nov09-team-jade-receives","Jade reviews the invitation","On a second simulator, Jade opens Casey’s fictional Women’s doubles invite. It shows the answer deadline and when team matchmaking can start."],
+    ["nov09-team-jade-formed","The team forms","Jade accepts. In this fixture the app immediately confirms the team; other invitations can require the sender to confirm the partner."],
+    ["nov09-883-several-teams","Several partners","In a separate fictional example, Alex has teams with Blake and Ben. Blake has not added times this week; the Ben team search stopped after a match."],
+    ["nov10-team-shared-availability","Compare shared availability","In a separate current fictional Alex–Ben example, Tuesday has only Ben’s time, Thursday only Alex’s, and Friday 6–9 PM works for both. Team matchmaking is stopped after a match. Update times uses the shared times editor covered elsewhere."],
+    ["nov09-883-team-offer-prepared","A team match offer","In a separately prepared fictional offer, Alex sees Ben as his partner, Chris and Diego as opponents, and a set time and venue. Ben also needs to accept; this image does not establish a booking or how the offer was generated."],
+    ["nov09-883-team-offer-partner-accepted","Ben has accepted","After Ben accepts through an authenticated local test call, Alex reopens the prepared offer and sees that his answer completes their team. The opposing team has not answered in this example."],
+    ["nov09-883-team-offer-waiting-opponents","Waiting for the other team","Alex accepts on his phone. Both teammates are accepted; the screen names Chris and Diego as the players still awaited. The prepared offer is not yet a confirmed match."],
+    ["nov09-883-team-offer-match-confirmed","The match is confirmed","Chris and Diego accept through authenticated local test calls. The prepared offer becomes a confirmed match for Alex and Ben against Chris and Diego; the original offer was prepared for this example, not generated by the matcher."],
+    ["43e-team-ended","Partner left","Diego left the League, so the team ended and he shows as Former League player. Its record is kept, and Remove from my list clears it from Casey’s list only."]
   ]},
   {
   "id": "team-link",
@@ -401,69 +384,53 @@ const CHAPTERS = [
     ]
   ]
 },
-  { id: 'scan', title: 'Scan to play', who: 'Casey starts a fictional rotating doubles match in the current local app. Guest additions and two confirmations use local test calls; camera scanning was not exercised. The personal QR and later guest examples are separate earlier captures.', person: 'Casey', shots: [
-    ['nov09-scan-venue-search', 'Find a venue', 'Casey searches for Mueller in the local Scan plan form and sees the matching League venue. Location-based ordering was not tested in this example.'],
-    ['nov09-scan-rotating-plan', 'Choose the format', 'Casey chooses Mueller and rotating doubles. The form explains the game format and offers Create match plan.'],
-    ['nov09-scan-host-waiting', 'Scan the players', 'After Casey creates the plan, she is the first of four players. Start is unavailable until the other players confirm. The current plan says results go to DUPR; that choice can change when players are added.'],
-    ['nov09-scan-jade-review', 'Jade reviews the plan', 'After three fictional guests are added through local test calls, Jade opens the same four-player plan on her phone. She sees the lineup, skill-gap note and Confirm this plan. This image is before confirmation; the last player’s status appears after scrolling.'],
-    ['nov09-scan-jade-confirmed', 'Jade confirms', 'After Jade confirms on her phone, her row says Confirmed while Maya and Priya are still waiting in this capture. Casey confirms when starting the match.'],
-    ['nov09-scan-host-ready', 'Ready to start', 'After Maya and Priya are confirmed through local test calls, Casey’s host screen shows all three guests confirmed and Ready to start. Casey confirms when she starts.'],
-    ['nov09-scan-host-started', 'The match opens', 'Casey starts the plan in the app. The resulting local match shows the same four fictional players and the first rotation. Check-in entries are app records, not proof of physical attendance; no external DUPR submission was tested.'],
-    ['nov09-scan-rotations', 'See all planned games', 'Casey opens See all games on the same match. The sheet shows the three partner rotations and says to report only games actually played. This is a plan, not a recorded result.'],
-    ['nov09-latest-scan-score-form', 'Report the games', 'In the latest local app, Casey opens the fictional match’s score form. It starts with one game and offers Add another game. Both scores are required before reporting.'],
-    ['nov09-latest-scan-score-one', 'Enter the first game', 'Casey enters a fictional 11–7 first game and adds a blank second game. Report 1 game is still available; this is an unsent draft.'],
-    ['45-my-code', 'My QR', 'The code a host scans, in Circuit green and black. Casey is told to show it only to people she wants to play with, and that she can reset it in League settings.'],
+  { id: "scan", title: "Scan to play", who: "Casey starts a fictional rotating doubles match in the current local app. Guest additions and two confirmations use local test calls; camera scanning was not exercised. The personal QR and later guest examples are separate earlier captures. For the planned partnerships see <a href=\"#rotating-doubles-match\">the rotating match</a>; for game entry and opposing review see <a href=\"#rotating-scores-complete\">rotating scores</a> and <a href=\"#scores\">shared scoring</a>.", person: "Casey", shots: [
+    ["nov10-scan-venue-search","Find a venue","In a separate current draft, Alex searches for fictional Harborview and sees the matching venue. Select it before creating a plan; location-based ordering was not tested."],
+    ["nov10-scan-rotating-plan","Choose the format","Alex selects Harborview and rotating doubles. The current icons and text distinguish changing partners from a fixed team. This plan was not created; the following Casey example is a separate fixture."],
+    ["nov09-scan-host-waiting","Scan the players","After Casey creates the plan, she is the first of four players. Start is unavailable until the other players confirm. The current plan says results go to DUPR; that choice can change when players are added."],
+    ["nov09-scan-jade-review","Jade reviews the plan","After three fictional guests are added through local test calls, Jade opens the same four-player plan on her phone. She sees the lineup, skill-gap note and Confirm this plan. This image is before confirmation; the last player’s status appears after scrolling."],
+    ["nov09-scan-jade-confirmed","Jade confirms","After Jade confirms on her phone, her row says Confirmed while Maya and Priya are still waiting in this capture. Casey confirms when starting the match."],
+    ["nov09-scan-host-ready","Ready to start","After Maya and Priya are confirmed through local test calls, Casey’s host screen shows all three guests confirmed and Ready to start. Casey confirms when she starts."],
+    ["nov09-scan-host-started","The match opens","Casey starts the plan in the app. The resulting local match shows the same four fictional players and the first rotation. Check-in entries are app records, not proof of physical attendance; no external DUPR submission was tested."],
+    ["nov10-my-code","My QR","Alex’s current fictional QR is ready for a host to scan. The page explains that he reviews the match on his own phone and can reset the code in League settings. Camera recognition was not tested."]
   ]},
-  { id: 'scanned', title: 'Being scanned', who: 'Blake sees Alex’s fictional invitation and cancellation on his own simulator; Alex created the plan and added him through local test calls. Jade’s review is a separate Casey-hosted plan. Camera scanning was not exercised.', person: 'Blake, Alex and Jade', shots: [
-    ['nov09-883-blake-scan-added', 'Alex added you', 'After Alex adds Blake through a local test call, Blake’s My QR identifies Alex and says the invitation lasts 30 minutes. Blake can review the plan on his own phone.'],
-    ['nov09-883-blake-scan-cancelled', 'If the host cancels', 'After Blake opens the same plan, Alex cancels it in the app. Blake sees who cancelled and is told to ask the host to scan him again; the plan never started.'],
-    ['nov09-scan-jade-review', 'Jade reviews a different plan', 'In the current local Casey-hosted example, Jade sees a four-player rotating-doubles plan, its lineup and the option to confirm. The guests were added through test calls; camera scanning was not exercised.'],
+  { id: "scanned", title: "Being scanned", who: "Blake sees Alex’s fictional invitation and cancellation on his own simulator; Alex created the plan and added him through local test calls. Jade’s review is a separate Casey-hosted plan. Camera scanning was not exercised.", person: "Blake, Alex and Jade", shots: [
+    ["nov09-883-blake-scan-added","Alex added you","After Alex adds Blake through a local test call, Blake’s My QR identifies Alex and says the invitation lasts 30 minutes. Blake can review the plan on his own phone."],
+    ["nov09-883-blake-scan-cancelled","If the host cancels","After Blake opens the same plan, Alex cancels it in the app. Blake sees who cancelled and is told to ask the host to scan him again; the plan never started."]
   ]},
-  { id: 'challenges', title: 'Challenge a friend', who: 'Casey and Jade test a direct challenge. Maya’s separate current link challenge continues on Casey’s simulator; other labeled examples are earlier scenarios.', person: 'Casey, Jade and Maya', shots: [
-    ['70-menu', 'Challenges in the menu', 'The League header’s menu holds My QR code, Challenges, Friends, League settings and League rules.'],
-    ['nov09-casey-challenge-compose', 'Choose a player and place', 'Casey selects Jade, Singles and Mueller for a direct challenge. She chooses to agree on a time after acceptance.'],
-    ['nov09-casey-challenge-waiting', 'Waiting for an answer', 'After Casey sends the fictional challenge, the app shows Casey accepted and Jade waiting. The screen labels this a stretch match.'],
-    ['nov09-jade-challenge-invitation', 'Jade receives the challenge', 'Jade sees Casey has accepted and can accept or decline before the deadline. The match time is still to be agreed.'],
-    ['nov09-jade-challenge-accepted', 'Both players accepted', 'After Jade accepts, both players are marked accepted. They still need to set a time; Jade can open chat or choose Set time.'],
-    ['nov09-jade-challenge-time-selected', 'Choose a time', 'Jade selects Tuesday at 8 AM and saves the time. This example uses a fictional local fixture.'],
-    ['nov09-jade-challenge-confirmed', 'Match confirmed', 'Saving the time opens the confirmed singles match with both players and the venue. The calendar and chat actions were not exercised here.'],
-    ["nov09-current-challenge-empty", "No challenges yet", "Before creating a challenge, Maya sees how direct and link challenges work and the New challenge action."],
-    ['nov09-link-compose', 'A link anyone can take', 'Casey chooses Link, Singles and Mueller for a separate fictional challenge. The app says anyone with the link can take it.'],
-    ['nov09-link-private-place', 'A place that isn’t a League venue', 'Casey names a fictional driveway and enters Austin, TX manually. The form says the place name is visible to challenge players and shows its time zone. The match check was still running in this local capture; no challenge was created.'],
-    ["nov09-current-challenge-ready", "Time, DUPR and a note", "In a separate link challenge, Maya chooses Saturday at 10:30 AM, selects Send to DUPR and adds a note."],
-    ["nov09-current-challenge-share", "Share the link", "Maya opens the native share sheet for that fictional link challenge. No recipient was selected and the complete share payload was not inspected."],
-    ["nov09-current-challenge-waiting", "Waiting for a taker", "After dismissing the share sheet, Maya’s challenge shows her as accepted, an open seat for anyone with the link and an answer deadline."],
-    ["nov09-current-challenge-open", "Opening the link", "On a second simulator, Casey opens Maya’s same fictional challenge and sees the time, venue, DUPR choice and Accept challenge."],
-    ["nov09-current-challenge-recipient", "The link is accepted", "Casey accepts. Her view shows both players accepted and offers View match."],
-    ["nov09-current-challenge-host", "Accepted", "Maya’s view updates to show Casey accepted too. She can open the confirmed match."],
-    ["nov09-current-challenge-match", "An ordinary League match", "Casey opens the confirmed singles match, with the players, venue and Match chat."],
-    ['nov09-current-challenge-needs-you', 'A challenge in Needs you', 'In a separate local example, Casey’s League home shows Maya’s challenge, the venue, time to agree and answer deadline. The next match shown below is a different confirmed match.'],
-    ['nov09-current-named-response', 'Review the challenge', 'Casey opens Maya’s separate challenge. Maya has accepted; Casey can accept or decline before the answer deadline.'],
-    ['nov09-current-named-accepted', 'Both accepted, time still needed', 'After Casey accepts, both players show Accepted. They can open chat or set a time; this challenge is not yet a scheduled match.'],
-    ['nov09-current-named-time', 'Choose the agreed time', 'Casey selects Friday at 8 AM for the same challenge. The match is not confirmed until the time is saved.'],
-    ['nov09-current-named-booked', 'The challenge becomes a match', 'Saving opens the confirmed Friday match for Casey and Maya. The local fixture shows the venue and match chat; it does not reserve a court.'],
-    ['nov09-challenges-current-list', 'The Challenges list', 'Casey’s list groups Jade’s accepted link challenge under Needs you and a different withdrawn link under Closed. New challenge stays at the bottom.'],
-    ['nov09-link-withdraw-menu', 'Withdraw a challenge', 'In a separate fictional link challenge with no taker, Casey opens the options menu and chooses Withdraw challenge.'],
-    ['nov09-link-withdraw-confirm', 'Confirm withdrawal', 'The confirmation says the challenge cannot be undone and that people challenged are told. No external notification delivery was tested.'],
-    ['nov09-link-withdrawn', 'Withdrawn', 'After Casey confirms, the app says “You withdrew this challenge.” The local record is closed with a withdrawn reason.'],
+  { id: "challenges", title: "Challenge a friend", who: "Alex creates a current direct challenge for Ben; Ben accepts and schedules it on a separate simulator. The resulting match appears in <a href=\"#matches\">confirmed match details</a>. Alex’s separate link challenge shows sharing, the open seat and Ben taking it. The private-place draft is not submitted. The four-player differences are in <a href=\"#team-challenge-replacement\">team challenges</a>.", person: "Alex and Ben; separate link examples", shots: [
+    ["nov10-direct-challenge-compose", "Choose a player and place", "Alex opens a direct challenge for Ben, selects fictional Harborview and keeps Singles. The current format icons distinguish singles from fixed-team doubles."],
+    ["nov09-current-challenge-empty","No challenges yet","Before creating a challenge, Maya sees how direct and link challenges work and the New challenge action."],
+    ["nov10-link-challenge-compose", "A link anyone can take", "Alex opens a current singles link challenge. Anyone with its link can take the open seat; the form shows the current singles and fixed-team choices."],
+    ["nov10-link-private-place", "A place that is not a League venue", "In the same unsent draft, Alex enters a fictional private place, chooses Honolulu and sets its Hawaii time zone. The privacy and board explanation stays visible, and the form has finished checking the match. No challenge was created for this private place."],
+    ["nov10-link-challenge-ready", "Time, DUPR and a note", "Alex switches back to listed Harborview, keeps Let’s find a time and Send to DUPR, and adds a short note. The private-place draft above was not submitted."],
+    ["nov10-link-challenge-share", "Share the link", "Creating Alex’s listed-venue link challenge opens the native share sheet. It was dismissed without selecting a recipient or sending a message."],
+    ["nov10-link-challenge-waiting", "Waiting for a taker", "Alex’s current challenge shows 1 of 2 accepted, his accepted seat and an Open spot for anyone with the link. Its time is still to be agreed."],
+    ["nov10-link-challenge-open", "Opening the link", "Ben opens Alex’s current fictional challenge link on his own simulator. The preview identifies the inviter, court, deadline, unset time and DUPR intent before he accepts. No external message delivery was involved."],
+    ["nov10-link-challenge-accepted", "The open seat is taken", "Ben accepts Alex’s link on his own simulator. Both named participants are now accepted, but they still need to agree on a time. The shared direct-challenge example covers scheduling."],
+    ["nov09-current-challenge-needs-you","A challenge in Needs you","In a separate local example, Casey’s League home shows Maya’s challenge, the venue, time to agree and answer deadline. The next match shown below is a different confirmed match."],
+    ["nov10-direct-challenge-response", "Your response is needed", "Ben opens Alex’s direct invitation on a separate simulator. It explicitly says Your response needed and shows Alex accepted with Ben waiting."],
+    ["nov10-direct-challenge-accepted", "Both accepted; agree on a time", "Ben accepts in the app. The same challenge now shows 2 of 2 accepted and offers Set time or Open chat."],
+    ["nov10-direct-challenge-time", "Choose the agreed time", "Ben scrolls to the scheduling fields, chooses Saturday, November 14 at 8 AM Hawaii time, and can save. The form is in the same accepted fictional challenge."],
+    ["nov09-challenges-current-list","The Challenges list","Casey’s list groups Jade’s accepted link challenge under Needs you and a different withdrawn link under Closed. New challenge stays at the bottom."],
+    ["nov10-link-withdraw-menu", "Withdraw a challenge", "Before a time is set, Alex opens the options on the same link challenge that Ben accepted. Withdraw challenge is the consequential action."],
+    ["nov10-link-withdraw-confirm", "Confirm withdrawal", "The current confirmation says the challenge will be off and withdrawal cannot be undone. External notifications were not tested."],
+    ["nov10-link-withdrawn", "Withdrawn", "Alex confirms withdrawal. The same challenge now says Challenge closed and You withdrew this challenge, retaining the participants and note. No match was booked from this link."]
   ]},
   { id: 'following', title: 'Following players', who: 'Maya follows Jade from a record. Priya follows Elena from a separate completed match and reviews the block confirmation on Elena’s record.', person: 'Maya, Priya and Casey', shots: [
     ["nov09-current-jade-following", "Follow from a stats page", "Maya follows Jade from Jade’s record. Following, friend context and a Challenge action appear; no challenge is sent."],
     ['nov09-priya-elena-block', 'Block from a player record', 'At the bottom of Elena’s fictional League record, after rank history and matches, Priya can open Block.'],
     ['nov09-priya-elena-block-confirm', 'Review before blocking', 'The confirmation explains the effects on matchmaking and League messages and says Elena is not told. This example stops before confirming.'],
-    ['nov09-priya-match-follow', 'Follow after a match', 'In a separate fictional match, Priya’s final result offers Follow for Elena, Rematch and Share result.'],
-    ['nov09-priya-match-following', 'Following after a match', 'After Priya taps Follow, the same result shows Following. No rematch or external share was sent.'],
+    ["nov10-follow-after-match","Follow after a match","After the corrected fictional result is final, Alex can follow Ben, arrange a rematch or share the result. No external share was sent."],
+    ["nov10-following-after-match","Following after a match","Alex taps Follow and the same result shows Following. This changes the local fictional follow relationship; no notification delivery was tested."],
     ['nov09-casey-friends-following', 'Following', 'Casey’s Following list includes Jade and offers a Challenge action. The displayed rank is fictional fixture data.'],
     ['nov09-casey-friends-followers', 'Followers', 'In a separate simulator session, Riley followed Casey. Casey’s Followers tab shows Riley, so the followed player can see who follows them.'],
   ]},
-  { id: 'growth', title: 'Growing your local League', who: 'Drew explores fictional Honolulu counts before joining. Maya’s separate examples show city and venue progress; Ben’s result card comes from another fictional match. Counts are fixture snapshots.', person: 'Drew, Maya and Ben', shots: [
-    ['nov09-883-drew-prejoin', 'Before joining', 'Drew hasn’t joined. The League tab shows ten fictional Honolulu players, says DUPR is optional, and offers See who plays near you.'],
-    ['nov09-883-drew-near-city', 'Who plays near you', 'Drew chooses Honolulu and sees fictional city and venue counts. The screen says location is used once and not saved; this example uses manual city selection and does not verify location retention or infrastructure logging.'],
-    ["nov09-current-growth-city", "Your city in matchmaking", "The city section shows a fictional Austin count, a favorite venue and the friends-brought entry."],
-    ["nov09-current-growth-venue", "Venue progress", "Maya sees fictional player counts, format targets and founder spots for Mueller Lake Park Courts."],
-    ["nov09-current-growth-board", "Venue leaderboard", "The venue board says two players are listed and five are needed for standings; Maya’s own record remains visible."],
-    ["nov09-current-growth-friends", "Brought to the League", "Maya has not brought anyone yet. The page explains that a friend must join with her link and play a match."],
-    ['nov09-current-ben-exported-result', 'A result to share', 'In a separate fictional match, Ben generates this full result card with his name, venue and individual game scores. No external share was sent.'],
+  { id: "growth", title: "Growing your local League", who: "Drew explores fictional Honolulu counts before joining. Maya’s separate examples show city and venue progress; Ben’s result card comes from another fictional match. Counts are fixture snapshots.", person: "Drew, Maya and Ben", shots: [
+    ["nov09-883-drew-prejoin","Before joining","Drew hasn’t joined. The League tab shows ten fictional Honolulu players, says DUPR is optional, and offers See who plays near you."],
+    ["nov09-883-drew-near-city","Who plays near you","Drew chooses Honolulu and sees fictional city and venue counts. The screen says location is used once and not saved; this example uses manual city selection and does not verify location retention or infrastructure logging."],
+    ["nov09-current-growth-city","Your city in matchmaking","The city section shows a fictional Austin count, a favorite venue and the friends-brought entry."],
+    ["nov09-current-growth-friends","Brought to the League","Maya has not brought anyone yet. The page explains that a friend must join with her link and play a match."]
   ]},
   { id: 'settings', title: 'Settings, times and venues', who: 'Riley reviews the controls that shape League play and opens a saved venue.', person: 'Riley', shots: [
     ['nov09-settings-top', 'League settings', 'Riley can open formats, times, venues, Pause and notifications. Automatic check-in is off in this example; its description says the player can still play without it.'],
@@ -504,448 +471,72 @@ const CHAPTERS = [
   { id: 'inbox', title: 'Notifications', who: 'Riley checks recent activity in the in-app inbox.', person: 'Riley', shots: [
     ['nov09-riley-inbox', 'Inbox', 'Riley sees recent cancellation and result notices. Unread items have a green bar and are marked New. This is an in-app inbox, not proof that a push notification or email was delivered.'],
   ]},
-  {
-  "id": "rotating-doubles-match",
-  "title": "Get a rotating doubles match",
-  "who": "Maya’s separate example shows saved courts and preferences. Alex’s fictional local matching-time view is followed by a separately booked Friday match and planned rotations.",
-  "person": "Maya, then Alex, Jordan, Marcus and Nolan",
-  "shots": [
-    [
-      "nov09-latest-saved-venues",
-      "Saved courts",
-      "In a separate current example, Maya has Mueller as a Favorite and Pease as a Backup. The player counts are fictional fixture data and do not establish each player’s saved choices."
-    ],
-    [
-      "nov09-latest-venue-preference",
-      "Set a preference",
-      "Maya expands Mueller to see Favorite, Backup and Don’t use. The selected Favorite says it is prioritized when it works for everyone."
-    ],
-    [
-      "nov09-latest-venue-backup",
-      "Move a court to Backup",
-      "Maya changes Mueller from Favorite to Backup. It moves under Backups and remains there after she reopens the screen. She restores Favorite afterward."
-    ],
-    [
-      "nov09-latest-rotating-preferences",
-      "Result preferences",
-      "Maya opens rotating-doubles settings and sees Either, Send to DUPR and Don’t send to DUPR. Her rotating search is off in this example. This preference does not establish a match’s final result setting or a DUPR submission."
-    ],
-    [
-      "nov09-latest-rotating-no-dupr",
-      "Choose not to send",
-      "Maya selects Don’t send to DUPR, closes the settings and reopens them with the choice still selected. She restores Either afterward; no match or external DUPR submission was created."
-    ],
-    [
-      "nov09-883-matching-opportunities",
-      "A time that could match",
-      "Alex’s prepared fixture shows two possible Friday starts and separate guidance that Thursday lacks enough saved players. The suggestions can change and do not themselves book a match."
-    ],
-    [
-      "nov09-883-matching-grid",
-      "See the other starts",
-      "The expanded grid shows the same two Friday starts. This matching guidance is separate from the recent activity behind Popular times."
-    ],
-    [
-      "nov09-883-matching-picker",
-      "Review the window",
-      "Selecting Friday 7:30 PM opens the day editor with Alex’s existing 6–10 PM window. No new change or booking is saved here."
-    ],
-    [
-      "nov09-883-alex-rotating-home",
-      "The search finds a group",
-      "Alex’s later home view lists the Friday rotating match with Jordan, Marcus and Nolan. A separate Tuesday team match appears above it."
-    ],
-    [
-      "nov09-883-rotating-plan",
-      "The actual plan",
-      "The confirmed plan names the court, time zone and all four players. Three games are planned to 11, win by two; the first partnership is shown immediately."
-    ],
-    [
-      "nov09-883-rotating-lineups",
-      "Every partnership",
-      "See all games shows each planned lineup. Alex partners with Marcus, then Nolan, then Jordan. Players report only the games they actually play."
-    ],
-    [
-      "nov09-883-rotating-chat",
-      "Coordinate arrival",
-      "Jordan offers to bring balls and suggests the lighted courts. Alex replies that he can arrive at 5:50 and meet by the entrance to find an open court. Alex opens the shared chat and sees those earlier fixture messages; notification delivery is not shown."
-    ]
-  ]
-},
-  {
-  "id": "scan-doubles-complete",
-  "title": "Start a doubles match at the courts",
-  "who": "Alex creates a fictional plan and Ben reviews it on a second simulator. Local test calls add the players and confirm for Chris and Diego; camera scanning and external delivery were not tested.",
-  "person": "Alex and Ben",
-  "shots": [
-    [
-      "nov09-883-alex-scan-plan",
-      "At the courts",
-      "Alex picks Harborview and Rotating doubles. The plan has three games to 11, win by two."
-    ],
-    [
-      "nov09-883-scan-four-waiting",
-      "All four players",
-      "Alex, Ben, Chris and Diego are in the same plan. Start waits for the three guests to review it. The host confirms when starting."
-    ],
-    [
-      "nov09-883-scan-ben-invitation",
-      "Ben’s invitation",
-      "Ben sees Alex’s invitation and opens the plan before its answer deadline. The players were added through local test calls, not a camera scan."
-    ],
-    [
-      "nov09-883-scan-ben-review",
-      "Confirm only for yourself",
-      "Ben sees the same court, format and four players. The screen asks him to confirm only for himself, which he does on his simulator."
-    ],
-    [
-      "nov09-883-scan-guests-confirmed",
-      "Guests have confirmed",
-      "Ben’s view shows that all three guests have confirmed. Ben confirmed in the app; Chris and Diego confirmed through local test calls. The plan still waits for Alex to start."
-    ],
-    [
-      "nov09-883-scan-host-ready",
-      "Ready to start",
-      "On Alex’s view, all three guest confirmations are in and Start match is available. Once someone has confirmed, the screen says an unconfirmed player can still be removed; other changes require a new plan."
-    ],
-    [
-      "nov09-883-scan-started",
-      "The published match",
-      "Alex starts the match. The same four players appear in the rotating match, with check-in entries at the start, planned games and a score deadline. Those entries do not independently establish physical arrival."
-    ]
-  ]
-},
-  {
-  "id": "rotating-scores-complete",
-  "title": "Report, correct and confirm doubles scores",
-  "who": "Alex reports and corrects the fictional match started above. Ben reviews on a second simulator; Chris confirms the remaining game through an authenticated local test call. History and sharing examples are from an earlier separate fictional match.",
-  "person": "Alex, Ben and Chris",
-  "shots": [
-    [
-      "nov09-883-score-form",
-      "The score form",
-      "For this fictional example, Alex opens the report. Each game names its actual partnerships; these change from one rotation to the next."
-    ],
-    [
-      "nov09-883-score-one",
-      "Enter one game",
-      "Alex and Ben won game 1, 11–8 against Chris and Diego. The report can include only the games actually played."
-    ],
-    [
-      "nov09-883-score-three",
-      "All three games",
-      "Alex enters the remaining games: Ben and Chris win game 2, 11–9; Alex and Chris win game 3, 11–7. The scrolled form shows games 2 and 3; game 1 is above."
-    ],
-    [
-      "nov09-883-score-sent",
-      "Sent, waiting for review",
-      "The receipt shows 11–8, 11–9 and 11–7 with the correct partnerships. It is waiting for the other players; sending alone does not confirm the result."
-    ],
-    [
-      "nov09-883-score-correct",
-      "Fix a typing mistake",
-      "Before anyone answers, Alex corrects Ben and Diego’s game 3 score from 7 to 9. The other two games stay unchanged."
-    ],
-    [
-      "nov09-883-score-corrected-sent",
-      "The corrected receipt",
-      "The same match now shows game 3 as 11–9, and a new review deadline. Players, venue and all other scores match the original report."
-    ],
-    [
-      "nov09-883-score-ben-review",
-      "Ben reviews on his device",
-      "Ben opens the corrected report on a second simulator and scrolls to review game 3. Score is right confirms the games where he opposed Alex; game 1 is above the visible area."
-    ],
-    [
-      "nov09-883-score-ben-answered",
-      "Ben’s answer is saved",
-      "After Ben confirms, the screen returns to a pending score. Game 1 still needs an opposing player because Ben was Alex’s partner; the screen does not explicitly acknowledge his answer."
-    ],
-    [
-      "nov09-current-ben-match-history",
-      "Back in match history",
-      "In a separate earlier fictional match with the same example scores, Ben’s Past tab lists two games won and one lost."
-    ],
-    [
-      "nov09-883-score-final",
-      "The final result",
-      "After Chris confirms the remaining game through a local test call, Ben’s match shows FINAL and two wins from three games. The corrected third-game score is 11–9."
-    ],
-    [
-      "nov09-current-ben-result-share",
-      "Share the result",
-      "In the separate earlier example, Share result generates a PNG and opens the phone’s share sheet. No recipient is selected."
-    ],
-    [
-      "nov09-current-ben-exported-result",
-      "The actual exported card",
-      "The current app-generated 1080 × 1350 image shows scores from Ben’s perspective: 11–8, 11–9 and 9–11, giving two wins from three games."
-    ]
-  ]
-},
-{
-  "id": "team-doubles-complete",
-  "title": "Build a regular doubles partnership",
-  "who": "Ben accepts Chris’s fictional invitation on his simulator and opens their team. The invite was created through a local test call. The later next-week and booking examples show separate earlier Alex–Ben states.",
-  "person": "Alex and Ben",
-  "shots": [
-    [
-      "nov09-current-team-invite-form",
-      "Create the team invitation",
-      "A player chooses a category and sees how long the link works. This current form is shown separately from Alex’s earlier invitation below."
-    ],
-    [
-      "nov09-current-team-invite-share",
-      "Share the invitation link",
-      "A separate fictional Ben invitation opens the native share sheet. No recipient is selected, and the preview does not show the full link."
-    ],
-    [
-      "nov09-883-ben-chris-invite",
-      "Ben reviews the invitation",
-      "Ben opens Chris’s link on his own simulator and checks the inviter, category and deadline. They had already played together in the local fixture."
-    ],
-    [
-      "nov09-883-ben-chris-formed",
-      "The partnership is formed",
-      "Ben accepts. The app says Ben and Chris are now a Men’s doubles team."
-    ],
-    [
-      "nov09-883-ben-chris-times",
-      "Compare shared times",
-      "The newly formed team shows Ben and Chris both available Monday and Friday, and Chris has no Tuesday time. The matching status and times are fictional local data."
-    ],
-    [
-      "nov09-current-ben-team-next-week",
-      "Check next week",
-      "In a separate earlier Alex–Ben team state, next week has no saved times for either partner. The upcoming match shown belongs to the current week."
-    ],
-    [
-      "nov09-40-team-booked",
-      "A real Team doubles booking",
-      "In an earlier fixture state with compatible Monday times, the matcher booked Alex and Ben against Chris and Diego at Harborview, Monday at 6 PM HST. The preceding next-week screen is a different, later state."
-    ],
-    [
-      "nov09-41-team-chat",
-      "Coordinate as four players",
-      "The earlier match chat shows Chris suggesting an entrance and offering balls, and Alex replying. The image does not prove external notification delivery."
-    ]
-  ]
-},
-{
-  "id": "availability-venue-depth",
-  "title": "Choose useful times and check the court",
-  "who": "Alex saves a one-week schedule change and explores popular starts in the current local app. The venue counts and time suggestions are fictional fixture data; a separate matching-times request failed locally.",
-  "person": "Alex",
-  "shots": [
-    [
-      "nov09-883-one-week-save-choice",
-      "Save for one week or every week",
-      "After selecting Monday 6–8 PM, Alex sees a choice between Just next week and Every week. Keep editing is also offered."
-    ],
-    [
-      "nov09-883-one-week-saved",
-      "The one-week change is saved",
-      "After Alex selects Just next week, Monday 6–8 PM appears as One week only. The later weekly rollover was not tested."
-    ],
-    [
-      "nov09-883-times-popular",
-      "Explore popular times",
-      "Alex’s rotating-doubles popular starts reflect recent fictional saved availability and do not guarantee a match. The expanded grid extends horizontally; Friday is partly offscreen in this view."
-    ],
-    [
-      "nov09-883-popular-picker",
-      "A popular start opens the picker",
-      "Alex taps Friday 6 PM. The editor opens with his existing 6–10 PM window selected; no change or booking is saved here."
-    ],
-    [
-      "nov09-883-harborview-popular",
-      "Activity at the saved venue",
-      "In the current local fixture, Alex selects Team doubles at Harborview. Friday starts reflect recent saved times across categories; adding one does not guarantee a match."
-    ],
-    [
-      "nov09-883-harborview-access",
-      "Reopen access information",
-      "The fictional venue has Favorite selected and shows an address, directions, court details and an access reminder. A League listing does not reserve a court or guarantee access."
-    ]
-  ]
-},
-{
-  "id": "doubles-change-plans",
-  "title": "Cancel, pause and report an unplayed match",
-  "who": "Alex cancels a fictional team match, then pauses and resumes with a separate rotating match still booked. A third, separately prepared fictional match illustrates reporting an absence.",
-  "person": "Alex",
-  "shots": [
-    [
-      "nov09-883-team-cancel-preview",
-      "Read the cancellation consequence",
-      "Before the start, Alex sees that cancellation ends the match for both teams and the opposing pair can return to matchmaking together."
-    ],
-    [
-      "nov09-883-team-cancelled",
-      "The cancellation is recorded",
-      "Alex cancels the same fictional match. It is marked Cancelled; the local record classifies the cancellation as non-late. The opposing pair’s later search was not verified."
-    ],
-    [
-      "nov09-883-pause-scopes",
-      "Choose the scope of a break",
-      "Alex can pause everything or either partnership, with a return date. The sheet says already booked matches stay booked."
-    ],
-    [
-      "nov09-883-paused-and-booking",
-      "Booked matches stay visible",
-      "Alex pauses everything. His separate Friday rotating match remains confirmed, and the banner says offers and new bookings stop during the pause."
-    ],
-    [
-      "nov09-883-pause-ended",
-      "End the pause",
-      "Alex ends the pause and the Friday match remains. Matchmaking is off in this fixture, and the screen offers Start matchmaking."
-    ],
-    [
-      "nov09-883-absence-preview",
-      "Check a missing-player report",
-      "In a separately prepared fictional rotating match, Alex selects Diego. The sheet explains the response window and potential conduct consequence, and says no score or rating change will be recorded."
-    ],
-    [
-      "nov09-883-absence-result",
-      "End as not played",
-      "Alex ends the match as not played; the local record has no games. The app states Diego did not come, but this is a report, not proof of attendance or a final conduct decision. His response was not tested."
-    ]
-  ]
-},
-{
-  "id": "team-challenge-replacement",
-  "title": "Arrange a team challenge",
-  "who": "Alex and Blake use two simulators for a fictional challenge against Chris and Diego. The challenge and opponents’ acceptances use authenticated local test calls. The chat does not establish the other pair’s agreement to the selected time.",
-  "person": "Alex, Blake, Chris and Diego",
-  "shots": [
-    [
-      "nov09-883-team-challenge-pending",
-      "Create a team challenge",
-      "Alex’s fictional challenge names Blake, Chris and Diego, with time to agree. It was created through an authenticated local test call."
-    ],
-    [
-      "nov09-883-team-challenge-review",
-      "Blake reviews on his own phone",
-      "Blake sees Alex accepted, the other players waiting, the venue, note and Circuit-only choice before accepting."
-    ],
-    [
-      "nov09-883-team-challenge-accepted",
-      "Everyone accepts; time is still needed",
-      "After Blake accepts on his simulator and Chris and Diego accept through local test calls, all four show Accepted. The challenge still needs a time."
-    ],
-    [
-      "nov09-883-team-challenge-chat",
-      "Discuss a time",
-      "Blake proposes Wednesday at 6 PM in the fictional local chat; Alex says it works for him and asks Chris and Diego. Their agreement to the specific time is not shown."
-    ],
-    [
-      "nov09-883-team-challenge-time",
-      "Choose a time",
-      "Alex selects Wednesday at 6 PM Hawaii time. The selected time is not saved in this image; the chat shown does not establish all four players agreed to it."
-    ],
-    [
-      "nov09-883-team-challenge-confirmed",
-      "The challenge becomes a match",
-      "Alex saves the selected time and the app opens a confirmed fictional Team doubles match. This shows the app state, not the other players’ independent agreement to that time."
-    ],
-    [
-      "nov09-883-team-challenge-match-chat",
-      "The conversation carries over",
-      "Opening the match chat shows the earlier messages beneath the Wednesday booking. No external notification delivery was tested."
-    ]
-  ]
-},
-{
-  "id": "doubles-season-results",
-  "title": "Finish an eight-week doubles season",
-  "who": "Earlier fictional season fixture: ten players, five pairs, 32 recorded matches and 96 games. See <a href='#season-progress'>Your season</a> for separate earlier snapshots; the latest season, ranking and recap screens still need comparison.",
-  "person": "Alex and Ben",
-  "shots": [
-    [
-      "nov09-current-alex-weekly-recap",
-      "A weekly recap",
-      "In the fictional week of October 12, Alex won two games and lost one in a single match. The placements come from that week’s published snapshot."
-    ],
-    [
-      "nov09-current-alex-season-record",
-      "Alex’s season record",
-      "Alex’s season page shows his personal record, opponents, partners, venues, form and final placement."
-    ],
-    [
-      "nov09-current-alex-badges",
-      "Progress and earned badges",
-      "The same season page shows earned badges and the later weeks of the rank chart."
-    ],
-    [
-      "nov09-current-alex-rank-history",
-      "Eight weeks of rank history",
-      "Swipe the weekly chart to see earlier placements. This view shows the first weeks; the later weeks and final placement are offscreen."
-    ],
-    [
-      "nov09-current-team-expanded-result",
-      "Expand a Team doubles result",
-      "Alex and Ben keep the same partnership through all three games against Ethan and Jordan: 11–8, 11–9 and 9–11."
-    ],
-    [
-      "nov09-current-season-final-doubles-board",
-      "Final individual doubles standings",
-      "The fictional final snapshot shows the top of the individual board and pins Alex’s eighth-place record. Only part of the list is visible."
-    ],
-    [
-      "nov09-current-season-final-team-board",
-      "Final Team doubles standings",
-      "The fictional final snapshot has a separate team board. Alex and Ben appear first with four match wins and two losses; only part of the list is visible."
-    ],
-    [
-      "nov09-current-alex-season-recap",
-      "Alex’s season recap",
-      "Alex’s fictional season-end recap shows 12 matches, a 16–20 game record and placements from the published season snapshot."
-    ],
-    [
-      "nov09-current-ben-season-recap",
-      "Ben’s own outcome",
-      "In a separate fictional player session, Ben’s recap shows 12 matches and an 18–18 game record. His personal outcome differs from Alex’s even though they also play as a regular team."
-    ],
-    [
-      "nov09-current-season-complete-badge",
-      "What earns Season complete",
-      "Alex opens the earned badge to see the Season 1 completion threshold. This fictional example does not establish physical play."
-    ]
-  ]
-},
-
+  { id: "rotating-doubles-match", title: "Get a rotating doubles match", who: "See the shared <a href=\"#settings\">court settings</a> and <a href=\"#widen-time\">matching guidance</a>. These separate fictional examples show rotating preferences and the different partnerships in a confirmed match.", person: "Maya, then Alex, Jordan, Marcus and Nolan", shots: [
+    ["nov09-latest-rotating-preferences","Result preferences","Maya opens rotating-doubles settings and sees Either, Send to DUPR and Don’t send to DUPR. Her rotating search is off in this example. This preference does not establish a match’s final result setting or a DUPR submission."],
+    ["nov09-latest-rotating-no-dupr","Choose not to send","Maya selects Don’t send to DUPR, closes the settings and reopens them with the choice still selected. She restores Either afterward; no match or external DUPR submission was created."],
+    ["nov10-rotating-match","The actual plan","The confirmed plan names the court, time zone and all four players. Three games are planned to 11, win by two; the first partnership is shown immediately."],
+    ["nov10-rotating-lineups","Every partnership","See all games shows each planned lineup. Alex partners with Marcus, then Nolan, then Jordan. Players report only the games they actually play."]
+  ]},
+  { id: "scan-doubles-complete", title: "Start a doubles match at the courts", who: "The shared <a href=\"#scan\">Scan to play</a> flow covers the host and guest steps. This separate guest example uses the same fictional group as <a href=\"#rotating-scores-complete\">rotating score review</a>; each guest confirms only for themselves. Players were added through local test calls; camera scanning was not exercised.", person: "Alex and Ben", shots: [
+    ["nov09-883-scan-ben-review","Confirm only for yourself","Ben sees the same court, format and four players. The screen asks him to confirm only for himself, which he does on his simulator."]
+  ]},
+  { id: "rotating-scores-complete", title: "Report, correct and confirm doubles scores", who: "See the shared <a href=\"#scores\">score reporting and review</a> and <a href=\"#fix-score\">correction</a> flows. These fictional rotating-doubles examples show changing partnerships and who can confirm each game.", person: "Alex, Ben and Chris", shots: [
+    ["nov09-883-score-form","The score form","For this fictional example, Alex opens the report. Each game names its actual partnerships; these change from one rotation to the next."],
+    ["nov09-883-score-three","All three games","Alex enters the remaining games: Ben and Chris win game 2, 11–9; Alex and Chris win game 3, 11–7. The scrolled form shows games 2 and 3; game 1 is above."],
+    ["nov09-883-score-ben-review","Ben reviews on his device","Ben opens the corrected report on a second simulator and scrolls to review game 3. Score is right confirms the games where he opposed Alex; game 1 is above the visible area."],
+    ["nov09-883-score-ben-answered","Ben’s answer is saved","After Ben confirms, the screen returns to a pending score. Game 1 still needs an opposing player because Ben was Alex’s partner; the screen does not explicitly acknowledge his answer."],
+    ["nov09-current-ben-exported-result","The actual exported card","The current app-generated 1080 × 1350 image shows scores from Ben’s perspective: 11–8, 11–9 and 9–11, giving two wins from three games."]
+  ]},
+  { id: "team-doubles-complete", title: "Build a regular doubles partnership", who: "For invitations, acceptance and shared times see <a href=\"#teams\">Team doubles</a> and <a href=\"#team-link\">joining from a team link</a>. This current separate fictional match shows the fixed-partner roster.", person: "Alex and Blake", shots: [
+    ["nov10-fixed-team-roster","Fixed partners","In a separate current fictional match, Alex and Blake form one team and Chris and Diego are their opponents. The roster groups fixed partners; the shared booking and chat steps are covered elsewhere."]
+  ]},
+  { id: "availability-venue-depth", title: "Choose useful times and check the court", who: "See <a href=\"#widen-time\">shared popular-time guidance and one-week changes</a>. These views retain venue-specific activity and court access details.", person: "Alex", shots: [
+    ["nov09-883-harborview-popular","Activity at the saved venue","In the current local fixture, Alex selects Team doubles at Harborview. Friday starts reflect recent saved times across categories; adding one does not guarantee a match."],
+    ["nov09-883-harborview-access","Reopen access information","The fictional venue has Favorite selected and shows an address, directions, court details and an access reminder. A League listing does not reserve a court or guarantee access."]
+  ]},
+  { id: "doubles-change-plans", title: "Cancel, pause and report an unplayed match", who: "See the shared <a href=\"#cancel\">cancellation</a>, <a href=\"#break\">Pause</a> and <a href=\"#absence\">missing-player report</a> flows. These fictional examples show the differences for teams and four players.", person: "Alex", shots: [
+    ["nov09-883-team-cancel-preview","Read the cancellation consequence","Before the start, Alex sees that cancellation ends the match for both teams and the opposing pair can return to matchmaking together."],
+    ["nov09-883-pause-scopes","Choose the scope of a break","Alex can pause everything or either partnership, with a return date. The sheet says already booked matches stay booked."],
+    ["nov09-883-paused-and-booking","Booked matches stay visible","Alex pauses everything. His separate Friday rotating match remains confirmed, and the banner says offers and new bookings stop during the pause."],
+    ["nov09-883-absence-preview","Check a missing-player report","In a separately prepared fictional rotating match, Alex selects Diego. The sheet explains the response window and potential conduct consequence, and says no score or rating change will be recorded."]
+  ]},
+  { id: "team-challenge-replacement", title: "Arrange a team challenge", who: "See the shared <a href=\"#challenges\">challenge flow</a>. These fictional examples show participant responses and the resulting fixed-team match; some acceptances used local test calls.", person: "Alex, Blake, Chris and Diego", shots: [
+    ["nov10-challenge-waiting","Who is still waiting?","In a separate current fictional challenge prepared through a local test call, Alex sees himself accepted and Blake, Chris and Diego waiting. The summary shows 1 of 4 accepted; the match time is still to be agreed."],
+    ["nov10-challenge-needs-time","Everyone accepts; time is still needed","After local test calls accept for the other three fictional players, Alex reopens the same challenge. It says Agree on a time and 4 of 4 accepted, with Set time and Open chat actions. No match is booked yet."],
+    ["nov10-challenge-all-accepted","The challenge becomes a match","In a current capture of the same fictional challenge, Alex sees Match confirmed, all four players marked Accepted, and the agreed match time. View match opens the booking; this screen does not establish the players’ independent agreement to that specific time."]
+  ]},
+  { id: "doubles-season-results", title: "Finish an eight-week doubles season", who: "See <a href=\"#season-progress\">Your season</a> and <a href=\"#recaps\">Weekly recap</a> for shared progress. These earlier fictional examples show a fixed-team result and separate individual and team standings.", person: "Alex and Ben", shots: [
+    ["nov09-current-team-expanded-result","Expand a Team doubles result","Alex and Ben keep the same partnership through all three games against Ethan and Jordan: 11–8, 11–9 and 9–11."],
+    ["nov09-current-season-final-doubles-board","Final individual doubles standings","The fictional final snapshot shows the top of the individual board and pins Alex’s eighth-place record. Only part of the list is visible."],
+    ["nov09-current-season-final-team-board","Final Team doubles standings","The fictional final snapshot has a separate team board. Alex and Ben appear first with four match wins and two losses; only part of the list is visible."],
+    ["nov09-current-alex-season-recap","Alex’s season recap","Alex’s fictional season-end recap shows 12 matches, a 16–20 game record and placements from the published season snapshot."]
+  ]},
   { id: 'usual-times-current', title: 'Edit usual times', who: 'Casey adds a Thursday evening and checks that it repeats the following week.', person: 'Casey', shots: [
     ['nov09-current-times-before', 'Start with saved times', 'Casey already has Tuesday from 6–9 PM. She opens Add time on Thursday, Nov 12.'],
     ['nov09-current-times-select', 'Choose Thursday hours', 'Casey selects 6, 7 and 8 PM, making a 6–9 PM window. Same times on can copy the selection to other days.'],
     ['nov09-current-times-saved', 'Thursday is saved', 'The saved Thursday 6–9 PM window appears alongside Tuesday. Each day has an Edit times action.'],
     ['nov09-current-times-next-week', 'Check the following week', 'Next week shows both Tuesday and Thursday 6–9 PM. This example saved usual times; one-week changes are a separate choice.'],
   ]},
-
   { id: 'disagree-score-current', title: 'Disagree with a score', who: 'In another singles match, Taylor proposes a different score and Riley accepts it.', person: 'Taylor and Riley', shots: [
     ['nov09-dispute-propose', 'Send a different score', 'Riley originally reported 11–7. Taylor chooses Something’s wrong, changes the score to 11–9 and can add a note before sending it.'],
     ['nov09-dispute-receipt', 'Proposal sent', 'Taylor sees that the score was sent as a proposal for Riley to accept.'],
     ['nov09-dispute-review', 'Riley reviews the proposal', 'Riley sees Taylor’s 11–9, the response deadline and options to accept or keep the original score.'],
     ['nov09-dispute-final', 'The agreed result', 'Riley accepts Taylor’s score. The same match is Final with one game recorded. The local fixture shows a pending DUPR send.'],
   ]},
-
   { id: 'join-notifications-current', title: 'Notifications after joining', who: 'What Blake sees after starting matchmaking with notifications off.', person: 'Blake', shots: [
     ['nov09-join-notifications', 'Hear about match offers?', 'Starting matchmaking prompts Blake to turn on notifications or choose Not now. Without notifications, the prompt says an offer can be missed.'],
   ]},
-
   { id: 'team-cancel-earlier', title: 'A partner cancels a team match', who: 'Ben checks a fictional Team doubles cancellation.', person: 'Alex and Ben', shots: [
     ['nov09-current-ben-team-cancel', 'A partner cancels', 'Ben sees that Alex cancelled and their team search is off. The screen offers Search again; the other team’s recovery is not shown.'],
   ]},
-
   { id: 'venue-popular-empty', title: 'When a venue has little recent activity', who: 'Riley checks popular times at a saved venue in the local fixture.', person: 'Riley', shots: [
     ['nov09-venue-popular-empty', 'Not enough recent data', 'Popular times has no recent data to show at Pease Park in this fixture. Riley can edit times, open the venue leaderboard or view the League flyer. The screenshot does not establish live venue activity.'],
   ]},
-
-  { id: 'current-home-booked', title: 'A booked match on League home', who: 'Casey opens a current fictional match from home. The chat example uses a separate Riley match.', person: 'Casey and Riley', shots: [
-    ["nov09-current-booked-home", "Upcoming match", "After accepting Maya’s fictional challenge, Casey sees their confirmed match on League home. She can open the match from this card."],
-    ["nov09-current-challenge-match", "Open the match", "Casey opens that match to see the venue, format, players and Match chat."],
-    ['nov09-chat-recovered-draft', 'Chat becomes available', 'Riley’s match chat shows a suggested message in the composer. The draft has not been sent.'],
+  { id: "current-home-booked", title: "A booked match on League home", who: "Casey sees a fictional match on home; <a href=\"#matches\">confirmed matches and chat</a> shows match details and conversation.", person: "Casey and Riley", shots: [
+    ["nov09-current-booked-home","Upcoming match","After accepting Maya’s fictional challenge, Casey sees their confirmed match on League home. She can open the match from this card."],
+    ["nov09-chat-recovered-draft","Chat becomes available","Riley’s match chat shows a suggested message in the composer. The draft has not been sent."]
   ]},
-{
+  {
   "id": "final-score-correction",
   "title": "Request a final-score correction",
   "who": "Alex reviews a fictional finalized match. The request is filed through a local test call after the form is shown; the review decision is not shown.",
@@ -966,6 +557,12 @@ const CHAPTERS = [
 ];
 
 const all = [];
+// Numbered links belong to the published gallery before consolidation.
+// New links use the capture identifier and survive reordering.
+if (/^#s\d+$/.test(location.hash)) {
+  location.replace(`archive-20261110.html${location.hash}`);
+}
+
 const host = document.getElementById('chapters');
 const toc = document.getElementById('toc');
 CHAPTERS.forEach((c, ci) => {
@@ -979,9 +576,9 @@ CHAPTERS.forEach((c, ci) => {
     const idx = all.length;
     const n = String(idx + 1).padStart(2, '0');
     const src = `img/oct26/${file}.webp?v=${IMAGE_VERSION}`;
-    all.push({ n, t, d, src, chapter: c.title });
+    all.push({ n, file, t, d, src, chapter: c.title });
     const el = document.createElement('article');
-    el.className = 'shot'; el.id = `s${n}`;
+    el.className = 'shot'; el.id = `shot-${file}`;
     el.innerHTML = `<button class="img" type="button" aria-label="Open screen ${n}: ${t}"><img loading="${idx < 4 ? 'eager' : 'lazy'}" decoding="async" width="1206" height="2622" src="${src}" alt=""></button>
       <span class="num">${n}</span><h3>${t}</h3><p>${d}</p>`;
     el.querySelector('button.img').addEventListener('click', () => openLb(idx));
@@ -1034,7 +631,7 @@ function show(i) {
   document.getElementById('lbtitle').textContent = s.t;
   document.getElementById('lbcap').textContent = s.d;
   for (let k = -1; k <= 2; k++) { const j = cur + k; if (imgs[j] && !imgs[j].src) imgs[j].src = all[j].src; }
-  history.replaceState(null, '', `#s${s.n}`);
+  history.replaceState(null, '', `#shot-${s.file}`);
 }
 const slideLeft = (i) => track.children[i].offsetLeft;
 const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)');
@@ -1050,7 +647,7 @@ function openLb(i) { if (!lb.open) lb.showModal(); goTo(i, false); }
 function closeLb() { lb.close(); }
 lb.addEventListener('close', () => {
   history.replaceState(null, '', location.pathname + location.search);
-  const currentShot = document.getElementById(`s${all[cur].n}`);
+  const currentShot = document.getElementById(`shot-${all[cur].file}`);
   currentShot?.scrollIntoView({ block: 'center' });
   currentShot?.querySelector('button.img')?.focus({ preventScroll: true });
 });
@@ -1078,20 +675,24 @@ document.addEventListener('keydown', (e) => {
   if (e.key === 'ArrowRight') { e.preventDefault(); step(1); }
   if (e.key === 'ArrowLeft') { e.preventDefault(); step(-1); }
 });
-// A shared #sNN link opens that screen. A chapter link is applied again once the page and its
-// fonts exist, because the chapters are built here and the fonts reflow the text above them.
-// A screen link can also be opened while this page is already displayed.
+// Capture identifiers remain stable when chapters are shortened or reordered.
+function openHashScreen() {
+  const id = location.hash.startsWith('#shot-') ? location.hash.slice(6) : null;
+  const index = id === null ? -1 : all.findIndex((screen) => screen.file === id);
+  if (index < 0) return false;
+  openLb(index);
+  return true;
+}
 addEventListener('hashchange', () => {
-  const screen = location.hash.match(/^#s(\d+)$/);
-  if (screen && all[+screen[1] - 1]) openLb(+screen[1] - 1);
+  if (/^#s\d+$/.test(location.hash)) location.replace(`archive-20261110.html${location.hash}`);
+  else openHashScreen();
 });
-const m = location.hash.match(/^#s(\d+)$/);
-if (m && all[+m[1] - 1]) openLb(+m[1] - 1);
-else if (location.hash.length > 1) {
+if (!openHashScreen() && location.hash.length > 1 && !/^#s\d+$/.test(location.hash)) {
   const target = document.getElementById(location.hash.slice(1));
   const land = () => requestAnimationFrame(() => scrollTo({ top: target.getBoundingClientRect().top + scrollY - document.querySelector('nav.toc').offsetHeight - 8, behavior: 'instant' }));
   if (target) addEventListener('load', () => document.fonts.ready.then(land), { once: true });
 }
+
 </script>
 </body>
 </html>
