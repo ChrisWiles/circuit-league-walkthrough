@@ -2,11 +2,11 @@
 
 [Open the tour](https://chriswiles.github.io/circuit-league-walkthrough/).
 
-The reference gallery contains 238 iPhone screens and one exported result card in 42 chapters. The Your season chapter includes a current local record and a separately labeled earlier example; the earlier sequence still needs current comparison. It covers joining, saved courts and times, searching and booking, chat, cancellations and absence responses, score reporting and correction, boards and records, weekly recaps, Team doubles, Scan to play, challenges, following, local growth, settings, Pause and safety.
+The reference gallery contains 221 iPhone screens and one exported result card in 42 chapters. The Your season chapter includes a current local record and a separately labeled earlier example; the earlier sequence still needs current comparison. It covers joining, saved courts and times, searching and booking, chat, cancellations and absence responses, score reporting and correction, boards and records, weekly recaps, Team doubles, Scan to play, challenges, following, local growth, settings, Pause and safety.
 
 The recommended doubles route links courts and times, matching, Scan, reporting, regular partners, changed plans, replacement scheduling and season results. The route combines separate fictional examples, including the newer Casey Scan plan and earlier doubles chapters; it does not follow one continuous match.
 
-Tap a screen to open the viewer. Arrow keys and swipes step through the gallery; new screenshot links use `#shot-<image-name>`; older numbered links such as `#s12` open the historical gallery with their original images and captions. Chapters provide direct links to the main tasks.
+Tap a screen to open the viewer. Arrow keys and swipes step through the gallery; new screenshot links use `#shot-<image-name>`; older numbered links such as `#s12` open the original gallery with their original images and captions. Named links for images replaced since the interim publication open that interim archive. Each archive keeps its own capture manifest. Chapters provide direct links to the main tasks.
 
 ## Capture records
 

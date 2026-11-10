@@ -1,0 +1,2878 @@
+{
+ "capturedOn": "2026-11-09",
+ "appBase": "Pickleball-Tournaments local main 016cb496c for the six Your season captures; earlier retained captures: Pickleball-Tournaments local main bd10ac775 plus two uncommitted mobile fixes (challenge create sends the installation header; Challenges screen pinned New challenge) for the 31 screens added 2026-11-08; other screens kept from the 2026-10-26/29 and 2026-11-02/03 captures; Honolulu doubles expansion: isolated bf391 snapshot +016cb496c feature +receipt grammar and per-game own-side history fixes; normal local data clock. Usual times chapter: isolated e0531b714; times owners unchanged through 5faf151a7. Pause and return: isolated e0531b714; relevant home and Pause owners unchanged through 5faf151a7. Singles score review: isolated 5faf151a7 and local matching ranking migrations; two simulator installations. Score correction: isolated 5faf151a7, same local migrations, separate opposing simulator. Score disagreement: isolated 5faf151a7 and separate opposing simulator. Join setup: isolated 5faf151a7; Blake joined, Drew supplied selected venue, landing and accepted-terms views. Match chat: isolated 5faf151a7; prepared match, separate Casey and Riley simulator sessions. Cancellation: isolated 5faf151a7; prepared fixtures and two separate simulator actors. Missed-match response: isolated 5faf151a7; prepared match and separate Riley and Taylor simulator actors. Settings: isolated 5faf151a7, fictional Riley, dark and default text. Format selection: isolated 5faf151a7; Riley saved Mixed rotating doubles and reopened selection after local retries. Scan score form and one-game draft: app 7cd41e388b on the earlier isolated fictional database schema; no score submitted. Scan score form and one-game draft: app 7cd41e388b on the earlier isolated fictional database schema; no score submitted. Latest home, season summary and detail, Scan score form and draft: app 7cd41e388b on the earlier isolated fictional database schema; no score submitted. Latest home, season summary, detail, history and share, Scan score form and draft: app 7cd41e388b on the earlier isolated fictional database schema; no score submitted. Latest home, season summary, detail, history and share, Scan score form and draft: app 7cd41e388b on an earlier isolated fictional schema. Casey record uses 7cd41e388b with latest migrations in a separate fictional database; no score submitted. Latest home, season and Scan form captures use app 7cd41e388b on an earlier isolated fictional schema; Casey record and one-game score flow use the latest migrations on a separate fictional database. Latest home, season and Scan form captures use app 7cd41e388b on an earlier fictional schema; Casey record, one-game score and Maya review/confirmation use latest migrations on a separate fictional database. Latest home, season and Scan form captures use app 7cd41e388b on an earlier fictional schema; Casey record, one-game score, opposing review and times-format selection use latest migrations on a separate fictional database. Latest rank chart: app 9e7a9ffb0 with the latest migrations and fictional local data. Earlier recent captures use app 7cd41e388b on either the prior or latest fictional database as described in the inventory. Latest rank chart and expanded Maya result: app 9e7a9ffb0 with latest migrations and fictional local data. Other recent captures use app 7cd41e388b and the prior or latest fictional database as described in the inventory. Latest rank chart, expanded Maya result and saved-court screens: app 9e7a9ffb0 with latest migrations and fictional local data. Other recent captures use app 7cd41e388b and the prior or latest fictional database as described in the inventory. Latest rank chart, expanded result and saved-court preference change: app 9e7a9ffb0 with latest migrations and fictional local data. Other recent captures use app 7cd41e388b and prior or latest fictional databases as described in the inventory. Latest rank chart, expanded result, saved-court flow and rotating preference sheet: app 9e7a9ffb0 with latest migrations and fictional local data. Other recent captures use app 7cd41e388b and prior or latest fictional databases as described in the inventory. Latest rank chart, expanded result, saved-court flow and rotating preferences: app 9e7a9ffb0 with latest migrations and fictional local data. Other recent captures use app 7cd41e388b and prior or latest fictional databases as described in the inventory. Latest rank chart, expanded result, court and rotating preferences, and empty suggested times: app 9e7a9ffb0 with latest migrations and fictional local data. Other recent captures use app 7cd41e388b and prior or latest fictional databases as described in the inventory. Latest Maya season block: app 6d623a53b with latest migrations and fictional local data. Other recent captures use 9e7a9ffb0 or 7cd41e388b as described in the inventory. Latest Maya season share sheet: app 6d623a53b with latest migrations and fictional local data; no share was sent. Maya local growth, venue, venue board and friends-brought empty state: app 6d623a53b with latest migrations and fictional local data. Maya matchmaking controls: app 6d623a53b with latest migrations and fictional local data. Maya current-week season view: app 6d623a53b with latest migrations and fictional local data. Maya recap preparing state: app 6d623a53b with latest migrations and fictional local data. Maya recap week picker: app 6d623a53b with latest migrations and fictional local data. Maya completed weekly recap: app 6d623a53b with fictional frozen snapshot and locally generated recap content. Maya historical recap leaderboard and current About sheet: app 6d623a53b with fictional local data. Maya current singles board, DUPR detail, near-you and filter screens: app 6d623a53b with latest migrations and fictional local data. Maya leaderboard search, empty result and place picker: app 6d623a53b with latest migrations and fictional local data. Maya viewing, following and opening the block confirmation for fictional Jade: app 6d623a53b with latest migrations; no block submitted. Maya scheduled link challenge: app 6d623a53b with latest migrations and fictional local data; share sheet dismissed without sending. Scheduled fictional link challenge opened and accepted on separate Maya and Casey simulators: app 6d623a53b; no external delivery tested. Casey current home and match opened from home: app 6d623a53b with latest migrations and fictional challenge data. Casey and Maya match chat, blue outgoing bubbles, reactions and reply: app 6d623a53b, latest fictional local stack; production release not checked. Maya next-week-only availability edit: app 6d623a53b with latest local migrations and fictional data; later rollover not verified. Populated Casey popular-times capture: isolated app 6d623a53b, five fictional players with overlapping saved times. Casey popular-times grid and selection captures: isolated app 6d623a53b, fictional local data. Casey saved popular-time capture: isolated app 6d623a53b with fictional local data. Named challenge on Casey home: isolated app 6d623a53b and fictional local fixture. Casey named-challenge response and accepted captures: isolated app 6d623a53b and fictional local data. Casey named-challenge time and confirmed match: isolated app 6d623a53b and fictional local data. Empty rotating and team doubles leaderboard captures: isolated app 6d623a53b, directly opened fictional November 8 snapshot. Casey matchmaking invitation capture: isolated app 6d623a53b with fictional local data. Casey saved-times matchmaking capture: isolated app 6d623a53b with fictional local data. Jade matcher home and match detail: isolated app 6d623a53b after a manual local matching run with fictional data. Jade search restart after booking: isolated app 6d623a53b and fictional local data. Jade early cancellation captures: isolated app 6d623a53b, fictional matcher-created match. Priya cancellation recovery captures: isolated app 6d623a53b, fictional matcher-created match. Priya score-due and score-sent home captures: isolated app 6d623a53b with a prepared fictional match and authenticated test RPC. Priya follow from final match captures: isolated app 6d623a53b with fictional data. Priya player-record block and confirmation: isolated app 6d623a53b and fictional data, opened by direct local route. Alex season recap: isolated app 6d623a53b with an isolated reconciled clone of the fictional historical fixture; frozen season-end snapshot retained. Alex weekly recap: isolated app 6d623a53b with an isolated reconciled clone of the fictional historical fixture; frozen October 12 snapshot retained. Final individual and team boards: isolated app 6d623a53b with the frozen fictional season-end snapshot in the reconciled fixture clone. Expanded team result: isolated app 6d623a53b and reconciled fictional historical fixture clone. Alex season record, badges and rank history: isolated app 6d623a53b with preserved fictional snapshots on the reconciled clone. Season complete badge: isolated app 6d623a53b with the fictional historical fixture clone. Ben season recap: isolated app 6d623a53b signed in as fictional Ben, using the preserved historical snapshot on the reconciled fixture clone. Ben corrected final and share sheet: isolated app 6d623a53b, fictional Ben session and reconciled historical fixture clone; no external share or DUPR delivery verified. Ben match history and exported result: isolated app 6d623a53b, fictional Ben session and reconciled historical fixture clone; PNG inspected from simulator cache. Ben team cancellation: isolated app 6d623a53b, fictional Ben session and reconciled historical fixture clone. Ben replacement team match and retained chat: isolated app 6d623a53b, fictional Ben session and reconciled historical fixture clone. New team form: isolated app 6d623a53b and fictional Ben, separate from the earlier Alex invitation sequence. Ben team invitation share and shared times: isolated app 6d623a53b, fictional Ben session and reconciled historical fixture clone; no external share. Team missing-time cases: isolated app 6d623a53b; fictional Ben saved a Tuesday window on the reconciled clone. Team missing-time cases: isolated app 88312dc53 with its built shared package and matching challenge-function migration applied to the reconciled clone. Rotating match plan, planned games and chat: isolated app 88312dc53 with fictional Alex and reconciled fixture clone. Alex rotating home and Scan setup: isolated app 88312dc53 and fictional fixture clone; Scan setup is separate from the earlier four-player session. Fresh Scan sequence: isolated app 88312dc53, fictional Alex and Ben on separate simulators; players added and Chris and Diego confirmed through local authenticated calls, without camera scanning.",
+ "appearance": {
+  "platform": "iOS",
+  "device": "iPhone 17 Pro simulator",
+  "os": "26.4",
+  "theme": "Dark",
+  "textSize": "Default",
+  "systemContentSize": "large (iOS default)"
+ },
+ "data": "Fictional local fixtures",
+ "count": 318,
+ "screens": [
+  {
+   "n": 1,
+   "chapter": "Join the League",
+   "person": "Blake and Drew",
+   "title": "Before you join",
+   "file": "img/oct26/nov09-join-landing.webp",
+   "source": "nov09-join-landing.png",
+   "sha256": "b24053bbfce5e0de044ff3566628cb930c4c3541894d571b6fe1c09dcd8607cc"
+  },
+  {
+   "n": 2,
+   "chapter": "Join the League",
+   "person": "Blake and Drew",
+   "title": "How you play",
+   "file": "img/oct26/nov09-join-how.webp",
+   "source": "nov09-join-how.png",
+   "sha256": "bcb334f2f09d727da509b3f7db46d995c66fe471ef23f3c4d9f37d943ee107d5"
+  },
+  {
+   "n": 3,
+   "chapter": "Join the League",
+   "person": "Blake and Drew",
+   "title": "Choose a venue",
+   "file": "img/oct26/nov09-join-venue.webp",
+   "source": "nov09-join-venue.png",
+   "sha256": "e1ec1745b7f89488afd9654cc3c5a747bb3a43e3ad989fa823bf6be2ff8c9f65"
+  },
+  {
+   "n": 4,
+   "chapter": "Join the League",
+   "person": "Blake and Drew",
+   "title": "Venues on a map",
+   "file": "img/oct26/nov09-join-map.webp",
+   "source": "nov09-join-map.png",
+   "sha256": "876cba7aeb6cf28fdf8df977cda632b4c0d5d486ad0baa405081d3ba440823f6"
+  },
+  {
+   "n": 5,
+   "chapter": "Join the League",
+   "person": "Blake and Drew",
+   "title": "Your times",
+   "file": "img/oct26/nov09-join-times.webp",
+   "source": "nov09-join-times.png",
+   "sha256": "f92f3b60f4bb17199ed3bf47c2601b0544974899b369968c1d8fcd9a151c5979"
+  },
+  {
+   "n": 6,
+   "chapter": "Join the League",
+   "person": "Blake and Drew",
+   "title": "Pick hours",
+   "file": "img/oct26/nov09-join-times-grid.webp",
+   "source": "nov09-join-times-grid.png",
+   "sha256": "8fa400f282b5ac5a3409e02322db94c6d2159d83818942de33e584126002e425"
+  },
+  {
+   "n": 7,
+   "chapter": "Join the League",
+   "person": "Blake and Drew",
+   "title": "Times saved",
+   "file": "img/oct26/nov09-join-times-saved.webp",
+   "source": "nov09-join-times-saved.png",
+   "sha256": "d3180a9c303fcb2ae7573535d272eda84258397868c9cbf7dfe038b8374add21"
+  },
+  {
+   "n": 8,
+   "chapter": "Join the League",
+   "person": "Blake and Drew",
+   "title": "Release and terms",
+   "file": "img/oct26/nov09-join-terms.webp",
+   "source": "nov09-join-terms.png",
+   "sha256": "dbad9aa18a9abffc889525fc73011403f20f6e7439ec7de85855d6c05d1b0eab"
+  },
+  {
+   "n": 9,
+   "chapter": "Join the League",
+   "person": "Blake and Drew",
+   "title": "Both accepted",
+   "file": "img/oct26/nov09-join-accepted.webp",
+   "source": "nov09-join-accepted.png",
+   "sha256": "5b2d71cdecf5aefbf3c4b778feedec2aba7ac04bb6f5c914743a7736f1f18853"
+  },
+  {
+   "n": 10,
+   "chapter": "Join the League",
+   "person": "Blake and Drew",
+   "title": "You’re in",
+   "file": "img/oct26/nov09-join-success.webp",
+   "source": "nov09-join-success.png",
+   "sha256": "88026b5543b683b5866d381113825817df76477c34efc164a1e0834d3c782125"
+  },
+  {
+   "n": 11,
+   "chapter": "Join the League",
+   "person": "Blake and Drew",
+   "title": "Blake’s League home",
+   "file": "img/oct26/nov09-join-home.webp",
+   "source": "nov09-join-home.png",
+   "sha256": "8240b71af1858407723cf7ff5bccf391c157910f51c041ec2710398d8aab574a"
+  },
+  {
+   "n": 12,
+   "chapter": "Bring your friends",
+   "person": "Casey, then Blake and Jordan",
+   "title": "Invite your regulars",
+   "file": "img/oct26/nov09-current-invite-regulars.webp",
+   "source": "nov09-current-invite-regulars.png",
+   "sha256": "c2c9a2237260555a804e1ffb4ec4a3cb84c698ab859cf0a38deea7c493def396"
+  },
+  {
+   "n": 13,
+   "chapter": "Bring your friends",
+   "person": "Casey, then Blake and Jordan",
+   "title": "Add a time while searching",
+   "file": "img/oct26/nov09-current-matchmaking-saved.webp",
+   "source": "nov09-current-matchmaking-saved.png",
+   "sha256": "d99aafd658012ff15b4fc072306b6d561eea6f9888eb8e869196a70afff3e1f6"
+  },
+  {
+   "n": 14,
+   "chapter": "Bring your friends",
+   "person": "Casey, then Blake and Jordan",
+   "title": "Welcome to the League",
+   "file": "img/oct26/11a-welcome-push.webp",
+   "source": "11a-welcome-push.png",
+   "sha256": "e6977abc62ab7f1ff7d830edaf17d486c9545e7c7356e134210c0a5d40897bee"
+  },
+  {
+   "n": 15,
+   "chapter": "Bring your friends",
+   "person": "Casey, then Blake and Jordan",
+   "title": "An empty time",
+   "file": "img/oct26/nov09-883-blake-empty-time.webp",
+   "source": "nov09-883-blake-empty-time.png",
+   "sha256": "15b1a839b158ba1572ab4187a9c062fe93f13726972771c89b481c38c3768dfb"
+  },
+  {
+   "n": 16,
+   "chapter": "Bring your friends",
+   "person": "Casey, then Blake and Jordan",
+   "title": "A nudge in the inbox",
+   "file": "img/oct26/11b-invite-inbox.webp",
+   "source": "11b-invite-inbox.png",
+   "sha256": "025274168f70a43f2c77536f89dbae01cbc9e9ed3973c177bcba2228fdaf644c"
+  },
+  {
+   "n": 17,
+   "chapter": "Bring your friends",
+   "person": "Casey, then Blake and Jordan",
+   "title": "Nobody near your level yet",
+   "file": "img/oct26/11h-waiting-doubles.webp",
+   "source": "11h-waiting-doubles.png",
+   "sha256": "d55b5e1bd0137bec22dea175ffd1b4f409bd968cc237e9f30e42b584d502d462"
+  },
+  {
+   "n": 18,
+   "chapter": "Bring your friends",
+   "person": "Casey, then Blake and Jordan",
+   "title": "Also search doubles",
+   "file": "img/oct26/11f-invite-doubles-on.webp",
+   "source": "11f-invite-doubles-on.png",
+   "sha256": "a355f3ecc1e531dd310050dc45100bb95b78646992d5886b288ab398d02c6584"
+  },
+  {
+   "n": 19,
+   "chapter": "Bring your friends",
+   "person": "Casey, then Blake and Jordan",
+   "title": "Also search Mixed",
+   "file": "img/oct26/11i-waiting-mixed.webp",
+   "source": "11i-waiting-mixed.png",
+   "sha256": "39d7dc77006f62cba4ec3700e0da93d1052605aa4cfc88f5a1ef55f042facc1c"
+  },
+  {
+   "n": 20,
+   "chapter": "League home",
+   "person": "Jade and Priya, then Casey and Riley",
+   "title": "Home",
+   "file": "img/oct26/nov09-latest-league-home.webp",
+   "source": "nov09-latest-league-home.png",
+   "sha256": "b1096bac175181d3de4545570942d21cbc8406d522734a75b7256aad6d21065a"
+  },
+  {
+   "n": 21,
+   "chapter": "League home",
+   "person": "Jade and Priya, then Casey and Riley",
+   "title": "Matchmaking",
+   "file": "img/oct26/nov09-current-maya-matchmaking.webp",
+   "source": "nov09-current-maya-matchmaking.png",
+   "sha256": "605e66fb52199409239e49bc879caf85d5242ad0229bd36231929b2c2aaf6f24"
+  },
+  {
+   "n": 22,
+   "chapter": "League home",
+   "person": "Jade and Priya, then Casey and Riley",
+   "title": "How standings work",
+   "file": "img/oct26/nov09-current-board-about.webp",
+   "source": "nov09-current-board-about.png",
+   "sha256": "dda45562b2883240300674875e0eedb49cb2a4cc3bb498e5d3be685cda892ca6"
+  },
+  {
+   "n": 23,
+   "chapter": "League home",
+   "person": "Jade and Priya, then Casey and Riley",
+   "title": "This week and progress",
+   "file": "img/oct26/nov09-current-maya-week.webp",
+   "source": "nov09-current-maya-week.png",
+   "sha256": "b6239533ca3f8e61bf78f53b8349e90c0589a5d2d2b19265015567a2abf30776"
+  },
+  {
+   "n": 24,
+   "chapter": "League home",
+   "person": "Jade and Priya, then Casey and Riley",
+   "title": "League menu",
+   "file": "img/oct26/nov09-riley-league-menu.webp",
+   "source": "nov09-riley-league-menu.png",
+   "sha256": "1851701b88a734327b882d14485a2073de9176c7686e3cf87d4e19bbbe47caa2"
+  },
+  {
+   "n": 25,
+   "chapter": "Match offers",
+   "person": "Riley and Casey",
+   "title": "Match offered",
+   "file": "img/oct26/nov09-riley-offer.webp",
+   "source": "nov09-riley-offer.png",
+   "sha256": "c0b07ea0a289850c054f43ac772518165cd24aa5b856d559e7485c6081af8065"
+  },
+  {
+   "n": 26,
+   "chapter": "Match offers",
+   "person": "Riley and Casey",
+   "title": "Players and answer rules",
+   "file": "img/oct26/nov09-riley-offer-players.webp",
+   "source": "nov09-riley-offer-players.png",
+   "sha256": "aff544724417a5fe5c7ac893a180a95bd0ae5dfd6ea7d58928e8e6ab7c48a726"
+  },
+  {
+   "n": 27,
+   "chapter": "Match offers",
+   "person": "Riley and Casey",
+   "title": "Not this time",
+   "file": "img/oct26/nov09-riley-offer-decline.webp",
+   "source": "nov09-riley-offer-decline.png",
+   "sha256": "08138dea5e8d2792f4a2ac819a00b037ddb6a77c5caf73408ed9e1919e235387"
+  },
+  {
+   "n": 28,
+   "chapter": "Match offers",
+   "person": "Riley and Casey",
+   "title": "Accepted · Earlier example",
+   "file": "img/oct26/17-offer-accepted.webp",
+   "source": "17-offer-accepted.png",
+   "sha256": "38f13f2216e13fd6040ef3a5d1a336e2a1a9ad74a37655d67a1c5540215f4bad"
+  },
+  {
+   "n": 29,
+   "chapter": "Booking and permissions",
+   "person": "Jade and Blake",
+   "title": "A match appears on home",
+   "file": "img/oct26/nov09-current-jade-matcher-home.webp",
+   "source": "nov09-current-jade-matcher-home.png",
+   "sha256": "dd55ef3a332072e51c5dedb08d7cfaabfff7f32299cb58bd674c48f542070f23"
+  },
+  {
+   "n": 30,
+   "chapter": "Booking and permissions",
+   "person": "Jade and Blake",
+   "title": "Match booked",
+   "file": "img/oct26/nov09-current-jade-matcher-detail.webp",
+   "source": "nov09-current-jade-matcher-detail.png",
+   "sha256": "c865042b79a630facb4656d3da9baa07a18097f2f4157bdafedddd552972c5c2"
+  },
+  {
+   "n": 31,
+   "chapter": "Booking and permissions",
+   "person": "Jade and Blake",
+   "title": "Look for another match",
+   "file": "img/oct26/nov09-current-jade-search-restarted.webp",
+   "source": "nov09-current-jade-search-restarted.png",
+   "sha256": "687d48fe4e9befdb25d825623440e584977cb1c1d1b392df0a643f069994c549"
+  },
+  {
+   "n": 32,
+   "chapter": "Booking and permissions",
+   "person": "Jade and Blake",
+   "title": "Optional automatic check-in",
+   "file": "img/oct26/nov09-blake-checkin-prompt.webp",
+   "source": "nov09-blake-checkin-prompt.png",
+   "sha256": "49fc637275c05f72c30f02226ae6a9ae99153f4c4089c0aeefcc17a8eb9d3a48"
+  },
+  {
+   "n": 33,
+   "chapter": "Booking and permissions",
+   "person": "Jade and Blake",
+   "title": "Change check-in later",
+   "file": "img/oct26/nov09-blake-checkin-off.webp",
+   "source": "nov09-blake-checkin-off.png",
+   "sha256": "852f50b6cf0b9cacba8b3108ce6e7ff1f72c6de99256dd3db3740db5b370e7eb"
+  },
+  {
+   "n": 34,
+   "chapter": "Booking and permissions",
+   "person": "Jade and Blake",
+   "title": "Notifications off",
+   "file": "img/oct26/nov09-blake-notification-recovery.webp",
+   "source": "nov09-blake-notification-recovery.png",
+   "sha256": "faab4dd843f2b1cc2c38f0c45acfdc971ecbea141113c039917388fd11479e7f"
+  },
+  {
+   "n": 35,
+   "chapter": "Confirmed matches and chat",
+   "person": "Casey and Maya",
+   "title": "Match details",
+   "file": "img/oct26/nov09-current-challenge-match.webp",
+   "source": "nov09-current-challenge-match.png",
+   "sha256": "a8187bdc280b58315d84e9d9e50964f4893fafe2bda4e853c792859e9a706bd4"
+  },
+  {
+   "n": 36,
+   "chapter": "Confirmed matches and chat",
+   "person": "Casey and Maya",
+   "title": "Match actions",
+   "file": "img/oct26/nov09-current-match-menu.webp",
+   "source": "nov09-current-match-menu.png",
+   "sha256": "55649fc92475e7e1ea1b75565fd5aac6dc82d665d9ae83fcc4d9fc235b501d77"
+  },
+  {
+   "n": 37,
+   "chapter": "Confirmed matches and chat",
+   "person": "Casey and Maya",
+   "title": "Match chat",
+   "file": "img/oct26/nov09-current-chat-conversation.webp",
+   "source": "nov09-current-chat-conversation.png",
+   "sha256": "bde0d05a30551b5884b309274b9d08bcc4cb46790db955c4fbad1de871e28d0d"
+  },
+  {
+   "n": 38,
+   "chapter": "Confirmed matches and chat",
+   "person": "Casey and Maya",
+   "title": "Mute or block",
+   "file": "img/oct26/nov09-current-chat-people.webp",
+   "source": "nov09-current-chat-people.png",
+   "sha256": "eb8428ac59a0de8f855ce0f4c29469e164c5240fdee6dd95a6ad30f929e59e78"
+  },
+  {
+   "n": 39,
+   "chapter": "Confirmed matches and chat",
+   "person": "Casey and Maya",
+   "title": "Hold a message",
+   "file": "img/oct26/nov09-current-chat-options.webp",
+   "source": "nov09-current-chat-options.png",
+   "sha256": "113885cdcbe18087c13a48dc5e74aaa45e19beeb94d24c8d1cde3fa4187d0a99"
+  },
+  {
+   "n": 40,
+   "chapter": "Confirmed matches and chat",
+   "person": "Casey and Maya",
+   "title": "All reactions",
+   "file": "img/oct26/nov09-current-chat-reactions.webp",
+   "source": "nov09-current-chat-reactions.png",
+   "sha256": "a1608f18b7231296993bc28a419ed19676632037f6e997798c42e5ea9778880c"
+  },
+  {
+   "n": 41,
+   "chapter": "Confirmed matches and chat",
+   "person": "Casey and Maya",
+   "title": "Reply",
+   "file": "img/oct26/nov09-current-chat-reply.webp",
+   "source": "nov09-current-chat-reply.png",
+   "sha256": "15fa9d582fb3f8a6661b518653a3ba720ceabbf94450cbbe5702396ba6ea1dfd"
+  },
+  {
+   "n": 42,
+   "chapter": "Confirmed matches and chat",
+   "person": "Casey and Maya",
+   "title": "A reaction and a reply",
+   "file": "img/oct26/nov09-current-chat-result.webp",
+   "source": "nov09-current-chat-result.png",
+   "sha256": "cc48565c8ad01edd8615a18c3b7c2a744cfb60924dfad906e17d259ed2cf342f"
+  },
+  {
+   "n": 43,
+   "chapter": "Confirmed matches and chat",
+   "person": "Casey and Maya",
+   "title": "Report a message",
+   "file": "img/oct26/nov09-current-chat-report.webp",
+   "source": "nov09-current-chat-report.png",
+   "sha256": "59aab10459f4b00feee26e2fa8bad123bbf6c7938c3e8cd4039c057ee4aef81a"
+  },
+  {
+   "n": 44,
+   "chapter": "Cancelling a match",
+   "person": "Jade and Priya, then Casey and Riley",
+   "title": "Cancel ahead of time",
+   "file": "img/oct26/nov09-current-jade-cancel-preview.webp",
+   "source": "nov09-current-jade-cancel-preview.png",
+   "sha256": "b46992032d02fa331a41d541cce0c12969d4272be50d61486b7731c102020bc5"
+  },
+  {
+   "n": 45,
+   "chapter": "Cancelling a match",
+   "person": "Jade and Priya, then Casey and Riley",
+   "title": "Cancelled ahead of time",
+   "file": "img/oct26/nov09-current-jade-cancel-result.webp",
+   "source": "nov09-current-jade-cancel-result.png",
+   "sha256": "b01e401c6abd0dfe72f4feb28a4d016e658d021bd5b8b12818725f96f2d3bdc7"
+  },
+  {
+   "n": 46,
+   "chapter": "Cancelling a match",
+   "person": "Jade and Priya, then Casey and Riley",
+   "title": "Priya returns to search",
+   "file": "img/oct26/nov09-priya-cancel-home.webp",
+   "source": "nov09-priya-cancel-home.png",
+   "sha256": "77c9f4775f41ff24c1135c98ad3efc07bb456afed4231eecb9040eb8ab46ceef"
+  },
+  {
+   "n": 47,
+   "chapter": "Cancelling a match",
+   "person": "Jade and Priya, then Casey and Riley",
+   "title": "Find the cancelled match",
+   "file": "img/oct26/nov09-priya-cancel-history.webp",
+   "source": "nov09-priya-cancel-history.png",
+   "sha256": "9d1041bbe6f0e75c3fa84f6fa773385eaa5d4eb5bb131e72e9af249ef509f579"
+  },
+  {
+   "n": 48,
+   "chapter": "Cancelling a match",
+   "person": "Jade and Priya, then Casey and Riley",
+   "title": "See who cancelled",
+   "file": "img/oct26/nov09-priya-cancel-detail.webp",
+   "source": "nov09-priya-cancel-detail.png",
+   "sha256": "8a2c78a1db1dfeeaddad91fb4c16f6ec6e5ff8533912f9f07b13acd6cef0f867"
+  },
+  {
+   "n": 49,
+   "chapter": "Cancelling a match",
+   "person": "Jade and Priya, then Casey and Riley",
+   "title": "Inside the late window",
+   "file": "img/oct26/nov09-cancel-late-sheet.webp",
+   "source": "nov09-cancel-late-sheet.png",
+   "sha256": "cb3ea004e87420f614444d5c58fe983b44f1443f4d7b2c3c2e0a9bc8f207f83a"
+  },
+  {
+   "n": 50,
+   "chapter": "Cancelling a match",
+   "person": "Jade and Priya, then Casey and Riley",
+   "title": "Waiting for Riley",
+   "file": "img/oct26/nov09-cancel-together-pending.webp",
+   "source": "nov09-cancel-together-pending.png",
+   "sha256": "dc9e96f1868348a80d16b923461d6d1cf0b4644f1d6768fd036857c9a1095ba9"
+  },
+  {
+   "n": 51,
+   "chapter": "Cancelling a match",
+   "person": "Jade and Priya, then Casey and Riley",
+   "title": "Riley responds",
+   "file": "img/oct26/nov09-cancel-together-other.webp",
+   "source": "nov09-cancel-together-other.png",
+   "sha256": "e1be76fdaaacd1cd53d699bab80d9c7f0f1d99c2be49f04187b2e051ee70f8d4"
+  },
+  {
+   "n": 52,
+   "chapter": "Cancelling a match",
+   "person": "Jade and Priya, then Casey and Riley",
+   "title": "Called off by agreement",
+   "file": "img/oct26/nov09-cancel-together-final.webp",
+   "source": "nov09-cancel-together-final.png",
+   "sha256": "4e9d154fe9ab4f47d5505935909ea1d7e2e19bb850b14d59b658614cfd39ad1e"
+  },
+  {
+   "n": 53,
+   "chapter": "Cancelling a match",
+   "person": "Jade and Priya, then Casey and Riley",
+   "title": "A separate direct cancellation",
+   "file": "img/oct26/nov09-cancel-late-result.webp",
+   "source": "nov09-cancel-late-result.png",
+   "sha256": "e8ae12df623d0077d2193cbd470b01fc39a86eb29823ec0201f296c21e7ae560"
+  },
+  {
+   "n": 54,
+   "chapter": "When someone doesn’t come",
+   "person": "Riley and Taylor",
+   "title": "Someone didn’t come?",
+   "file": "img/oct26/nov09-absence-sheet.webp",
+   "source": "nov09-absence-sheet.png",
+   "sha256": "5fe923a0dd20bc1cf70763c074429f2c2cd6494213e07901ece72e7ab1aedf1d"
+  },
+  {
+   "n": 55,
+   "chapter": "When someone doesn’t come",
+   "person": "Riley and Taylor",
+   "title": "Ended as not played",
+   "file": "img/oct26/nov09-absence-reported.webp",
+   "source": "nov09-absence-reported.png",
+   "sha256": "ab8aa41051e7d5509c1ad56bea3279a32060ead87d3042df036fcb7ec1797105"
+  },
+  {
+   "n": 56,
+   "chapter": "When someone doesn’t come",
+   "person": "Riley and Taylor",
+   "title": "Taylor’s side",
+   "file": "img/oct26/nov09-absence-opponent.webp",
+   "source": "nov09-absence-opponent.png",
+   "sha256": "595500e4aed27e15e57042ba7093bef09eb228eb4d34e767eceed914fa5a0bee"
+  },
+  {
+   "n": 57,
+   "chapter": "When someone doesn’t come",
+   "person": "Riley and Taylor",
+   "title": "Answer the report",
+   "file": "img/oct26/nov09-absence-answer.webp",
+   "source": "nov09-absence-answer.png",
+   "sha256": "5e435bacd33959856a518520fe25ad69f6ef914c02f4637e91668fac8e9de814"
+  },
+  {
+   "n": 58,
+   "chapter": "When someone doesn’t come",
+   "person": "Riley and Taylor",
+   "title": "Answer sent",
+   "file": "img/oct26/nov09-absence-sent.webp",
+   "source": "nov09-absence-sent.png",
+   "sha256": "d506fb03e9ddd99277b3e97123559ae9a58cefa31e47859fd08ff79bd0148e65"
+  },
+  {
+   "n": 59,
+   "chapter": "Report and review a score",
+   "person": "Priya, then Casey and Maya, then Riley and Taylor",
+   "title": "A score needs reporting",
+   "file": "img/oct26/nov09-priya-score-due-home.webp",
+   "source": "nov09-priya-score-due-home.png",
+   "sha256": "9c6b1e642813eec5128d66a6421a122126f91982b5cb8604b513f8909621a2bf"
+  },
+  {
+   "n": 60,
+   "chapter": "Report and review a score",
+   "person": "Priya, then Casey and Maya, then Riley and Taylor",
+   "title": "Score sent on home",
+   "file": "img/oct26/nov09-priya-score-sent-home.webp",
+   "source": "nov09-priya-score-sent-home.png",
+   "sha256": "d3ea393fc59863ae0661278cc56643a7150e75709c80ad089da5789d3406de19"
+  },
+  {
+   "n": 61,
+   "chapter": "Report and review a score",
+   "person": "Priya, then Casey and Maya, then Riley and Taylor",
+   "title": "Enter one game",
+   "file": "img/oct26/nov09-latest-singles-score-draft.webp",
+   "source": "nov09-latest-singles-score-draft.png",
+   "sha256": "dbf35c263020e4f97403ab4418736cb5c7ea696a7554a8bc5caec8fa01c7a6cb"
+  },
+  {
+   "n": 62,
+   "chapter": "Report and review a score",
+   "person": "Priya, then Casey and Maya, then Riley and Taylor",
+   "title": "Score sent · Casey",
+   "file": "img/oct26/nov09-latest-singles-score-sent.webp",
+   "source": "nov09-latest-singles-score-sent.png",
+   "sha256": "2ab4915e83b4e26932736515d3075faa9b2fa070773fa4eaff48177ce8a0c511"
+  },
+  {
+   "n": 63,
+   "chapter": "Report and review a score",
+   "person": "Priya, then Casey and Maya, then Riley and Taylor",
+   "title": "Add a played game",
+   "file": "img/oct26/nov09-latest-singles-next-game.webp",
+   "source": "nov09-latest-singles-next-game.png",
+   "sha256": "b0047a9c3946fc5464a3caeb81bb4d5abef9ad5de967166f05802f35ead4c531"
+  },
+  {
+   "n": 64,
+   "chapter": "Report and review a score",
+   "person": "Priya, then Casey and Maya, then Riley and Taylor",
+   "title": "Maya reviews the score",
+   "file": "img/oct26/nov09-latest-maya-score-review.webp",
+   "source": "nov09-latest-maya-score-review.png",
+   "sha256": "0d11627fbe432b3fe225310a5ab17671156595d1385cb65910367c850f853fd4"
+  },
+  {
+   "n": 65,
+   "chapter": "Report and review a score",
+   "person": "Priya, then Casey and Maya, then Riley and Taylor",
+   "title": "Maya confirms",
+   "file": "img/oct26/nov09-latest-maya-score-final.webp",
+   "source": "nov09-latest-maya-score-final.png",
+   "sha256": "990bf4f557f2a4e1dee91dee3b99321a44015fe1c1ae319071c9b807f264a23a"
+  },
+  {
+   "n": 66,
+   "chapter": "Report and review a score",
+   "person": "Priya, then Casey and Maya, then Riley and Taylor",
+   "title": "A score is due",
+   "file": "img/oct26/nov09-riley-score-due.webp",
+   "source": "nov09-riley-score-due.png",
+   "sha256": "45d7b595a713eb830dd0a834d1f1a3211c66fc7918f6a80077f482525465716e"
+  },
+  {
+   "n": 67,
+   "chapter": "Report and review a score",
+   "person": "Priya, then Casey and Maya, then Riley and Taylor",
+   "title": "Review needs another phone",
+   "file": "img/oct26/nov09-same-phone-review.webp",
+   "source": "nov09-same-phone-review.png",
+   "sha256": "048aa5b93440e28d54cf655adce51119b3f5cbba25411ca63022d403969d3fbe"
+  },
+  {
+   "n": 68,
+   "chapter": "Report and review a score",
+   "person": "Priya, then Casey and Maya, then Riley and Taylor",
+   "title": "Taylor reviews on his phone",
+   "file": "img/oct26/nov09-taylor-review.webp",
+   "source": "nov09-taylor-review.png",
+   "sha256": "e4221e78868733c32e229a1df9b9e60e688e60979e5d51e7db1a83dd2ac017c8"
+  },
+  {
+   "n": 69,
+   "chapter": "Report and review a score",
+   "person": "Priya, then Casey and Maya, then Riley and Taylor",
+   "title": "The confirmed result",
+   "file": "img/oct26/nov09-taylor-final.webp",
+   "source": "nov09-taylor-final.png",
+   "sha256": "77c8a48a8a226ee58012f7ef7e048d9e46fb02c5aa2762de436ae02c1bebdc0c"
+  },
+  {
+   "n": 70,
+   "chapter": "Report and review a score",
+   "person": "Priya, then Casey and Maya, then Riley and Taylor",
+   "title": "Reconnect DUPR · Earlier example",
+   "file": "img/oct26/27b-dupr-reconnect.webp",
+   "source": "27b-dupr-reconnect.png",
+   "sha256": "17924c732b436f3d494a61ece8697401f2cc1d179430aec164032b80449dbf3c"
+  },
+  {
+   "n": 71,
+   "chapter": "Report and review a score",
+   "person": "Priya, then Casey and Maya, then Riley and Taylor",
+   "title": "Past matches",
+   "file": "img/oct26/nov09-priya-cancel-history.webp",
+   "source": "nov09-priya-cancel-history.png",
+   "sha256": "9d1041bbe6f0e75c3fa84f6fa773385eaa5d4eb5bb131e72e9af249ef509f579"
+  },
+  {
+   "n": 72,
+   "chapter": "Correct a sent score",
+   "person": "Riley and Taylor",
+   "title": "Fix a sent score",
+   "file": "img/oct26/nov09-correction-pending.webp",
+   "source": "nov09-correction-pending.png",
+   "sha256": "7fa0083f987eeb554008cecb46672b40e1082f95db63aee1b91b882632852809"
+  },
+  {
+   "n": 73,
+   "chapter": "Correct a sent score",
+   "person": "Riley and Taylor",
+   "title": "Change the score",
+   "file": "img/oct26/nov09-correction-edit.webp",
+   "source": "nov09-correction-edit.png",
+   "sha256": "af07264974a2c5006140ba40a88fffe00fd6ecb04a2dde0fae805d032ad5b35a"
+  },
+  {
+   "n": 74,
+   "chapter": "Correct a sent score",
+   "person": "Riley and Taylor",
+   "title": "Corrected score sent",
+   "file": "img/oct26/nov09-correction-receipt.webp",
+   "source": "nov09-correction-receipt.png",
+   "sha256": "f33039971bba4d358158170875f5c8f47a2b25dd477b455f2ab6e6dc20ab1fcf"
+  },
+  {
+   "n": 75,
+   "chapter": "Correct a sent score",
+   "person": "Riley and Taylor",
+   "title": "Taylor reviews the correction",
+   "file": "img/oct26/nov09-correction-review.webp",
+   "source": "nov09-correction-review.png",
+   "sha256": "ef874b5acb4c8974c064238229991a88a7ce0a5860ac60af8848cad8984b64c7"
+  },
+  {
+   "n": 76,
+   "chapter": "Correct a sent score",
+   "person": "Riley and Taylor",
+   "title": "The corrected result",
+   "file": "img/oct26/nov09-correction-final.webp",
+   "source": "nov09-correction-final.png",
+   "sha256": "f353ba4975101d71ecb8ee94f15183dd0725551b9bbb8f2730eee3d98f300898"
+  },
+  {
+   "n": 77,
+   "chapter": "Your season",
+   "person": "Casey and Maya",
+   "title": "Your season at a glance",
+   "file": "img/oct26/nov09-latest-season-home.webp",
+   "source": "nov09-latest-season-home.png",
+   "sha256": "f998f9c50c10ef811484156dc916b8db872a0569aaab92feaa27152528de9c18"
+  },
+  {
+   "n": 78,
+   "chapter": "Your season",
+   "person": "Casey and Maya",
+   "title": "Open the season",
+   "file": "img/oct26/nov09-new-season-progress.webp",
+   "source": "nov09-new-season-progress.png",
+   "sha256": "ee88f87c0f14c0c4bc00c31f0d370253d4c023021235ebbfd901622504eb38ce"
+  },
+  {
+   "n": 79,
+   "chapter": "Your season",
+   "person": "Casey and Maya",
+   "title": "The DUPR observations",
+   "file": "img/oct26/nov09-cbff-dupr-history.webp",
+   "source": "nov09-cbff-dupr-history.png",
+   "sha256": "97e91bebd2f1880240fd35f31e9f5bb5b120430406ea5b12e4a5ea69b52c9b45"
+  },
+  {
+   "n": 80,
+   "chapter": "Your season",
+   "person": "Casey and Maya",
+   "title": "Share your season",
+   "file": "img/oct26/nov09-new-season-share.webp",
+   "source": "nov09-new-season-share.png",
+   "sha256": "6b38cb59ac10268cb85e8104bd62c541305676fa4a26f95e11425727fe8eb99f"
+  },
+  {
+   "n": 81,
+   "chapter": "Your season",
+   "person": "Casey and Maya",
+   "title": "Weekly rank history",
+   "file": "img/oct26/nov09-latest-rank-chart.webp",
+   "source": "nov09-latest-rank-chart.png",
+   "sha256": "9f8acf525f2e11c8db320ac72a9cc14dc2639020307fbb8d51d6419d579e4d58"
+  },
+  {
+   "n": 82,
+   "chapter": "Your season",
+   "person": "Casey and Maya",
+   "title": "Recent season results",
+   "file": "img/oct26/nov09-cbff-season-recent-ten.webp",
+   "source": "nov09-cbff-season-recent-ten.png",
+   "sha256": "56e9c2e6843f42ace4bc14c8a92211f37db03b452f87959d236a939e68a5f672"
+  },
+  {
+   "n": 83,
+   "chapter": "Your season",
+   "person": "Casey and Maya",
+   "title": "A confirmed result changes the rank",
+   "file": "img/oct26/nov08-season-05-movement.webp",
+   "source": "nov08-season-05-movement.png",
+   "sha256": "3c7cef2799ad8268c48e69dccc120c39954e16ea13692c82cee7cbf0b1c607cd"
+  },
+  {
+   "n": 84,
+   "chapter": "Your season",
+   "person": "Casey and Maya",
+   "title": "Standings from a weekly recap",
+   "file": "img/oct26/nov09-current-recap-board.webp",
+   "source": "nov09-current-recap-board.png",
+   "sha256": "fd6b2255eb50e58cf2833de930fca1d7f99cfa8b26fdbf90e0ecd7f4819447ff"
+  },
+  {
+   "n": 85,
+   "chapter": "Leaderboards",
+   "person": "Maya and Blake",
+   "title": "Austin area, Women’s singles",
+   "file": "img/oct26/nov09-board-current.webp",
+   "source": "nov09-board-current.png",
+   "sha256": "fdf2bb601d723bb087c062181e849be017c56431749cff74c5b0472ff3dc7264"
+  },
+  {
+   "n": 86,
+   "chapter": "Leaderboards",
+   "person": "Maya and Blake",
+   "title": "DUPR rating",
+   "file": "img/oct26/nov09-board-current-dupr.webp",
+   "source": "nov09-board-current-dupr.png",
+   "sha256": "7488b0a5f32dc4801373209fc2eb4f064228ad2f33a2f24371542e66a20e7f42"
+  },
+  {
+   "n": 87,
+   "chapter": "Leaderboards",
+   "person": "Maya and Blake",
+   "title": "Near you",
+   "file": "img/oct26/nov09-board-current-near.webp",
+   "source": "nov09-board-current-near.png",
+   "sha256": "c5f841e166baf42674bb08f02b51071a9f0f21540871864545ae6d6f9171bb7c"
+  },
+  {
+   "n": 88,
+   "chapter": "Leaderboards",
+   "person": "Maya and Blake",
+   "title": "Filters",
+   "file": "img/oct26/nov09-board-current-filters.webp",
+   "source": "nov09-board-current-filters.png",
+   "sha256": "d6e59adfffe7a5183d1f3e8040fe65348d8bef1ccc187c4e9fbf5eb28a9f24bd"
+  },
+  {
+   "n": 89,
+   "chapter": "Leaderboards",
+   "person": "Maya and Blake",
+   "title": "About this board",
+   "file": "img/oct26/nov09-current-board-about.webp",
+   "source": "nov09-current-board-about.png",
+   "sha256": "dda45562b2883240300674875e0eedb49cb2a4cc3bb498e5d3be685cda892ca6"
+  },
+  {
+   "n": 90,
+   "chapter": "Leaderboards",
+   "person": "Maya and Blake",
+   "title": "Search",
+   "file": "img/oct26/nov09-board-current-search.webp",
+   "source": "nov09-board-current-search.png",
+   "sha256": "5ed4c85f7cc3493ba865a4cfd8037030c7fdd4e219fc0b99615bef5c5d21a924"
+  },
+  {
+   "n": 91,
+   "chapter": "Leaderboards",
+   "person": "Maya and Blake",
+   "title": "No search results",
+   "file": "img/oct26/nov09-board-current-empty.webp",
+   "source": "nov09-board-current-empty.png",
+   "sha256": "a389fa483984661a0c9b2a3494b12a0dec11cff13440daf2a2f52362638f46b6"
+  },
+  {
+   "n": 92,
+   "chapter": "Leaderboards",
+   "person": "Maya and Blake",
+   "title": "Rotating doubles",
+   "file": "img/oct26/nov09-current-doubles-board.webp",
+   "source": "nov09-current-doubles-board.png",
+   "sha256": "4946a5c82d8ae2506c9a42934e5b8a8b765a22cce9a2f8a70f2c3b2ec6db21bb"
+  },
+  {
+   "n": 93,
+   "chapter": "Leaderboards",
+   "person": "Maya and Blake",
+   "title": "Find a leaderboard",
+   "file": "img/oct26/nov09-01b4-board-place-picker.webp",
+   "source": "nov09-01b4-board-place-picker.png",
+   "sha256": "32e75f3f99e430d4bf1039bb748a8d7846b99719495f8ad392561a555805b0e6"
+  },
+  {
+   "n": 94,
+   "chapter": "Leaderboards",
+   "person": "Maya and Blake",
+   "title": "Save a favorite",
+   "file": "img/oct26/nov09-01b4-board-favorite.webp",
+   "source": "nov09-01b4-board-favorite.png",
+   "sha256": "8d3711eb001c803038c42ebd82f852fd6ab1079c5382e9393ac6774c8724e062"
+  },
+  {
+   "n": 95,
+   "chapter": "Leaderboards",
+   "person": "Maya and Blake",
+   "title": "A venue board",
+   "file": "img/oct26/nov09-current-growth-board.webp",
+   "source": "nov09-current-growth-board.png",
+   "sha256": "173ec851466378f5a23fbc38cf028de797e622d16a83e147cb3087e79091f7a5"
+  },
+  {
+   "n": 96,
+   "chapter": "Leaderboards",
+   "person": "Maya and Blake",
+   "title": "Team doubles",
+   "file": "img/oct26/nov09-current-team-board.webp",
+   "source": "nov09-current-team-board.png",
+   "sha256": "1abce64e64971eee1cfb9242f2d2851c66e1d69181854789ac3aa0852fc0b7dc"
+  },
+  {
+   "n": 97,
+   "chapter": "Player records",
+   "person": "Casey, Maya and Blake",
+   "title": "Maya’s record",
+   "file": "img/oct26/nov09-new-season-progress.webp",
+   "source": "nov09-new-season-progress.png",
+   "sha256": "ee88f87c0f14c0c4bc00c31f0d370253d4c023021235ebbfd901622504eb38ce"
+  },
+  {
+   "n": 98,
+   "chapter": "Player records",
+   "person": "Casey, Maya and Blake",
+   "title": "Expand a match",
+   "file": "img/oct26/nov09-latest-match-expanded.webp",
+   "source": "nov09-latest-match-expanded.png",
+   "sha256": "2b83118abd3ebabec3038f3e9a8b56efae1c3a42bde7eb36c7b1ab4fa6906ac4"
+  },
+  {
+   "n": 99,
+   "chapter": "Player records",
+   "person": "Casey, Maya and Blake",
+   "title": "Badge details",
+   "file": "img/oct26/nov09-jade-founding-badge.webp",
+   "source": "nov09-jade-founding-badge.png",
+   "sha256": "711bc20ac41611418aa0bf810ee01b5b0fc360a15341bbdd53d39f231cc87af4"
+  },
+  {
+   "n": 100,
+   "chapter": "Player records",
+   "person": "Casey, Maya and Blake",
+   "title": "A badge that grows",
+   "file": "img/oct26/nov09-casey-court-explorer.webp",
+   "source": "nov09-casey-court-explorer.png",
+   "sha256": "12caf21772aa830efefc56fbe5561f533b8ab404e10a551bc4f790f539ed54ca"
+  },
+  {
+   "n": 101,
+   "chapter": "Player records",
+   "person": "Casey, Maya and Blake",
+   "title": "Several awards in one medal",
+   "file": "img/oct26/nov09-casey-venue-founder.webp",
+   "source": "nov09-casey-venue-founder.png",
+   "sha256": "91361b53468dc9f62a65f32d46d973992eb38f13e87e871885897eedfb2abe06"
+  },
+  {
+   "n": 102,
+   "chapter": "Player records",
+   "person": "Casey, Maya and Blake",
+   "title": "Another player",
+   "file": "img/oct26/nov09-current-jade-stats.webp",
+   "source": "nov09-current-jade-stats.png",
+   "sha256": "fde846fed5d87c24f2a40e67b9f069d1884b78503d1596160fa6769ee0ae06f0"
+  },
+  {
+   "n": 103,
+   "chapter": "Weekly recap",
+   "person": "Alex",
+   "title": "Your week",
+   "file": "img/oct26/nov10-recap-story.webp",
+   "source": "nov10-recap-story.png",
+   "sha256": "17447fafd7f246f2564fddb6197c2096158e0461ff0abc00ebf30ce2b26f28bd"
+  },
+  {
+   "n": 104,
+   "chapter": "Weekly recap",
+   "person": "Alex",
+   "title": "Swipe to standings",
+   "file": "img/oct26/nov10-recap-standings.webp",
+   "source": "nov10-recap-standings.png",
+   "sha256": "41637bb0828a6dc6dde00b1676a4169a3a2827959cdd22b4df6e4013d098e184"
+  },
+  {
+   "n": 105,
+   "chapter": "Weekly recap",
+   "person": "Alex",
+   "title": "Full summary",
+   "file": "img/oct26/nov10-recap-summary.webp",
+   "source": "nov10-recap-summary.png",
+   "sha256": "4b2131841790447cb9873cf32d41df1d2a431827f520007b0b8adcd3dfa0cd5e"
+  },
+  {
+   "n": 106,
+   "chapter": "Weekly recap",
+   "person": "Alex",
+   "title": "All recaps",
+   "file": "img/oct26/nov10-recap-archive.webp",
+   "source": "nov10-recap-archive.png",
+   "sha256": "69878d55aa7c783135be13e74cd3a66d7d997f90841ef4c46a958137297433ae"
+  },
+  {
+   "n": 107,
+   "chapter": "A time for one week",
+   "person": "Maya, then Diego and Casey",
+   "title": "Choose a format",
+   "file": "img/oct26/nov09-latest-times-choose-format.webp",
+   "source": "nov09-latest-times-choose-format.png",
+   "sha256": "69880f768fbab03b2724f35b7ba74fd8f049cf2af80a47439838598d3a20dd03"
+  },
+  {
+   "n": 108,
+   "chapter": "A time for one week",
+   "person": "Maya, then Diego and Casey",
+   "title": "Singles or rotating doubles",
+   "file": "img/oct26/nov09-latest-times-format-sheet.webp",
+   "source": "nov09-latest-times-format-sheet.png",
+   "sha256": "8e614e46145ade108091fadc88aba55620f3762cbab3bfcbaf11e3dd1b40cc9e"
+  },
+  {
+   "n": 109,
+   "chapter": "A time for one week",
+   "person": "Maya, then Diego and Casey",
+   "title": "Choose how long the change lasts",
+   "file": "img/oct26/nov09-current-next-week-scope.webp",
+   "source": "nov09-current-next-week-scope.png",
+   "sha256": "141775d50974f112a009dc92b09cf215967f3823b28ebc70e8e048b4588a0a0e"
+  },
+  {
+   "n": 110,
+   "chapter": "A time for one week",
+   "person": "Maya, then Diego and Casey",
+   "title": "A one-week change is saved",
+   "file": "img/oct26/nov09-current-next-week-saved.webp",
+   "source": "nov09-current-next-week-saved.png",
+   "sha256": "02a24f5790d1c900aaade506ed7d5144d09711fcf14c656858135a0b9f4cf517"
+  },
+  {
+   "n": 111,
+   "chapter": "A time for one week",
+   "person": "Maya, then Diego and Casey",
+   "title": "Add Sat 10–11 AM?",
+   "file": "img/oct26/60g-widen-time-home.webp",
+   "source": "60g-widen-time-home.png",
+   "sha256": "8c9aa6d05ef716ff8ed42bfb2cc4e5d2802268bb6067fffb72032f6ef29d10fc"
+  },
+  {
+   "n": 112,
+   "chapter": "A time for one week",
+   "person": "Maya, then Diego and Casey",
+   "title": "A match is possible then",
+   "file": "img/oct26/60h-widen-time-sheet.webp",
+   "source": "60h-widen-time-sheet.png",
+   "sha256": "2ea7c77fb1f3b53eb6943d260465687318b5631edc24cdba24a8a780c7a6d1d6"
+  },
+  {
+   "n": 113,
+   "chapter": "A time for one week",
+   "person": "Maya, then Diego and Casey",
+   "title": "Added",
+   "file": "img/oct26/60i-widen-time-added.webp",
+   "source": "60i-widen-time-added.png",
+   "sha256": "24c277759814204e3e1863c24966e48b02475346a47d4303c92f2d1bc639bbab"
+  },
+  {
+   "n": 114,
+   "chapter": "A time for one week",
+   "person": "Maya, then Diego and Casey",
+   "title": "This week’s times",
+   "file": "img/oct26/nov09-883-alex-this-week.webp",
+   "source": "nov09-883-alex-this-week.png",
+   "sha256": "3b3c4542f88b89fc3b59f339f58b8f3eb019bcc3897a4d6be415958b21e7060f"
+  },
+  {
+   "n": 115,
+   "chapter": "A time for one week",
+   "person": "Maya, then Diego and Casey",
+   "title": "Match possible now",
+   "file": "img/oct26/nov09-883-matching-opportunities.webp",
+   "source": "nov09-883-matching-opportunities.png",
+   "sha256": "f68d8d1e1ca21a43a625f6b883e51959f1d71cebe6d55399531dc0734fa715f2"
+  },
+  {
+   "n": 116,
+   "chapter": "A time for one week",
+   "person": "Maya, then Diego and Casey",
+   "title": "Matching time grid",
+   "file": "img/oct26/nov09-883-matching-grid.webp",
+   "source": "nov09-883-matching-grid.png",
+   "sha256": "4da0bc5f2a4ddcdbc7f5395d9c43fdb07404cfa148574f5160fffa19203bbc22"
+  },
+  {
+   "n": 117,
+   "chapter": "A time for one week",
+   "person": "Maya, then Diego and Casey",
+   "title": "Popular times",
+   "file": "img/oct26/nov09-casey-popular-times.webp",
+   "source": "nov09-casey-popular-times.png",
+   "sha256": "05e5e550e0a7f1a2c3cc67f4fd3ea269403f45eb60ae57d637ce2c7fdd918fa5"
+  },
+  {
+   "n": 118,
+   "chapter": "A time for one week",
+   "person": "Maya, then Diego and Casey",
+   "title": "Explore the popular-times grid",
+   "file": "img/oct26/nov09-casey-popular-grid.webp",
+   "source": "nov09-casey-popular-grid.png",
+   "sha256": "7ae6cdedbdffda76fc3dcd81d072184a2550aa100c4a281af3cf40171bd4214a"
+  },
+  {
+   "n": 119,
+   "chapter": "A time for one week",
+   "person": "Maya, then Diego and Casey",
+   "title": "Choose a popular time",
+   "file": "img/oct26/nov09-casey-popular-choice.webp",
+   "source": "nov09-casey-popular-choice.png",
+   "sha256": "06c74acabbeb23cd3b7de3bf0b1147546749c024f239385afe06f9a68570d8d6"
+  },
+  {
+   "n": 120,
+   "chapter": "A time for one week",
+   "person": "Maya, then Diego and Casey",
+   "title": "See the saved time",
+   "file": "img/oct26/nov09-casey-popular-saved.webp",
+   "source": "nov09-casey-popular-saved.png",
+   "sha256": "d4258f6fdcc83919243d9858d0eb796825fc17540314858fdc390a0dea406fd2"
+  },
+  {
+   "n": 121,
+   "chapter": "A time for one week",
+   "person": "Maya, then Diego and Casey",
+   "title": "No suggested times",
+   "file": "img/oct26/nov09-latest-times-empty.webp",
+   "source": "nov09-latest-times-empty.png",
+   "sha256": "038d474b14889c7c8bb25bd5f0aabf569368ec1555316fa60b2706d8929c5858"
+  },
+  {
+   "n": 122,
+   "chapter": "Team doubles",
+   "person": "Casey and Jade, then earlier partners",
+   "title": "New team",
+   "file": "img/oct26/nov09-team-invite-compose.webp",
+   "source": "nov09-team-invite-compose.png",
+   "sha256": "229ea506a9281650097033823f51d892842c4c9889d404a22c05b601d92ba293"
+  },
+  {
+   "n": 123,
+   "chapter": "Team doubles",
+   "person": "Casey and Jade, then earlier partners",
+   "title": "Share the invitation",
+   "file": "img/oct26/nov09-team-invite-share.webp",
+   "source": "nov09-team-invite-share.png",
+   "sha256": "5e373e3ba03edcc6ec79c4766aba0fab2eb859e883c20c2a57e8284387544d75"
+  },
+  {
+   "n": 124,
+   "chapter": "Team doubles",
+   "person": "Casey and Jade, then earlier partners",
+   "title": "Link saved",
+   "file": "img/oct26/nov09-team-invite-waiting.webp",
+   "source": "nov09-team-invite-waiting.png",
+   "sha256": "41143614f17bb19f8e97e5c2fc969f1352dea805c50e2a799dc8ef21a7c6abbb"
+  },
+  {
+   "n": 125,
+   "chapter": "Team doubles",
+   "person": "Casey and Jade, then earlier partners",
+   "title": "Jade reviews the invitation",
+   "file": "img/oct26/nov09-team-jade-receives.webp",
+   "source": "nov09-team-jade-receives.png",
+   "sha256": "9c388df8aeb3ed33ede5b7d8bbf38821e3eb23026d45b2692478a3b43cd78de0"
+  },
+  {
+   "n": 126,
+   "chapter": "Team doubles",
+   "person": "Casey and Jade, then earlier partners",
+   "title": "The team forms",
+   "file": "img/oct26/nov09-team-jade-formed.webp",
+   "source": "nov09-team-jade-formed.png",
+   "sha256": "4c4696657e6977db5183e4c0b4bb0af07f472751fd512d171273af03e70adb8a"
+  },
+  {
+   "n": 127,
+   "chapter": "Team doubles",
+   "person": "Casey and Jade, then earlier partners",
+   "title": "Check what the team needs",
+   "file": "img/oct26/nov09-team-jade-current.webp",
+   "source": "nov09-team-jade-current.png",
+   "sha256": "496560ac23d7a1f02c215574bad9568e39ee40785f9ac43aab9eab8cd4f3bc51"
+  },
+  {
+   "n": 128,
+   "chapter": "Team doubles",
+   "person": "Casey and Jade, then earlier partners",
+   "title": "Add available hours",
+   "file": "img/oct26/nov09-team-jade-time-selection.webp",
+   "source": "nov09-team-jade-time-selection.png",
+   "sha256": "2a235ab14cbea0979815c0df6f870fdcf644ac9789906b46bc155f3616e5d803"
+  },
+  {
+   "n": 129,
+   "chapter": "Team doubles",
+   "person": "Casey and Jade, then earlier partners",
+   "title": "A shared time",
+   "file": "img/oct26/nov09-team-jade-shared-time.webp",
+   "source": "nov09-team-jade-shared-time.png",
+   "sha256": "e05cc6f09112ab94181a952d1a8a96bbc616875c87cc96522dc43b51b17e8904"
+  },
+  {
+   "n": 130,
+   "chapter": "Team doubles",
+   "person": "Casey and Jade, then earlier partners",
+   "title": "Choose a shared venue",
+   "file": "img/oct26/nov09-team-shared-venue.webp",
+   "source": "nov09-team-shared-venue.png",
+   "sha256": "65f0bd415a4c1e4d381d8445858de20f3dc6a710f471c074c97e8029c1cae8b0"
+  },
+  {
+   "n": 131,
+   "chapter": "Team doubles",
+   "person": "Casey and Jade, then earlier partners",
+   "title": "Restart this team’s search",
+   "file": "img/oct26/nov09-team-start-available.webp",
+   "source": "nov09-team-start-available.png",
+   "sha256": "954089a1c3f02e8afe2d9596be1560c24a1f99533a422e1c93953e26316051b3"
+  },
+  {
+   "n": 132,
+   "chapter": "Team doubles",
+   "person": "Casey and Jade, then earlier partners",
+   "title": "Team matchmaking is on",
+   "file": "img/oct26/nov09-team-search-on.webp",
+   "source": "nov09-team-search-on.png",
+   "sha256": "256341a5e9ad1e88565843bca4b4abc0c9dd6924a0c5133ae511574317641065"
+  },
+  {
+   "n": 133,
+   "chapter": "Team doubles",
+   "person": "Casey and Jade, then earlier partners",
+   "title": "See the saved time",
+   "file": "img/oct26/nov09-team-times-saved.webp",
+   "source": "nov09-team-times-saved.png",
+   "sha256": "038924d6a2bc1dd62fd152f75a1673537918616f4ba66362ec36da7cf9f4d228"
+  },
+  {
+   "n": 134,
+   "chapter": "Team doubles",
+   "person": "Casey and Jade, then earlier partners",
+   "title": "Several partners",
+   "file": "img/oct26/nov09-883-several-teams.webp",
+   "source": "nov09-883-several-teams.png",
+   "sha256": "8099b1e0e7628565c51fc2328fd3be022b6c83a6743dc3c000e159f6373cfcaf"
+  },
+  {
+   "n": 135,
+   "chapter": "Team doubles",
+   "person": "Casey and Jade, then earlier partners",
+   "title": "Team page",
+   "file": "img/oct26/nov09-current-ben-team-next-week.webp",
+   "source": "nov09-current-ben-team-next-week.png",
+   "sha256": "87093484be907d650a440aa21a4b94f6e0c0ed386b257c7c87780bcfd5d74465"
+  },
+  {
+   "n": 136,
+   "chapter": "Team doubles",
+   "person": "Casey and Jade, then earlier partners",
+   "title": "When one player has no time",
+   "file": "img/oct26/nov09-883-team-missing-times.webp",
+   "source": "nov09-883-team-missing-times.png",
+   "sha256": "56d78e69175f6950ad65ad1eeb1950687ed6ae5b7dc60dc90a6312c65d50c384"
+  },
+  {
+   "n": 137,
+   "chapter": "Team doubles",
+   "person": "Casey and Jade, then earlier partners",
+   "title": "A team match offer",
+   "file": "img/oct26/nov09-883-team-offer-prepared.webp",
+   "source": "nov09-883-team-offer-prepared.png",
+   "sha256": "881926ced2718b99a94d174bf94bf72e3d9ec29397694601c3b5090f6317a0be"
+  },
+  {
+   "n": 138,
+   "chapter": "Team doubles",
+   "person": "Casey and Jade, then earlier partners",
+   "title": "Ben has accepted",
+   "file": "img/oct26/nov09-883-team-offer-partner-accepted.webp",
+   "source": "nov09-883-team-offer-partner-accepted.png",
+   "sha256": "9b40333929acc426b6079a9678b89a54c30b8675c663f39ccd68b6e2c070c002"
+  },
+  {
+   "n": 139,
+   "chapter": "Team doubles",
+   "person": "Casey and Jade, then earlier partners",
+   "title": "Waiting for the other team",
+   "file": "img/oct26/nov09-883-team-offer-waiting-opponents.webp",
+   "source": "nov09-883-team-offer-waiting-opponents.png",
+   "sha256": "6444da872b9802f1f1553159c2c9f60504126c02f2d0ce45c002a5d8191cb96b"
+  },
+  {
+   "n": 140,
+   "chapter": "Team doubles",
+   "person": "Casey and Jade, then earlier partners",
+   "title": "The match is confirmed",
+   "file": "img/oct26/nov09-883-team-offer-match-confirmed.webp",
+   "source": "nov09-883-team-offer-match-confirmed.png",
+   "sha256": "fe40e9b74513f9a9fdec2c9d5c87fb32a93407630c0e623ff708a2a1426f15cc"
+  },
+  {
+   "n": 141,
+   "chapter": "Team doubles",
+   "person": "Casey and Jade, then earlier partners",
+   "title": "Partner left",
+   "file": "img/oct26/43e-team-ended.webp",
+   "source": "43e-team-ended.png",
+   "sha256": "41da387c59538325daa62742d4cc7aaec3cedb957b95b9b89e194109bdc94322"
+  },
+  {
+   "n": 142,
+   "chapter": "Joining from a team link",
+   "person": "Blake, Alex, Ben and Chris",
+   "title": "Invite from Alex",
+   "file": "img/oct26/nov09-883-blake-team-invite.webp",
+   "source": "nov09-883-blake-team-invite.png",
+   "sha256": "f70bd0717f0a479fac78c58a86f6799c52695e21ab73bb6f6435a761eb203f28"
+  },
+  {
+   "n": 143,
+   "chapter": "Joining from a team link",
+   "person": "Blake, Alex, Ben and Chris",
+   "title": "How you play",
+   "file": "img/oct26/nov09-883-blake-team-how.webp",
+   "source": "nov09-883-blake-team-how.png",
+   "sha256": "447d142a2314e91e64f52fc0ad359937dd06868fb7bdcdd919a25cc72420d1b3"
+  },
+  {
+   "n": 144,
+   "chapter": "Joining from a team link",
+   "person": "Blake, Alex, Ben and Chris",
+   "title": "In the League",
+   "file": "img/oct26/nov09-883-blake-team-joined.webp",
+   "source": "nov09-883-blake-team-joined.png",
+   "sha256": "0abff74236e2753b10941eca38a9196a7a508cad86a00c209c042c64b241c887"
+  },
+  {
+   "n": 145,
+   "chapter": "Joining from a team link",
+   "person": "Blake, Alex, Ben and Chris",
+   "title": "Accept as Blake",
+   "file": "img/oct26/nov09-883-blake-team-accept.webp",
+   "source": "nov09-883-blake-team-accept.png",
+   "sha256": "9019acb09ff9a4f8371fa4423c87c29a961b66c0f59c977c8f6bc0d877dbc81e"
+  },
+  {
+   "n": 146,
+   "chapter": "Joining from a team link",
+   "person": "Blake, Alex, Ben and Chris",
+   "title": "Waiting for Alex",
+   "file": "img/oct26/nov09-883-blake-team-waiting.webp",
+   "source": "nov09-883-blake-team-waiting.png",
+   "sha256": "eade8797ba32977b827840a2d29b406e5b48d414becac12229427f7c8a84553c"
+  },
+  {
+   "n": 147,
+   "chapter": "Joining from a team link",
+   "person": "Blake, Alex, Ben and Chris",
+   "title": "Alex confirms",
+   "file": "img/oct26/nov09-883-alex-team-confirm.webp",
+   "source": "nov09-883-alex-team-confirm.png",
+   "sha256": "36746f9634d2fb1f7d8c2ee05600ceb80af8077ddfdd93fc9961c5cf52e18609"
+  },
+  {
+   "n": 148,
+   "chapter": "Joining from a team link",
+   "person": "Blake, Alex, Ben and Chris",
+   "title": "You’re a team",
+   "file": "img/oct26/nov09-883-alex-team-formed.webp",
+   "source": "nov09-883-alex-team-formed.png",
+   "sha256": "26d51c4fbd0c422bf5f0fcfb5bc56a21c71bfc92c93a9dded4b9a7ba46ab2cd5"
+  },
+  {
+   "n": 149,
+   "chapter": "Joining from a team link",
+   "person": "Blake, Alex, Ben and Chris",
+   "title": "An existing member",
+   "file": "img/oct26/nov09-883-ben-chris-invite.webp",
+   "source": "nov09-883-ben-chris-invite.png",
+   "sha256": "22ea8a95ec73de4fd2c113654dba99dcdd88ea2f380caac0267d075e355bed9e"
+  },
+  {
+   "n": 150,
+   "chapter": "Joining from a team link",
+   "person": "Blake, Alex, Ben and Chris",
+   "title": "You’re a team",
+   "file": "img/oct26/nov09-883-ben-chris-formed.webp",
+   "source": "nov09-883-ben-chris-formed.png",
+   "sha256": "43461ddc1b7d3ff35728fede2f5bee75ff742e495ec1a926a84fd1a944c5bf5a"
+  },
+  {
+   "n": 151,
+   "chapter": "Scan to play",
+   "person": "Casey",
+   "title": "Find a venue",
+   "file": "img/oct26/nov09-scan-venue-search.webp",
+   "source": "nov09-scan-venue-search.png",
+   "sha256": "6a96710dc5a56551f7b297b854933965341bee57fc4c021534e7a82656c0e005"
+  },
+  {
+   "n": 152,
+   "chapter": "Scan to play",
+   "person": "Casey",
+   "title": "Choose the format",
+   "file": "img/oct26/nov09-scan-rotating-plan.webp",
+   "source": "nov09-scan-rotating-plan.png",
+   "sha256": "33683865090726d0a7580be3fba4811f712756c42f3dc9ee9939a168468f8a1c"
+  },
+  {
+   "n": 153,
+   "chapter": "Scan to play",
+   "person": "Casey",
+   "title": "Scan the players",
+   "file": "img/oct26/nov09-scan-host-waiting.webp",
+   "source": "nov09-scan-host-waiting.png",
+   "sha256": "0a0c3c15c5690271180571dbebcdb0459551f16f0dac4e273b0d6dc76b74cbcc"
+  },
+  {
+   "n": 154,
+   "chapter": "Scan to play",
+   "person": "Casey",
+   "title": "Jade reviews the plan",
+   "file": "img/oct26/nov09-scan-jade-review.webp",
+   "source": "nov09-scan-jade-review.png",
+   "sha256": "f0d6ff2f45476a7af6cc9dd81be28e9fdb685c41591084ed1a542dc2a330fee9"
+  },
+  {
+   "n": 155,
+   "chapter": "Scan to play",
+   "person": "Casey",
+   "title": "Jade confirms",
+   "file": "img/oct26/nov09-scan-jade-confirmed.webp",
+   "source": "nov09-scan-jade-confirmed.png",
+   "sha256": "cc9a5d5d449ac2eeba85b8a4b62d752b13bfda691001c3e86098f3128930c386"
+  },
+  {
+   "n": 156,
+   "chapter": "Scan to play",
+   "person": "Casey",
+   "title": "Ready to start",
+   "file": "img/oct26/nov09-scan-host-ready.webp",
+   "source": "nov09-scan-host-ready.png",
+   "sha256": "e7deccf81e8445f7a8b0067659773242282c5feef6e15907226d63bac5fc3443"
+  },
+  {
+   "n": 157,
+   "chapter": "Scan to play",
+   "person": "Casey",
+   "title": "The match opens",
+   "file": "img/oct26/nov09-scan-host-started.webp",
+   "source": "nov09-scan-host-started.png",
+   "sha256": "51fb5a9f23d8d4696406d79c72863726b22bf7da1b8db8674bf713df46bcc9f2"
+  },
+  {
+   "n": 158,
+   "chapter": "Scan to play",
+   "person": "Casey",
+   "title": "See all planned games",
+   "file": "img/oct26/nov09-scan-rotations.webp",
+   "source": "nov09-scan-rotations.png",
+   "sha256": "0cc928d174c50cb66b7a1d2d52f4d17128f93d7bfdfee9e507064e90b1062643"
+  },
+  {
+   "n": 159,
+   "chapter": "Scan to play",
+   "person": "Casey",
+   "title": "Report the games",
+   "file": "img/oct26/nov09-latest-scan-score-form.webp",
+   "source": "nov09-latest-scan-score-form.png",
+   "sha256": "84d3f9ae185fb04d07c52650945dd9c7e2be569ee92f4192b9bfd782f730accf"
+  },
+  {
+   "n": 160,
+   "chapter": "Scan to play",
+   "person": "Casey",
+   "title": "Enter the first game",
+   "file": "img/oct26/nov09-latest-scan-score-one.webp",
+   "source": "nov09-latest-scan-score-one.png",
+   "sha256": "a9cff370cf074ff4f1c0356b560962564e0391e057366fd81b79ea5ba1d38377"
+  },
+  {
+   "n": 161,
+   "chapter": "Scan to play",
+   "person": "Casey",
+   "title": "My QR",
+   "file": "img/oct26/45-my-code.webp",
+   "source": "45-my-code.png",
+   "sha256": "ca144d3162d0ab56cef7e74974adc3b87349496ca3939e0d1c32241450d59f87"
+  },
+  {
+   "n": 162,
+   "chapter": "Being scanned",
+   "person": "Blake, Alex and Jade",
+   "title": "Alex added you",
+   "file": "img/oct26/nov09-883-blake-scan-added.webp",
+   "source": "nov09-883-blake-scan-added.png",
+   "sha256": "52baee07b2eba4bab9b4bed53dbbb786de63e197fec3d31bee155ff5bcb1e398"
+  },
+  {
+   "n": 163,
+   "chapter": "Being scanned",
+   "person": "Blake, Alex and Jade",
+   "title": "If the host cancels",
+   "file": "img/oct26/nov09-883-blake-scan-cancelled.webp",
+   "source": "nov09-883-blake-scan-cancelled.png",
+   "sha256": "3dde524e576d72cc5ec47df836a9e73f76d409cdbd5423b72f7da08997387347"
+  },
+  {
+   "n": 164,
+   "chapter": "Being scanned",
+   "person": "Blake, Alex and Jade",
+   "title": "Jade reviews a different plan",
+   "file": "img/oct26/nov09-scan-jade-review.webp",
+   "source": "nov09-scan-jade-review.png",
+   "sha256": "f0d6ff2f45476a7af6cc9dd81be28e9fdb685c41591084ed1a542dc2a330fee9"
+  },
+  {
+   "n": 165,
+   "chapter": "Challenge a friend",
+   "person": "Casey, Jade and Maya",
+   "title": "Challenges in the menu",
+   "file": "img/oct26/70-menu.webp",
+   "source": "70-menu.png",
+   "sha256": "c170663345aaec1ed9b75861197c20f2bb38e595f2b9558a1f394dd2928cd751"
+  },
+  {
+   "n": 166,
+   "chapter": "Challenge a friend",
+   "person": "Casey, Jade and Maya",
+   "title": "Choose a player and place",
+   "file": "img/oct26/nov09-casey-challenge-compose.webp",
+   "source": "nov09-casey-challenge-compose.png",
+   "sha256": "379925830dff9f324abbd0ac3b94204ce55f44d768b7023541363511b1f340b4"
+  },
+  {
+   "n": 167,
+   "chapter": "Challenge a friend",
+   "person": "Casey, Jade and Maya",
+   "title": "Waiting for an answer",
+   "file": "img/oct26/nov09-casey-challenge-waiting.webp",
+   "source": "nov09-casey-challenge-waiting.png",
+   "sha256": "9817490a9ba983a5576741e908cb6d2fe564b88a41765088cdf75e17b04b6a6f"
+  },
+  {
+   "n": 168,
+   "chapter": "Challenge a friend",
+   "person": "Casey, Jade and Maya",
+   "title": "Jade receives the challenge",
+   "file": "img/oct26/nov09-jade-challenge-invitation.webp",
+   "source": "nov09-jade-challenge-invitation.png",
+   "sha256": "672e0cc07f476cfa48d43f4ab3007df1d482e34a9a7493c947289d9a6b44d34e"
+  },
+  {
+   "n": 169,
+   "chapter": "Challenge a friend",
+   "person": "Casey, Jade and Maya",
+   "title": "Both players accepted",
+   "file": "img/oct26/nov09-jade-challenge-accepted.webp",
+   "source": "nov09-jade-challenge-accepted.png",
+   "sha256": "479b198bdffa3f28f426a0baf58ec94796933314515c2527000f43392a401625"
+  },
+  {
+   "n": 170,
+   "chapter": "Challenge a friend",
+   "person": "Casey, Jade and Maya",
+   "title": "Choose a time",
+   "file": "img/oct26/nov09-jade-challenge-time-selected.webp",
+   "source": "nov09-jade-challenge-time-selected.png",
+   "sha256": "9f91eb74dc2e8b228e36f8e92fe2a0ca7a64f421db7d8e7686e56b529145d80c"
+  },
+  {
+   "n": 171,
+   "chapter": "Challenge a friend",
+   "person": "Casey, Jade and Maya",
+   "title": "Match confirmed",
+   "file": "img/oct26/nov09-jade-challenge-confirmed.webp",
+   "source": "nov09-jade-challenge-confirmed.png",
+   "sha256": "299b08c5f3c9bc1edf553edf9f44c09ea9c27ee19abffa8571d4067dc5ad1d75"
+  },
+  {
+   "n": 172,
+   "chapter": "Challenge a friend",
+   "person": "Casey, Jade and Maya",
+   "title": "No challenges yet",
+   "file": "img/oct26/nov09-current-challenge-empty.webp",
+   "source": "nov09-current-challenge-empty.png",
+   "sha256": "17a0b4c40382b3d173c9f64543ac3e48dea2115398fafe59f4c3a9d84bc81c03"
+  },
+  {
+   "n": 173,
+   "chapter": "Challenge a friend",
+   "person": "Casey, Jade and Maya",
+   "title": "A link anyone can take",
+   "file": "img/oct26/nov09-link-compose.webp",
+   "source": "nov09-link-compose.png",
+   "sha256": "f7f66a9a99de9a5165392311f5950c0c6c1c41746692bd43f26b54fc348cf4a6"
+  },
+  {
+   "n": 174,
+   "chapter": "Challenge a friend",
+   "person": "Casey, Jade and Maya",
+   "title": "A place that isn’t a League venue",
+   "file": "img/oct26/nov09-link-private-place.webp",
+   "source": "nov09-link-private-place.png",
+   "sha256": "837d78f7534c9078a92135fcd395ecd9b3f2abdcaf9ac21d302052d9910476a8"
+  },
+  {
+   "n": 175,
+   "chapter": "Challenge a friend",
+   "person": "Casey, Jade and Maya",
+   "title": "Time, DUPR and a note",
+   "file": "img/oct26/nov09-current-challenge-ready.webp",
+   "source": "nov09-current-challenge-ready.png",
+   "sha256": "2298bc69299486cff6b018eb4f7d032db1d73f40c509686e5fbaf3b282a3f933"
+  },
+  {
+   "n": 176,
+   "chapter": "Challenge a friend",
+   "person": "Casey, Jade and Maya",
+   "title": "Share the link",
+   "file": "img/oct26/nov09-current-challenge-share.webp",
+   "source": "nov09-current-challenge-share.png",
+   "sha256": "b89a369f1b095b568303e185c423e099fa8a2f99bf6249a408b215daa2fd9022"
+  },
+  {
+   "n": 177,
+   "chapter": "Challenge a friend",
+   "person": "Casey, Jade and Maya",
+   "title": "Waiting for a taker",
+   "file": "img/oct26/nov09-current-challenge-waiting.webp",
+   "source": "nov09-current-challenge-waiting.png",
+   "sha256": "080e4402abcca38cc934d84953e1333bef2d21f64fb0a583823f11be2fe68dba"
+  },
+  {
+   "n": 178,
+   "chapter": "Challenge a friend",
+   "person": "Casey, Jade and Maya",
+   "title": "Opening the link",
+   "file": "img/oct26/nov09-current-challenge-open.webp",
+   "source": "nov09-current-challenge-open.png",
+   "sha256": "2f993adeb6ce5d477555cfcb5337f1f25c4a79f233ea0d9042cbeb38ec2624c1"
+  },
+  {
+   "n": 179,
+   "chapter": "Challenge a friend",
+   "person": "Casey, Jade and Maya",
+   "title": "The link is accepted",
+   "file": "img/oct26/nov09-current-challenge-recipient.webp",
+   "source": "nov09-current-challenge-recipient.png",
+   "sha256": "f1bf26ea807ce79a4a973cc3cc3ff091c64f043823e5cc652d6680534b1fc81d"
+  },
+  {
+   "n": 180,
+   "chapter": "Challenge a friend",
+   "person": "Casey, Jade and Maya",
+   "title": "Accepted",
+   "file": "img/oct26/nov09-current-challenge-host.webp",
+   "source": "nov09-current-challenge-host.png",
+   "sha256": "3de3f532fa4a9a99604fb8ee1ca1cafbabdabfd10b3afd4274030a317705f407"
+  },
+  {
+   "n": 181,
+   "chapter": "Challenge a friend",
+   "person": "Casey, Jade and Maya",
+   "title": "An ordinary League match",
+   "file": "img/oct26/nov09-current-challenge-match.webp",
+   "source": "nov09-current-challenge-match.png",
+   "sha256": "a8187bdc280b58315d84e9d9e50964f4893fafe2bda4e853c792859e9a706bd4"
+  },
+  {
+   "n": 182,
+   "chapter": "Challenge a friend",
+   "person": "Casey, Jade and Maya",
+   "title": "A challenge in Needs you",
+   "file": "img/oct26/nov09-current-challenge-needs-you.webp",
+   "source": "nov09-current-challenge-needs-you.png",
+   "sha256": "495071d015eddd4ed22ed1c0ed3d34c33eeb76aef9cf7ac84b7b4fa3faca25b5"
+  },
+  {
+   "n": 183,
+   "chapter": "Challenge a friend",
+   "person": "Casey, Jade and Maya",
+   "title": "Review the challenge",
+   "file": "img/oct26/nov09-current-named-response.webp",
+   "source": "nov09-current-named-response.png",
+   "sha256": "2b9f0b14b132387a8e0e2db48d54cf8ee7916277c154e2d678cc8f2b8197678a"
+  },
+  {
+   "n": 184,
+   "chapter": "Challenge a friend",
+   "person": "Casey, Jade and Maya",
+   "title": "Both accepted, time still needed",
+   "file": "img/oct26/nov09-current-named-accepted.webp",
+   "source": "nov09-current-named-accepted.png",
+   "sha256": "b20606953ad74ecc2bfb8ba58e9bb7ddec072e1d048bb80a3ce8ba58432ff05b"
+  },
+  {
+   "n": 185,
+   "chapter": "Challenge a friend",
+   "person": "Casey, Jade and Maya",
+   "title": "Choose the agreed time",
+   "file": "img/oct26/nov09-current-named-time.webp",
+   "source": "nov09-current-named-time.png",
+   "sha256": "5014824948893e4f1fb75a7533b7bfceb307961ba991f4da7870c072c7df30cd"
+  },
+  {
+   "n": 186,
+   "chapter": "Challenge a friend",
+   "person": "Casey, Jade and Maya",
+   "title": "The challenge becomes a match",
+   "file": "img/oct26/nov09-current-named-booked.webp",
+   "source": "nov09-current-named-booked.png",
+   "sha256": "7652e1d6e7f0d0b920510ac1d99ed406a00cbc18b4bd9139004ec333b49dfebe"
+  },
+  {
+   "n": 187,
+   "chapter": "Challenge a friend",
+   "person": "Casey, Jade and Maya",
+   "title": "The Challenges list",
+   "file": "img/oct26/nov09-challenges-current-list.webp",
+   "source": "nov09-challenges-current-list.png",
+   "sha256": "ce2c65d866ae2f519a9d17bda65d46ad44a2ea858a3d70075cb10af228e41756"
+  },
+  {
+   "n": 188,
+   "chapter": "Challenge a friend",
+   "person": "Casey, Jade and Maya",
+   "title": "Withdraw a challenge",
+   "file": "img/oct26/nov09-link-withdraw-menu.webp",
+   "source": "nov09-link-withdraw-menu.png",
+   "sha256": "2619c389593b1be1b48e9147a5d2dc032cb8c4f750d8e8a48abe06daf96a3b10"
+  },
+  {
+   "n": 189,
+   "chapter": "Challenge a friend",
+   "person": "Casey, Jade and Maya",
+   "title": "Confirm withdrawal",
+   "file": "img/oct26/nov09-link-withdraw-confirm.webp",
+   "source": "nov09-link-withdraw-confirm.png",
+   "sha256": "c9f09c62c554c0f7c9f3bbbd0a8052836c36448f5d059cf12e1f10d1fdd6d757"
+  },
+  {
+   "n": 190,
+   "chapter": "Challenge a friend",
+   "person": "Casey, Jade and Maya",
+   "title": "Withdrawn",
+   "file": "img/oct26/nov09-link-withdrawn.webp",
+   "source": "nov09-link-withdrawn.png",
+   "sha256": "e6c388fab125b2bd012ec6be8b7dd85a243d8b6bc8afcdbe55fadb2054d03eb3"
+  },
+  {
+   "n": 191,
+   "chapter": "Following players",
+   "person": "Maya, Priya and Casey",
+   "title": "Follow from a stats page",
+   "file": "img/oct26/nov09-current-jade-following.webp",
+   "source": "nov09-current-jade-following.png",
+   "sha256": "c12a1533e3f782acd3fefefa485e3bf3aba8c8e978a3c8a50f8f6f175d839e2e"
+  },
+  {
+   "n": 192,
+   "chapter": "Following players",
+   "person": "Maya, Priya and Casey",
+   "title": "Block from a player record",
+   "file": "img/oct26/nov09-priya-elena-block.webp",
+   "source": "nov09-priya-elena-block.png",
+   "sha256": "97dfe990f02a3a054f581a29b269702020e62f523778157b274bbbe82ebac71e"
+  },
+  {
+   "n": 193,
+   "chapter": "Following players",
+   "person": "Maya, Priya and Casey",
+   "title": "Review before blocking",
+   "file": "img/oct26/nov09-priya-elena-block-confirm.webp",
+   "source": "nov09-priya-elena-block-confirm.png",
+   "sha256": "4e3c92f06709950b95aac359ace0fabc20cd0970e116a06f5ca54b292cd3f47a"
+  },
+  {
+   "n": 194,
+   "chapter": "Following players",
+   "person": "Maya, Priya and Casey",
+   "title": "Follow after a match",
+   "file": "img/oct26/nov09-priya-match-follow.webp",
+   "source": "nov09-priya-match-follow.png",
+   "sha256": "cd5554a84f055426885eb1796e49ccea618ae394e43faaa8d933c2c17bd0d77e"
+  },
+  {
+   "n": 195,
+   "chapter": "Following players",
+   "person": "Maya, Priya and Casey",
+   "title": "Following after a match",
+   "file": "img/oct26/nov09-priya-match-following.webp",
+   "source": "nov09-priya-match-following.png",
+   "sha256": "00e3b7983aff9f2539e6ce70d26d9ac4943ec7987641893c37700456571c7d20"
+  },
+  {
+   "n": 196,
+   "chapter": "Following players",
+   "person": "Maya, Priya and Casey",
+   "title": "Following",
+   "file": "img/oct26/nov09-casey-friends-following.webp",
+   "source": "nov09-casey-friends-following.png",
+   "sha256": "c76b3347fec2146f30340e22ab668944a830846793a87819f13e6ff16f87b6e3"
+  },
+  {
+   "n": 197,
+   "chapter": "Following players",
+   "person": "Maya, Priya and Casey",
+   "title": "Followers",
+   "file": "img/oct26/nov09-casey-friends-followers.webp",
+   "source": "nov09-casey-friends-followers.png",
+   "sha256": "3459dabac5639ba291e52c0a3a65a3f1c3c04bd6548222cf791a237453367f8d"
+  },
+  {
+   "n": 198,
+   "chapter": "Growing your local League",
+   "person": "Drew, Maya and Ben",
+   "title": "Before joining",
+   "file": "img/oct26/nov09-883-drew-prejoin.webp",
+   "source": "nov09-883-drew-prejoin.png",
+   "sha256": "d2696881775130958c1aaa246ce602748345cd90acd78bed30be5a6102fc0e98"
+  },
+  {
+   "n": 199,
+   "chapter": "Growing your local League",
+   "person": "Drew, Maya and Ben",
+   "title": "Who plays near you",
+   "file": "img/oct26/nov09-883-drew-near-city.webp",
+   "source": "nov09-883-drew-near-city.png",
+   "sha256": "b68cf04a543467ae884fee1c62ab367e392c281ef6ee716ed873c7a39c283e4f"
+  },
+  {
+   "n": 200,
+   "chapter": "Growing your local League",
+   "person": "Drew, Maya and Ben",
+   "title": "Your city in matchmaking",
+   "file": "img/oct26/nov09-current-growth-city.webp",
+   "source": "nov09-current-growth-city.png",
+   "sha256": "86de4132c63811929a52eb8c38f9d9cadca3452a6f0a1ad438639e1d9ddc5c38"
+  },
+  {
+   "n": 201,
+   "chapter": "Growing your local League",
+   "person": "Drew, Maya and Ben",
+   "title": "Venue progress",
+   "file": "img/oct26/nov09-current-growth-venue.webp",
+   "source": "nov09-current-growth-venue.png",
+   "sha256": "40812aa64ca9c977acdad63baf329bdc8781b802dca8f901c33d6ec944bd60ff"
+  },
+  {
+   "n": 202,
+   "chapter": "Growing your local League",
+   "person": "Drew, Maya and Ben",
+   "title": "Venue leaderboard",
+   "file": "img/oct26/nov09-current-growth-board.webp",
+   "source": "nov09-current-growth-board.png",
+   "sha256": "173ec851466378f5a23fbc38cf028de797e622d16a83e147cb3087e79091f7a5"
+  },
+  {
+   "n": 203,
+   "chapter": "Growing your local League",
+   "person": "Drew, Maya and Ben",
+   "title": "Brought to the League",
+   "file": "img/oct26/nov09-current-growth-friends.webp",
+   "source": "nov09-current-growth-friends.png",
+   "sha256": "11d59497f88cc15c07cbd12d62212757b9cfe872d7e7cd01f3bdd4b99d73dc32"
+  },
+  {
+   "n": 204,
+   "chapter": "Growing your local League",
+   "person": "Drew, Maya and Ben",
+   "title": "A result to share",
+   "file": "img/oct26/nov09-current-ben-exported-result.webp",
+   "source": "nov09-current-ben-exported-result.png",
+   "sha256": "210a468f8656bcac8a5b8db3f0e1527357610a7c269c4279307bf5c21865c067"
+  },
+  {
+   "n": 205,
+   "chapter": "Settings, times and venues",
+   "person": "Riley",
+   "title": "League settings",
+   "file": "img/oct26/nov09-settings-top.webp",
+   "source": "nov09-settings-top.png",
+   "sha256": "e2ffcf330164b5310c3aeb4ec8654ec6e4396a37b954a34cd943bc28ad2d1f97"
+  },
+  {
+   "n": 206,
+   "chapter": "Settings, times and venues",
+   "person": "Riley",
+   "title": "Privacy and safety",
+   "file": "img/oct26/nov09-settings-lower.webp",
+   "source": "nov09-settings-lower.png",
+   "sha256": "f420c36cfd04911fa9df67af10362243f0b25362d33b1150bcfcfa371a02480f"
+  },
+  {
+   "n": 207,
+   "chapter": "Settings, times and venues",
+   "person": "Riley",
+   "title": "Notifications",
+   "file": "img/oct26/nov09-settings-notifications.webp",
+   "source": "nov09-settings-notifications.png",
+   "sha256": "ef8ff8985a3f7e7931850d652d09f6ae2b34a81e26ff94a5bafdb5e16e274eb0"
+  },
+  {
+   "n": 208,
+   "chapter": "Settings, times and venues",
+   "person": "Riley",
+   "title": "Your times",
+   "file": "img/oct26/nov09-settings-times.webp",
+   "source": "nov09-settings-times.png",
+   "sha256": "536d6835dda2c03e562154d089881ab39cc3d5826d916b19a142d2ab38085ed4"
+  },
+  {
+   "n": 209,
+   "chapter": "Settings, times and venues",
+   "person": "Riley",
+   "title": "Saved venues",
+   "file": "img/oct26/nov09-settings-venues.webp",
+   "source": "nov09-settings-venues.png",
+   "sha256": "ac880cf3e78e59993a37e2bd040e726a5e98091831ca10e1eacf25e56b801c99"
+  },
+  {
+   "n": 210,
+   "chapter": "Settings, times and venues",
+   "person": "Riley",
+   "title": "Venue detail",
+   "file": "img/oct26/nov09-current-growth-venue.webp",
+   "source": "nov09-current-growth-venue.png",
+   "sha256": "40812aa64ca9c977acdad63baf329bdc8781b802dca8f901c33d6ec944bd60ff"
+  },
+  {
+   "n": 211,
+   "chapter": "Pause and return",
+   "person": "Riley, then earlier examples",
+   "title": "Open Pause",
+   "file": "img/oct26/nov09-riley-pause-start.webp",
+   "source": "nov09-riley-pause-start.png",
+   "sha256": "64358cf721ff9b337279eb4acf3cb11d05e94b9b38985c5a1fa2b8d810fd2733"
+  },
+  {
+   "n": 212,
+   "chapter": "Pause and return",
+   "person": "Riley, then earlier examples",
+   "title": "Choose when to return",
+   "file": "img/oct26/nov09-riley-pause-choice.webp",
+   "source": "nov09-riley-pause-choice.png",
+   "sha256": "0f50f7132f9e9cd46551760e20e8545c07b5c7f82a240ffba794ed9749b84c2e"
+  },
+  {
+   "n": 213,
+   "chapter": "Pause and return",
+   "person": "Riley, then earlier examples",
+   "title": "Search paused",
+   "file": "img/oct26/nov09-riley-paused.webp",
+   "source": "nov09-riley-paused.png",
+   "sha256": "b00e641646f7ea8bfff98969e0736d9de2acf936d4c71481507e6bd6c40fe622"
+  },
+  {
+   "n": 214,
+   "chapter": "Pause and return",
+   "person": "Riley, then earlier examples",
+   "title": "End the pause",
+   "file": "img/oct26/nov09-riley-resumed.webp",
+   "source": "nov09-riley-resumed.png",
+   "sha256": "a02811d58bfe2c9de45045d032376fe7404255e6d78f54fe6e2da98713903da7"
+  },
+  {
+   "n": 215,
+   "chapter": "Pause and return",
+   "person": "Riley, then earlier examples",
+   "title": "Matchmaking is on again",
+   "file": "img/oct26/nov09-riley-search-resumed.webp",
+   "source": "nov09-riley-search-resumed.png",
+   "sha256": "d5dc81a59bad7d656047f20f328c8ceb0470edcf076f199c703ab366cd1c19cc"
+  },
+  {
+   "n": 216,
+   "chapter": "Pause and return",
+   "person": "Riley, then earlier examples",
+   "title": "Paused after inactivity",
+   "file": "img/oct26/62-idle-home.webp",
+   "source": "62-idle-home.png",
+   "sha256": "e0c254f2cadf2bc518122a1a232d09df864fc15a546397c4f1fe5f9cff523aee"
+  },
+  {
+   "n": 217,
+   "chapter": "Pause and return",
+   "person": "Riley, then earlier examples",
+   "title": "A Monday message",
+   "file": "img/oct26/63-search-off-monday.webp",
+   "source": "63-search-off-monday.png",
+   "sha256": "6472f7cb2fefcc6d5fea6f1671708829feb8ed6166d968e8113fd8e0f6422f78"
+  },
+  {
+   "n": 218,
+   "chapter": "Pause and return",
+   "person": "Riley, then earlier examples",
+   "title": "Back to the League tab",
+   "file": "img/oct26/63b-search-off-home.webp",
+   "source": "63b-search-off-home.png",
+   "sha256": "d9ee9fa8dc43a24a9ae615c9d1eb43c11a9ca90e205eb2ed6909bf6333a206bc"
+  },
+  {
+   "n": 219,
+   "chapter": "Changing how you play",
+   "person": "Riley",
+   "title": "How you play",
+   "file": "img/oct26/nov09-format-before.webp",
+   "source": "nov09-format-before.png",
+   "sha256": "2d4099a2a4b8fe142ee1a88d150cf98d8350e115cd5a5c0b7b75c6044620ac91"
+  },
+  {
+   "n": 220,
+   "chapter": "Changing how you play",
+   "person": "Riley",
+   "title": "Choose rotating doubles",
+   "file": "img/oct26/nov09-format-selected.webp",
+   "source": "nov09-format-selected.png",
+   "sha256": "4817490a0d77d25360f285f7457793e55827348ab1e4a752999d2966dab44dfc"
+  },
+  {
+   "n": 221,
+   "chapter": "Changing how you play",
+   "person": "Riley",
+   "title": "Saved",
+   "file": "img/oct26/nov09-format-saved.webp",
+   "source": "nov09-format-saved.png",
+   "sha256": "589d747ef8a1caea76197cc49551bad8a7926eaab3dcb9747abc84177f22a93f"
+  },
+  {
+   "n": 222,
+   "chapter": "Safety and conduct",
+   "person": "Maya and Casey",
+   "title": "Block a player",
+   "file": "img/oct26/nov09-current-jade-block.webp",
+   "source": "nov09-current-jade-block.png",
+   "sha256": "8429711e0353182c0771de4e45b8f9a8988ced1d18d5f7b644dfd3df25bfea3c"
+  },
+  {
+   "n": 223,
+   "chapter": "Safety and conduct",
+   "person": "Maya and Casey",
+   "title": "Blocked players",
+   "file": "img/oct26/nov09-casey-block-list.webp",
+   "source": "nov09-casey-block-list.png",
+   "sha256": "cbaa255b8f210df9dd7e416f326448361201071e58cd3dfdaad1e979b524796d"
+  },
+  {
+   "n": 224,
+   "chapter": "Safety and conduct",
+   "person": "Maya and Casey",
+   "title": "Unblocked",
+   "file": "img/oct26/nov09-casey-unblocked.webp",
+   "source": "nov09-casey-unblocked.png",
+   "sha256": "83596990542fc09be01862a1a36d4b717c26594354396d498ef1a40c2858908a"
+  },
+  {
+   "n": 225,
+   "chapter": "Safety and conduct",
+   "person": "Maya and Casey",
+   "title": "Conduct record",
+   "file": "img/oct26/nov09-casey-conduct-list.webp",
+   "source": "nov09-casey-conduct-list.png",
+   "sha256": "b66220e36efa9377f23d9f638bf06bb1093d91eead1fd944098d1b62200c7391"
+  },
+  {
+   "n": 226,
+   "chapter": "Safety and conduct",
+   "person": "Maya and Casey",
+   "title": "The late cancellation",
+   "file": "img/oct26/nov09-casey-conduct-case.webp",
+   "source": "nov09-casey-conduct-case.png",
+   "sha256": "2d56dfb24c7349ab9e2b6ded5b821b8ad1fa67ba3bbaa9d96c496ca5a788a46c"
+  },
+  {
+   "n": 227,
+   "chapter": "Safety and conduct",
+   "person": "Maya and Casey",
+   "title": "Challenge",
+   "file": "img/oct26/nov09-casey-conduct-draft.webp",
+   "source": "nov09-casey-conduct-draft.png",
+   "sha256": "65ab24ff55ac64957596dd697df47ed085a851f844956c0a456aba321c55c63c"
+  },
+  {
+   "n": 228,
+   "chapter": "Safety and conduct",
+   "person": "Maya and Casey",
+   "title": "Challenge saved",
+   "file": "img/oct26/nov09-casey-conduct-receipt.webp",
+   "source": "nov09-casey-conduct-receipt.png",
+   "sha256": "1faec97e6badab8b4312f77cae6f1d0fb812139225422fba97cd336bae4fd21d"
+  },
+  {
+   "n": 229,
+   "chapter": "Safety and conduct",
+   "person": "Maya and Casey",
+   "title": "Under review",
+   "file": "img/oct26/nov09-casey-conduct-review.webp",
+   "source": "nov09-casey-conduct-review.png",
+   "sha256": "f17cbd2f99ec4efdc7f7e3591763b6501a3766645c2746133eeb639883bfcccc"
+  },
+  {
+   "n": 230,
+   "chapter": "Safety and conduct",
+   "person": "Maya and Casey",
+   "title": "A report needs a response",
+   "file": "img/oct26/nov09-casey-conduct-home-current.webp",
+   "source": "nov09-casey-conduct-home-current.png",
+   "sha256": "e049a6b338411c73cf4d23726ff89554081349a6e691c7f33c3a9fd9927385ee"
+  },
+  {
+   "n": 231,
+   "chapter": "Safety and conduct",
+   "person": "Maya and Casey",
+   "title": "Open the conduct record",
+   "file": "img/oct26/nov09-casey-open-conduct-list.webp",
+   "source": "nov09-casey-open-conduct-list.png",
+   "sha256": "18fb8988f2de4692864ddae6c9e99ada9f58a0e1f51fc8526ef845a8c5faf4bd"
+  },
+  {
+   "n": 232,
+   "chapter": "Safety and conduct",
+   "person": "Maya and Casey",
+   "title": "Review the report",
+   "file": "img/oct26/nov09-casey-open-conduct-detail.webp",
+   "source": "nov09-casey-open-conduct-detail.png",
+   "sha256": "82dfe889b8e88414e215f65b247ffa7935c6dc4749c2039a1fa208f7fc67b8be"
+  },
+  {
+   "n": 233,
+   "chapter": "Notifications",
+   "person": "Riley",
+   "title": "Inbox",
+   "file": "img/oct26/nov09-riley-inbox.webp",
+   "source": "nov09-riley-inbox.png",
+   "sha256": "c91b0588ffa84f8de21dc5a3ece5f6395f2b8617f5b1df6f9704b9c01a77a566"
+  },
+  {
+   "n": 234,
+   "chapter": "Get a rotating doubles match",
+   "person": "Maya, then Alex, Jordan, Marcus and Nolan",
+   "title": "Saved courts",
+   "file": "img/oct26/nov09-latest-saved-venues.webp",
+   "source": "nov09-latest-saved-venues.png",
+   "sha256": "055db9eb142dd589d944d4937415cceea7f02d4dc97cf0d4ed7be8d0ecd77c5e"
+  },
+  {
+   "n": 235,
+   "chapter": "Get a rotating doubles match",
+   "person": "Maya, then Alex, Jordan, Marcus and Nolan",
+   "title": "Set a preference",
+   "file": "img/oct26/nov09-latest-venue-preference.webp",
+   "source": "nov09-latest-venue-preference.png",
+   "sha256": "b72f16e52ffe9f054d75b0aa4805116c9a4bb03bcc4011229def8b48a5d373b0"
+  },
+  {
+   "n": 236,
+   "chapter": "Get a rotating doubles match",
+   "person": "Maya, then Alex, Jordan, Marcus and Nolan",
+   "title": "Move a court to Backup",
+   "file": "img/oct26/nov09-latest-venue-backup.webp",
+   "source": "nov09-latest-venue-backup.png",
+   "sha256": "b01d82038fdd7cd228feb4f73670bd5f41375cb8fa70121bc66750dc3ffe8275"
+  },
+  {
+   "n": 237,
+   "chapter": "Get a rotating doubles match",
+   "person": "Maya, then Alex, Jordan, Marcus and Nolan",
+   "title": "Result preferences",
+   "file": "img/oct26/nov09-latest-rotating-preferences.webp",
+   "source": "nov09-latest-rotating-preferences.png",
+   "sha256": "6845668af9ee21580ba7a0ecdfe1dd3b98fe7e2f8b8fd2382083f946d301aef2"
+  },
+  {
+   "n": 238,
+   "chapter": "Get a rotating doubles match",
+   "person": "Maya, then Alex, Jordan, Marcus and Nolan",
+   "title": "Choose not to send",
+   "file": "img/oct26/nov09-latest-rotating-no-dupr.webp",
+   "source": "nov09-latest-rotating-no-dupr.png",
+   "sha256": "3cda4f6072d4944c45a3cfc4e9e40407c1b485253adff37e9415e9fefb04aa9e"
+  },
+  {
+   "n": 239,
+   "chapter": "Get a rotating doubles match",
+   "person": "Maya, then Alex, Jordan, Marcus and Nolan",
+   "title": "A time that could match",
+   "file": "img/oct26/nov09-883-matching-opportunities.webp",
+   "source": "nov09-883-matching-opportunities.png",
+   "sha256": "f68d8d1e1ca21a43a625f6b883e51959f1d71cebe6d55399531dc0734fa715f2"
+  },
+  {
+   "n": 240,
+   "chapter": "Get a rotating doubles match",
+   "person": "Maya, then Alex, Jordan, Marcus and Nolan",
+   "title": "See the other starts",
+   "file": "img/oct26/nov09-883-matching-grid.webp",
+   "source": "nov09-883-matching-grid.png",
+   "sha256": "4da0bc5f2a4ddcdbc7f5395d9c43fdb07404cfa148574f5160fffa19203bbc22"
+  },
+  {
+   "n": 241,
+   "chapter": "Get a rotating doubles match",
+   "person": "Maya, then Alex, Jordan, Marcus and Nolan",
+   "title": "Review the window",
+   "file": "img/oct26/nov09-883-matching-picker.webp",
+   "source": "nov09-883-matching-picker.png",
+   "sha256": "b65bb466f73a5014579cb5dc677205f073f280a7f35465e1a4528671633f07fb"
+  },
+  {
+   "n": 242,
+   "chapter": "Get a rotating doubles match",
+   "person": "Maya, then Alex, Jordan, Marcus and Nolan",
+   "title": "The search finds a group",
+   "file": "img/oct26/nov09-883-alex-rotating-home.webp",
+   "source": "nov09-883-alex-rotating-home.png",
+   "sha256": "f9d6d75a85bd30c893673af5812a34c608b7f6e42efed439f3a129f0f4be642b"
+  },
+  {
+   "n": 243,
+   "chapter": "Get a rotating doubles match",
+   "person": "Maya, then Alex, Jordan, Marcus and Nolan",
+   "title": "The actual plan",
+   "file": "img/oct26/nov09-883-rotating-plan.webp",
+   "source": "nov09-883-rotating-plan.png",
+   "sha256": "787edebcbb6a1c932579c4a10a511661012f40a4ec3d341fa7211b86f4af5f38"
+  },
+  {
+   "n": 244,
+   "chapter": "Get a rotating doubles match",
+   "person": "Maya, then Alex, Jordan, Marcus and Nolan",
+   "title": "Every partnership",
+   "file": "img/oct26/nov09-883-rotating-lineups.webp",
+   "source": "nov09-883-rotating-lineups.png",
+   "sha256": "73e590e12ecc69ffc6810648a2caa62060dc60c068d6b51ac3e3749225c8b444"
+  },
+  {
+   "n": 245,
+   "chapter": "Get a rotating doubles match",
+   "person": "Maya, then Alex, Jordan, Marcus and Nolan",
+   "title": "Coordinate arrival",
+   "file": "img/oct26/nov09-883-rotating-chat.webp",
+   "source": "nov09-883-rotating-chat.png",
+   "sha256": "e71db1dbbf6f9b09cc5ac045c9b34377a3868d365f6cc562175a32e120f184d7"
+  },
+  {
+   "n": 246,
+   "chapter": "Start a doubles match at the courts",
+   "person": "Alex and Ben",
+   "title": "At the courts",
+   "file": "img/oct26/nov09-883-alex-scan-plan.webp",
+   "source": "nov09-883-alex-scan-plan.png",
+   "sha256": "a506071c7a2d527bfb89a8468f606f7ba7f97d896ff72b99e14a25c9462f05a4"
+  },
+  {
+   "n": 247,
+   "chapter": "Start a doubles match at the courts",
+   "person": "Alex and Ben",
+   "title": "All four players",
+   "file": "img/oct26/nov09-883-scan-four-waiting.webp",
+   "source": "nov09-883-scan-four-waiting.png",
+   "sha256": "b7a80fa9635b348c578df477c329a2c8a60b1b63d659f74364e4167943b134b8"
+  },
+  {
+   "n": 248,
+   "chapter": "Start a doubles match at the courts",
+   "person": "Alex and Ben",
+   "title": "Ben’s invitation",
+   "file": "img/oct26/nov09-883-scan-ben-invitation.webp",
+   "source": "nov09-883-scan-ben-invitation.png",
+   "sha256": "881ba63a6c718923dc8c7e6f5de25b919f46693208637c8f25cabc81445aeeb7"
+  },
+  {
+   "n": 249,
+   "chapter": "Start a doubles match at the courts",
+   "person": "Alex and Ben",
+   "title": "Confirm only for yourself",
+   "file": "img/oct26/nov09-883-scan-ben-review.webp",
+   "source": "nov09-883-scan-ben-review.png",
+   "sha256": "3999e36c65e19d807cf5896cb74bd6a2bffb3319db4ae41356db99870be0dd71"
+  },
+  {
+   "n": 250,
+   "chapter": "Start a doubles match at the courts",
+   "person": "Alex and Ben",
+   "title": "Guests have confirmed",
+   "file": "img/oct26/nov09-883-scan-guests-confirmed.webp",
+   "source": "nov09-883-scan-guests-confirmed.png",
+   "sha256": "5117cbea276a10c494eb2939a33f0eaf3bf8537323152f25c9c869580ac8f58f"
+  },
+  {
+   "n": 251,
+   "chapter": "Start a doubles match at the courts",
+   "person": "Alex and Ben",
+   "title": "Ready to start",
+   "file": "img/oct26/nov09-883-scan-host-ready.webp",
+   "source": "nov09-883-scan-host-ready.png",
+   "sha256": "0a45385d9e69d2598ae69c65135c36edb5743c654b8c0915b8490051edfbe3f7"
+  },
+  {
+   "n": 252,
+   "chapter": "Start a doubles match at the courts",
+   "person": "Alex and Ben",
+   "title": "The published match",
+   "file": "img/oct26/nov09-883-scan-started.webp",
+   "source": "nov09-883-scan-started.png",
+   "sha256": "2ec4ea2a4def7e8e6f2bc4768c70de17c42dafe5054631ef0e4bcadd9ce1a600"
+  },
+  {
+   "n": 253,
+   "chapter": "Report, correct and confirm doubles scores",
+   "person": "Alex, Ben and Chris",
+   "title": "The score form",
+   "file": "img/oct26/nov09-883-score-form.webp",
+   "source": "nov09-883-score-form.png",
+   "sha256": "cb7032813ea2fdddd22b9591627aa3098312523282b38a142d53c8034249a4a3"
+  },
+  {
+   "n": 254,
+   "chapter": "Report, correct and confirm doubles scores",
+   "person": "Alex, Ben and Chris",
+   "title": "Enter one game",
+   "file": "img/oct26/nov09-883-score-one.webp",
+   "source": "nov09-883-score-one.png",
+   "sha256": "de5b882a8b05c2cda8f8b4d5790b5dbf568b155acdf73fe4dcee9b33f3ab401b"
+  },
+  {
+   "n": 255,
+   "chapter": "Report, correct and confirm doubles scores",
+   "person": "Alex, Ben and Chris",
+   "title": "All three games",
+   "file": "img/oct26/nov09-883-score-three.webp",
+   "source": "nov09-883-score-three.png",
+   "sha256": "e38ad595ba69ba7eb9b9322165e355660e9ab99c68a02d11ac56cecad4146fe5"
+  },
+  {
+   "n": 256,
+   "chapter": "Report, correct and confirm doubles scores",
+   "person": "Alex, Ben and Chris",
+   "title": "Sent, waiting for review",
+   "file": "img/oct26/nov09-883-score-sent.webp",
+   "source": "nov09-883-score-sent.png",
+   "sha256": "d632b0438c78d13d5d188b46b948147a5e8c4af954c5cf656bf6dfd248da2906"
+  },
+  {
+   "n": 257,
+   "chapter": "Report, correct and confirm doubles scores",
+   "person": "Alex, Ben and Chris",
+   "title": "Fix a typing mistake",
+   "file": "img/oct26/nov09-883-score-correct.webp",
+   "source": "nov09-883-score-correct.png",
+   "sha256": "708c703d65b026e9ecc343acf3f2fd12cf89754ac6fc6920af397ba221289b81"
+  },
+  {
+   "n": 258,
+   "chapter": "Report, correct and confirm doubles scores",
+   "person": "Alex, Ben and Chris",
+   "title": "The corrected receipt",
+   "file": "img/oct26/nov09-883-score-corrected-sent.webp",
+   "source": "nov09-883-score-corrected-sent.png",
+   "sha256": "180cbf4f45a5ebc7889d6f471215629207a2f9e6c9570c6bd6ddd0e1b63749eb"
+  },
+  {
+   "n": 259,
+   "chapter": "Report, correct and confirm doubles scores",
+   "person": "Alex, Ben and Chris",
+   "title": "Ben reviews on his device",
+   "file": "img/oct26/nov09-883-score-ben-review.webp",
+   "source": "nov09-883-score-ben-review.png",
+   "sha256": "b7afb4018c91c390f22f43e11269ef80363091de54708eb5a729a32800fef731"
+  },
+  {
+   "n": 260,
+   "chapter": "Report, correct and confirm doubles scores",
+   "person": "Alex, Ben and Chris",
+   "title": "Ben’s answer is saved",
+   "file": "img/oct26/nov09-883-score-ben-answered.webp",
+   "source": "nov09-883-score-ben-answered.png",
+   "sha256": "895a5d9174c258b9ee326d54886fbf5702209c589719c071b694a840079c0f1e"
+  },
+  {
+   "n": 261,
+   "chapter": "Report, correct and confirm doubles scores",
+   "person": "Alex, Ben and Chris",
+   "title": "Back in match history",
+   "file": "img/oct26/nov09-current-ben-match-history.webp",
+   "source": "nov09-current-ben-match-history.png",
+   "sha256": "332625187a521497c9584b08e54fffa24f03a0b38c265b7b49c186800e59e138"
+  },
+  {
+   "n": 262,
+   "chapter": "Report, correct and confirm doubles scores",
+   "person": "Alex, Ben and Chris",
+   "title": "The final result",
+   "file": "img/oct26/nov09-883-score-final.webp",
+   "source": "nov09-883-score-final.png",
+   "sha256": "32f8de6b93577083ca4afcfda931fc8b4c60b47f742e4b374f8c1e9452b0e808"
+  },
+  {
+   "n": 263,
+   "chapter": "Report, correct and confirm doubles scores",
+   "person": "Alex, Ben and Chris",
+   "title": "Share the result",
+   "file": "img/oct26/nov09-current-ben-result-share.webp",
+   "source": "nov09-current-ben-result-share.png",
+   "sha256": "979c959337f92fe7fb4376d14f63ec49497333e4853633b248d702947898ae43"
+  },
+  {
+   "n": 264,
+   "chapter": "Report, correct and confirm doubles scores",
+   "person": "Alex, Ben and Chris",
+   "title": "The actual exported card",
+   "file": "img/oct26/nov09-current-ben-exported-result.webp",
+   "source": "nov09-current-ben-exported-result.png",
+   "sha256": "210a468f8656bcac8a5b8db3f0e1527357610a7c269c4279307bf5c21865c067"
+  },
+  {
+   "n": 265,
+   "chapter": "Build a regular doubles partnership",
+   "person": "Alex and Ben",
+   "title": "Create the team invitation",
+   "file": "img/oct26/nov09-current-team-invite-form.webp",
+   "source": "nov09-current-team-invite-form.png",
+   "sha256": "d1764ec015616b8d29bb07ce205fcb4fee95c3b706fb09aa196ed7e01cb194d9"
+  },
+  {
+   "n": 266,
+   "chapter": "Build a regular doubles partnership",
+   "person": "Alex and Ben",
+   "title": "Share the invitation link",
+   "file": "img/oct26/nov09-current-team-invite-share.webp",
+   "source": "nov09-current-team-invite-share.png",
+   "sha256": "d7f7fc19d46482355927b8848e27324745b1e9ba20f347f242685eb10d2044b9"
+  },
+  {
+   "n": 267,
+   "chapter": "Build a regular doubles partnership",
+   "person": "Alex and Ben",
+   "title": "Ben reviews the invitation",
+   "file": "img/oct26/nov09-883-ben-chris-invite.webp",
+   "source": "nov09-883-ben-chris-invite.png",
+   "sha256": "22ea8a95ec73de4fd2c113654dba99dcdd88ea2f380caac0267d075e355bed9e"
+  },
+  {
+   "n": 268,
+   "chapter": "Build a regular doubles partnership",
+   "person": "Alex and Ben",
+   "title": "The partnership is formed",
+   "file": "img/oct26/nov09-883-ben-chris-formed.webp",
+   "source": "nov09-883-ben-chris-formed.png",
+   "sha256": "43461ddc1b7d3ff35728fede2f5bee75ff742e495ec1a926a84fd1a944c5bf5a"
+  },
+  {
+   "n": 269,
+   "chapter": "Build a regular doubles partnership",
+   "person": "Alex and Ben",
+   "title": "Compare shared times",
+   "file": "img/oct26/nov09-883-ben-chris-times.webp",
+   "source": "nov09-883-ben-chris-times.png",
+   "sha256": "dfeb71bcbb3f91008fd64f8cbf2eae9d859edf30a40d47568954e1635780e3c6"
+  },
+  {
+   "n": 270,
+   "chapter": "Build a regular doubles partnership",
+   "person": "Alex and Ben",
+   "title": "Check next week",
+   "file": "img/oct26/nov09-current-ben-team-next-week.webp",
+   "source": "nov09-current-ben-team-next-week.png",
+   "sha256": "87093484be907d650a440aa21a4b94f6e0c0ed386b257c7c87780bcfd5d74465"
+  },
+  {
+   "n": 271,
+   "chapter": "Build a regular doubles partnership",
+   "person": "Alex and Ben",
+   "title": "A real Team doubles booking",
+   "file": "img/oct26/nov09-40-team-booked.webp",
+   "source": "nov09-40-team-booked.png",
+   "sha256": "30d6cdf2e6f9137810df4e08f744ced43ab77e8ace6a85f428213646c3bc2c47"
+  },
+  {
+   "n": 272,
+   "chapter": "Build a regular doubles partnership",
+   "person": "Alex and Ben",
+   "title": "Coordinate as four players",
+   "file": "img/oct26/nov09-41-team-chat.webp",
+   "source": "nov09-41-team-chat.png",
+   "sha256": "188ee5763887f094552e3de978a7ab0f5ea8ae1f1d833af3634ec25efc4852a9"
+  },
+  {
+   "n": 273,
+   "chapter": "Choose useful times and check the court",
+   "person": "Alex",
+   "title": "Save for one week or every week",
+   "file": "img/oct26/nov09-883-one-week-save-choice.webp",
+   "source": "nov09-883-one-week-save-choice.png",
+   "sha256": "41d62dc1f4dbf8b2ff6ea0aa5b28cb01019026c7162530fd64f542b656f68161"
+  },
+  {
+   "n": 274,
+   "chapter": "Choose useful times and check the court",
+   "person": "Alex",
+   "title": "The one-week change is saved",
+   "file": "img/oct26/nov09-883-one-week-saved.webp",
+   "source": "nov09-883-one-week-saved.png",
+   "sha256": "8f0e2a637709a7b7d81afdc8195365edfa51c675c4836c290ca8306fe2aeef28"
+  },
+  {
+   "n": 275,
+   "chapter": "Choose useful times and check the court",
+   "person": "Alex",
+   "title": "Explore popular times",
+   "file": "img/oct26/nov09-883-times-popular.webp",
+   "source": "nov09-883-times-popular.png",
+   "sha256": "888436e48fd67f4bf1499e3b543e30d5d6a9e2edd7e3e1748347107d70bba39f"
+  },
+  {
+   "n": 276,
+   "chapter": "Choose useful times and check the court",
+   "person": "Alex",
+   "title": "A popular start opens the picker",
+   "file": "img/oct26/nov09-883-popular-picker.webp",
+   "source": "nov09-883-popular-picker.png",
+   "sha256": "23d167a3e6c31523d8261816b1cb396ecaff173e219dbb5893919df2ebb5d6ad"
+  },
+  {
+   "n": 277,
+   "chapter": "Choose useful times and check the court",
+   "person": "Alex",
+   "title": "Activity at the saved venue",
+   "file": "img/oct26/nov09-883-harborview-popular.webp",
+   "source": "nov09-883-harborview-popular.png",
+   "sha256": "de47515d1d3f59c2f50eac14c9585a04007bbd07e81ffed5d923a1cca36993d2"
+  },
+  {
+   "n": 278,
+   "chapter": "Choose useful times and check the court",
+   "person": "Alex",
+   "title": "Reopen access information",
+   "file": "img/oct26/nov09-883-harborview-access.webp",
+   "source": "nov09-883-harborview-access.png",
+   "sha256": "c3ad8812d0d73ccf66f4b21b74f2bb55332ed314425b13ebe8b906ba68a653dd"
+  },
+  {
+   "n": 279,
+   "chapter": "Cancel, pause and report an unplayed match",
+   "person": "Alex",
+   "title": "Read the cancellation consequence",
+   "file": "img/oct26/nov09-883-team-cancel-preview.webp",
+   "source": "nov09-883-team-cancel-preview.png",
+   "sha256": "2649d79bc9afcd99d7f0557faa90b9c26b205ab82ebaae8dc138dd35f3eab847"
+  },
+  {
+   "n": 280,
+   "chapter": "Cancel, pause and report an unplayed match",
+   "person": "Alex",
+   "title": "The cancellation is recorded",
+   "file": "img/oct26/nov09-883-team-cancelled.webp",
+   "source": "nov09-883-team-cancelled.png",
+   "sha256": "f30875afc1343f9525eba1b23517cfc6c0d98bca3633c575df34ea4f1daa0039"
+  },
+  {
+   "n": 281,
+   "chapter": "Cancel, pause and report an unplayed match",
+   "person": "Alex",
+   "title": "Choose the scope of a break",
+   "file": "img/oct26/nov09-883-pause-scopes.webp",
+   "source": "nov09-883-pause-scopes.png",
+   "sha256": "de301e1eeafe3de15cadb35f96008dc65453069109d065ca509f96e4aab41892"
+  },
+  {
+   "n": 282,
+   "chapter": "Cancel, pause and report an unplayed match",
+   "person": "Alex",
+   "title": "Booked matches stay visible",
+   "file": "img/oct26/nov09-883-paused-and-booking.webp",
+   "source": "nov09-883-paused-and-booking.png",
+   "sha256": "f0aa74efedd06917158658685e9a6fac118ccc2c10c57e04be0e1c383c9ac88e"
+  },
+  {
+   "n": 283,
+   "chapter": "Cancel, pause and report an unplayed match",
+   "person": "Alex",
+   "title": "End the pause",
+   "file": "img/oct26/nov09-883-pause-ended.webp",
+   "source": "nov09-883-pause-ended.png",
+   "sha256": "8082b130cac4da3055acbd6e4755f852d967debad9d3cad053265ea9356944d2"
+  },
+  {
+   "n": 284,
+   "chapter": "Cancel, pause and report an unplayed match",
+   "person": "Alex",
+   "title": "Check a missing-player report",
+   "file": "img/oct26/nov09-883-absence-preview.webp",
+   "source": "nov09-883-absence-preview.png",
+   "sha256": "91838adb30be4b3f9409bb87440b0b3af6bf708785cd744369243926315ea102"
+  },
+  {
+   "n": 285,
+   "chapter": "Cancel, pause and report an unplayed match",
+   "person": "Alex",
+   "title": "End as not played",
+   "file": "img/oct26/nov09-883-absence-result.webp",
+   "source": "nov09-883-absence-result.png",
+   "sha256": "31e53d3e4c00cb4fab00058a10fd3a0ab89fe31b16262d08eaba0cf7ccf11d32"
+  },
+  {
+   "n": 286,
+   "chapter": "Arrange a team challenge",
+   "person": "Alex, Blake, Chris and Diego",
+   "title": "Create a team challenge",
+   "file": "img/oct26/nov09-883-team-challenge-pending.webp",
+   "source": "nov09-883-team-challenge-pending.png",
+   "sha256": "04049fffe076e31de44a6ee2fdc333ffa3a8334724f13667ff31f91ea83d58e2"
+  },
+  {
+   "n": 287,
+   "chapter": "Arrange a team challenge",
+   "person": "Alex, Blake, Chris and Diego",
+   "title": "Blake reviews on his own phone",
+   "file": "img/oct26/nov09-883-team-challenge-review.webp",
+   "source": "nov09-883-team-challenge-review.png",
+   "sha256": "362b54ff3cd007b29d7323ed119dc9f509b6f51a237f415d8c583bf3df2fba84"
+  },
+  {
+   "n": 288,
+   "chapter": "Arrange a team challenge",
+   "person": "Alex, Blake, Chris and Diego",
+   "title": "Everyone accepts; time is still needed",
+   "file": "img/oct26/nov09-883-team-challenge-accepted.webp",
+   "source": "nov09-883-team-challenge-accepted.png",
+   "sha256": "c6c11889ac5028d56729cfe2fb82046dfe83fe811b89d05173ef58da4751a719"
+  },
+  {
+   "n": 289,
+   "chapter": "Arrange a team challenge",
+   "person": "Alex, Blake, Chris and Diego",
+   "title": "Discuss a time",
+   "file": "img/oct26/nov09-883-team-challenge-chat.webp",
+   "source": "nov09-883-team-challenge-chat.png",
+   "sha256": "7400e580d091f110649bf49e2873cbd132abc46b7cdefe7ddc2b3530ec8a2c91"
+  },
+  {
+   "n": 290,
+   "chapter": "Arrange a team challenge",
+   "person": "Alex, Blake, Chris and Diego",
+   "title": "Choose a time",
+   "file": "img/oct26/nov09-883-team-challenge-time.webp",
+   "source": "nov09-883-team-challenge-time.png",
+   "sha256": "50d73b3d07691163de4f67d3ebb32715b0ee86e4766269f2a4b6c83767ea8a54"
+  },
+  {
+   "n": 291,
+   "chapter": "Arrange a team challenge",
+   "person": "Alex, Blake, Chris and Diego",
+   "title": "The challenge becomes a match",
+   "file": "img/oct26/nov09-883-team-challenge-confirmed.webp",
+   "source": "nov09-883-team-challenge-confirmed.png",
+   "sha256": "76238e5607f24165a0aa69a92d0a18ecc96b5a159a1cdd2c42a7e69a4b64e891"
+  },
+  {
+   "n": 292,
+   "chapter": "Arrange a team challenge",
+   "person": "Alex, Blake, Chris and Diego",
+   "title": "The conversation carries over",
+   "file": "img/oct26/nov09-883-team-challenge-match-chat.webp",
+   "source": "nov09-883-team-challenge-match-chat.png",
+   "sha256": "b40242ec6e80f79f1eb75b21d3b2bd3b000ed223bf49eb70a59ca7d472a1f1fe"
+  },
+  {
+   "n": 293,
+   "chapter": "Finish an eight-week doubles season",
+   "person": "Alex and Ben",
+   "title": "A weekly recap",
+   "file": "img/oct26/nov09-current-alex-weekly-recap.webp",
+   "source": "nov09-current-alex-weekly-recap.png",
+   "sha256": "2e318ff6471436b8e12e767a99d8aed261e855a9fa62b26ff48cf8e1350913f1"
+  },
+  {
+   "n": 294,
+   "chapter": "Finish an eight-week doubles season",
+   "person": "Alex and Ben",
+   "title": "Alex’s season record",
+   "file": "img/oct26/nov09-current-alex-season-record.webp",
+   "source": "nov09-current-alex-season-record.png",
+   "sha256": "c5d5d331819622ab99c942b2b49e2924b98aaf783446a81644bf873a6e80faf8"
+  },
+  {
+   "n": 295,
+   "chapter": "Finish an eight-week doubles season",
+   "person": "Alex and Ben",
+   "title": "Progress and earned badges",
+   "file": "img/oct26/nov09-current-alex-badges.webp",
+   "source": "nov09-current-alex-badges.png",
+   "sha256": "71c4f6193958760217c58b7613a8bf13509beb32cc1e2502189d2c9be5eb50ad"
+  },
+  {
+   "n": 296,
+   "chapter": "Finish an eight-week doubles season",
+   "person": "Alex and Ben",
+   "title": "Eight weeks of rank history",
+   "file": "img/oct26/nov09-current-alex-rank-history.webp",
+   "source": "nov09-current-alex-rank-history.png",
+   "sha256": "d5e24db325614321da4dd694a024d63495cb9242e08b2ec9c2f24a171dcc3744"
+  },
+  {
+   "n": 297,
+   "chapter": "Finish an eight-week doubles season",
+   "person": "Alex and Ben",
+   "title": "Expand a Team doubles result",
+   "file": "img/oct26/nov09-current-team-expanded-result.webp",
+   "source": "nov09-current-team-expanded-result.png",
+   "sha256": "9a7d1e2cae0de9c4f5294a67eb14ad5eb8153f9aa66db9d05e62a7f3f0feda26"
+  },
+  {
+   "n": 298,
+   "chapter": "Finish an eight-week doubles season",
+   "person": "Alex and Ben",
+   "title": "Final individual doubles standings",
+   "file": "img/oct26/nov09-current-season-final-doubles-board.webp",
+   "source": "nov09-current-season-final-doubles-board.png",
+   "sha256": "c889afd03b29ae088c080347df5f97a9e9faaa0a236856a7f4385c5d0545ed8a"
+  },
+  {
+   "n": 299,
+   "chapter": "Finish an eight-week doubles season",
+   "person": "Alex and Ben",
+   "title": "Final Team doubles standings",
+   "file": "img/oct26/nov09-current-season-final-team-board.webp",
+   "source": "nov09-current-season-final-team-board.png",
+   "sha256": "94c5037776ac004f031493d2fc9e0149f47ed52dcfba3a4a6d63327c79c9c804"
+  },
+  {
+   "n": 300,
+   "chapter": "Finish an eight-week doubles season",
+   "person": "Alex and Ben",
+   "title": "Alex’s season recap",
+   "file": "img/oct26/nov09-current-alex-season-recap.webp",
+   "source": "nov09-current-alex-season-recap.png",
+   "sha256": "77f191c5aecd41a4cbdddfd1dc455fec063cb934e6179d53cd050879432cf1ed"
+  },
+  {
+   "n": 301,
+   "chapter": "Finish an eight-week doubles season",
+   "person": "Alex and Ben",
+   "title": "Ben’s own outcome",
+   "file": "img/oct26/nov09-current-ben-season-recap.webp",
+   "source": "nov09-current-ben-season-recap.png",
+   "sha256": "94b577787a134200538adfc9c3141ddfab4915235ae1b5b5a6b4633ffc4ca6ba"
+  },
+  {
+   "n": 302,
+   "chapter": "Finish an eight-week doubles season",
+   "person": "Alex and Ben",
+   "title": "What earns Season complete",
+   "file": "img/oct26/nov09-current-season-complete-badge.webp",
+   "source": "nov09-current-season-complete-badge.png",
+   "sha256": "92a60d110b118d240b40b533f41c4aaa54a161ed2f581e327fd77092140aa203"
+  },
+  {
+   "n": 303,
+   "chapter": "Edit usual times",
+   "person": "Casey",
+   "title": "Start with saved times",
+   "file": "img/oct26/nov09-current-times-before.webp",
+   "source": "nov09-current-times-before.png",
+   "sha256": "71eaec06db8326ea49d1963a870686fdec3ecd4b7126cb754a7724e65f4b58a4"
+  },
+  {
+   "n": 304,
+   "chapter": "Edit usual times",
+   "person": "Casey",
+   "title": "Choose Thursday hours",
+   "file": "img/oct26/nov09-current-times-select.webp",
+   "source": "nov09-current-times-select.png",
+   "sha256": "aa364249466688582463235d9819a3a5c32d9e93fd333cc20e63cafb86945b9f"
+  },
+  {
+   "n": 305,
+   "chapter": "Edit usual times",
+   "person": "Casey",
+   "title": "Thursday is saved",
+   "file": "img/oct26/nov09-current-times-saved.webp",
+   "source": "nov09-current-times-saved.png",
+   "sha256": "f92e581efedbe0a0fd93d88e37fd1f07f46e095009ecbc4ad19e3bbb31f457bc"
+  },
+  {
+   "n": 306,
+   "chapter": "Edit usual times",
+   "person": "Casey",
+   "title": "Check the following week",
+   "file": "img/oct26/nov09-current-times-next-week.webp",
+   "source": "nov09-current-times-next-week.png",
+   "sha256": "57bb518b6415b26838e7ab5b1a53783fb06bbb96ca2028bf0106127f347df75a"
+  },
+  {
+   "n": 307,
+   "chapter": "Disagree with a score",
+   "person": "Taylor and Riley",
+   "title": "Send a different score",
+   "file": "img/oct26/nov09-dispute-propose.webp",
+   "source": "nov09-dispute-propose.png",
+   "sha256": "2e78f909deee83b265c515717f5fc0a6eabc0f7f3646696fed1611f46b554bbc"
+  },
+  {
+   "n": 308,
+   "chapter": "Disagree with a score",
+   "person": "Taylor and Riley",
+   "title": "Proposal sent",
+   "file": "img/oct26/nov09-dispute-receipt.webp",
+   "source": "nov09-dispute-receipt.png",
+   "sha256": "8eaf9ba1fe1d8e61cd70123d499fcde875cc2eac1c37f4968df22230c23cf4a9"
+  },
+  {
+   "n": 309,
+   "chapter": "Disagree with a score",
+   "person": "Taylor and Riley",
+   "title": "Riley reviews the proposal",
+   "file": "img/oct26/nov09-dispute-review.webp",
+   "source": "nov09-dispute-review.png",
+   "sha256": "7fe842eb9117f4e66ad25c1d49b2d19d33d78de308e4e661794b8ebdc9871df1"
+  },
+  {
+   "n": 310,
+   "chapter": "Disagree with a score",
+   "person": "Taylor and Riley",
+   "title": "The agreed result",
+   "file": "img/oct26/nov09-dispute-final.webp",
+   "source": "nov09-dispute-final.png",
+   "sha256": "c56a0f8ccb51b9eed34c4f9ef853158134eefc0daf9897f94bc938b2c2bda6ed"
+  },
+  {
+   "n": 311,
+   "chapter": "Notifications after joining",
+   "person": "Blake",
+   "title": "Hear about match offers?",
+   "file": "img/oct26/nov09-join-notifications.webp",
+   "source": "nov09-join-notifications.png",
+   "sha256": "fdda46993541a53664def15158e6073700202a4aab26be6239023cb30417bd54"
+  },
+  {
+   "n": 312,
+   "chapter": "A partner cancels a team match",
+   "person": "Alex and Ben",
+   "title": "A partner cancels",
+   "file": "img/oct26/nov09-current-ben-team-cancel.webp",
+   "source": "nov09-current-ben-team-cancel.png",
+   "sha256": "0784ddf05538dc7e9ae36ccbc67a41da62a561cdeed5b809f06ae36e2a3b7f26"
+  },
+  {
+   "n": 313,
+   "chapter": "When a venue has little recent activity",
+   "person": "Riley",
+   "title": "Not enough recent data",
+   "file": "img/oct26/nov09-venue-popular-empty.webp",
+   "source": "nov09-venue-popular-empty.png",
+   "sha256": "0f7ed7e18bf15f9b0af756033ccc340256bf97d9a7d476f92df5f18b4f32ecbb"
+  },
+  {
+   "n": 314,
+   "chapter": "A booked match on League home",
+   "person": "Casey and Riley",
+   "title": "Upcoming match",
+   "file": "img/oct26/nov09-current-booked-home.webp",
+   "source": "nov09-current-booked-home.png",
+   "sha256": "5ea665aaaf64b07998b32b09a4e9f549f4951e9a0dba6fc0a6685a54a6a2f346"
+  },
+  {
+   "n": 315,
+   "chapter": "A booked match on League home",
+   "person": "Casey and Riley",
+   "title": "Open the match",
+   "file": "img/oct26/nov09-current-challenge-match.webp",
+   "source": "nov09-current-challenge-match.png",
+   "sha256": "a8187bdc280b58315d84e9d9e50964f4893fafe2bda4e853c792859e9a706bd4"
+  },
+  {
+   "n": 316,
+   "chapter": "A booked match on League home",
+   "person": "Casey and Riley",
+   "title": "Chat becomes available",
+   "file": "img/oct26/nov09-chat-recovered-draft.webp",
+   "source": "nov09-chat-recovered-draft.png",
+   "sha256": "d634820a1417166f2449c679c3faf0e29098c076da6f1139453c652be2cafb7e"
+  },
+  {
+   "n": 317,
+   "chapter": "Request a final-score correction",
+   "person": "Alex",
+   "title": "Describe the correction",
+   "file": "img/oct26/nov09-cbff-final-correction-draft.webp",
+   "source": "nov09-cbff-final-correction-draft.png",
+   "sha256": "0636465e67bff046d61677a8dcb8b62f71109d545f53361a18bd5cf0e97e9979"
+  },
+  {
+   "n": 318,
+   "chapter": "Request a final-score correction",
+   "person": "Alex",
+   "title": "A request under review",
+   "file": "img/oct26/nov09-cbff-final-correction-pending.webp",
+   "source": "nov09-cbff-final-correction-pending.png",
+   "sha256": "6d1274fe28b31b7069ea2eb17b75e828f62c3aa65e4d5ee47aeb062e7cbca9ea"
+  }
+ ]
+}
