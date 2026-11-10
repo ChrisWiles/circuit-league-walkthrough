@@ -1,8 +1,48 @@
 # Walkthrough evidence
 
+## Current draft refresh (November 9)
+
+The 316-position gallery incorporates later local iOS captures and two service-error images were removed from the walkthrough at the user’s request. Error observations remain in the separate audit. An OCR pass screened the 318 prior positions for common error text; it is not a substitute for visual review. Some earlier captures still need recapture, and the gallery combines separate fictional sessions and app revisions. It does not establish production behavior, external delivery, Android or screen-reader coverage.
+
 ## Walkthrough viewer (November 9)
 
-A 390-pixel local browser check opened a direct image link and a gallery image, moved to the previous screen with the keyboard, and closed with Escape. Both returned focus to the button for the screen last viewed. No page errors occurred. An automated WCAG-tagged check at 390 pixels reported no violations on the page or open viewer in light and dark modes after contrast and keyboard-scroll fixes. A focused viewer advanced with the arrow key. The check used Chromium; Safari, screen-reader and touch operation were not tested.
+A 390-pixel local browser check opened a direct image link and a gallery image, moved to the previous screen with the keyboard, and closed with Escape. A later fix also opens a screen link when its address changes while the gallery is already open; both occurrences of the reused season and Scan images opened in the correct chapters and restored focus after Escape. Both returned focus to the button for the screen last viewed. No page errors occurred. An automated WCAG-tagged check at 390 pixels reported no violations on the page or open viewer in light and dark modes after contrast and keyboard-scroll fixes. A focused viewer advanced with the arrow key. The check used Chromium; Safari, screen-reader and touch operation were not tested. A later 390-pixel check of the 294-position draft reported no WCAG-tagged automated violations on the page or open Scan viewer in light and dark modes, and no page errors. These checks do not assess the app screens inside the images.
+
+## Team invitation (November 9)
+
+In the isolated iOS app, Casey selected Women’s doubles and created a fictional partner invitation. The native share sheet opened and the League home showed a seven-day invitation waiting for a recipient, with share and cancel actions. The iOS Copy action was pasted into a local test field and included both invitation text and a link. Jade opened that same fictional link on a second simulator and accepted; the app immediately said the team formed. Jade saved Tuesday 6–9 PM and the team page showed both players available then, but still no shared venue. The first venue attempt did not change the saved list. On retry, after selecting the visible Favorite control, Jade saved Mueller; the team page then showed it as shared while matchmaking remained off waiting for both partners to be ready. A later capture of Jade’s cached team times shows Tuesday 6–9 PM and the note that times apply to all her searches; the lower days require scrolling. The team times screen earlier showed a retryable local-service error. After it loaded, Jade used Find another match and the screen said the team’s matchmaking was on. No team match was booked. No external recipient was selected. A local service error and database timeouts occurred; these are observed app states, not independent proof of external delivery. The earlier team-formation and match examples remain separate and need current verification.
+
+## Current season detail (November 9)
+
+The current local Casey record screenshot is reused at the start of Your season as a separate snapshot before the older season sequence. It shows standings updating; it does not establish the final rank or a completed refresh. The older sequence, share payload, larger text and Android remain unverified in the current app.
+
+## Current Scan host setup (November 9)
+
+After a retryable local service failure, Casey searched for Mueller, chose rotating doubles and created a fictional Scan plan in the isolated iPhone app. The host screen showed one of four players, a disabled Start action and Scan a player. The plan initially said results go to DUPR; adding players can change that choice. Three fictional players were then added with simulated actor context through the local server function, not camera scanning. Jade opened that same four-player plan on her own simulator and reviewed it; she confirmed in the app. After an initial refresh failure, her phone and the local database showed her confirmed while the other two guests were still waiting. Maya and Priya were subsequently confirmed through local server functions with simulated actor context, and the local database showed all three guests confirmed. After the host screen refreshed, it showed all three guests confirmed and Ready to start. Casey pressed Start in the app and the resulting match showed the same four fictional players and first rotation. Casey opened See all games to inspect the three planned rotations; the match refresh had failed and the sheet used the content already loaded on the phone. Casey opened score reporting and entered fictional scores of 11–7, 9–11 and 11–8 with the shown partnerships. The first submission returned an error and preserved the form; a retry returned “Circuit is busy.” The capture is a draft, not proof of a sent or confirmed result. Camera recognition, physical attendance and external DUPR submission were not established. The guest chapter reuses Jade’s current review image, while its earlier Priya invitation and cancellation show a different plan.
+
+## A conduct reminder and its destination (November 9)
+
+A fictional Elena–Casey match was prepared in the isolated database; Elena reported it unplayed through the authenticated app function. Casey’s local home showed a report awaiting response, its deadline and the consequence of not challenging it. She tapped the reminder, opened her conduct record, then opened that no-show report. A separate late-cancellation case was already under review. The no-show example was not challenged or decided; the report does not establish physical attendance or external notice delivery. The home initially showed cached content after a local refresh failure, then loaded the reminder. Android, larger text and screen-reader operation were not tested.
+
+## Withdrawing a challenge link (November 9)
+
+Casey created a separate fictional singles link challenge, dismissed the share sheet without sending it, then used the options menu and confirmation to withdraw it. The app showed the withdrawn message, and the isolated database showed closed/withdrawn. The list also displayed the challenge under Closed. The confirmation says people challenged are told; no external message or notification delivery was tested.
+
+## Private-place entry (November 9)
+
+In the isolated iOS app, Casey selected Not listed, entered a fictional place name and manually chose Austin, Texas. The form presented an unverified-city notice during manual entry, a privacy and standings explanation, and a time-zone selector. The screenshot shows the match check still running after local service trouble. No challenge was submitted from this form; the notice was not independently verified against permissions or rating outcomes.
+
+## Challenge link acceptance (November 9)
+
+Casey created a fictional singles link challenge at Mueller in the isolated iOS app. A native share sheet opened, but no link was sent. Jade opened the local test link on a second simulator and accepted; the app then showed both players accepted and offered to set a time. This separate challenge was not scheduled. After an initial database timeout, a later check showed the challenge in needs-time state. Notification delivery, Android and assistive technology were not tested.
+
+## Chat reactions and blue messages (November 9)
+
+On an isolated iPhone simulator with the locally committed chat change `3c8f9969c`, Casey opened a fictional conversation with Riley, held Riley’s message, opened the quick reactions and the eight-choice picker, and selected a heart. The app displayed the heart on the message and its accessibility label said Casey reacted. The reply and message-report examples were also re-opened; no report was submitted. The blue bubble change is local and not a released app build. External notification delivery, Android and screen-reader operation were not tested.
+
+## Direct challenge response (November 9)
+
+On isolated app revision `5faf151a7`, fictional Casey sent a singles challenge to fictional Jade, who opened it on a second iPhone simulator, accepted, selected Tuesday at 8 AM, and saved the time. The app opened a confirmed match and the local challenge record moved to set with a match ID. The venue, ratings and people are fictional. No notification delivery, calendar action, chat message, physical play, DUPR submission, Android, screen-reader or enlarged-text behavior was verified. These screenshots show current local behavior, not a production release.
 
 ## Current League home (November 9)
 
@@ -67,7 +107,7 @@ Six new captures show the implementation in local app commit `016cb496c`: Your s
 
 Updated November 8, 2026 (challenges, following and growth).
 
-This capture set has 268 phone screens and one exported result card and uses image version `20261109by`. The 171-screen count and image version below describe the earlier capture set recorded in that section.
+This capture set has 282 phone screens and one exported result card and uses image version `20261109ci`. The 171-screen count and image version below describe the earlier capture set recorded in that section.
 
 ## Scan and rotating score completion
 

@@ -2,9 +2,9 @@
 
 [Open the tour](https://chriswiles.github.io/circuit-league-walkthrough/).
 
-The reference gallery contains 268 iPhone screens and one exported result card in 41 chapters. The Your season chapter illustrates rank, season movement, DUPR observations and highlights from an earlier app revision; a current comparison is pending. It covers joining, saved courts and times, searching and booking, chat, cancellations and absence responses, score reporting and correction, boards and records, weekly recaps, Team doubles, Scan to play, challenges, following, local growth, settings, Pause and safety.
+The reference gallery contains 315 iPhone screens and one exported result card in 41 chapters. The Your season chapter includes a current local record and a separately labeled earlier example; the earlier sequence still needs current comparison. It covers joining, saved courts and times, searching and booking, chat, cancellations and absence responses, score reporting and correction, boards and records, weekly recaps, Team doubles, Scan to play, challenges, following, local growth, settings, Pause and safety.
 
-The recommended doubles route links courts and times, matching, Scan, reporting, regular partners, changed plans, replacement scheduling and season results. Earlier reference views remain available for additional options; they do not form one continuous match.
+The recommended doubles route links courts and times, matching, Scan, reporting, regular partners, changed plans, replacement scheduling and season results. The route combines separate fictional examples, including the newer Casey Scan plan and earlier doubles chapters; it does not follow one continuous match.
 
 Tap a screen to open the viewer. Arrow keys and swipes step through the gallery; `#s12` opens screen 12. Chapters provide direct links to the main tasks.
 
