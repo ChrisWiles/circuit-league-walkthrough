@@ -10,7 +10,7 @@
   "systemContentSize": "large (iOS default)"
  },
  "data": "Fictional local fixtures",
- "count": 318,
+ "count": 321,
  "screens": [
   {
    "n": 1,
@@ -719,9 +719,9 @@
    "chapter": "Your season",
    "person": "Casey and Maya",
    "title": "The DUPR observations",
-   "file": "img/oct26/nov09-latest-season-history.webp",
-   "source": "nov09-latest-season-history.png",
-   "sha256": "eab0d1e8d12fdc967a97ede12f5c0ee06e0fbf1d868e591aa04a125ea3a9e45b"
+   "file": "img/oct26/nov09-cbff-dupr-history.webp",
+   "source": "nov09-cbff-dupr-history.png",
+   "sha256": "97e91bebd2f1880240fd35f31e9f5bb5b120430406ea5b12e4a5ea69b52c9b45"
   },
   {
    "n": 80,
@@ -745,10 +745,10 @@
    "n": 82,
    "chapter": "Your season",
    "person": "Casey and Maya",
-   "title": "Earlier season detail",
-   "file": "img/oct26/nov08-season-02-detail.webp",
-   "source": "nov08-season-02-detail.png",
-   "sha256": "720ede77797c92d5a37cdb055f338bfaeb0c55d787a8c9fff320020d1de5eb9e"
+   "title": "Recent season results",
+   "file": "img/oct26/nov09-cbff-season-recent-ten.webp",
+   "source": "nov09-cbff-season-recent-ten.png",
+   "sha256": "56e9c2e6843f42ace4bc14c8a92211f37db03b452f87959d236a939e68a5f672"
   },
   {
    "n": 83,
@@ -844,13 +844,22 @@
    "n": 93,
    "chapter": "Leaderboards",
    "person": "Maya and Blake",
-   "title": "Choose a place",
-   "file": "img/oct26/nov09-board-current-places.webp",
-   "source": "nov09-board-current-places.png",
-   "sha256": "5156166c5a51e5f8880f9212d01d17a1e736bcdd31ae595ca2cfeeca147b8fc5"
+   "title": "Find a leaderboard",
+   "file": "img/oct26/nov09-01b4-board-place-picker.webp",
+   "source": "nov09-01b4-board-place-picker.png",
+   "sha256": "32e75f3f99e430d4bf1039bb748a8d7846b99719495f8ad392561a555805b0e6"
   },
   {
    "n": 94,
+   "chapter": "Leaderboards",
+   "person": "Maya and Blake",
+   "title": "Save a favorite",
+   "file": "img/oct26/nov09-01b4-board-favorite.webp",
+   "source": "nov09-01b4-board-favorite.png",
+   "sha256": "8d3711eb001c803038c42ebd82f852fd6ab1079c5382e9393ac6774c8724e062"
+  },
+  {
+   "n": 95,
    "chapter": "Leaderboards",
    "person": "Maya and Blake",
    "title": "A venue board",
@@ -859,7 +868,7 @@
    "sha256": "173ec851466378f5a23fbc38cf028de797e622d16a83e147cb3087e79091f7a5"
   },
   {
-   "n": 95,
+   "n": 96,
    "chapter": "Leaderboards",
    "person": "Maya and Blake",
    "title": "Team doubles",
@@ -868,7 +877,7 @@
    "sha256": "1abce64e64971eee1cfb9242f2d2851c66e1d69181854789ac3aa0852fc0b7dc"
   },
   {
-   "n": 96,
+   "n": 97,
    "chapter": "Player records",
    "person": "Casey, Maya and Blake",
    "title": "Maya’s record",
@@ -877,7 +886,7 @@
    "sha256": "ee88f87c0f14c0c4bc00c31f0d370253d4c023021235ebbfd901622504eb38ce"
   },
   {
-   "n": 97,
+   "n": 98,
    "chapter": "Player records",
    "person": "Casey, Maya and Blake",
    "title": "Expand a match",
@@ -886,7 +895,7 @@
    "sha256": "2b83118abd3ebabec3038f3e9a8b56efae1c3a42bde7eb36c7b1ab4fa6906ac4"
   },
   {
-   "n": 98,
+   "n": 99,
    "chapter": "Player records",
    "person": "Casey, Maya and Blake",
    "title": "Badge details",
@@ -895,7 +904,7 @@
    "sha256": "711bc20ac41611418aa0bf810ee01b5b0fc360a15341bbdd53d39f231cc87af4"
   },
   {
-   "n": 99,
+   "n": 100,
    "chapter": "Player records",
    "person": "Casey, Maya and Blake",
    "title": "A badge that grows",
@@ -904,7 +913,7 @@
    "sha256": "12caf21772aa830efefc56fbe5561f533b8ab404e10a551bc4f790f539ed54ca"
   },
   {
-   "n": 100,
+   "n": 101,
    "chapter": "Player records",
    "person": "Casey, Maya and Blake",
    "title": "Several awards in one medal",
@@ -913,7 +922,7 @@
    "sha256": "91361b53468dc9f62a65f32d46d973992eb38f13e87e871885897eedfb2abe06"
   },
   {
-   "n": 101,
+   "n": 102,
    "chapter": "Player records",
    "person": "Casey, Maya and Blake",
    "title": "Another player",
@@ -922,7 +931,7 @@
    "sha256": "fde846fed5d87c24f2a40e67b9f069d1884b78503d1596160fa6769ee0ae06f0"
   },
   {
-   "n": 102,
+   "n": 103,
    "chapter": "Weekly recap",
    "person": "Casey and Maya",
    "title": "Week of Oct 19",
@@ -931,7 +940,7 @@
    "sha256": "13bf18550b06d4b5eca43d1887893c017dad72bc0ec9143b4fe86bdca40e553f"
   },
   {
-   "n": 103,
+   "n": 104,
    "chapter": "Weekly recap",
    "person": "Casey and Maya",
    "title": "Summary and standings",
@@ -940,7 +949,7 @@
    "sha256": "d2402ec02e8a5157feeb8a92a86363d1ffdd76cbf5b58dd448cb55a3256691bf"
   },
   {
-   "n": 104,
+   "n": 105,
    "chapter": "Weekly recap",
    "person": "Casey and Maya",
    "title": "Match scores",
@@ -949,7 +958,7 @@
    "sha256": "d32a746f218a6aea5dd5afa18c57b2f2ea49fd15551799bedf6b83b2e0e344e1"
   },
   {
-   "n": 105,
+   "n": 106,
    "chapter": "Weekly recap",
    "person": "Casey and Maya",
    "title": "Badges and next actions",
@@ -958,7 +967,7 @@
    "sha256": "752f70f16d2c164600f105d8c7a3075bd2683bcb5860615647086cf688b26d80"
   },
   {
-   "n": 106,
+   "n": 107,
    "chapter": "Weekly recap",
    "person": "Casey and Maya",
    "title": "A week without a match",
@@ -967,7 +976,7 @@
    "sha256": "cee41f15ff771cc2abbd6db6369afd901a2155044fcbad40b333f200493df0a6"
   },
   {
-   "n": 107,
+   "n": 108,
    "chapter": "Weekly recap",
    "person": "Casey and Maya",
    "title": "A recap being prepared",
@@ -976,7 +985,7 @@
    "sha256": "1d672da422bcef7bca8b4fd94fa0eb1674916c8b3167f1045f47eb1676047e81"
   },
   {
-   "n": 108,
+   "n": 109,
    "chapter": "Weekly recap",
    "person": "Casey and Maya",
    "title": "Choose another week",
@@ -985,7 +994,7 @@
    "sha256": "d65155b95568e8b9e98fdedff666aa662ca05aa1647feb0a79800efb088143ee"
   },
   {
-   "n": 109,
+   "n": 110,
    "chapter": "A time for one week",
    "person": "Maya, then Diego and Casey",
    "title": "Choose a format",
@@ -994,7 +1003,7 @@
    "sha256": "69880f768fbab03b2724f35b7ba74fd8f049cf2af80a47439838598d3a20dd03"
   },
   {
-   "n": 110,
+   "n": 111,
    "chapter": "A time for one week",
    "person": "Maya, then Diego and Casey",
    "title": "Singles or rotating doubles",
@@ -1003,7 +1012,7 @@
    "sha256": "8e614e46145ade108091fadc88aba55620f3762cbab3bfcbaf11e3dd1b40cc9e"
   },
   {
-   "n": 111,
+   "n": 112,
    "chapter": "A time for one week",
    "person": "Maya, then Diego and Casey",
    "title": "Choose how long the change lasts",
@@ -1012,7 +1021,7 @@
    "sha256": "141775d50974f112a009dc92b09cf215967f3823b28ebc70e8e048b4588a0a0e"
   },
   {
-   "n": 112,
+   "n": 113,
    "chapter": "A time for one week",
    "person": "Maya, then Diego and Casey",
    "title": "A one-week change is saved",
@@ -1021,7 +1030,7 @@
    "sha256": "02a24f5790d1c900aaade506ed7d5144d09711fcf14c656858135a0b9f4cf517"
   },
   {
-   "n": 113,
+   "n": 114,
    "chapter": "A time for one week",
    "person": "Maya, then Diego and Casey",
    "title": "Add Sat 10–11 AM?",
@@ -1030,7 +1039,7 @@
    "sha256": "8c9aa6d05ef716ff8ed42bfb2cc4e5d2802268bb6067fffb72032f6ef29d10fc"
   },
   {
-   "n": 114,
+   "n": 115,
    "chapter": "A time for one week",
    "person": "Maya, then Diego and Casey",
    "title": "A match is possible then",
@@ -1039,7 +1048,7 @@
    "sha256": "2ea7c77fb1f3b53eb6943d260465687318b5631edc24cdba24a8a780c7a6d1d6"
   },
   {
-   "n": 115,
+   "n": 116,
    "chapter": "A time for one week",
    "person": "Maya, then Diego and Casey",
    "title": "Added",
@@ -1048,7 +1057,7 @@
    "sha256": "24c277759814204e3e1863c24966e48b02475346a47d4303c92f2d1bc639bbab"
   },
   {
-   "n": 116,
+   "n": 117,
    "chapter": "A time for one week",
    "person": "Maya, then Diego and Casey",
    "title": "This week’s times",
@@ -1057,7 +1066,7 @@
    "sha256": "3b3c4542f88b89fc3b59f339f58b8f3eb019bcc3897a4d6be415958b21e7060f"
   },
   {
-   "n": 117,
+   "n": 118,
    "chapter": "A time for one week",
    "person": "Maya, then Diego and Casey",
    "title": "Match possible now",
@@ -1066,7 +1075,7 @@
    "sha256": "f68d8d1e1ca21a43a625f6b883e51959f1d71cebe6d55399531dc0734fa715f2"
   },
   {
-   "n": 118,
+   "n": 119,
    "chapter": "A time for one week",
    "person": "Maya, then Diego and Casey",
    "title": "Matching time grid",
@@ -1075,7 +1084,7 @@
    "sha256": "4da0bc5f2a4ddcdbc7f5395d9c43fdb07404cfa148574f5160fffa19203bbc22"
   },
   {
-   "n": 119,
+   "n": 120,
    "chapter": "A time for one week",
    "person": "Maya, then Diego and Casey",
    "title": "Popular times",
@@ -1084,7 +1093,7 @@
    "sha256": "05e5e550e0a7f1a2c3cc67f4fd3ea269403f45eb60ae57d637ce2c7fdd918fa5"
   },
   {
-   "n": 120,
+   "n": 121,
    "chapter": "A time for one week",
    "person": "Maya, then Diego and Casey",
    "title": "Explore the popular-times grid",
@@ -1093,7 +1102,7 @@
    "sha256": "7ae6cdedbdffda76fc3dcd81d072184a2550aa100c4a281af3cf40171bd4214a"
   },
   {
-   "n": 121,
+   "n": 122,
    "chapter": "A time for one week",
    "person": "Maya, then Diego and Casey",
    "title": "Choose a popular time",
@@ -1102,7 +1111,7 @@
    "sha256": "06c74acabbeb23cd3b7de3bf0b1147546749c024f239385afe06f9a68570d8d6"
   },
   {
-   "n": 122,
+   "n": 123,
    "chapter": "A time for one week",
    "person": "Maya, then Diego and Casey",
    "title": "See the saved time",
@@ -1111,7 +1120,7 @@
    "sha256": "d4258f6fdcc83919243d9858d0eb796825fc17540314858fdc390a0dea406fd2"
   },
   {
-   "n": 123,
+   "n": 124,
    "chapter": "A time for one week",
    "person": "Maya, then Diego and Casey",
    "title": "No suggested times",
@@ -1120,7 +1129,7 @@
    "sha256": "038d474b14889c7c8bb25bd5f0aabf569368ec1555316fa60b2706d8929c5858"
   },
   {
-   "n": 124,
+   "n": 125,
    "chapter": "Team doubles",
    "person": "Casey and Jade, then earlier partners",
    "title": "New team",
@@ -1129,7 +1138,7 @@
    "sha256": "229ea506a9281650097033823f51d892842c4c9889d404a22c05b601d92ba293"
   },
   {
-   "n": 125,
+   "n": 126,
    "chapter": "Team doubles",
    "person": "Casey and Jade, then earlier partners",
    "title": "Share the invitation",
@@ -1138,7 +1147,7 @@
    "sha256": "5e373e3ba03edcc6ec79c4766aba0fab2eb859e883c20c2a57e8284387544d75"
   },
   {
-   "n": 126,
+   "n": 127,
    "chapter": "Team doubles",
    "person": "Casey and Jade, then earlier partners",
    "title": "Link saved",
@@ -1147,7 +1156,7 @@
    "sha256": "41143614f17bb19f8e97e5c2fc969f1352dea805c50e2a799dc8ef21a7c6abbb"
   },
   {
-   "n": 127,
+   "n": 128,
    "chapter": "Team doubles",
    "person": "Casey and Jade, then earlier partners",
    "title": "Jade reviews the invitation",
@@ -1156,7 +1165,7 @@
    "sha256": "9c388df8aeb3ed33ede5b7d8bbf38821e3eb23026d45b2692478a3b43cd78de0"
   },
   {
-   "n": 128,
+   "n": 129,
    "chapter": "Team doubles",
    "person": "Casey and Jade, then earlier partners",
    "title": "The team forms",
@@ -1165,7 +1174,7 @@
    "sha256": "4c4696657e6977db5183e4c0b4bb0af07f472751fd512d171273af03e70adb8a"
   },
   {
-   "n": 129,
+   "n": 130,
    "chapter": "Team doubles",
    "person": "Casey and Jade, then earlier partners",
    "title": "Check what the team needs",
@@ -1174,7 +1183,7 @@
    "sha256": "496560ac23d7a1f02c215574bad9568e39ee40785f9ac43aab9eab8cd4f3bc51"
   },
   {
-   "n": 130,
+   "n": 131,
    "chapter": "Team doubles",
    "person": "Casey and Jade, then earlier partners",
    "title": "Add available hours",
@@ -1183,7 +1192,7 @@
    "sha256": "2a235ab14cbea0979815c0df6f870fdcf644ac9789906b46bc155f3616e5d803"
   },
   {
-   "n": 131,
+   "n": 132,
    "chapter": "Team doubles",
    "person": "Casey and Jade, then earlier partners",
    "title": "A shared time",
@@ -1192,7 +1201,7 @@
    "sha256": "e05cc6f09112ab94181a952d1a8a96bbc616875c87cc96522dc43b51b17e8904"
   },
   {
-   "n": 132,
+   "n": 133,
    "chapter": "Team doubles",
    "person": "Casey and Jade, then earlier partners",
    "title": "Choose a shared venue",
@@ -1201,7 +1210,7 @@
    "sha256": "65f0bd415a4c1e4d381d8445858de20f3dc6a710f471c074c97e8029c1cae8b0"
   },
   {
-   "n": 133,
+   "n": 134,
    "chapter": "Team doubles",
    "person": "Casey and Jade, then earlier partners",
    "title": "Restart this team’s search",
@@ -1210,7 +1219,7 @@
    "sha256": "954089a1c3f02e8afe2d9596be1560c24a1f99533a422e1c93953e26316051b3"
   },
   {
-   "n": 134,
+   "n": 135,
    "chapter": "Team doubles",
    "person": "Casey and Jade, then earlier partners",
    "title": "Team matchmaking is on",
@@ -1219,7 +1228,7 @@
    "sha256": "256341a5e9ad1e88565843bca4b4abc0c9dd6924a0c5133ae511574317641065"
   },
   {
-   "n": 135,
+   "n": 136,
    "chapter": "Team doubles",
    "person": "Casey and Jade, then earlier partners",
    "title": "See the saved time",
@@ -1228,7 +1237,7 @@
    "sha256": "038924d6a2bc1dd62fd152f75a1673537918616f4ba66362ec36da7cf9f4d228"
   },
   {
-   "n": 136,
+   "n": 137,
    "chapter": "Team doubles",
    "person": "Casey and Jade, then earlier partners",
    "title": "Several partners",
@@ -1237,7 +1246,7 @@
    "sha256": "8099b1e0e7628565c51fc2328fd3be022b6c83a6743dc3c000e159f6373cfcaf"
   },
   {
-   "n": 137,
+   "n": 138,
    "chapter": "Team doubles",
    "person": "Casey and Jade, then earlier partners",
    "title": "Team page",
@@ -1246,7 +1255,7 @@
    "sha256": "87093484be907d650a440aa21a4b94f6e0c0ed386b257c7c87780bcfd5d74465"
   },
   {
-   "n": 138,
+   "n": 139,
    "chapter": "Team doubles",
    "person": "Casey and Jade, then earlier partners",
    "title": "When one player has no time",
@@ -1255,7 +1264,7 @@
    "sha256": "56d78e69175f6950ad65ad1eeb1950687ed6ae5b7dc60dc90a6312c65d50c384"
   },
   {
-   "n": 139,
+   "n": 140,
    "chapter": "Team doubles",
    "person": "Casey and Jade, then earlier partners",
    "title": "A team match offer",
@@ -1264,7 +1273,7 @@
    "sha256": "881926ced2718b99a94d174bf94bf72e3d9ec29397694601c3b5090f6317a0be"
   },
   {
-   "n": 140,
+   "n": 141,
    "chapter": "Team doubles",
    "person": "Casey and Jade, then earlier partners",
    "title": "Ben has accepted",
@@ -1273,7 +1282,7 @@
    "sha256": "9b40333929acc426b6079a9678b89a54c30b8675c663f39ccd68b6e2c070c002"
   },
   {
-   "n": 141,
+   "n": 142,
    "chapter": "Team doubles",
    "person": "Casey and Jade, then earlier partners",
    "title": "Waiting for the other team",
@@ -1282,7 +1291,7 @@
    "sha256": "6444da872b9802f1f1553159c2c9f60504126c02f2d0ce45c002a5d8191cb96b"
   },
   {
-   "n": 142,
+   "n": 143,
    "chapter": "Team doubles",
    "person": "Casey and Jade, then earlier partners",
    "title": "The match is confirmed",
@@ -1291,7 +1300,7 @@
    "sha256": "fe40e9b74513f9a9fdec2c9d5c87fb32a93407630c0e623ff708a2a1426f15cc"
   },
   {
-   "n": 143,
+   "n": 144,
    "chapter": "Team doubles",
    "person": "Casey and Jade, then earlier partners",
    "title": "Partner left",
@@ -1300,7 +1309,7 @@
    "sha256": "41da387c59538325daa62742d4cc7aaec3cedb957b95b9b89e194109bdc94322"
   },
   {
-   "n": 144,
+   "n": 145,
    "chapter": "Joining from a team link",
    "person": "Blake, Alex, Ben and Chris",
    "title": "Invite from Alex",
@@ -1309,7 +1318,7 @@
    "sha256": "f70bd0717f0a479fac78c58a86f6799c52695e21ab73bb6f6435a761eb203f28"
   },
   {
-   "n": 145,
+   "n": 146,
    "chapter": "Joining from a team link",
    "person": "Blake, Alex, Ben and Chris",
    "title": "How you play",
@@ -1318,7 +1327,7 @@
    "sha256": "447d142a2314e91e64f52fc0ad359937dd06868fb7bdcdd919a25cc72420d1b3"
   },
   {
-   "n": 146,
+   "n": 147,
    "chapter": "Joining from a team link",
    "person": "Blake, Alex, Ben and Chris",
    "title": "In the League",
@@ -1327,7 +1336,7 @@
    "sha256": "0abff74236e2753b10941eca38a9196a7a508cad86a00c209c042c64b241c887"
   },
   {
-   "n": 147,
+   "n": 148,
    "chapter": "Joining from a team link",
    "person": "Blake, Alex, Ben and Chris",
    "title": "Accept as Blake",
@@ -1336,7 +1345,7 @@
    "sha256": "9019acb09ff9a4f8371fa4423c87c29a961b66c0f59c977c8f6bc0d877dbc81e"
   },
   {
-   "n": 148,
+   "n": 149,
    "chapter": "Joining from a team link",
    "person": "Blake, Alex, Ben and Chris",
    "title": "Waiting for Alex",
@@ -1345,7 +1354,7 @@
    "sha256": "eade8797ba32977b827840a2d29b406e5b48d414becac12229427f7c8a84553c"
   },
   {
-   "n": 149,
+   "n": 150,
    "chapter": "Joining from a team link",
    "person": "Blake, Alex, Ben and Chris",
    "title": "Alex confirms",
@@ -1354,7 +1363,7 @@
    "sha256": "36746f9634d2fb1f7d8c2ee05600ceb80af8077ddfdd93fc9961c5cf52e18609"
   },
   {
-   "n": 150,
+   "n": 151,
    "chapter": "Joining from a team link",
    "person": "Blake, Alex, Ben and Chris",
    "title": "You’re a team",
@@ -1363,7 +1372,7 @@
    "sha256": "26d51c4fbd0c422bf5f0fcfb5bc56a21c71bfc92c93a9dded4b9a7ba46ab2cd5"
   },
   {
-   "n": 151,
+   "n": 152,
    "chapter": "Joining from a team link",
    "person": "Blake, Alex, Ben and Chris",
    "title": "An existing member",
@@ -1372,7 +1381,7 @@
    "sha256": "22ea8a95ec73de4fd2c113654dba99dcdd88ea2f380caac0267d075e355bed9e"
   },
   {
-   "n": 152,
+   "n": 153,
    "chapter": "Joining from a team link",
    "person": "Blake, Alex, Ben and Chris",
    "title": "You’re a team",
@@ -1381,7 +1390,7 @@
    "sha256": "43461ddc1b7d3ff35728fede2f5bee75ff742e495ec1a926a84fd1a944c5bf5a"
   },
   {
-   "n": 153,
+   "n": 154,
    "chapter": "Scan to play",
    "person": "Casey",
    "title": "Find a venue",
@@ -1390,7 +1399,7 @@
    "sha256": "6a96710dc5a56551f7b297b854933965341bee57fc4c021534e7a82656c0e005"
   },
   {
-   "n": 154,
+   "n": 155,
    "chapter": "Scan to play",
    "person": "Casey",
    "title": "Choose the format",
@@ -1399,7 +1408,7 @@
    "sha256": "33683865090726d0a7580be3fba4811f712756c42f3dc9ee9939a168468f8a1c"
   },
   {
-   "n": 155,
+   "n": 156,
    "chapter": "Scan to play",
    "person": "Casey",
    "title": "Scan the players",
@@ -1408,7 +1417,7 @@
    "sha256": "0a0c3c15c5690271180571dbebcdb0459551f16f0dac4e273b0d6dc76b74cbcc"
   },
   {
-   "n": 156,
+   "n": 157,
    "chapter": "Scan to play",
    "person": "Casey",
    "title": "Jade reviews the plan",
@@ -1417,7 +1426,7 @@
    "sha256": "f0d6ff2f45476a7af6cc9dd81be28e9fdb685c41591084ed1a542dc2a330fee9"
   },
   {
-   "n": 157,
+   "n": 158,
    "chapter": "Scan to play",
    "person": "Casey",
    "title": "Jade confirms",
@@ -1426,7 +1435,7 @@
    "sha256": "cc9a5d5d449ac2eeba85b8a4b62d752b13bfda691001c3e86098f3128930c386"
   },
   {
-   "n": 158,
+   "n": 159,
    "chapter": "Scan to play",
    "person": "Casey",
    "title": "Ready to start",
@@ -1435,7 +1444,7 @@
    "sha256": "e7deccf81e8445f7a8b0067659773242282c5feef6e15907226d63bac5fc3443"
   },
   {
-   "n": 159,
+   "n": 160,
    "chapter": "Scan to play",
    "person": "Casey",
    "title": "The match opens",
@@ -1444,7 +1453,7 @@
    "sha256": "51fb5a9f23d8d4696406d79c72863726b22bf7da1b8db8674bf713df46bcc9f2"
   },
   {
-   "n": 160,
+   "n": 161,
    "chapter": "Scan to play",
    "person": "Casey",
    "title": "See all planned games",
@@ -1453,7 +1462,7 @@
    "sha256": "0cc928d174c50cb66b7a1d2d52f4d17128f93d7bfdfee9e507064e90b1062643"
   },
   {
-   "n": 161,
+   "n": 162,
    "chapter": "Scan to play",
    "person": "Casey",
    "title": "Report the games",
@@ -1462,7 +1471,7 @@
    "sha256": "84d3f9ae185fb04d07c52650945dd9c7e2be569ee92f4192b9bfd782f730accf"
   },
   {
-   "n": 162,
+   "n": 163,
    "chapter": "Scan to play",
    "person": "Casey",
    "title": "Enter the first game",
@@ -1471,7 +1480,7 @@
    "sha256": "a9cff370cf074ff4f1c0356b560962564e0391e057366fd81b79ea5ba1d38377"
   },
   {
-   "n": 163,
+   "n": 164,
    "chapter": "Scan to play",
    "person": "Casey",
    "title": "My QR",
@@ -1480,34 +1489,34 @@
    "sha256": "ca144d3162d0ab56cef7e74974adc3b87349496ca3939e0d1c32241450d59f87"
   },
   {
-   "n": 164,
+   "n": 165,
    "chapter": "Being scanned",
-   "person": "Casey, then Jade",
+   "person": "Blake, Alex and Jade",
    "title": "Alex added you",
    "file": "img/oct26/nov09-883-blake-scan-added.webp",
    "source": "nov09-883-blake-scan-added.png",
    "sha256": "52baee07b2eba4bab9b4bed53dbbb786de63e197fec3d31bee155ff5bcb1e398"
   },
   {
-   "n": 165,
+   "n": 166,
    "chapter": "Being scanned",
-   "person": "Casey, then Jade",
+   "person": "Blake, Alex and Jade",
    "title": "If the host cancels",
    "file": "img/oct26/nov09-883-blake-scan-cancelled.webp",
    "source": "nov09-883-blake-scan-cancelled.png",
    "sha256": "3dde524e576d72cc5ec47df836a9e73f76d409cdbd5423b72f7da08997387347"
   },
   {
-   "n": 166,
+   "n": 167,
    "chapter": "Being scanned",
-   "person": "Casey, then Jade",
+   "person": "Blake, Alex and Jade",
    "title": "Jade reviews a different plan",
    "file": "img/oct26/nov09-scan-jade-review.webp",
    "source": "nov09-scan-jade-review.png",
    "sha256": "f0d6ff2f45476a7af6cc9dd81be28e9fdb685c41591084ed1a542dc2a330fee9"
   },
   {
-   "n": 167,
+   "n": 168,
    "chapter": "Challenge a friend",
    "person": "Casey, Jade and Maya",
    "title": "Challenges in the menu",
@@ -1516,7 +1525,7 @@
    "sha256": "c170663345aaec1ed9b75861197c20f2bb38e595f2b9558a1f394dd2928cd751"
   },
   {
-   "n": 168,
+   "n": 169,
    "chapter": "Challenge a friend",
    "person": "Casey, Jade and Maya",
    "title": "Choose a player and place",
@@ -1525,7 +1534,7 @@
    "sha256": "379925830dff9f324abbd0ac3b94204ce55f44d768b7023541363511b1f340b4"
   },
   {
-   "n": 169,
+   "n": 170,
    "chapter": "Challenge a friend",
    "person": "Casey, Jade and Maya",
    "title": "Waiting for an answer",
@@ -1534,7 +1543,7 @@
    "sha256": "9817490a9ba983a5576741e908cb6d2fe564b88a41765088cdf75e17b04b6a6f"
   },
   {
-   "n": 170,
+   "n": 171,
    "chapter": "Challenge a friend",
    "person": "Casey, Jade and Maya",
    "title": "Jade receives the challenge",
@@ -1543,7 +1552,7 @@
    "sha256": "672e0cc07f476cfa48d43f4ab3007df1d482e34a9a7493c947289d9a6b44d34e"
   },
   {
-   "n": 171,
+   "n": 172,
    "chapter": "Challenge a friend",
    "person": "Casey, Jade and Maya",
    "title": "Both players accepted",
@@ -1552,7 +1561,7 @@
    "sha256": "479b198bdffa3f28f426a0baf58ec94796933314515c2527000f43392a401625"
   },
   {
-   "n": 172,
+   "n": 173,
    "chapter": "Challenge a friend",
    "person": "Casey, Jade and Maya",
    "title": "Choose a time",
@@ -1561,7 +1570,7 @@
    "sha256": "9f91eb74dc2e8b228e36f8e92fe2a0ca7a64f421db7d8e7686e56b529145d80c"
   },
   {
-   "n": 173,
+   "n": 174,
    "chapter": "Challenge a friend",
    "person": "Casey, Jade and Maya",
    "title": "Match confirmed",
@@ -1570,7 +1579,7 @@
    "sha256": "299b08c5f3c9bc1edf553edf9f44c09ea9c27ee19abffa8571d4067dc5ad1d75"
   },
   {
-   "n": 174,
+   "n": 175,
    "chapter": "Challenge a friend",
    "person": "Casey, Jade and Maya",
    "title": "No challenges yet",
@@ -1579,7 +1588,7 @@
    "sha256": "17a0b4c40382b3d173c9f64543ac3e48dea2115398fafe59f4c3a9d84bc81c03"
   },
   {
-   "n": 175,
+   "n": 176,
    "chapter": "Challenge a friend",
    "person": "Casey, Jade and Maya",
    "title": "A link anyone can take",
@@ -1588,7 +1597,7 @@
    "sha256": "f7f66a9a99de9a5165392311f5950c0c6c1c41746692bd43f26b54fc348cf4a6"
   },
   {
-   "n": 176,
+   "n": 177,
    "chapter": "Challenge a friend",
    "person": "Casey, Jade and Maya",
    "title": "A place that isn’t a League venue",
@@ -1597,7 +1606,7 @@
    "sha256": "837d78f7534c9078a92135fcd395ecd9b3f2abdcaf9ac21d302052d9910476a8"
   },
   {
-   "n": 177,
+   "n": 178,
    "chapter": "Challenge a friend",
    "person": "Casey, Jade and Maya",
    "title": "Time, DUPR and a note",
@@ -1606,7 +1615,7 @@
    "sha256": "2298bc69299486cff6b018eb4f7d032db1d73f40c509686e5fbaf3b282a3f933"
   },
   {
-   "n": 178,
+   "n": 179,
    "chapter": "Challenge a friend",
    "person": "Casey, Jade and Maya",
    "title": "Share the link",
@@ -1615,7 +1624,7 @@
    "sha256": "b89a369f1b095b568303e185c423e099fa8a2f99bf6249a408b215daa2fd9022"
   },
   {
-   "n": 179,
+   "n": 180,
    "chapter": "Challenge a friend",
    "person": "Casey, Jade and Maya",
    "title": "Waiting for a taker",
@@ -1624,7 +1633,7 @@
    "sha256": "080e4402abcca38cc934d84953e1333bef2d21f64fb0a583823f11be2fe68dba"
   },
   {
-   "n": 180,
+   "n": 181,
    "chapter": "Challenge a friend",
    "person": "Casey, Jade and Maya",
    "title": "Opening the link",
@@ -1633,7 +1642,7 @@
    "sha256": "2f993adeb6ce5d477555cfcb5337f1f25c4a79f233ea0d9042cbeb38ec2624c1"
   },
   {
-   "n": 181,
+   "n": 182,
    "chapter": "Challenge a friend",
    "person": "Casey, Jade and Maya",
    "title": "The link is accepted",
@@ -1642,7 +1651,7 @@
    "sha256": "f1bf26ea807ce79a4a973cc3cc3ff091c64f043823e5cc652d6680534b1fc81d"
   },
   {
-   "n": 182,
+   "n": 183,
    "chapter": "Challenge a friend",
    "person": "Casey, Jade and Maya",
    "title": "Accepted",
@@ -1651,7 +1660,7 @@
    "sha256": "3de3f532fa4a9a99604fb8ee1ca1cafbabdabfd10b3afd4274030a317705f407"
   },
   {
-   "n": 183,
+   "n": 184,
    "chapter": "Challenge a friend",
    "person": "Casey, Jade and Maya",
    "title": "An ordinary League match",
@@ -1660,7 +1669,7 @@
    "sha256": "a8187bdc280b58315d84e9d9e50964f4893fafe2bda4e853c792859e9a706bd4"
   },
   {
-   "n": 184,
+   "n": 185,
    "chapter": "Challenge a friend",
    "person": "Casey, Jade and Maya",
    "title": "A challenge in Needs you",
@@ -1669,7 +1678,7 @@
    "sha256": "495071d015eddd4ed22ed1c0ed3d34c33eeb76aef9cf7ac84b7b4fa3faca25b5"
   },
   {
-   "n": 185,
+   "n": 186,
    "chapter": "Challenge a friend",
    "person": "Casey, Jade and Maya",
    "title": "Review the challenge",
@@ -1678,7 +1687,7 @@
    "sha256": "2b9f0b14b132387a8e0e2db48d54cf8ee7916277c154e2d678cc8f2b8197678a"
   },
   {
-   "n": 186,
+   "n": 187,
    "chapter": "Challenge a friend",
    "person": "Casey, Jade and Maya",
    "title": "Both accepted, time still needed",
@@ -1687,7 +1696,7 @@
    "sha256": "b20606953ad74ecc2bfb8ba58e9bb7ddec072e1d048bb80a3ce8ba58432ff05b"
   },
   {
-   "n": 187,
+   "n": 188,
    "chapter": "Challenge a friend",
    "person": "Casey, Jade and Maya",
    "title": "Choose the agreed time",
@@ -1696,7 +1705,7 @@
    "sha256": "5014824948893e4f1fb75a7533b7bfceb307961ba991f4da7870c072c7df30cd"
   },
   {
-   "n": 188,
+   "n": 189,
    "chapter": "Challenge a friend",
    "person": "Casey, Jade and Maya",
    "title": "The challenge becomes a match",
@@ -1705,7 +1714,7 @@
    "sha256": "7652e1d6e7f0d0b920510ac1d99ed406a00cbc18b4bd9139004ec333b49dfebe"
   },
   {
-   "n": 189,
+   "n": 190,
    "chapter": "Challenge a friend",
    "person": "Casey, Jade and Maya",
    "title": "The Challenges list",
@@ -1714,7 +1723,7 @@
    "sha256": "ce2c65d866ae2f519a9d17bda65d46ad44a2ea858a3d70075cb10af228e41756"
   },
   {
-   "n": 190,
+   "n": 191,
    "chapter": "Challenge a friend",
    "person": "Casey, Jade and Maya",
    "title": "Withdraw a challenge",
@@ -1723,7 +1732,7 @@
    "sha256": "2619c389593b1be1b48e9147a5d2dc032cb8c4f750d8e8a48abe06daf96a3b10"
   },
   {
-   "n": 191,
+   "n": 192,
    "chapter": "Challenge a friend",
    "person": "Casey, Jade and Maya",
    "title": "Confirm withdrawal",
@@ -1732,7 +1741,7 @@
    "sha256": "c9f09c62c554c0f7c9f3bbbd0a8052836c36448f5d059cf12e1f10d1fdd6d757"
   },
   {
-   "n": 192,
+   "n": 193,
    "chapter": "Challenge a friend",
    "person": "Casey, Jade and Maya",
    "title": "Withdrawn",
@@ -1741,7 +1750,7 @@
    "sha256": "e6c388fab125b2bd012ec6be8b7dd85a243d8b6bc8afcdbe55fadb2054d03eb3"
   },
   {
-   "n": 193,
+   "n": 194,
    "chapter": "Following players",
    "person": "Maya, Priya and Casey",
    "title": "Follow from a stats page",
@@ -1750,7 +1759,7 @@
    "sha256": "c12a1533e3f782acd3fefefa485e3bf3aba8c8e978a3c8a50f8f6f175d839e2e"
   },
   {
-   "n": 194,
+   "n": 195,
    "chapter": "Following players",
    "person": "Maya, Priya and Casey",
    "title": "Block from a player record",
@@ -1759,7 +1768,7 @@
    "sha256": "97dfe990f02a3a054f581a29b269702020e62f523778157b274bbbe82ebac71e"
   },
   {
-   "n": 195,
+   "n": 196,
    "chapter": "Following players",
    "person": "Maya, Priya and Casey",
    "title": "Review before blocking",
@@ -1768,7 +1777,7 @@
    "sha256": "4e3c92f06709950b95aac359ace0fabc20cd0970e116a06f5ca54b292cd3f47a"
   },
   {
-   "n": 196,
+   "n": 197,
    "chapter": "Following players",
    "person": "Maya, Priya and Casey",
    "title": "Follow after a match",
@@ -1777,7 +1786,7 @@
    "sha256": "cd5554a84f055426885eb1796e49ccea618ae394e43faaa8d933c2c17bd0d77e"
   },
   {
-   "n": 197,
+   "n": 198,
    "chapter": "Following players",
    "person": "Maya, Priya and Casey",
    "title": "Following after a match",
@@ -1786,7 +1795,7 @@
    "sha256": "00e3b7983aff9f2539e6ce70d26d9ac4943ec7987641893c37700456571c7d20"
   },
   {
-   "n": 198,
+   "n": 199,
    "chapter": "Following players",
    "person": "Maya, Priya and Casey",
    "title": "Following",
@@ -1795,7 +1804,7 @@
    "sha256": "c76b3347fec2146f30340e22ab668944a830846793a87819f13e6ff16f87b6e3"
   },
   {
-   "n": 199,
+   "n": 200,
    "chapter": "Following players",
    "person": "Maya, Priya and Casey",
    "title": "Followers",
@@ -1804,70 +1813,70 @@
    "sha256": "3459dabac5639ba291e52c0a3a65a3f1c3c04bd6548222cf791a237453367f8d"
   },
   {
-   "n": 200,
+   "n": 201,
    "chapter": "Growing your local League",
-   "person": "Blake, then Maya",
+   "person": "Drew, Maya and Ben",
    "title": "Before joining",
    "file": "img/oct26/nov09-883-drew-prejoin.webp",
    "source": "nov09-883-drew-prejoin.png",
    "sha256": "d2696881775130958c1aaa246ce602748345cd90acd78bed30be5a6102fc0e98"
   },
   {
-   "n": 201,
+   "n": 202,
    "chapter": "Growing your local League",
-   "person": "Blake, then Maya",
+   "person": "Drew, Maya and Ben",
    "title": "Who plays near you",
    "file": "img/oct26/nov09-883-drew-near-city.webp",
    "source": "nov09-883-drew-near-city.png",
    "sha256": "b68cf04a543467ae884fee1c62ab367e392c281ef6ee716ed873c7a39c283e4f"
   },
   {
-   "n": 202,
+   "n": 203,
    "chapter": "Growing your local League",
-   "person": "Blake, then Maya",
+   "person": "Drew, Maya and Ben",
    "title": "Your city in matchmaking",
    "file": "img/oct26/nov09-current-growth-city.webp",
    "source": "nov09-current-growth-city.png",
    "sha256": "86de4132c63811929a52eb8c38f9d9cadca3452a6f0a1ad438639e1d9ddc5c38"
   },
   {
-   "n": 203,
+   "n": 204,
    "chapter": "Growing your local League",
-   "person": "Blake, then Maya",
+   "person": "Drew, Maya and Ben",
    "title": "Venue progress",
    "file": "img/oct26/nov09-current-growth-venue.webp",
    "source": "nov09-current-growth-venue.png",
    "sha256": "40812aa64ca9c977acdad63baf329bdc8781b802dca8f901c33d6ec944bd60ff"
   },
   {
-   "n": 204,
+   "n": 205,
    "chapter": "Growing your local League",
-   "person": "Blake, then Maya",
+   "person": "Drew, Maya and Ben",
    "title": "Venue leaderboard",
    "file": "img/oct26/nov09-current-growth-board.webp",
    "source": "nov09-current-growth-board.png",
    "sha256": "173ec851466378f5a23fbc38cf028de797e622d16a83e147cb3087e79091f7a5"
   },
   {
-   "n": 205,
+   "n": 206,
    "chapter": "Growing your local League",
-   "person": "Blake, then Maya",
+   "person": "Drew, Maya and Ben",
    "title": "Brought to the League",
    "file": "img/oct26/nov09-current-growth-friends.webp",
    "source": "nov09-current-growth-friends.png",
    "sha256": "11d59497f88cc15c07cbd12d62212757b9cfe872d7e7cd01f3bdd4b99d73dc32"
   },
   {
-   "n": 206,
+   "n": 207,
    "chapter": "Growing your local League",
-   "person": "Blake, then Maya",
+   "person": "Drew, Maya and Ben",
    "title": "A result to share",
    "file": "img/oct26/nov09-current-ben-exported-result.webp",
    "source": "nov09-current-ben-exported-result.png",
    "sha256": "210a468f8656bcac8a5b8db3f0e1527357610a7c269c4279307bf5c21865c067"
   },
   {
-   "n": 207,
+   "n": 208,
    "chapter": "Settings, times and venues",
    "person": "Riley",
    "title": "League settings",
@@ -1876,7 +1885,7 @@
    "sha256": "e2ffcf330164b5310c3aeb4ec8654ec6e4396a37b954a34cd943bc28ad2d1f97"
   },
   {
-   "n": 208,
+   "n": 209,
    "chapter": "Settings, times and venues",
    "person": "Riley",
    "title": "Privacy and safety",
@@ -1885,7 +1894,7 @@
    "sha256": "f420c36cfd04911fa9df67af10362243f0b25362d33b1150bcfcfa371a02480f"
   },
   {
-   "n": 209,
+   "n": 210,
    "chapter": "Settings, times and venues",
    "person": "Riley",
    "title": "Notifications",
@@ -1894,7 +1903,7 @@
    "sha256": "ef8ff8985a3f7e7931850d652d09f6ae2b34a81e26ff94a5bafdb5e16e274eb0"
   },
   {
-   "n": 210,
+   "n": 211,
    "chapter": "Settings, times and venues",
    "person": "Riley",
    "title": "Your times",
@@ -1903,7 +1912,7 @@
    "sha256": "536d6835dda2c03e562154d089881ab39cc3d5826d916b19a142d2ab38085ed4"
   },
   {
-   "n": 211,
+   "n": 212,
    "chapter": "Settings, times and venues",
    "person": "Riley",
    "title": "Saved venues",
@@ -1912,7 +1921,7 @@
    "sha256": "ac880cf3e78e59993a37e2bd040e726a5e98091831ca10e1eacf25e56b801c99"
   },
   {
-   "n": 212,
+   "n": 213,
    "chapter": "Settings, times and venues",
    "person": "Riley",
    "title": "Venue detail",
@@ -1921,7 +1930,7 @@
    "sha256": "40812aa64ca9c977acdad63baf329bdc8781b802dca8f901c33d6ec944bd60ff"
   },
   {
-   "n": 213,
+   "n": 214,
    "chapter": "Pause and return",
    "person": "Riley, then earlier examples",
    "title": "Open Pause",
@@ -1930,7 +1939,7 @@
    "sha256": "64358cf721ff9b337279eb4acf3cb11d05e94b9b38985c5a1fa2b8d810fd2733"
   },
   {
-   "n": 214,
+   "n": 215,
    "chapter": "Pause and return",
    "person": "Riley, then earlier examples",
    "title": "Choose when to return",
@@ -1939,7 +1948,7 @@
    "sha256": "0f50f7132f9e9cd46551760e20e8545c07b5c7f82a240ffba794ed9749b84c2e"
   },
   {
-   "n": 215,
+   "n": 216,
    "chapter": "Pause and return",
    "person": "Riley, then earlier examples",
    "title": "Search paused",
@@ -1948,7 +1957,7 @@
    "sha256": "b00e641646f7ea8bfff98969e0736d9de2acf936d4c71481507e6bd6c40fe622"
   },
   {
-   "n": 216,
+   "n": 217,
    "chapter": "Pause and return",
    "person": "Riley, then earlier examples",
    "title": "End the pause",
@@ -1957,7 +1966,7 @@
    "sha256": "a02811d58bfe2c9de45045d032376fe7404255e6d78f54fe6e2da98713903da7"
   },
   {
-   "n": 217,
+   "n": 218,
    "chapter": "Pause and return",
    "person": "Riley, then earlier examples",
    "title": "Matchmaking is on again",
@@ -1966,16 +1975,16 @@
    "sha256": "d5dc81a59bad7d656047f20f328c8ceb0470edcf076f199c703ab366cd1c19cc"
   },
   {
-   "n": 218,
+   "n": 219,
    "chapter": "Pause and return",
    "person": "Riley, then earlier examples",
-   "title": "Paused after four quiet weeks",
+   "title": "Paused after inactivity",
    "file": "img/oct26/62-idle-home.webp",
    "source": "62-idle-home.png",
    "sha256": "e0c254f2cadf2bc518122a1a232d09df864fc15a546397c4f1fe5f9cff523aee"
   },
   {
-   "n": 219,
+   "n": 220,
    "chapter": "Pause and return",
    "person": "Riley, then earlier examples",
    "title": "A Monday message",
@@ -1984,7 +1993,7 @@
    "sha256": "6472f7cb2fefcc6d5fea6f1671708829feb8ed6166d968e8113fd8e0f6422f78"
   },
   {
-   "n": 220,
+   "n": 221,
    "chapter": "Pause and return",
    "person": "Riley, then earlier examples",
    "title": "Back to the League tab",
@@ -1993,7 +2002,7 @@
    "sha256": "d9ee9fa8dc43a24a9ae615c9d1eb43c11a9ca90e205eb2ed6909bf6333a206bc"
   },
   {
-   "n": 221,
+   "n": 222,
    "chapter": "Changing how you play",
    "person": "Riley",
    "title": "How you play",
@@ -2002,7 +2011,7 @@
    "sha256": "2d4099a2a4b8fe142ee1a88d150cf98d8350e115cd5a5c0b7b75c6044620ac91"
   },
   {
-   "n": 222,
+   "n": 223,
    "chapter": "Changing how you play",
    "person": "Riley",
    "title": "Choose rotating doubles",
@@ -2011,7 +2020,7 @@
    "sha256": "4817490a0d77d25360f285f7457793e55827348ab1e4a752999d2966dab44dfc"
   },
   {
-   "n": 223,
+   "n": 224,
    "chapter": "Changing how you play",
    "person": "Riley",
    "title": "Saved",
@@ -2020,7 +2029,7 @@
    "sha256": "589d747ef8a1caea76197cc49551bad8a7926eaab3dcb9747abc84177f22a93f"
   },
   {
-   "n": 224,
+   "n": 225,
    "chapter": "Safety and conduct",
    "person": "Maya and Casey",
    "title": "Block a player",
@@ -2029,7 +2038,7 @@
    "sha256": "8429711e0353182c0771de4e45b8f9a8988ced1d18d5f7b644dfd3df25bfea3c"
   },
   {
-   "n": 225,
+   "n": 226,
    "chapter": "Safety and conduct",
    "person": "Maya and Casey",
    "title": "Blocked players",
@@ -2038,7 +2047,7 @@
    "sha256": "cbaa255b8f210df9dd7e416f326448361201071e58cd3dfdaad1e979b524796d"
   },
   {
-   "n": 226,
+   "n": 227,
    "chapter": "Safety and conduct",
    "person": "Maya and Casey",
    "title": "Unblocked",
@@ -2047,7 +2056,7 @@
    "sha256": "83596990542fc09be01862a1a36d4b717c26594354396d498ef1a40c2858908a"
   },
   {
-   "n": 227,
+   "n": 228,
    "chapter": "Safety and conduct",
    "person": "Maya and Casey",
    "title": "Conduct record",
@@ -2056,7 +2065,7 @@
    "sha256": "b66220e36efa9377f23d9f638bf06bb1093d91eead1fd944098d1b62200c7391"
   },
   {
-   "n": 228,
+   "n": 229,
    "chapter": "Safety and conduct",
    "person": "Maya and Casey",
    "title": "The late cancellation",
@@ -2065,7 +2074,7 @@
    "sha256": "2d56dfb24c7349ab9e2b6ded5b821b8ad1fa67ba3bbaa9d96c496ca5a788a46c"
   },
   {
-   "n": 229,
+   "n": 230,
    "chapter": "Safety and conduct",
    "person": "Maya and Casey",
    "title": "Challenge",
@@ -2074,7 +2083,7 @@
    "sha256": "65ab24ff55ac64957596dd697df47ed085a851f844956c0a456aba321c55c63c"
   },
   {
-   "n": 230,
+   "n": 231,
    "chapter": "Safety and conduct",
    "person": "Maya and Casey",
    "title": "Challenge saved",
@@ -2083,7 +2092,7 @@
    "sha256": "1faec97e6badab8b4312f77cae6f1d0fb812139225422fba97cd336bae4fd21d"
   },
   {
-   "n": 231,
+   "n": 232,
    "chapter": "Safety and conduct",
    "person": "Maya and Casey",
    "title": "Under review",
@@ -2092,7 +2101,7 @@
    "sha256": "f17cbd2f99ec4efdc7f7e3591763b6501a3766645c2746133eeb639883bfcccc"
   },
   {
-   "n": 232,
+   "n": 233,
    "chapter": "Safety and conduct",
    "person": "Maya and Casey",
    "title": "A report needs a response",
@@ -2101,7 +2110,7 @@
    "sha256": "e049a6b338411c73cf4d23726ff89554081349a6e691c7f33c3a9fd9927385ee"
   },
   {
-   "n": 233,
+   "n": 234,
    "chapter": "Safety and conduct",
    "person": "Maya and Casey",
    "title": "Open the conduct record",
@@ -2110,7 +2119,7 @@
    "sha256": "18fb8988f2de4692864ddae6c9e99ada9f58a0e1f51fc8526ef845a8c5faf4bd"
   },
   {
-   "n": 234,
+   "n": 235,
    "chapter": "Safety and conduct",
    "person": "Maya and Casey",
    "title": "Review the report",
@@ -2119,7 +2128,7 @@
    "sha256": "82dfe889b8e88414e215f65b247ffa7935c6dc4749c2039a1fa208f7fc67b8be"
   },
   {
-   "n": 235,
+   "n": 236,
    "chapter": "Notifications",
    "person": "Riley",
    "title": "Inbox",
@@ -2128,7 +2137,7 @@
    "sha256": "c91b0588ffa84f8de21dc5a3ece5f6395f2b8617f5b1df6f9704b9c01a77a566"
   },
   {
-   "n": 236,
+   "n": 237,
    "chapter": "Get a rotating doubles match",
    "person": "Maya, then Alex, Jordan, Marcus and Nolan",
    "title": "Saved courts",
@@ -2137,7 +2146,7 @@
    "sha256": "055db9eb142dd589d944d4937415cceea7f02d4dc97cf0d4ed7be8d0ecd77c5e"
   },
   {
-   "n": 237,
+   "n": 238,
    "chapter": "Get a rotating doubles match",
    "person": "Maya, then Alex, Jordan, Marcus and Nolan",
    "title": "Set a preference",
@@ -2146,7 +2155,7 @@
    "sha256": "b72f16e52ffe9f054d75b0aa4805116c9a4bb03bcc4011229def8b48a5d373b0"
   },
   {
-   "n": 238,
+   "n": 239,
    "chapter": "Get a rotating doubles match",
    "person": "Maya, then Alex, Jordan, Marcus and Nolan",
    "title": "Move a court to Backup",
@@ -2155,7 +2164,7 @@
    "sha256": "b01d82038fdd7cd228feb4f73670bd5f41375cb8fa70121bc66750dc3ffe8275"
   },
   {
-   "n": 239,
+   "n": 240,
    "chapter": "Get a rotating doubles match",
    "person": "Maya, then Alex, Jordan, Marcus and Nolan",
    "title": "Result preferences",
@@ -2164,7 +2173,7 @@
    "sha256": "6845668af9ee21580ba7a0ecdfe1dd3b98fe7e2f8b8fd2382083f946d301aef2"
   },
   {
-   "n": 240,
+   "n": 241,
    "chapter": "Get a rotating doubles match",
    "person": "Maya, then Alex, Jordan, Marcus and Nolan",
    "title": "Choose not to send",
@@ -2173,7 +2182,7 @@
    "sha256": "3cda4f6072d4944c45a3cfc4e9e40407c1b485253adff37e9415e9fefb04aa9e"
   },
   {
-   "n": 241,
+   "n": 242,
    "chapter": "Get a rotating doubles match",
    "person": "Maya, then Alex, Jordan, Marcus and Nolan",
    "title": "A time that could match",
@@ -2182,7 +2191,7 @@
    "sha256": "f68d8d1e1ca21a43a625f6b883e51959f1d71cebe6d55399531dc0734fa715f2"
   },
   {
-   "n": 242,
+   "n": 243,
    "chapter": "Get a rotating doubles match",
    "person": "Maya, then Alex, Jordan, Marcus and Nolan",
    "title": "See the other starts",
@@ -2191,7 +2200,7 @@
    "sha256": "4da0bc5f2a4ddcdbc7f5395d9c43fdb07404cfa148574f5160fffa19203bbc22"
   },
   {
-   "n": 243,
+   "n": 244,
    "chapter": "Get a rotating doubles match",
    "person": "Maya, then Alex, Jordan, Marcus and Nolan",
    "title": "Review the window",
@@ -2200,7 +2209,7 @@
    "sha256": "b65bb466f73a5014579cb5dc677205f073f280a7f35465e1a4528671633f07fb"
   },
   {
-   "n": 244,
+   "n": 245,
    "chapter": "Get a rotating doubles match",
    "person": "Maya, then Alex, Jordan, Marcus and Nolan",
    "title": "The search finds a group",
@@ -2209,7 +2218,7 @@
    "sha256": "f9d6d75a85bd30c893673af5812a34c608b7f6e42efed439f3a129f0f4be642b"
   },
   {
-   "n": 245,
+   "n": 246,
    "chapter": "Get a rotating doubles match",
    "person": "Maya, then Alex, Jordan, Marcus and Nolan",
    "title": "The actual plan",
@@ -2218,7 +2227,7 @@
    "sha256": "787edebcbb6a1c932579c4a10a511661012f40a4ec3d341fa7211b86f4af5f38"
   },
   {
-   "n": 246,
+   "n": 247,
    "chapter": "Get a rotating doubles match",
    "person": "Maya, then Alex, Jordan, Marcus and Nolan",
    "title": "Every partnership",
@@ -2227,7 +2236,7 @@
    "sha256": "73e590e12ecc69ffc6810648a2caa62060dc60c068d6b51ac3e3749225c8b444"
   },
   {
-   "n": 247,
+   "n": 248,
    "chapter": "Get a rotating doubles match",
    "person": "Maya, then Alex, Jordan, Marcus and Nolan",
    "title": "Coordinate arrival",
@@ -2236,7 +2245,7 @@
    "sha256": "e71db1dbbf6f9b09cc5ac045c9b34377a3868d365f6cc562175a32e120f184d7"
   },
   {
-   "n": 248,
+   "n": 249,
    "chapter": "Start a doubles match at the courts",
    "person": "Alex and Ben",
    "title": "At the courts",
@@ -2245,7 +2254,7 @@
    "sha256": "a506071c7a2d527bfb89a8468f606f7ba7f97d896ff72b99e14a25c9462f05a4"
   },
   {
-   "n": 249,
+   "n": 250,
    "chapter": "Start a doubles match at the courts",
    "person": "Alex and Ben",
    "title": "All four players",
@@ -2254,7 +2263,7 @@
    "sha256": "b7a80fa9635b348c578df477c329a2c8a60b1b63d659f74364e4167943b134b8"
   },
   {
-   "n": 250,
+   "n": 251,
    "chapter": "Start a doubles match at the courts",
    "person": "Alex and Ben",
    "title": "Ben’s invitation",
@@ -2263,7 +2272,7 @@
    "sha256": "881ba63a6c718923dc8c7e6f5de25b919f46693208637c8f25cabc81445aeeb7"
   },
   {
-   "n": 251,
+   "n": 252,
    "chapter": "Start a doubles match at the courts",
    "person": "Alex and Ben",
    "title": "Confirm only for yourself",
@@ -2272,7 +2281,7 @@
    "sha256": "3999e36c65e19d807cf5896cb74bd6a2bffb3319db4ae41356db99870be0dd71"
   },
   {
-   "n": 252,
+   "n": 253,
    "chapter": "Start a doubles match at the courts",
    "person": "Alex and Ben",
    "title": "Guests have confirmed",
@@ -2281,7 +2290,7 @@
    "sha256": "5117cbea276a10c494eb2939a33f0eaf3bf8537323152f25c9c869580ac8f58f"
   },
   {
-   "n": 253,
+   "n": 254,
    "chapter": "Start a doubles match at the courts",
    "person": "Alex and Ben",
    "title": "Ready to start",
@@ -2290,7 +2299,7 @@
    "sha256": "0a45385d9e69d2598ae69c65135c36edb5743c654b8c0915b8490051edfbe3f7"
   },
   {
-   "n": 254,
+   "n": 255,
    "chapter": "Start a doubles match at the courts",
    "person": "Alex and Ben",
    "title": "The published match",
@@ -2299,7 +2308,7 @@
    "sha256": "2ec4ea2a4def7e8e6f2bc4768c70de17c42dafe5054631ef0e4bcadd9ce1a600"
   },
   {
-   "n": 255,
+   "n": 256,
    "chapter": "Report, correct and confirm doubles scores",
    "person": "Alex, Ben and Chris",
    "title": "The score form",
@@ -2308,7 +2317,7 @@
    "sha256": "cb7032813ea2fdddd22b9591627aa3098312523282b38a142d53c8034249a4a3"
   },
   {
-   "n": 256,
+   "n": 257,
    "chapter": "Report, correct and confirm doubles scores",
    "person": "Alex, Ben and Chris",
    "title": "Enter one game",
@@ -2317,7 +2326,7 @@
    "sha256": "de5b882a8b05c2cda8f8b4d5790b5dbf568b155acdf73fe4dcee9b33f3ab401b"
   },
   {
-   "n": 257,
+   "n": 258,
    "chapter": "Report, correct and confirm doubles scores",
    "person": "Alex, Ben and Chris",
    "title": "All three games",
@@ -2326,7 +2335,7 @@
    "sha256": "e38ad595ba69ba7eb9b9322165e355660e9ab99c68a02d11ac56cecad4146fe5"
   },
   {
-   "n": 258,
+   "n": 259,
    "chapter": "Report, correct and confirm doubles scores",
    "person": "Alex, Ben and Chris",
    "title": "Sent, waiting for review",
@@ -2335,7 +2344,7 @@
    "sha256": "d632b0438c78d13d5d188b46b948147a5e8c4af954c5cf656bf6dfd248da2906"
   },
   {
-   "n": 259,
+   "n": 260,
    "chapter": "Report, correct and confirm doubles scores",
    "person": "Alex, Ben and Chris",
    "title": "Fix a typing mistake",
@@ -2344,7 +2353,7 @@
    "sha256": "708c703d65b026e9ecc343acf3f2fd12cf89754ac6fc6920af397ba221289b81"
   },
   {
-   "n": 260,
+   "n": 261,
    "chapter": "Report, correct and confirm doubles scores",
    "person": "Alex, Ben and Chris",
    "title": "The corrected receipt",
@@ -2353,7 +2362,7 @@
    "sha256": "180cbf4f45a5ebc7889d6f471215629207a2f9e6c9570c6bd6ddd0e1b63749eb"
   },
   {
-   "n": 261,
+   "n": 262,
    "chapter": "Report, correct and confirm doubles scores",
    "person": "Alex, Ben and Chris",
    "title": "Ben reviews on his device",
@@ -2362,7 +2371,7 @@
    "sha256": "b7afb4018c91c390f22f43e11269ef80363091de54708eb5a729a32800fef731"
   },
   {
-   "n": 262,
+   "n": 263,
    "chapter": "Report, correct and confirm doubles scores",
    "person": "Alex, Ben and Chris",
    "title": "Ben’s answer is saved",
@@ -2371,7 +2380,7 @@
    "sha256": "895a5d9174c258b9ee326d54886fbf5702209c589719c071b694a840079c0f1e"
   },
   {
-   "n": 263,
+   "n": 264,
    "chapter": "Report, correct and confirm doubles scores",
    "person": "Alex, Ben and Chris",
    "title": "Back in match history",
@@ -2380,7 +2389,7 @@
    "sha256": "332625187a521497c9584b08e54fffa24f03a0b38c265b7b49c186800e59e138"
   },
   {
-   "n": 264,
+   "n": 265,
    "chapter": "Report, correct and confirm doubles scores",
    "person": "Alex, Ben and Chris",
    "title": "The final result",
@@ -2389,7 +2398,7 @@
    "sha256": "32f8de6b93577083ca4afcfda931fc8b4c60b47f742e4b374f8c1e9452b0e808"
   },
   {
-   "n": 265,
+   "n": 266,
    "chapter": "Report, correct and confirm doubles scores",
    "person": "Alex, Ben and Chris",
    "title": "Share the result",
@@ -2398,7 +2407,7 @@
    "sha256": "979c959337f92fe7fb4376d14f63ec49497333e4853633b248d702947898ae43"
   },
   {
-   "n": 266,
+   "n": 267,
    "chapter": "Report, correct and confirm doubles scores",
    "person": "Alex, Ben and Chris",
    "title": "The actual exported card",
@@ -2407,7 +2416,7 @@
    "sha256": "210a468f8656bcac8a5b8db3f0e1527357610a7c269c4279307bf5c21865c067"
   },
   {
-   "n": 267,
+   "n": 268,
    "chapter": "Build a regular doubles partnership",
    "person": "Alex and Ben",
    "title": "Create the team invitation",
@@ -2416,7 +2425,7 @@
    "sha256": "d1764ec015616b8d29bb07ce205fcb4fee95c3b706fb09aa196ed7e01cb194d9"
   },
   {
-   "n": 268,
+   "n": 269,
    "chapter": "Build a regular doubles partnership",
    "person": "Alex and Ben",
    "title": "Share the invitation link",
@@ -2425,7 +2434,7 @@
    "sha256": "d7f7fc19d46482355927b8848e27324745b1e9ba20f347f242685eb10d2044b9"
   },
   {
-   "n": 269,
+   "n": 270,
    "chapter": "Build a regular doubles partnership",
    "person": "Alex and Ben",
    "title": "Ben reviews the invitation",
@@ -2434,7 +2443,7 @@
    "sha256": "22ea8a95ec73de4fd2c113654dba99dcdd88ea2f380caac0267d075e355bed9e"
   },
   {
-   "n": 270,
+   "n": 271,
    "chapter": "Build a regular doubles partnership",
    "person": "Alex and Ben",
    "title": "The partnership is formed",
@@ -2443,7 +2452,7 @@
    "sha256": "43461ddc1b7d3ff35728fede2f5bee75ff742e495ec1a926a84fd1a944c5bf5a"
   },
   {
-   "n": 271,
+   "n": 272,
    "chapter": "Build a regular doubles partnership",
    "person": "Alex and Ben",
    "title": "Compare shared times",
@@ -2452,7 +2461,7 @@
    "sha256": "dfeb71bcbb3f91008fd64f8cbf2eae9d859edf30a40d47568954e1635780e3c6"
   },
   {
-   "n": 272,
+   "n": 273,
    "chapter": "Build a regular doubles partnership",
    "person": "Alex and Ben",
    "title": "Check next week",
@@ -2461,7 +2470,7 @@
    "sha256": "87093484be907d650a440aa21a4b94f6e0c0ed386b257c7c87780bcfd5d74465"
   },
   {
-   "n": 273,
+   "n": 274,
    "chapter": "Build a regular doubles partnership",
    "person": "Alex and Ben",
    "title": "A real Team doubles booking",
@@ -2470,7 +2479,7 @@
    "sha256": "30d6cdf2e6f9137810df4e08f744ced43ab77e8ace6a85f428213646c3bc2c47"
   },
   {
-   "n": 274,
+   "n": 275,
    "chapter": "Build a regular doubles partnership",
    "person": "Alex and Ben",
    "title": "Coordinate as four players",
@@ -2479,7 +2488,7 @@
    "sha256": "188ee5763887f094552e3de978a7ab0f5ea8ae1f1d833af3634ec25efc4852a9"
   },
   {
-   "n": 275,
+   "n": 276,
    "chapter": "Choose useful times and check the court",
    "person": "Alex",
    "title": "Save for one week or every week",
@@ -2488,7 +2497,7 @@
    "sha256": "41d62dc1f4dbf8b2ff6ea0aa5b28cb01019026c7162530fd64f542b656f68161"
   },
   {
-   "n": 276,
+   "n": 277,
    "chapter": "Choose useful times and check the court",
    "person": "Alex",
    "title": "The one-week change is saved",
@@ -2497,7 +2506,7 @@
    "sha256": "8f0e2a637709a7b7d81afdc8195365edfa51c675c4836c290ca8306fe2aeef28"
   },
   {
-   "n": 277,
+   "n": 278,
    "chapter": "Choose useful times and check the court",
    "person": "Alex",
    "title": "Explore popular times",
@@ -2506,7 +2515,7 @@
    "sha256": "888436e48fd67f4bf1499e3b543e30d5d6a9e2edd7e3e1748347107d70bba39f"
   },
   {
-   "n": 278,
+   "n": 279,
    "chapter": "Choose useful times and check the court",
    "person": "Alex",
    "title": "A popular start opens the picker",
@@ -2515,7 +2524,7 @@
    "sha256": "23d167a3e6c31523d8261816b1cb396ecaff173e219dbb5893919df2ebb5d6ad"
   },
   {
-   "n": 279,
+   "n": 280,
    "chapter": "Choose useful times and check the court",
    "person": "Alex",
    "title": "Activity at the saved venue",
@@ -2524,7 +2533,7 @@
    "sha256": "de47515d1d3f59c2f50eac14c9585a04007bbd07e81ffed5d923a1cca36993d2"
   },
   {
-   "n": 280,
+   "n": 281,
    "chapter": "Choose useful times and check the court",
    "person": "Alex",
    "title": "Reopen access information",
@@ -2533,7 +2542,7 @@
    "sha256": "c3ad8812d0d73ccf66f4b21b74f2bb55332ed314425b13ebe8b906ba68a653dd"
   },
   {
-   "n": 281,
+   "n": 282,
    "chapter": "Cancel, pause and report an unplayed match",
    "person": "Alex",
    "title": "Read the cancellation consequence",
@@ -2542,7 +2551,7 @@
    "sha256": "2649d79bc9afcd99d7f0557faa90b9c26b205ab82ebaae8dc138dd35f3eab847"
   },
   {
-   "n": 282,
+   "n": 283,
    "chapter": "Cancel, pause and report an unplayed match",
    "person": "Alex",
    "title": "The cancellation is recorded",
@@ -2551,7 +2560,7 @@
    "sha256": "f30875afc1343f9525eba1b23517cfc6c0d98bca3633c575df34ea4f1daa0039"
   },
   {
-   "n": 283,
+   "n": 284,
    "chapter": "Cancel, pause and report an unplayed match",
    "person": "Alex",
    "title": "Choose the scope of a break",
@@ -2560,7 +2569,7 @@
    "sha256": "de301e1eeafe3de15cadb35f96008dc65453069109d065ca509f96e4aab41892"
   },
   {
-   "n": 284,
+   "n": 285,
    "chapter": "Cancel, pause and report an unplayed match",
    "person": "Alex",
    "title": "Booked matches stay visible",
@@ -2569,7 +2578,7 @@
    "sha256": "f0aa74efedd06917158658685e9a6fac118ccc2c10c57e04be0e1c383c9ac88e"
   },
   {
-   "n": 285,
+   "n": 286,
    "chapter": "Cancel, pause and report an unplayed match",
    "person": "Alex",
    "title": "End the pause",
@@ -2578,7 +2587,7 @@
    "sha256": "8082b130cac4da3055acbd6e4755f852d967debad9d3cad053265ea9356944d2"
   },
   {
-   "n": 286,
+   "n": 287,
    "chapter": "Cancel, pause and report an unplayed match",
    "person": "Alex",
    "title": "Check a missing-player report",
@@ -2587,7 +2596,7 @@
    "sha256": "91838adb30be4b3f9409bb87440b0b3af6bf708785cd744369243926315ea102"
   },
   {
-   "n": 287,
+   "n": 288,
    "chapter": "Cancel, pause and report an unplayed match",
    "person": "Alex",
    "title": "End as not played",
@@ -2596,7 +2605,7 @@
    "sha256": "31e53d3e4c00cb4fab00058a10fd3a0ab89fe31b16262d08eaba0cf7ccf11d32"
   },
   {
-   "n": 288,
+   "n": 289,
    "chapter": "Arrange a team challenge",
    "person": "Alex, Blake, Chris and Diego",
    "title": "Create a team challenge",
@@ -2605,7 +2614,7 @@
    "sha256": "04049fffe076e31de44a6ee2fdc333ffa3a8334724f13667ff31f91ea83d58e2"
   },
   {
-   "n": 289,
+   "n": 290,
    "chapter": "Arrange a team challenge",
    "person": "Alex, Blake, Chris and Diego",
    "title": "Blake reviews on his own phone",
@@ -2614,7 +2623,7 @@
    "sha256": "362b54ff3cd007b29d7323ed119dc9f509b6f51a237f415d8c583bf3df2fba84"
   },
   {
-   "n": 290,
+   "n": 291,
    "chapter": "Arrange a team challenge",
    "person": "Alex, Blake, Chris and Diego",
    "title": "Everyone accepts; time is still needed",
@@ -2623,7 +2632,7 @@
    "sha256": "c6c11889ac5028d56729cfe2fb82046dfe83fe811b89d05173ef58da4751a719"
   },
   {
-   "n": 291,
+   "n": 292,
    "chapter": "Arrange a team challenge",
    "person": "Alex, Blake, Chris and Diego",
    "title": "Discuss a time",
@@ -2632,7 +2641,7 @@
    "sha256": "7400e580d091f110649bf49e2873cbd132abc46b7cdefe7ddc2b3530ec8a2c91"
   },
   {
-   "n": 292,
+   "n": 293,
    "chapter": "Arrange a team challenge",
    "person": "Alex, Blake, Chris and Diego",
    "title": "Choose a time",
@@ -2641,7 +2650,7 @@
    "sha256": "50d73b3d07691163de4f67d3ebb32715b0ee86e4766269f2a4b6c83767ea8a54"
   },
   {
-   "n": 293,
+   "n": 294,
    "chapter": "Arrange a team challenge",
    "person": "Alex, Blake, Chris and Diego",
    "title": "The challenge becomes a match",
@@ -2650,7 +2659,7 @@
    "sha256": "76238e5607f24165a0aa69a92d0a18ecc96b5a159a1cdd2c42a7e69a4b64e891"
   },
   {
-   "n": 294,
+   "n": 295,
    "chapter": "Arrange a team challenge",
    "person": "Alex, Blake, Chris and Diego",
    "title": "The conversation carries over",
@@ -2659,7 +2668,7 @@
    "sha256": "b40242ec6e80f79f1eb75b21d3b2bd3b000ed223bf49eb70a59ca7d472a1f1fe"
   },
   {
-   "n": 295,
+   "n": 296,
    "chapter": "Finish an eight-week doubles season",
    "person": "Alex and Ben",
    "title": "A weekly recap",
@@ -2668,7 +2677,7 @@
    "sha256": "2e318ff6471436b8e12e767a99d8aed261e855a9fa62b26ff48cf8e1350913f1"
   },
   {
-   "n": 296,
+   "n": 297,
    "chapter": "Finish an eight-week doubles season",
    "person": "Alex and Ben",
    "title": "Alex’s season record",
@@ -2677,7 +2686,7 @@
    "sha256": "c5d5d331819622ab99c942b2b49e2924b98aaf783446a81644bf873a6e80faf8"
   },
   {
-   "n": 297,
+   "n": 298,
    "chapter": "Finish an eight-week doubles season",
    "person": "Alex and Ben",
    "title": "Progress and earned badges",
@@ -2686,7 +2695,7 @@
    "sha256": "71c4f6193958760217c58b7613a8bf13509beb32cc1e2502189d2c9be5eb50ad"
   },
   {
-   "n": 298,
+   "n": 299,
    "chapter": "Finish an eight-week doubles season",
    "person": "Alex and Ben",
    "title": "Eight weeks of rank history",
@@ -2695,7 +2704,7 @@
    "sha256": "d5e24db325614321da4dd694a024d63495cb9242e08b2ec9c2f24a171dcc3744"
   },
   {
-   "n": 299,
+   "n": 300,
    "chapter": "Finish an eight-week doubles season",
    "person": "Alex and Ben",
    "title": "Expand a Team doubles result",
@@ -2704,7 +2713,7 @@
    "sha256": "9a7d1e2cae0de9c4f5294a67eb14ad5eb8153f9aa66db9d05e62a7f3f0feda26"
   },
   {
-   "n": 300,
+   "n": 301,
    "chapter": "Finish an eight-week doubles season",
    "person": "Alex and Ben",
    "title": "Final individual doubles standings",
@@ -2713,7 +2722,7 @@
    "sha256": "c889afd03b29ae088c080347df5f97a9e9faaa0a236856a7f4385c5d0545ed8a"
   },
   {
-   "n": 301,
+   "n": 302,
    "chapter": "Finish an eight-week doubles season",
    "person": "Alex and Ben",
    "title": "Final Team doubles standings",
@@ -2722,7 +2731,7 @@
    "sha256": "94c5037776ac004f031493d2fc9e0149f47ed52dcfba3a4a6d63327c79c9c804"
   },
   {
-   "n": 302,
+   "n": 303,
    "chapter": "Finish an eight-week doubles season",
    "person": "Alex and Ben",
    "title": "Alex’s season recap",
@@ -2731,7 +2740,7 @@
    "sha256": "77f191c5aecd41a4cbdddfd1dc455fec063cb934e6179d53cd050879432cf1ed"
   },
   {
-   "n": 303,
+   "n": 304,
    "chapter": "Finish an eight-week doubles season",
    "person": "Alex and Ben",
    "title": "Ben’s own outcome",
@@ -2740,7 +2749,7 @@
    "sha256": "94b577787a134200538adfc9c3141ddfab4915235ae1b5b5a6b4633ffc4ca6ba"
   },
   {
-   "n": 304,
+   "n": 305,
    "chapter": "Finish an eight-week doubles season",
    "person": "Alex and Ben",
    "title": "What earns Season complete",
@@ -2749,7 +2758,7 @@
    "sha256": "92a60d110b118d240b40b533f41c4aaa54a161ed2f581e327fd77092140aa203"
   },
   {
-   "n": 305,
+   "n": 306,
    "chapter": "Edit usual times",
    "person": "Casey",
    "title": "Start with saved times",
@@ -2758,7 +2767,7 @@
    "sha256": "71eaec06db8326ea49d1963a870686fdec3ecd4b7126cb754a7724e65f4b58a4"
   },
   {
-   "n": 306,
+   "n": 307,
    "chapter": "Edit usual times",
    "person": "Casey",
    "title": "Choose Thursday hours",
@@ -2767,7 +2776,7 @@
    "sha256": "aa364249466688582463235d9819a3a5c32d9e93fd333cc20e63cafb86945b9f"
   },
   {
-   "n": 307,
+   "n": 308,
    "chapter": "Edit usual times",
    "person": "Casey",
    "title": "Thursday is saved",
@@ -2776,7 +2785,7 @@
    "sha256": "f92e581efedbe0a0fd93d88e37fd1f07f46e095009ecbc4ad19e3bbb31f457bc"
   },
   {
-   "n": 308,
+   "n": 309,
    "chapter": "Edit usual times",
    "person": "Casey",
    "title": "Check the following week",
@@ -2785,7 +2794,7 @@
    "sha256": "57bb518b6415b26838e7ab5b1a53783fb06bbb96ca2028bf0106127f347df75a"
   },
   {
-   "n": 309,
+   "n": 310,
    "chapter": "Disagree with a score",
    "person": "Taylor and Riley",
    "title": "Send a different score",
@@ -2794,7 +2803,7 @@
    "sha256": "2e78f909deee83b265c515717f5fc0a6eabc0f7f3646696fed1611f46b554bbc"
   },
   {
-   "n": 310,
+   "n": 311,
    "chapter": "Disagree with a score",
    "person": "Taylor and Riley",
    "title": "Proposal sent",
@@ -2803,7 +2812,7 @@
    "sha256": "8eaf9ba1fe1d8e61cd70123d499fcde875cc2eac1c37f4968df22230c23cf4a9"
   },
   {
-   "n": 311,
+   "n": 312,
    "chapter": "Disagree with a score",
    "person": "Taylor and Riley",
    "title": "Riley reviews the proposal",
@@ -2812,7 +2821,7 @@
    "sha256": "7fe842eb9117f4e66ad25c1d49b2d19d33d78de308e4e661794b8ebdc9871df1"
   },
   {
-   "n": 312,
+   "n": 313,
    "chapter": "Disagree with a score",
    "person": "Taylor and Riley",
    "title": "The agreed result",
@@ -2821,7 +2830,7 @@
    "sha256": "c56a0f8ccb51b9eed34c4f9ef853158134eefc0daf9897f94bc938b2c2bda6ed"
   },
   {
-   "n": 313,
+   "n": 314,
    "chapter": "Notifications after joining",
    "person": "Blake",
    "title": "Hear about match offers?",
@@ -2830,7 +2839,7 @@
    "sha256": "fdda46993541a53664def15158e6073700202a4aab26be6239023cb30417bd54"
   },
   {
-   "n": 314,
+   "n": 315,
    "chapter": "A partner cancels a team match",
    "person": "Alex and Ben",
    "title": "A partner cancels",
@@ -2839,7 +2848,7 @@
    "sha256": "0784ddf05538dc7e9ae36ccbc67a41da62a561cdeed5b809f06ae36e2a3b7f26"
   },
   {
-   "n": 315,
+   "n": 316,
    "chapter": "When a venue has little recent activity",
    "person": "Riley",
    "title": "Not enough recent data",
@@ -2848,7 +2857,7 @@
    "sha256": "0f7ed7e18bf15f9b0af756033ccc340256bf97d9a7d476f92df5f18b4f32ecbb"
   },
   {
-   "n": 316,
+   "n": 317,
    "chapter": "A booked match on League home",
    "person": "Casey and Riley",
    "title": "Upcoming match",
@@ -2857,7 +2866,7 @@
    "sha256": "5ea665aaaf64b07998b32b09a4e9f549f4951e9a0dba6fc0a6685a54a6a2f346"
   },
   {
-   "n": 317,
+   "n": 318,
    "chapter": "A booked match on League home",
    "person": "Casey and Riley",
    "title": "Open the match",
@@ -2866,13 +2875,31 @@
    "sha256": "a8187bdc280b58315d84e9d9e50964f4893fafe2bda4e853c792859e9a706bd4"
   },
   {
-   "n": 318,
+   "n": 319,
    "chapter": "A booked match on League home",
    "person": "Casey and Riley",
    "title": "Chat becomes available",
    "file": "img/oct26/nov09-chat-recovered-draft.webp",
    "source": "nov09-chat-recovered-draft.png",
    "sha256": "d634820a1417166f2449c679c3faf0e29098c076da6f1139453c652be2cafb7e"
+  },
+  {
+   "n": 320,
+   "chapter": "Request a final-score correction",
+   "person": "Alex",
+   "title": "Describe the correction",
+   "file": "img/oct26/nov09-cbff-final-correction-draft.webp",
+   "source": "nov09-cbff-final-correction-draft.png",
+   "sha256": "0636465e67bff046d61677a8dcb8b62f71109d545f53361a18bd5cf0e97e9979"
+  },
+  {
+   "n": 321,
+   "chapter": "Request a final-score correction",
+   "person": "Alex",
+   "title": "A request under review",
+   "file": "img/oct26/nov09-cbff-final-correction-pending.webp",
+   "source": "nov09-cbff-final-correction-pending.png",
+   "sha256": "6d1274fe28b31b7069ea2eb17b75e828f62c3aa65e4d5ee47aeb062e7cbca9ea"
   }
  ]
 }

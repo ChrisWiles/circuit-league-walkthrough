@@ -173,7 +173,7 @@ dialog#lb[open] { display: grid; grid-template-rows: auto minmax(0, 1fr) auto; }
 </dialog>
 
 <script>
-const IMAGE_VERSION = '20261109ff';
+const IMAGE_VERSION = '20261110a';
 const CHAPTERS = [
   { id: 'join', title: 'Join the League', who: 'A local fictional player chooses formats, a court and usual times, then joins. The landing, selected venue and acceptance screens use a second fictional profile; the choices are equivalent.', person: 'Blake and Drew', shots: [
     ['nov09-join-landing', 'Before you join', 'The League tab describes the free League, where it is open, and the time needed to join. DUPR is optional. The player count shown is local fixture data.'],
@@ -274,10 +274,10 @@ const CHAPTERS = [
   { id: 'season-progress', title: 'Your season', who: 'Casey’s compact home summary is followed by Maya’s separate latest season details and rank chart. The DUPR history and later Casey examples use earlier captures.', person: 'Casey and Maya', shots: [
     ['nov09-latest-season-home', 'Your season at a glance', 'Casey’s compact home summary shows her fictional rank and match record. View season opens the details.'],
     ['nov09-new-season-progress', 'Open the season', 'In a separate current fixture, Maya’s season screen shows her published rank, record and progress. It says standings are updating; the screen does not establish a completed refresh.'],
-    ['nov09-latest-season-history', 'The DUPR observations', 'In an earlier separate capture, Casey expands DUPR history to see two fictional dated observations. The season block has since changed; this does not prove an external DUPR sync.'],
+    ['nov09-cbff-dupr-history', 'The DUPR observations', 'Alex expands two fictional DUPR observations. One was prepared in the isolated fixture; this does not demonstrate an external DUPR sync.'],
     ['nov09-new-season-share', 'Share your season', 'Maya opens the native share sheet. The screenshot does not show the full shared text, and no message was sent.'],
     ['nov09-latest-rank-chart', 'Weekly rank history', 'In a separate current fictional example, Maya’s rank history uses a line chart. A dash marks a week without a listing; each later point shows a published weekly rank.'],
-    ['nov08-season-02-detail', 'Earlier season detail', 'In a separate earlier Casey example, season details appeared on the stats page. The latest app now opens a dedicated season screen, shown above.'],
+    ['nov09-cbff-season-recent-ten', 'Recent season results', 'In a separate fictional completed season, Alex sees his last ten match results, newest first, along with his season record and completion goal. These figures are fixture data.'],
     ['nov08-season-05-movement', 'A confirmed result changes the rank', 'In an earlier Casey fixture, after a confirmed loss to Maya, her position becomes #2 of 6 and her record becomes 5–4. Down 1 place this season compares with First recorded #1; Best #1 stays intact. The recent-match highlight updates too.'],
     ['nov09-current-recap-board', 'Standings from a weekly recap', 'In a separate current example, Maya opens standings from her October 19 recap. The board is dated October 25 and shows the historical snapshot, not live standings.'],
   ]},
@@ -290,7 +290,8 @@ const CHAPTERS = [
     ["nov09-board-current-search", "Search", "Maya searches the women’s board for Elena. One fictional player appears with her original percentile, record and recent point margin."],
     ["nov09-board-current-empty", "No search results", "An unmatched search shows no results and offers Clear search. Maya uses it to return to the board."],
     ['nov09-current-doubles-board', 'Rotating doubles', 'In a separate local snapshot, the women’s rotating doubles board has no listed players. It explains the five-player threshold and Maya’s three remaining matches.'],
-    ["nov09-board-current-places", "Choose a place", "Maya opens Place to choose the Austin area or a venue board. The available places depend on the player and fixture."],
+    ["nov09-01b4-board-place-picker", "Find a leaderboard", "In a separate fictional Honolulu example, Blake opens the place picker to search areas and venues or use his location."],
+    ["nov09-01b4-board-favorite", "Save a favorite", "Blake favorites East Park Courts; it moves into Favorites while Honolulu remains the selected board."],
     ["nov09-current-growth-board", "A venue board", "In a separate current example, Maya opens the Mueller venue board. Two players are listed and five are needed for standings; her own record remains visible."],
     ['nov09-current-team-board', 'Team doubles', 'In a separate local snapshot, the women’s team doubles board has no listed teams and says five are needed for standings.'],
   ]},
@@ -302,8 +303,8 @@ const CHAPTERS = [
     ['nov09-casey-venue-founder', 'Several awards in one medal', 'Casey’s fictional Venue founder detail groups five venues where she was among the first ten players with a League result.'],
     ["nov09-current-jade-stats", "Another player", "Maya opens Jade’s record, with fictional results, badges and the current weekly rank chart. Follow and Share challenge link are available."],
   ]},
-  { id: 'recaps', title: 'Weekly recap', who: 'Maya’s current fictional recap shows a completed week; Casey’s earlier examples show badges and a week with no matches. A separate Maya capture shows a recap being prepared.', person: 'Casey and Maya', shots: [
-    ["nov09-current-recap-top", "Week of Oct 19", "Maya’s fictional recap opens with one game won, two lost, one match and a -1.7% point margin. It shows a provisional Austin rank and an unlisted venue."],
+  { id: 'recaps', title: 'Weekly recap', who: 'Earlier fictional recap examples show a completed week, badges, a week with no matches and a recap being prepared. The current story and archive are being captured.', person: 'Casey and Maya', shots: [
+    ["nov09-current-recap-top", "Week of Oct 19", "In an earlier capture, Maya’s fictional recap opens with one game won, two lost, one match and a -1.7% point margin. It shows a provisional Austin rank and an unlisted venue."],
     ["nov09-current-recap-middle", "Summary and standings", "The summary shows a two-week streak, one new opponent, season goals and leaderboard entries."],
     ["nov09-current-recap-summary", "Match scores", "The recap lists Maya’s fictional match with Casey and its three game scores, followed by notable results and actions."],
     ['nov09-casey-recap-bottom', 'Badges and next actions', 'The end of the recap shows new badges, notable results and actions to share, view standings or start matchmaking. These actions are shown, not exercised here.'],
@@ -317,7 +318,7 @@ const CHAPTERS = [
     ['nov09-current-next-week-scope', 'Choose how long the change lasts', 'In a separate edit, Maya chooses whether the changed times apply just next week or every week.'],
     ['nov09-current-next-week-saved', 'A one-week change is saved', 'After Maya chooses Just next week, the editor labels the saved windows One week only. This does not book a match.'],
     ['60g-widen-time-home', 'Add Sat 10–11 AM?', 'Diego’s singles search has waited and few players near his level search his Friday evening. Needs you asks whether to add Saturday 10–11 AM to this week’s times.'],
-    ['60h-widen-time-sheet', 'A match is possible then', 'In this earlier example, Add it adds the time for this week only; Diego’s usual times do not change. Not now leaves the suggestion unaccepted.'],
+    ['60h-widen-time-sheet', 'A match is possible then', 'In this earlier example, Add it adds the time for this week only; Diego’s usual times do not change. Current copy also says Circuit books a fitting match. Not now leaves the suggestion unaccepted.'],
     ['60i-widen-time-added', 'Added', 'Added. Your search continues. Needs you is empty again.'],
     ['nov09-883-alex-this-week', 'This week’s times', 'In a separate current fictional example, Alex sees his Monday, Thursday and Friday windows labeled One week only. This is not Diego’s earlier suggestion.'],
     ['nov09-883-matching-opportunities', 'Match possible now', 'In a separate prepared fictional example, Alex sees two possible Friday starts. Availability can change; this does not establish a booking.'],
@@ -481,7 +482,7 @@ const CHAPTERS = [
     ['nov09-riley-paused', 'Search paused', 'The League home says the pause lasts until Monday, Nov 16, and offers End pause. This example has no upcoming match.'],
     ['nov09-riley-resumed', 'End the pause', 'After Riley ends the pause, the banner is gone and the home returns to its normal state.'],
     ['nov09-riley-search-resumed', 'Matchmaking is on again', 'Riley’s singles search is looking again and his Wednesday 6–9 PM remains saved.'],
-    ['62-idle-home', 'Paused after four quiet weeks', 'This earlier example shows an inactive singles search and the former Take a break control. Start matchmaking is offered; the screenshot does not show it being pressed.'],
+    ['62-idle-home', 'Paused after inactivity', 'This earlier example shows an inactive singles search and the former Take a break control. The four-week pause has additional offer and activity conditions. Start matchmaking is offered; this image does not show it being pressed.'],
     ['63-search-off-monday', 'A Monday message', 'Riley switched his singles search off himself. After a week without a match, Monday’s message says his search is off and to turn it on to get matches this week.'],
     ['63b-search-off-home', 'Back to the League tab', 'This earlier home example offers Add times. The screenshot alone does not establish the notification’s destination or a completed restart.'],
   ]},
@@ -947,7 +948,24 @@ const CHAPTERS = [
     ["nov09-current-challenge-match", "Open the match", "Casey opens that match to see the venue, format, players and Match chat."],
     ['nov09-chat-recovered-draft', 'Chat becomes available', 'Riley’s match chat shows a suggested message in the composer. The draft has not been sent.'],
   ]},
-
+{
+  "id": "final-score-correction",
+  "title": "Request a final-score correction",
+  "who": "Alex reviews a fictional finalized match. The request is filed through a local test call after the form is shown; the review decision is not shown.",
+  "person": "Alex",
+  "shots": [
+    [
+      "nov09-cbff-final-correction-draft",
+      "Describe the correction",
+      "Alex selects game 3 and describes a fictional score correction. The form says the settled scores stay unchanged while the request is reviewed; this image is before submission."
+    ],
+    [
+      "nov09-cbff-final-correction-pending",
+      "A request under review",
+      "After an authenticated local test call files the request, Alex reopens the match and sees that Circuit has the result problem. The counted score stays in place until a decision; no review outcome is shown."
+    ]
+  ]
+}
 ];
 
 const all = [];
