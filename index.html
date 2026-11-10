@@ -173,7 +173,7 @@ dialog#lb[open] { display: grid; grid-template-rows: auto minmax(0, 1fr) auto; }
 </dialog>
 
 <script>
-const IMAGE_VERSION = '20261110a';
+const IMAGE_VERSION = '20261110b';
 const CHAPTERS = [
   { id: 'join', title: 'Join the League', who: 'A local fictional player chooses formats, a court and usual times, then joins. The landing, selected venue and acceptance screens use a second fictional profile; the choices are equivalent.', person: 'Blake and Drew', shots: [
     ['nov09-join-landing', 'Before you join', 'The League tab describes the free League, where it is open, and the time needed to join. DUPR is optional. The player count shown is local fixture data.'],
@@ -303,14 +303,11 @@ const CHAPTERS = [
     ['nov09-casey-venue-founder', 'Several awards in one medal', 'Casey’s fictional Venue founder detail groups five venues where she was among the first ten players with a League result.'],
     ["nov09-current-jade-stats", "Another player", "Maya opens Jade’s record, with fictional results, badges and the current weekly rank chart. Follow and Share challenge link are available."],
   ]},
-  { id: 'recaps', title: 'Weekly recap', who: 'Earlier fictional recap examples show a completed week, badges, a week with no matches and a recap being prepared. The current story and archive are being captured.', person: 'Casey and Maya', shots: [
-    ["nov09-current-recap-top", "Week of Oct 19", "In an earlier capture, Maya’s fictional recap opens with one game won, two lost, one match and a -1.7% point margin. It shows a provisional Austin rank and an unlisted venue."],
-    ["nov09-current-recap-middle", "Summary and standings", "The summary shows a two-week streak, one new opponent, season goals and leaderboard entries."],
-    ["nov09-current-recap-summary", "Match scores", "The recap lists Maya’s fictional match with Casey and its three game scores, followed by notable results and actions."],
-    ['nov09-casey-recap-bottom', 'Badges and next actions', 'The end of the recap shows new badges, notable results and actions to share, view standings or start matchmaking. These actions are shown, not exercised here.'],
-    ['nov09-casey-recap-empty', 'A week without a match', 'A directly opened October 5 recap shows no matches and offers matching times, inviting friends and standings. The times action opened Casey’s editor; available actions depend on her current search state.'],
-    ['nov09-current-recap-preparing', 'A recap being prepared', 'Maya opens a separate prior-week recap that is still being prepared. Check again returns to the same state in this local example.'],
-    ['nov09-current-recap-picker', 'Choose another week', 'The recap picker lists Maya’s weeks and marks the selected one. A listed week can still be preparing.'],
+  { id: 'recaps', title: 'Weekly recap', who: 'Alex opens a fictional completed week, reads its summary and browses his recap archive.', person: 'Alex', shots: [
+    ['nov10-recap-story', 'Your week', 'Alex opens the week of October 19 in the story. His fictional week shows two games won, one lost, one match and an eight-week streak.'],
+    ['nov10-recap-standings', 'Swipe to standings', 'Alex swipes to the next story page and sees his fictional rotating doubles standings move from 10th to 8th at two locations.'],
+    ['nov10-recap-summary', 'Full summary', 'Alex opens Full summary to see his streak, season goal and standings for the same week.'],
+    ['nov10-recap-archive', 'All recaps', 'Alex opens All recaps to choose an earlier week or his Season 1 recap.'],
   ]},
   { id: 'widen-time', title: 'A time for one week', who: 'Maya makes a one-week edit in the current local app. Casey’s popular times and the earlier Diego suggestions are separate examples.', person: 'Maya, then Diego and Casey', shots: [
     ['nov09-latest-times-choose-format', 'Choose a format', 'Maya has singles and rotating doubles enabled. Before matching-time suggestions are shown, the current screen asks her to choose a format.'],
