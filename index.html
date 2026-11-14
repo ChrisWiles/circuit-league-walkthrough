@@ -165,9 +165,9 @@ dialog#lb[open] { display: grid; grid-template-rows: auto minmax(0, 1fr) auto; }
   </div>
 </dialog>
 
-<script src="capture-assets.js?v=20261114a"></script>
+<script src="capture-assets.js?v=20261115a"></script>
 <script>
-const IMAGE_VERSION = '20261114a';
+const IMAGE_VERSION = '20261115a';
 const CHAPTERS = [
   { id: 'join', title: 'Join the League', who: 'Drew joins in the current local app: chooses formats, saves Harborview and Thursday hours, accepts both agreements and starts matchmaking. The shared <a href="#usual-times-current">time editor</a> covers choosing hours.', person: 'Drew', shots: [
     ['nov10-join-landing', 'Before you join', 'Drew’s current League tab explains the free, always-open League, joining time and optional DUPR. Eleven Honolulu players is the fictional count before Drew joins.'],
@@ -371,9 +371,8 @@ const CHAPTERS = [
   { id: "scan", title: "Scan to play", who: "Alex creates a rotating plan and Ben reviews it on his own simulator. The other guests were added and two confirmations recorded through authenticated local test calls. Alex then starts the match natively. Camera recognition, physical play and external DUPR submission were not exercised. For game entry and opposing review see <a href=\"#rotating-scores-complete\">rotating scores</a> and <a href=\"#scores\">shared scoring</a>.", person: "Alex and Ben", shots: [
     ["nov10-scan-venue-current", "Find the court", "Alex searches Harborview in the current Scan draft. Venue selection is separate from saved matchmaking courts; the plan is not created until the pinned action is used."],
     ["nov10-scan-rotating-current", "Choose the format", "Alex selects Harborview and Rotating doubles in the native app. Three games to 11 are planned. Fixed-team selection is shown once in the separate format-difference screen below, rather than repeating this flow."],
-    ["nov10-scan-waiting-current", "Waiting for each player", "Alex creates this Scan plan natively. Ben, Chris and Diego are added through authenticated local test calls rather than a camera scan. Alex changes the plan to keep results in Circuit before anyone confirms. All three guest statuses are waiting, and Start remains disabled."],
+    ["nov10-scan-roster-current", "Everyone is added", ""],
     ["nov10-scan-guest-review-current", "Confirm only for yourself", "Ben opens the same four-player invitation on his separate simulator. His own waiting state leads the screen; the plan keeps results in Circuit. Confirm this plan acts only for Ben. Rotation slots are visible, but the full game lineups are not previewed here."],
-    ["nov10-scan-guest-confirmed-current", "Your confirmation is recorded", "Ben confirms in the native app. His row now says Confirmed while Chris and Diego are still waiting. He cannot confirm for them or start Alex’s plan."],
     ["nov10-scan-host-ready-current", "The host can start", "After authenticated local test calls confirm Chris and Diego, Alex sees every guest confirmed and Start match enabled. Alex confirms for himself by starting; this state alone is not yet a published match."],
     ["nov10-scan-started-current", "The Scan plan becomes a match", "Alex taps Start match in the native app. The saved session becomes confirmed and opens this immediate match, with the first named partnership and See all games. A fresh local read verifies the four-player match and sends_to_dupr=false. No physical play, score or provider submission is established."],
     ["nov10-my-code-3c", "My QR", "Alex’s current fictional QR is ready for a host to scan. He reviews the match on his own phone before it starts; the page also explains where to reset the code. Camera recognition was not tested."]
@@ -650,6 +649,10 @@ document.addEventListener('keydown', (e) => {
   if (e.key === 'ArrowLeft') { e.preventDefault(); step(-1); }
 });
 // Named links from the 239-image interim publication keep their original captures.
+const ARCHIVED_SCAN_SHOTS = new Set(['nov10-scan-waiting-current', 'nov10-scan-guest-confirmed-current']);
+if (location.hash.startsWith('#shot-') && ARCHIVED_SCAN_SHOTS.has(location.hash.slice(6))) {
+  location.replace(`archive-before-scan-update.html${location.hash}`);
+}
 const ARCHIVED_DRAFT_SHOTS = new Set([
   "11a-welcome-push",
   "11b-invite-inbox",

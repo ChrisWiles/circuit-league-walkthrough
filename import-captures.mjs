@@ -44,20 +44,19 @@ const end = html.indexOf('\n];', start);
 if (start < 0 || end < 0) throw new Error('Missing chapter inventory');
 const chapters = runInNewContext(html.slice(start + 'const CHAPTERS = '.length, end + 2));
 const manifest = JSON.parse(readFileSync(join(root, 'current-captures.json')));
-const previous = new Map(manifest.screens.map(row => [row.source.replace(/\.png$/, ''), row]));
 manifest.screens = chapters.flatMap(chapter => chapter.shots.map(([id, title]) => {
   const capture = assets[id];
   const file = capture?.file ?? `img/oct26/${id}.webp`;
   const sha256 = hash(readFileSync(join(root, file)));
   if (capture && sha256 !== capture.sha256) throw new Error(`Published capture changed: ${id}`);
-  return { ...(capture ? {} : previous.get(id)), chapter: chapter.title, person: capture?.actor ?? chapter.person,
-    title, file, source: `${id}.png`, sha256,
+  return { n: 0, chapter: chapter.title, person: capture?.actor ?? chapter.person,
+    title, file, source: `${id}.png`,
     status: capture ? 'reviewed-native-capture' : 'earlier-reference',
-    ...(capture ? { capture } : {}) };
+    ...(capture ? { capture } : {}), sha256 };
 }));
 manifest.screens.forEach((row, index) => row.n = index + 1);
 manifest.count = manifest.screens.length;
 manifest.capturedOn = new Date().toISOString().slice(0, 10);
 manifest.appBase = 'Per-image sources are recorded below. Earlier references remain labeled; this is a collection of separate local journeys, not one continuous pass.';
 manifest.freshReplacements = manifest.screens.filter(row => row.capture).length;
-writeFileSync(join(root, 'current-captures.json'), JSON.stringify(manifest, null, 2) + '\n');
+writeFileSync(join(root, 'current-captures.json'), JSON.stringify(manifest, null, 1) + '\n');
