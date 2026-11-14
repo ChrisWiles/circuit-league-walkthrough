@@ -2350,5 +2350,101 @@
     "sha256": "022af8fe17d11028d51e8a024fbfd775fe33e43019ef06e2265a9b505e96f61a",
     "profile": "ios-dark-default",
     "review": "accepted"
+  },
+  "nov10-dupr-reconnect-3c": {
+    "file": "img/captures/4a119befc/nov10-dupr-reconnect-3c-192bb888bac3.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "dupr-reconnect",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T19:57:29.554Z",
+    "evidenceLevel": "prepared-provider-account-problem-read",
+    "originalSha256": "192bb888bac372a3ecb62b4a65c1a9113763e76fdbd867f75adfb680d5afa906",
+    "sha256": "35383045f3c8077fbf21f9e40a6901c78c82cc15a96edd6f30695a4a94ac0e7f",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+  },
+  "nov09-883-blake-team-invite": {
+    "file": "img/captures/4a119befc/nov09-883-blake-team-invite-55afa833c7a6.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "newcomer-team-entry",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T20:15:35.707Z",
+    "evidenceLevel": "prepared-invitation-native-entry-read",
+    "originalSha256": "55afa833c7a6206de04a35b63525d18f528ee9ab0d7dff13f92242fc1631f761",
+    "sha256": "021183d75f62aee089c45e6771a90cfb2c895def4d4d1aea6b4d9308c13e349a",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+  },
+  "nov10-team-link-how": {
+    "file": "img/captures/4a119befc/nov10-team-link-how-8886f1d246f5.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "newcomer-team-entry",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T20:15:35.707Z",
+    "evidenceLevel": "prepared-invitation-native-entry-read",
+    "originalSha256": "8886f1d246f5e89ea2c70bc34da7da033af3e0b9b66f7e0042a314bc1c3afe0a",
+    "sha256": "ce0adb0930b9e4439e9896664c55cf6eab0e96015582c6f55a7e66a395ae7099",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+  },
+  "nov09-883-blake-team-joined": {
+    "file": "img/captures/4a119befc/nov09-883-blake-team-joined-10b486430a48.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "newcomer-team-joined",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T20:25:52.758Z",
+    "evidenceLevel": "prepared-team-only-membership-native-display-read",
+    "originalSha256": "10b486430a48c819e476dc0aa75d3baf393f5e94a3550a4e105a720f85544145",
+    "sha256": "92be7c67f214c03c31831e5449e7dbefb09a686f2f214bb6499c578afa5ed6e1",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+  },
+  "nov09-riley-inbox": {
+    "file": "img/captures/4a119befc/nov09-riley-inbox-d31d00d556bb.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "inbox",
+    "actor": "Ben",
+    "capturedAt": "2026-11-14T20:31:25.617Z",
+    "evidenceLevel": "prepared-inbox-native-display-read",
+    "originalSha256": "d31d00d556bb9aa5dcb9f1d15aa65c2bb82910eb714f6a8a50ce9f0c21ab28a2",
+    "sha256": "530596ca35ef262e778c8b05a4b29e7817b9f121e3c641996805fd6ee4afc9a0",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+  },
+  "nov10-challenge-waiting": {
+    "file": "img/captures/4a119befc/nov10-challenge-waiting-35f494d5afad.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "team-challenge-create",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T20:04:51.868Z",
+    "evidenceLevel": "native-four-player-team-challenge",
+    "originalSha256": "35f494d5afadbb3144adee0c765a46d8c610634a515631d0766cdbb13691120a",
+    "sha256": "f0102c7985041451af3ccf291fe802d5b3bd206eeff78347e5d4c25407713a6d",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+  },
+  "nov10-home-lower": {
+    "file": "img/captures/4a119befc/nov10-home-lower-6efa84322c4b.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "team-challenge-all",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T20:09:44.462Z",
+    "evidenceLevel": "native-four-player-team-challenge",
+    "originalSha256": "6efa84322c4b02c152548cd1f3a247f09c1edd9bf4d7dede912a37b095927aff",
+    "sha256": "e4291b15d8d90564e37ed3b9f6105a482b564944457b9cd5610b688580785c23",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+  },
+  "nov10-challenge-all-accepted": {
+    "file": "img/captures/4a119befc/nov10-challenge-all-accepted-b5047722e1f2.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "team-challenge-time",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T20:10:39.609Z",
+    "evidenceLevel": "native-four-player-team-challenge",
+    "originalSha256": "b5047722e1f267c531db20ca132bb26f30caaf98c2e3d4cb41ae3110aae4b9d0",
+    "sha256": "ba361c8a4aff1f49889a86675b5d969acb742fd714be1883b22104e02b613b8f",
+    "profile": "ios-dark-default",
+    "review": "accepted"
   }
 }
