@@ -165,9 +165,9 @@ dialog#lb[open] { display: grid; grid-template-rows: auto minmax(0, 1fr) auto; }
   </div>
 </dialog>
 
-<script src="capture-assets.js?v=20261115e"></script>
+<script src="capture-assets.js?v=20261115f"></script>
 <script>
-const IMAGE_VERSION = '20261115e';
+const IMAGE_VERSION = '20261115f';
 const CHAPTERS = [
   { id: 'join', title: 'Join the League', who: 'Drew joins in the current local app: chooses formats, saves Harborview and Thursday hours, accepts both agreements and starts matchmaking. The shared <a href="#usual-times-current">time editor</a> covers choosing hours.', person: 'Drew', shots: [
     ['nov10-join-landing', 'Before you join', 'Drew’s current League tab explains the free, always-open League, joining time and optional DUPR. Eleven Honolulu players is the fictional count before Drew joins.'],
@@ -180,7 +180,7 @@ const CHAPTERS = [
     ['nov10-join-terms', 'Release and terms', 'Drew’s current release and terms step keeps Join disabled and asks for both checkboxes after scrolling. These are local fictional-account test actions.'],
     ['nov10-join-accepted', 'Both accepted', 'In the same local Drew setup, the League release and terms are checked separately, including the individual arbitration term. Join is now available.'],
     ['nov10-join-success', 'You’re in', 'The local database now records Drew as an active member. The current finish offers Start matchmaking or Start later and explains that a match depends on who else is free.'],
-    ['nov10-join-home', 'Drew’s League home', 'After Drew starts matchmaking and dismisses the notification asks, current home shows two searches on and no upcoming match. Both searches were verified on in the local database; no matcher booking is established by this screen.'],
+    ['nov10-join-home', 'Your League home', 'After Drew starts matchmaking and dismisses the notification asks, current home shows two searches on and no upcoming match. Both searches were verified on in the local database; no matcher booking is established by this screen.'],
   ]},
   { id: 'invite', title: 'Bring your friends', who: 'Invite friends from matchmaking, a useful saved time or a waiting search. The shared <a href="#inbox">Notifications</a> chapter shows the in-app inbox; <a href="#how-you-play">Changing how you play</a> covers adding formats. Waiting guidance depends on the search state. The current design suggests extra times or venues with approval; obsolete suggestions for another format or Mixed rotating doubles are archived.', person: 'Casey, Blake and Drew', shots: [
     ['nov09-current-invite-regulars', 'Invite your regulars', 'In a separate fictional example, Casey has one singles search on and no times this week. Matchmaking offers Invite friends; the Founding Member message depends on eligibility.'],
@@ -197,7 +197,7 @@ const CHAPTERS = [
     ['nov09-riley-offer', 'Match offered', 'Riley sees an answer deadline, opponent, time and venue for a prepared singles offer. This example says the result will not be sent to DUPR; the offer was prepared locally, not produced by the matcher.'],
     ['nov09-riley-offer-players', 'Players and answer rules', 'The player rows show both responses are pending and what each person can see. Because this example starts within 12 hours, the screen warns that cancelling after acceptance counts as late.'],
     ['nov09-riley-offer-decline', 'Not this time', 'The choices say there is no penalty, with an optional seven-day pause on matching with Morgan. This image shows the choices before either is submitted.'],
-    ['17-offer-accepted', 'Accepted · Earlier example', 'In a separate earlier example, Casey accepted and waited for Sofia to answer. The current acceptance and final confirmation still need a verified journey.'],
+    ['17-offer-accepted', 'Accepted · Waiting for the other player', 'In a separate earlier example, Casey accepted and waited for Sofia to answer. The current acceptance and final confirmation still need a verified journey.'],
   ]},
   { id: 'booked', title: 'Booking and permissions', who: 'Jade’s earlier match was booked by the local matcher. The current Drew–Casey first match was prepared separately to show optional check-in and recovery after iOS notifications are denied.', person: 'Jade, then Drew and Casey', shots: [
     ['nov09-current-jade-matcher-home', 'A match appears on home', 'In a separate fictional example, the local matcher books Jade and Priya for Thursday at 6 PM. Jade’s League home shows the next match and says matchmaking is off.'],
@@ -325,7 +325,7 @@ const CHAPTERS = [
   "shots": [
     [
       "nov09-883-blake-team-invite",
-      "Invite from Alex",
+      "Partner invitation",
       "Blake has not joined the League. Alex created this fictional invitation through an authenticated local test call; Blake opens it on his simulator and sees Join the League to accept."
     ],
     [
@@ -340,17 +340,17 @@ const CHAPTERS = [
     ],
     [
       "nov09-883-blake-team-accept",
-      "Accept as Blake",
+      "Accept the invitation",
       "The invitation identifies the signed-in player as Blake and offers Accept."
     ],
     [
       "nov09-883-blake-team-waiting",
-      "Waiting for Alex",
+      "Waiting for your partner",
       "Blake accepts. Because Alex and Blake have not played together in the fixture, the invitation waits for Alex to confirm who opened it."
     ],
     [
       "nov09-883-alex-team-confirm",
-      "Alex confirms",
+      "Confirm your partner",
       "On Alex’s simulator, Blake’s request says to confirm only if Alex knows him. Alex can confirm or choose Not this person."
     ],
     [

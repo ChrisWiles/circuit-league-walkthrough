@@ -236,7 +236,7 @@
    "n": 11,
    "chapter": "Join the League",
    "person": "Alex",
-   "title": "Drew’s League home",
+   "title": "Your League home",
    "file": "img/captures/4a119befc/nov10-join-home-156364da7718.webp",
    "source": "nov10-join-home.png",
    "status": "reviewed-native-capture",
@@ -335,10 +335,22 @@
    "chapter": "League home",
    "person": "Alex",
    "title": "Matchmaking",
-   "file": "img/oct26/nov10-matchmaking-searches-framed.webp",
+   "file": "img/captures/4a119befc/nov10-matchmaking-searches-framed-e789893d7ec3.webp",
    "source": "nov10-matchmaking-searches-framed.png",
-   "status": "earlier-reference",
-   "sha256": "f917c391650316091dd654366e4c465664200ebcc34b2b2b479400c2f6ec3017"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov10-matchmaking-searches-framed-e789893d7ec3.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "matchmaking-framed",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T19:17:17.857Z",
+    "evidenceLevel": "native-multiple-partnership-searches-read",
+    "originalSha256": "e789893d7ec3898a859d55a0f824993b6440107092e5db28a5270f1936fbeae6",
+    "sha256": "ba42021caca09525a975c64628b0b40bb772bb6f48b0f1c8dc23650a3a4bc781",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "ba42021caca09525a975c64628b0b40bb772bb6f48b0f1c8dc23650a3a4bc781"
   },
   {
    "n": 17,
@@ -454,7 +466,7 @@
    "n": 22,
    "chapter": "Match offers",
    "person": "Alex",
-   "title": "Accepted · Earlier example",
+   "title": "Accepted · Waiting for the other player",
    "file": "img/captures/4a119befc/17-offer-accepted-13b9168c4e2f.webp",
    "source": "17-offer-accepted.png",
    "status": "reviewed-native-capture",
@@ -1345,12 +1357,24 @@
   {
    "n": 68,
    "chapter": "Your season",
-   "person": "Casey and Maya",
+   "person": "Alex",
    "title": "The DUPR observations",
-   "file": "img/oct26/nov10-dupr-history.webp",
+   "file": "img/captures/4a119befc/nov10-dupr-history-c6009589c63e.webp",
    "source": "nov10-dupr-history.png",
-   "status": "earlier-reference",
-   "sha256": "3296242ff6ec35255822433f5727bd1218207729997aa552d40e2f587ec8e14c"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov10-dupr-history-c6009589c63e.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "own-dupr",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T19:10:43.362Z",
+    "evidenceLevel": "prepared-display-only",
+    "originalSha256": "c6009589c63efe03ec3aeb257c35984ea13636fbb448db9e51dc33734e482018",
+    "sha256": "a416aa6309927a8e4a0bfdff2bdbbf6773c03730a4362fb1be54233de11ea320",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "a416aa6309927a8e4a0bfdff2bdbbf6773c03730a4362fb1be54233de11ea320"
   },
   {
    "n": 69,
@@ -1421,12 +1445,24 @@
   {
    "n": 72,
    "chapter": "Leaderboards",
-   "person": "Ben",
+   "person": "Alex",
    "title": "DUPR rating",
-   "file": "img/oct26/nov10-board-current-dupr-detail.webp",
+   "file": "img/captures/4a119befc/nov10-board-current-dupr-detail-5386e5dd035d.webp",
    "source": "nov10-board-current-dupr-detail.png",
-   "status": "earlier-reference",
-   "sha256": "3deafb5f7823b1cadcc0a02a9325c7941a32dcf3047492ffe46fed4a8f7c69fd"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov10-board-current-dupr-detail-5386e5dd035d.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "board-dupr",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T19:11:36.820Z",
+    "evidenceLevel": "prepared-display-only",
+    "originalSha256": "5386e5dd035df90bfda8177f71cb830136a70ffcfb0968f17889f18db78b7032",
+    "sha256": "6b651af43f636dd5dd0b3884cc459df7a7a1ac3b2b762f1207b42dd525bab5ed",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "6b651af43f636dd5dd0b3884cc459df7a7a1ac3b2b762f1207b42dd525bab5ed"
   },
   {
    "n": 73,
@@ -1583,12 +1619,24 @@
   {
    "n": 81,
    "chapter": "Leaderboards",
-   "person": "Ben",
+   "person": "Alex",
    "title": "One venue’s standings",
-   "file": "img/oct26/nov10-board-venue-current.webp",
+   "file": "img/captures/4a119befc/nov10-board-venue-current-f6b0a2ef1549.webp",
    "source": "nov10-board-venue-current.png",
-   "status": "earlier-reference",
-   "sha256": "a50e657a0e751a23be4d51213c05aae9bb5dd35e62cf7ed0ad0d7c60d0aba5b1"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov10-board-venue-current-f6b0a2ef1549.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "board-venue",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T19:21:03.519Z",
+    "evidenceLevel": "native-venue-board-after-rating-read",
+    "originalSha256": "f6b0a2ef15498340c570898df7342a7c237f180a946413cf4cbf09b76f0c7740",
+    "sha256": "50f87eec2a7b7f680940590c7b58fac31ce3d74f2ad27899b6c6688a51c5d425",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "50f87eec2a7b7f680940590c7b58fac31ce3d74f2ad27899b6c6688a51c5d425"
   },
   {
    "n": 82,
@@ -1701,22 +1749,46 @@
   {
    "n": 88,
    "chapter": "Player records",
-   "person": "Alex and Ben",
+   "person": "Alex",
    "title": "Another player’s season: early weeks",
-   "file": "img/oct26/nov10-profile-rank-both-start.webp",
+   "file": "img/captures/4a119befc/nov10-profile-rank-both-start-fdf5fa39c514.webp",
    "source": "nov10-profile-rank-both-start.png",
-   "status": "earlier-reference",
-   "sha256": "9f2240f62d080d25fec207c69617d1d093f35ad35d88eb8a3357df8a98db80b9"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov10-profile-rank-both-start-fdf5fa39c514.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "profile-history",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T19:09:13.427Z",
+    "evidenceLevel": "prepared-history-real-snapshot-read",
+    "originalSha256": "fdf5fa39c51458afbbe703a4a70e8d06deb7911c756bd2c08f182a8a9dcd0466",
+    "sha256": "fadc83b393c2fc214b3f2d723aee952e54aff8c333c813b8fe36cfb81d77e0f2",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "fadc83b393c2fc214b3f2d723aee952e54aff8c333c813b8fe36cfb81d77e0f2"
   },
   {
    "n": 89,
    "chapter": "Player records",
-   "person": "Alex and Ben",
+   "person": "Alex",
    "title": "Another player’s season: recent weeks",
-   "file": "img/oct26/nov10-profile-rank-both-recent.webp",
+   "file": "img/captures/4a119befc/nov10-profile-rank-both-recent-cd046f883797.webp",
    "source": "nov10-profile-rank-both-recent.png",
-   "status": "earlier-reference",
-   "sha256": "dcfe55f7b3de6119612b7dfdb0158fe79f359c313651e8583df07b80bb555502"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov10-profile-rank-both-recent-cd046f883797.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "profile-history",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T19:09:13.427Z",
+    "evidenceLevel": "prepared-history-real-snapshot-read",
+    "originalSha256": "cd046f88379747ff3acb4588a6ab0d2335e1df500376f633fc84c6436e46b0dd",
+    "sha256": "1d5512174b9eba0a1a65ac3f8980829c392f97d2fd10ca563ce193e6d5c4f2ad",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "1d5512174b9eba0a1a65ac3f8980829c392f97d2fd10ca563ce193e6d5c4f2ad"
   },
   {
    "n": 90,
@@ -2181,12 +2253,24 @@
   {
    "n": 112,
    "chapter": "Team doubles",
-   "person": "Casey and Jade, then earlier partners",
+   "person": "Alex",
    "title": "Several partners",
-   "file": "img/oct26/nov09-883-several-teams.webp",
+   "file": "img/captures/4a119befc/nov09-883-several-teams-084fb74d0f32.webp",
    "source": "nov09-883-several-teams.png",
-   "status": "earlier-reference",
-   "sha256": "8099b1e0e7628565c51fc2328fd3be022b6c83a6743dc3c000e159f6373cfcaf"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov09-883-several-teams-084fb74d0f32.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "several-teams",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T19:16:26.771Z",
+    "evidenceLevel": "native-multiple-partnerships-read",
+    "originalSha256": "084fb74d0f327ce30e59f496594b671b400026cbd3dadd1ccd1de7bff21c6871",
+    "sha256": "b199aef6835d71334d34c2acc640b157ca10997cf601bcebd488217143fed072",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "b199aef6835d71334d34c2acc640b157ca10997cf601bcebd488217143fed072"
   },
   {
    "n": 113,
@@ -2268,7 +2352,7 @@
    "n": 117,
    "chapter": "Joining from a team link",
    "person": "Blake, Noah, Alex, Ben and Chris",
-   "title": "Invite from Alex",
+   "title": "Partner invitation",
    "file": "img/oct26/nov09-883-blake-team-invite.webp",
    "source": "nov09-883-blake-team-invite.png",
    "status": "earlier-reference",
@@ -2298,7 +2382,7 @@
    "n": 120,
    "chapter": "Joining from a team link",
    "person": "Blake, Noah, Alex, Ben and Chris",
-   "title": "Accept as Blake",
+   "title": "Accept the invitation",
    "file": "img/oct26/nov09-883-blake-team-accept.webp",
    "source": "nov09-883-blake-team-accept.png",
    "status": "earlier-reference",
@@ -2308,7 +2392,7 @@
    "n": 121,
    "chapter": "Joining from a team link",
    "person": "Blake, Noah, Alex, Ben and Chris",
-   "title": "Waiting for Alex",
+   "title": "Waiting for your partner",
    "file": "img/oct26/nov09-883-blake-team-waiting.webp",
    "source": "nov09-883-blake-team-waiting.png",
    "status": "earlier-reference",
@@ -2318,7 +2402,7 @@
    "n": 122,
    "chapter": "Joining from a team link",
    "person": "Blake, Noah, Alex, Ben and Chris",
-   "title": "Alex confirms",
+   "title": "Confirm your partner",
    "file": "img/oct26/nov09-883-alex-team-confirm.webp",
    "source": "nov09-883-alex-team-confirm.png",
    "status": "earlier-reference",
@@ -2349,22 +2433,46 @@
   {
    "n": 124,
    "chapter": "Joining from a team link",
-   "person": "Blake, Noah, Alex, Ben and Chris",
+   "person": "Chris",
    "title": "An existing member",
-   "file": "img/oct26/nov09-883-ben-chris-invite.webp",
+   "file": "img/captures/4a119befc/nov09-883-ben-chris-invite-7ce9f4d80cb7.webp",
    "source": "nov09-883-ben-chris-invite.png",
-   "status": "earlier-reference",
-   "sha256": "22ea8a95ec73de4fd2c113654dba99dcdd88ea2f380caac0267d075e355bed9e"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov09-883-ben-chris-invite-7ce9f4d80cb7.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "team-second-accept",
+    "actor": "Chris",
+    "capturedAt": "2026-11-14T19:15:40.983Z",
+    "evidenceLevel": "native-additional-partnership-acceptance",
+    "originalSha256": "7ce9f4d80cb7092af1870082bb5a57bc631cfe76cf317c9f6e5c335d417b0d23",
+    "sha256": "d5c4ae42efbaae0aaf47b8b7a5670821b85258ecfb06fcf56c34dd02ed3d3645",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "d5c4ae42efbaae0aaf47b8b7a5670821b85258ecfb06fcf56c34dd02ed3d3645"
   },
   {
    "n": 125,
    "chapter": "Joining from a team link",
-   "person": "Blake, Noah, Alex, Ben and Chris",
+   "person": "Chris",
    "title": "You’re a team",
-   "file": "img/oct26/nov09-883-ben-chris-formed.webp",
+   "file": "img/captures/4a119befc/nov09-883-ben-chris-formed-a57e1f9cc47d.webp",
    "source": "nov09-883-ben-chris-formed.png",
-   "status": "earlier-reference",
-   "sha256": "43461ddc1b7d3ff35728fede2f5bee75ff742e495ec1a926a84fd1a944c5bf5a"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov09-883-ben-chris-formed-a57e1f9cc47d.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "team-second-accept",
+    "actor": "Chris",
+    "capturedAt": "2026-11-14T19:15:40.983Z",
+    "evidenceLevel": "native-additional-partnership-acceptance",
+    "originalSha256": "a57e1f9cc47d37935385ae7b579254b5d7188631c9a4e83526d81b12b4553f7b",
+    "sha256": "b562487085a399bc1b3b1858a29d1d279f9c1db4382b38af55d384cea77933c8",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "b562487085a399bc1b3b1858a29d1d279f9c1db4382b38af55d384cea77933c8"
   },
   {
    "n": 126,
@@ -3501,12 +3609,24 @@
   {
    "n": 184,
    "chapter": "Get a rotating doubles match",
-   "person": "Alex, Ben, Chris and Diego",
+   "person": "Alex",
    "title": "Result preferences",
-   "file": "img/oct26/nov10-rotating-preferences-current.webp",
+   "file": "img/captures/4a119befc/nov10-rotating-preferences-current-50d9a572fbbe.webp",
    "source": "nov10-rotating-preferences-current.png",
-   "status": "earlier-reference",
-   "sha256": "494c7c9c507f44d2bc2b478d56ae37b288ab64a80ffe5c319cf4ae7d4c373b38"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov10-rotating-preferences-current-50d9a572fbbe.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "rotating-preferences",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T19:12:24.644Z",
+    "evidenceLevel": "prepared-display-only",
+    "originalSha256": "50d9a572fbbe254dbda12d7bfc4ec39fa17f1e7b6bdc4e394822272489545398",
+    "sha256": "ec026ef479ab92b4e08c5851272201fd43a96aad3e45102f7c0555376e4571cd",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "ec026ef479ab92b4e08c5851272201fd43a96aad3e45102f7c0555376e4571cd"
   },
   {
    "n": 185,
@@ -4171,5 +4291,5 @@
    "sha256": "dc51917251f0a8ffa63e107f42cf2237247083191985833dce0f284b39b8a605"
   }
  ],
- "freshReplacements": 164
+ "freshReplacements": 174
 }
