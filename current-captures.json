@@ -247,12 +247,24 @@
   {
    "n": 23,
    "chapter": "Booking and permissions",
-   "person": "Jade, then Drew and Casey",
+   "person": "Alex",
    "title": "Look for another match",
-   "file": "img/oct26/nov09-current-jade-search-restarted.webp",
+   "file": "img/captures/4a119befc/nov09-current-jade-search-restarted-33cf18127b89.webp",
    "source": "nov09-current-jade-search-restarted.png",
-   "status": "earlier-reference",
-   "sha256": "687d48fe4e9befdb25d825623440e584977cb1c1d1b392df0a643f069994c549"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov09-current-jade-search-restarted-33cf18127b89.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "search-restarted",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T17:14:53.318Z",
+    "evidenceLevel": "ui-read-after-server-transition",
+    "originalSha256": "33cf18127b8983b9a77efbceb7da0f778e4d4ce09bb51be503e3bd12a6f7e696",
+    "sha256": "ae4a8307d1765da11269907b3cb171b6f4a1840e4c17fd7f184ae8b7f0acbb05",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "ae4a8307d1765da11269907b3cb171b6f4a1840e4c17fd7f184ae8b7f0acbb05"
   },
   {
    "n": 24,
@@ -484,7 +496,7 @@
    "n": 37,
    "chapter": "Cancelling a match",
    "person": "Alex",
-   "title": "Cancelled by Ben",
+   "title": "Your cancelled match",
    "file": "img/captures/4a119befc/nov10-faa-cancel-own-a7ff765eb216.webp",
    "source": "nov10-faa-cancel-own.png",
    "status": "reviewed-native-capture",
@@ -506,7 +518,7 @@
    "n": 38,
    "chapter": "Cancelling a match",
    "person": "Ben",
-   "title": "Priya returns to search",
+   "title": "Opponent’s League home",
    "file": "img/captures/4a119befc/nov09-priya-cancel-home-70c14677628a.webp",
    "source": "nov09-priya-cancel-home.png",
    "status": "reviewed-native-capture",
@@ -659,62 +671,134 @@
   {
    "n": 45,
    "chapter": "Cancelling a match",
-   "person": "Ben and Alex; separate Priya recovery example",
+   "person": "Alex",
    "title": "A separate direct cancellation",
-   "file": "img/oct26/nov10-faa-latecancel-final.webp",
+   "file": "img/captures/4a119befc/nov10-faa-latecancel-final-2722e1f380ae.webp",
    "source": "nov10-faa-latecancel-final.png",
-   "status": "earlier-reference",
-   "sha256": "1d568ee3d461eed21eefb57732e3a2b26394e2ce74e2c257a74e370d5c7dc26c"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov10-faa-latecancel-final-2722e1f380ae.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "late-cancel",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T17:03:02.918Z",
+    "evidenceLevel": "ui-transition",
+    "originalSha256": "2722e1f380ae69a20b75ec84f741e34544fea41b5939bd043a0bb19b4c642ceb",
+    "sha256": "b8846ef31023cd1e46b2147106f18632338b4b91dd3b82674425448be7e12d6f",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "b8846ef31023cd1e46b2147106f18632338b4b91dd3b82674425448be7e12d6f"
   },
   {
    "n": 46,
    "chapter": "When someone doesn’t come",
-   "person": "Alex and Ben",
+   "person": "Alex",
    "title": "Someone didn’t come?",
-   "file": "img/oct26/nov10-absence-sheet.webp",
+   "file": "img/captures/4a119befc/nov10-absence-sheet-cbe295a9de57.webp",
    "source": "nov10-absence-sheet.png",
-   "status": "earlier-reference",
-   "sha256": "56471b2ddcd0f7804bbbe88bd59d3c4db4c6fe7a74d4b36e5f294488d317fea5"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov10-absence-sheet-cbe295a9de57.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "absence",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T17:07:26.600Z",
+    "evidenceLevel": "ui-transition",
+    "originalSha256": "cbe295a9de57a7fb5dda4f83368b7064e3ea3ed969eb908365d24defe77a4a19",
+    "sha256": "00a8c84c2ad804920cf89b196cee05174af56b06793520b410ec8ce62fd7dbf5",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "00a8c84c2ad804920cf89b196cee05174af56b06793520b410ec8ce62fd7dbf5"
   },
   {
    "n": 47,
    "chapter": "When someone doesn’t come",
-   "person": "Alex and Ben",
+   "person": "Alex",
    "title": "Reported as not played",
-   "file": "img/oct26/nov10-faa-absence-final.webp",
+   "file": "img/captures/4a119befc/nov10-faa-absence-final-b1feacd3392a.webp",
    "source": "nov10-faa-absence-final.png",
-   "status": "earlier-reference",
-   "sha256": "ddd70ba837454da2e7570c28475f0b53c75fe1a9b3d548ebf422732449c15165"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov10-faa-absence-final-b1feacd3392a.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "absence",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T17:07:26.600Z",
+    "evidenceLevel": "ui-transition",
+    "originalSha256": "b1feacd3392aaa0515f2efc089ad77d024f4f7c46df7be4350d0571f5e77ddf9",
+    "sha256": "b1c6b65e8ceb84aca58ac94b8087deeac17b25b84fc81c15266ea7ae9f421c84",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "b1c6b65e8ceb84aca58ac94b8087deeac17b25b84fc81c15266ea7ae9f421c84"
   },
   {
    "n": 48,
    "chapter": "When someone doesn’t come",
-   "person": "Alex and Ben",
+   "person": "Ben",
    "title": "Ben’s side",
-   "file": "img/oct26/nov10-absence-opponent.webp",
+   "file": "img/captures/4a119befc/nov10-absence-opponent-50feccb475f6.webp",
    "source": "nov10-absence-opponent.png",
-   "status": "earlier-reference",
-   "sha256": "46c94f520f5a2f215a30b86a7aaf6b505cd19ec622c149582de3b2bf45ffbf8e"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov10-absence-opponent-50feccb475f6.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "absence-opponent",
+    "actor": "Ben",
+    "capturedAt": "2026-11-14T17:08:56.804Z",
+    "evidenceLevel": "ui-read-after-server-transition",
+    "originalSha256": "50feccb475f62677bad4470bc733cc7d3e748449de6bee5b206d696e7fb495fe",
+    "sha256": "39400085d0c99eb0b0ee8ec08cfe43ad2945cd33e58f9b87c4eda939f7d4954c",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "39400085d0c99eb0b0ee8ec08cfe43ad2945cd33e58f9b87c4eda939f7d4954c"
   },
   {
    "n": 49,
    "chapter": "When someone doesn’t come",
-   "person": "Alex and Ben",
+   "person": "Ben",
    "title": "Answer the report",
-   "file": "img/oct26/nov10-absence-answer.webp",
+   "file": "img/captures/4a119befc/nov10-absence-answer-cf68cb668d6a.webp",
    "source": "nov10-absence-answer.png",
-   "status": "earlier-reference",
-   "sha256": "bbba80cd1e9e04b18e1c3f0079ff2bfb19ba38796fce81a1a9b928015b0c41c6"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov10-absence-answer-cf68cb668d6a.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "absence-answer",
+    "actor": "Ben",
+    "capturedAt": "2026-11-14T17:10:01.572Z",
+    "evidenceLevel": "ui-transition",
+    "originalSha256": "cf68cb668d6a444e534f3f88a139a9e868025193a02806e551c75d8eac8a992a",
+    "sha256": "bf69ebe47539c2ff6aa9758a5c46f35f3fe0b19d37ca9936f74110d3436c3de5",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "bf69ebe47539c2ff6aa9758a5c46f35f3fe0b19d37ca9936f74110d3436c3de5"
   },
   {
    "n": 50,
    "chapter": "When someone doesn’t come",
-   "person": "Alex and Ben",
+   "person": "Ben",
    "title": "Answer sent",
-   "file": "img/oct26/nov10-absence-sent.webp",
+   "file": "img/captures/4a119befc/nov10-absence-sent-22c645c38d61.webp",
    "source": "nov10-absence-sent.png",
-   "status": "earlier-reference",
-   "sha256": "a4bf7ef173de819d8f20d27409c273a27c635db7927fc6fafa88ce9a5cd5bcc6"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov10-absence-sent-22c645c38d61.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "absence-answer",
+    "actor": "Ben",
+    "capturedAt": "2026-11-14T17:10:01.572Z",
+    "evidenceLevel": "ui-transition",
+    "originalSha256": "22c645c38d61ba24a13685422b5cc91d8e1e6fad705bd810e8490a4ed7701c58",
+    "sha256": "4b7fc8974018fae10b30d181c8040183f2d156bfcba122003180ee5617128b74",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "4b7fc8974018fae10b30d181c8040183f2d156bfcba122003180ee5617128b74"
   },
   {
    "n": 51,
@@ -1554,7 +1638,7 @@
    "n": 108,
    "chapter": "Team doubles",
    "person": "Ben",
-   "title": "Jade reviews the invitation",
+   "title": "Review the invitation",
    "file": "img/captures/4a119befc/nov09-team-jade-receives-be767580fa74.webp",
    "source": "nov09-team-jade-receives.png",
    "status": "reviewed-native-capture",
@@ -1933,82 +2017,178 @@
   {
    "n": 134,
    "chapter": "Challenge a friend",
-   "person": "Alex and Ben; separate link examples",
+   "person": "Alex",
    "title": "No challenges yet",
-   "file": "img/oct26/nov09-current-challenge-empty.webp",
+   "file": "img/captures/4a119befc/nov09-current-challenge-empty-b10e768f4b86.webp",
    "source": "nov09-current-challenge-empty.png",
-   "status": "earlier-reference",
-   "sha256": "17a0b4c40382b3d173c9f64543ac3e48dea2115398fafe59f4c3a9d84bc81c03"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov09-current-challenge-empty-b10e768f4b86.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "challenge-compose",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T17:22:38.915Z",
+    "evidenceLevel": "ui-read",
+    "originalSha256": "b10e768f4b86752c639b5935eed3f438aeba39d5242e34270ac839ce7e95ca91",
+    "sha256": "3f8f7276477003337443d61b2f645dddbf9c57f774e94ab281cceab887404962",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "3f8f7276477003337443d61b2f645dddbf9c57f774e94ab281cceab887404962"
   },
   {
    "n": 135,
    "chapter": "Challenge a friend",
-   "person": "Alex and Ben; separate link examples",
+   "person": "Alex",
    "title": "A link anyone can take",
-   "file": "img/oct26/nov10-link-challenge-compose.webp",
+   "file": "img/captures/4a119befc/nov10-link-challenge-compose-730e7a3503b9.webp",
    "source": "nov10-link-challenge-compose.png",
-   "status": "earlier-reference",
-   "sha256": "00a3992c764aebe6f2ae4a3150191ea8b610ae8bc34cf9254514f454e938996d"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov10-link-challenge-compose-730e7a3503b9.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "challenge-compose",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T17:22:38.915Z",
+    "evidenceLevel": "ui-read",
+    "originalSha256": "730e7a3503b9f268b5b4a8d170eeca6984b9f56a96a403743c1e4c34443e9d1e",
+    "sha256": "9822e336f92feeecc68fec283b2ac4111d316610b1dd3ec3c6610148e541fcd8",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "9822e336f92feeecc68fec283b2ac4111d316610b1dd3ec3c6610148e541fcd8"
   },
   {
    "n": 136,
    "chapter": "Challenge a friend",
-   "person": "Alex and Ben; separate link examples",
+   "person": "Alex",
    "title": "A place that is not a League venue",
-   "file": "img/oct26/nov10-link-private-place.webp",
+   "file": "img/captures/4a119befc/nov10-link-private-place-7ffbfce85626.webp",
    "source": "nov10-link-private-place.png",
-   "status": "earlier-reference",
-   "sha256": "7ed0896fec2a0f233dcecb15f163543c3b21ec89101a552f8b4b680c69c7a5ff"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov10-link-private-place-7ffbfce85626.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "challenge-compose",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T17:22:38.915Z",
+    "evidenceLevel": "ui-read",
+    "originalSha256": "7ffbfce85626146a58d953dfdb4d131e76877b30e0516a90faab7f66ba25e24d",
+    "sha256": "c4886f77962a63fccaf9c7719bc8b739787e9675ed940b697ac4317610fc9980",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "c4886f77962a63fccaf9c7719bc8b739787e9675ed940b697ac4317610fc9980"
   },
   {
    "n": 137,
    "chapter": "Challenge a friend",
-   "person": "Alex and Ben; separate link examples",
+   "person": "Alex",
    "title": "Time, DUPR and a note",
-   "file": "img/oct26/nov10-link-challenge-ready.webp",
+   "file": "img/captures/4a119befc/nov10-link-challenge-ready-dce955491894.webp",
    "source": "nov10-link-challenge-ready.png",
-   "status": "earlier-reference",
-   "sha256": "cf8618c49ab6e18ab6e616a13058a4c18c8c1a68cddf121b2290d659be78040e"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov10-link-challenge-ready-dce955491894.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "challenge-compose",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T17:22:38.915Z",
+    "evidenceLevel": "ui-read",
+    "originalSha256": "dce9554918941e91edc3674b4c15dd2e7006430cb9ff9815c9a41318b3acee2e",
+    "sha256": "444865011d426b0e2e442c4a0e589f295c3eda5d41a695bc5bfd547679153223",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "444865011d426b0e2e442c4a0e589f295c3eda5d41a695bc5bfd547679153223"
   },
   {
    "n": 138,
    "chapter": "Challenge a friend",
-   "person": "Alex and Ben; separate link examples",
+   "person": "Alex",
    "title": "Share the link",
-   "file": "img/oct26/nov10-link-challenge-share.webp",
+   "file": "img/captures/4a119befc/nov10-link-challenge-share-74cf3f119c3f.webp",
    "source": "nov10-link-challenge-share.png",
-   "status": "earlier-reference",
-   "sha256": "4ab977aa66e8dd8d7f2487c4c6f24049df9d8473479857ba5240763333668292"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov10-link-challenge-share-74cf3f119c3f.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "challenge-create",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T17:23:45.362Z",
+    "evidenceLevel": "ui-transition",
+    "originalSha256": "74cf3f119c3f3c619131382b1e5fbf03970fb31751b31e847d5e4ef5c56d79fa",
+    "sha256": "67b2dd4bf2b91c2ad4d3f95f1a10a605e45e7d918bfa2935f587cb748dcf12d3",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "67b2dd4bf2b91c2ad4d3f95f1a10a605e45e7d918bfa2935f587cb748dcf12d3"
   },
   {
    "n": 139,
    "chapter": "Challenge a friend",
-   "person": "Alex and Ben; separate link examples",
+   "person": "Alex",
    "title": "Waiting for a taker",
-   "file": "img/oct26/nov10-link-challenge-waiting.webp",
+   "file": "img/captures/4a119befc/nov10-link-challenge-waiting-be6d73ba52e7.webp",
    "source": "nov10-link-challenge-waiting.png",
-   "status": "earlier-reference",
-   "sha256": "3918db71011f10ffc7f486318799d53799212f62905f2a9f31e9ea4144e99bab"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov10-link-challenge-waiting-be6d73ba52e7.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "challenge-create",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T17:23:45.362Z",
+    "evidenceLevel": "ui-transition",
+    "originalSha256": "be6d73ba52e7127ede92fc22d31cd00e09a66bc102ddd6929e13b3dcc152faf8",
+    "sha256": "da5d674b7f757e1076240d46219092406cdfba41f04a081e2b3c4b50d81d492e",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "da5d674b7f757e1076240d46219092406cdfba41f04a081e2b3c4b50d81d492e"
   },
   {
    "n": 140,
    "chapter": "Challenge a friend",
-   "person": "Alex and Ben; separate link examples",
+   "person": "Ben",
    "title": "Opening the link",
-   "file": "img/oct26/nov10-link-challenge-open.webp",
+   "file": "img/captures/4a119befc/nov10-link-challenge-open-8bb99b9cf643.webp",
    "source": "nov10-link-challenge-open.png",
-   "status": "earlier-reference",
-   "sha256": "1119fc9c49d821f5bc4bdd83e8a5be39a20d417ab4771d84485327c26ffe7db2"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov10-link-challenge-open-8bb99b9cf643.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "challenge-accept",
+    "actor": "Ben",
+    "capturedAt": "2026-11-14T17:19:29.555Z",
+    "evidenceLevel": "multi-actor",
+    "originalSha256": "8bb99b9cf643f474c6bdbc1d823dd8412c24c44a121b3dacc31557e6de4491f1",
+    "sha256": "b4d933d1c42016bf9410275a300237582eb61df10e5a88c1535e75cd1b5473b6",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "b4d933d1c42016bf9410275a300237582eb61df10e5a88c1535e75cd1b5473b6"
   },
   {
    "n": 141,
    "chapter": "Challenge a friend",
-   "person": "Alex and Ben; separate link examples",
+   "person": "Ben",
    "title": "The open seat is taken",
-   "file": "img/oct26/nov10-link-challenge-accepted.webp",
+   "file": "img/captures/4a119befc/nov10-link-challenge-accepted-30d6155d7340.webp",
    "source": "nov10-link-challenge-accepted.png",
-   "status": "earlier-reference",
-   "sha256": "c2be5ab2ae8d8735c4094d2d00c6482954b0b7a129162c7f473c2fbade8bf22b"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov10-link-challenge-accepted-30d6155d7340.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "challenge-accept",
+    "actor": "Ben",
+    "capturedAt": "2026-11-14T17:19:29.555Z",
+    "evidenceLevel": "multi-actor",
+    "originalSha256": "30d6155d734081932d15408cbe9414dab6c3ab5c6f4325cbe2b660e1a6067ba8",
+    "sha256": "40446fc1a7036d2dcc6009e30b05debb5cc70bf395e6a7e0a554dc9b671fefd1",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "40446fc1a7036d2dcc6009e30b05debb5cc70bf395e6a7e0a554dc9b671fefd1"
   },
   {
    "n": 142,
@@ -2101,42 +2281,90 @@
   {
    "n": 146,
    "chapter": "Challenge a friend",
-   "person": "Alex and Ben; separate link examples",
+   "person": "Alex",
    "title": "The Challenges list",
-   "file": "img/oct26/nov09-challenges-current-list.webp",
+   "file": "img/captures/4a119befc/nov09-challenges-current-list-1654e4d175c9.webp",
    "source": "nov09-challenges-current-list.png",
-   "status": "earlier-reference",
-   "sha256": "ce2c65d866ae2f519a9d17bda65d46ad44a2ea858a3d70075cb10af228e41756"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov09-challenges-current-list-1654e4d175c9.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "challenges-list",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T17:26:22.875Z",
+    "evidenceLevel": "ui-read",
+    "originalSha256": "1654e4d175c9804ac653f7e806764c7874278ff9bcbfa622a152ff6aecaf38b6",
+    "sha256": "c499ce483f8e1ff52dc74aed0da2653b6a4c72117ee7204c8506d6da57b896cd",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "c499ce483f8e1ff52dc74aed0da2653b6a4c72117ee7204c8506d6da57b896cd"
   },
   {
    "n": 147,
    "chapter": "Challenge a friend",
-   "person": "Alex and Ben; separate link examples",
+   "person": "Alex",
    "title": "Withdraw a challenge",
-   "file": "img/oct26/nov10-link-withdraw-menu.webp",
+   "file": "img/captures/4a119befc/nov10-link-withdraw-menu-3cdac7c2395f.webp",
    "source": "nov10-link-withdraw-menu.png",
-   "status": "earlier-reference",
-   "sha256": "788dfdfd18cfa99468b6ace60608e85397023df123e56be76eedb1a270033bf4"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov10-link-withdraw-menu-3cdac7c2395f.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "challenge-withdraw-menu",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T17:24:38.713Z",
+    "evidenceLevel": "ui-read",
+    "originalSha256": "3cdac7c2395f9ec46bad7030d34f3542d1781885ccd8c77d1c78ade48f6cce13",
+    "sha256": "79de1a208b4024a59763c64dd2eef19d2b3df089881533eef17891f3f577922b",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "79de1a208b4024a59763c64dd2eef19d2b3df089881533eef17891f3f577922b"
   },
   {
    "n": 148,
    "chapter": "Challenge a friend",
-   "person": "Alex and Ben; separate link examples",
+   "person": "Alex",
    "title": "Confirm withdrawal",
-   "file": "img/oct26/nov10-link-withdraw-confirm.webp",
+   "file": "img/captures/4a119befc/nov10-link-withdraw-confirm-f28f5f5fc411.webp",
    "source": "nov10-link-withdraw-confirm.png",
-   "status": "earlier-reference",
-   "sha256": "ecc29237c18e808c33b6e984e96123a8a976612cfea49c6137529a75b55c3f88"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov10-link-withdraw-confirm-f28f5f5fc411.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "challenge-withdraw-menu",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T17:24:38.713Z",
+    "evidenceLevel": "ui-read",
+    "originalSha256": "f28f5f5fc411524b98e4de51982a6a58778c2c44e87bd7cff08b7436eb440acb",
+    "sha256": "17c1c0559e90465503670a26d91d0180d3787b19ac880b8bb7056793be1f025d",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "17c1c0559e90465503670a26d91d0180d3787b19ac880b8bb7056793be1f025d"
   },
   {
    "n": 149,
    "chapter": "Challenge a friend",
-   "person": "Alex and Ben; separate link examples",
+   "person": "Alex",
    "title": "Withdrawn",
-   "file": "img/oct26/nov10-link-withdrawn-3c.webp",
+   "file": "img/captures/4a119befc/nov10-link-withdrawn-3c-592d287d446c.webp",
    "source": "nov10-link-withdrawn-3c.png",
-   "status": "earlier-reference",
-   "sha256": "9c8fee0a45e93333b4ec63e896cbddcc109a928e84d3131551567777c082cf6f"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov10-link-withdrawn-3c-592d287d446c.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "challenge-withdraw",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T17:25:35.250Z",
+    "evidenceLevel": "ui-transition",
+    "originalSha256": "592d287d446c59a6fbba2e22ed540074cda8024de5de6e35545258b096dc184e",
+    "sha256": "670bd84de370c4e8a36db5c755b8ad501892907d165dc49931f6f8f7dc584b11",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "670bd84de370c4e8a36db5c755b8ad501892907d165dc49931f6f8f7dc584b11"
   },
   {
    "n": 150,
@@ -2363,42 +2591,90 @@
   {
    "n": 165,
    "chapter": "Pause and return",
-   "person": "Alex, then earlier examples",
+   "person": "Alex",
    "title": "Choose when to return",
-   "file": "img/oct26/nov10-pause-choice.webp",
+   "file": "img/captures/4a119befc/nov10-pause-choice-8ef6cbe19548.webp",
    "source": "nov10-pause-choice.png",
-   "status": "earlier-reference",
-   "sha256": "985beb44f5839a72c9e5ae413c28c02575d0b720d994cd939ec5f1fb984d8d89"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov10-pause-choice-8ef6cbe19548.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "pause",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T17:13:11.681Z",
+    "evidenceLevel": "ui-transition",
+    "originalSha256": "8ef6cbe19548e3ad0bf744b78e0e97eddb6020b07599877fb71634523351428b",
+    "sha256": "7e4394f5460ecd6d7bd3134ee248d419be13ae405957b21d4a32be2ca1009c1a",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "7e4394f5460ecd6d7bd3134ee248d419be13ae405957b21d4a32be2ca1009c1a"
   },
   {
    "n": 166,
    "chapter": "Pause and return",
-   "person": "Alex, then earlier examples",
+   "person": "Alex",
    "title": "Search paused",
-   "file": "img/oct26/nov10-paused-bookings.webp",
+   "file": "img/captures/4a119befc/nov10-paused-bookings-96410198cec3.webp",
    "source": "nov10-paused-bookings.png",
-   "status": "earlier-reference",
-   "sha256": "7b8ebb84c7a97a4199be7889beb15672e62bd6c961278257bee5e97f520d9d5c"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov10-paused-bookings-96410198cec3.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "pause",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T17:13:11.681Z",
+    "evidenceLevel": "ui-transition",
+    "originalSha256": "96410198cec3d9d4831c5996ccf60386e806da6e86b65a05e3daed0b010ee86b",
+    "sha256": "7e787b70abcf6da44fec09ff7d19154b781f1506e163a40f14b803abf18a606f",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "7e787b70abcf6da44fec09ff7d19154b781f1506e163a40f14b803abf18a606f"
   },
   {
    "n": 167,
    "chapter": "Pause and return",
-   "person": "Alex, then earlier examples",
+   "person": "Alex",
    "title": "End the pause",
-   "file": "img/oct26/nov10-pause-ended.webp",
+   "file": "img/captures/4a119befc/nov10-pause-ended-c54c41e4c9a5.webp",
    "source": "nov10-pause-ended.png",
-   "status": "earlier-reference",
-   "sha256": "bb0e56fa4b5753f619a29f0b887c9f12905c76c9ccc8ef1719b344564f50fb68"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov10-pause-ended-c54c41e4c9a5.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "end-pause",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T17:14:06.447Z",
+    "evidenceLevel": "ui-transition",
+    "originalSha256": "c54c41e4c9a50f3514b7286fb2849f9e81a6033aa8a7619a4effbed2186c4e21",
+    "sha256": "9314f6d4f716034fec5d36f695c739e0f4184b46245e16bc484325667609990f",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "9314f6d4f716034fec5d36f695c739e0f4184b46245e16bc484325667609990f"
   },
   {
    "n": 168,
    "chapter": "Pause and return",
-   "person": "Alex, then earlier examples",
+   "person": "Alex",
    "title": "Matchmaking is on again",
-   "file": "img/oct26/nov10-pause-search-resumed.webp",
+   "file": "img/captures/4a119befc/nov10-pause-search-resumed-26e07c474c22.webp",
    "source": "nov10-pause-search-resumed.png",
-   "status": "earlier-reference",
-   "sha256": "44c363748297548ff6e91a003e537128dfb4ee6199afcb540c535e4cd2518ad3"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov10-pause-search-resumed-26e07c474c22.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "end-pause",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T17:14:06.447Z",
+    "evidenceLevel": "ui-transition",
+    "originalSha256": "26e07c474c22cb1fbfab6e8603f43c2e7217f41466cb5c61be8bc25f08dde039",
+    "sha256": "398c4db3e39f1a494f4710676c05c47cc26b32b192f13e60cfd7266aa7b2df8e",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "398c4db3e39f1a494f4710676c05c47cc26b32b192f13e60cfd7266aa7b2df8e"
   },
   {
    "n": 169,
@@ -2535,62 +2811,134 @@
   {
    "n": 175,
    "chapter": "Safety and conduct",
-   "person": "Alex and Ben; separate Maya and Casey block examples",
+   "person": "Alex",
    "title": "Conduct record",
-   "file": "img/oct26/nov10-faa-conduct-list.webp",
+   "file": "img/captures/4a119befc/nov10-faa-conduct-list-5705451acf64.webp",
    "source": "nov10-faa-conduct-list.png",
-   "status": "earlier-reference",
-   "sha256": "c173cc2d5497875bd831e5593e9942838fe4b979b2c3b2f43096131dd4e7b33d"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov10-faa-conduct-list-5705451acf64.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "conduct-list",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T17:03:45.475Z",
+    "evidenceLevel": "ui-read-after-server-transition",
+    "originalSha256": "5705451acf648393e700a24690350d01bb38605a9385b8a80e6069afb0e6641f",
+    "sha256": "fb963df65f129164539ee0e02147bb9c14bef67a40a75b2e4a7360d337b7b657",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "fb963df65f129164539ee0e02147bb9c14bef67a40a75b2e4a7360d337b7b657"
   },
   {
    "n": 176,
    "chapter": "Safety and conduct",
-   "person": "Alex and Ben; separate Maya and Casey block examples",
+   "person": "Alex",
    "title": "The late cancellation",
-   "file": "img/oct26/nov10-faa-conduct-case.webp",
+   "file": "img/captures/4a119befc/nov10-faa-conduct-case-95fb826c859f.webp",
    "source": "nov10-faa-conduct-case.png",
-   "status": "earlier-reference",
-   "sha256": "115b0251ef41fcc6fb7e9ea35df4cad401edc83e8a480c8396d0a6a19af9f7f9"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov10-faa-conduct-case-95fb826c859f.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "conduct-case",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T17:04:26.472Z",
+    "evidenceLevel": "ui-read-after-server-transition",
+    "originalSha256": "95fb826c859f084d9c6cf0f9d52c5bc763cb878c24892dace96508161f479686",
+    "sha256": "400e355148a3db1ea786a0efc3a59d41428727f695733adc6190dda5e5975a1b",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "400e355148a3db1ea786a0efc3a59d41428727f695733adc6190dda5e5975a1b"
   },
   {
    "n": 177,
    "chapter": "Safety and conduct",
-   "person": "Alex and Ben; separate Maya and Casey block examples",
+   "person": "Alex",
    "title": "Challenge",
-   "file": "img/oct26/nov10-faa-conduct-form-draft.webp",
+   "file": "img/captures/4a119befc/nov10-faa-conduct-form-draft-830084ca991c.webp",
    "source": "nov10-faa-conduct-form-draft.png",
-   "status": "earlier-reference",
-   "sha256": "652b01822e29641cb6672781b7b2db9542e6464bedcd90a19b2045213c915364"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov10-faa-conduct-form-draft-830084ca991c.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "conduct-challenge",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T17:05:23.527Z",
+    "evidenceLevel": "ui-transition",
+    "originalSha256": "830084ca991cfe9b9f6b5a00cf9a0cfc7a3ddd471ebe5aa97e61f547e3a2f855",
+    "sha256": "a17157b7312ab486b707efd1d8f7d9c69cef162f51454289a42abb7a109b1f4f",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "a17157b7312ab486b707efd1d8f7d9c69cef162f51454289a42abb7a109b1f4f"
   },
   {
    "n": 178,
    "chapter": "Safety and conduct",
-   "person": "Alex and Ben; separate Maya and Casey block examples",
+   "person": "Alex",
    "title": "Challenge saved",
-   "file": "img/oct26/nov10-faa-conduct-saved.webp",
+   "file": "img/captures/4a119befc/nov10-faa-conduct-saved-9c91949b1683.webp",
    "source": "nov10-faa-conduct-saved.png",
-   "status": "earlier-reference",
-   "sha256": "d9e575740242683200a6c1a9bffccd3b003adea038360f8334c340fbf4ffb0aa"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov10-faa-conduct-saved-9c91949b1683.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "conduct-challenge",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T17:05:23.527Z",
+    "evidenceLevel": "ui-transition",
+    "originalSha256": "9c91949b1683016c776b8fa585fcf11ab7bc540355fb9bf8a73a64acac291651",
+    "sha256": "8446f6d0801c50fcce6ac823da8258ef9acf96b3677e4410a3f10aeb0db9f6ff",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "8446f6d0801c50fcce6ac823da8258ef9acf96b3677e4410a3f10aeb0db9f6ff"
   },
   {
    "n": 179,
    "chapter": "Safety and conduct",
-   "person": "Alex and Ben; separate Maya and Casey block examples",
+   "person": "Alex",
    "title": "Under review",
-   "file": "img/oct26/nov10-faa-conduct-review.webp",
+   "file": "img/captures/4a119befc/nov10-faa-conduct-review-82c718615ed7.webp",
    "source": "nov10-faa-conduct-review.png",
-   "status": "earlier-reference",
-   "sha256": "9619926f6168be856467bcfceb159715dba16ea6dcdde70f5bb294b39c9239df"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov10-faa-conduct-review-82c718615ed7.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "conduct-challenge",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T17:05:23.527Z",
+    "evidenceLevel": "ui-transition",
+    "originalSha256": "82c718615ed7d89e0abff8c26cc445cedb827dc973c1fc0740dbcdc2cc5fe5db",
+    "sha256": "2b9f1ecf63bdbc856ecc24c03c64a13b6a116734314cf54fe6f6de160e4f828c",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "2b9f1ecf63bdbc856ecc24c03c64a13b6a116734314cf54fe6f6de160e4f828c"
   },
   {
    "n": 180,
    "chapter": "Safety and conduct",
-   "person": "Alex and Ben; separate Maya and Casey block examples",
+   "person": "Ben",
    "title": "A separate no-show report",
-   "file": "img/oct26/nov10-faa-conduct-ben-case.webp",
+   "file": "img/captures/4a119befc/nov10-faa-conduct-ben-case-fba39585c406.webp",
    "source": "nov10-faa-conduct-ben-case.png",
-   "status": "earlier-reference",
-   "sha256": "5419126ff04c5302c92ece036aaef0b26e5b3061ba97e494fc4d352758aa9577"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov10-faa-conduct-ben-case-fba39585c406.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "conduct-ben-case",
+    "actor": "Ben",
+    "capturedAt": "2026-11-14T17:10:46.133Z",
+    "evidenceLevel": "ui-read-after-server-transition",
+    "originalSha256": "fba39585c4066d4ee0af808b4fc279a1a8680e84aab291f6c4ba94ba1e39adb8",
+    "sha256": "0af21149571bad02fcaca81c612dd8282c0a736868373f02b65c34c7a1a8260c",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "0af21149571bad02fcaca81c612dd8282c0a736868373f02b65c34c7a1a8260c"
   },
   {
    "n": 181,
@@ -3105,12 +3453,24 @@
   {
    "n": 214,
    "chapter": "A booked match on League home",
-   "person": "Casey and Riley",
+   "person": "Alex",
    "title": "Upcoming match",
-   "file": "img/oct26/nov09-current-booked-home.webp",
+   "file": "img/captures/4a119befc/nov09-current-booked-home-7bd9ca6b4d8c.webp",
    "source": "nov09-current-booked-home.png",
-   "status": "earlier-reference",
-   "sha256": "5ea665aaaf64b07998b32b09a4e9f549f4951e9a0dba6fc0a6685a54a6a2f346"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov09-current-booked-home-7bd9ca6b4d8c.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "challenge-home",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T17:20:18.864Z",
+    "evidenceLevel": "ui-read-after-server-transition",
+    "originalSha256": "7bd9ca6b4d8c832f39b3c59a38da309d7880adec0dcb60d833481ed9657ea99e",
+    "sha256": "51b49668075335649d9e742be59f0d8fb61922f47944be3dcc195bdebfd5b78d",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "51b49668075335649d9e742be59f0d8fb61922f47944be3dcc195bdebfd5b78d"
   },
   {
    "n": 215,
@@ -3167,5 +3527,5 @@
    "sha256": "dc51917251f0a8ffa63e107f42cf2237247083191985833dce0f284b39b8a605"
   }
  ],
- "freshReplacements": 82
+ "freshReplacements": 112
 }
