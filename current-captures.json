@@ -1029,22 +1029,46 @@
   {
    "n": 64,
    "chapter": "Your season",
-   "person": "Casey and Maya",
+   "person": "Alex",
    "title": "Your season at a glance",
-   "file": "img/oct26/nov09-latest-season-home.webp",
+   "file": "img/captures/4a119befc/nov09-latest-season-home-7faae8ec3b89.webp",
    "source": "nov09-latest-season-home.png",
-   "status": "earlier-reference",
-   "sha256": "f998f9c50c10ef811484156dc916b8db872a0569aaab92feaa27152528de9c18"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov09-latest-season-home-7faae8ec3b89.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "progress",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T18:00:56.665Z",
+    "evidenceLevel": "ui-read-after-server-transition",
+    "originalSha256": "7faae8ec3b891fcfd318b146f50a6bf7699f2183d6aa83ce616e783f63234048",
+    "sha256": "a813568d4c78ce62e7e05e27af67e948be6f6ec19a93edfdf3983913304770b4",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "a813568d4c78ce62e7e05e27af67e948be6f6ec19a93edfdf3983913304770b4"
   },
   {
    "n": 65,
    "chapter": "Your season",
-   "person": "Casey and Maya",
+   "person": "Alex",
    "title": "Open the season",
-   "file": "img/oct26/nov10-own-season-current.webp",
+   "file": "img/captures/4a119befc/nov10-own-season-current-50a9be7e3d88.webp",
    "source": "nov10-own-season-current.png",
-   "status": "earlier-reference",
-   "sha256": "16a05f719f018b3bc956a8ad06ef39f381b3f517305f6fa1b41faf7161ea6a01"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov10-own-season-current-50a9be7e3d88.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "progress",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T18:00:56.665Z",
+    "evidenceLevel": "ui-read-after-server-transition",
+    "originalSha256": "50a9be7e3d8824504f0bf9f3d0a1f9189de06f7c76e8520ab6910966c6c49f4d",
+    "sha256": "92bd3e05ddea4dc5ca02739ddb2cdba44dc0b2444dc532f0b1a335ec3bbb2a13",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "92bd3e05ddea4dc5ca02739ddb2cdba44dc0b2444dc532f0b1a335ec3bbb2a13"
   },
   {
    "n": 66,
@@ -1059,32 +1083,68 @@
   {
    "n": 67,
    "chapter": "Your season",
-   "person": "Casey and Maya",
+   "person": "Alex",
    "title": "Share your season",
-   "file": "img/oct26/nov09-new-season-share.webp",
+   "file": "img/captures/4a119befc/nov09-new-season-share-2bf351562593.webp",
    "source": "nov09-new-season-share.png",
-   "status": "earlier-reference",
-   "sha256": "6b38cb59ac10268cb85e8104bd62c541305676fa4a26f95e11425727fe8eb99f"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov09-new-season-share-2bf351562593.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "season-share",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T18:02:45.907Z",
+    "evidenceLevel": "ui-read-after-server-transition",
+    "originalSha256": "2bf351562593c22bef58368e23aae9543a5fd29f3189bb3f5ef754096444f887",
+    "sha256": "c0202593a73b48a6809235ffeb832dc09f28d1032eecc3ea0dfd3874cfda8ecf",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "c0202593a73b48a6809235ffeb832dc09f28d1032eecc3ea0dfd3874cfda8ecf"
   },
   {
    "n": 68,
    "chapter": "Your season",
-   "person": "Casey and Maya",
+   "person": "Alex",
    "title": "Standings from a weekly recap",
-   "file": "img/oct26/nov09-current-recap-board.webp",
+   "file": "img/captures/4a119befc/nov09-current-recap-board-ceb27caff067.webp",
    "source": "nov09-current-recap-board.png",
-   "status": "earlier-reference",
-   "sha256": "fd6b2255eb50e58cf2833de930fca1d7f99cfa8b26fdbf90e0ecd7f4819447ff"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov09-current-recap-board-ceb27caff067.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "weekly-board",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T17:38:13.919Z",
+    "evidenceLevel": "ui-read-after-server-transition",
+    "originalSha256": "ceb27caff06729b0972d27c6fabbab00bc9bd9954405bc1fd492c2e366f4359c",
+    "sha256": "e7b39ddf9ce438389675bf6e2a3bf61ca67dad9b3833a55abd8af4320bae3b1b",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "e7b39ddf9ce438389675bf6e2a3bf61ca67dad9b3833a55abd8af4320bae3b1b"
   },
   {
    "n": 69,
    "chapter": "Leaderboards",
-   "person": "Ben",
+   "person": "Alex",
    "title": "Individual Doubles standings",
-   "file": "img/oct26/nov10-board-current-season.webp",
+   "file": "img/captures/4a119befc/nov10-board-current-season-61aa8e7aef92.webp",
    "source": "nov10-board-current-season.png",
-   "status": "earlier-reference",
-   "sha256": "62b3202f5c5182568d8ebce9d1d7bf572925320e95d8520b06edc4f8d072ba2e"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov10-board-current-season-61aa8e7aef92.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "boards",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T17:34:24.339Z",
+    "evidenceLevel": "ui-read-after-server-transition",
+    "originalSha256": "61aa8e7aef9254be6ef3212eefae60c21194b68ff117484b7089464252bee5b9",
+    "sha256": "5859a8c589a114c2c7749ac68e0cfc63bcf3086124f7d65608b7169697567775",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "5859a8c589a114c2c7749ac68e0cfc63bcf3086124f7d65608b7169697567775"
   },
   {
    "n": 70,
@@ -1099,52 +1159,112 @@
   {
    "n": 71,
    "chapter": "Leaderboards",
-   "person": "Ben",
+   "person": "Alex",
    "title": "Near you",
-   "file": "img/oct26/nov10-board-current-near-results.webp",
+   "file": "img/captures/4a119befc/nov10-board-current-near-results-1ee8846dd4a9.webp",
    "source": "nov10-board-current-near-results.png",
-   "status": "earlier-reference",
-   "sha256": "67ba6b86b7c7cbc4f66bf4927f959738133a5c3188280cf64baf2dd122f8f640"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov10-board-current-near-results-1ee8846dd4a9.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "board-views",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T17:54:52.160Z",
+    "evidenceLevel": "ui-read-after-server-transition",
+    "originalSha256": "1ee8846dd4a9b378ffd5407d732e26686dc2ab3169a147fb017b6184a4a9baab",
+    "sha256": "106d80155ccaa8df0acce819623367269a2800adab636c1fe0280542e6da302e",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "106d80155ccaa8df0acce819623367269a2800adab636c1fe0280542e6da302e"
   },
   {
    "n": 72,
    "chapter": "Leaderboards",
-   "person": "Ben",
+   "person": "Alex",
    "title": "Filters",
-   "file": "img/oct26/nov10-board-current-filters.webp",
+   "file": "img/captures/4a119befc/nov10-board-current-filters-bd62039e169e.webp",
    "source": "nov10-board-current-filters.png",
-   "status": "earlier-reference",
-   "sha256": "54034609bf1ab49761f66d368cc64c662c53eef0f109bb44c1c487eab46b57f6"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov10-board-current-filters-bd62039e169e.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "board-filters",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T17:35:09.862Z",
+    "evidenceLevel": "ui-read-after-server-transition",
+    "originalSha256": "bd62039e169e49bd05d981ddffef330315574f6ac54a6ddb30b2a1f86465de43",
+    "sha256": "7ed046908b4b781a973d2e5441393ce1a6cdd45871764adaeaddae310e4bfea2",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "7ed046908b4b781a973d2e5441393ce1a6cdd45871764adaeaddae310e4bfea2"
   },
   {
    "n": 73,
    "chapter": "Leaderboards",
-   "person": "Ben",
+   "person": "Alex",
    "title": "About this board",
-   "file": "img/oct26/nov10-board-current-about.webp",
+   "file": "img/captures/4a119befc/nov10-board-current-about-ffd2b1ad5b4f.webp",
    "source": "nov10-board-current-about.png",
-   "status": "earlier-reference",
-   "sha256": "9f85120d04a85bcc6f26744e842a5620841a338507f0d0d0c929427963c5e092"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov10-board-current-about-ffd2b1ad5b4f.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "board-about",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T17:35:56.221Z",
+    "evidenceLevel": "ui-read-after-server-transition",
+    "originalSha256": "ffd2b1ad5b4f0a77afa4647a3bbecf468979f2990be190220b155a01a58e9f70",
+    "sha256": "b744fd84649278cd967939de372f63585319b8c586a5c6bac058ba458c6c55a8",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "b744fd84649278cd967939de372f63585319b8c586a5c6bac058ba458c6c55a8"
   },
   {
    "n": 74,
    "chapter": "Leaderboards",
-   "person": "Ben",
+   "person": "Alex",
    "title": "Find a player you follow",
-   "file": "img/oct26/nov10-board-search-alex.webp",
+   "file": "img/captures/4a119befc/nov10-board-search-alex-fde3ad19ab4d.webp",
    "source": "nov10-board-search-alex.png",
-   "status": "earlier-reference",
-   "sha256": "a74413e6617c211eb8bb09b4fae12438b16fe4571d6f6910aee7213b025016f3"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov10-board-search-alex-fde3ad19ab4d.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "boards",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T17:34:24.339Z",
+    "evidenceLevel": "ui-read-after-server-transition",
+    "originalSha256": "fde3ad19ab4d0c9b212149a55014c76efcff43070cbbb355539e5eb5eaa34db8",
+    "sha256": "c365a6464b1149f345aa16a3c83b5a05ae0bc9d7a7cd437e281ecc260c8740e8",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "c365a6464b1149f345aa16a3c83b5a05ae0bc9d7a7cd437e281ecc260c8740e8"
   },
   {
    "n": 75,
    "chapter": "Leaderboards",
-   "person": "Ben",
+   "person": "Alex",
    "title": "No search results",
-   "file": "img/oct26/nov10-board-current-empty.webp",
+   "file": "img/captures/4a119befc/nov10-board-current-empty-3c0c81d15f57.webp",
    "source": "nov10-board-current-empty.png",
-   "status": "earlier-reference",
-   "sha256": "70a530ef08f2d51ffd688bcad54bf08c8582f305db4b517cdc03bc1113494682"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov10-board-current-empty-3c0c81d15f57.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "board-views",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T17:54:52.160Z",
+    "evidenceLevel": "ui-read-after-server-transition",
+    "originalSha256": "3c0c81d15f57032fd7d66164907476d4ac84d7e9dd560761fcd07852a11dd478",
+    "sha256": "655640a2096847de326513e6a66dadd0ba9f4bcd4c04529e94492b20f0590454",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "655640a2096847de326513e6a66dadd0ba9f4bcd4c04529e94492b20f0590454"
   },
   {
    "n": 76,
@@ -1159,12 +1279,24 @@
   {
    "n": 77,
    "chapter": "Leaderboards",
-   "person": "Ben",
+   "person": "Alex",
    "title": "Find a leaderboard",
-   "file": "img/oct26/nov10-board-place-picker.webp",
+   "file": "img/captures/4a119befc/nov10-board-place-picker-441ef572545c.webp",
    "source": "nov10-board-place-picker.png",
-   "status": "earlier-reference",
-   "sha256": "edf832251ccdd9235edc95dec2b122e82378cef54c03c3da4fdbead2e6f11944"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov10-board-place-picker-441ef572545c.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "board-places",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T17:36:45.182Z",
+    "evidenceLevel": "ui-read-after-server-transition",
+    "originalSha256": "441ef572545c8b0d5b4e86c79cca68951c3e0fb2b9044b100c9cf0fa42f88d6e",
+    "sha256": "83312bedd8dfd901590410f638e7d4dd056486d0e2069109a7992007b1298a77",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "83312bedd8dfd901590410f638e7d4dd056486d0e2069109a7992007b1298a77"
   },
   {
    "n": 78,
@@ -1199,42 +1331,90 @@
   {
    "n": 81,
    "chapter": "Player records",
-   "person": "Alex and Ben",
+   "person": "Alex",
    "title": "Badges and weekly history",
-   "file": "img/oct26/nov10-own-history-current.webp",
+   "file": "img/captures/4a119befc/nov10-own-history-current-4ee1d85de685.webp",
    "source": "nov10-own-history-current.png",
-   "status": "earlier-reference",
-   "sha256": "a92ed15ba1fae2839321d7979c6ff243b524fe35e08f912acba95a30f9430939"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov10-own-history-current-4ee1d85de685.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "own-history",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T17:46:18.499Z",
+    "evidenceLevel": "ui-read-after-server-transition",
+    "originalSha256": "4ee1d85de6853b8d226f0f059f9e0eceb3b9d77f294c323b1a64b57843626125",
+    "sha256": "45c6d34f1eb033f4e67582a261ed72a39b74d71e9b056c11949dc209b01a65ae",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "45c6d34f1eb033f4e67582a261ed72a39b74d71e9b056c11949dc209b01a65ae"
   },
   {
    "n": 82,
    "chapter": "Player records",
-   "person": "Alex and Ben",
+   "person": "Alex",
    "title": "Badge details",
-   "file": "img/oct26/nov10-founder-current.webp",
+   "file": "img/captures/4a119befc/nov10-founder-current-bcfd0ff68e6a.webp",
    "source": "nov10-founder-current.png",
-   "status": "earlier-reference",
-   "sha256": "8b113de7d1e4ca4953ed6d19861ac3fbd7feac33fcd391e5fb2213ee49f66252"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov10-founder-current-bcfd0ff68e6a.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "founder",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T17:39:56.129Z",
+    "evidenceLevel": "ui-read-after-server-transition",
+    "originalSha256": "bcfd0ff68e6ab44020b03d163360c7e661583e07e8a36da60b3d8179b91615af",
+    "sha256": "1d0f8b45fedc4d089291a28d8b078492c61a07cfab48b0300b3b8cfd32a43468",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "1d0f8b45fedc4d089291a28d8b078492c61a07cfab48b0300b3b8cfd32a43468"
   },
   {
    "n": 83,
    "chapter": "Player records",
-   "person": "Alex and Ben",
+   "person": "Alex",
    "title": "A badge that grows",
-   "file": "img/oct26/nov10-explorer-current.webp",
+   "file": "img/captures/4a119befc/nov10-explorer-current-80602643682c.webp",
    "source": "nov10-explorer-current.png",
-   "status": "earlier-reference",
-   "sha256": "1e19b4c46df06f8727d66e7dbd9b7b13d6a8d607dbebee2251399fee2054f392"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov10-explorer-current-80602643682c.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "explorer",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T17:47:04.989Z",
+    "evidenceLevel": "prepared-display-only",
+    "originalSha256": "80602643682c19c39b5bb39acde4455b558ed310d3803e542b20566a5f185b26",
+    "sha256": "414c6dac3b4ba78fb414848f8ea3751db2c34d4e6b60f14c92ef8c35044bd664",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "414c6dac3b4ba78fb414848f8ea3751db2c34d4e6b60f14c92ef8c35044bd664"
   },
   {
    "n": 84,
    "chapter": "Player records",
-   "person": "Alex and Ben",
+   "person": "Alex",
    "title": "Several awards in one medal",
-   "file": "img/oct26/nov10-venue-founder-current.webp",
+   "file": "img/captures/4a119befc/nov10-venue-founder-current-8807eb3fb57a.webp",
    "source": "nov10-venue-founder-current.png",
-   "status": "earlier-reference",
-   "sha256": "2978625f8c814ad2d27e0fb8c6d28a953c75890b149216d8409f851adcb96be5"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov10-venue-founder-current-8807eb3fb57a.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "venue-founder",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T17:40:54.991Z",
+    "evidenceLevel": "ui-read-after-server-transition",
+    "originalSha256": "8807eb3fb57aa4238d1f2f258a66b80ac5c20c4e20fb6076d9686382c71d70dd",
+    "sha256": "6c87d209170fc104719055830cd4ad377904a8e5bbdece3599f1e8e5b89a4cc9",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "6c87d209170fc104719055830cd4ad377904a8e5bbdece3599f1e8e5b89a4cc9"
   },
   {
    "n": 85,
@@ -1271,40 +1451,88 @@
    "chapter": "Weekly recap",
    "person": "Alex",
    "title": "Your week",
-   "file": "img/oct26/nov10-recap-story.webp",
+   "file": "img/captures/4a119befc/nov10-recap-story-15ff46b75d2a.webp",
    "source": "nov10-recap-story.png",
-   "status": "earlier-reference",
-   "sha256": "17447fafd7f246f2564fddb6197c2096158e0461ff0abc00ebf30ce2b26f28bd"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov10-recap-story-15ff46b75d2a.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "weekly-recap",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T17:39:00.290Z",
+    "evidenceLevel": "ui-read-after-server-transition",
+    "originalSha256": "15ff46b75d2a04392d763c36d28e4484db5267cb20f39b175d5c1c1536d9829e",
+    "sha256": "2588fdcf287a17d3e7db931cdd108b140b477b43dd8ec2e30fd4c874655e278a",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "2588fdcf287a17d3e7db931cdd108b140b477b43dd8ec2e30fd4c874655e278a"
   },
   {
    "n": 89,
    "chapter": "Weekly recap",
    "person": "Alex",
    "title": "Swipe to standings",
-   "file": "img/oct26/nov10-recap-standings.webp",
+   "file": "img/captures/4a119befc/nov10-recap-standings-26bf8450af0b.webp",
    "source": "nov10-recap-standings.png",
-   "status": "earlier-reference",
-   "sha256": "41637bb0828a6dc6dde00b1676a4169a3a2827959cdd22b4df6e4013d098e184"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov10-recap-standings-26bf8450af0b.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "weekly-recap",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T17:39:00.290Z",
+    "evidenceLevel": "ui-read-after-server-transition",
+    "originalSha256": "26bf8450af0b231094aa88df12857450810a6bce3637c5d9f93783c490508aae",
+    "sha256": "1ca11f2969eeea44afb1aa8826594c4f23227f2595cf7a574c9e74736444de17",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "1ca11f2969eeea44afb1aa8826594c4f23227f2595cf7a574c9e74736444de17"
   },
   {
    "n": 90,
    "chapter": "Weekly recap",
    "person": "Alex",
    "title": "Full summary",
-   "file": "img/oct26/nov10-recap-summary.webp",
+   "file": "img/captures/4a119befc/nov10-recap-summary-e9fbfd9ce9d1.webp",
    "source": "nov10-recap-summary.png",
-   "status": "earlier-reference",
-   "sha256": "4b2131841790447cb9873cf32d41df1d2a431827f520007b0b8adcd3dfa0cd5e"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov10-recap-summary-e9fbfd9ce9d1.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "weekly-recap",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T17:39:00.290Z",
+    "evidenceLevel": "ui-read-after-server-transition",
+    "originalSha256": "e9fbfd9ce9d14ab0e6b4ce0e051534a2407122985c56579ac7775abbc6952627",
+    "sha256": "848710ade894a6affba4ecfe0382cccc33400407c3b45ddfbd19b6693d4cda1f",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "848710ade894a6affba4ecfe0382cccc33400407c3b45ddfbd19b6693d4cda1f"
   },
   {
    "n": 91,
    "chapter": "Weekly recap",
    "person": "Alex",
    "title": "All recaps",
-   "file": "img/oct26/nov10-recap-archive.webp",
+   "file": "img/captures/4a119befc/nov10-recap-archive-74006fcfa02c.webp",
    "source": "nov10-recap-archive.png",
-   "status": "earlier-reference",
-   "sha256": "69878d55aa7c783135be13e74cd3a66d7d997f90841ef4c46a958137297433ae"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov10-recap-archive-74006fcfa02c.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "weekly-recap",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T17:39:00.290Z",
+    "evidenceLevel": "ui-read-after-server-transition",
+    "originalSha256": "74006fcfa02ceffc03eb82184cc781f0cb788050e59fcf8bad8c5b14e239495c",
+    "sha256": "704f972aa773ec56ebdb60e4416e5b834c107233c5e08172c2c20cc6f95d38f3",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "704f972aa773ec56ebdb60e4416e5b834c107233c5e08172c2c20cc6f95d38f3"
   },
   {
    "n": 92,
@@ -3019,88 +3247,88 @@
    "chapter": "Report, correct and confirm doubles scores",
    "person": "Alex",
    "title": "The first rotating game",
-   "file": "img/captures/4a119befc/nov10-faa-rotating-score-first-e5bba39fac88.webp",
+   "file": "img/captures/4a119befc/nov10-faa-rotating-score-first-65550a9b0a83.webp",
    "source": "nov10-faa-rotating-score-first.png",
    "status": "reviewed-native-capture",
    "capture": {
-    "file": "img/captures/4a119befc/nov10-faa-rotating-score-first-e5bba39fac88.webp",
+    "file": "img/captures/4a119befc/nov10-faa-rotating-score-first-65550a9b0a83.webp",
     "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
     "stage": "report",
     "actor": "Alex",
-    "capturedAt": "2026-11-14T15:22:43.381Z",
+    "capturedAt": "2026-11-14T17:29:57.707Z",
     "evidenceLevel": "ui-transition",
-    "originalSha256": "e5bba39fac88f06fe2008257e29c6f8713b961eb1c7ad1925dc47c39c17dc7a7",
-    "sha256": "ff92be7ea8a10e2610a5cf0c33109e4f6211adaa81f03d45b163b54ec66f6350",
+    "originalSha256": "65550a9b0a832634edfc5c76d888c916704c6bb39cdcd7c3abd9e6d097366066",
+    "sha256": "9a031e9ed9b97f4d3375b946861326f3e4560e641b2b612302705bf32116d35f",
     "profile": "ios-dark-default",
     "review": "accepted"
    },
-   "sha256": "ff92be7ea8a10e2610a5cf0c33109e4f6211adaa81f03d45b163b54ec66f6350"
+   "sha256": "9a031e9ed9b97f4d3375b946861326f3e4560e641b2b612302705bf32116d35f"
   },
   {
    "n": 187,
    "chapter": "Report, correct and confirm doubles scores",
    "person": "Alex",
    "title": "Changing partners across games",
-   "file": "img/captures/4a119befc/nov10-faa-rotating-score-three-979bbedf4a26.webp",
+   "file": "img/captures/4a119befc/nov10-faa-rotating-score-three-c0414cf728de.webp",
    "source": "nov10-faa-rotating-score-three.png",
    "status": "reviewed-native-capture",
    "capture": {
-    "file": "img/captures/4a119befc/nov10-faa-rotating-score-three-979bbedf4a26.webp",
+    "file": "img/captures/4a119befc/nov10-faa-rotating-score-three-c0414cf728de.webp",
     "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
     "stage": "report",
     "actor": "Alex",
-    "capturedAt": "2026-11-14T15:22:43.381Z",
+    "capturedAt": "2026-11-14T17:29:57.707Z",
     "evidenceLevel": "ui-transition",
-    "originalSha256": "979bbedf4a260fbf8e7ad8bc0d3b865bfa1c61360228919f8c66710a96ef5a23",
-    "sha256": "9e2095558494d3266c19a0b6859b3fe75febe30b20f1ad90cedd37627a5d4496",
+    "originalSha256": "c0414cf728de560f077915de152d037e20c81e95d45db5257b967227ebcf621b",
+    "sha256": "e19b144960c287f8a7f366a71916cf9a5a4bae0d89c23da062f3cd876cfd0a83",
     "profile": "ios-dark-default",
     "review": "accepted"
    },
-   "sha256": "9e2095558494d3266c19a0b6859b3fe75febe30b20f1ad90cedd37627a5d4496"
+   "sha256": "e19b144960c287f8a7f366a71916cf9a5a4bae0d89c23da062f3cd876cfd0a83"
   },
   {
    "n": 188,
    "chapter": "Report, correct and confirm doubles scores",
    "person": "Ben",
    "title": "An opposing player reviews",
-   "file": "img/captures/4a119befc/nov10-faa-rotating-review-6a6987432d50.webp",
+   "file": "img/captures/4a119befc/nov10-faa-rotating-review-498015b4171e.webp",
    "source": "nov10-faa-rotating-review.png",
    "status": "reviewed-native-capture",
    "capture": {
-    "file": "img/captures/4a119befc/nov10-faa-rotating-review-6a6987432d50.webp",
+    "file": "img/captures/4a119befc/nov10-faa-rotating-review-498015b4171e.webp",
     "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
     "stage": "review",
     "actor": "Ben",
-    "capturedAt": "2026-11-14T15:23:32.030Z",
+    "capturedAt": "2026-11-14T17:31:17.066Z",
     "evidenceLevel": "ui-transition",
-    "originalSha256": "6a6987432d507dbd85d36b0ed3ca917efbc8ca5e4100a8cc22482efb5a868cdb",
-    "sha256": "2412f2f140de9ed37c6fb64bedc83d180fba21670401510b0e7058014b870189",
+    "originalSha256": "498015b4171e4daa5853e8eb2137c4a80e2119dd96401af13eac340893fda943",
+    "sha256": "309737d278366ae8a69152474e98b5429b9cd1ef1a1bd3688f8002d78d6962a8",
     "profile": "ios-dark-default",
     "review": "accepted"
    },
-   "sha256": "2412f2f140de9ed37c6fb64bedc83d180fba21670401510b0e7058014b870189"
+   "sha256": "309737d278366ae8a69152474e98b5429b9cd1ef1a1bd3688f8002d78d6962a8"
   },
   {
    "n": 189,
    "chapter": "Report, correct and confirm doubles scores",
    "person": "Ben",
    "title": "Ben’s answer is saved",
-   "file": "img/captures/4a119befc/nov10-faa-rotating-answered-2d5839ce31ed.webp",
+   "file": "img/captures/4a119befc/nov10-faa-rotating-answered-900b3acbd835.webp",
    "source": "nov10-faa-rotating-answered.png",
    "status": "reviewed-native-capture",
    "capture": {
-    "file": "img/captures/4a119befc/nov10-faa-rotating-answered-2d5839ce31ed.webp",
+    "file": "img/captures/4a119befc/nov10-faa-rotating-answered-900b3acbd835.webp",
     "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
     "stage": "review",
     "actor": "Ben",
-    "capturedAt": "2026-11-14T15:23:32.030Z",
+    "capturedAt": "2026-11-14T17:31:17.066Z",
     "evidenceLevel": "ui-transition",
-    "originalSha256": "2d5839ce31ed8da0e8f848562e603afab7692c3442fd688206d593383cc84b8c",
-    "sha256": "7afda63a9fce0d419e2660ae3e1c6ed8f5f76ac86493ce5c21bec87137bab813",
+    "originalSha256": "900b3acbd83545e56b0e5160b412a183dde451e7e7dae442978d93c8bb4475b4",
+    "sha256": "7b4c3f8d65ab23c464a40888ced5148da8612e27eacf1c863bc2a3ba81ebb36b",
     "profile": "ios-dark-default",
     "review": "accepted"
    },
-   "sha256": "7afda63a9fce0d419e2660ae3e1c6ed8f5f76ac86493ce5c21bec87137bab813"
+   "sha256": "7b4c3f8d65ab23c464a40888ced5148da8612e27eacf1c863bc2a3ba81ebb36b"
   },
   {
    "n": 190,
@@ -3115,7 +3343,7 @@
     "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
     "stage": "export",
     "actor": "Alex",
-    "capturedAt": "2026-11-14T15:24:38.878Z",
+    "capturedAt": "2026-11-14T17:32:18.701Z",
     "evidenceLevel": "ui-transition",
     "originalSha256": "6e53a3df52a3107288be5c818621b7fa80dd625792427e4ee16806c01c236978",
     "sha256": "a134e108cbd2ed8c1ad99de1a3c9b2ad1663ed92b9c9dcd1602dfeb19d1e55b3",
@@ -3207,32 +3435,68 @@
   {
    "n": 199,
    "chapter": "Finish an eight-week doubles season",
-   "person": "Alex and Ben",
+   "person": "Alex",
    "title": "Expand a Team doubles result",
-   "file": "img/oct26/nov10-team-result-wip.webp",
+   "file": "img/captures/4a119befc/nov10-team-result-wip-59c672934eae.webp",
    "source": "nov10-team-result-wip.png",
-   "status": "earlier-reference",
-   "sha256": "688d64d6c7c2d57b76d8aea6eb5c5bfb756f29ad410ab5351bf9a214b0c11045"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov10-team-result-wip-59c672934eae.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "season-team-result",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T17:53:51.353Z",
+    "evidenceLevel": "ui-read-after-server-transition",
+    "originalSha256": "59c672934eae852111cec0dc8db027cd2d46e204ffe02f5987f673b5c7466157",
+    "sha256": "28bb45aff2bd9d84eaf044fedf39078a11dfd84274f2b036119304684411ae0c",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "28bb45aff2bd9d84eaf044fedf39078a11dfd84274f2b036119304684411ae0c"
   },
   {
    "n": 200,
    "chapter": "Finish an eight-week doubles season",
-   "person": "Alex and Ben",
+   "person": "Alex",
    "title": "Fixed-partnership final standings",
-   "file": "img/oct26/nov10-board-final-teams.webp",
+   "file": "img/captures/4a119befc/nov10-board-final-teams-6c10b0dd5d68.webp",
    "source": "nov10-board-final-teams.png",
-   "status": "earlier-reference",
-   "sha256": "c30fe3ed60fe22a5b7b5d0bfd43d0d8283fdf560f4de5974e7ae0a3644b440da"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov10-board-final-teams-6c10b0dd5d68.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "season-teams",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T17:52:43.620Z",
+    "evidenceLevel": "ui-read-after-server-transition",
+    "originalSha256": "6c10b0dd5d68fe10cf826cae9abc6b7f0f3f4bab94abeab623df2776d10ead6a",
+    "sha256": "c294ace6c1b6351655af33844aaf6ac2ed82592873a0d9a4701767942aa505c3",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "c294ace6c1b6351655af33844aaf6ac2ed82592873a0d9a4701767942aa505c3"
   },
   {
    "n": 201,
    "chapter": "Finish an eight-week doubles season",
-   "person": "Alex and Ben",
+   "person": "Alex",
    "title": "Alex’s season recap",
-   "file": "img/oct26/nov10-season-recap-story.webp",
+   "file": "img/captures/4a119befc/nov10-season-recap-story-1c5ba902edd2.webp",
    "source": "nov10-season-recap-story.png",
-   "status": "earlier-reference",
-   "sha256": "e5bb622e38a73bad86a14e11028c540743967f4de5f44ca9c4aea1dff24a7f84"
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/4a119befc/nov10-season-recap-story-1c5ba902edd2.webp",
+    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "stage": "season-recap",
+    "actor": "Alex",
+    "capturedAt": "2026-11-14T17:51:46.638Z",
+    "evidenceLevel": "ui-read-after-server-transition",
+    "originalSha256": "1c5ba902edd2bd54069e7ac1cfb258c03349d71b306bb9ddd4d5c44435cef197",
+    "sha256": "381379cbdeca14444ffe748a039c9ccb65fafdf9a806b92670fc233b9c9fe2ea",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "381379cbdeca14444ffe748a039c9ccb65fafdf9a806b92670fc233b9c9fe2ea"
   },
   {
    "n": 202,
@@ -3527,5 +3791,5 @@
    "sha256": "dc51917251f0a8ffa63e107f42cf2237247083191985833dce0f284b39b8a605"
   }
  ],
- "freshReplacements": 112
+ "freshReplacements": 134
 }
