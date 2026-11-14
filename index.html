@@ -80,7 +80,7 @@ footer.notes { padding-block: 64px 96px; display: grid; gap: 14px; border-top: 1
 footer.notes p { color: var(--muted); }
 
 /* Viewer */
-dialog#lb { border: 0; padding: 0; margin: 0; width: 100vw; height: 100dvh; max-width: none; max-height: none; background: rgba(5, 8, 12, 0.94); color: #e8edf2; }
+dialog#lb { position: fixed; inset: 0; border: 0; padding: 0; margin: 0; width: 100vw; height: 100dvh; max-width: none; max-height: none; background: rgba(5, 8, 12, 0.94); color: #e8edf2; }
 dialog#lb::backdrop { background: rgba(5, 8, 12, 0.94); }
 dialog#lb:focus { outline: none; }
 dialog#lb[open] { display: grid; grid-template-rows: auto minmax(0, 1fr) auto; }
@@ -137,14 +137,8 @@ dialog#lb[open] { display: grid; grid-template-rows: auto minmax(0, 1fr) auto; }
 <header class="wrap top">
   <span class="eyebrow">Circuit Pickleball · Circuit League · iPhone</span>
   <h1>Circuit League, screen by screen</h1>
-  <p class="lede">Follow players from joining and finding a group through scheduling, play, results and returning for another match. Start with Alex’s rotating doubles example or choose a chapter below. <b>Refresh in progress · November 10:</b> this draft has 218 images after consolidating repeated flows. The latest committed design and a frozen snapshot of in-progress screen updates are being checked across the gallery; the final review remains in progress. <a href="current-evidence.md">See progress and audit findings</a>. Tap any screen to step through it full size.</p>
+  <p class="lede">Circuit League on the local iPhone simulator: joining, matchmaking, play, results and returning for another match. Fresh Maestro captures are marked with their app commit; earlier references remain labeled while their replacements are captured. Tap any screen to view it full size. <a href="current-evidence.md">Capture record</a>.</p>
   <p><b>Recommended doubles route:</b> <a href="#availability-venue-depth">Courts and times</a> → <a href="#rotating-doubles-match">Find a group</a> → <a href="#scan">Scan at the courts</a> → <a href="#rotating-scores-complete">Report and confirm</a> → <a href="#team-doubles-complete">Regular partners</a> → <a href="#doubles-change-plans">Changed plans</a> → <a href="#team-challenge-replacement">Replacement time</a> → <a href="#doubles-season-results">Season results</a>. These chapters use separate fictional examples.</p>
-  <div class="people">
-    <div class="person"><span class="av">AR</span><b>Alex</b><span>Chooses shared courts and a useful time, gets a doubles match and meets his group.</span></div>
-    <div class="person"><span class="av">DB</span><b>Drew</b><span>New player. Joins, sets times and courts, starts matchmaking.</span></div>
-    <div class="person"><span class="av">JL</span><b>Jordan</b><span>Newer player. A day without a match brings an invite-a-friend prompt.</span></div>
-    <div class="person"><span class="av">CJ</span><b>Casey</b><span>Established player. Answers offers, reports scores, climbs the board.</span></div>
-  </div>
   <div class="facts" id="facts"></div>
 </header>
 
@@ -154,9 +148,8 @@ dialog#lb[open] { display: grid; grid-template-rows: auto minmax(0, 1fr) auto; }
 
 <footer class="wrap notes">
   <h2>About this tour</h2>
-  <p>Captured October 27–29 and November 2–3 and 8–10, 2026 on an iPhone 17 Pro simulator running iOS 26.4, in Dark appearance at Default app text size. The gallery combines separate fictional sessions and local app revisions. People, matches and safety records are fictional; displayed venue details are test data.</p>
-  <p>The November 10 refresh keeps shared steps in one place and retains format differences: fixed partners, rotating partnerships, team availability and who can confirm scores. Some older designs remain while review continues. This publication does not release the Circuit app or backend.</p>
-  <p>Waiting for a response is an intentional state. The retained images were visually inspected for unintended error banners; a full current-design and accessibility review is still in progress. <a href="current-evidence.md">Progress, audit findings and known gaps</a> · <a href="current-captures.json">Capture list</a> · <a href="archive-20261110-progress.html">Previous publication</a> · <a href="archive-20261110-draft.html">Earlier interim draft</a> · <a href="archive-20261110.html">Original gallery</a></p>
+  <p>Fictional local data on retained iPhone 17 Pro simulators, iOS 26.4, Dark appearance and Default text. Chapters combine separate journeys. Prepared history and special states are starting fixtures, not proof that time passed.</p>
+  <p>Native captures do not establish physical attendance, camera recognition, push/email delivery or external DUPR submission. <a href="current-evidence.md">Evidence and remaining work</a> · <a href="current-captures.json">Every image and its hash</a> · <a href="archive-20261110-progress.html">Previous publication</a> · <a href="archive-20261110-draft.html">Earlier draft</a> · <a href="archive-20261110.html">Original gallery</a></p>
 </footer>
 
 <dialog id="lb" aria-label="Screen viewer" autofocus>
@@ -172,8 +165,9 @@ dialog#lb[open] { display: grid; grid-template-rows: auto minmax(0, 1fr) auto; }
   </div>
 </dialog>
 
+<script src="capture-assets.js?v=20261114a"></script>
 <script>
-const IMAGE_VERSION = '20261110e';
+const IMAGE_VERSION = '20261114a';
 const CHAPTERS = [
   { id: 'join', title: 'Join the League', who: 'Drew joins in the current local app: chooses formats, saves Harborview and Thursday hours, accepts both agreements and starts matchmaking. The shared <a href="#usual-times-current">time editor</a> covers choosing hours.', person: 'Drew', shots: [
     ['nov10-join-landing', 'Before you join', 'Drew’s current League tab explains the free, always-open League, joining time and optional DUPR. Eleven Honolulu players is the fictional count before Drew joins.'],
@@ -546,19 +540,21 @@ const toc = document.getElementById('toc');
 CHAPTERS.forEach((c, ci) => {
   const sec = document.createElement('section');
   sec.className = 'chapter'; sec.id = c.id; sec.setAttribute('aria-labelledby', `${c.id}-h`);
+  const actors = [...new Set(c.shots.map(([id]) => CAPTURE_ASSETS[id]?.actor).filter(Boolean))].join(', ') || c.person;
   const screens = `${c.shots.length} ${c.shots.length === 1 ? 'screen' : 'screens'}`;
-  sec.innerHTML = `<div class="head"><span class="eyebrow tag"><span class="dot" aria-hidden="true"></span>${String(ci + 1).padStart(2, '0')} · ${c.person} · ${screens}</span>
-    <h2 id="${c.id}-h">${c.title}</h2><p class="who">${c.who}</p></div><div class="strip"></div>`;
+  sec.innerHTML = `<div class="head"><span class="eyebrow tag"><span class="dot" aria-hidden="true"></span>${String(ci + 1).padStart(2, '0')} · ${actors} · ${screens}</span>
+    <h2 id="${c.id}-h">${c.title}</h2></div><div class="strip"></div>`;
   const strip = sec.querySelector('.strip');
   for (const [file, t, d] of c.shots) {
     const idx = all.length;
     const n = String(idx + 1).padStart(2, '0');
-    const src = `img/oct26/${file}.webp?v=${IMAGE_VERSION}`;
-    all.push({ n, file, t, d, src, chapter: c.title });
+    const capture = CAPTURE_ASSETS[file];
+    const src = `${capture?.file ?? `img/oct26/${file}.webp`}?v=${IMAGE_VERSION}`;
+    all.push({ n, file, t, d: capture ? `Local capture · ${capture.sourceHead.slice(0, 9)} · ${capture.actor}` : d, src, chapter: c.title });
     const el = document.createElement('article');
     el.className = 'shot'; el.id = `shot-${file}`;
     el.innerHTML = `<button class="img" type="button" aria-label="Open screen ${n}: ${t}"><img loading="${idx < 4 ? 'eager' : 'lazy'}" decoding="async" width="1206" height="2622" src="${src}" alt=""></button>
-      <span class="num">${n}</span><h3>${t}</h3><p>${d}</p>`;
+      <span class="num">${n}</span><h3>${t}</h3><p>${capture ? `Captured ${capture.sourceHead.slice(0, 9)}` : 'Earlier reference · refresh pending'}</p>`;
     el.querySelector('button.img').addEventListener('click', () => openLb(idx));
     strip.appendChild(el);
   }
