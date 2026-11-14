@@ -137,7 +137,7 @@ dialog#lb[open] { display: grid; grid-template-rows: auto minmax(0, 1fr) auto; }
 <header class="wrap top">
   <span class="eyebrow">Circuit Pickleball · Circuit League · iPhone</span>
   <h1>Circuit League, screen by screen</h1>
-  <p class="lede">Circuit League on the local iPhone simulator: joining, matchmaking, play, results and returning for another match. Fresh Maestro captures are marked with their app commit; earlier references remain labeled while their replacements are captured. Tap any screen to view it full size. <a href="current-evidence.md">Capture record</a>.</p>
+  <p class="lede">Circuit League on the local iPhone simulator: joining, matchmaking, play, results and returning for another match. All 219 screens are refreshed Maestro captures, marked with their app commit. Tap any screen to view it full size. <a href="current-evidence.md">Capture record</a>.</p>
   <p><b>Recommended doubles route:</b> <a href="#availability-venue-depth">Courts and times</a> → <a href="#rotating-doubles-match">Find a group</a> → <a href="#scan">Scan at the courts</a> → <a href="#rotating-scores-complete">Report and confirm</a> → <a href="#team-doubles-complete">Regular partners</a> → <a href="#doubles-change-plans">Changed plans</a> → <a href="#team-challenge-replacement">Replacement time</a> → <a href="#doubles-season-results">Season results</a>. These chapters use separate fictional examples.</p>
   <div class="facts" id="facts"></div>
 </header>
@@ -165,9 +165,9 @@ dialog#lb[open] { display: grid; grid-template-rows: auto minmax(0, 1fr) auto; }
   </div>
 </dialog>
 
-<script src="capture-assets.js?v=20261115h"></script>
+<script src="capture-assets.js?v=20261115i"></script>
 <script>
-const IMAGE_VERSION = '20261115h';
+const IMAGE_VERSION = '20261115i';
 const CHAPTERS = [
   { id: 'join', title: 'Join the League', who: 'Drew joins in the current local app: chooses formats, saves Harborview and Thursday hours, accepts both agreements and starts matchmaking. The shared <a href="#usual-times-current">time editor</a> covers choosing hours.', person: 'Drew', shots: [
     ['nov10-join-landing', 'Before you join', 'Drew’s current League tab explains the free, always-open League, joining time and optional DUPR. Eleven Honolulu players is the fictional count before Drew joins.'],
@@ -501,7 +501,7 @@ const CHAPTERS = [
   ]},
   { id: 'join-notifications-current', title: 'Notifications after joining', who: 'Drew encounters two consecutive notification asks while starting matchmaking. Both are captured from the same current local setup; this repetition is included in the UX audit.', person: 'Drew', shots: [
     ['nov10-join-notifications', 'Hear about match offers?', 'Before matchmaking starts, Drew sees Hear about match offers? and chooses Not now. The prompt says a notification-dependent offer can be missed.'],
-    ['nov10-notification-repeat', 'A second notification ask', 'Immediately after the first Not now, Drew reaches League home and sees another Turn on notifications? sheet. Drew chooses Not now again; both searches remain on. The two asks use separate device-local reminder records.'],
+    ['nov10-notification-repeat', 'After Not now', 'Immediately after the first Not now, Drew reaches League home and sees another Turn on notifications? sheet. Drew chooses Not now again; both searches remain on. The two asks use separate device-local reminder records.'],
   ]},
   { id: 'team-cancel-earlier', title: 'A partner cancels a team match', who: 'Ben checks a fictional Team doubles cancellation.', person: 'Alex and Ben', shots: [
     ['nov10-partner-cancelled', 'A partner cancels', 'On Ben’s separate simulator, the current cancelled Sunday match names Alex as the canceller and says their team search is off. Ben then uses Search again; the app says the search is on and the database confirms it. Chris and Diego’s search had already resumed automatically; their phone is not shown.'],
