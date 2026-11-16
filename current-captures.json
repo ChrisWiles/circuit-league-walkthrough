@@ -10,7 +10,7 @@
   "systemContentSize": "large (iOS default)"
  },
  "data": "Fictional local fixtures",
- "count": 219,
+ "count": 218,
  "screens": [
   {
    "n": 1,
@@ -523,22 +523,22 @@
    "chapter": "Booking and permissions",
    "person": "Alex",
    "title": "Match booked",
-   "file": "img/captures/0c8aea929/nov09-current-jade-matcher-detail-12f1c0fb6a3f.webp",
+   "file": "img/captures/0c8aea929/nov09-current-jade-matcher-detail-97eba3f637b1.webp",
    "source": "nov09-current-jade-matcher-detail.png",
    "status": "reviewed-native-capture",
    "capture": {
-    "file": "img/captures/0c8aea929/nov09-current-jade-matcher-detail-12f1c0fb6a3f.webp",
+    "file": "img/captures/0c8aea929/nov09-current-jade-matcher-detail-97eba3f637b1.webp",
     "sourceHead": "0c8aea92908f879481168ac06c58627773278dd0",
     "stage": "booked",
     "actor": "Alex",
-    "capturedAt": "2026-11-16T02:02:00.721Z",
+    "capturedAt": "2026-11-16T03:32:27.160Z",
     "evidenceLevel": "ui-read-after-server-transition",
-    "originalSha256": "12f1c0fb6a3f2df4c017374f5673c143cab5696fe59d2f9286eb6d5e7abdf0c9",
-    "sha256": "f62f53f65772742ccd6972a69f95f5c4986de0a5b31e4342d9b6626935dbb169",
+    "originalSha256": "97eba3f637b1eed07c4750901b1e3a050e14efb729b1039589d2af3590e80de3",
+    "sha256": "2ab0b35e82a80e972174c59dc91b414880fe118b187b9004650934c0df6fc498",
     "profile": "ios-dark-default",
     "review": "accepted"
    },
-   "sha256": "f62f53f65772742ccd6972a69f95f5c4986de0a5b31e4342d9b6626935dbb169"
+   "sha256": "2ab0b35e82a80e972174c59dc91b414880fe118b187b9004650934c0df6fc498"
   },
   {
    "n": 25,
@@ -941,88 +941,88 @@
    "chapter": "Cancelling a match",
    "person": "Alex",
    "title": "Inside the late window",
-   "file": "img/captures/0c8aea929/nov10-cancel-late-sheet-7300870d889a.webp",
+   "file": "img/captures/0c8aea929/nov10-cancel-late-sheet-9961d6bf6d33.webp",
    "source": "nov10-cancel-late-sheet.png",
    "status": "reviewed-native-capture",
    "capture": {
-    "file": "img/captures/0c8aea929/nov10-cancel-late-sheet-7300870d889a.webp",
+    "file": "img/captures/0c8aea929/nov10-cancel-late-sheet-9961d6bf6d33.webp",
     "sourceHead": "0c8aea92908f879481168ac06c58627773278dd0",
     "stage": "release-request",
     "actor": "Alex",
-    "capturedAt": "2026-11-16T02:09:42.530Z",
+    "capturedAt": "2026-11-16T03:53:27.734Z",
     "evidenceLevel": "ui-transition",
-    "originalSha256": "7300870d889ad334ee8c48ffcfca5094a2ec76b1a0ebbaac58ed34b5867af2db",
-    "sha256": "bc9a1693c65a55bd9fcbb15a02daf92ecd79226da32121dda97fca2da96c5dc2",
+    "originalSha256": "9961d6bf6d33b03c89dde249ceac419ae16e382b5445b64ebc8624b611d91d13",
+    "sha256": "92a03963c0502685732f3cd32cd19ac9ee05f520df537e0901f9e18b222448ca",
     "profile": "ios-dark-default",
     "review": "accepted"
    },
-   "sha256": "bc9a1693c65a55bd9fcbb15a02daf92ecd79226da32121dda97fca2da96c5dc2"
+   "sha256": "92a03963c0502685732f3cd32cd19ac9ee05f520df537e0901f9e18b222448ca"
   },
   {
    "n": 44,
    "chapter": "Cancelling a match",
    "person": "Alex",
    "title": "Waiting for Ben",
-   "file": "img/captures/0c8aea929/nov10-cancel-together-pending-8cc508fefe00.webp",
+   "file": "img/captures/0c8aea929/nov10-cancel-together-pending-43bd29421a0c.webp",
    "source": "nov10-cancel-together-pending.png",
    "status": "reviewed-native-capture",
    "capture": {
-    "file": "img/captures/0c8aea929/nov10-cancel-together-pending-8cc508fefe00.webp",
+    "file": "img/captures/0c8aea929/nov10-cancel-together-pending-43bd29421a0c.webp",
     "sourceHead": "0c8aea92908f879481168ac06c58627773278dd0",
     "stage": "release-request",
     "actor": "Alex",
-    "capturedAt": "2026-11-16T02:09:42.530Z",
+    "capturedAt": "2026-11-16T03:53:27.734Z",
     "evidenceLevel": "ui-transition",
-    "originalSha256": "8cc508fefe005d118ff1a74a3a757e6a8793000263f2dfaa1bbdb1c835f9cf31",
-    "sha256": "3c307eef1a8de3cbcf58c30293933d2f13e542780884a17ae13496fa8bc4ceae",
+    "originalSha256": "43bd29421a0c48fec3d3e9406e40a4bb7f74b944208c3e7c2fec3ee4978dfc3c",
+    "sha256": "8fcac24f81e41af65d05a651c1d48f7f4d6ed07a6097c1038ac12aedd15ff55a",
     "profile": "ios-dark-default",
     "review": "accepted"
    },
-   "sha256": "3c307eef1a8de3cbcf58c30293933d2f13e542780884a17ae13496fa8bc4ceae"
+   "sha256": "8fcac24f81e41af65d05a651c1d48f7f4d6ed07a6097c1038ac12aedd15ff55a"
   },
   {
    "n": 45,
    "chapter": "Cancelling a match",
    "person": "Ben",
    "title": "Ben responds",
-   "file": "img/captures/0c8aea929/nov10-cancel-together-other-9524a4f62c35.webp",
+   "file": "img/captures/0c8aea929/nov10-cancel-together-other-f6696a914e16.webp",
    "source": "nov10-cancel-together-other.png",
    "status": "reviewed-native-capture",
    "capture": {
-    "file": "img/captures/0c8aea929/nov10-cancel-together-other-9524a4f62c35.webp",
+    "file": "img/captures/0c8aea929/nov10-cancel-together-other-f6696a914e16.webp",
     "sourceHead": "0c8aea92908f879481168ac06c58627773278dd0",
     "stage": "release-other",
     "actor": "Ben",
-    "capturedAt": "2026-11-16T02:11:03.542Z",
+    "capturedAt": "2026-11-16T03:54:45.933Z",
     "evidenceLevel": "ui-read-after-server-transition",
-    "originalSha256": "9524a4f62c355bd136d9e00e91c899446565f503a257e4f72bba4541715253aa",
-    "sha256": "cb18e373e8a1d8c56f1d1a09aaf5554383ec79182f981930df38db15139a2ac2",
+    "originalSha256": "f6696a914e16cfe14bb61655197e90a48c91591dd048455067d74065d3e32f38",
+    "sha256": "52fb9ea8bf0e9ecc2aeade83f03d45d9f46b4a4fc5f88c54674ec3d2cbd43b4b",
     "profile": "ios-dark-default",
     "review": "accepted"
    },
-   "sha256": "cb18e373e8a1d8c56f1d1a09aaf5554383ec79182f981930df38db15139a2ac2"
+   "sha256": "52fb9ea8bf0e9ecc2aeade83f03d45d9f46b4a4fc5f88c54674ec3d2cbd43b4b"
   },
   {
    "n": 46,
    "chapter": "Cancelling a match",
    "person": "Alex",
    "title": "Called off by agreement",
-   "file": "img/captures/0c8aea929/nov10-faa-calloff-final-91cd52e92971.webp",
+   "file": "img/captures/0c8aea929/nov10-faa-calloff-final-ebd4b30b9971.webp",
    "source": "nov10-faa-calloff-final.png",
    "status": "reviewed-native-capture",
    "capture": {
-    "file": "img/captures/0c8aea929/nov10-faa-calloff-final-91cd52e92971.webp",
+    "file": "img/captures/0c8aea929/nov10-faa-calloff-final-ebd4b30b9971.webp",
     "sourceHead": "0c8aea92908f879481168ac06c58627773278dd0",
     "stage": "calloff-final",
     "actor": "Alex",
-    "capturedAt": "2026-11-16T02:12:27.837Z",
+    "capturedAt": "2026-11-16T03:56:12.690Z",
     "evidenceLevel": "ui-read-after-server-transition",
-    "originalSha256": "91cd52e9297199958d09a4bc6d6cdf321d4dbd757898a081915e084d3623e783",
-    "sha256": "7b0de068ac430e8c6038d595f1595f834cbe1a7edb8f78583891dddb418ca8f0",
+    "originalSha256": "ebd4b30b9971e7560b06b5192f50ed3d9a818ac7dc62277067ffbfa1e4d0bc3f",
+    "sha256": "732f9099edb23e702c4cde813503a6a946badf399826e71baa3590abe63de6ee",
     "profile": "ios-dark-default",
     "review": "accepted"
    },
-   "sha256": "7b0de068ac430e8c6038d595f1595f834cbe1a7edb8f78583891dddb418ca8f0"
+   "sha256": "732f9099edb23e702c4cde813503a6a946badf399826e71baa3590abe63de6ee"
   },
   {
    "n": 47,
@@ -1050,111 +1050,111 @@
    "n": 48,
    "chapter": "When someone doesn’t come",
    "person": "Alex",
-   "title": "Someone didn’t come?",
-   "file": "img/captures/0c8aea929/nov10-absence-sheet-ad1e5d794bbb.webp",
+   "title": "Someone didn’t come",
+   "file": "img/captures/0c8aea929/nov10-absence-sheet-8adc35892999.webp",
    "source": "nov10-absence-sheet.png",
    "status": "reviewed-native-capture",
    "capture": {
-    "file": "img/captures/0c8aea929/nov10-absence-sheet-ad1e5d794bbb.webp",
+    "file": "img/captures/0c8aea929/nov10-absence-sheet-8adc35892999.webp",
     "sourceHead": "0c8aea92908f879481168ac06c58627773278dd0",
     "stage": "absence",
     "actor": "Alex",
-    "capturedAt": "2026-11-16T02:14:51.169Z",
+    "capturedAt": "2026-11-16T03:48:15.337Z",
     "evidenceLevel": "ui-transition",
-    "originalSha256": "ad1e5d794bbb2a7d4159cd8ea183d0e5a652b322e14c3f336ee527111d346533",
-    "sha256": "1df6aa0cc98194715886d3f6a3bb4786065745be4cfd79088f32bf49f09c3383",
+    "originalSha256": "8adc35892999c88238e604e9eafb81211f37d20f5b988a04b77dbfbf8ef27d7b",
+    "sha256": "de9874c601291923f3cb50772ea9759e16f30d909e04a7718f046b6abb970478",
     "profile": "ios-dark-default",
     "review": "accepted"
    },
-   "sha256": "1df6aa0cc98194715886d3f6a3bb4786065745be4cfd79088f32bf49f09c3383"
+   "sha256": "de9874c601291923f3cb50772ea9759e16f30d909e04a7718f046b6abb970478"
   },
   {
    "n": 49,
    "chapter": "When someone doesn’t come",
    "person": "Alex",
    "title": "Reported as not played",
-   "file": "img/captures/0c8aea929/nov10-faa-absence-final-acb29136f534.webp",
+   "file": "img/captures/0c8aea929/nov10-faa-absence-final-5ba510414fe9.webp",
    "source": "nov10-faa-absence-final.png",
    "status": "reviewed-native-capture",
    "capture": {
-    "file": "img/captures/0c8aea929/nov10-faa-absence-final-acb29136f534.webp",
+    "file": "img/captures/0c8aea929/nov10-faa-absence-final-5ba510414fe9.webp",
     "sourceHead": "0c8aea92908f879481168ac06c58627773278dd0",
     "stage": "absence",
     "actor": "Alex",
-    "capturedAt": "2026-11-16T02:14:51.169Z",
+    "capturedAt": "2026-11-16T03:48:15.337Z",
     "evidenceLevel": "ui-transition",
-    "originalSha256": "acb29136f53413be30c81632dfa781c47e9b99810b7f44c6f7f544a543c25dc9",
-    "sha256": "7c74126050e8099d43ad521c8d5227c177ee2f0d7197deef68bff8595aa4fd7d",
+    "originalSha256": "5ba510414fe91553abb5c171df4b32e9b5829f6024c58f9d52b71b843fd5246a",
+    "sha256": "02ad8757d2129ad7610852e7e40f110d7c576e3c281127ec2ba91ce8bf36bc90",
     "profile": "ios-dark-default",
     "review": "accepted"
    },
-   "sha256": "7c74126050e8099d43ad521c8d5227c177ee2f0d7197deef68bff8595aa4fd7d"
+   "sha256": "02ad8757d2129ad7610852e7e40f110d7c576e3c281127ec2ba91ce8bf36bc90"
   },
   {
    "n": 50,
    "chapter": "When someone doesn’t come",
    "person": "Ben",
    "title": "Ben’s side",
-   "file": "img/captures/0c8aea929/nov10-absence-opponent-52c8a7aaf2f7.webp",
+   "file": "img/captures/0c8aea929/nov10-absence-opponent-a714d00b940b.webp",
    "source": "nov10-absence-opponent.png",
    "status": "reviewed-native-capture",
    "capture": {
-    "file": "img/captures/0c8aea929/nov10-absence-opponent-52c8a7aaf2f7.webp",
+    "file": "img/captures/0c8aea929/nov10-absence-opponent-a714d00b940b.webp",
     "sourceHead": "0c8aea92908f879481168ac06c58627773278dd0",
     "stage": "absence-opponent",
     "actor": "Ben",
-    "capturedAt": "2026-11-16T02:16:15.748Z",
+    "capturedAt": "2026-11-16T03:49:41.108Z",
     "evidenceLevel": "ui-read-after-server-transition",
-    "originalSha256": "52c8a7aaf2f79eede321edadf377c124cfd1b2e210d73596f6df6cd3003ddf73",
-    "sha256": "98156323a3259068720010038bec7ad7671d6e38a1f317a3653f3cf07fed230b",
+    "originalSha256": "a714d00b940b692ec5ce8d323bdb04fc6a72f4de4916da2f7f3c424a621b008b",
+    "sha256": "5388df7eea0f7098bd2afc2a9a10c9a353fa041f1b8384c441b6a6c504854e91",
     "profile": "ios-dark-default",
     "review": "accepted"
    },
-   "sha256": "98156323a3259068720010038bec7ad7671d6e38a1f317a3653f3cf07fed230b"
+   "sha256": "5388df7eea0f7098bd2afc2a9a10c9a353fa041f1b8384c441b6a6c504854e91"
   },
   {
    "n": 51,
    "chapter": "When someone doesn’t come",
    "person": "Ben",
    "title": "Answer the report",
-   "file": "img/captures/0c8aea929/nov10-absence-answer-8e71d15e5860.webp",
+   "file": "img/captures/0c8aea929/nov10-absence-answer-f217ab67b9bf.webp",
    "source": "nov10-absence-answer.png",
    "status": "reviewed-native-capture",
    "capture": {
-    "file": "img/captures/0c8aea929/nov10-absence-answer-8e71d15e5860.webp",
+    "file": "img/captures/0c8aea929/nov10-absence-answer-f217ab67b9bf.webp",
     "sourceHead": "0c8aea92908f879481168ac06c58627773278dd0",
     "stage": "absence-answer",
     "actor": "Ben",
-    "capturedAt": "2026-11-16T02:17:17.425Z",
+    "capturedAt": "2026-11-16T03:50:41.853Z",
     "evidenceLevel": "ui-transition",
-    "originalSha256": "8e71d15e5860022a0eb231f8947cba0cfabfa15474c2ab0ca8d430355fb1bd05",
-    "sha256": "e94c098848a56911e9de0a246e13277fccfc148fa4ef6cb0ba55c050f2a1fd4d",
+    "originalSha256": "f217ab67b9bfd4ac671ed9427f12cc46856ed98e6bb073ce904c1ce2a2af9fbb",
+    "sha256": "3ff3a375b302f18f7d2f9cb9519bcbed34bbe486052b7c7e0310047d9e166de9",
     "profile": "ios-dark-default",
     "review": "accepted"
    },
-   "sha256": "e94c098848a56911e9de0a246e13277fccfc148fa4ef6cb0ba55c050f2a1fd4d"
+   "sha256": "3ff3a375b302f18f7d2f9cb9519bcbed34bbe486052b7c7e0310047d9e166de9"
   },
   {
    "n": 52,
    "chapter": "When someone doesn’t come",
    "person": "Ben",
    "title": "Answer sent",
-   "file": "img/captures/0c8aea929/nov10-absence-sent-a69170cbc5e1.webp",
+   "file": "img/captures/0c8aea929/nov10-absence-sent-acddae1c1ce0.webp",
    "source": "nov10-absence-sent.png",
    "status": "reviewed-native-capture",
    "capture": {
-    "file": "img/captures/0c8aea929/nov10-absence-sent-a69170cbc5e1.webp",
+    "file": "img/captures/0c8aea929/nov10-absence-sent-acddae1c1ce0.webp",
     "sourceHead": "0c8aea92908f879481168ac06c58627773278dd0",
     "stage": "absence-answer",
     "actor": "Ben",
-    "capturedAt": "2026-11-16T02:17:17.425Z",
+    "capturedAt": "2026-11-16T03:50:41.853Z",
     "evidenceLevel": "ui-transition",
-    "originalSha256": "a69170cbc5e17a67cec3ba360db507239d86173d81396f4ffd82d26339e4e4d8",
-    "sha256": "0991e76b1e70caf36e7623a3b5382a5b9aaedbc3ffa6b2e13d9e967e40e3d881",
+    "originalSha256": "acddae1c1ce082c2cfc17e339b58461a8e47713fa3b59a19d6094bed7ce16b14",
+    "sha256": "b1a109066f26d0027d8b4296b20a980084ef41240b77526a9bd3e3dea9cf0afa",
     "profile": "ios-dark-default",
     "review": "accepted"
    },
-   "sha256": "0991e76b1e70caf36e7623a3b5382a5b9aaedbc3ffa6b2e13d9e967e40e3d881"
+   "sha256": "b1a109066f26d0027d8b4296b20a980084ef41240b77526a9bd3e3dea9cf0afa"
   },
   {
    "n": 53,
@@ -1183,66 +1183,66 @@
    "chapter": "Report and review a score",
    "person": "Alex",
    "title": "Score sent on home",
-   "file": "img/captures/0c8aea929/nov09-priya-score-sent-home-757866b7297d.webp",
+   "file": "img/captures/0c8aea929/nov09-priya-score-sent-home-3ca73078324a.webp",
    "source": "nov09-priya-score-sent-home.png",
    "status": "reviewed-native-capture",
    "capture": {
-    "file": "img/captures/0c8aea929/nov09-priya-score-sent-home-757866b7297d.webp",
+    "file": "img/captures/0c8aea929/nov09-priya-score-sent-home-3ca73078324a.webp",
     "sourceHead": "0c8aea92908f879481168ac06c58627773278dd0",
     "stage": "score-sent-home",
     "actor": "Alex",
-    "capturedAt": "2026-11-16T02:24:05.273Z",
+    "capturedAt": "2026-11-16T03:42:38.089Z",
     "evidenceLevel": "ui-read-after-server-transition",
-    "originalSha256": "757866b7297dd57537ed65c4c76bbce6cb463d649bdb518ed3d6ece2421336a4",
-    "sha256": "6640cd176457b6f8a1dfa8b82f776a6796a976dcfd2d3640ed7a7e724be77c92",
+    "originalSha256": "3ca73078324ab00c30e9580ddfec21dc8fdd7b8b5abc35ff593c0760f759df51",
+    "sha256": "03b476d59e1f7e428d0d3fc51b8254f4f04360f608fb6c12503b3cf4d9e452af",
     "profile": "ios-dark-default",
     "review": "accepted"
    },
-   "sha256": "6640cd176457b6f8a1dfa8b82f776a6796a976dcfd2d3640ed7a7e724be77c92"
+   "sha256": "03b476d59e1f7e428d0d3fc51b8254f4f04360f608fb6c12503b3cf4d9e452af"
   },
   {
    "n": 55,
    "chapter": "Report and review a score",
    "person": "Alex",
    "title": "Enter one game",
-   "file": "img/captures/0c8aea929/nov10-singles-score-draft-52044c4f8d27.webp",
+   "file": "img/captures/0c8aea929/nov10-singles-score-draft-922fb848c9ad.webp",
    "source": "nov10-singles-score-draft.png",
    "status": "reviewed-native-capture",
    "capture": {
-    "file": "img/captures/0c8aea929/nov10-singles-score-draft-52044c4f8d27.webp",
+    "file": "img/captures/0c8aea929/nov10-singles-score-draft-922fb848c9ad.webp",
     "sourceHead": "0c8aea92908f879481168ac06c58627773278dd0",
     "stage": "report",
     "actor": "Alex",
-    "capturedAt": "2026-11-16T02:03:27.528Z",
+    "capturedAt": "2026-11-16T03:33:55.562Z",
     "evidenceLevel": "ui-transition",
-    "originalSha256": "52044c4f8d278aa6f880e189b93becbeac806239729d74e5016e84cb59863b45",
-    "sha256": "fc9e7d9a7e73fd4aa87bb771e86bc3754e1bb3e7c0912090fb63a9215c55dd18",
+    "originalSha256": "922fb848c9adac8b98da16ebfbabf934b81215ab4eb16268bf868686f4d91163",
+    "sha256": "d3250467ac51ed2c46ec67e7195d3d1df562b64dab584aa3b6a5560bc3936de3",
     "profile": "ios-dark-default",
     "review": "accepted"
    },
-   "sha256": "fc9e7d9a7e73fd4aa87bb771e86bc3754e1bb3e7c0912090fb63a9215c55dd18"
+   "sha256": "d3250467ac51ed2c46ec67e7195d3d1df562b64dab584aa3b6a5560bc3936de3"
   },
   {
    "n": 56,
    "chapter": "Report and review a score",
    "person": "Alex",
    "title": "Score sent · Alex",
-   "file": "img/captures/4a119befc/nov10-singles-score-sent-d34032e3737c.webp",
+   "file": "img/captures/0c8aea929/nov10-singles-score-sent-81464f2634a2.webp",
    "source": "nov10-singles-score-sent.png",
    "status": "reviewed-native-capture",
    "capture": {
-    "file": "img/captures/4a119befc/nov10-singles-score-sent-d34032e3737c.webp",
-    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "file": "img/captures/0c8aea929/nov10-singles-score-sent-81464f2634a2.webp",
+    "sourceHead": "0c8aea92908f879481168ac06c58627773278dd0",
     "stage": "reported",
     "actor": "Alex",
-    "capturedAt": "2026-11-14T16:17:02.320Z",
+    "capturedAt": "2026-11-16T03:34:40.164Z",
     "evidenceLevel": "ui-read",
-    "originalSha256": "d34032e3737cf053b27340f4122671f7d9df7ae6a71bd0f883cc1cf97bbd25fa",
-    "sha256": "a2542259918deaa654a93bd356f678cf660bf77c80df1e9f15d9047b18252766",
+    "originalSha256": "81464f2634a2530e28427783d85ec7290162c85ed05415a7133273f9e6076274",
+    "sha256": "59596166c6e8764edb4ad492f91dc715241b29332e675c6e1f0757840b098650",
     "profile": "ios-dark-default",
     "review": "accepted"
    },
-   "sha256": "a2542259918deaa654a93bd356f678cf660bf77c80df1e9f15d9047b18252766"
+   "sha256": "59596166c6e8764edb4ad492f91dc715241b29332e675c6e1f0757840b098650"
   },
   {
    "n": 57,
@@ -1336,114 +1336,92 @@
    "n": 61,
    "chapter": "Correct a sent score",
    "person": "Alex",
-   "title": "Fix a sent score",
-   "file": "img/captures/4a119befc/nov10-singles-correction-pending-d34032e3737c.webp",
-   "source": "nov10-singles-correction-pending.png",
+   "title": "Change the score",
+   "file": "img/captures/0c8aea929/nov10-singles-correction-draft-456387895db6.webp",
+   "source": "nov10-singles-correction-draft.png",
    "status": "reviewed-native-capture",
    "capture": {
-    "file": "img/captures/4a119befc/nov10-singles-correction-pending-d34032e3737c.webp",
-    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
-    "stage": "reported",
+    "file": "img/captures/0c8aea929/nov10-singles-correction-draft-456387895db6.webp",
+    "sourceHead": "0c8aea92908f879481168ac06c58627773278dd0",
+    "stage": "correction-send",
     "actor": "Alex",
-    "capturedAt": "2026-11-14T16:17:02.320Z",
-    "evidenceLevel": "ui-read",
-    "originalSha256": "d34032e3737cf053b27340f4122671f7d9df7ae6a71bd0f883cc1cf97bbd25fa",
-    "sha256": "a2542259918deaa654a93bd356f678cf660bf77c80df1e9f15d9047b18252766",
+    "capturedAt": "2026-11-16T03:43:44.968Z",
+    "evidenceLevel": "ui-transition",
+    "originalSha256": "456387895db626c8683ce9a6142c9c2fcf546880dd84e5b1b744581b5195c3f5",
+    "sha256": "cf452db29957abc119d514fc083a0aea97ef7fa475c9943c54ea14ef7a98d811",
     "profile": "ios-dark-default",
     "review": "accepted"
    },
-   "sha256": "a2542259918deaa654a93bd356f678cf660bf77c80df1e9f15d9047b18252766"
+   "sha256": "cf452db29957abc119d514fc083a0aea97ef7fa475c9943c54ea14ef7a98d811"
   },
   {
    "n": 62,
    "chapter": "Correct a sent score",
    "person": "Alex",
-   "title": "Change the score",
-   "file": "img/captures/0c8aea929/nov10-singles-correction-draft-9e8373f76a51.webp",
-   "source": "nov10-singles-correction-draft.png",
+   "title": "Corrected score sent",
+   "file": "img/captures/0c8aea929/nov10-singles-correction-sent-007bf67bd874.webp",
+   "source": "nov10-singles-correction-sent.png",
    "status": "reviewed-native-capture",
    "capture": {
-    "file": "img/captures/0c8aea929/nov10-singles-correction-draft-9e8373f76a51.webp",
+    "file": "img/captures/0c8aea929/nov10-singles-correction-sent-007bf67bd874.webp",
     "sourceHead": "0c8aea92908f879481168ac06c58627773278dd0",
     "stage": "correction-send",
     "actor": "Alex",
-    "capturedAt": "2026-11-16T02:25:11.251Z",
+    "capturedAt": "2026-11-16T03:43:44.968Z",
     "evidenceLevel": "ui-transition",
-    "originalSha256": "9e8373f76a51dc06ab23418f6782403da802db5941c752d908a78dc3f746e5f2",
-    "sha256": "2c88f73cdc5e800f6a426d43bf5a3840474276fae362ab4e7fd3b905ed138b37",
+    "originalSha256": "007bf67bd8740049db4c3dc8b1a36fff0f678af33aea07fc24a70c4f48668421",
+    "sha256": "ce303d04f4ab2823b9c1263b35a0f08e01aaf7485e76412ccb2c18c788a65d6e",
     "profile": "ios-dark-default",
     "review": "accepted"
    },
-   "sha256": "2c88f73cdc5e800f6a426d43bf5a3840474276fae362ab4e7fd3b905ed138b37"
+   "sha256": "ce303d04f4ab2823b9c1263b35a0f08e01aaf7485e76412ccb2c18c788a65d6e"
   },
   {
    "n": 63,
    "chapter": "Correct a sent score",
-   "person": "Alex",
-   "title": "Corrected score sent",
-   "file": "img/captures/0c8aea929/nov10-singles-correction-sent-4f2e8ec4fa24.webp",
-   "source": "nov10-singles-correction-sent.png",
+   "person": "Ben",
+   "title": "Ben reviews the correction",
+   "file": "img/captures/0c8aea929/nov10-singles-correction-review-a09a9ccba7ed.webp",
+   "source": "nov10-singles-correction-review.png",
    "status": "reviewed-native-capture",
    "capture": {
-    "file": "img/captures/0c8aea929/nov10-singles-correction-sent-4f2e8ec4fa24.webp",
+    "file": "img/captures/0c8aea929/nov10-singles-correction-review-a09a9ccba7ed.webp",
     "sourceHead": "0c8aea92908f879481168ac06c58627773278dd0",
-    "stage": "correction-send",
-    "actor": "Alex",
-    "capturedAt": "2026-11-16T02:25:11.251Z",
-    "evidenceLevel": "ui-transition",
-    "originalSha256": "4f2e8ec4fa246f1a394c13bd74f5c87ff0d4b57aab34d617ba59cd7015af5f80",
-    "sha256": "9749fd10abb46a69346472d6f8c5251d96346327cfbc51d53c7ff4bb85709f04",
+    "stage": "correction-review",
+    "actor": "Ben",
+    "capturedAt": "2026-11-16T03:45:11.648Z",
+    "evidenceLevel": "ui-read-after-server-transition",
+    "originalSha256": "a09a9ccba7ed2c6657a9015a7b78a09305d2118f16549e36bbd4c4f63cdb043a",
+    "sha256": "0493e3888e53262dd90f4e91b5ca1c87fd352bb0a7c8a6fb006543b4a0bbec68",
     "profile": "ios-dark-default",
     "review": "accepted"
    },
-   "sha256": "9749fd10abb46a69346472d6f8c5251d96346327cfbc51d53c7ff4bb85709f04"
+   "sha256": "0493e3888e53262dd90f4e91b5ca1c87fd352bb0a7c8a6fb006543b4a0bbec68"
   },
   {
    "n": 64,
    "chapter": "Correct a sent score",
    "person": "Ben",
-   "title": "Ben reviews the correction",
-   "file": "img/captures/0c8aea929/nov10-singles-correction-review-51c461b6ac74.webp",
-   "source": "nov10-singles-correction-review.png",
-   "status": "reviewed-native-capture",
-   "capture": {
-    "file": "img/captures/0c8aea929/nov10-singles-correction-review-51c461b6ac74.webp",
-    "sourceHead": "0c8aea92908f879481168ac06c58627773278dd0",
-    "stage": "correction-review",
-    "actor": "Ben",
-    "capturedAt": "2026-11-16T02:26:36.127Z",
-    "evidenceLevel": "ui-read-after-server-transition",
-    "originalSha256": "51c461b6ac74e64e7056fed0bd4834d1c5620268e6a1fcaa2bd559eb66dce63f",
-    "sha256": "3a58fc7816522a08508b124e5493b4dbe298209a877eb37fa883e9e7eb8da13f",
-    "profile": "ios-dark-default",
-    "review": "accepted"
-   },
-   "sha256": "3a58fc7816522a08508b124e5493b4dbe298209a877eb37fa883e9e7eb8da13f"
-  },
-  {
-   "n": 65,
-   "chapter": "Correct a sent score",
-   "person": "Ben",
    "title": "The corrected result",
-   "file": "img/captures/0c8aea929/nov10-singles-correction-final-a293a412f475.webp",
+   "file": "img/captures/0c8aea929/nov10-singles-correction-final-424fc4f2a39c.webp",
    "source": "nov10-singles-correction-final.png",
    "status": "reviewed-native-capture",
    "capture": {
-    "file": "img/captures/0c8aea929/nov10-singles-correction-final-a293a412f475.webp",
+    "file": "img/captures/0c8aea929/nov10-singles-correction-final-424fc4f2a39c.webp",
     "sourceHead": "0c8aea92908f879481168ac06c58627773278dd0",
     "stage": "correction-confirm",
     "actor": "Ben",
-    "capturedAt": "2026-11-16T02:27:28.030Z",
+    "capturedAt": "2026-11-16T03:46:03.582Z",
     "evidenceLevel": "ui-transition",
-    "originalSha256": "a293a412f4750484b5dd0e2c002527d1460fb286e694a2a0a04c46884e6772bc",
-    "sha256": "f7e03e88f2b3cfc530c9375d0e0625da510b234470fabbda3b3ac29d6195efd2",
+    "originalSha256": "424fc4f2a39c3f44f256b5476835abd04a34f31341de850d9078bcf5fb4b47ca",
+    "sha256": "0c24e939f4769c7cd34346af3879a13837ba3f5cfda0f9b6fd56744839eb0612",
     "profile": "ios-dark-default",
     "review": "accepted"
    },
-   "sha256": "f7e03e88f2b3cfc530c9375d0e0625da510b234470fabbda3b3ac29d6195efd2"
+   "sha256": "0c24e939f4769c7cd34346af3879a13837ba3f5cfda0f9b6fd56744839eb0612"
   },
   {
-   "n": 66,
+   "n": 65,
    "chapter": "Your season",
    "person": "Alex",
    "title": "Your season at a glance",
@@ -1465,7 +1443,7 @@
    "sha256": "a813568d4c78ce62e7e05e27af67e948be6f6ec19a93edfdf3983913304770b4"
   },
   {
-   "n": 67,
+   "n": 66,
    "chapter": "Your season",
    "person": "Alex",
    "title": "Open the season",
@@ -1487,7 +1465,7 @@
    "sha256": "92bd3e05ddea4dc5ca02739ddb2cdba44dc0b2444dc532f0b1a335ec3bbb2a13"
   },
   {
-   "n": 68,
+   "n": 67,
    "chapter": "Your season",
    "person": "Alex",
    "title": "The DUPR observations",
@@ -1509,7 +1487,7 @@
    "sha256": "a416aa6309927a8e4a0bfdff2bdbbf6773c03730a4362fb1be54233de11ea320"
   },
   {
-   "n": 69,
+   "n": 68,
    "chapter": "Your season",
    "person": "Alex",
    "title": "Share your season",
@@ -1531,7 +1509,7 @@
    "sha256": "c0202593a73b48a6809235ffeb832dc09f28d1032eecc3ea0dfd3874cfda8ecf"
   },
   {
-   "n": 70,
+   "n": 69,
    "chapter": "Your season",
    "person": "Alex",
    "title": "Standings from a weekly recap",
@@ -1553,7 +1531,7 @@
    "sha256": "e7b39ddf9ce438389675bf6e2a3bf61ca67dad9b3833a55abd8af4320bae3b1b"
   },
   {
-   "n": 71,
+   "n": 70,
    "chapter": "Leaderboards",
    "person": "Alex",
    "title": "Individual Doubles standings",
@@ -1575,7 +1553,7 @@
    "sha256": "5859a8c589a114c2c7749ac68e0cfc63bcf3086124f7d65608b7169697567775"
   },
   {
-   "n": 72,
+   "n": 71,
    "chapter": "Leaderboards",
    "person": "Alex",
    "title": "DUPR rating",
@@ -1597,7 +1575,7 @@
    "sha256": "6b651af43f636dd5dd0b3884cc459df7a7a1ac3b2b762f1207b42dd525bab5ed"
   },
   {
-   "n": 73,
+   "n": 72,
    "chapter": "Leaderboards",
    "person": "Alex",
    "title": "Near you",
@@ -1619,7 +1597,7 @@
    "sha256": "106d80155ccaa8df0acce819623367269a2800adab636c1fe0280542e6da302e"
   },
   {
-   "n": 74,
+   "n": 73,
    "chapter": "Leaderboards",
    "person": "Alex",
    "title": "Filters",
@@ -1641,7 +1619,7 @@
    "sha256": "7ed046908b4b781a973d2e5441393ce1a6cdd45871764adaeaddae310e4bfea2"
   },
   {
-   "n": 75,
+   "n": 74,
    "chapter": "Leaderboards",
    "person": "Alex",
    "title": "About this board",
@@ -1663,7 +1641,7 @@
    "sha256": "b744fd84649278cd967939de372f63585319b8c586a5c6bac058ba458c6c55a8"
   },
   {
-   "n": 76,
+   "n": 75,
    "chapter": "Leaderboards",
    "person": "Alex",
    "title": "Find a player you follow",
@@ -1685,7 +1663,7 @@
    "sha256": "c365a6464b1149f345aa16a3c83b5a05ae0bc9d7a7cd437e281ecc260c8740e8"
   },
   {
-   "n": 77,
+   "n": 76,
    "chapter": "Leaderboards",
    "person": "Alex",
    "title": "No search results",
@@ -1707,7 +1685,7 @@
    "sha256": "655640a2096847de326513e6a66dadd0ba9f4bcd4c04529e94492b20f0590454"
   },
   {
-   "n": 78,
+   "n": 77,
    "chapter": "Leaderboards",
    "person": "Alex",
    "title": "Not enough players listed",
@@ -1729,7 +1707,7 @@
    "sha256": "c57b0c20d9f2198b930cecf01a72fb3fe3c9d59bc7f09bbe9391aa2baf35d97d"
   },
   {
-   "n": 79,
+   "n": 78,
    "chapter": "Leaderboards",
    "person": "Alex",
    "title": "Find a leaderboard",
@@ -1751,7 +1729,7 @@
    "sha256": "83312bedd8dfd901590410f638e7d4dd056486d0e2069109a7992007b1298a77"
   },
   {
-   "n": 80,
+   "n": 79,
    "chapter": "Leaderboards",
    "person": "Alex",
    "title": "Save a favorite",
@@ -1773,7 +1751,7 @@
    "sha256": "68f905d774fe0a5100b6062db56982ea1c4b6b665653fc188a652dfd44af9a91"
   },
   {
-   "n": 81,
+   "n": 80,
    "chapter": "Leaderboards",
    "person": "Alex",
    "title": "One venue’s standings",
@@ -1795,7 +1773,7 @@
    "sha256": "50f87eec2a7b7f680940590c7b58fac31ce3d74f2ad27899b6c6688a51c5d425"
   },
   {
-   "n": 82,
+   "n": 81,
    "chapter": "Leaderboards",
    "person": "Alex",
    "title": "Not enough teams listed",
@@ -1817,7 +1795,7 @@
    "sha256": "67662153b02e65db4c25fb7b7c91278e1260e1e03cf7b6e001941923f6b48233"
   },
   {
-   "n": 83,
+   "n": 82,
    "chapter": "Player records",
    "person": "Alex",
    "title": "Badges and weekly history",
@@ -1839,7 +1817,7 @@
    "sha256": "45c6d34f1eb033f4e67582a261ed72a39b74d71e9b056c11949dc209b01a65ae"
   },
   {
-   "n": 84,
+   "n": 83,
    "chapter": "Player records",
    "person": "Alex",
    "title": "Badge details",
@@ -1861,7 +1839,7 @@
    "sha256": "1d0f8b45fedc4d089291a28d8b078492c61a07cfab48b0300b3b8cfd32a43468"
   },
   {
-   "n": 85,
+   "n": 84,
    "chapter": "Player records",
    "person": "Alex",
    "title": "A badge that grows",
@@ -1883,7 +1861,7 @@
    "sha256": "414c6dac3b4ba78fb414848f8ea3751db2c34d4e6b60f14c92ef8c35044bd664"
   },
   {
-   "n": 86,
+   "n": 85,
    "chapter": "Player records",
    "person": "Alex",
    "title": "Several awards in one medal",
@@ -1905,7 +1883,7 @@
    "sha256": "6c87d209170fc104719055830cd4ad377904a8e5bbdece3599f1e8e5b89a4cc9"
   },
   {
-   "n": 87,
+   "n": 86,
    "chapter": "Player records",
    "person": "Ben",
    "title": "Another player and head to head",
@@ -1927,7 +1905,7 @@
    "sha256": "00b5a15e7a69453b690917f00bc942712a0608a04b79f70ffc312c9d859b667e"
   },
   {
-   "n": 88,
+   "n": 87,
    "chapter": "Player records",
    "person": "Alex",
    "title": "Another player’s season: early weeks",
@@ -1949,7 +1927,7 @@
    "sha256": "fadc83b393c2fc214b3f2d723aee952e54aff8c333c813b8fe36cfb81d77e0f2"
   },
   {
-   "n": 89,
+   "n": 88,
    "chapter": "Player records",
    "person": "Alex",
    "title": "Another player’s season: recent weeks",
@@ -1971,7 +1949,7 @@
    "sha256": "1d5512174b9eba0a1a65ac3f8980829c392f97d2fd10ca563ce193e6d5c4f2ad"
   },
   {
-   "n": 90,
+   "n": 89,
    "chapter": "Weekly recap",
    "person": "Alex",
    "title": "Your week",
@@ -1993,7 +1971,7 @@
    "sha256": "2588fdcf287a17d3e7db931cdd108b140b477b43dd8ec2e30fd4c874655e278a"
   },
   {
-   "n": 91,
+   "n": 90,
    "chapter": "Weekly recap",
    "person": "Alex",
    "title": "Swipe to standings",
@@ -2015,7 +1993,7 @@
    "sha256": "1ca11f2969eeea44afb1aa8826594c4f23227f2595cf7a574c9e74736444de17"
   },
   {
-   "n": 92,
+   "n": 91,
    "chapter": "Weekly recap",
    "person": "Alex",
    "title": "Full summary",
@@ -2037,7 +2015,7 @@
    "sha256": "848710ade894a6affba4ecfe0382cccc33400407c3b45ddfbd19b6693d4cda1f"
   },
   {
-   "n": 93,
+   "n": 92,
    "chapter": "Weekly recap",
    "person": "Alex",
    "title": "All recaps",
@@ -2059,7 +2037,7 @@
    "sha256": "704f972aa773ec56ebdb60e4416e5b834c107233c5e08172c2c20cc6f95d38f3"
   },
   {
-   "n": 94,
+   "n": 93,
    "chapter": "A time for one week",
    "person": "Alex",
    "title": "Choose a format",
@@ -2081,7 +2059,7 @@
    "sha256": "24144f8fc96fa082abe4d07520fd64f706061e61aae4d6a549cc5f8648925ad3"
   },
   {
-   "n": 95,
+   "n": 94,
    "chapter": "A time for one week",
    "person": "Alex",
    "title": "Singles or rotating doubles",
@@ -2103,7 +2081,7 @@
    "sha256": "c992ae29b4476e5a8e7a21d18783df26c730bb319dbb4570b1341bfae193124c"
   },
   {
-   "n": 96,
+   "n": 95,
    "chapter": "A time for one week",
    "person": "Alex",
    "title": "Choose how long the change lasts",
@@ -2125,7 +2103,7 @@
    "sha256": "aaee40481d9d896be73522015f9ed53f837f6782550495dd1c06d0a2e6887163"
   },
   {
-   "n": 97,
+   "n": 96,
    "chapter": "A time for one week",
    "person": "Alex",
    "title": "A one-week change is saved",
@@ -2147,7 +2125,7 @@
    "sha256": "fda994384f2591ca387081f9662cb27786e389c387f5dc138f33b8be690a5c54"
   },
   {
-   "n": 98,
+   "n": 97,
    "chapter": "A time for one week",
    "person": "Alex",
    "title": "Add a time for one week",
@@ -2169,7 +2147,7 @@
    "sha256": "4217da2fa41e85bc853de141bab08b2b3840b6a93943870be753161c728d6498"
   },
   {
-   "n": 99,
+   "n": 98,
    "chapter": "A time for one week",
    "person": "Alex",
    "title": "This week’s times",
@@ -2191,7 +2169,7 @@
    "sha256": "3120d726463127f64db4e2f0d4d4cc485d5c46925c313c871a7d7c575f4c4072"
   },
   {
-   "n": 100,
+   "n": 99,
    "chapter": "A time for one week",
    "person": "Alex",
    "title": "Match possible now",
@@ -2213,7 +2191,7 @@
    "sha256": "34c50bc5103666954a66b6ed8332e4d551235add3720fb56ba14fb2888f797c1"
   },
   {
-   "n": 101,
+   "n": 100,
    "chapter": "A time for one week",
    "person": "Alex",
    "title": "Matching time grid",
@@ -2235,7 +2213,7 @@
    "sha256": "7be4949bcaaab8cc10c85b6538ec42fe489dbdbb5df0c78b11649922225ba4f6"
   },
   {
-   "n": 102,
+   "n": 101,
    "chapter": "A time for one week",
    "person": "Alex",
    "title": "Popular times",
@@ -2257,7 +2235,7 @@
    "sha256": "8b9173707266d046c2dc016dac27c5411facc131c782f2e6b172131651a67fef"
   },
   {
-   "n": 103,
+   "n": 102,
    "chapter": "A time for one week",
    "person": "Alex",
    "title": "Explore the popular-times grid",
@@ -2279,7 +2257,7 @@
    "sha256": "fb908ebc223e08a15071e05210a1596836f58d356643b8a989b7684027f2ba31"
   },
   {
-   "n": 104,
+   "n": 103,
    "chapter": "A time for one week",
    "person": "Alex",
    "title": "Choose a popular time",
@@ -2301,7 +2279,7 @@
    "sha256": "8a88eba13a433a9d9d1ab979f58cc3d0f93b665c4c99d2b8136c478045b3edb3"
   },
   {
-   "n": 105,
+   "n": 104,
    "chapter": "A time for one week",
    "person": "Alex",
    "title": "See the saved time",
@@ -2323,7 +2301,7 @@
    "sha256": "a1492dd93c67d5cbc619c1a78ba6223dc883c0fce11fbfdc2b1b418108a72d7b"
   },
   {
-   "n": 106,
+   "n": 105,
    "chapter": "A time for one week",
    "person": "Alex",
    "title": "No suggested times",
@@ -2345,7 +2323,7 @@
    "sha256": "24144f8fc96fa082abe4d07520fd64f706061e61aae4d6a549cc5f8648925ad3"
   },
   {
-   "n": 107,
+   "n": 106,
    "chapter": "Team doubles",
    "person": "Alex",
    "title": "New team",
@@ -2367,7 +2345,7 @@
    "sha256": "c8fe34fb781ce66489584ee8ea4ab75ac4c46cde51cb202b9aa4e96191af67e7"
   },
   {
-   "n": 108,
+   "n": 107,
    "chapter": "Team doubles",
    "person": "Alex",
    "title": "Share the invitation",
@@ -2389,7 +2367,7 @@
    "sha256": "8dcbaa547685108e8618c6fcdf2fb82f2531f7c045a99e8fbbb5450daed988ec"
   },
   {
-   "n": 109,
+   "n": 108,
    "chapter": "Team doubles",
    "person": "Alex",
    "title": "Link saved",
@@ -2411,7 +2389,7 @@
    "sha256": "6dd0adca7f061da476f396fe9068ac8a4e1e1ef90efd2d0136a1f908d9b87938"
   },
   {
-   "n": 110,
+   "n": 109,
    "chapter": "Team doubles",
    "person": "Ben",
    "title": "Review the invitation",
@@ -2433,7 +2411,7 @@
    "sha256": "c622ee84ff8783ec5eee8cc0b991a3c6917c7fdae3edb1a32dadccee723cd2c2"
   },
   {
-   "n": 111,
+   "n": 110,
    "chapter": "Team doubles",
    "person": "Ben",
    "title": "The team forms",
@@ -2455,7 +2433,7 @@
    "sha256": "2b7c1c8b7f92018a9234477c2b36eb8ac6b2f0271db48bad3f9d87f604f2b33b"
   },
   {
-   "n": 112,
+   "n": 111,
    "chapter": "Team doubles",
    "person": "Alex",
    "title": "Several partners",
@@ -2477,7 +2455,7 @@
    "sha256": "b199aef6835d71334d34c2acc640b157ca10997cf601bcebd488217143fed072"
   },
   {
-   "n": 113,
+   "n": 112,
    "chapter": "Team doubles",
    "person": "Alex",
    "title": "Compare shared availability",
@@ -2499,7 +2477,7 @@
    "sha256": "f438aedc511d163be020e3cc0525d76a133edcc8220b412f33823e42a81edd2f"
   },
   {
-   "n": 114,
+   "n": 113,
    "chapter": "Team doubles",
    "person": "Alex",
    "title": "A team match offer",
@@ -2521,7 +2499,7 @@
    "sha256": "a94accbfeaedd15d81186e6f8f9bb1dd48f76dd1bdba7721fb1d588386a4de6b"
   },
   {
-   "n": 115,
+   "n": 114,
    "chapter": "Team doubles",
    "person": "Alex",
    "title": "Waiting for the other team",
@@ -2543,7 +2521,7 @@
    "sha256": "ffae2fd2e852751aa3dafe0393d401ca53ecd313985479117e4990dabb417eeb"
   },
   {
-   "n": 116,
+   "n": 115,
    "chapter": "Team doubles",
    "person": "Alex",
    "title": "Partner left",
@@ -2565,7 +2543,7 @@
    "sha256": "cf3691a7738082a49702087a62aa5a839cc5cf8d203db05d70ae3a057dff7416"
   },
   {
-   "n": 117,
+   "n": 116,
    "chapter": "Joining from a team link",
    "person": "Alex",
    "title": "Partner invitation",
@@ -2587,7 +2565,7 @@
    "sha256": "021183d75f62aee089c45e6771a90cfb2c895def4d4d1aea6b4d9308c13e349a"
   },
   {
-   "n": 118,
+   "n": 117,
    "chapter": "Joining from a team link",
    "person": "Alex",
    "title": "How you play",
@@ -2609,7 +2587,7 @@
    "sha256": "ce0adb0930b9e4439e9896664c55cf6eab0e96015582c6f55a7e66a395ae7099"
   },
   {
-   "n": 119,
+   "n": 118,
    "chapter": "Joining from a team link",
    "person": "Alex",
    "title": "In the League",
@@ -2631,7 +2609,7 @@
    "sha256": "92be7c67f214c03c31831e5449e7dbefb09a686f2f214bb6499c578afa5ed6e1"
   },
   {
-   "n": 120,
+   "n": 119,
    "chapter": "Joining from a team link",
    "person": "Ben",
    "title": "Accept the invitation",
@@ -2653,7 +2631,7 @@
    "sha256": "1c772515997bddfeb933c3a8ea8886b0e4d992688657769af34f9fa13f30c022"
   },
   {
-   "n": 121,
+   "n": 120,
    "chapter": "Joining from a team link",
    "person": "Ben",
    "title": "Waiting for your partner",
@@ -2675,7 +2653,7 @@
    "sha256": "d3596664f8e48386daff0db3eb64263f7f0d532abe717d02348a6078cdff6bd9"
   },
   {
-   "n": 122,
+   "n": 121,
    "chapter": "Joining from a team link",
    "person": "Alex",
    "title": "Confirm your partner",
@@ -2697,7 +2675,7 @@
    "sha256": "d420d239b5c60df8c27b42703a1f410b54173e9c9b6d980f247c626d961b9c98"
   },
   {
-   "n": 123,
+   "n": 122,
    "chapter": "Joining from a team link",
    "person": "Alex",
    "title": "You’re a team",
@@ -2719,7 +2697,7 @@
    "sha256": "7c2a52a0a47a246537213c19191da5b968cbfcdbf301690c5d02503b64fcf0e7"
   },
   {
-   "n": 124,
+   "n": 123,
    "chapter": "Joining from a team link",
    "person": "Chris",
    "title": "An existing member",
@@ -2741,7 +2719,7 @@
    "sha256": "d5c4ae42efbaae0aaf47b8b7a5670821b85258ecfb06fcf56c34dd02ed3d3645"
   },
   {
-   "n": 125,
+   "n": 124,
    "chapter": "Joining from a team link",
    "person": "Chris",
    "title": "You’re a team",
@@ -2763,7 +2741,7 @@
    "sha256": "b562487085a399bc1b3b1858a29d1d279f9c1db4382b38af55d384cea77933c8"
   },
   {
-   "n": 126,
+   "n": 125,
    "chapter": "Scan to play",
    "person": "Alex",
    "title": "Find the court",
@@ -2785,7 +2763,7 @@
    "sha256": "2b947b94bd81761a742b3a63282ad042773e73d14ee7873ae53f91e29aafc348"
   },
   {
-   "n": 127,
+   "n": 126,
    "chapter": "Scan to play",
    "person": "Alex",
    "title": "Choose the format",
@@ -2807,7 +2785,7 @@
    "sha256": "1ebf81ceea76d278155993d545d0dccda5e54a7d1c6ee74d54cfef5651bb7b29"
   },
   {
-   "n": 128,
+   "n": 127,
    "chapter": "Scan to play",
    "person": "Alex",
    "title": "Everyone is added",
@@ -2829,7 +2807,7 @@
    "sha256": "868888762efd49a0cf529d6e09c7233cde665978646fffeb9d07fe91c9db1450"
   },
   {
-   "n": 129,
+   "n": 128,
    "chapter": "Scan to play",
    "person": "Ben",
    "title": "Added to the plan",
@@ -2851,7 +2829,7 @@
    "sha256": "5d45a043b0b533b7f3313790b9e5673639af379a4ab46846a9d6d86bde8073cc"
   },
   {
-   "n": 130,
+   "n": 129,
    "chapter": "Scan to play",
    "person": "Alex",
    "title": "The host can start",
@@ -2873,7 +2851,7 @@
    "sha256": "c105368504683339988b0a1a74aaabced250dfebc237db854ab58cfa6735f377"
   },
   {
-   "n": 131,
+   "n": 130,
    "chapter": "Scan to play",
    "person": "Alex",
    "title": "The Scan plan becomes a match",
@@ -2895,7 +2873,7 @@
    "sha256": "2b9b2d7f59eccc2b3381a455c31368cbda98db8fa9dfed7b931eb7073b47ad72"
   },
   {
-   "n": 132,
+   "n": 131,
    "chapter": "Scan to play",
    "person": "Alex",
    "title": "My QR",
@@ -2917,7 +2895,7 @@
    "sha256": "dbd038fb99b1298a80fea15f95c4644aa8dd099fd477df378f294d069ae73c53"
   },
   {
-   "n": 133,
+   "n": 132,
    "chapter": "Being scanned",
    "person": "Ben",
    "title": "An invitation reaches the guest",
@@ -2939,7 +2917,7 @@
    "sha256": "debd39dc3508c0e36aa2fd90e4384ff0c5ec99ef7921dddea5d10669f4ec71a8"
   },
   {
-   "n": 134,
+   "n": 133,
    "chapter": "Being scanned",
    "person": "Ben",
    "title": "The host cancels a plan",
@@ -2961,7 +2939,7 @@
    "sha256": "629cce8f346690fdb89780e9a4582dde73a5ea35f2b2d8638bad883d5d79cd66"
   },
   {
-   "n": 135,
+   "n": 134,
    "chapter": "Challenge a friend",
    "person": "Alex",
    "title": "Choose a player and place",
@@ -2983,7 +2961,7 @@
    "sha256": "2bb84a5b6b497ca6423b2f2f24c559e344a3f3030d42a84cf7e503f36cb84fec"
   },
   {
-   "n": 136,
+   "n": 135,
    "chapter": "Challenge a friend",
    "person": "Alex",
    "title": "No challenges yet",
@@ -3005,7 +2983,7 @@
    "sha256": "3f8f7276477003337443d61b2f645dddbf9c57f774e94ab281cceab887404962"
   },
   {
-   "n": 137,
+   "n": 136,
    "chapter": "Challenge a friend",
    "person": "Alex",
    "title": "A link anyone can take",
@@ -3027,7 +3005,7 @@
    "sha256": "9822e336f92feeecc68fec283b2ac4111d316610b1dd3ec3c6610148e541fcd8"
   },
   {
-   "n": 138,
+   "n": 137,
    "chapter": "Challenge a friend",
    "person": "Alex",
    "title": "A place that is not a League venue",
@@ -3049,7 +3027,7 @@
    "sha256": "c4886f77962a63fccaf9c7719bc8b739787e9675ed940b697ac4317610fc9980"
   },
   {
-   "n": 139,
+   "n": 138,
    "chapter": "Challenge a friend",
    "person": "Alex",
    "title": "Time, DUPR and a note",
@@ -3071,7 +3049,7 @@
    "sha256": "444865011d426b0e2e442c4a0e589f295c3eda5d41a695bc5bfd547679153223"
   },
   {
-   "n": 140,
+   "n": 139,
    "chapter": "Challenge a friend",
    "person": "Alex",
    "title": "Share the link",
@@ -3093,7 +3071,7 @@
    "sha256": "67b2dd4bf2b91c2ad4d3f95f1a10a605e45e7d918bfa2935f587cb748dcf12d3"
   },
   {
-   "n": 141,
+   "n": 140,
    "chapter": "Challenge a friend",
    "person": "Alex",
    "title": "Waiting for a taker",
@@ -3115,7 +3093,7 @@
    "sha256": "da5d674b7f757e1076240d46219092406cdfba41f04a081e2b3c4b50d81d492e"
   },
   {
-   "n": 142,
+   "n": 141,
    "chapter": "Challenge a friend",
    "person": "Ben",
    "title": "Opening the link",
@@ -3137,7 +3115,7 @@
    "sha256": "b4d933d1c42016bf9410275a300237582eb61df10e5a88c1535e75cd1b5473b6"
   },
   {
-   "n": 143,
+   "n": 142,
    "chapter": "Challenge a friend",
    "person": "Ben",
    "title": "The open seat is taken",
@@ -3159,7 +3137,7 @@
    "sha256": "40446fc1a7036d2dcc6009e30b05debb5cc70bf395e6a7e0a554dc9b671fefd1"
   },
   {
-   "n": 144,
+   "n": 143,
    "chapter": "Challenge a friend",
    "person": "Ben",
    "title": "A challenge in Needs you",
@@ -3181,7 +3159,7 @@
    "sha256": "6db3c43f05b73952114e3e652d138480b9fd08ee652feb9f6e5520da6a7622f3"
   },
   {
-   "n": 145,
+   "n": 144,
    "chapter": "Challenge a friend",
    "person": "Ben",
    "title": "Your response is needed",
@@ -3203,7 +3181,7 @@
    "sha256": "6b0762ce12130cd6b8a49c6abfade6fb35d25a13daecb71922d97a6b2d9b567c"
   },
   {
-   "n": 146,
+   "n": 145,
    "chapter": "Challenge a friend",
    "person": "Ben",
    "title": "Both accepted; agree on a time",
@@ -3225,7 +3203,7 @@
    "sha256": "74f7ed56e1cb6042419f9ae8df6698916727d7aaa4b0873695b99c8da55e19a4"
   },
   {
-   "n": 147,
+   "n": 146,
    "chapter": "Challenge a friend",
    "person": "Ben",
    "title": "Choose the agreed time",
@@ -3247,7 +3225,7 @@
    "sha256": "7482d99ec0ce04f9122c31ad3b7785f950220845d369450aa37bce5fbcb02000"
   },
   {
-   "n": 148,
+   "n": 147,
    "chapter": "Challenge a friend",
    "person": "Alex",
    "title": "The Challenges list",
@@ -3269,7 +3247,7 @@
    "sha256": "c499ce483f8e1ff52dc74aed0da2653b6a4c72117ee7204c8506d6da57b896cd"
   },
   {
-   "n": 149,
+   "n": 148,
    "chapter": "Challenge a friend",
    "person": "Alex",
    "title": "Withdraw a challenge",
@@ -3291,7 +3269,7 @@
    "sha256": "79de1a208b4024a59763c64dd2eef19d2b3df089881533eef17891f3f577922b"
   },
   {
-   "n": 150,
+   "n": 149,
    "chapter": "Challenge a friend",
    "person": "Alex",
    "title": "Confirm withdrawal",
@@ -3313,7 +3291,7 @@
    "sha256": "17c1c0559e90465503670a26d91d0180d3787b19ac880b8bb7056793be1f025d"
   },
   {
-   "n": 151,
+   "n": 150,
    "chapter": "Challenge a friend",
    "person": "Alex",
    "title": "Withdrawn",
@@ -3335,139 +3313,139 @@
    "sha256": "670bd84de370c4e8a36db5c755b8ad501892907d165dc49931f6f8f7dc584b11"
   },
   {
-   "n": 152,
+   "n": 151,
    "chapter": "Following players",
    "person": "Ben",
-   "title": "Block from a player record",
-   "file": "img/captures/0c8aea929/nov09-priya-elena-block-729c09f9e3ba.webp",
+   "title": "Block from the … menu",
+   "file": "img/captures/0c8aea929/nov09-priya-elena-block-b1f2ee0a718f.webp",
    "source": "nov09-priya-elena-block.png",
    "status": "reviewed-native-capture",
    "capture": {
-    "file": "img/captures/0c8aea929/nov09-priya-elena-block-729c09f9e3ba.webp",
+    "file": "img/captures/0c8aea929/nov09-priya-elena-block-b1f2ee0a718f.webp",
     "sourceHead": "0c8aea92908f879481168ac06c58627773278dd0",
     "stage": "block-entry",
     "actor": "Ben",
-    "capturedAt": "2026-11-16T02:41:07.327Z",
+    "capturedAt": "2026-11-16T04:01:25.551Z",
     "evidenceLevel": "ui-read-after-server-transition",
-    "originalSha256": "729c09f9e3baf6a5613c060518e9656d7abffc9a7b0395830c57e8f4e314f33a",
-    "sha256": "5f641029de93314d122577301ab163fd6862645ea018caacbeed05f1c0661913",
+    "originalSha256": "b1f2ee0a718fbd689a2acf08b94a36df8340fb1b22651d4879848262976eb469",
+    "sha256": "6b0a811b0ba98803c6405366bd41c2362ba4c98cf8750b35edf3788141e4f78f",
     "profile": "ios-dark-default",
     "review": "accepted"
    },
-   "sha256": "5f641029de93314d122577301ab163fd6862645ea018caacbeed05f1c0661913"
+   "sha256": "6b0a811b0ba98803c6405366bd41c2362ba4c98cf8750b35edf3788141e4f78f"
+  },
+  {
+   "n": 152,
+   "chapter": "Following players",
+   "person": "Ben",
+   "title": "Review before blocking",
+   "file": "img/captures/0c8aea929/nov09-priya-elena-block-confirm-2b1926a21b4e.webp",
+   "source": "nov09-priya-elena-block-confirm.png",
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/0c8aea929/nov09-priya-elena-block-confirm-2b1926a21b4e.webp",
+    "sourceHead": "0c8aea92908f879481168ac06c58627773278dd0",
+    "stage": "block-entry",
+    "actor": "Ben",
+    "capturedAt": "2026-11-16T04:01:25.551Z",
+    "evidenceLevel": "ui-read-after-server-transition",
+    "originalSha256": "2b1926a21b4ea779537b527329f5b9a874f2fb7af0d5c2ce9c6848a7015bbc1b",
+    "sha256": "e1a2373797c39ab2166567dc1f9e8dd855bb938e300ad2b1bb66e856260b94f3",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "e1a2373797c39ab2166567dc1f9e8dd855bb938e300ad2b1bb66e856260b94f3"
   },
   {
    "n": 153,
    "chapter": "Following players",
    "person": "Ben",
-   "title": "Review before blocking",
-   "file": "img/captures/0c8aea929/nov09-priya-elena-block-confirm-1c965f7a2ed3.webp",
-   "source": "nov09-priya-elena-block-confirm.png",
+   "title": "Follow after a match",
+   "file": "img/captures/0c8aea929/nov10-follow-after-match-24852e72a2e4.webp",
+   "source": "nov10-follow-after-match.png",
    "status": "reviewed-native-capture",
    "capture": {
-    "file": "img/captures/0c8aea929/nov09-priya-elena-block-confirm-1c965f7a2ed3.webp",
+    "file": "img/captures/0c8aea929/nov10-follow-after-match-24852e72a2e4.webp",
     "sourceHead": "0c8aea92908f879481168ac06c58627773278dd0",
-    "stage": "block-entry",
+    "stage": "friends-follow",
     "actor": "Ben",
-    "capturedAt": "2026-11-16T02:41:07.327Z",
-    "evidenceLevel": "ui-read-after-server-transition",
-    "originalSha256": "1c965f7a2ed3c6db1d91279e6fed24e7b86d351cfb1823c3168837f94ca38852",
-    "sha256": "2806e6720c86ffc34279143ea4a4454a5c0697e08e3b853f72d8fe4da9cd2c90",
+    "capturedAt": "2026-11-16T03:58:15.345Z",
+    "evidenceLevel": "native-follow-from-completed-match",
+    "originalSha256": "24852e72a2e48c8b4604422796354e35bba8b071e60fc3f984b3f06d99c92d5e",
+    "sha256": "98f2f72280284cdb059bd66be9970b90c00d11c93d451a0be6a2b35cb5ee5ef3",
     "profile": "ios-dark-default",
     "review": "accepted"
    },
-   "sha256": "2806e6720c86ffc34279143ea4a4454a5c0697e08e3b853f72d8fe4da9cd2c90"
+   "sha256": "98f2f72280284cdb059bd66be9970b90c00d11c93d451a0be6a2b35cb5ee5ef3"
   },
   {
    "n": 154,
    "chapter": "Following players",
    "person": "Ben",
-   "title": "Follow after a match",
-   "file": "img/captures/0c8aea929/nov10-follow-after-match-0278711a7467.webp",
-   "source": "nov10-follow-after-match.png",
+   "title": "Following after a match",
+   "file": "img/captures/0c8aea929/nov10-following-after-match-c2157e793fbb.webp",
+   "source": "nov10-following-after-match.png",
    "status": "reviewed-native-capture",
    "capture": {
-    "file": "img/captures/0c8aea929/nov10-follow-after-match-0278711a7467.webp",
+    "file": "img/captures/0c8aea929/nov10-following-after-match-c2157e793fbb.webp",
     "sourceHead": "0c8aea92908f879481168ac06c58627773278dd0",
     "stage": "friends-follow",
     "actor": "Ben",
-    "capturedAt": "2026-11-16T02:32:28.389Z",
+    "capturedAt": "2026-11-16T03:58:15.345Z",
     "evidenceLevel": "native-follow-from-completed-match",
-    "originalSha256": "0278711a7467e7434662c2716288ae625d5a641c6133637b69593f74d88cae29",
-    "sha256": "029b6aa3d31619c749846d9c3a4fb6447da7cd2a714f42a380ecf96d674445b7",
+    "originalSha256": "c2157e793fbbe0dc4a8392ff953882c71502415bf08a73a6a1fc151f516e42cc",
+    "sha256": "2feb52c8b8a60e85736057a07e27ae9baa8473507f39742ceb126fbc28309a7d",
     "profile": "ios-dark-default",
     "review": "accepted"
    },
-   "sha256": "029b6aa3d31619c749846d9c3a4fb6447da7cd2a714f42a380ecf96d674445b7"
+   "sha256": "2feb52c8b8a60e85736057a07e27ae9baa8473507f39742ceb126fbc28309a7d"
   },
   {
    "n": 155,
    "chapter": "Following players",
    "person": "Ben",
-   "title": "Following after a match",
-   "file": "img/captures/0c8aea929/nov10-following-after-match-f40d4c198778.webp",
-   "source": "nov10-following-after-match.png",
+   "title": "Following",
+   "file": "img/captures/0c8aea929/nov10-faa-friends-following-c8fc82681395.webp",
+   "source": "nov10-faa-friends-following.png",
    "status": "reviewed-native-capture",
    "capture": {
-    "file": "img/captures/0c8aea929/nov10-following-after-match-f40d4c198778.webp",
+    "file": "img/captures/0c8aea929/nov10-faa-friends-following-c8fc82681395.webp",
     "sourceHead": "0c8aea92908f879481168ac06c58627773278dd0",
-    "stage": "friends-follow",
+    "stage": "friends-following",
     "actor": "Ben",
-    "capturedAt": "2026-11-16T02:32:28.389Z",
-    "evidenceLevel": "native-follow-from-completed-match",
-    "originalSha256": "f40d4c198778ed13094ce4dfe3a8461cb8cb69d581b1df0d24707d68817a5f32",
-    "sha256": "7d0f30b5e67cca54c957df7572a6bd22a169d02622028e789c3820f1e78d0501",
+    "capturedAt": "2026-11-16T03:58:57.930Z",
+    "evidenceLevel": "native-own-following-list",
+    "originalSha256": "c8fc82681395eda9834904c48e8c92e530b4aa0a031a5e6fab8b58d7d1e4123a",
+    "sha256": "b983248f3bd9d00d6949fedf6cae431f259e30778053d129660303390642f464",
     "profile": "ios-dark-default",
     "review": "accepted"
    },
-   "sha256": "7d0f30b5e67cca54c957df7572a6bd22a169d02622028e789c3820f1e78d0501"
+   "sha256": "b983248f3bd9d00d6949fedf6cae431f259e30778053d129660303390642f464"
   },
   {
    "n": 156,
    "chapter": "Following players",
-   "person": "Ben",
-   "title": "Following",
-   "file": "img/captures/0c8aea929/nov10-faa-friends-following-f43d4410f130.webp",
-   "source": "nov10-faa-friends-following.png",
-   "status": "reviewed-native-capture",
-   "capture": {
-    "file": "img/captures/0c8aea929/nov10-faa-friends-following-f43d4410f130.webp",
-    "sourceHead": "0c8aea92908f879481168ac06c58627773278dd0",
-    "stage": "friends-following",
-    "actor": "Ben",
-    "capturedAt": "2026-11-16T02:33:12.445Z",
-    "evidenceLevel": "native-own-following-list",
-    "originalSha256": "f43d4410f130993102071d898954c32c4409f693684bb8aac1193d59b12ff0ca",
-    "sha256": "bfc5f1d164e57bbe92ea0834659f3b5fcbf3d40580d0c87115898b6498204e97",
-    "profile": "ios-dark-default",
-    "review": "accepted"
-   },
-   "sha256": "bfc5f1d164e57bbe92ea0834659f3b5fcbf3d40580d0c87115898b6498204e97"
-  },
-  {
-   "n": 157,
-   "chapter": "Following players",
    "person": "Alex",
    "title": "Followers",
-   "file": "img/captures/0c8aea929/nov10-faa-friends-followers-58a32f7d90e0.webp",
+   "file": "img/captures/0c8aea929/nov10-faa-friends-followers-3864cbc62264.webp",
    "source": "nov10-faa-friends-followers.png",
    "status": "reviewed-native-capture",
    "capture": {
-    "file": "img/captures/0c8aea929/nov10-faa-friends-followers-58a32f7d90e0.webp",
+    "file": "img/captures/0c8aea929/nov10-faa-friends-followers-3864cbc62264.webp",
     "sourceHead": "0c8aea92908f879481168ac06c58627773278dd0",
     "stage": "friends-followers",
     "actor": "Alex",
-    "capturedAt": "2026-11-16T02:34:31.706Z",
+    "capturedAt": "2026-11-16T04:00:10.269Z",
     "evidenceLevel": "native-own-followers-list",
-    "originalSha256": "58a32f7d90e0de06f868d1c3ab11dd22c23efbb8598d928928f394c404dd2ac9",
-    "sha256": "80c8d9dc53ea0527a3175e798f10703b9edd95acb02e6a1025e48a4bb57cd533",
+    "originalSha256": "3864cbc6226491b4e95668d05fd2939a1bb477790d5acdc69480a0bba7cf8c96",
+    "sha256": "79e61b3a15fd1449e298f2011b4db5fe34f66fad07a56fa04db062b7af5c78f5",
     "profile": "ios-dark-default",
     "review": "accepted"
    },
-   "sha256": "80c8d9dc53ea0527a3175e798f10703b9edd95acb02e6a1025e48a4bb57cd533"
+   "sha256": "79e61b3a15fd1449e298f2011b4db5fe34f66fad07a56fa04db062b7af5c78f5"
   },
   {
-   "n": 158,
+   "n": 157,
    "chapter": "Growing your local League",
    "person": "Alex",
    "title": "Who plays near you",
@@ -3489,7 +3467,7 @@
    "sha256": "6a5ad371ed0a46ffac4da7d397f49d3ba9e772671082cec6857277c00d241fc1"
   },
   {
-   "n": 159,
+   "n": 158,
    "chapter": "Growing your local League",
    "person": "Ben",
    "title": "Your city in matchmaking",
@@ -3511,7 +3489,7 @@
    "sha256": "c0e119684316be0dd2aa8fa38bf5d907550a4f904928a17e7b53d983d1246906"
   },
   {
-   "n": 160,
+   "n": 159,
    "chapter": "Growing your local League",
    "person": "Ben",
    "title": "Brought to the League",
@@ -3533,7 +3511,7 @@
    "sha256": "8064be3dcbc8dde890ed727d591fdf04e08851d7ec83b3de67913fc3ec19ac26"
   },
   {
-   "n": 161,
+   "n": 160,
    "chapter": "Settings, times and venues",
    "person": "Alex",
    "title": "League settings",
@@ -3555,7 +3533,7 @@
    "sha256": "79ca9d9ac2b1ef411e50ef3ff9628b75a4c0b42246063c36bddcc5aa2f38f52f"
   },
   {
-   "n": 162,
+   "n": 161,
    "chapter": "Settings, times and venues",
    "person": "Alex",
    "title": "Privacy and safety",
@@ -3577,7 +3555,7 @@
    "sha256": "3e518dce2389a3815a88c74ceb9572bcba8fd4f0f6ba90d27bd047256547651d"
   },
   {
-   "n": 163,
+   "n": 162,
    "chapter": "Settings, times and venues",
    "person": "Alex",
    "title": "Notification choices",
@@ -3599,7 +3577,7 @@
    "sha256": "dcac93a12f46cfa42cbf8f9b3324003209d2c8e65ce8e02f0ae66aed7154e3b6"
   },
   {
-   "n": 164,
+   "n": 163,
    "chapter": "Settings, times and venues",
    "person": "Alex",
    "title": "Required safety notices",
@@ -3621,7 +3599,7 @@
    "sha256": "2e8dcaa28b6aab5eebe7cc0d8f20fa350840a7118b9a7eed2504f215367ee277"
   },
   {
-   "n": 165,
+   "n": 164,
    "chapter": "Settings, times and venues",
    "person": "Alex",
    "title": "Your times",
@@ -3643,7 +3621,7 @@
    "sha256": "c8449e67640d0891178a273cdad9fdfaf626d1d14daa3fc30a1e6766a5115733"
   },
   {
-   "n": 166,
+   "n": 165,
    "chapter": "Settings, times and venues",
    "person": "Alex",
    "title": "Saved venues",
@@ -3665,7 +3643,7 @@
    "sha256": "1c0d2ed4875558e4603f4bb5719e3e5cb701d0930a8ba931f76b8424049be5ac"
   },
   {
-   "n": 167,
+   "n": 166,
    "chapter": "Pause and return",
    "person": "Alex",
    "title": "Choose when to return",
@@ -3687,7 +3665,7 @@
    "sha256": "d7dc72d0a1074a2fa3975f50e27d3e6b9176c81e228a53434d4659f44353a978"
   },
   {
-   "n": 168,
+   "n": 167,
    "chapter": "Pause and return",
    "person": "Alex",
    "title": "Search paused",
@@ -3709,7 +3687,7 @@
    "sha256": "2dedf4a64adc22ff13f6592ffc038c6c18d947072939e49a09854aff8d682dd8"
   },
   {
-   "n": 169,
+   "n": 168,
    "chapter": "Pause and return",
    "person": "Alex",
    "title": "End the pause",
@@ -3731,7 +3709,7 @@
    "sha256": "d5f07e72e9d3101bd015a5f50c138d18a88a12a1f93e7016dbbf0ae6f77a5759"
   },
   {
-   "n": 170,
+   "n": 169,
    "chapter": "Pause and return",
    "person": "Alex",
    "title": "Matchmaking is on again",
@@ -3753,7 +3731,7 @@
    "sha256": "e55eb1017f1d7a1d824ec407fbd995891190f6a6580be3166a13b76432854f0c"
   },
   {
-   "n": 171,
+   "n": 170,
    "chapter": "Pause and return",
    "person": "Alex",
    "title": "Paused after inactivity",
@@ -3775,7 +3753,7 @@
    "sha256": "d4fd60ae77614877930cdefdf7779db8354cbedd898aff0799e0bf455ab9e0e7"
   },
   {
-   "n": 172,
+   "n": 171,
    "chapter": "Changing how you play",
    "person": "Alex",
    "title": "How you play",
@@ -3797,7 +3775,7 @@
    "sha256": "b347d60b2ec4de8e6662f20d9ccf52d5f1a47c310349b58912add316f0395d5b"
   },
   {
-   "n": 173,
+   "n": 172,
    "chapter": "Changing how you play",
    "person": "Alex",
    "title": "Saved",
@@ -3819,73 +3797,73 @@
    "sha256": "8340fcd70a8bbd013993b0e14d3053561b20fa6664e2e239fd62e79b98b7a585"
   },
   {
-   "n": 174,
+   "n": 173,
    "chapter": "Safety and conduct",
    "person": "Ben",
    "title": "Block a player",
-   "file": "img/captures/0c8aea929/nov09-current-jade-block-60af599248fe.webp",
+   "file": "img/captures/0c8aea929/nov09-current-jade-block-d0c2113a35a0.webp",
    "source": "nov09-current-jade-block.png",
    "status": "reviewed-native-capture",
    "capture": {
-    "file": "img/captures/0c8aea929/nov09-current-jade-block-60af599248fe.webp",
+    "file": "img/captures/0c8aea929/nov09-current-jade-block-d0c2113a35a0.webp",
     "sourceHead": "0c8aea92908f879481168ac06c58627773278dd0",
     "stage": "block-preview",
     "actor": "Ben",
-    "capturedAt": "2026-11-16T02:42:03.034Z",
+    "capturedAt": "2026-11-16T04:02:19.061Z",
     "evidenceLevel": "ui-read-after-server-transition",
-    "originalSha256": "60af599248fece03ec9f65a6f3ceea0e103e5771034a18f0cc54cb48d5678bed",
-    "sha256": "139010b68542e204f2bfb65f3eb7091fd960d62d4e9e2cbe58bbe2070c27dafa",
+    "originalSha256": "d0c2113a35a09bced986f573834e96b342d7eb51157b8481a83b66be5e34618e",
+    "sha256": "c41936f3adb14b4565be9336b111d7e01b0ad8e404f61fe100da1b6df56f9dee",
     "profile": "ios-dark-default",
     "review": "accepted"
    },
-   "sha256": "139010b68542e204f2bfb65f3eb7091fd960d62d4e9e2cbe58bbe2070c27dafa"
+   "sha256": "c41936f3adb14b4565be9336b111d7e01b0ad8e404f61fe100da1b6df56f9dee"
+  },
+  {
+   "n": 174,
+   "chapter": "Safety and conduct",
+   "person": "Ben",
+   "title": "Blocked players",
+   "file": "img/captures/0c8aea929/nov09-casey-block-list-9975328eee60.webp",
+   "source": "nov09-casey-block-list.png",
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/0c8aea929/nov09-casey-block-list-9975328eee60.webp",
+    "sourceHead": "0c8aea92908f879481168ac06c58627773278dd0",
+    "stage": "block-confirm",
+    "actor": "Ben",
+    "capturedAt": "2026-11-16T04:03:27.107Z",
+    "evidenceLevel": "ui-transition",
+    "originalSha256": "9975328eee6083c5e60450debd4a9fc362d96908f1d14742f60c39033af700dc",
+    "sha256": "f26779e0c802df6508e1a198a37f3ffcae3bcb0ae4637fc94b5788bdd2b2019f",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "f26779e0c802df6508e1a198a37f3ffcae3bcb0ae4637fc94b5788bdd2b2019f"
   },
   {
    "n": 175,
    "chapter": "Safety and conduct",
    "person": "Ben",
-   "title": "Blocked players",
-   "file": "img/captures/0c8aea929/nov09-casey-block-list-73e008dc582c.webp",
-   "source": "nov09-casey-block-list.png",
-   "status": "reviewed-native-capture",
-   "capture": {
-    "file": "img/captures/0c8aea929/nov09-casey-block-list-73e008dc582c.webp",
-    "sourceHead": "0c8aea92908f879481168ac06c58627773278dd0",
-    "stage": "block-confirm",
-    "actor": "Ben",
-    "capturedAt": "2026-11-16T02:43:10.953Z",
-    "evidenceLevel": "ui-transition",
-    "originalSha256": "73e008dc582caa117553bbde5c1fef244b56af5bb9b100aeeaf24d080b64a58c",
-    "sha256": "e0b0a0d7d27fda4815ca599bf995d3f1a896d35341eaaeb64d1f8b18d64a23bc",
-    "profile": "ios-dark-default",
-    "review": "accepted"
-   },
-   "sha256": "e0b0a0d7d27fda4815ca599bf995d3f1a896d35341eaaeb64d1f8b18d64a23bc"
-  },
-  {
-   "n": 176,
-   "chapter": "Safety and conduct",
-   "person": "Ben",
    "title": "Unblocked",
-   "file": "img/captures/0c8aea929/nov09-casey-unblocked-3cdf0f22cd3c.webp",
+   "file": "img/captures/0c8aea929/nov09-casey-unblocked-2583dd73843a.webp",
    "source": "nov09-casey-unblocked.png",
    "status": "reviewed-native-capture",
    "capture": {
-    "file": "img/captures/0c8aea929/nov09-casey-unblocked-3cdf0f22cd3c.webp",
+    "file": "img/captures/0c8aea929/nov09-casey-unblocked-2583dd73843a.webp",
     "sourceHead": "0c8aea92908f879481168ac06c58627773278dd0",
     "stage": "block-undo",
     "actor": "Ben",
-    "capturedAt": "2026-11-16T02:44:01.683Z",
+    "capturedAt": "2026-11-16T04:04:18.091Z",
     "evidenceLevel": "ui-transition",
-    "originalSha256": "3cdf0f22cd3c9d3f46501fe68c3f333daded3d87cfae2776bb08b3c2e8b9fead",
-    "sha256": "71c150f9620280fc1009bf2d6b0130ba6082d871f977e5b1021ec9be4528eef0",
+    "originalSha256": "2583dd73843aefe80b8f8b13c780a87142f8d1d1ce14041fcb35cd558ab047d0",
+    "sha256": "7e131f9adb81c5bb463471d0befed01715b382201149bfdc68341f5f35a8c52e",
     "profile": "ios-dark-default",
     "review": "accepted"
    },
-   "sha256": "71c150f9620280fc1009bf2d6b0130ba6082d871f977e5b1021ec9be4528eef0"
+   "sha256": "7e131f9adb81c5bb463471d0befed01715b382201149bfdc68341f5f35a8c52e"
   },
   {
-   "n": 177,
+   "n": 176,
    "chapter": "Safety and conduct",
    "person": "Alex",
    "title": "Conduct record",
@@ -3907,7 +3885,7 @@
    "sha256": "fb963df65f129164539ee0e02147bb9c14bef67a40a75b2e4a7360d337b7b657"
   },
   {
-   "n": 178,
+   "n": 177,
    "chapter": "Safety and conduct",
    "person": "Alex",
    "title": "The late cancellation",
@@ -3929,7 +3907,7 @@
    "sha256": "400e355148a3db1ea786a0efc3a59d41428727f695733adc6190dda5e5975a1b"
   },
   {
-   "n": 179,
+   "n": 178,
    "chapter": "Safety and conduct",
    "person": "Alex",
    "title": "Challenge",
@@ -3951,7 +3929,7 @@
    "sha256": "a17157b7312ab486b707efd1d8f7d9c69cef162f51454289a42abb7a109b1f4f"
   },
   {
-   "n": 180,
+   "n": 179,
    "chapter": "Safety and conduct",
    "person": "Alex",
    "title": "Challenge saved",
@@ -3973,7 +3951,7 @@
    "sha256": "8446f6d0801c50fcce6ac823da8258ef9acf96b3677e4410a3f10aeb0db9f6ff"
   },
   {
-   "n": 181,
+   "n": 180,
    "chapter": "Safety and conduct",
    "person": "Alex",
    "title": "Under review",
@@ -3995,29 +3973,29 @@
    "sha256": "2b9f1ecf63bdbc856ecc24c03c64a13b6a116734314cf54fe6f6de160e4f828c"
   },
   {
-   "n": 182,
+   "n": 181,
    "chapter": "Safety and conduct",
    "person": "Ben",
    "title": "A separate no-show report",
-   "file": "img/captures/0c8aea929/nov10-faa-conduct-ben-case-83df6e3c6305.webp",
+   "file": "img/captures/0c8aea929/nov10-faa-conduct-ben-case-1a97498118d6.webp",
    "source": "nov10-faa-conduct-ben-case.png",
    "status": "reviewed-native-capture",
    "capture": {
-    "file": "img/captures/0c8aea929/nov10-faa-conduct-ben-case-83df6e3c6305.webp",
+    "file": "img/captures/0c8aea929/nov10-faa-conduct-ben-case-1a97498118d6.webp",
     "sourceHead": "0c8aea92908f879481168ac06c58627773278dd0",
     "stage": "conduct-ben-case",
     "actor": "Ben",
-    "capturedAt": "2026-11-16T02:18:00.215Z",
+    "capturedAt": "2026-11-16T03:51:25.481Z",
     "evidenceLevel": "ui-read-after-server-transition",
-    "originalSha256": "83df6e3c63053204e17a6ea047c8995352297c5156c1c9aefd426cc7c41da8c8",
-    "sha256": "3e8b2724cb1f830087f01690599fa26117e1e803c5dff492e5a34def182cb732",
+    "originalSha256": "1a97498118d69e5de66fee0f5e7cbf6729e771033658ada12a8339942c81fb6f",
+    "sha256": "b459cd028c6467e0dcdba09e732375db5240458571f9fd143d7750c283ce4389",
     "profile": "ios-dark-default",
     "review": "accepted"
    },
-   "sha256": "3e8b2724cb1f830087f01690599fa26117e1e803c5dff492e5a34def182cb732"
+   "sha256": "b459cd028c6467e0dcdba09e732375db5240458571f9fd143d7750c283ce4389"
   },
   {
-   "n": 183,
+   "n": 182,
    "chapter": "Notifications",
    "person": "Ben",
    "title": "Inbox",
@@ -4039,7 +4017,7 @@
    "sha256": "530596ca35ef262e778c8b05a4b29e7817b9f121e3c641996805fd6ee4afc9a0"
   },
   {
-   "n": 184,
+   "n": 183,
    "chapter": "Get a rotating doubles match",
    "person": "Alex",
    "title": "Result preferences",
@@ -4061,7 +4039,7 @@
    "sha256": "ec026ef479ab92b4e08c5851272201fd43a96aad3e45102f7c0555376e4571cd"
   },
   {
-   "n": 185,
+   "n": 184,
    "chapter": "Get a rotating doubles match",
    "person": "Alex",
    "title": "The rotating plan",
@@ -4083,7 +4061,7 @@
    "sha256": "944f9f2a19baa60c7841abea2f0ea8c3f51c17e306fdfd92fc7d382c0c696ff5"
   },
   {
-   "n": 186,
+   "n": 185,
    "chapter": "Get a rotating doubles match",
    "person": "Alex",
    "title": "Every partnership",
@@ -4105,7 +4083,7 @@
    "sha256": "5765c6e32de02f9e307723f1d99ed4061240fbfbc074b5dc98617ccef2fdf37d"
   },
   {
-   "n": 187,
+   "n": 186,
    "chapter": "Start a doubles match at the courts",
    "person": "Alex",
    "title": "What changes for fixed teams",
@@ -4127,7 +4105,7 @@
    "sha256": "3b8bac906b00454301cb9be4da6c46dedf60f1305ff72fb17553cbb5eca62c18"
   },
   {
-   "n": 188,
+   "n": 187,
    "chapter": "Report, correct and confirm doubles scores",
    "person": "Alex",
    "title": "The first rotating game",
@@ -4149,7 +4127,7 @@
    "sha256": "fa1ea013c7fe3efe0c2800c61b02f5f0a84fb011ecbe3adfcd9f3e2e70d1a956"
   },
   {
-   "n": 189,
+   "n": 188,
    "chapter": "Report, correct and confirm doubles scores",
    "person": "Alex",
    "title": "Changing partners across games",
@@ -4171,7 +4149,7 @@
    "sha256": "e8a234e5cab6aaf7ac3979c90553330aeb581f90b1c02dd38a281cca52594bd8"
   },
   {
-   "n": 190,
+   "n": 189,
    "chapter": "Report, correct and confirm doubles scores",
    "person": "Ben",
    "title": "An opposing player reviews",
@@ -4193,7 +4171,7 @@
    "sha256": "c9d8e3a538b85b57186dc2c7516bc60dee9cafec24202e6b1824353e8e85bf0d"
   },
   {
-   "n": 191,
+   "n": 190,
    "chapter": "Report, correct and confirm doubles scores",
    "person": "Ben",
    "title": "Ben’s answer is saved",
@@ -4215,7 +4193,7 @@
    "sha256": "706980a38af2e6b52a40b0405015ee30ab60fe344f528807206c9fb2d699f84b"
   },
   {
-   "n": 192,
+   "n": 191,
    "chapter": "Report, correct and confirm doubles scores",
    "person": "Alex",
    "title": "The app-generated result card",
@@ -4237,7 +4215,7 @@
    "sha256": "9890fcea60e1af936b7ddc95b9a7b6f59f8fca8c776c7d022224428dfffc3d48"
   },
   {
-   "n": 193,
+   "n": 192,
    "chapter": "Build a regular doubles partnership",
    "person": "Alex",
    "title": "Fixed partners",
@@ -4259,7 +4237,7 @@
    "sha256": "6f4e25e868a526929a4a6a3889dd07238c49ae7e0e0dbb0a8e729776bfea33f1"
   },
   {
-   "n": 194,
+   "n": 193,
    "chapter": "Choose useful times and check the court",
    "person": "Alex",
    "title": "Activity at the saved venue",
@@ -4281,7 +4259,7 @@
    "sha256": "3d4c1c84f6bafbc7a3446ae73710493d6199a9ed3516c1e57f3ae690f1952830"
   },
   {
-   "n": 195,
+   "n": 194,
    "chapter": "Choose useful times and check the court",
    "person": "Alex",
    "title": "Reopen access information",
@@ -4303,7 +4281,7 @@
    "sha256": "1126c0f928809b09d595f6e4461c1b1ac29e16c26bdfcc7ba3fe854b74487222"
   },
   {
-   "n": 196,
+   "n": 195,
    "chapter": "Cancel, pause and report an unplayed match",
    "person": "Alex",
    "title": "Read the cancellation consequence",
@@ -4325,7 +4303,7 @@
    "sha256": "1af45857a8e23a2fb031f5b98137c0e30ea48b22f1e5026dbd6c4a50d8914b59"
   },
   {
-   "n": 197,
+   "n": 196,
    "chapter": "Cancel, pause and report an unplayed match",
    "person": "Alex",
    "title": "Check a missing-player report",
@@ -4347,7 +4325,7 @@
    "sha256": "f53776cfb57fa5f9007678844c84cddcf965965359e7f4c8b5d457ee07a36a3e"
   },
   {
-   "n": 198,
+   "n": 197,
    "chapter": "Arrange a team challenge",
    "person": "Alex",
    "title": "Who is still waiting?",
@@ -4369,7 +4347,7 @@
    "sha256": "f0102c7985041451af3ccf291fe802d5b3bd206eeff78347e5d4c25407713a6d"
   },
   {
-   "n": 199,
+   "n": 198,
    "chapter": "Arrange a team challenge",
    "person": "Alex",
    "title": "Everyone accepts; time is still needed",
@@ -4391,7 +4369,7 @@
    "sha256": "e4291b15d8d90564e37ed3b9f6105a482b564944457b9cd5610b688580785c23"
   },
   {
-   "n": 200,
+   "n": 199,
    "chapter": "Arrange a team challenge",
    "person": "Alex",
    "title": "The challenge becomes a match",
@@ -4413,7 +4391,7 @@
    "sha256": "ba361c8a4aff1f49889a86675b5d969acb742fd714be1883b22104e02b613b8f"
   },
   {
-   "n": 201,
+   "n": 200,
    "chapter": "Finish an eight-week doubles season",
    "person": "Alex",
    "title": "Expand a Team doubles result",
@@ -4435,7 +4413,7 @@
    "sha256": "28bb45aff2bd9d84eaf044fedf39078a11dfd84274f2b036119304684411ae0c"
   },
   {
-   "n": 202,
+   "n": 201,
    "chapter": "Finish an eight-week doubles season",
    "person": "Alex",
    "title": "Fixed-partnership final standings",
@@ -4457,7 +4435,7 @@
    "sha256": "c294ace6c1b6351655af33844aaf6ac2ed82592873a0d9a4701767942aa505c3"
   },
   {
-   "n": 203,
+   "n": 202,
    "chapter": "Finish an eight-week doubles season",
    "person": "Alex",
    "title": "Alex’s season recap",
@@ -4479,73 +4457,73 @@
    "sha256": "381379cbdeca14444ffe748a039c9ccb65fafdf9a806b92670fc233b9c9fe2ea"
   },
   {
-   "n": 204,
+   "n": 203,
    "chapter": "Edit usual times",
    "person": "Alex",
    "title": "Start with saved times",
-   "file": "img/captures/0c8aea929/nov10-times-wip-before-e3d3a2b43af6.webp",
+   "file": "img/captures/0c8aea929/nov10-times-wip-before-45c832fba138.webp",
    "source": "nov10-times-wip-before.png",
    "status": "reviewed-native-capture",
    "capture": {
-    "file": "img/captures/0c8aea929/nov10-times-wip-before-e3d3a2b43af6.webp",
+    "file": "img/captures/0c8aea929/nov10-times-wip-before-45c832fba138.webp",
     "sourceHead": "0c8aea92908f879481168ac06c58627773278dd0",
     "stage": "times",
     "actor": "Alex",
-    "capturedAt": "2026-11-16T02:00:02.218Z",
+    "capturedAt": "2026-11-16T03:30:29.130Z",
     "evidenceLevel": "ui-transition",
-    "originalSha256": "e3d3a2b43af6b1c10f4e9fc8b9a1ff851f8658800e7653b89e1cade84ce76902",
-    "sha256": "153ba0ebe1d1d73f6404c039af0b930f578b684b719569298a0add60d6e9e3ea",
+    "originalSha256": "45c832fba1380f6595122fa78ce8ad06647a6024bab36d8210ca4536dbc41702",
+    "sha256": "c6cb0d913cff29053412956d5ae859fcc3c6df202119c771be7ffc98a4732131",
     "profile": "ios-dark-default",
     "review": "accepted"
    },
-   "sha256": "153ba0ebe1d1d73f6404c039af0b930f578b684b719569298a0add60d6e9e3ea"
+   "sha256": "c6cb0d913cff29053412956d5ae859fcc3c6df202119c771be7ffc98a4732131"
+  },
+  {
+   "n": 204,
+   "chapter": "Edit usual times",
+   "person": "Alex",
+   "title": "Choose Wednesday hours",
+   "file": "img/captures/0c8aea929/nov10-times-wip-picked-f5ccad6684c2.webp",
+   "source": "nov10-times-wip-picked.png",
+   "status": "reviewed-native-capture",
+   "capture": {
+    "file": "img/captures/0c8aea929/nov10-times-wip-picked-f5ccad6684c2.webp",
+    "sourceHead": "0c8aea92908f879481168ac06c58627773278dd0",
+    "stage": "times",
+    "actor": "Alex",
+    "capturedAt": "2026-11-16T03:30:29.130Z",
+    "evidenceLevel": "ui-transition",
+    "originalSha256": "f5ccad6684c20479c99ed92f31f7e0e7479a749be839426d4568399bea50695a",
+    "sha256": "d6dd472aca86a23927954c79c1fe2c3ceab36cc2f157756d4802a2b21f134fde",
+    "profile": "ios-dark-default",
+    "review": "accepted"
+   },
+   "sha256": "d6dd472aca86a23927954c79c1fe2c3ceab36cc2f157756d4802a2b21f134fde"
   },
   {
    "n": 205,
    "chapter": "Edit usual times",
    "person": "Alex",
-   "title": "Choose Wednesday hours",
-   "file": "img/captures/0c8aea929/nov10-times-wip-picked-86e1a5552d76.webp",
-   "source": "nov10-times-wip-picked.png",
-   "status": "reviewed-native-capture",
-   "capture": {
-    "file": "img/captures/0c8aea929/nov10-times-wip-picked-86e1a5552d76.webp",
-    "sourceHead": "0c8aea92908f879481168ac06c58627773278dd0",
-    "stage": "times",
-    "actor": "Alex",
-    "capturedAt": "2026-11-16T02:00:02.218Z",
-    "evidenceLevel": "ui-transition",
-    "originalSha256": "86e1a5552d76f6431eb633bfd241f4c5f44e322ad8e78d33c0fd180edf5c07f7",
-    "sha256": "bfb829d199b952c1818b0fb3a7e733ba3a778f81e2426f539ee7519f7bfad7d3",
-    "profile": "ios-dark-default",
-    "review": "accepted"
-   },
-   "sha256": "bfb829d199b952c1818b0fb3a7e733ba3a778f81e2426f539ee7519f7bfad7d3"
-  },
-  {
-   "n": 206,
-   "chapter": "Edit usual times",
-   "person": "Alex",
    "title": "Wednesday is saved",
-   "file": "img/captures/4a119befc/nov10-times-wip-saved-25685455b020.webp",
+   "file": "img/captures/0c8aea929/nov10-times-wip-saved-e5ed0eedc378.webp",
    "source": "nov10-times-wip-saved.png",
    "status": "reviewed-native-capture",
    "capture": {
-    "file": "img/captures/4a119befc/nov10-times-wip-saved-25685455b020.webp",
-    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
-    "stage": "times-saved",
+    "file": "img/captures/0c8aea929/nov10-times-wip-saved-e5ed0eedc378.webp",
+    "sourceHead": "0c8aea92908f879481168ac06c58627773278dd0",
+    "stage": "times",
     "actor": "Alex",
-    "capturedAt": "2026-11-14T19:45:33.712Z",
-    "evidenceLevel": "ui-read-after-native-availability-save",
-    "originalSha256": "25685455b0207ca679e644477236a45df52505e46161da62eb08b2ee73b067bb",
-    "sha256": "a64265a89a7227bb685b91f736307b339444513591357e380cba4cb98b2caa50",
+    "capturedAt": "2026-11-16T03:30:29.130Z",
+    "evidenceLevel": "ui-transition",
+    "originalSha256": "e5ed0eedc378e628d684dd9f766a6b22d85010308b617f955dc5ab99fdf10453",
+    "sha256": "8a6976f077de8591025aa950f00dcf58b4e932cc0008152d275f0f91bf00903a",
     "profile": "ios-dark-default",
     "review": "accepted"
    },
-   "sha256": "a64265a89a7227bb685b91f736307b339444513591357e380cba4cb98b2caa50"
+   "sha256": "8a6976f077de8591025aa950f00dcf58b4e932cc0008152d275f0f91bf00903a"
   },
   {
-   "n": 207,
+   "n": 206,
    "chapter": "Edit usual times",
    "person": "Alex",
    "title": "Check the following week",
@@ -4567,7 +4545,7 @@
    "sha256": "b4532372259ba6e8ff89115a7606fbce340f3012d4afaa00e3e98024758084a4"
   },
   {
-   "n": 208,
+   "n": 207,
    "chapter": "Disagree with a score",
    "person": "Ben",
    "title": "Send a different score",
@@ -4589,7 +4567,7 @@
    "sha256": "cd9ed3cdee104d20ea728338adb7397c5810126a849d82a90a2c5bc4f80fb0a2"
   },
   {
-   "n": 209,
+   "n": 208,
    "chapter": "Disagree with a score",
    "person": "Ben",
    "title": "Proposal sent",
@@ -4611,7 +4589,7 @@
    "sha256": "5eb30ac2ace2be0f837138e9974cef05d50751f38b2be86ff411ab3c4e3d2d7c"
   },
   {
-   "n": 210,
+   "n": 209,
    "chapter": "Disagree with a score",
    "person": "Alex",
    "title": "Alex reviews the proposal",
@@ -4633,7 +4611,7 @@
    "sha256": "5f99c3ac5b6a86b914a2831f43f67f720b7ac3f1d6489944f12083b8b7b6ca84"
   },
   {
-   "n": 211,
+   "n": 210,
    "chapter": "Disagree with a score",
    "person": "Alex",
    "title": "The agreed result",
@@ -4655,7 +4633,7 @@
    "sha256": "c24fe712e1536b1195cfcf86e3d73bed3f00bbd1b3f879b98da1b0a40059365c"
   },
   {
-   "n": 212,
+   "n": 211,
    "chapter": "Notifications after joining",
    "person": "Ben",
    "title": "Hear about match offers?",
@@ -4677,7 +4655,7 @@
    "sha256": "6540ab42a0b0415f90c60937f0f577a35b7eb01609e93600f947d0da7429cdb4"
   },
   {
-   "n": 213,
+   "n": 212,
    "chapter": "Notifications after joining",
    "person": "Ben",
    "title": "After Not now",
@@ -4699,7 +4677,7 @@
    "sha256": "dd79f117fe22b4a1555a6113ee4344e8ff1773fa307cdc4417ae739596f432df"
   },
   {
-   "n": 214,
+   "n": 213,
    "chapter": "A partner cancels a team match",
    "person": "Ben",
    "title": "A partner cancels",
@@ -4721,7 +4699,7 @@
    "sha256": "1415da3af637338b0410f252cb83b4c7fb29996cae9ede79632051384f1c15fa"
   },
   {
-   "n": 215,
+   "n": 214,
    "chapter": "When a venue has little recent activity",
    "person": "Alex",
    "title": "Not enough recent data",
@@ -4743,7 +4721,7 @@
    "sha256": "3238d6e7069a0a14884527a31d51bde9b26d89abb77f123b8611d579d098b710"
   },
   {
-   "n": 216,
+   "n": 215,
    "chapter": "A booked match on League home",
    "person": "Alex",
    "title": "Upcoming match",
@@ -4765,7 +4743,7 @@
    "sha256": "51b49668075335649d9e742be59f0d8fb61922f47944be3dcc195bdebfd5b78d"
   },
   {
-   "n": 217,
+   "n": 216,
    "chapter": "A booked match on League home",
    "person": "Alex",
    "title": "Unsent message",
@@ -4787,49 +4765,49 @@
    "sha256": "022af8fe17d11028d51e8a024fbfd775fe33e43019ef06e2265a9b505e96f61a"
   },
   {
-   "n": 218,
+   "n": 217,
    "chapter": "Request a final-score correction",
    "person": "Alex",
    "title": "Describe the correction",
-   "file": "img/captures/4a119befc/nov10-final-correction-draft-840cc556dbfb.webp",
+   "file": "img/captures/0c8aea929/nov10-final-correction-draft-1d4ab89e62f0.webp",
    "source": "nov10-final-correction-draft.png",
    "status": "reviewed-native-capture",
    "capture": {
-    "file": "img/captures/4a119befc/nov10-final-correction-draft-840cc556dbfb.webp",
-    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "file": "img/captures/0c8aea929/nov10-final-correction-draft-1d4ab89e62f0.webp",
+    "sourceHead": "0c8aea92908f879481168ac06c58627773278dd0",
     "stage": "final-problem",
     "actor": "Alex",
-    "capturedAt": "2026-11-14T16:33:16.523Z",
+    "capturedAt": "2026-11-16T04:10:56.234Z",
     "evidenceLevel": "ui-transition",
-    "originalSha256": "840cc556dbfba16577e1a10baea9319d1aaef56a143492b5eec094c6c79e83c0",
-    "sha256": "b3c4727070554542bc563d13bb50f33e6ff84cab2f60e9f9918103d937445f45",
+    "originalSha256": "1d4ab89e62f0787b759bd1b385980f8066c0a18dcc9896a75bcbf97b6364d1b0",
+    "sha256": "c40e6e2414d28ea958fc5783b9dc74335cee5251742d8096598d6b03f18c2da5",
     "profile": "ios-dark-default",
     "review": "accepted"
    },
-   "sha256": "b3c4727070554542bc563d13bb50f33e6ff84cab2f60e9f9918103d937445f45"
+   "sha256": "c40e6e2414d28ea958fc5783b9dc74335cee5251742d8096598d6b03f18c2da5"
   },
   {
-   "n": 219,
+   "n": 218,
    "chapter": "Request a final-score correction",
    "person": "Alex",
    "title": "A request is with Circuit",
-   "file": "img/captures/4a119befc/nov10-faa-final-correction-pending-45ecf4f20986.webp",
+   "file": "img/captures/0c8aea929/nov10-faa-final-correction-pending-2c4a5e64d8e4.webp",
    "source": "nov10-faa-final-correction-pending.png",
    "status": "reviewed-native-capture",
    "capture": {
-    "file": "img/captures/4a119befc/nov10-faa-final-correction-pending-45ecf4f20986.webp",
-    "sourceHead": "4a119befc282f3c2f2ea97ff9ad4a57aa6a5fe2c",
+    "file": "img/captures/0c8aea929/nov10-faa-final-correction-pending-2c4a5e64d8e4.webp",
+    "sourceHead": "0c8aea92908f879481168ac06c58627773278dd0",
     "stage": "final-problem",
     "actor": "Alex",
-    "capturedAt": "2026-11-14T16:33:16.523Z",
+    "capturedAt": "2026-11-16T04:10:56.234Z",
     "evidenceLevel": "ui-transition",
-    "originalSha256": "45ecf4f209860f80d90391fa14a8dd5f90243c73fbcd06152ce567453bb1ecd3",
-    "sha256": "dc51917251f0a8ffa63e107f42cf2237247083191985833dce0f284b39b8a605",
+    "originalSha256": "2c4a5e64d8e458a2ca41c0ba2a93d101e5b4b5b8c65892250bf491bc8297398c",
+    "sha256": "8344c5511ae4cc6be80e8e1fafa674cceff271b642da160ed3065914a53ca883",
     "profile": "ios-dark-default",
     "review": "accepted"
    },
-   "sha256": "dc51917251f0a8ffa63e107f42cf2237247083191985833dce0f284b39b8a605"
+   "sha256": "8344c5511ae4cc6be80e8e1fafa674cceff271b642da160ed3065914a53ca883"
   }
  ],
- "freshReplacements": 219
+ "freshReplacements": 218
 }
